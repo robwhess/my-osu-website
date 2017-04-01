@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import HomePage from './components/HomePage';
 import './styles/App.css';
 
 var links = [
@@ -32,7 +33,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Navbar links={links} />
+        <div>
+          <Navbar links={links} />
+          <Switch>
+            <Route path="/" component={HomePage} />
+          </Switch>
+        </div>
       </Router>
     );
   }

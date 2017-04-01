@@ -31,7 +31,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav>
+      <nav className={this.props.subnav ? "subnav" : ""}>
         <ul className="navbar">
           {this.props.links.map((link, i) => {
             var { menu, isHeading, isLink, isRight } = link;
