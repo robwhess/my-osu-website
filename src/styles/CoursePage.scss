@@ -1,0 +1,50 @@
+.content h1,
+.content h2,
+.content h3 {
+  margin: 0;
+}
+
+.teaching-term,
+.info-box,
+.info-table,
+.calendar,
+.assignments {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.teaching-term {
+  h2 {
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    margin: 0 0 5px 0;
+  }
+}
+
+.calendar {
+  padding-bottom: 0;
+}
+
+.calendar .week {
+  margin: 25px 10px;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.calendar .week h3,
+.calendar .week h4 {
+  margin: 5px 0 0 0;
+  color: #333;
+}
+
+.calendar .week ul {
+  margin: 0;
+  padding-left: 30px;
+}

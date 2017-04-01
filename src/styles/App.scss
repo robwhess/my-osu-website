@@ -1,0 +1,44 @@
+th, td {
+  padding: 4px 8px;
+  vertical-align: baseline;
+}
+
+th, td.category {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #666;
+}
+
+td {
+  &.category {
+    text-align: right;
+  }
+  ul {
+    margin: 5px 0;
+    padding-left: 30px;
+  }
+}
+
+.info-table {
+  margin-left: -5px;  /* to offset padding in td */
+  td {
+    vertical-align: middle;
+  }
+}
+
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.alternating-table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.bottom-align {
+  vertical-align: bottom;
+}
+
+.strike {
+  text-decoration: line-through;
+}

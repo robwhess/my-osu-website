@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import { courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
+import CoursePage from './components/CoursePage';
+import NoMatchPage from './components/NoMatchPage';
 import './styles/App.css';
 
 var navLinks = [
@@ -18,8 +21,16 @@ var navLinks = [
     isLink: true,
     menu: [
       {
-        path: '/teaching/cs162-w17/',
-        title: 'CS 162'
+        path: '/teaching/cs290-sp17/',
+        title: 'CS 290'
+      },
+      {
+        path: '/teaching/cs391-sp17/',
+        title: 'CS 391'
+      },
+      {
+        path: '/teaching/cs496-sp17/',
+        title: 'CS 496'
       }
     ]
   },
@@ -38,7 +49,17 @@ class App extends Component {
         <div>
           <Navbar links={navLinks} />
           <Switch>
-            <Route path={generateSitePath('/')} exact={true} component={HomePage} />
+            <Route exact path={generateSitePath('/')} component={HomePage} />
+            <Route exact path={generateSitePath('/teaching')} component={NoMatchPage} />
+            <Route exact path={generateSitePath('/teaching') + '/:course'} children={({ match }) => {
+              var data = courseData[match.params.course];
+              if (data) {
+                return <CoursePage courseData={data} />;
+              } else {
+                return <NoMatchPage />;
+              }
+            }} />
+          <Route component={NoMatchPage} />
           </Switch>
         </div>
       </Router>
