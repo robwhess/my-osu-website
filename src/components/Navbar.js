@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
+import { generateSitePath } from '../lib/SitePath';
 import '../styles/Navbar.css';
 
 class Navbar extends Component {
@@ -9,7 +11,7 @@ class Navbar extends Component {
     if (isExternal) {
       return <a href={path} target="_blank">{title}</a>;
     } else {
-      return <Link to={path}>{title}</Link>;
+      return <Link to={generateSitePath(path)}>{title}</Link>;
     }
   }
 
@@ -19,7 +21,7 @@ class Navbar extends Component {
         <ul className="navmenu-list">
           {menu.map((menuItem, i) => (
             <li key={i} className="navmenu-item">
-              <Link to={menuItem.path}>{menuItem.title}</Link>
+              <Link to={generateSitePath(menuItem.path)}>{menuItem.title}</Link>
             </li>
           ))}
         </ul>

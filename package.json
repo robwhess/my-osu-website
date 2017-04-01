@@ -22,6 +22,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && rsync -purltDvzK build/ nome.eecs.oregonstate.edu:public_html/react_test/"
   }
 }

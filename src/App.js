@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import './styles/App.css';
 
-var links = [
+var navLinks = [
   {
     path: '/',
     title: 'Rob Hess',
@@ -34,9 +36,9 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Navbar links={links} />
+          <Navbar links={navLinks} />
           <Switch>
-            <Route path="/" component={HomePage} />
+            <Route path={generateSitePath('/')} exact={true} component={HomePage} />
           </Switch>
         </div>
       </Router>
