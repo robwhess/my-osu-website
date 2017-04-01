@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 
 import PageContent from './PageContent';
 import '../styles/CoursePage.css';
@@ -27,6 +28,7 @@ class CoursePage extends Component {
     var { number, title, term, essentials, calendar, assignments } = this.props.courseData;
     return (
       <PageContent>
+        <Helmet title={number} />
         <h1>{number} &ndash; {title}</h1>
         <h3>{term}</h3>
 

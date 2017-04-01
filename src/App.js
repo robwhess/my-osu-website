@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
 import { courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
@@ -47,6 +48,7 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
           <Navbar links={navLinks} />
           <Switch>
             <Route exact path={generateSitePath('/')} component={HomePage} />
