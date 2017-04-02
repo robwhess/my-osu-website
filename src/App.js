@@ -7,6 +7,7 @@ import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import TeachingPage from './components/TeachingPage';
+import CommunityPage from './components/CommunityPage';
 import CoursePage from './components/CoursePage';
 import NoMatchPage from './components/NoMatchPage';
 import './styles/App.css';
@@ -54,6 +55,7 @@ class App extends Component {
           <Switch>
             <Route exact path={generateSitePath('/')} component={HomePage} />
             <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
+            <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
             <Route exact path={generateSitePath('/teaching') + '/:course'} children={({ match }) => {
               var data = courseData[match.params.course];
               if (data) {

@@ -27,7 +27,7 @@ class CoursePage extends Component {
   render() {
     var { number, title, term, essentials, calendar, assignments } = this.props.courseData;
     return (
-      <PageContent>
+      <PageContent contentClassName="course-page">
         <Helmet title={number} />
         <h1>{number} &ndash; {title}</h1>
         <h3>{term}</h3>

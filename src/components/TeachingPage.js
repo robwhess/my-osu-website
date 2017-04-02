@@ -9,7 +9,7 @@ import '../styles/TeachingPage.css';
 class TeachingPage extends Component {
   render() {
     return (
-      <PageContent>
+      <PageContent contentClassName="teaching-page">
         {coursesByTerm.map((term, i) => (
           <div className="teaching-term" key={i}>
             <h2>{term.term}</h2>
