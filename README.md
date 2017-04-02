@@ -42,13 +42,13 @@ This site is designed to be deployed to the ENGR webspace at Oregon State Univer
 2. Next, you'll have to edit the `RewriteRule` in `public/.htaccess` to mirror the change you made in `package.json`:
 
     ```
-      RewriteRule ^ /~YOUR_ENGR_USERNAME/index.html [QSA,L]
+    RewriteRule ^ /~YOUR_ENGR_USERNAME/index.html [QSA,L]
     ```
 
     or
 
     ```
-      RewriteRule ^ /~YOUR_ENGR_USERNAME/some/subdirectory/index.html [QSA,L]
+    RewriteRule ^ /~YOUR_ENGR_USERNAME/some/subdirectory/index.html [QSA,L]
     ```
 
     This is needed so that the Apache server that runs the ENGR webspace allows this site to handle its own routing.  In particular, when the server sees a URL related to this site that it doesn't recognize, the `RewriteRule` above tells it to just respond with this site's `index.html`, which contains the entire site and will handle routing the specified URL.
