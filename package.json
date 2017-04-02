@@ -7,8 +7,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-helmet": "^5.0.2",
-    "react-router-dom": "^4.0.0-beta.8",
-    "react-snapshot": "^1.0.4"
+    "react-router-dom": "^4.0.0-beta.8"
   },
   "devDependencies": {
     "node-sass": "^4.5.2",
@@ -20,7 +19,7 @@
     "watch-css": "npm run build-css && node-sass src/styles/ -o src/styles/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-css && react-scripts build && react-snapshot",
+    "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && rsync -purltDvzK build/ nome.eecs.oregonstate.edu:public_html/react_test/"
