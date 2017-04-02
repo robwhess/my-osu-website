@@ -74,8 +74,8 @@ class App extends Component {
 
           <footer>
             <img src={reactLogo} className="react-logo" alt="React logo" />
-            This site is powered by <a href="https://facebook.github.io/react/" target="_blank">React</a> and <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create React App</a>.
-            You can see the source code <a href="https://github.com/robwhess/my-osu-website" target="_blank">on GitHub <FontAwesome name="github" /></a>.
+            This site is powered by <a href="https://facebook.github.io/react/" target="_blank">React</a>.  It was bootstrapped with <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create React App</a>.
+            The source code is <a href="https://github.com/robwhess/my-osu-website" target="_blank">on GitHub <FontAwesome name="github" /></a>.
           </footer>
 
         </div>
