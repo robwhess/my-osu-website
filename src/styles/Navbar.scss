@@ -65,7 +65,7 @@
   font-size: 18px;
   list-style-type: none;
   padding: 0;
-  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .navmenu-item a {
@@ -75,6 +75,7 @@
 .navmenu:hover {
   background-color: #ccc;
   color: initial;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .navmenu:hover .navmenu-list,

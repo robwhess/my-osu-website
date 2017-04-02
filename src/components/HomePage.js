@@ -1,10 +1,29 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
+import { courseData, coursesByTerm } from '../CourseData';
+import { generateSitePath } from '../lib/SitePath';
 import PageContent from './PageContent';
 import headshot from '../images/rob.jpg';
 import '../styles/HomePage.css';
 
 class HomePage extends Component {
+
+  generateCurrentCoursesComponent() {
+    var currentTerm = coursesByTerm[0];
+    return (
+      <section className="teaching">
+        <h2>Teaching</h2>
+        <p>These are the classes I'm teaching this term ({currentTerm.term}):</p>
+        <ul>
+          {currentTerm.courses.map((course, i) => (
+            <li key={i}><Link to={generateSitePath('/teaching/' + course)}>{courseData[course].number} &ndash; {courseData[course].title}</Link></li>
+          ))}
+        </ul>
+      </section>
+    );
+  }
+
   render() {
     return (
       <PageContent>
@@ -21,13 +40,7 @@ class HomePage extends Component {
           </div>
         </section>
 
-        <section className="teaching">
-          <h2>Teaching</h2>
-          These are the classes I'm teaching this term (Winter 2017):
-          <ul>
-            <li><a href="teaching/cs162-w17/">CS 162 &ndash; Intro to CS II</a></li>
-          </ul>
-        </section>
+        {this.generateCurrentCoursesComponent()}
 
         <section className="about">
           <h2>About Me</h2>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
-import { courseData } from './CourseData';
+import { courseData, coursesByTerm } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
@@ -20,21 +20,7 @@ var navLinks = [
   {
     path: '/teaching',
     title: 'Teaching',
-    isLink: true,
-    menu: [
-      {
-        path: '/teaching/cs290-sp17/',
-        title: 'CS 290'
-      },
-      {
-        path: '/teaching/cs391-sp17/',
-        title: 'CS 391'
-      },
-      {
-        path: '/teaching/cs496-sp17/',
-        title: 'CS 496'
-      }
-    ]
+    isLink: true
   },
   {
     path: 'https://github.com/robwhess',
@@ -45,7 +31,21 @@ var navLinks = [
 ];
 
 class App extends Component {
+
+  generateTeachingNavMenu() {
+    var teachingNavlink = navLinks.find((navLink) => (navLink.title === 'Teaching'));
+    var currentTerm = coursesByTerm[0];
+    teachingNavlink.menu = []
+    currentTerm.courses.forEach((course) => {
+      teachingNavlink.menu.push({
+        path: '/teaching/' + course,
+        title: courseData[course].number
+      });
+    });
+  }
+
   render() {
+    this.generateTeachingNavMenu();
     return (
       <Router>
         <div>
