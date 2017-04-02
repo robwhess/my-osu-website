@@ -2,7 +2,7 @@
   "name": "my-osu-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://web.engr.oregonstate.edu/~hessro/react_test/",
+  "homepage": "http://web.engr.oregonstate.edu/~hessro/",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -22,6 +22,6 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && rsync -purltDvzK build/ nome.eecs.oregonstate.edu:public_html/react_test/"
+    "deploy": "npm run build && rsync -purltDvzK build/ nome.eecs.oregonstate.edu:public_html/"
   }
 }

@@ -1,4 +1,4 @@
 Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ /~hessro/react_test/index.html [QSA,L]
+RewriteRule ^ /~hessro/index.html [QSA,L]
