@@ -8,4 +8,11 @@ var courseData = {
   'cs496-sp17': CS496Sp17
 };
 
-export { courseData };
+var coursesByTerm = [
+  {
+    term: 'Spring 2017',
+    courses: Object.keys(courseData).filter((course) => (/-sp17$/.test(course))).sort()
+  }
+];
+
+export { courseData, coursesByTerm };
