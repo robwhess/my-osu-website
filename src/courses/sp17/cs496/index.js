@@ -1,3 +1,5 @@
+import { generateSitePath } from '../../../lib/SitePath';
+
 var courseDetails = {
   number: 'CS 496',
   title: 'Mobile Software Development',
@@ -31,7 +33,7 @@ var courseDetails = {
 
     {
       title: 'Community',
-      infoHTML: 'Please read <a href="http://web.engr.oregonstate.edu/~hessro/teaching/community.html">this page about establishing a positive classroom community</a>'
+      infoHTML: 'Please read <a href="' + generateSitePath("/teaching/community") + '">this page about establishing a positive classroom community</a>'
     }
   ],
 
