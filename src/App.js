@@ -10,6 +10,7 @@ import TeachingPage from './components/TeachingPage';
 import CommunityPage from './components/CommunityPage';
 import CoursePage from './components/CoursePage';
 import NoMatchPage from './components/NoMatchPage';
+import reactLogo from './images/ReactLogo.svg';
 import './styles/App.css';
 
 var navLinks = [
@@ -50,8 +51,11 @@ class App extends Component {
     return (
       <Router>
         <div>
+
           <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
+
           <Navbar links={navLinks} />
+
           <Switch>
             <Route exact path={generateSitePath('/')} component={HomePage} />
             <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
@@ -64,8 +68,14 @@ class App extends Component {
                 return <NoMatchPage />;
               }
             }} />
-          <Route component={NoMatchPage} />
+            <Route component={NoMatchPage} />
           </Switch>
+
+          <footer>
+            <img src={reactLogo} className="react-logo" alt="React logo" />
+            This site is powered by <a href="https://facebook.github.io/react/">React</a> and <a href="https://github.com/facebookincubator/create-react-app">Create React App</a>.
+          </footer>
+
         </div>
       </Router>
     );
