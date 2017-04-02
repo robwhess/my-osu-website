@@ -29,6 +29,12 @@
   }
 }
 
+@media (max-width: 640px) {
+  .navbar .title {
+    margin-right: 10px;
+  }
+}
+
 .subnav {
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
 }

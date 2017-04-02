@@ -2,3 +2,9 @@
   width: 67%;
   margin: 50px auto;
 }
+
+@media (max-width: 640px) {
+  .content {
+    width: 95%;
+  }
+}
