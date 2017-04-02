@@ -22,13 +22,14 @@ This site is designed to be deployed to the ENGR webspace at Oregon State Univer
     ```
       "homepage": "http://web.engr.oregonstate.edu/~YOUR_ENGR_USERNAME/",
     ```
-  You can also deploy to a subdirectory of your webspace, e.g. for testing:
+
+    You can also deploy to a subdirectory of your webspace, e.g. for testing:
 
     ```
       "homepage": "http://web.engr.oregonstate.edu/~YOUR_ENGR_USERNAME/some/subdirectory/",
     ```
 
-  Note that if you want to deploy to a subdirectory, you'll have to modify `scripts.deploy` in `package.json` as well so that the built code is uploaded to the right place:
+    Note that if you want to deploy to a subdirectory, you'll have to modify `scripts.deploy` in `package.json` as well so that the built code is uploaded to the right place:
 
     ```
       "scripts": {
@@ -44,13 +45,13 @@ This site is designed to be deployed to the ENGR webspace at Oregon State Univer
       RewriteRule ^ /~YOUR_ENGR_USERNAME/index.html [QSA,L]
     ```
 
-  or
+    or
 
     ```
       RewriteRule ^ /~YOUR_ENGR_USERNAME/some/subdirectory/index.html [QSA,L]
     ```
 
-  This is needed so that the Apache server that runs the ENGR webspace allows this site to handle its own routing.  In particular, when the server sees a URL related to this site that it doesn't recognize, the `RewriteRule` above tells it to just respond with this site's `index.html`, which contains the entire site and will handle routing the specified URL.
+    This is needed so that the Apache server that runs the ENGR webspace allows this site to handle its own routing.  In particular, when the server sees a URL related to this site that it doesn't recognize, the `RewriteRule` above tells it to just respond with this site's `index.html`, which contains the entire site and will handle routing the specified URL.
 
 After you've made those changes, you can deploy like this:
 ```
