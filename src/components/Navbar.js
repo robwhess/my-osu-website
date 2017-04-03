@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import FontAwesome from 'react-fontawesome';
 
 import { generateSitePath } from '../lib/SitePath';
 import '../styles/Navbar.css';
 
 class Navbar extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      navbarCollapsed: true
+    };
+  }
 
   generateLinkComponent(link) {
     var { path, title, isExternal } = link;
@@ -31,22 +39,44 @@ class Navbar extends Component {
     }
   }
 
+  toggleNavbarCollapsed() {
+    this.setState({
+      navbarCollapsed: !this.state.navbarCollapsed
+    });
+  }
+
   render() {
+    var headingItems = this.props.links.filter((item) => item.isHeading);
+    var nonHeadingItems = this.props.links.filter((item) => (!item.isHeading));
+
     return (
-      <nav className={this.props.subnav ? "subnav" : ""}>
-        <ul className="navbar">
-          {this.props.links.map((link, i) => {
-            var { menu, isHeading, isLink, isRight } = link;
-            var linkComponent = this.generateLinkComponent(link);
-            var navMenuComponent = this.generateNavMenuComponent(menu);
-            return (
-              <li key={i} className={"navitem" + (isHeading ? " title" : "") + (navMenuComponent ? " navmenu" : "") + (isLink ? " navlink" : "")+ (isRight ? " right" : "")}>
-                {linkComponent}
-                {navMenuComponent}
-              </li>
-            );
-          })}
-        </ul>
+      <nav className={"navbar" + (this.props.subnav ? " subnav" : "")}>
+
+        {headingItems.map((item, i) => (
+          <div className="heading" key={i}>
+            {this.generateLinkComponent(item)}
+          </div>
+        ))}
+
+        <div className="navbar-list-container">
+          <ul className={"navbar-list" + (this.state.navbarCollapsed ? " collapsed" : "")}>
+            {nonHeadingItems.map((item, i) => {
+              var { menu, isLink, isRight } = item;
+              var linkComponent = this.generateLinkComponent(item);
+              var navMenuComponent = this.generateNavMenuComponent(menu);
+              return (
+                <li key={i} className={"navitem" + (navMenuComponent ? " navmenu" : "") + (isLink ? " navlink" : "")+ (isRight ? " right" : "")}>
+                  {linkComponent}
+                  {navMenuComponent}
+                </li>
+              );
+            })}
+          </ul>
+          <div className="collapse-button" onClick={this.toggleNavbarCollapsed.bind(this)}>
+            <FontAwesome name="bars" />
+          </div>
+        </div>
+
       </nav>
     );
   }
