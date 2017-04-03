@@ -11,8 +11,8 @@ var courseDetails = {
       infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)'
     },
     {
-      title: 'TAs',
-      infoHTML: ''
+      title: 'TA',
+      infoHTML: 'Jake Joseph (<a href="mailto:josepjak@oregonstate.edu">josepjak@oregonstate.edu</a>)'
     },
     {
       title: 'Lectures',
@@ -20,7 +20,7 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: TBD (KEC 1109)'
+      infoHTML: 'Rob: M 3:00&ndash;4:00pm, Tu 2:00&ndash;3:00pm (KEC 1109)'
     },
     {
       title: 'Syllabus',

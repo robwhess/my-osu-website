@@ -12,7 +12,7 @@ var courseDetails = {
     },
     {
       title: 'TAs',
-      infoHTML: ''
+      infoHTML: 'Souti Chattopadhyay (<a href="mailto:chattops@oregonstate.edu">chattops@oregonstate.edu</a>)<br>Anusha Dasari (<a href="mailto:dasaria@oregonstate.edu">dasaria@oregonstate.edu</a>)'
     },
     {
       title: 'Lectures',
@@ -20,11 +20,11 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: TBD (KEC 1109)'
+      infoHTML: 'Rob: W 4:00&ndash;5:00pm (KEC 1109)'
     },
     {
       title: 'Syllabus',
-      infoHTML: ''
+      infoHTML: '<a href="https://docs.google.com/document/d/1wRJzcmsf9DU9E3ostg6NQItTefZ_XVwSjS1FFGDSB7Q/edit?usp=sharing">CS 391 Syllabus</a>'
     },
     {
       title: 'Piazza',

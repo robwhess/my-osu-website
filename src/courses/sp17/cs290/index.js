@@ -12,7 +12,7 @@ var courseDetails = {
     },
     {
       title: 'TAs',
-      infoHTML: ''
+      infoHTML: 'Purbasha Chatterjee (<a href="mailto:chattepu@oregonstate.edu">chattepu@oregonstate.edu</a>)<br>Sudhanshu Shobhakant Pathak (<a href="mailto:pathaks@oregonstate.edu">pathaks@oregonstate.edu</a>)<br>Naimisha Reddy Saireddy (<a href="mailto:saireddn@oregonstate.edu">saireddn@oregonstate.edu</a>)<br>Meghamala Sinha (<a href="mailto:sinham@oregonstate.edu">sinham@oregonstate.edu</a>)'
     },
     {
       title: 'Lectures',
@@ -20,11 +20,11 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: TBD (KEC 1109)'
+      infoHTML: 'Rob: W 3:00&ndash;4:00pm, Th 2:00&ndash;3:00pm (KEC 1109)'
     },
     {
       title: 'Syllabus',
-      infoHTML: ''
+      infoHTML: '<a href="https://docs.google.com/document/d/1Rwiv-QjO3pDNKtdqAICA8s5immQbDpjrQ3SHzSbE3u0/edit?usp=sharing">CS 290 Syllabus</a>'
     },
     {
       title: 'Piazza',
@@ -44,9 +44,9 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Course Intro',
-            'Git and GitHub',
-            'HTML'
+            'Course Intro &ndash; <a href="https://docs.google.com/document/d/1PHwPcCxBNeLSV9wbgd_yRrcCKOn7AAmzjzIq1BEQUPI/edit?usp=sharing">notes</a>',
+            'Git and GitHub &ndash; <a href="https://docs.google.com/document/d/1ya0X-WIdBzNKWZZ-gQFaW40IGWV23ldQX8V3vLKD5to/edit?usp=sharing">notes</a>',
+            'HTML &ndash; <a href="https://docs.google.com/document/d/1-dCjGCQu_LhQ96sXMF5zqWuGbpxqiz2fmu2UY_8FUUM/edit?usp=sharing">notes</a>'
           ]
         },
         {
