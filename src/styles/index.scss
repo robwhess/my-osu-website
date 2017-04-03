@@ -31,3 +31,9 @@ a {
     text-decoration: underline;
   }
 }
+
+@media (max-width: 640px) {
+  body {
+    font-weight: 400;
+  }
+}
