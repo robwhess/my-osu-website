@@ -44,3 +44,18 @@
   margin-right: 30px;
   border-radius: 10px;
 }
+
+@media (max-width: 640px) {
+  .essentials {
+    flex-direction: column;
+    width: 100%;
+    .headshot {
+      margin: 0;
+    }
+    .digits {
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+}
