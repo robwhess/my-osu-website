@@ -64,9 +64,12 @@ var courseDetails = {
     preamble: "<p> Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a <code>README.md</code> file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.</p>",
     assignments: [
       {
-        link : '',
+        link : 'https://classroom.github.com/assignment-invitations/31b9a7d362d610fb0f5bf3884eec945e',
+        title: 'Assignment 1 – HTML',
         notesHTML: [
-          'Coming soon'
+          'Assignment due by 11:59pm, Monday 4/17/2017',
+          'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 4/17/2017',
+          'Demo due by 11:59pm on Monday, 5/1/2017'
         ]
       }
     ]
