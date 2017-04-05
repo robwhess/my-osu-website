@@ -49,7 +49,10 @@ var courseDetails = {
         },
         {
           heading: 'Readings',
-          entriesHTML: []
+          entriesHTML: [
+            '<a href="http://people.oregonstate.edu/~vanlondp/cs391/writing.php">Writing Requirements</a> &ndash; Pam Van London\'s CS 391 Course',
+            '<a href="http://people.oregonstate.edu/~vanlondp/cs391/research.php">Research Tools</a> &ndash; Pam Van London\'s CS 391 Course',
+          ]
         }
       ]
     }
@@ -58,7 +61,13 @@ var courseDetails = {
   assignments: {
     preamble: "<p></p>",
     assignments: [
+      {
+        title: 'Coming Soon',
+        link: '#',
+        notesHTML: [
 
+        ]
+      }
     ]
   }
 };
