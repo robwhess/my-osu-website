@@ -20,7 +20,7 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: W 3:00&ndash;4:00pm, Th 2:00&ndash;3:00pm (KEC 1109)'
+      infoHTML: 'Rob: W 3:30&ndash;4:30pm, Th 2:00&ndash;3:00pm (KEC 1109)'
     },
     {
       title: 'Syllabus',
