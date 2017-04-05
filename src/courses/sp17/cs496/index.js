@@ -16,7 +16,7 @@ var courseDetails = {
     },
     {
       title: 'Lectures',
-      infoHTML: 'MWF 4:00&ndash;5:20pm, OWEN 102'
+      infoHTML: 'TuTh 4:00&ndash;5:20pm, OWEN 102'
     },
     {
       title: 'Office Hours',

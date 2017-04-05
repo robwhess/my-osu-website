@@ -52,6 +52,7 @@ var courseDetails = {
           entriesHTML: [
             '<a href="http://people.oregonstate.edu/~vanlondp/cs391/writing.php">Writing Requirements</a> &ndash; Pam Van London\'s CS 391 Course',
             '<a href="http://people.oregonstate.edu/~vanlondp/cs391/research.php">Research Tools</a> &ndash; Pam Van London\'s CS 391 Course',
+            '<a href="http://guides.library.oregonstate.edu/c.php?g=286173&p=1905969">Citation Managers</a> &ndash; OSU Libraries',
           ]
         }
       ]
