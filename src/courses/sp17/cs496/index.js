@@ -45,6 +45,7 @@ var courseDetails = {
           heading: 'Topics',
           entriesHTML: [
             'Course Intro',
+            'Git and GitHub',
             'Java'
           ]
         },
