@@ -44,7 +44,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Course Intro &ndash; <a href="https://docs.google.com/a/oregonstate.edu/document/d/1BbRs0IJAN9Js-wCfrGH_ByztlOgTML6uMDdmY0iJixg/edit?usp=sharing">notes</a>'
+            'Course Intro &ndash; <a href="https://docs.google.com/document/d/1BbRs0IJAN9Js-wCfrGH_ByztlOgTML6uMDdmY0iJixg/edit?usp=sharing">notes</a>'
           ]
         },
         {
