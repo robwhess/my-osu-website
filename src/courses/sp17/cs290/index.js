@@ -20,7 +20,11 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: W 3:30&ndash;4:30pm, Th 2:00&ndash;3:00pm (KEC 1109)'
+      infoHTML: 'Rob: W 3:30&ndash;4:30pm, Th 2:00&ndash;3:00pm (KEC 1109)<br>Purbasha: W 2:00&ndash;3:00pm (KEC Atrium)<br>Sudhanshu: Th 9:00&ndash;11:00am (KEC Atrium)<br>Naimisha: F 10:00&ndash;11:00am (KEC Atrium)<br>Meghamala: W 2:30&ndash;4:30pm (KEC Atrium)'
+    },
+    {
+      title: 'Grading Hours',
+      infoHTML: 'Purbasha: M 1:50&ndash;2:50pm, W 3:00&ndash;4:00pm, F 11:00am&ndash;1:00pm (KEC Atrium)<br>Sudhanshu: MWF 8:00&ndash;9:00am, MWF 10:00&ndash;11:00am, Tu 9:00&ndash;11:00am (KEC Atrium)<br>Naimisha: Th 2:00&ndash;5:00pm, F 11:00am&ndash;12:00pm (KEC Atrium)<br>Meghamala: MTuThF 2:30&ndash;4:30pm (KEC Atrium)'
     },
     {
       title: 'Syllabus',
@@ -54,6 +58,23 @@ var courseDetails = {
           entriesHTML: [
             '<a href="https://git-scm.com/book/en/v2">Chapters 1 and 2</a> &ndash; Pro Git',
             '<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">Introduction to HTML</a> &ndash; MDN',
+          ]
+        }
+      ]
+    },
+    {
+      week: 2,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'CSS &ndash; <a href="https://docs.google.com/document/d/17yv1VXIy1_PBzqU6wvGHnBLNrY8JxCtSOXC1B2c7EgE/edit?usp=sharing">notes</a>',
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS">Introduction to CSS</a> &ndash; MDN',
           ]
         }
       ]
