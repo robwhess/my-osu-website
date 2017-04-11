@@ -1,0 +1,445 @@
+[
+  {
+    "category": "security",
+    "link": "http://www.npr.org/sections/alltechconsidered/2017/03/28/521813464/as-congress-repeals-internet-privacy-rules-putting-your-options-in-perspective",
+    "description": "2016's federal privacy rules won't have a chance to take affect, reducing individual control. ",
+    "title": "Congress Repeals Internet Privacy Rules..."
+  },
+  {
+    "category": "block",
+    "link": "https://www.techdirt.com/articles/20160111/05574633295/forbes-site-after-begging-you-turn-off-adblocker-serves-up-steaming-pile-malware-ads.shtml",
+    "description": "Serves Up A Steaming Pile Of Malware 'Ads' when you do.",
+    "title": "Forbes Begs Readers to turn off Adblocker"
+  },
+  {
+    "category": "settings_applications",
+    "link": "https://www.theguardian.com/commentisfree/2016/dec/11/google-frames-shapes-and-distorts-how-we-see-world",
+    "description": "It frames, shapes and distorts how we see the world. ",
+    "title": "Google is not 'just' a platform. "
+  },
+  {
+    "category": "library_books",
+    "link": "https://www.theguardian.com/commentisfree/2016/nov/25/pedlars-fake-news-corroding-democracy-social-networks",
+    "description": "If most adults get their news from Facebook, do we need laws to make the social networks accountable ",
+    "title": "The pedlars of fake news are corroding democracy."
+  },
+  {
+    "category": "person",
+    "link": "http://thenextweb.com/socialmedia/2016/10/02/racists-using-code-words-online-avoid-censorship/",
+    "description": "Skittles aren't just candies. Skype isn't just a VoIP service. Google, Bing, and Yahoo aren't just search engines.",
+    "title": " Racists are using these codewords online to avoid censorship"
+  },
+  {
+    "category": "copyright",
+    "link": "http://www.theverge.com/2016/12/6/13854354/apple-samsung-patent-battle-supreme-court-damages-calculation",
+    "description": "USA Supreme Court's method of calculating damages awarded, based on all or part of the infringing product's profits. ",
+    "title": "Apple vs Samsung Patent Battle"
+  },
+  {
+    "category": "accessibility",
+    "link": "http://www.dailymail.co.uk/sciencetech/article-3921150/It-late-ban-killer-robots-Researchers-say-autonomous-weapons-possible.html",
+    "description": "University of Buffalo researchers say autonomous weapons 'have and will become possible'. ",
+    "title": "It is already too late to ban killer robots"
+  },
+  {
+    "category": "security",
+    "link": "http://kotaku.com/man-goes-on-trial-for-allegedly-stealing-millions-from-1788948231",
+    "description": "Anthony Clark is on trial for conspiracy to commit wire fraud after mining Electronic Arts's servers.",
+    "title": "FBI Says Alleged Hackers Used FIFA To Steal Millions From EA"
+  },
+  {
+    "category": "data_usage",
+    "link": "http://www.recode.net/2016/11/15/13631938/benioff-salesforce-data-government-federal-trade-commission-ftc-linkedin-microsoft",
+    "description": "The FTC has never challenged a merger based on the anticompetitive acquisition of data.",
+    "title": "Companies buy each other for the data; is that OK?"
+  },
+  {
+    "category": "show_chart",
+    "link": "http://www.wsj.com/articles/facebook-says-it-found-more-miscalculated-metrics-1479303984",
+    "description": "Facebook plans to form measurement council, provide third-party data verification.",
+    "title": "Facebook Found More Miscalculated Metrics."
+  },
+  {
+    "category": "security",
+    "link": "https://www.engadget.com/2016/10/28/google-ai-created-its-own-form-of-encryption/",
+    "description": "Google engineers allowed three test subjects to pass each other notes using a method they created themselves. ",
+    "title": "Google's AI created its own form of encryption."
+  },
+  {
+    "category": "accessibility",
+    "link": "https://www.engadget.com/2016/10/28/lithium-battery-failure-wipes-out-darpa-robot-at-nasa/",
+    "description": "Serves as a reminder to us all that we should probably read up on fire safety. ",
+    "title": "Lithium battery failure wipes out DARPA robot at NASA"
+  },
+  {
+    "category": "accessibility",
+    "link": "http://www.theverge.com/2016/10/11/13243890/facebook-twitter-instagram-police-surveillance-geofeedia-api",
+    "description": "Geofeedia used the company's APIs to create real-time maps which were used to identify and arrest protestors.  ",
+    "title": "Facebook, Twitter, and Instagram surveillance tool used to arrest Baltimore protestors."
+  },
+  {
+    "category": "phone_iphone",
+    "link": "http://bgr.com/2016/10/06/iphone-7-sales-banned-by-some-companies/",
+    "description": "Patriotism is a big deal in China, and some companies feel that buying a smartphone from a foreign company \u2014 specifically Apple \u2014 is not patriotic.  ",
+    "title": "Some companies are threatening to fire workers who buy an iPhone 7"
+  },
+  {
+    "category": "shopping_cart",
+    "link": "https://www.bloomberg.com/news/articles/2016-11-28/amazon-gets-real-about-fakes?cmpid=GP.Tech",
+    "description": "The company is starting a new initiative to banish counterfeiters. ",
+    "title": "Amazon Gets Real About Fakes."
+  },
+  {
+    "category": "satellite",
+    "link": "https://www.bloomberg.com/news/articles/2016-08-31/facebook-to-start-africa-satellite-this-week-to-find-rural-users?cmpid=GP.Markets",
+    "description": "While internet-by-satellite is usually a costly option in the developing world, Zuckerberg said he planned to make accessing the network affordable. ",
+    "title": "Facebook to Start Africa Satellite This Week to Find Rural Users"
+  },
+  {
+    "category": "print",
+    "link": "https://boingboing.net/2016/09/26/demand-that-hp-make-amends-for.html",
+    "description": "HP can use Section 1201 of the DMCA to threaten security researchers who reveal similar defects... ",
+    "title": "EFF demands HP make amends for self-destructing printers"
+  },
+  {
+    "category": "attach_money",
+    "link": "http://markets.businessinsider.com/news/stocks/A-26-year-old-Bitcoin-entrepreneur-was-handed-prison-time-and-the-experience-only-confirmed-his-belief-in-the-cryptocurrency-1001572250",
+    "description": "He had \"knowingly transmitted money intended to facilitate criminal activity\" - specifically, drug trafficking on Silk Road. ",
+    "title": "A 26-year old Bitcoin entrepreneur was handed prison time"
+  },
+  {
+    "category": "copyright",
+    "link": "http://google.com/newsstand/s/CBIwnI3w-jE",
+    "description": "The US Federal Trade Commission proposes reform to cut down on the frequency of patent-infringement lawsuits. ",
+    "title": "FTC to patent trolls: Stop wasting our time"
+  },
+  {
+    "category": "security",
+    "link": "https://consumerist.com/2016/10/27/23-lawmakers-want-to-know-what-doj-would-do-with-expanded-hacking-authority/",
+    "description": " Rule 41 of the Federal Rules of Criminal Procedure versus the Rules Enabling Act.  ",
+    "title": "Lawmakers Want To Know What DOJ Would Do With Expanded Hacking Authority."
+  },
+  {
+    "category": "account_balance",
+    "link": "https://consumerist.com/2016/10/27/fcc-to-propose-rules-that-could-restore-consumers-right-to-sue-phone-broadband-providers/",
+    "description": "Telecom companies have user agreements clauses that negate lawsuits. ",
+    "title": "FCC Proposing to Restore Consumers' Right To Sue Providers"
+  },
+  {
+    "category": "network_check",
+    "link": "https://consumerist.com/2016/10/17/if-ftc-cant-resurrect-lawsuit-over-atts-unlimited-data-telecoms-may-be-even-more-untouchable/",
+    "description": "Telecoms May Be Even More Untouchable. ",
+    "title": "If FTC Can't Resurrect Lawsuit Over AT"
+  },
+  {
+    "category": "shopping_cart",
+    "link": "https://consumerist.com/2016/09/30/oregon-department-of-justice-announces-investigation-against-coolest/",
+    "description": "Kickstarter backers still don't have their coolers, but they are available in stores. ",
+    "title": "Oregon Department Of Justice Announces Investigation Of Coolest."
+  },
+  {
+    "category": "control_point_duplicate",
+    "link": "http://www.digitaltrends.com/web/icann-government-contract-expires/",
+    "description": "ICANN is truly an independent non-profit, free from the oversight of the American government. ",
+    "title": "The U.S. government no longer controls the internet."
+  },
+  {
+    "category": "directions_car",
+    "link": "https://www.engadget.com/2016/11/30/geohot-open-sources-semi-autonomous-technology/",
+    "description": "Comma.ai's self-driving software is now accessible to anyone who can read the code. ",
+    "title": "Geohot open-sources his semi-autonomous car technology."
+  },
+  {
+    "category": "security",
+    "link": "https://www.engadget.com/2016/11/27/ransomware-exploits-facebook-and-linkedin-images/",
+    "description": "You're forced to download code that holds your computer for ransom. ",
+    "title": "Malware uses Facebook and LinkedIn images to hijack your PC."
+  },
+  {
+    "category": "computer",
+    "link": "http://money.cnn.com/2016/06/14/technology/facebook-french-terrorist-live-stream/",
+    "description": "If someone violates Facebook's Community Standards while using Live, they take the video down as soon as they're notified.",
+    "title": "Facebook French Terrorist Live Stream."
+  },
+  {
+    "category": "music_note",
+    "link": "https://www.fastcompany.com/3061256/youtube-music-copyright-royalties-war",
+    "description": "Taylor Swift and other entertainers call on lawmakers to reform the Digital Millennium Copyright Act of 1998. ",
+    "title": "The Music Industry's New War Is About So Much More Than Copyright."
+  },
+  {
+    "category": "security",
+    "link": "https://www.scribd.com/mobile/document/322473050/FBI-Flash-Aug-2016",
+    "description": "FBI CYWATCH asks for help looking for use of Acunetix tool, SQLMap, and DirBuster.",
+    "title": "FBI Amber Alert about Election hacking."
+  },
+  {
+    "category": "wifi",
+    "link": "http://www.ibtimes.co.uk/fearing-trump-intrusion-entire-internet-will-be-archived-canada-tackle-censorship-1594116?utm_source=yahoo&utm_medium=referral&utm_campaign=rss&utm_content=/rss/yahoous",
+    "description": "The Internet Archive fights against Trump's rigid stance on internet censorship to stop the spread of extremism.",
+    "title": "Entire internet will be backed up in Canada to tackle censorship."
+  },
+  {
+    "category": "directions_car",
+    "link": "https://www.documentcloud.org/documents/3111057-Federal-Automated-Vehicles-Policy.html",
+    "description": "Federal Automated Vehicles Policy sets out a proactive approach to life-saving tech. ",
+    "title": "Accelerating the Next Revolution in Roadway Safety Fact Sheet."
+  },
+  {
+    "category": "search",
+    "link": "http://www.forbes.com/sites/greatspeculations/2016/06/28/heres-how-baidu-could-be-impacted-by-chinas-new-rules-for-online-search-and-advertising/#5514cba75be8",
+    "description": "After Baidu was accused of promoting false medical information on its search platform last month, Chinese regulators issued new rules. ",
+    "title": "Here's How Baidu Could Be Impacted By China's New Rules For Online Search And Advertising."
+  },
+  {
+    "category": "g_translate",
+    "link": "https://www.theguardian.com/technology/2016/aug/30/microsoft-bing-translates-daesh-saudi-arabia",
+    "description": "Saudi social media users call for a boycott of Microsoft products, causing the mistranslation to go viral, and leading to a public outcry. ",
+    "title": "Bing's Translator Accidentally Confuses ISIS and Saudi Arabia."
+  },
+  {
+    "category": "work",
+    "link": "http://gizmodo.com/elon-musk-we-need-universal-income-because-robots-will-1788644631",
+    "description": "So we'll need a universal income.",
+    "title": "Elon Musk Says Robots Will Steal All the Jobs."
+  },
+  {
+    "category": "phone_iphone",
+    "link": "http://gizmodo.com/new-apple-patent-could-stop-you-from-taking-photos-and-1782732782",
+    "description": "Does the device inhibit free speech or cause other problems? ",
+    "title": "New Apple Patent Could Stop You From Taking Photos and Videos at Concerts."
+  },
+  {
+    "category": "play_for_work",
+    "link": "http://gizmodo.com/smart-sex-toy-maker-sued-for-sneakily-collecting-intima-1786559792",
+    "description": "Hackers revealed Standard Innovation's We-Vibe smart vibrators transmitted user data; lawsuit claims terms and conditions were not clear. ",
+    "title": "Smart Sex Toy Maker Sued for Sneakily Collecting 'Intimate' Data."
+  },
+  {
+    "category": "fitness_center",
+    "link": "http://www.computerworld.com/article/3092407/security/hackers-can-exploit-smartwatches-fitness-trackers-to-steal-your-atm-pin.html",
+    "description": "Researchers determined there is a serious security breach of wearable devices.",
+    "title": "Hackers can exploit smart watches, fitness trackers to steal your ATM PIN."
+  },
+  {
+    "category": "access_time",
+    "link": "http://www.inc.com/jessica-stillman/what-amazons-new-30-hour-workweek-pilot-means.html",
+    "description": "Making the place more attractive to those with responsibilities outside the office is a smart way to attract underutilized talent. ",
+    "title": "What Amazon's New 30-Hour Workweek Pilot Means."
+  },
+  {
+    "category": "directions_car",
+    "link": "http://jalopnik.com/mercedes-decides-who-an-autonomous-car-should-save-and-1787749419",
+    "description": "There is no good answer for the 'Trolley Problem.'  ",
+    "title": "Mercedes Decides Who An Autonomous Car Should Save And The Answer Is Worrying"
+  },
+  {
+    "category": "copyright",
+    "link": "http://www.macrumors.com/2016/09/16/apple-ordered-to-pay-22-million-acacia/",
+    "description": "A jury said Apple willfully infringed on patents related to iPhone technology. ",
+    "title": "Apple Ordered to Pay $22 Million to Patent Firm Acacia Research."
+  },
+  {
+    "category": "verified_user",
+    "link": "http://mashable.com/2016/08/31/whatsapp-privacy-india/#meJX9mF1XqqR",
+    "description": "Users alleged the privacy policy change contradicts WhatsApp's original promise which endangers privacy of millions of users. ",
+    "title": "WhatsApp lands in hot water in India over privacy policy changes."
+  },
+  {
+    "category": "touch_app",
+    "link": "http://www.livemint.com/Politics/n0ABC2b9r8rAaXxw05BRyL/Govt-unveils-National-Software-Policy-eyes-35-million-jobs.html",
+    "description": "Aim is to increase share of Indian software products in global market by 10 fold and create 3.5 million jobs by 2025. ",
+    "title": "Indian Govt unveils National Software Policy."
+  },
+  {
+    "category": "people",
+    "link": "http://lawnewz.com/high-profile/nba-teams-app-spies-on-everything-around-you-lawsuit-says/",
+    "description": "Golden State Warrior phone app may records everything without user knowledge. ",
+    "title": "NBA Teams App Spys on Fans."
+  },
+  {
+    "category": "dashboard",
+    "link": "http://www.npr.org/sections/thetwo-way/2016/10/05/496706040/man-faces-prison-over-porn-video-that-played-on-roadside-billboard-in-jakarta",
+    "description": "The suspect learned of the jumbotron's user id and password when it was inadvertently displayed on its screen. ",
+    "title": "Man Faces Prison Over Porn Video That Played On Roadside Billboard In Jakarta."
+  },
+  {
+    "category": "directions_car",
+    "link": "http://www.npr.org/sections/health-shots/2016/09/16/494124888/yes-people-really-are-driving-while-playing-pokemon-go?ft=nprml&f=1001",
+    "description": "Eighteen percent of users play while driving and are prone to accidents. ",
+    "title": "Chasing Charmanders: Yes, People Really Are Driving While Playing Pokemon Go."
+  },
+  {
+    "category": "new_releases",
+    "link": "http://www.oregonlive.com/silicon-forest/index.ssf/2016/08/oregons_new_entrepreneurial_di.html",
+    "description": "Most investors have never seen a black woman technologist.",
+    "title": " Oregon's new entrepreneur diversity fund showcases six startups."
+  },
+  {
+    "category": "directions_car",
+    "link": "http://www.pcworld.com/article/3121999/security/researchers-demonstrate-remote-attack-against-tesla-model-s.html#tk.rss_all",
+    "description": "Researchers remotely controlled the braking system, sunroof, door locks, trunk, side-view mirrors and more. ",
+    "title": "Researchers hack Tesla Model S with remote attack."
+  },
+  {
+    "category": "no_encryption",
+    "link": "http://qz.com/772977/millions-of-stolen-last-fm-passwords-have-been-decrypted-these-are-the-top-50/",
+    "description": "The passwords were decrypted by LeakedSource, which maintains a collection of publicly available hacked data. ",
+    "title": " Millions of stolen Last.fm passwords have been decrypted."
+  },
+  {
+    "category": "apps",
+    "link": "http://qz.com/808846/why-jamaica-knows-about-apples-new-products-before-the-rest-of-the-world/",
+    "description": "Tech giants exploit a US trademark-law provision that lets them effectively claim a trademark in secret for 6 months. ",
+    "title": "Why Jamaica knows about Apple's new products before the rest of the world."
+  },
+  {
+    "category": "speaker_notes_off",
+    "link": "http://reason.com/blog/2016/10/24/facebook-employees-wanted-trump-posts-re",
+    "description": "Social network loosening community standards for newsworthy events instead. ",
+    "title": "Facebook Employees Wanted Trump Posts Removed as 'Hate Speech'."
+  },
+  {
+    "category": "enhanced_encryption",
+    "link": "http://www.recode.net/2016/6/28/12053686/google-tracking-activity-ads",
+    "description": "Is it a win for privacy advocates and/or a treat for advertisers? ",
+    "title": "Google is adding new ways to track you for ads, but it's letting you call the shots."
+  },
+  {
+    "category": "enhanced_encryption",
+    "link": "http://www.recode.net/2016/6/29/11978162/regulation-business-2016-cycle-technology-outpaces-policy",
+    "description": "A Digital Bill of Rights could ensure that individuals' best interests are being defended. ",
+    "title": "The other 2016 cycle: When technology outpaces policy."
+  },
+  {
+    "category": "supervisor_account",
+    "link": "http://katu.com/news/local/salem-police-chief-responds-to-claims-an-off-duty-officer-cyberbullied-a-woman-on-facebook",
+    "description": "Based on Chief Moore's initial findings, the comments on the Chicago woman's Facebook page were protected speech. ",
+    "title": "Salem Police Chief responds to claims an off-duty officer cyberbullied a woman on Facebook."
+  },
+  {
+    "category": "linked_camera",
+    "link": "https://www.cnet.com/news/school-escapes-charges-in-webcam-spying-case/",
+    "description": "Pennsylvania Schools will not face criminal charges over taking Webcam photos of students via laptops they had brought home. ",
+    "title": "School escapes charges in webcam spying case"
+  },
+  {
+    "category": "wifi",
+    "link": "http://www.slate.com/articles/technology/future_tense/2016/11/how_the_internet_works_in_north_korea.html",
+    "description": "NK is building a nationwide intranet that offers email and websites but is totally shut off from the rest of the world.  ",
+    "title": "How the Internet Works in North Korea"
+  },
+  {
+    "category": "directions_car",
+    "link": "http://www.slate.com/articles/technology/future_tense/2016/10/self_driving_cars_effects_on_cities_depend_on_who_owns_them.html",
+    "description": "Large numbers of streets could be decommissioned and reused as promenades, parks, and sites for housing.  ",
+    "title": "How Will Self-Driving Cars Change Cities?"
+  },
+  {
+    "category": "photo",
+    "link": "https://www.snap.com/en-US/news/post/our-agreement-with-the-ftc/",
+    "description": "Snapchat improved the wording of its privacy policy.  ",
+    "title": "Snapchat admits deleted photos aren't really deleted.\t"
+  },
+  {
+    "category": "wifi",
+    "link": "http://www.huffingtonpost.com/2014/12/05/health-effects-of-technol_n_6263120.html",
+    "description": "Technology affects our spine, sperm count, complexion, grip, eyesight, sleep, and state of mind,  ",
+    "title": "Sneaky Ways Technology Is Messing With Your Body And Mind."
+  },
+  {
+    "category": "directions_car",
+    "link": "https://www.techdirt.com/articles/20160627/07185434830/people-support-ethical-automated-cars-that-prioritize-lives-others-unless-theyre-riding-one.shtml?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+techdirt%2Ffeed+%28Techdirt%29",
+    "description": "Unless They're Riding In One. ",
+    "title": "People Support Ethical Automated Cars That Prioritize The Lives Of Others. "
+  },
+  {
+    "category": "search",
+    "link": "https://www.theguardian.com/technology/2016/dec/04/google-democracy-truth-internet-search-facebook",
+    "description": "Tech-savvy rightwingers have been able to 'game' the algorithms of internet giants and create a new reality where Hitler is a good guy.",
+    "title": "Google, democracy and the truth about internet search. "
+  },
+  {
+    "category": "history",
+    "link": "http://www.independent.co.uk/life-style/gadgets-and-tech/news/investigatory-powers-bill-act-snoopers-charter-browsing-history-what-does-it-mean-a7436251.html",
+    "description": "Investigatory Powers Bill  says ISPs will be required to keep a full record of every users visit.",
+    "title": "Everyone will be able to see your internet history in the UK."
+  },
+  {
+    "category": "security",
+    "link": "http://thenextweb.com/entrepreneur/2016/08/23/13-ways-companies-improve-data-security-age-iot/",
+    "description": "Is the burden on businesses to ensure that they're taking every measure to protect sensitive information? ",
+    "title": "13 ways companies should improve their data security in the age of IoT."
+  },
+  {
+    "category": "security",
+    "link": "http://thenextweb.com/insider/2016/09/05/industry-giants-support-microsoft-in-its-on-going-privacy-battle-against-the-doj/",
+    "description": "Should the Electronic Communications Privacy Act (ECPA) let officials determine when companies should notify users when they request data? ",
+    "title": "Apple, Google and Amazon file briefs to support Microsoft in privacy battle with DOJ."
+  },
+  {
+    "category": "lock",
+    "link": "http://thenextweb.com/artificial-intelligence/2016/10/17/deepmind-ai-platform-can-now-learn-without-human-input/",
+    "description": "Alphabet's Differential Neural Computer (DNC) uses existing data storage capacity paired with smart AI and a neural net. ",
+    "title": "Google's 'DeepMind' AI platform can now learn without human input."
+  },
+  {
+    "category": "lock_open",
+    "link": "http://google.com/newsstand/s/CBIw5IOS3zA",
+    "description": "Experts from Newcastle University said it was \"frighteningly easy\" to guess card number and security code with a laptop and an internet connection. ",
+    "title": "Hacked in just six seconds: "
+  },
+  {
+    "link": "http://www.telegraph.co.uk/news/2016/12/03/police-using-mugging-tactics-swipe-unlocked-phones-criminals/",
+    "description": "Pin code access and encryption on some phones make it harder to access evidence in a timely fashion. ",
+    "title": "Police using 'mugging' tactics to swipe unlocked phones from criminals."
+  },
+  {
+    "category": "screen_lock_landscape",
+    "link": "http://www.telegraph.co.uk/technology/2016/10/06/spotify-has-been-sending-computer-viruses-to-listeners/",
+    "description": "Advertisements direct users of the free version to virus-riddled websites. ",
+    "title": "Spotify has been sending computer viruses to listeners."
+  },
+  {
+    "category": "screen_lock_landscape",
+    "link": "http://www.theverge.com/2016/7/1/12078294/brazil-whatsapp-facebook-legal-fine-six-million",
+    "description": " WhatsApp's end-to-end encryption means that data is inaccessible even to WhatsApp's own employees.  ",
+    "title": "A Brazilian judge has blocked $6 million in WhatsApp funds."
+  },
+  {
+    "category": "folder_open",
+    "link": "http://www.theverge.com/2016/8/30/12707590/eu-net-neutrality-rules-final-guidelines-berec",
+    "description": "Regulatory body tightens loopholes that could have jeopardized the future of the internet, advocates say. ",
+    "title": "Europe's net neutrality guidelines seen as a victory for the open web."
+  },
+  {
+    "category": "copyright",
+    "link": "https://www.google.com/transparencyreport/removals/copyright/#process",
+    "description": "From takedown notices to lawsuits",
+    "title": "Google's process for removing copyrighted content."
+  },
+  {
+    "category": "lock",
+    "link": "http://venturebeat.com/2016/10/27/u-s-lawmakers-raise-privacy-concerns-over-new-rule-that-allows-government-hacking-of-computers/",
+    "description": "Judges could issue search warrants for remote access to computers located in any jurisdiction, potentially including foreign countries. ",
+    "title": "Lawmakers raise privacy concerns over new rule that allows government hacking of computers."
+  },
+  {
+    "category": "copyright",
+    "link": "http://venturebeat.com/2016/10/28/wordpress-creator-matt-mullenweg-slams-wix-your-app-editor-is-built-with-stolen-code/",
+    "description": "Mullenweg wants developers to abide by both the letter and the spirit of the General Purpose License \u2014 essentially to pay it forward.  ",
+    "title": "WordPress vs Wix: 'Your app editor is built with stolen code'."
+  },
+  {
+    "category": "note_add",
+    "link": "http://www.vox.com/2016/7/30/12303070/dennis-cooper-blog-deleted-google",
+    "description": "Author's assumes that one or more of his posts about male escorts triggered a Google censor.  ",
+    "title": "A writer kept a blog for ten years. Google deleted it. Why?"
+  },
+  {
+    "category": "fingerprint",
+    "link": "http://www.internetsociety.org/your-digital-footprint-matters",
+    "description": "Your online portrait helps employers look into your background advertisers to track your online movements. ",
+    "title": "Your digital footprint matters."
+  }
+]

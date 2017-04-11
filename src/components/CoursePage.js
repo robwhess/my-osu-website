@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
+import { Link, withRouter } from 'react-router-dom';
 
 import PageContent from './PageContent';
 import '../styles/CoursePage.css';
 
 class CoursePage extends Component {
+
+  static propTypes = {
+    match: React.PropTypes.object.isRequired
+  }
 
   generateCalendarWeekComponent(week, key) {
     return (
@@ -21,6 +26,32 @@ class CoursePage extends Component {
           </div>
         ))}
       </div>
+    );
+  }
+
+  generateAssignmentComponent(assignment, key) {
+    var { match } = this.props;
+    var matchURLWithSlash = match.url.replace(/\/$/, '') + '/';
+    var assignmentLinkComponent = null;
+    if (assignment.link) {
+      assignmentLinkComponent = <a href={assignment.link}>{assignment.title}</a>;
+    } else if (assignment.subPage) {
+      assignmentLinkComponent = (
+        <Link to={matchURLWithSlash + assignment.subPage}>{assignment.title}</Link>
+      );
+    } else {
+      assignmentLinkComponent = assignment.title;
+    }
+
+    return (
+      <li key={key}>
+        {assignmentLinkComponent}
+        <ul>
+          {assignment.notesHTML.map((noteHTML, j) => (
+            <li key={j} dangerouslySetInnerHTML={{ __html: noteHTML }} />
+          ))}
+        </ul>
+      </li>
     );
   }
 
@@ -54,21 +85,14 @@ class CoursePage extends Component {
           <h2>Assignments</h2>
           <div dangerouslySetInnerHTML={{ __html: assignments.preamble }} />
           <ul>
-            {assignments.assignments.map((assignment, i) => (
-              <li key={i}>
-                <a href={assignment.link}>{assignment.title}</a>
-                <ul>
-                  {assignment.notesHTML.map((noteHTML, j) => (
-                    <li key={j} dangerouslySetInnerHTML={{ __html: noteHTML }} />
-                  ))}
-                </ul>
-              </li>
-            ))}
+            {assignments.assignments.map(this.generateAssignmentComponent.bind(this))}
           </ul>
         </section>
       </PageContent>
     );
   }
 }
+
+CoursePage = withRouter(CoursePage);
 
 export default CoursePage;

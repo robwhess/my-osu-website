@@ -58,9 +58,11 @@ class App extends Component {
           <Navbar links={navLinks} />
 
           <Switch>
+
             <Route exact path={generateSitePath('/')} component={HomePage} />
             <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
             <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
+
             <Route exact path={generateSitePath('/teaching') + '/:course'} children={({ match }) => {
               var data = courseData[match.params.course];
               if (data) {
@@ -69,7 +71,19 @@ class App extends Component {
                 return <NoMatchPage />;
               }
             }} />
+
+            <Route exact path={generateSitePath('/teaching') + '/:course/:subpage'} children={({ match }) => {
+              var data = courseData[match.params.course];
+              if (data && data.subPages && data.subPages[match.params.subpage]) {
+                var SubPageComponent = data.subPages[match.params.subpage];
+                return <SubPageComponent />;
+              } else {
+                return <NoMatchPage />;
+              }
+            }} />
+
             <Route component={NoMatchPage} />
+
           </Switch>
 
           <footer>

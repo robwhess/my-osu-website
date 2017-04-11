@@ -16,8 +16,8 @@
     "react-scripts": "0.9.5"
   },
   "scripts": {
-    "build-css": "node-sass src/styles/ -o src/styles/",
-    "watch-css": "npm run build-css && node-sass src/styles/ -o src/styles/ --watch --recursive",
+    "build-css": "node-sass src/ -o src/",
+    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",

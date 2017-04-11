@@ -1,4 +1,5 @@
 import { generateSitePath } from '../../../lib/SitePath';
+import EthicalTheoriesAssignmentPage from './EthicalTheoriesAssignmentPage';
 
 var courseDetails = {
   number: 'CS 391',
@@ -63,13 +64,17 @@ var courseDetails = {
     preamble: "<p></p>",
     assignments: [
       {
-        title: 'Coming Soon',
-        link: '#',
+        title: 'Applying an ethical framework',
+        subPage: 'ethical-theories',
         notesHTML: [
-
+          'Due via Canvas at 11:59pm on Monday, 4/17/2017'
         ]
       }
     ]
+  },
+
+  subPages: {
+    'ethical-theories': EthicalTheoriesAssignmentPage
   }
 };
 
