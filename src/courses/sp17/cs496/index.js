@@ -20,7 +20,7 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: M 3:00&ndash;4:00pm, Tu 2:00&ndash;3:00pm (KEC 1109)'
+      infoHTML: 'Rob: M 3:00&ndash;4:00pm, Tu 2:00&ndash;3:00pm (KEC 1109)<br>Jake: MW 9:00&ndash;10:00am, Tu 3:00&ndash;4:00pm (KEC Atrium)'
     },
     {
       title: 'Syllabus',
@@ -53,6 +53,24 @@ var courseDetails = {
           heading: 'Readings',
           entriesHTML: [
             '<a href="http://pages.cs.wisc.edu/~hasti/cs368/JavaTutorial/">Java for C++ Programmers</a> &ndash; Beck Hasti',
+          ]
+        }
+      ]
+    },
+    {
+      week: 2,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Java &ndash; <a href="https://docs.google.com/document/d/10-d9kS41MD5JXYK0vbuJBtNXP6yAZQzmTjYnsL8WxGs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/java">example code</a>',
+            'Getting Started with Android Studio'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/studio/intro/index.html">Android Studio User Guide</a>',
           ]
         }
       ]
