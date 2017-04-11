@@ -70,6 +70,7 @@ var courseDetails = {
         {
           heading: 'Readings',
           entriesHTML: [
+            '<a href="https://en.wikipedia.org/wiki/Trolley_problem">The trolley problem</a> &ndash; Wikipedia',
             '<a href="https://www.nytimes.com/2016/09/02/technology/artificial-intelligence-ethics.html">How Tech Giants Are Devising Real Ethics for Artificial Intelligence</a> &ndash; NY Times',
             '<a href="http://spectrum.ieee.org/video/robotics/robotics-software/how-to-build-a-moral-robot">How to Build a Moral Robot</a> &ndash; IEEE Spectrum'
           ]
