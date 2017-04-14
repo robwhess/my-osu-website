@@ -64,13 +64,17 @@ var courseDetails = {
           heading: 'Topics',
           entriesHTML: [
             'Java &ndash; <a href="https://docs.google.com/document/d/10-d9kS41MD5JXYK0vbuJBtNXP6yAZQzmTjYnsL8WxGs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/java">example code</a>',
-            'Getting Started with Android Studio'
+            'Getting Started with Android Studio &ndash; <a href="https://docs.google.com/document/d/182E2WAi6A7IgaStmhQLK8aMUcSf1x71bteQ-L3iIom4/edit?usp=sharing">notes</a>',
+            'Starting off with Android Programming &ndash; <a href="https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/SimpleTODOs">example code</a>'
           ]
         },
         {
           heading: 'Readings',
           entriesHTML: [
             '<a href="https://developer.android.com/studio/intro/index.html">Android Studio User Guide</a>',
+            '<a href="https://developer.android.com/training/basics/firstapp/index.html">Building Your First App</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/components/activities/intro-activities.html">Introduction to Activities</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/topics/ui/declaring-layout.html">Layouts</a> &ndash; Android Developers'
           ]
         }
       ]
