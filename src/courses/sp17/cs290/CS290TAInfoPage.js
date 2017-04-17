@@ -11,7 +11,7 @@ var taInfo = {
     {
       name: "Purbasha Chatterjee",
       email: "chattepu@oregonstate.edu",
-      officeHours: [ "W 2:00–3:00pm", "W 2:00–3:00pm" ],
+      officeHours: [ "W 2:00–3:00pm" ],
       gradingHours: [
         "M 1:50–2:50pm",
         "W 3:00–4:00pm",
