@@ -76,6 +76,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 3,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Accountability'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://plato.stanford.edu/entries/computing-responsibility/">Computing and Moral Responsibility</a> &ndash; Stanford Encyclopedia of Philosphy',
+            '<a href="https://www.nytimes.com/2016/12/14/technology/yahoo-hack.html">Yahoo Says 1 Billion User Accounts Were Hacked</a> &ndash; NY Times'
+          ]
+        }
+      ]
     }
   ],
 
