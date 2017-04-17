@@ -24,10 +24,11 @@ var taInfo = {
       email: "pathaks@oregonstate.edu",
       officeHours: [ "Th 9:00–11:00am" ],
       gradingHours: [
-        "WF 8:00–9:00am",
+        "MW 8:00–9:00am",
         "MWF 10:00–11:00am",
         "Tu 9:00–11:00am"
-      ]
+      ],
+      gradingHoursPollLink: "https://doodle.com/poll/t7ssf5b46vsp476c"
     },
     {
       name: "Naimisha Reddy Saireddy",
@@ -36,7 +37,8 @@ var taInfo = {
       gradingHours: [
         "Tu 9:45am–2:00pm",
         "Th 8:00am–10:50am"
-      ]
+      ],
+      gradingHoursPollLink: "https://doodle.com/poll/v6m5qwq39qethr6k"
     },
     {
       name: "Meghamala Sinha",
@@ -45,7 +47,8 @@ var taInfo = {
       gradingHours: [
         "M 2:30–3:30pm",
         "TuThF 2:30–4:30pm"
-      ]
+      ],
+      gradingHoursPollLink: "https://doodle.com/poll/se9budhyxku4dn3e"
     }
   ]
 };
