@@ -4,6 +4,27 @@
   margin: 0;
 }
 
+th, td {
+  padding: 4px 8px;
+  vertical-align: baseline;
+}
+
+th, td.category {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #666;
+}
+
+td {
+  &.category {
+    text-align: right;
+  }
+  ul {
+    margin: 5px 0;
+    padding-left: 30px;
+  }
+}
+
 .info-box,
 .info-table,
 .calendar,
@@ -13,6 +34,13 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   background-color: #fff;
+}
+
+.info-table {
+  margin-left: -5px;  /* to offset padding in td */
+  td {
+    vertical-align: middle;
+  }
 }
 
 .calendar {

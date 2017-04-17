@@ -1,4 +1,5 @@
 import { generateSitePath } from '../../../lib/SitePath';
+import CS290TAInfoPage from './CS290TAInfoPage';
 
 var courseDetails = {
   number: 'CS 290',
@@ -8,11 +9,12 @@ var courseDetails = {
   essentials: [
     {
       title: 'Instructor',
-      infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)'
+      infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)<br/>Office hours: W 3:30&ndash;4:30pm, Th 2:00&ndash;3:00pm (KEC 1109)'
     },
     {
       title: 'TAs',
-      infoHTML: 'Purbasha Chatterjee (<a href="mailto:chattepu@oregonstate.edu">chattepu@oregonstate.edu</a>)<br>Sudhanshu Shobhakant Pathak (<a href="mailto:pathaks@oregonstate.edu">pathaks@oregonstate.edu</a>)<br>Naimisha Reddy Saireddy (<a href="mailto:saireddn@oregonstate.edu">saireddn@oregonstate.edu</a>)<br>Meghamala Sinha (<a href="mailto:sinham@oregonstate.edu">sinham@oregonstate.edu</a>)'
+      infoSubPage: 'ta-info',
+      infoText: 'See this page for TA info'
     },
     {
       title: 'Lectures',
@@ -20,11 +22,13 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: W 3:30&ndash;4:30pm, Th 2:00&ndash;3:00pm (KEC 1109)<br>Purbasha: W 2:00&ndash;3:00pm (KEC Atrium)<br>Sudhanshu: Th 9:00&ndash;11:00am (KEC Atrium)<br>Naimisha: F 10:00&ndash;11:00am (KEC Atrium)<br>Meghamala: W 2:30&ndash;4:30pm (KEC Atrium)'
+      infoSubPage: 'ta-info',
+      infoText: 'See this page for TA office hours'
     },
     {
       title: 'Grading Hours',
-      infoHTML: 'Purbasha: M 1:50&ndash;2:50pm, W 3:00&ndash;4:00pm, F 11:00am&ndash;1:00pm (KEC Atrium)<br>Sudhanshu: MWF 8:00&ndash;9:00am, MWF 10:00&ndash;11:00am, Tu 9:00&ndash;11:00am (KEC Atrium)<br>Naimisha: Th 2:00&ndash;5:00pm, F 11:00am&ndash;12:00pm (KEC Atrium)<br>Meghamala: MTuThF 2:30&ndash;4:30pm (KEC Atrium)'
+      infoSubPage: 'ta-info',
+      infoText: 'See this page for TA grading hours'
     },
     {
       title: 'Syllabus',
@@ -78,6 +82,25 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 3,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'CSS &ndash; <a href="https://docs.google.com/document/d/17yv1VXIy1_PBzqU6wvGHnBLNrY8JxCtSOXC1B2c7EgE/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/css">example code</a>',
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/">Cyclomatic Complexity: Logic in CSS</a> &ndash; CSS Wizardry',
+            '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS Flexible Boxes</a> &ndash; MDN',
+            '<a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/">Responsive Web Design Basics</a> &ndash; Google Web Fundamentals'
+          ]
+        }
+      ]
     }
   ],
 
@@ -94,6 +117,10 @@ var courseDetails = {
         ]
       }
     ]
+  },
+
+  subPages: {
+    'ta-info': CS290TAInfoPage
   }
 };
 

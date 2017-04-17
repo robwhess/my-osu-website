@@ -55,6 +55,27 @@ class CoursePage extends Component {
     );
   }
 
+  generateEssentialsRowComponent(item, key) {
+    var { match } = this.props;
+    var matchURLWithSlash = match.url.replace(/\/$/, '') + '/';
+    var valueTDComponent;
+    if (item.infoHTML) {
+      valueTDComponent = <td dangerouslySetInnerHTML={{ __html: item.infoHTML }} />;
+    } else if (item.infoSubPage && item.infoText) {
+      valueTDComponent = (
+        <td><Link to={matchURLWithSlash + item.infoSubPage}>{item.infoText}</Link></td>
+      );
+    } else {
+      valueTDComponent = <td></td>;
+    }
+    return (
+      <tr key={key}>
+        <td className="category">{item.title}</td>
+        {valueTDComponent}
+      </tr>
+    );
+  }
+
   render() {
     var { number, title, term, essentials, calendar, assignments } = this.props.courseData;
     return (
@@ -66,9 +87,7 @@ class CoursePage extends Component {
         <section className="info-table">
           <table>
             <tbody>
-              {essentials.map((item, i) => (
-                <tr key={i}><td className="category">{item.title}</td><td dangerouslySetInnerHTML={{ __html: item.infoHTML }} /></tr>
-              ))}
+              {essentials.map(this.generateEssentialsRowComponent.bind(this))}
             </tbody>
           </table>
         </section>
