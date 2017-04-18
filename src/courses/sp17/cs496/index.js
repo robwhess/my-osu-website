@@ -85,7 +85,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'RecyclerView',
+            'RecyclerView &ndash; <a href="https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing">notes</a>',
           ]
         },
         {
