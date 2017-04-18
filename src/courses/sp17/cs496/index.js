@@ -78,6 +78,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 3,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'RecyclerView',
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/guide/topics/ui/layout/recyclerview.html">RecyclerView</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/training/material/lists-cards.html#RecyclerView">Creating Lists and Cards (Create Lists)</a> &ndash; Android Developers'
+          ]
+        }
+      ]
     }
   ],
 
