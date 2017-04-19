@@ -115,6 +115,15 @@ var courseDetails = {
           'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 4/17/2017',
           'Demo due by 11:59pm on Monday, 5/1/2017'
         ]
+      },
+      {
+        link : 'https://classroom.github.com/assignment-invitations/b67f8710f4d589d4d5697db72243fdce',
+        title: 'Assignment 2 – CSS',
+        notesHTML: [
+          'Assignment due by 11:59pm, Monday 5/1/2017',
+          'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/1/2017',
+          'Demo due by 11:59pm on Monday, 5/15/2017'
+        ]
       }
     ]
   },
