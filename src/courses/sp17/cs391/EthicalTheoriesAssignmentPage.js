@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
-import articleData from './articleData.json';
+import articleData from './EthicalTheoriesArticleData.json';
 import PageContent from '../../../components/PageContent';
-import './EthicalTheoriesAssignmentPage.css';
+import './AssignmentPage.css';
 
 class EthicalTheoriesAssignmentPage extends Component {
 
@@ -16,7 +16,7 @@ class EthicalTheoriesAssignmentPage extends Component {
     var matchURLWithoutSlash = match.url.replace(/\/$/, '');
     var parentPageURL = matchURLWithoutSlash.substring(0, matchURLWithoutSlash.lastIndexOf('/') + 1);
     return (
-      <PageContent contentClassName="ethical-theories-page">
+      <PageContent contentClassName="assignment-page">
         <section className="assignment-box">
 
           <Link to={parentPageURL}>&larr; Back to CS 391</Link>

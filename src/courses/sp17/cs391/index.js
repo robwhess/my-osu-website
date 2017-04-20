@@ -1,5 +1,6 @@
 import { generateSitePath } from '../../../lib/SitePath';
 import EthicalTheoriesAssignmentPage from './EthicalTheoriesAssignmentPage';
+import AccountabilityAssignmentPage from './AccountabilityAssignmentPage';
 
 var courseDetails = {
   number: 'CS 391',
@@ -106,12 +107,20 @@ var courseDetails = {
         notesHTML: [
           'Due via Canvas at 11:59pm on Monday, 4/17/2017'
         ]
+      },
+      {
+        title: 'Case studies in accountability',
+        subPage: 'accountability',
+        notesHTML: [
+          'Due via Canvas at 11:59pm on Monday, 5/1/2017'
+        ]
       }
     ]
   },
 
   subPages: {
-    'ethical-theories': EthicalTheoriesAssignmentPage
+    'ethical-theories': EthicalTheoriesAssignmentPage,
+    'accountability': AccountabilityAssignmentPage
   }
 };
 
