@@ -23,6 +23,10 @@ var courseDetails = {
       infoHTML: 'Rob: M 3:00&ndash;4:00pm, Tu 2:00&ndash;3:00pm (KEC 1109)<br>Jake: MW 9:00&ndash;10:00am, Tu 3:00&ndash;4:00pm (KEC Atrium)'
     },
     {
+      title: 'Grading Hours',
+      infoHTML: 'Jake: <a href="http://doodle.com/poll/n9gsd9zbgmvikn77">Sign up here</a> (KEC Atrium)'
+    },
+    {
       title: 'Syllabus',
       infoHTML: '<a href="https://docs.google.com/document/d/1WuqD2mJ8w_ayB64cpSJC8phApNmRRGSRyFF3KZRMXnw/edit?usp=sharing">CS 496 Syllabus</a>'
     },
