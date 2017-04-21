@@ -86,13 +86,16 @@ var courseDetails = {
           heading: 'Topics',
           entriesHTML: [
             'RecyclerView &ndash; <a href="https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/RecyclerViewTODOs">example code</a>',
+            'User Interactions and RecyclerView &ndash; <a href="https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/RecyclerViewInteractions">example code</a>'
           ]
         },
         {
           heading: 'Readings',
           entriesHTML: [
             '<a href="https://developer.android.com/guide/topics/ui/layout/recyclerview.html">RecyclerView</a> &ndash; Android Developers',
-            '<a href="https://developer.android.com/training/material/lists-cards.html#RecyclerView">Creating Lists and Cards (Create Lists)</a> &ndash; Android Developers'
+            '<a href="https://developer.android.com/training/material/lists-cards.html#RecyclerView">Creating Lists and Cards (Create Lists)</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/topics/ui/notifiers/toasts.html">Toasts</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback.html">ItemTouchHelper.SimpleCallback</a> &ndash; Android Developers'
           ]
         }
       ]
