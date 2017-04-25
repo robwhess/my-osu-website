@@ -101,6 +101,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 4,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1B166H5z4zVAQaDJA9SObXwmRradmNdTAoPBDp4xnQYM/edit?usp=sharing">notes</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps">JavaScript first steps</a> &ndash; MDN',
+            '<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks">JavaScript building blocks</a> &ndash; MDN'
+          ]
+        }
+      ]
     }
   ],
 
