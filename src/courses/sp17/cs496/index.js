@@ -103,6 +103,27 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 4,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Fetching Internet Data using AsyncTask &ndash; <a href="https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearch">example code</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/reference/java/net/URL.html">URL</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/reference/android/net/Uri.Builder.html">Uri.Builder</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/components/processes-and-threads.html">Processes and Threads</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/topics/permissions/index.html">Permissions</a> &ndash; Android Developers'
+          ]
+        }
+      ]
     }
   ],
 
