@@ -108,7 +108,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1B166H5z4zVAQaDJA9SObXwmRradmNdTAoPBDp4xnQYM/edit?usp=sharing">notes</a>'
+            'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1QQtkKwb3tqxnbcZdvaNPnW8WH2ZJoGynrgIrXwtRAvs/edit?usp=sharing">notes</a>'
           ]
         },
         {
