@@ -108,7 +108,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1QQtkKwb3tqxnbcZdvaNPnW8WH2ZJoGynrgIrXwtRAvs/edit?usp=sharing">notes</a>'
+            'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1QQtkKwb3tqxnbcZdvaNPnW8WH2ZJoGynrgIrXwtRAvs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js">example code</a>'
           ]
         },
         {
