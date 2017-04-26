@@ -95,6 +95,23 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 4,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Accountability'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="http://fortune.com/2017/03/01/twitter-abuse-real-time/">Twitter is Now Trying to Detect and Curb Abuse in Real Time</a> &ndash; Fortune'
+          ]
+        }
+      ]
     }
   ],
 
