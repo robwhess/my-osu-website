@@ -140,7 +140,7 @@ var courseDetails = {
       },
       {
         link : 'https://classroom.github.com/assignment-invitations/d1c8fd469370b44cf35e1ae3fe1d5395',
-        title: 'Assignment 1 – Internet connectivity and intents',
+        title: 'Assignment 2 – Internet connectivity and intents',
         notesHTML: [
           'Assignment due by 11:59pm, Monday 5/8/2017',
           'Demo due by 11:59pm on Monday, 5/22/2017'
