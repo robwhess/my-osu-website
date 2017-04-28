@@ -1,152 +1,152 @@
 [
     {
-        "link": "http://www.theverge.com/2016/10/30/13471128/meetkumar-hiteshbhai-desai-arrest-911-exploit", 
-        "description": "Hacker arrested for triggering a DDoS attack using JavaScript exploits via Twitter and YouTube. ", 
+        "link": "http://www.theverge.com/2016/10/30/13471128/meetkumar-hiteshbhai-desai-arrest-911-exploit",
+        "description": "Hacker arrested for triggering a DDoS attack using JavaScript exploits via Twitter and YouTube. ",
         "title": "The Case of the 911 DDoS Attack"
-    }, 
+    },
     {
-        "link": "http://www.theearthchild.co.za/breaking-news-anonymous-hackers-delete-10000-child-porn-sites-on-dark-web/", 
-        "description": "Is it OK to hack and publish private data when an ISP allows illegal content? ", 
+        "link": "http://www.theearthchild.co.za/breaking-news-anonymous-hackers-delete-10000-child-porn-sites-on-dark-web/",
+        "description": "Is it OK to hack and publish private data when an ISP allows illegal content? ",
         "title": "The Case of Anonymous Deleting Child Porn Sites"
-    }, 
+    },
     {
-        "link": "http://fortune.com/2017/03/02/amazon-cloud-outage/", 
-        "description": "All it takes is a typo or a storm to bring down major websites.", 
+        "link": "http://fortune.com/2017/03/02/amazon-cloud-outage/",
+        "description": "All it takes is a typo or a storm to bring down major websites.",
         "title": "The Case of the Amazon Web Services Meltdown"
-    }, 
+    },
     {
-        "link": "https://mic.com/articles/162865/amazon-echo-privacy-is-alexa-listening-to-everything-you-say#.u6NnxK6aH", 
-        "description": "Siri, Alexa/Echo, and Cortana activate when hearing a \"wake word, which means they are always listing.\" ", 
+        "link": "https://mic.com/articles/162865/amazon-echo-privacy-is-alexa-listening-to-everything-you-say#.u6NnxK6aH",
+        "description": "Siri, Alexa/Echo, and Cortana activate when hearing a \"wake word, which means they are always listing.\" ",
         "title": "The Case of the Always Listening Personal Assistant"
-    }, 
+    },
     {
-        "link": "https://www.washingtonpost.com/archive/business/1991/08/27/error-cited-in-orbital-mishap/a22b05c8-e537-4dfa-8138-4bff8a032767/", 
-        "description": "Technical user error and poor review caused this crash.", 
+        "link": "https://www.washingtonpost.com/archive/business/1991/08/27/error-cited-in-orbital-mishap/a22b05c8-e537-4dfa-8138-4bff8a032767/",
+        "description": "Technical user error and poor review caused this crash.",
         "title": "The Case of the Aries Rocket Crash"
-    }, 
+    },
     {
-        "link": "http://www.theverge.com/2016/10/11/13243890/facebook-twitter-instagram-police-surveillance-geofeedia-api", 
-        "description": "Police monitored social media, ran facial recognition to arrest protesters.", 
+        "link": "http://www.theverge.com/2016/10/11/13243890/facebook-twitter-instagram-police-surveillance-geofeedia-api",
+        "description": "Police monitored social media, ran facial recognition to arrest protesters.",
         "title": "The Case of the Arrested Baltimore Protestors"
-    }, 
+    },
     {
-        "link": "http://articles.latimes.com/2011/may/26/local/la-me-prisons-20110526", 
-        "description": "Violent criminals were released due to a computer glitch.", 
+        "link": "http://articles.latimes.com/2011/may/26/local/la-me-prisons-20110526",
+        "description": "Violent criminals were released due to a computer glitch.",
         "title": "The Case of the California Prison Release"
-    }, 
+    },
     {
-        "link": "http://www.newsweek.com/thousands-webcams-hijacked-hackers-attack-banks-476649", 
-        "description": "Hackers targeted Internet of Things (IoT) devices using default passwords that are shared amongst entire device classes. ", 
+        "link": "http://www.newsweek.com/thousands-webcams-hijacked-hackers-attack-banks-476649",
+        "description": "Hackers targeted Internet of Things (IoT) devices using default passwords that are shared amongst entire device classes. ",
         "title": "The Case of the CCTV Camera Hijacking"
-    }, 
+    },
     {
-        "link": "http://chicago.suntimes.com/politics/cpd-settles-lawsuit-seeking-records-on-secret-cellular-trackers/", 
-        "description": "Lawsuit settles secret cellular tracking and interruption system that collected personal data.", 
+        "link": "http://chicago.suntimes.com/politics/cpd-settles-lawsuit-seeking-records-on-secret-cellular-trackers/",
+        "description": "Lawsuit settles secret cellular tracking and interruption system that collected personal data.",
         "title": "The Case of Chicago Police's StingRay Tracker"
-    }, 
+    },
     {
-        "link": "https://arstechnica.com/tech-policy/2008/03/can-spam-violations-cost-online-ad-firm-2-9-million/", 
-        "description": "ValueClick was ordered to pay $2.9m violating CAN-SPAM Act.", 
+        "link": "https://arstechnica.com/tech-policy/2008/03/can-spam-violations-cost-online-ad-firm-2-9-million/",
+        "description": "ValueClick was ordered to pay $2.9m violating CAN-SPAM Act.",
         "title": "The Case of the Deceptive Ads and Insecure Data"
-    }, 
+    },
     {
-        "link": "http://www.asecurelife.com/nsa-data-mining-leak-by-snowden/", 
-        "description": "PRISM data was leaked to the press to show how the NSA violates section 215 of the PATRIOT Act.", 
+        "link": "http://www.asecurelife.com/nsa-data-mining-leak-by-snowden/",
+        "description": "PRISM data was leaked to the press to show how the NSA violates section 215 of the PATRIOT Act.",
         "title": "The Case of the Edward Snowden data mining leaks"
-    }, 
+    },
     {
-        "link": "https://oig.justice.gov/reports/FBI/a0507/findings.htm", 
-        "description": "The FBI's [mis]Management of the Trilogy Information Technology Modernization Project", 
+        "link": "https://oig.justice.gov/reports/FBI/a0507/findings.htm",
+        "description": "The FBI's [mis]Management of the Trilogy Information Technology Modernization Project",
         "title": "The Case of the FBI's Trilogy Failure"
-    }, 
+    },
     {
-        "link": "http://www.nytimes.com/2016/12/29/us/politics/russia-election-hacking-sanctions.html", 
-        "description": "USA gov't sanctions Russia for its efforts to influence the 2016 election. ", 
+        "link": "http://www.nytimes.com/2016/12/29/us/politics/russia-election-hacking-sanctions.html",
+        "description": "USA gov't sanctions Russia for its efforts to influence the 2016 election. ",
         "title": "The Case of the Hacking of USA Election"
-    }, 
+    },
     {
-        "link": "https://computingcases.org/case_materials/hughes/hughes_case_intro.html", 
-        "description": "Lack of environmental chip testing resulted in this whistle-blowing criminal and civil case.", 
+        "link": "https://computingcases.org/case_materials/hughes/hughes_case_intro.html",
+        "description": "Lack of environmental chip testing resulted in this whistle-blowing criminal and civil case.",
         "title": "The Case of Hughes Aircraft Chip Testing"
-    }, 
+    },
     {
-        "link": "http://www.wnd.com/2002/06/14199/", 
-        "description": "The FDA investigates VeriChip's misrepresentations.", 
+        "link": "http://www.wnd.com/2002/06/14199/",
+        "description": "The FDA investigates VeriChip's misrepresentations.",
         "title": "The Case of the Human RFID Chip"
-    }, 
+    },
     {
-        "link": "https://www.techdirt.com/articles/20160629/08271934861/illinois-court-says-states-cyberstalking-law-is-unconstitutional.shtml", 
-        "description": "Illinois Court Says State's Cyberstalking Law Is Unconstitutional due to missing 'intent'.", 
+        "link": "https://www.techdirt.com/articles/20160629/08271934861/illinois-court-says-states-cyberstalking-law-is-unconstitutional.shtml",
+        "description": "Illinois Court Says State's Cyberstalking Law Is Unconstitutional due to missing 'intent'.",
         "title": "The Case of the Unconstitutional Cyberstalking Law"
-    }, 
+    },
     {
-        "link": "http://www.onlineethics.org/CMS/computers/compcases/killerrobot.aspx", 
-        "description": "Factory robot kills worker while he tries to read a manual about how to stop it.", 
+        "link": "http://www.onlineethics.org/CMS/computers/compcases/killerrobot.aspx",
+        "description": "Factory robot kills worker while he tries to read a manual about how to stop it.",
         "title": "The Case of the Killer Robot"
-    }, 
+    },
     {
-        "link": "https://consumermediallc.files.wordpress.com/2016/08/highsmith-v-getty-images.pdf", 
-        "description": "Carol Highsmith sues Getty Images for profiting off of her donation.", 
+        "link": "https://consumermediallc.files.wordpress.com/2016/08/highsmith-v-getty-images.pdf",
+        "description": "Carol Highsmith sues Getty Images for profiting off of her donation.",
         "title": "The Case of the Misappropriated Public Domain Images"
-    }, 
+    },
     {
-        "link": "http://embeddedgurus.com/barr-code/2014/03/lethal-software-defects-patriot-missile-failure/", 
-        "description": "A Scud missile was not intercepted, consequentially killing 28 Army soldiers.", 
+        "link": "http://embeddedgurus.com/barr-code/2014/03/lethal-software-defects-patriot-missile-failure/",
+        "description": "A Scud missile was not intercepted, consequentially killing 28 Army soldiers.",
         "title": "The Case of the Patriot Missile Timing Problem"
-    }, 
+    },
     {
-        "link": "https://consumermediallc.files.wordpress.com/2016/07/bitmanagementcompt.pdf", 
-        "description": "Bitmanagement sues USA Navy for circumventing 3D virtual reality software trial period.", 
+        "link": "https://consumermediallc.files.wordpress.com/2016/07/bitmanagementcompt.pdf",
+        "description": "Bitmanagement sues USA Navy for circumventing 3D virtual reality software trial period.",
         "title": "The Case of the Pirated Software"
-    }, 
+    },
     {
-        "link": "http://gotaclassaction.com/progressive-insurance-named-in-class-action-lawsuit-over-its-snapshot-usage-based-insurance-program/", 
-        "description": "Customers claim the device drains their car battery.", 
+        "link": "http://gotaclassaction.com/progressive-insurance-named-in-class-action-lawsuit-over-its-snapshot-usage-based-insurance-program/",
+        "description": "Customers claim the device drains their car battery.",
         "title": "The Case of the Progressive Snapshot"
-    }, 
+    },
     {
-        "link": "http://www.chinalaborwatch.org/upfile/2014_02_07/20140206QuantaShanghaiManufacturingCity.pdf", 
-        "description": "HP exposed 15 sets of labor violations.", 
+        "link": "http://www.chinalaborwatch.org/upfile/2014_02_07/20140206QuantaShanghaiManufacturingCity.pdf",
+        "description": "HP exposed 15 sets of labor violations.",
         "title": "The Case of Quanta Factory Labor Violations"
-    }, 
+    },
     {
-        "link": "http://www.mirror.co.uk/news/uk-news/alton-towers-trial-recap-court-7805130", 
-        "description": "Staff overrode computer safety system before Smiler rollercoaster crashed.", 
+        "link": "http://www.mirror.co.uk/news/uk-news/alton-towers-trial-recap-court-7805130",
+        "description": "Staff overrode computer safety system before Smiler rollercoaster crashed.",
         "title": "The Case of the Roller Coaster Crash"
-    }, 
+    },
     {
-        "link": "http://www.mirror.co.uk/news/weird-news/notorious-runaway-robot-escaped-lab-8846563", 
-        "description": "Notorious runaway robot arrested by police for alledgedly recording voters' opinions.", 
+        "link": "http://www.mirror.co.uk/news/weird-news/notorious-runaway-robot-escaped-lab-8846563",
+        "description": "Notorious runaway robot arrested by police for alledgedly recording voters' opinions.",
         "title": "The Case of the Runaway Robot"
-    }, 
+    },
     {
-        "link": "http://www.digitaltrends.com/mobile/samsung-halts-galaxy-note-7-shipments-phones-catching-fire/e", 
-        "description": "Exploding phones are recalled amid  bribery, embezzlement, and perjury scandal.", 
+        "link": "http://www.digitaltrends.com/mobile/samsung-halts-galaxy-note-7-shipments-phones-catching-fire/", 
+        "description": "Exploding phones are recalled amid  bribery, embezzlement, and perjury scandal.",
         "title": "The Case of the Samsung Note 7 Explosions"
-    }, 
+    },
     {
-        "link": "http://www.macrumors.com/2016/02/11/apple-facing-error-53-class-action-lawsuit/", 
-        "description": "Apple Faced Class Action Lawsuit Over 'Error 53' iPhone 6 Bricking.", 
+        "link": "http://www.macrumors.com/2016/02/11/apple-facing-error-53-class-action-lawsuit/",
+        "description": "Apple Faced Class Action Lawsuit Over 'Error 53' iPhone 6 Bricking.",
         "title": "The Case of the Self-destructing iPhone"
-    }, 
+    },
     {
-        "link": "http://www.slate.com/articles/technology/future_tense/2016/09/how_tesla_s_software_update_fixed_a_deadly_flaw_in_autopilot.html", 
-        "description": "Telsa revises car autopilot to avoid fatal crashes. ", 
+        "link": "http://www.slate.com/articles/technology/future_tense/2016/09/how_tesla_s_software_update_fixed_a_deadly_flaw_in_autopilot.html",
+        "description": "Telsa revises car autopilot to avoid fatal crashes. ",
         "title": "The Case of the Deadly Autopilot Flaw"
-    }, 
+    },
     {
-        "link": "http://www.americanbanker.com/bankthink/one-year-after-target-breach-consumers-vulnerable-as-ever-1071750-1.html", 
-        "description": "Hackers collected data from 70 million Target customers.", 
+        "link": "http://www.americanbanker.com/bankthink/one-year-after-target-breach-consumers-vulnerable-as-ever-1071750-1.html",
+        "description": "Hackers collected data from 70 million Target customers.",
         "title": "The Case of the Target Data Breach"
-    }, 
+    },
     {
-        "link": "https://www.ftc.gov/enforcement/cases-proceedings/refunds/volkswagen-settlement", 
-        "description": "Federal Trade Commission sues VW over false clean diesel claims.", 
+        "link": "https://www.ftc.gov/enforcement/cases-proceedings/refunds/volkswagen-settlement",
+        "description": "Federal Trade Commission sues VW over false clean diesel claims.",
         "title": "The Case of the Volkswagen Secret Software"
-    }, 
+    },
     {
-        "link": "http://usatoday30.usatoday.com/news/nation/story/2012/09/12/couples-case-raises-questions-about-privacy-surveillance/57753902/1", 
-        "description": "Recordings discovered during divorce proceedings concern federal court over growing use of surveillance tech and privacy in the 21st C.", 
+        "link": "http://usatoday30.usatoday.com/news/nation/story/2012/09/12/couples-case-raises-questions-about-privacy-surveillance/57753902/1",
+        "description": "Recordings discovered during divorce proceedings concern federal court over growing use of surveillance tech and privacy in the 21st C.",
         "title": "The Case of the Zhang Divorce"
     }
 ]
