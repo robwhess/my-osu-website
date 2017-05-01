@@ -112,6 +112,25 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 5,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Privacy'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://plato.stanford.edu/entries/it-privacy/">Privacy and Information Technology</a> &ndash; Stanford Encyclopedia of Philosophy',
+            '<a href="http://www.npr.org/2017/03/28/521831393/congress-overturns-internet-privacy-regulation">Congress Overturns Internet Privacy Regulation</a> &ndash; NPR',
+            '<a href="https://www.nytimes.com/2017/04/28/us/politics/nsa-surveillance-terrorism-privacy.html?_r=0">N.S.A. Halts Collection of Americans\' Emails About Foreign Targets</a> &ndash; NY Times'
+          ]
+        }
+      ]
     }
   ],
 

@@ -119,6 +119,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 5,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'JavaScript DOM Manipulation'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">Introduction to the DOM</a> &ndash; MDN',
+            '<a href="http://eloquentjavascript.net/13_dom.html">The Document Object Model</a> &ndash; Eloquent Javascript, Chapter 13'
+          ]
+        }
+      ]
     }
   ],
 
