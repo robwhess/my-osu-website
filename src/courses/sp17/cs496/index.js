@@ -1,4 +1,5 @@
 import { generateSitePath } from '../../../lib/SitePath';
+import FinalProjectProposalPage from './FinalProjectProposalPage';
 
 var courseDetails = {
   number: 'CS 496',
@@ -139,7 +140,9 @@ var courseDetails = {
           heading: 'Readings',
           entriesHTML: [
             '<a href="https://developer.android.com/training/basics/firstapp/starting-activity.html">Start Another Activity</a> &ndash; Android Developers',
-            '<a href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> &ndash; Android Developers'
+            '<a href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/training/basics/intents/sending.html">Sending the User to Another App</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/training/sharing/index.html">Sharing Simple Data</a> &ndash; Android Developers'
           ]
         }
       ]
@@ -147,7 +150,7 @@ var courseDetails = {
   ],
 
   assignments: {
-    preamble: "<p> Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a <code>README.md</code> file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.</p>",
+    preambleHTML: "<p> Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a <code>README.md</code> file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.</p>",
     assignments: [
       {
         link : 'https://classroom.github.com/assignment-invitations/0192703fc2e58909c9325671d4f83a82',
@@ -166,6 +169,20 @@ var courseDetails = {
         ]
       }
     ]
+  },
+
+  finalProject: {
+    preambleHTML: "<p>For the final project in this course, you will work in teams to implement a complete Android app that gets data from a third-party API.  The project will have two deliverables: a proposal, where you outline the app you'd like to write; and an implementation of your app.  Follow the links below to find out more about each of these deliverables.</p>",
+    assignments: [
+      {
+        title: 'Final Project Proposal',
+        subPage: 'final-project-proposal'
+      }
+    ]
+  },
+
+  subPages: {
+    'final-project-proposal': FinalProjectProposalPage
   }
 };
 

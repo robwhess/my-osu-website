@@ -136,7 +136,7 @@ var courseDetails = {
   ],
 
   assignments: {
-    preamble: "<p></p>",
+    preambleHTML: "<p></p>",
     assignments: [
       {
         title: 'Applying an ethical framework',

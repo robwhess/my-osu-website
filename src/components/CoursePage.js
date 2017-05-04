@@ -32,6 +32,7 @@ class CoursePage extends Component {
   generateAssignmentComponent(assignment, key) {
     var { match } = this.props;
     var matchURLWithSlash = match.url.replace(/\/$/, '') + '/';
+
     var assignmentLinkComponent = null;
     if (assignment.link) {
       assignmentLinkComponent = <a href={assignment.link}>{assignment.title}</a>;
@@ -43,14 +44,21 @@ class CoursePage extends Component {
       assignmentLinkComponent = assignment.title;
     }
 
+    var assignmentNotesComponent = null;
+    if (assignment.notesHTML) {
+      assignmentNotesComponent = (
+        <ul>
+          {assignment.notesHTML.map((noteHTML, i) => (
+            <li key={i} dangerouslySetInnerHTML={{ __html: noteHTML }} />
+          ))}
+        </ul>
+      );
+    }
+
     return (
       <li key={key}>
         {assignmentLinkComponent}
-        <ul>
-          {assignment.notesHTML.map((noteHTML, j) => (
-            <li key={j} dangerouslySetInnerHTML={{ __html: noteHTML }} />
-          ))}
-        </ul>
+        {assignmentNotesComponent}
       </li>
     );
   }
@@ -77,7 +85,23 @@ class CoursePage extends Component {
   }
 
   render() {
-    var { number, title, term, essentials, calendar, assignments } = this.props.courseData;
+
+    var { number, title, term, essentials, calendar, assignments, finalProject } = this.props.courseData;
+
+    var finalProjectComponent = null;
+    if (finalProject) {
+      finalProjectComponent = (
+        <section className="assignments">
+          <a name="final-project" />
+          <h2>Final Project</h2>
+          <div dangerouslySetInnerHTML={{ __html: finalProject.preambleHTML }} />
+          <ul>
+            {finalProject.assignments.map(this.generateAssignmentComponent.bind(this))}
+          </ul>
+        </section>
+      );
+    }
+
     return (
       <PageContent contentClassName="course-page">
         <Helmet title={number} />
@@ -99,16 +123,19 @@ class CoursePage extends Component {
           </div>
         </section>
 
-        <a name="assignments" />
         <section className="assignments">
+          <a name="assignments" />
           <h2>Assignments</h2>
-          <div dangerouslySetInnerHTML={{ __html: assignments.preamble }} />
+          <div dangerouslySetInnerHTML={{ __html: assignments.preambleHTML }} />
           <ul>
             {assignments.assignments.map(this.generateAssignmentComponent.bind(this))}
           </ul>
         </section>
+
+        {finalProjectComponent}
       </PageContent>
     );
+
   }
 }
 
