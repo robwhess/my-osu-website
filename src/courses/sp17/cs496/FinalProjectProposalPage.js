@@ -54,7 +54,10 @@ class FinalProjectProposalPage extends Component {
 
           <h2>Submitting your proposal</h2>
           <p>
-            To submit your proposal, you should save it as a PDF and upload it to Canvas before the due date.  Please submit only one copy of your proposal for your entire team.  Note that you may receive feedback on your submission asking you to change or clarify particular pieces of the proposal.  You should be prepared for this.
+            Before submitting your proposal, you'll have to form your team as a Canvas group.  To do this, you can go to the "People" section of our Canvas course and navigate to the "Groups" tab.  You should see several groups starting with "Final Project Group".  You can choose one of these groups to use for your team.  If you're the first person to sign up for a group, you should be able to manage the membership of that group and add your teammates.
+          </p>
+          <p>
+            To submit your proposal, you should save it as a PDF and upload it to Canvas under the appropriate assignment before the due date.  Please submit only one copy of your proposal for your entire team.  Note that you may receive feedback on your submission asking you to change or clarify particular pieces of the proposal.  You should be prepared for this.
           </p>
 
           <h2>Some APIs you could use</h2>

@@ -176,7 +176,10 @@ var courseDetails = {
     assignments: [
       {
         title: 'Final Project Proposal',
-        subPage: 'final-project-proposal'
+        subPage: 'final-project-proposal',
+        notesHTML: [
+          'Due <a href="https://oregonstate.instructure.com/courses/1627342/assignments/6999157"><strong>on Canvas</strong></a> by 11:59pm on Friday 5/19/2017'
+        ]
       }
     ]
   },
