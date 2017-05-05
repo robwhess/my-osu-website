@@ -126,7 +126,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'JavaScript DOM Manipulation'
+            'JavaScript DOM Manipulation &ndash; <a href="https://docs.google.com/document/d/166D2inrjYSFJZQdcS42UMY2MHU6k2TosY_yRlLRg7Uc/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js-dom-manipulation">example code</a>'
           ]
         },
         {
