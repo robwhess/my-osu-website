@@ -44,7 +44,7 @@ class FinalProjectProposalPage extends Component {
           </p>
 
           <ul>
-            <li>A list of all of the members of your team.</li>
+            <li>A list of all of the members of your team.  You should aim to have 3 or 4 people on your team.</li>
             <li>A high-level description of what your app will do.</li>
             <li>A description of the third-party API you will use.</li>
             <li>An explanation of the specific API methods you will use in your app and a description of how that data from those methods will be used in your app or what data will be sent from your app to the API.</li>
