@@ -141,6 +141,7 @@ var courseDetails = {
           entriesHTML: [
             '<a href="https://developer.android.com/training/basics/firstapp/starting-activity.html">Start Another Activity</a> &ndash; Android Developers',
             '<a href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/topics/ui/menus.html">Menus</a> &ndash; Android Developers',
             '<a href="https://developer.android.com/training/basics/intents/sending.html">Sending the User to Another App</a> &ndash; Android Developers',
             '<a href="https://developer.android.com/training/sharing/index.html">Sharing Simple Data</a> &ndash; Android Developers'
           ]
