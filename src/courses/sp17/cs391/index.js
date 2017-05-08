@@ -133,6 +133,23 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 6,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Intellectual Property &ndash; <a href="https://docs.google.com/document/d/1r_AwMzclmqfSoq8_Xhv3gWzqpE2B1enFH03Y4OQHQUU/edit?usp=sharing">notes</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="http://www.wipo.int/about-ip/en/">What is Intellectual Property</a> &ndash; World Intellectual Property Organization'
+          ]
+        }
+      ]
     }
   ],
 
