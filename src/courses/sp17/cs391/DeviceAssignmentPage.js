@@ -43,7 +43,7 @@ class DeviceAssignmentPage extends Component {
               <div key={i} className="article">
                 <div className="article-title">{device.name}</div>
                 <div className="article-image-container">
-                  <img src={device.img} />
+                  <img src={device.img} alt={device.name} />
                 </div>
                 <div className="description">
                   {device.description}
