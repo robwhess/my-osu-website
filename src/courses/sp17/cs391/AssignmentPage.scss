@@ -53,5 +53,12 @@
       font-size: 20px;
       font-weight: 500;
     }
+
+    .article-image-container {
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+    }
   }
 }

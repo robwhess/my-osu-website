@@ -1,6 +1,7 @@
 import { generateSitePath } from '../../../lib/SitePath';
 import EthicalTheoriesAssignmentPage from './EthicalTheoriesAssignmentPage';
 import AccountabilityAssignmentPage from './AccountabilityAssignmentPage';
+import DeviceAssignmentPage from './DeviceAssignmentPage';
 
 var courseDetails = {
   number: 'CS 391',
@@ -151,13 +152,21 @@ var courseDetails = {
         notesHTML: [
           'Due via Canvas at 11:59pm on Monday, 5/1/2017'
         ]
+      },
+      {
+        title: 'The journey of a device',
+        subPage: 'devices',
+        notesHTML: [
+          'Due via Canvas at 11:59pm on Monday, 5/22/2017'
+        ]
       }
     ]
   },
 
   subPages: {
     'ethical-theories': EthicalTheoriesAssignmentPage,
-    'accountability': AccountabilityAssignmentPage
+    'accountability': AccountabilityAssignmentPage,
+    'devices': DeviceAssignmentPage
   }
 };
 
