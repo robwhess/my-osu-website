@@ -196,7 +196,7 @@ var courseDetails = {
     preambleHTML: "<p>For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.</p>",
     assignments: [
       {
-        title: 'Final Project',
+        title: 'Final Project Description',
         link: 'https://docs.google.com/document/d/17gPYAuI1xME3_YF5W96B2AyU1ORB9NV9I-9Id_LKYDo/edit?usp=sharing'
       }
     ]
