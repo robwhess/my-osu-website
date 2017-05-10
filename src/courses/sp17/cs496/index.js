@@ -147,6 +147,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 6,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'The Activity Lifecycle'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/guide/components/activities/activity-lifecycle.html">The Activity Lifecycle</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/components/activities/state-changes.html">Activity State Changes</a> &ndash; Android Developers'
+          ]
+        }
+      ]
     }
   ],
 
