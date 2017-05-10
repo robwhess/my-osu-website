@@ -25,7 +25,7 @@ var courseDetails = {
     },
     {
       title: 'Grading Hours',
-      infoHTML: 'Jake: <a href="http://doodle.com/poll/n9gsd9zbgmvikn77">Sign up here</a> (KEC Atrium)'
+      infoHTML: 'Jake: <a href="http://doodle.com/poll/k3c2g3an48ms4y5t">Sign up here</a> (KEC Atrium)'
     },
     {
       title: 'Syllabus',
