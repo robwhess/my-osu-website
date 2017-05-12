@@ -144,7 +144,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1JW9Stt44SDDjvVR3lx4uLknBPRSC1qgMYstoeoANSUo/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js-events">example code</a> &ndash; <a href="https://jsfiddle.net/robwhess/kmo8ksm4/">JSFiddle event handling and DOM manipulation demo</a>'
+            'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1JW9Stt44SDDjvVR3lx4uLknBPRSC1qgMYstoeoANSUo/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js-events">example code</a> &ndash; <a href="https://jsfiddle.net/robwhess/kmo8ksm4/">JSFiddle event handling and DOM manipulation demo</a> &ndash; <a href="https://jsfiddle.net/robwhess/e3bzs31j/">JSFiddle forms demo</a>'
           ]
         },
         {
