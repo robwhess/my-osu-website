@@ -186,6 +186,14 @@ var courseDetails = {
           'Assignment due by 11:59pm, Monday 5/8/2017',
           'Demo due by 11:59pm on Monday, 5/22/2017'
         ]
+      },
+      {
+        link : 'https://classroom.github.com/assignment-invitations/a245f4dc8c45c057e0eab16d0ce70aab',
+        title: 'Assignment 3 – The activity lifecycle and AsyncTaskLoader',
+        notesHTML: [
+          'Assignment due by 11:59pm, Monday 5/22/2017',
+          'Demo due by 11:59pm on Monday, 6/4/2017'
+        ]
       }
     ]
   },
