@@ -154,7 +154,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'The Activity Lifecycle'
+            'The Activity Lifecycle &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/LifecycleLogging">example code</a>'
           ]
         },
         {
