@@ -24,9 +24,8 @@ var taInfo = {
       email: "pathaks@oregonstate.edu",
       officeHours: [ "Th 9:00–11:00am" ],
       gradingHours: [
-        "MW 8:00–9:00am",
-        "MWF 10:00–11:00am",
-        "Tu 9:00–11:00am"
+        "MW 8:00–9:00am, 10:00am-12:00pm",
+        "Th 8:00–9:00am"
       ],
       gradingHoursPollLink: "https://doodle.com/poll/t7ssf5b46vsp476c"
     },
