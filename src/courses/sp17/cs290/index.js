@@ -206,6 +206,15 @@ var courseDetails = {
           'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/15/2017',
           'Demo due by 11:59pm on Monday, 5/29/2017'
         ]
+      },
+      {
+        link : 'https://classroom.github.com/assignment-invitations/88293175bded5b60b1b82b50c50927dc',
+        title: 'Assignment 4 - Simple Node.js-based file server',
+        notesHTML: [
+          'Assignment due by 11:59pm, Monday 5/22/2017',
+          'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/22/2017',
+          'Demo due by 11:59pm on Friday, 6/9/2017'
+        ]
       }
     ]
   },
