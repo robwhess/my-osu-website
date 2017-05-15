@@ -163,7 +163,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1fDUYKsdWBGEb0OTv-eN_PcUKmJaSqxRR2xc2Ec1myUA/edit?usp=sharing">notes</a>'
+            'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1fDUYKsdWBGEb0OTv-eN_PcUKmJaSqxRR2xc2Ec1myUA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/nodejs-basics">example code</a>'
           ]
         },
         {
