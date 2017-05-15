@@ -156,6 +156,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 7,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1fDUYKsdWBGEb0OTv-eN_PcUKmJaSqxRR2xc2Ec1myUA/edit?usp=sharing">notes</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="http://eloquentjavascript.net/20_node.html">Jode.js</a> &ndash; Eloquent Javascript, Chapter 20',
+            '<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">The Art of Node</a>'
+          ]
+        }
+      ]
     }
   ],
 
