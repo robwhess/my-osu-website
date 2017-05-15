@@ -165,6 +165,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 7,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Loaders and AsyncTaskLoader'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/guide/components/loaders.html">Loaders</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/reference/android/content/AsyncTaskLoader.html">AsyncTaskLoader</a> &ndash; Android Developers'
+          ]
+        }
+      ]
     }
   ],
 
