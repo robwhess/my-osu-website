@@ -154,14 +154,15 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'The Activity Lifecycle &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/LifecycleLogging">example code</a>'
+            'The Activity Lifecycle and Loaders &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/LifecycleLogging">example code</a>'
           ]
         },
         {
           heading: 'Readings',
           entriesHTML: [
             '<a href="https://developer.android.com/guide/components/activities/activity-lifecycle.html">The Activity Lifecycle</a> &ndash; Android Developers',
-            '<a href="https://developer.android.com/guide/components/activities/state-changes.html">Activity State Changes</a> &ndash; Android Developers'
+            '<a href="https://developer.android.com/guide/components/activities/state-changes.html">Activity State Changes</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/guide/components/activities/tasks-and-back-stack.html">Tasks and Back Stack</a> &ndash; Android Developers'
           ]
         }
       ]
@@ -172,7 +173,7 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Loaders and AsyncTaskLoader'
+            'The Activity Lifecycle and Loaders &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearchWithLifecycle">example code</a>'
           ]
         },
         {
