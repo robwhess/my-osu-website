@@ -213,7 +213,7 @@ var courseDetails = {
         notesHTML: [
           'Assignment due by 11:59pm, Monday 5/22/2017',
           'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/22/2017',
-          'Demo due by 11:59pm on Friday, 6/9/2017'
+          '<b>NO DEMO for this assignment</b>'
         ]
       }
     ]
