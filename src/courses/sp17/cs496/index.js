@@ -184,6 +184,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 8,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Storing Prefs with SharedPreferences &ndash; <a href="https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearchWithPreferences">example code</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/guide/topics/ui/settings.html">Settings</a> &ndash; Android Developers',
+            '<a href="https://developer.android.com/training/basics/data-storage/shared-preferences.html">Saving Key-Value Sets</a> &ndash; Android Developers'
+          ]
+        }
+      ]
     }
   ],
 
