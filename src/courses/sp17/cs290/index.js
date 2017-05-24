@@ -183,7 +183,7 @@ var courseDetails = {
           heading: 'Topics',
           entriesHTML: [
             'Packages and npm &ndash; <a href="https://docs.google.com/document/d/14NgVlxruAz_oAbeJ037AZKIVAxRarlfWyRXPjgbgwB8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/nodejs-basics">example code</a>',
-            'Express Basics'
+            'Express Basics &ndash; <a href="https://github.com/OSU-CS290-Sp2017/express-middleware-demo">example code</a>'
           ]
         },
         {
