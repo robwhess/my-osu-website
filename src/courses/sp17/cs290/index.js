@@ -240,6 +240,15 @@ var courseDetails = {
           'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/22/2017',
           '<b>NO DEMO for this assignment</b>'
         ]
+      },
+      {
+        link : 'https://classroom.github.com/assignment-invitations/178c0738221464fa4eeccfcd38f2123b',
+        title: 'Assignment 5 - Dynamic content with Express and Handlebars',
+        notesHTML: [
+          'Assignment due by 11:59pm, Monday 6/4/2017',
+          'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 6/4/2017',
+          '<b>NO DEMO for this assignment</b>'
+        ]
       }
     ]
   },
