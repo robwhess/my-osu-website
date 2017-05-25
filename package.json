@@ -23,6 +23,6 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && rsync -avz build/ flip.engr.oregonstate.edu:public_html/"
+    "deploy": "npm run build && rsync -avz --delete build/ flip.engr.oregonstate.edu:public_html/"
   }
 }
