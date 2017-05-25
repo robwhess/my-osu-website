@@ -229,7 +229,15 @@ var courseDetails = {
         title: 'Assignment 3 – The activity lifecycle and AsyncTaskLoader',
         notesHTML: [
           'Assignment due by 11:59pm, Monday 5/22/2017',
-          'Demo due by 11:59pm on Monday, 6/4/2017'
+          'Demo due by 11:59pm on Monday, 6/5/2017'
+        ]
+      },
+      {
+        link : 'https://classroom.github.com/assignment-invitations/99a4d6d179aa94f6fd3eddb9a5cd13c9',
+        title: 'Assignment 4 – SharedPreferences',
+        notesHTML: [
+          'Assignment due by 11:59pm, Monday 6/5/2017',
+          'Demo due by 11:59pm on Friday, 6/16/2017'
         ]
       }
     ]
