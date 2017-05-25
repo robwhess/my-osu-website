@@ -2,6 +2,7 @@ import { generateSitePath } from '../../../lib/SitePath';
 import EthicalTheoriesAssignmentPage from './EthicalTheoriesAssignmentPage';
 import AccountabilityAssignmentPage from './AccountabilityAssignmentPage';
 import DeviceAssignmentPage from './DeviceAssignmentPage';
+import DiversityAssignmentPage from './DiversityAssignmentPage';
 
 var courseDetails = {
   number: 'CS 391',
@@ -176,6 +177,13 @@ var courseDetails = {
         notesHTML: [
           'Due via Canvas at 11:59pm on Monday, 5/22/2017'
         ]
+      },
+      {
+        title: 'Examining a company\'s approach to diversity',
+        subPage: 'diversity',
+        notesHTML: [
+          'Due via Canvas at 11:59pm on Monday, 6/5/2017'
+        ]
       }
     ]
   },
@@ -183,7 +191,8 @@ var courseDetails = {
   subPages: {
     'ethical-theories': EthicalTheoriesAssignmentPage,
     'accountability': AccountabilityAssignmentPage,
-    'devices': DeviceAssignmentPage
+    'devices': DeviceAssignmentPage,
+    'diversity': DiversityAssignmentPage
   }
 };
 
