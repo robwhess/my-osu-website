@@ -200,6 +200,29 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 9,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Rendering Dynamic Content with Handlebars &ndash; <a href="https://github.com/OSU-CS290-Sp2017/express-handlebars">example code</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://expressjs.com/en/guide/using-middleware.html">Using middleware</a> &ndash; Express docs',
+            '<a href="https://expressjs.com/en/guide/routing.html">Routing</a> &ndash; Express docs',
+            '<a href="http://handlebarsjs.com/expressions.html">Expressions</a> &ndash; Handlebars docs',
+            '<a href="http://handlebarsjs.com/builtin_helpers.html">Build-In Helpers</a> &ndash; Handlebars docs',
+            '<a href="http://handlebarsjs.com/partials.html">Partials</a> &ndash; Handlebars docs',
+            '<a href="https://github.com/ericf/express-handlebars/#readme">Express Handlebars</a> &ndash; GitHub',
+            '<a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Model-view-controller</a> &ndash; Wikipedia'
+          ]
+        }
+      ]
     }
   ],
 
