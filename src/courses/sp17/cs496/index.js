@@ -255,6 +255,13 @@ var courseDetails = {
         notesHTML: [
           'Due <a href="https://oregonstate.instructure.com/courses/1627342/assignments/6999157"><strong>on Canvas</strong></a> by 11:59pm on Friday 5/19/2017'
         ]
+      },
+      {
+        link : 'https://docs.google.com/document/d/1Vy3Wf-EF07toFLEILzmx4buSc5PzlcnrfweHHkmB_9k/edit?usp=sharing',
+        title: 'Final Project Guidelines',
+        notesHTML: [
+          'Code and demo due by 11:59pm on Friday, 6/16/2017'
+        ]
       }
     ]
   },
