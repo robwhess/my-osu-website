@@ -205,6 +205,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 9,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Storing Data with SQLite &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearchWithSQLite">example code</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/training/basics/data-storage/databases.html">Saving Data in SQL Databases</a> &ndash; Android Developers',
+            '<a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>'
+          ]
+        }
+      ]
     }
   ],
 
