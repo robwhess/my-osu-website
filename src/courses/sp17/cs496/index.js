@@ -25,7 +25,7 @@ var courseDetails = {
     },
     {
       title: 'Grading Hours',
-      infoHTML: 'Jake: <a href="http://doodle.com/poll/8zbuye5zr8amrc83">Sign up here</a> (KEC Atrium)'
+      infoHTML: 'Jake: <a href="http://doodle.com/poll/w9nnqfx3sc2g39k6">Sign up here</a> (KEC Atrium)'
     },
     {
       title: 'Syllabus',
@@ -279,6 +279,14 @@ var courseDetails = {
         title: 'Final Project Guidelines',
         notesHTML: [
           'Code and demo due by 11:59pm on Friday, 6/16/2017'
+        ]
+      },
+      {
+        link : 'https://doodle.com/poll/5nywxgfakmucfddf',
+        title: 'Final Project Demo Signup',
+        notesHTML: [
+          'Sign up for a Final Project demo using the link above',
+          'Sign up for one slot per team'
         ]
       }
     ]
