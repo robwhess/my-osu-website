@@ -3,6 +3,7 @@ import EthicalTheoriesAssignmentPage from './EthicalTheoriesAssignmentPage';
 import AccountabilityAssignmentPage from './AccountabilityAssignmentPage';
 import DeviceAssignmentPage from './DeviceAssignmentPage';
 import DiversityAssignmentPage from './DiversityAssignmentPage';
+import ProfessionalEthicsAssignmentPage from './ProfessionalEthicsAssignmentPage';
 
 var courseDetails = {
   number: 'CS 391',
@@ -184,6 +185,13 @@ var courseDetails = {
         notesHTML: [
           'Due via Canvas at 11:59pm on Monday, 6/5/2017'
         ]
+      },
+      {
+        title: 'Professional ethics',
+        subPage: 'professional-ethics',
+        notesHTML: [
+          'Due via Canvas at 2:00pm on Thursday, 6/15/2017'
+        ]
       }
     ]
   },
@@ -192,7 +200,8 @@ var courseDetails = {
     'ethical-theories': EthicalTheoriesAssignmentPage,
     'accountability': AccountabilityAssignmentPage,
     'devices': DeviceAssignmentPage,
-    'diversity': DiversityAssignmentPage
+    'diversity': DiversityAssignmentPage,
+    'professional-ethics': ProfessionalEthicsAssignmentPage
   }
 };
 
