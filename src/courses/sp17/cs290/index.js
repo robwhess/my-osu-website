@@ -289,7 +289,8 @@ var courseDetails = {
         title: 'Final Project Demo Signup',
         notesHTML: [
           'Sign up for a Final Project demo using the link above',
-          'Sign up for one slot per team'
+          'Sign up for one slot per team',
+          'Code is due on GitHub when when you do your demo'
         ]
       }
     ]
