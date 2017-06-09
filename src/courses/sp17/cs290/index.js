@@ -230,7 +230,8 @@ var courseDetails = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Client-Server Communication &ndash; <a href="https://github.com/OSU-CS290-Sp2017/simple-api-server">example code</a>'
+            'Client-Server Communication &ndash; <a href="https://github.com/OSU-CS290-Sp2017/simple-api-server">example code</a>',
+            'MongoDB &ndash; <a href="https://github.com/OSU-CS290-Sp2017/simple-mongo-server">example code</a>'
           ]
         },
         {
