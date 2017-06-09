@@ -223,6 +223,24 @@ var courseDetails = {
           ]
         }
       ]
+    },
+    {
+      week: 10,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'A Photo Gallery App &ndash; <a href="https://github.com/OSU-CS496-Sp2017/PhotosApp">example code</a>'
+          ]
+        },
+        {
+          heading: 'Readings',
+          entriesHTML: [
+            '<a href="https://developer.android.com/training/implementing-navigation/lateral.html">Creating Swipe Views with Tabs</a> &ndash; Android Developers',
+            '<a href="http://bumptech.github.io/glide/">Glide documentation</a>'
+          ]
+        }
+      ]
     }
   ],
 
