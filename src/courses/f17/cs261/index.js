@@ -4,7 +4,7 @@ import CS261CourseNotes from '../../../files/CS261CourseNotes.pdf';
 
 var courseDetails = {
   number: 'CS 261',
-  title: 'Web Development',
+  title: 'Data Structures',
   term: 'Fall 2017',
 
   essentials: [
