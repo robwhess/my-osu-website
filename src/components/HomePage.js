@@ -46,8 +46,8 @@ class HomePage extends Component {
           <h2>About Me</h2>
           <p>
             In my past life, I was an engineer on the Yahoo Machine Learning and
-            Vision team, where I got to work on researching, designing, and
-            deploying some <a
+            Vision team, where I got to research, design, and
+            deploy some <a
             href="http://code.flickr.net/2014/10/20/introducing-flickr-park-or-bird/"
             target="_blank">very cool technologies</a> at <a
             href="http://code.flickr.net/2014/05/20/computer-vision-at-scale-with-hadoop-and-storm/"

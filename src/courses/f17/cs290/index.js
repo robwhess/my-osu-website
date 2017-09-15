@@ -18,7 +18,7 @@ var courseDetails = {
     },
     {
       title: 'Lectures',
-      infoHTML: 'MWF 3:00&ndash;3:50am, LINC 210'
+      infoHTML: 'MWF 3:00&ndash;3:50pm, LINC 210'
     },
     {
       title: 'Office Hours',
