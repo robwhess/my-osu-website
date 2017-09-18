@@ -64,7 +64,7 @@ var courseDetails = {
         {
           heading: 'Readings',
           entriesHTML: [
-            '<a href="' + CS261CourseNotes + '">Chapters 1&ndash;3</a> &ndash; Budd\'s Course Notes',
+            '<a href="' + CS261CourseNotes + '#page=1">Chapters 1&ndash;3</a> &ndash; Budd\'s Course Notes',
             '<a href="https://git-scm.com/book/en/v2">Chapters 1 and 2</a> &ndash; Pro Git',
             '<a href="http://www.cprogramming.com/tutorial/c/lesson1.html">Lesson 1: Intro to C</a> &ndash; C Programming',
             '<a href="http://www.cprogramming.com/tutorial/c/lesson4.html">Lesson 4: Functions in C</a> &ndash; C Programming',
@@ -88,7 +88,7 @@ var courseDetails = {
         {
           heading: 'Readings',
           entriesHTML: [
-            '<a href="' + CS261CourseNotes + '">Chapter 4</a> &ndash; Budd\'s Course Notes',
+            '<a href="' + CS261CourseNotes + '#page=28">Chapter 4</a> &ndash; Budd\'s Course Notes',
             '<a href="https://en.wikipedia.org/wiki/Analysis_of_algorithms">Analysis of algorithms</a> &ndash; Wikipedia'
           ]
         }
