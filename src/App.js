@@ -76,7 +76,7 @@ class App extends Component {
               var data = courseData[match.params.course];
               if (data && data.subPages && data.subPages[match.params.subpage]) {
                 var SubPageComponent = data.subPages[match.params.subpage];
-                return <SubPageComponent />;
+                return <SubPageComponent match={match} courseData={data} />;
               } else {
                 return <NoMatchPage />;
               }

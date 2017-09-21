@@ -1,5 +1,5 @@
 import { generateSitePath } from '../../../lib/SitePath';
-import CS290TAInfoPage from './CS290TAInfoPage';
+import TAInfoPage from '../../../components/TAInfoPage';
 
 var courseDetails = {
   number: 'CS 290',
@@ -281,8 +281,24 @@ var courseDetails = {
   //   ]
   // },
 
+  TAInfo: {
+    officeHoursLocation: "KEC Atrium",
+    gradingHoursLocation: "KEC Atrium",
+    TAs: [
+      {
+        name: "TBA",
+        email: "tba@oregonstate.edu",
+        officeHours: [ "TBA" ],
+        gradingHours: [
+          "TBA"
+        ],
+        gradingHoursPollLink: "#"
+      }
+    ]
+  },
+
   subPages: {
-    'ta-info': CS290TAInfoPage
+    'ta-info': TAInfoPage
   }
 };
 

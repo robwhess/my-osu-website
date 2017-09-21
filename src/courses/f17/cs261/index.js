@@ -1,5 +1,5 @@
 import { generateSitePath } from '../../../lib/SitePath';
-import CS261TAInfoPage from './CS261TAInfoPage';
+import TAInfoPage from '../../../components/TAInfoPage';
 import CS261CourseNotes from '../../../files/CS261CourseNotes.pdf';
 
 var courseDetails = {
@@ -110,9 +110,32 @@ var courseDetails = {
     ]
   },
 
+  TAInfo: {
+    officeHoursLocation: "KEC Atrium",
+    gradingHoursLocation: "KEC Atrium",
+    TAs: [
+      {
+        name: "TBA",
+        email: "tba@oregonstate.edu",
+        officeHours: [ "TBA" ],
+        gradingHours: [
+          "TBA"
+        ],
+        gradingHoursPollLink: "#"
+      }
+    ]
+  },
+
   subPages: {
-    'ta-info': CS261TAInfoPage
-  }
+    'ta-info': TAInfoPage
+  },
+
+  subnavItems: [
+    {
+      subPage: 'ta-info',
+      title: 'TA Info'
+    }
+  ]
 };
 
 export default courseDetails;

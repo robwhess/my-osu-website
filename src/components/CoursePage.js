@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { Link, withRouter } from 'react-router-dom';
 
+import Navbar from './Navbar';
 import PageContent from './PageContent';
 import '../styles/CoursePage.css';
 
@@ -9,6 +10,36 @@ class CoursePage extends Component {
 
   static propTypes = {
     match: React.PropTypes.object.isRequired
+  }
+
+  generateSubnavComponent(subnavItems, courseNumber) {
+    var subnavComponent = null;
+
+    if (subnavItems) {
+
+      var { match } = this.props;
+      var matchURLWithoutSlash = match.url.replace(/\/$/, '');
+      var links = subnavItems.map((subnavItem) => {
+        var link = {
+          title: subnavItem.title
+        };
+        if (subnavItem.subPage) {
+          link.path = matchURLWithoutSlash + '/' + subnavItem.subPage;
+        }
+        return link;
+      });
+
+      links.push({
+        path: matchURLWithoutSlash,
+        title: courseNumber,
+        isHeading: true
+      });
+
+      subnavComponent = <Navbar links={links} subnav />;
+
+    }
+
+    return subnavComponent;
   }
 
   generateCalendarWeekComponent(week, key) {
@@ -86,7 +117,9 @@ class CoursePage extends Component {
 
   render() {
 
-    var { number, title, term, essentials, calendar, assignments, finalProject } = this.props.courseData;
+    var { number, title, term, essentials, calendar, assignments, finalProject, subnavItems } = this.props.courseData;
+
+    var subnavComponent = this.generateSubnavComponent(subnavItems, number);
 
     var finalProjectComponent = null;
     if (finalProject) {
@@ -103,37 +136,40 @@ class CoursePage extends Component {
     }
 
     return (
-      <PageContent contentClassName="course-page">
-        <Helmet title={number} />
-        <h1>{number} &ndash; {title}</h1>
-        <h3>{term}</h3>
+      <div>
+        {subnavComponent}
+        <PageContent contentClassName="course-page">
+          <Helmet title={number} />
+          <h1>{number} &ndash; {title}</h1>
+          <h3>{term}</h3>
 
-        <section className="info-table">
-          <table>
-            <tbody>
-              {essentials.map(this.generateEssentialsRowComponent.bind(this))}
-            </tbody>
-          </table>
-        </section>
+          <section className="info-table">
+            <table>
+              <tbody>
+                {essentials.map(this.generateEssentialsRowComponent.bind(this))}
+              </tbody>
+            </table>
+          </section>
 
-        <section className="calendar">
-          <h2>Course Calendar</h2>
-          <div className="calendar-weeks">
-            {calendar.map(this.generateCalendarWeekComponent)}
-          </div>
-        </section>
+          <section className="calendar">
+            <h2>Course Calendar</h2>
+            <div className="calendar-weeks">
+              {calendar.map(this.generateCalendarWeekComponent)}
+            </div>
+          </section>
 
-        <section className="assignments">
-          <a name="assignments" />
-          <h2>Assignments</h2>
-          <div dangerouslySetInnerHTML={{ __html: assignments.preambleHTML }} />
-          <ul>
-            {assignments.assignments.map(this.generateAssignmentComponent.bind(this))}
-          </ul>
-        </section>
+          <section className="assignments">
+            <a name="assignments" />
+            <h2>Assignments</h2>
+            <div dangerouslySetInnerHTML={{ __html: assignments.preambleHTML }} />
+            <ul>
+              {assignments.assignments.map(this.generateAssignmentComponent.bind(this))}
+            </ul>
+          </section>
 
-        {finalProjectComponent}
-      </PageContent>
+          {finalProjectComponent}
+        </PageContent>
+      </div>
     );
 
   }

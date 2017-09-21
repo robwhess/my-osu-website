@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
 import { courseData, coursesByTerm } from '../CourseData';
 import { generateSitePath } from '../lib/SitePath';
@@ -10,6 +11,7 @@ class TeachingPage extends Component {
   render() {
     return (
       <PageContent contentClassName="teaching-page">
+        <Helmet title="Teaching" />
         {coursesByTerm.map((term, i) => (
           <div className="teaching-term" key={i}>
             <h2>{term.term}</h2>

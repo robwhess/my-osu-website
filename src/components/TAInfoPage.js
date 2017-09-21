@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
-import PageContent from './PageContent';
+import CourseSubPage from './CourseSubPage';
 import '../styles/TAInfoPage.css';
 
 class TAInfoPage extends Component {
+
+  static propTypes = {
+    match: React.PropTypes.object.isRequired,
+    courseData: React.PropTypes.object.isRequired,
+  }
 
   generateHoursListComponent(hoursList) {
     if (hoursList) {
@@ -33,29 +38,27 @@ class TAInfoPage extends Component {
   }
 
   render() {
-    var { taInfo, parentPageInfo } = this.props;
-    var parentPageLink = null;
+    var { match, courseData } = this.props;
+    var TAInfo = courseData.TAInfo;
+
     var officeHoursLocationComponent = null;
-    var gradingHoursLocationComponent = null;
-    if (parentPageInfo) {
-      parentPageLink = <Link to={parentPageInfo.url}>&larr; Back to {parentPageInfo.name}</Link>
-    }
-    if (taInfo.officeHoursLocation) {
+    if (TAInfo.officeHoursLocation) {
       officeHoursLocationComponent = (
-        <span className="hours-location">({taInfo.officeHoursLocation})</span>
+        <span className="hours-location">({TAInfo.officeHoursLocation})</span>
       );
     }
-    if (taInfo.gradingHoursLocation) {
+
+    var gradingHoursLocationComponent = null;
+    if (TAInfo.gradingHoursLocation) {
       gradingHoursLocationComponent = (
-        <span className="hours-location">({taInfo.gradingHoursLocation})</span>
+        <span className="hours-location">({TAInfo.gradingHoursLocation})</span>
       );
     }
     return (
-      <PageContent contentClassName="ta-info-page">
+      <CourseSubPage contentClassName="ta-info-page" match={match} courseData={courseData}>
+        <Helmet title={"TA Info - " + courseData.number} />
         <section className="info-table">
-          {parentPageLink}
-
-          <h1>{this.props.title}</h1>
+          <h1>{courseData.number} TA Info</h1>
           <table className="fixed-table alternating-table">
             <tbody>
               <tr>
@@ -64,11 +67,11 @@ class TAInfoPage extends Component {
                 <th className="bottom-align">Grading Hours {gradingHoursLocationComponent}</th>
               </tr>
 
-            {taInfo.TAs.map(this.generateTATableRowComponent.bind(this))}
+            {TAInfo.TAs.map(this.generateTATableRowComponent.bind(this))}
             </tbody>
           </table>
         </section>
-      </PageContent>
+      </CourseSubPage>
     );
   }
 }

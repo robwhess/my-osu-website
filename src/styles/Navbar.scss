@@ -83,6 +83,7 @@
   top: 46px;
   left: 0;
   right: 0;
+  z-index: 1000;
   background-color: #ccc;
   color: initial;
   font-size: 18px;
@@ -107,54 +108,60 @@
 }
 
 @media (max-width: 640px) {
-  .navbar-list-container {
-    .navbar-list {
-      position: absolute;
-      padding: 5px;
-      right: -20px;
-      top: 46px;
-      width: 100%;
-      background-color: #444;
-      color: #ccc;
-      box-shadow: -4px 6px 8px rgba(0, 0, 0, 0.25);
-      .navitem {
-        display: block;
-        &.right {
-          float: none;
+
+  .navbar:not(.subnav) {
+
+    .navbar-list-container {
+      .navbar-list {
+        position: absolute;
+        padding: 5px;
+        right: -20px;
+        top: 46px;
+        width: 100%;
+        background-color: #444;
+        color: #ccc;
+        box-shadow: -4px 6px 8px rgba(0, 0, 0, 0.25);
+        .navitem {
+          display: block;
+          &.right {
+            float: none;
+          }
         }
       }
+      .collapse-button {
+        display: initial;
+      }
     }
-    .collapse-button {
+
+    .collapsed {
+      display: none;
+    }
+
+    .navmenu:hover {
+      background-color: inherit;
+      color: inherit;
+      box-shadow: none;
+    }
+
+    .navmenu-list {
       display: initial;
+      position: initial;
+      background-color: inherit;
+      color: inherit;
+      font-size: inherit;
+      box-shadow: none;
     }
+
+    .navlink a:hover {
+      background-color: inherit;
+      color: inherit;
+    }
+
+    .navitem a:hover,
+    .navmenu-item a:hover {
+      background-color: #666;
+    }
+
   }
 
-  .collapsed {
-    display: none;
-  }
-
-  .navmenu:hover {
-    background-color: inherit;
-    color: inherit;
-    box-shadow: none;
-  }
-
-  .navmenu-list {
-    display: initial;
-    position: initial;
-    background-color: inherit;
-    color: inherit;
-    font-size: inherit;
-    box-shadow: none;
-  }
-
-  .navlink a:hover {
-    background-color: inherit;
-    color: inherit;
-  }
-
-  .navitem a:hover,
-  .navmenu-item a:hover {
-    background-color: #666;
-  }
 }
