@@ -1,52 +1,7 @@
+@import 'tables';
+
 .ta-info-page h1 {
   margin: 5px 0 0 0;
-}
-
-th, td {
-  padding: 4px 8px;
-  vertical-align: baseline;
-}
-
-th, td.category {
-  font-size: 24px;
-  font-weight: lighter;
-  color: #666;
-}
-
-td {
-  &.category {
-    text-align: right;
-  }
-  ul {
-    margin: 5px 0;
-    padding-left: 30px;
-  }
-}
-
-.info-table {
-  margin-left: -5px;  /* to offset padding in td */
-  margin-top: 30px;
-  padding: 10px 20px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  background-color: #fff;
-
-  td {
-    vertical-align: middle;
-  }
-}
-
-.fixed-table {
-  table-layout: fixed;
-  width: 100%;
-}
-
-.alternating-table tr:nth-child(even) {
-  background-color: #eee;
-}
-
-.bottom-align {
-  vertical-align: bottom;
 }
 
 .hours-location::before {

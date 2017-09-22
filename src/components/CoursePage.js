@@ -21,12 +21,19 @@ class CoursePage extends Component {
       var matchURLWithoutSlash = match.url.replace(/\/$/, '');
       var links = subnavItems.map((subnavItem) => {
         var link = {
-          title: subnavItem.title
+          title: subnavItem.title,
+          isLink: true
         };
         if (subnavItem.subPage) {
           link.path = matchURLWithoutSlash + '/' + subnavItem.subPage;
         }
         return link;
+      });
+
+      links.unshift({
+        path: matchURLWithoutSlash,
+        title: "Course Info",
+        isLink: true
       });
 
       links.push({
@@ -48,7 +55,7 @@ class CoursePage extends Component {
         <h3>Week {week.week}</h3>
         {week.sections.map((section, i) => (
           <div key={i}>
-            <h4>{section.heading}:</h4>
+            <h4>{section.heading}</h4>
             <ul>
               {section.entriesHTML.map((entryHTML, j) => (
                 <li key={j} dangerouslySetInnerHTML={{ __html: entryHTML }} />

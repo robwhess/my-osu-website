@@ -1,6 +1,7 @@
 import { generateSitePath } from '../../../lib/SitePath';
 
 import TAInfoPage from '../../../components/TAInfoPage';
+import RecitationInfoPage from '../../../components/RecitationInfoPage';
 
 import calendar from './calendar';
 import assignments from './assignments';
@@ -62,16 +63,23 @@ var courseDetails = {
     assignments: assignments
   },
 
-  TAInfo: taInfo,
+  taInfo: taInfo,
+
+  recitationInfo: recitationInfo,
 
   subPages: {
-    'ta-info': TAInfoPage
+    'ta-info': TAInfoPage,
+    'recitation-info': RecitationInfoPage
   },
 
   subnavItems: [
     {
       subPage: 'ta-info',
       title: 'TA Info'
+    },
+    {
+      subPage: 'recitation-info',
+      title: 'Recitations'
     }
   ]
 };

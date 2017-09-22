@@ -3,7 +3,7 @@ import TAInfoPage from '../../../components/TAInfoPage';
 
 import calendar from './calendar';
 import assignments from './assignments';
-import finalProject from './finalProject';
+// import finalProject from './finalProject';
 import taInfo from './taInfo';
 
 var courseDetails = {
@@ -62,7 +62,7 @@ var courseDetails = {
   //   assignments: finalProject
   // },
 
-  TAInfo: taInfo,
+  taInfo: taInfo,
 
   subPages: {
     'ta-info': TAInfoPage

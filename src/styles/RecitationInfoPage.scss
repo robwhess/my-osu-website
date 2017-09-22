@@ -1,14 +1,13 @@
 @import 'tables';
 
-.course-page {
+.recitation-info-page {
   h1, h2, h3 {
     margin: 0;
   }
 
   .info-box,
   .info-table,
-  .calendar,
-  .assignments {
+  .calendar {
     margin-top: 30px;
     padding: 10px 20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -17,6 +16,11 @@
   }
 
   .calendar {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-color: #fff;
     padding-bottom: 0;
 
     .week {

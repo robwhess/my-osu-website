@@ -317,7 +317,7 @@ var courseDetails = {
     ]
   },
 
-  TAInfo: {
+  taInfo: {
     officeHoursLocation: "KEC Atrium",
     gradingHoursLocation: "KEC Atrium",
     TAs: [

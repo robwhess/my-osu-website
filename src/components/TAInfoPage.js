@@ -39,19 +39,19 @@ class TAInfoPage extends Component {
 
   render() {
     var { match, courseData } = this.props;
-    var TAInfo = courseData.TAInfo;
+    var taInfo = courseData.taInfo;
 
     var officeHoursLocationComponent = null;
-    if (TAInfo.officeHoursLocation) {
+    if (taInfo.officeHoursLocation) {
       officeHoursLocationComponent = (
-        <span className="hours-location">({TAInfo.officeHoursLocation})</span>
+        <span className="hours-location">({taInfo.officeHoursLocation})</span>
       );
     }
 
     var gradingHoursLocationComponent = null;
-    if (TAInfo.gradingHoursLocation) {
+    if (taInfo.gradingHoursLocation) {
       gradingHoursLocationComponent = (
-        <span className="hours-location">({TAInfo.gradingHoursLocation})</span>
+        <span className="hours-location">({taInfo.gradingHoursLocation})</span>
       );
     }
     return (
@@ -67,7 +67,7 @@ class TAInfoPage extends Component {
                 <th className="bottom-align">Grading Hours {gradingHoursLocationComponent}</th>
               </tr>
 
-            {TAInfo.TAs.map(this.generateTATableRowComponent.bind(this))}
+            {taInfo.TAs.map(this.generateTATableRowComponent.bind(this))}
             </tbody>
           </table>
         </section>

@@ -52,10 +52,6 @@
   }
 }
 
-.subnav {
-  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .navitem {
   display: inline-block;
 
@@ -63,7 +59,7 @@
     float: right;
   }
 
-  &.active {
+  & > a.active {
     box-shadow: inset 0 -2px 0 #d54f1e;
   }
 }
@@ -105,6 +101,15 @@
 .navmenu:hover .navmenu-list,
 .navmenu-list:hover {
   display: block;
+}
+
+.subnav {
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+
+  .navlink a:hover {
+    background-color: rgba(#d54f1e, 0.2);
+    color: #333;
+  }
 }
 
 @media (max-width: 640px) {

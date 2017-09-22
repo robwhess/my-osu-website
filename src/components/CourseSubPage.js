@@ -22,12 +22,19 @@ class CourseSubPage extends Component {
     var parentPageURL = this.getParentPageURL();
     var links = subnavItems.map((subnavItem) => {
       var link = {
-        title: subnavItem.title
+        title: subnavItem.title,
+        isLink: true
       };
       if (subnavItem.subPage) {
         link.path = parentPageURL + '/' + subnavItem.subPage;
       }
       return link;
+    });
+
+    links.unshift({
+      path: parentPageURL,
+      title: "Course Info",
+      isLink: true
     });
 
     links.push({

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 
 import { generateSitePath } from '../lib/SitePath';
@@ -19,7 +19,7 @@ class Navbar extends Component {
     if (isExternal) {
       return <a href={path} target="_blank">{title}</a>;
     } else {
-      return <Link to={generateSitePath(path)}>{title}</Link>;
+      return <NavLink exact to={generateSitePath(path)}>{title}</NavLink>;
     }
   }
 
@@ -29,7 +29,7 @@ class Navbar extends Component {
         <ul className="navmenu-list">
           {menu.map((menuItem, i) => (
             <li key={i} className="navmenu-item">
-              <Link to={generateSitePath(menuItem.path)}>{menuItem.title}</Link>
+              <NavLink exact to={generateSitePath(menuItem.path)}>{menuItem.title}</NavLink>
             </li>
           ))}
         </ul>
