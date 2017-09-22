@@ -1,10 +1,20 @@
 @import 'tables';
 
-.ta-info-page h1 {
-  margin: 5px 0 0 0;
-}
+.ta-info-page {
+  h1 {
+    margin: 5px 0 0 0;
+  }
 
-.hours-location::before {
-  content: "\A";
-  white-space: pre;
+  .info-table {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  .hours-location::before {
+    content: "\A";
+    white-space: pre;
+  }
 }

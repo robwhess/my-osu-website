@@ -12,19 +12,19 @@ var recitationInfo = {
       number: '010',
       dayTime: 'Tu 3:00-3:50pm',
       location: 'MLM 033',
-      ta: 'TBD'
+      ta: 'David Glennon'
     },
     {
       number: '011',
       dayTime: 'W 3:00-3:50pm',
       location: 'KEC 1001',
-      ta: 'TBD'
+      ta: 'Chloe Fleming'
     },
     {
       number: '012',
       dayTime: 'W 6:00-6:50pm',
       location: 'KEC 1003',
-      ta: 'TBD'
+      ta: 'Wenxuan Wu'
     },
     {
       number: '013',
@@ -36,31 +36,31 @@ var recitationInfo = {
       number: '014',
       dayTime: 'Th 6:00-6:50pm',
       location: 'KEC 1003',
-      ta: 'TBD'
+      ta: 'Chengxi Yang'
     },
     {
       number: '015',
       dayTime: 'Tu 6:00-6:50pm',
       location: 'KEC 1003',
-      ta: 'TBD'
+      ta: 'Chengxi Yang'
     },
     {
       number: '016',
       dayTime: 'Tu 10:00-10:50am',
       location: 'STAG 110',
-      ta: 'TBD'
+      ta: 'David Glennon'
     },
     {
       number: '017',
       dayTime: 'W 11:00-11:50am',
       location: 'STAG 213',
-      ta: 'TBD'
+      ta: 'Muslum Ozgur Ozmen'
     },
     {
       number: '018',
       dayTime: 'M 6:00-6:50pm',
       location: 'STAG 110',
-      ta: 'TBD'
+      ta: 'Jia Guo'
     }
   ],
 
@@ -71,7 +71,8 @@ var recitationInfo = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Recitation syllabus review'
+            'Recitation syllabus review',
+            '<a href="https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing">CS 261 IT Basics</a>'
           ]
         },
         {
