@@ -7,7 +7,6 @@ var calendar = [
         entriesHTML: [
           'Course Intro &ndash; <a href="https://docs.google.com/document/d/1_18W3dSNqxgCgnq28isyrUitQw1ics5ytn84D407PbU/edit?usp=sharing">notes</a>',
           'Git and GitHub &ndash; <a href="https://docs.google.com/document/d/1xE-s_V4OuLuSE-0-pvQqolKVyzOFuHkwHT-9NMJR7Xk/edit?usp=sharing">notes</a>',
-          'HTML &ndash; <a href="https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing">notes</a>'
         ]
       },
       {
@@ -25,6 +24,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
+          'HTML &ndash; <a href="https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/html">example code</a>',
           'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a>',
         ]
       },
