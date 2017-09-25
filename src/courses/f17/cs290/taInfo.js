@@ -3,8 +3,17 @@ var taInfo = {
   gradingHoursLocation: "KEC Atrium",
   TAs: [
     {
-      name: "TBA",
-      email: "tba@oregonstate.edu",
+      name: "Sudhanshu Pathak",
+      email: "pathaks@oregonstate.edu",
+      officeHours: [ "TBA" ],
+      gradingHours: [
+        "TBA"
+      ],
+      gradingHoursPollLink: "#"
+    },
+    {
+      name: "Xinyao Wang",
+      email: "wangxiny@oregonstate.edu",
       officeHours: [ "TBA" ],
       gradingHours: [
         "TBA"

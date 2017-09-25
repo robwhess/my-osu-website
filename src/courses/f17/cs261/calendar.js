@@ -32,7 +32,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'C Review/Crash Course &ndash; <a href="https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing">notes</a>',
+          'C Review/Crash Course &ndash; <a href="https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/c-basics">example code</a>',
           'Complexity Analysis (Big O) &ndash; <a href="https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing">notes</a>'
         ]
       },
