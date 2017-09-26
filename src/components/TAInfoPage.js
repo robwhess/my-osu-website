@@ -59,12 +59,12 @@ class TAInfoPage extends Component {
         <Helmet title={"TA Info - " + courseData.number} />
         <section className="info-table">
           <h1>{courseData.number} TA Info</h1>
-          <table className="fixed-table alternating-table">
+          <table className="full-width-table alternating-table">
             <tbody>
               <tr>
                 <th className="bottom-align">TA Name</th>
-                <th className="bottom-align">Office Hours {officeHoursLocationComponent}</th>
-                <th className="bottom-align">Grading Hours {gradingHoursLocationComponent}</th>
+                <th className="bottom-align">Office Hours{officeHoursLocationComponent}</th>
+                <th className="bottom-align">Grading Hours{gradingHoursLocationComponent}</th>
               </tr>
 
             {taInfo.TAs.map(this.generateTATableRowComponent.bind(this))}

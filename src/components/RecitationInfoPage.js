@@ -32,10 +32,10 @@ class RecitationInfoPage extends Component {
     return (
       <section className='info-table'>
         <h2>Recitation Sections</h2>
-        <table className='fixed-table alternating-table'>
+        <table className='full-width-table alternating-table'>
           <tbody>
             <tr>
-              <th className='bottom-align' style={{ width: '15%' }}>Section</th>
+              <th className='bottom-align'>Section</th>
               <th className='bottom-align'>Day and Time</th>
               <th className='bottom-align'>Location</th>
               <th className='bottom-align'>Recitation TA</th>
