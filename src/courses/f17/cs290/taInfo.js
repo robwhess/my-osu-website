@@ -14,8 +14,8 @@ var taInfo = {
       email: "wangxiny@oregonstate.edu",
       officeHours: [ "Tu 4:00-6:00pm (KEC Atrium)" ],
       gradingHours: [
-        "W 8:30am-12:30pm (KEC Atrium)",
-        "Th 8:30am-12:30pm (KEC Atrium)"
+        "Tu 8:30am-12:30pm (KEC Atrium)",
+        "W 8:30am-12:30pm (KEC Atrium)"
       ],
       gradingHoursPollLink: "#"
     }
