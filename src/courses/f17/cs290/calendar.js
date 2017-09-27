@@ -25,7 +25,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'HTML &ndash; <a href="https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/html">example code</a>',
-          'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a>',
+          'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>',
         ]
       },
       {
@@ -36,25 +36,25 @@ var calendar = [
       }
     ]
   },
-  // {
-  //   week: 3,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'CSS &ndash; <a href="https://docs.google.com/document/d/17yv1VXIy1_PBzqU6wvGHnBLNrY8JxCtSOXC1B2c7EgE/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/css">example code</a>',
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/">Cyclomatic Complexity: Logic in CSS</a> &ndash; CSS Wizardry',
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS Flexible Boxes</a> &ndash; MDN',
-  //         '<a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/">Responsive Web Design Basics</a> &ndash; Google Web Fundamentals'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 2,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/">Cyclomatic Complexity: Logic in CSS</a> &ndash; CSS Wizardry',
+          '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS Flexible Boxes</a> &ndash; MDN',
+          '<a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/">Responsive Web Design Basics</a> &ndash; Google Web Fundamentals'
+        ]
+      }
+    ]
+  },
   // {
   //   week: 4,
   //   sections: [
