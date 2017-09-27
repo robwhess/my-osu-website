@@ -53,7 +53,7 @@ var taInfo = {
         "Tu 3:00-4:00pm (John 123)",
         "W 4:00-5:00pm (John 123)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UURFeEZJR3Qxd0h1fGRlZmF1bHR8ZjdkYTg3ODQ3YjQ2NDk0NzNmOWM5YTBkNmU0ODk4MzU"
     },
     {
       name: "Ozgar Ozmen",
