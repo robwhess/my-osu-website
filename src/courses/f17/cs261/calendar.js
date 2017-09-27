@@ -44,6 +44,28 @@ var calendar = [
         ]
       }
     ]
+  },
+  {
+    week: 2,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Complexity Analysis (Big O) &ndash; <a href="https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing">notes</a>',
+          'Dynamic Arrays &ndash; <a href="https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing">notes</a>',
+          'Stacks, Queues, and Deques &ndash; <a href="https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="' + CS261CourseNotes + '#page=48">Chapter 5-7</a> &ndash; Budd\'s Course Notes',
+          '<a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Queue</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Double-ended_queue">Double-ended queue</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 
