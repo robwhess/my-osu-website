@@ -12,7 +12,7 @@ var taInfo = {
         "M 2:00-3:00pm (John 124)",
         "M 3:00-3:30pm (John 123)",
         "W 10:30-11:30am (Covl 140, tbl 2)",
-        "Th 4:00-5:30pm (John 125)"
+        "Th 4:30-6:00pm (John 125)"
       ],
       gradingHoursPollLink: "#"
     },
