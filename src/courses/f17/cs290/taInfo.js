@@ -3,9 +3,9 @@ var taInfo = {
     {
       name: "Sudhanshu Pathak",
       email: "pathaks@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [ "M 11:00am-12:00pm (KEC Atrium)" ],
       gradingHours: [
-        "TBA"
+        "M 12:00-4:00pm (KEC Atrium)"
       ],
       gradingHoursPollLink: "#"
     },
