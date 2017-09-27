@@ -11,7 +11,7 @@ var taInfo = {
         "M 10:00-11:30am (Covl 140, tbl 2)",
         "M 2:00-3:00pm (John 124)",
         "M 3:00-3:30pm (John 123)",
-        "W 10:30-11:30am (Covl 140, tbl 2)",
+        "W 10:00-11:30am (Covl 140, tbl 2)",
         "Th 4:30-6:00pm (John 125)"
       ],
       gradingHoursPollLink: "#"
@@ -28,7 +28,7 @@ var taInfo = {
         "Tu 1:00-3:00pm (Covl 140, tbl 3)",
         "W 8:00-10:00am (Covl 140, tbl 3)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UUxLN1A2MzFPUVF3fGRlZmF1bHR8MTE4ODlmYzUzZjEyNTUzN2VhMzcyZWJjZjZlOTY2YzU"
     },
     {
       name: "David Glennon",
@@ -42,7 +42,7 @@ var taInfo = {
         "Th 10:00am-12:00pm (John 124)",
         "F 8:00-10:00am (Covl 140, tbl 3)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UU9jd3I5cy1Ia0p1fGRlZmF1bHR8YzUwNWJiZDhjOTRiZDM4MTYxMzhhNDE2MWJlYjBmNmU"
     },
     {
       name: "Jia Guo",
@@ -56,7 +56,7 @@ var taInfo = {
       gradingHoursPollLink: "#"
     },
     {
-      name: "Muslum Ozgar Ozmen",
+      name: "Ozgar Ozmen",
       email: "ozmenmu@oregonstate.edu",
       officeHours: [ "F 4:30-5:30pm (John 125)" ],
       gradingHours: [
@@ -74,7 +74,7 @@ var taInfo = {
         "W 10:00-11:00am (John 121)",
         "W 3:00-4:00pm (John 121)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UU1WSllGMnRONGxOfGRlZmF1bHR8YTIwNWE2MjA5MTk5ODYyN2MyMmQxNjVlMmYyNWEyNTM"
     }
   ]
 };
