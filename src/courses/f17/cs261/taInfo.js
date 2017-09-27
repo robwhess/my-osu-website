@@ -1,58 +1,78 @@
 var taInfo = {
-  officeHoursLocation: "KEC Atrium",
-  gradingHoursLocation: "KEC Atrium",
   TAs: [
     {
       name: "Chengxi Yang",
       email: "yangchen@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [
+        "Tu 5:00-6:00pm (John 121)",
+        "F 11:00am-12:00pm (John 125)"
+      ],
       gradingHours: [
-        "TBA"
+        "M 10:00-11:30am (Covl 140, tbl 2)",
+        "M 2:00-3:00pm (John 124)",
+        "M 3:00-3:30pm (John 123)",
+        "W 10:30-11:30am (Covl 140, tbl 2)",
+        "Th 4:00-5:30pm (John 125)"
       ],
       gradingHoursPollLink: "#"
     },
     {
       name: "Chloe Fleming",
       email: "flemichl@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [
+        "M 2:00-3:00pm (Covl 140, tbl 3)",
+        "Tu 3:00-4:00pm (Covl 140, tbl 2)"
+      ],
       gradingHours: [
-        "TBA"
+        "M 3:00-5:00pm (Covl 140, tbl 4)",
+        "Tu 1:00-3:00pm (Covl 140, tbl 3)",
+        "W 8:00-10:00am (Covl 140, tbl 3)"
       ],
       gradingHoursPollLink: "#"
     },
     {
       name: "David Glennon",
       email: "glennond@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [
+        "M 8:00-9:00am (John 125)",
+        "W 8:00-9:00am (John 125)"
+      ],
       gradingHours: [
-        "TBA"
+        "M 1:30-3:30pm (KEC Atrium)",
+        "Th 10:00am-12:00pm (John 124)",
+        "F 8:00-10:00am (Covl 140, tbl 3)"
       ],
       gradingHoursPollLink: "#"
     },
     {
       name: "Jia Guo",
       email: "guoj@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [ "Tu 2:00-3:00pm (John 123)" ],
       gradingHours: [
-        "TBA"
+        "M 4:30-5:30pm (John 121)",
+        "Tu 3:00-4:00pm (John 123)",
+        "W 4:00-5:00pm (John 123)"
       ],
       gradingHoursPollLink: "#"
     },
     {
       name: "Muslum Ozgar Ozmen",
       email: "ozmenmu@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [ "F 4:30-5:30pm (John 125)" ],
       gradingHours: [
-        "TBA"
+        "W 2:30-4:30pm (John 125)",
+        "F 3:30-4:30pm (John 125)"
       ],
       gradingHoursPollLink: "#"
     },
     {
       name: "Wenxuan Wu",
       email: "wuwen@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [ "F 11:00am-12:00pm (John 121)" ],
       gradingHours: [
-        "TBA"
+        "M 11:00am-12:00pm (John 123)",
+        "W 10:00-11:00am (John 121)",
+        "W 3:00-4:00pm (John 121)"
       ],
       gradingHoursPollLink: "#"
     }
