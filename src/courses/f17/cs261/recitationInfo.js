@@ -82,6 +82,23 @@ var recitationInfo = {
           ]
         }
       ]
+    },
+    {
+      week: 2,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Pointers and Program Memory in C',
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1qLatGmhnC29_8rKXMd6OD80ZOQ6nppPlO3Duo9arLqc/edit?usp=sharing">Week 2 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
     }
   ]
 };
