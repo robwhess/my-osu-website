@@ -30,7 +30,7 @@ var recitationInfo = {
       number: '013',
       dayTime: 'Th 8:00-8:50am',
       location: 'BEXL 102',
-      ta: 'TBD'
+      ta: 'Hess'
     },
     {
       number: '014',
