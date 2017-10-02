@@ -54,7 +54,7 @@ var recitationInfo = {
       number: '017',
       dayTime: 'W 11:00-11:50am',
       location: 'STAG 213',
-      ta: 'Muslum Ozgur Ozmen'
+      ta: 'Ozgur Ozmen'
     },
     {
       number: '018',

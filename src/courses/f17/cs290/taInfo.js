@@ -7,7 +7,7 @@ var taInfo = {
       gradingHours: [
         "M 12:00-4:00pm (KEC 2087)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UURnZnI4UXBVNWExfGRlZmF1bHR8NzU1NGQ4NGU0Yjk3MWY0NTM0ZTk2NzNhY2M0ZWI4YWM"
     },
     {
       name: "Xinyao Wang",

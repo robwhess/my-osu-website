@@ -63,7 +63,7 @@ var taInfo = {
         "W 2:30-4:30pm (John 125)",
         "F 3:30-4:30pm (John 125)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UVBTQUJQTDNUbDlVfGRlZmF1bHR8ZjU2YzFjODY0YmVhM2M2YmRjMDY1Y2U0NzRmNGVmNmI"
     },
     {
       name: "Wenxuan Wu",
