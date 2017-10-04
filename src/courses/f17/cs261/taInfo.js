@@ -14,7 +14,7 @@ var taInfo = {
         "W 10:00-11:30am (Covl 140, tbl 2)",
         "Th 4:30-6:00pm (John 125)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UUJOQzZzb3JNMmxIfGRlZmF1bHR8MmRmOTFjYWEzNGEzMjFhNTYwNTA3YTBiNDEzNjg4NDg"
     },
     {
       name: "Chloe Fleming",
