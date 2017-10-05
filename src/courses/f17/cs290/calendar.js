@@ -18,6 +18,7 @@ var calendar = [
       }
     ]
   },
+
   {
     week: 1,
     sections: [
@@ -36,13 +37,14 @@ var calendar = [
       }
     ]
   },
+
   {
     week: 2,
     sections: [
       {
         heading: 'Topics',
         entriesHTML: [
-          'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>',
+          'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>'
         ]
       },
       {
@@ -55,24 +57,27 @@ var calendar = [
       }
     ]
   },
-  // {
-  //   week: 4,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1QQtkKwb3tqxnbcZdvaNPnW8WH2ZJoGynrgIrXwtRAvs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps">JavaScript first steps</a> &ndash; MDN',
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks">JavaScript building blocks</a> &ndash; MDN'
-  //       ]
-  //     }
-  //   ]
-  // },
+
+  {
+    week: 3,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>',
+          'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps">JavaScript first steps</a> &ndash; MDN',
+          '<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks">JavaScript building blocks</a> &ndash; MDN'
+        ]
+      }
+    ]
+  },
+
   // {
   //   week: 5,
   //   sections: [
