@@ -97,6 +97,13 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1qLatGmhnC29_8rKXMd6OD80ZOQ6nppPlO3Duo9arLqc/edit?usp=sharing">Week 2 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1oogao3Y9sRcc99K8udx8IyhXNRz5rVjzlZn1fQ5qq6o/edit?usp=sharing">Week 2 Quiz Solutions</a>',
+            '<a href="https://drive.google.com/open?id=0B8aZMq9VhvmrSVBtNmw0X3hobVhQTE1Xa3dVcHNfZWE4eHBN">Week 2 Worksheet Solutions</a>'
+          ]
         }
       ]
     },
