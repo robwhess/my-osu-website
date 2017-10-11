@@ -14,6 +14,14 @@ var assignments = [
       'Assignment due by 11:59pm, Monday 10/9/2017',
       'Demo due by 11:59pm, Monday 10/23/2017'
     ]
+  },
+  {
+    link : 'https://classroom.github.com/a/_hJ-HPUB',
+    title: 'Assignment 2 - Linked lists, stacks, and queues',
+    notesHTML: [
+      'Assignment due by 11:59pm, Monday 10/23/2017',
+      'Demo due by 11:59pm, Monday 11/6/2017'
+    ]
   }
 ];
 
