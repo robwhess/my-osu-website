@@ -65,7 +65,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>',
-          'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing">notes</a>'
+          'JavaScript Fundamentals &ndash; <a href="https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/js-fundamentals">example code</a>'
         ]
       },
       {

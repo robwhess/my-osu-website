@@ -83,6 +83,7 @@ var recitationInfo = {
         }
       ]
     },
+
     {
       week: 2,
       sections: [
@@ -107,6 +108,7 @@ var recitationInfo = {
         }
       ]
     },
+
     {
       week: 3,
       sections: [
@@ -120,6 +122,24 @@ var recitationInfo = {
           heading: 'Recitation worksheet',
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1c_3NsjNeVLlZkx46_VUs5I0D6KvGNursji3It-nL_QM/edit?usp=sharing">Week 3 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    },
+
+    {
+      week: 4,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Set Operations with Ordered Arrays',
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1NrevxgIlatWTj3fo4h5l4r7CMTsMBBQeNKCnlw-WHUk/edit?usp=sharing">Week 4 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
         }
       ]

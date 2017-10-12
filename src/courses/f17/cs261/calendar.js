@@ -87,6 +87,29 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Linked Lists &ndash; <a href="https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing">notes</a>',
+          'Iterators &ndash; <a href="https://docs.google.com/document/d/1h17U-0nDinnKPUJSehJbVB1Lx8Z73G-HsHl7RabMVjo/edit?usp=sharing">notes</a>',
+          'Ordered Arrays and Binary Search &ndash; <a href="https://docs.google.com/document/d/145ReP_mk2ATwW7aUCX_i0FoP_Xp1mzy9Aor4qWYIxHA/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="' + CS261CourseNotes + '#page=90">Chapter 8 (pp. 4-5, "Introduction to the Iterator")</a> &ndash; Budd\'s Course Notes',
+          '<a href="' + CS261CourseNotes + '#page=96">Chapter 9</a> &ndash; Budd\'s Course Notes',
+          '<a href="https://en.wikipedia.org/wiki/Iterator">Iterator</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">Binary search algorithm</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 
