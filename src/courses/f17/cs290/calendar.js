@@ -78,24 +78,25 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 5,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'JavaScript DOM Manipulation &ndash; <a href="https://docs.google.com/document/d/166D2inrjYSFJZQdcS42UMY2MHU6k2TosY_yRlLRg7Uc/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js-dom-manipulation">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">Introduction to the DOM</a> &ndash; MDN',
-  //         '<a href="http://eloquentjavascript.net/13_dom.html">The Document Object Model</a> &ndash; Eloquent Javascript, Chapter 13'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'JavaScript DOM Manipulation &ndash; <a href="https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">Introduction to the DOM</a> &ndash; MDN',
+          '<a href="http://eloquentjavascript.net/13_dom.html">The Document Object Model</a> &ndash; Eloquent Javascript, Chapter 13'
+        ]
+      }
+    ]
+  },
+
   // {
   //   week: 6,
   //   sections: [
