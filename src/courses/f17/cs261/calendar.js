@@ -73,7 +73,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'Stacks, Queues, and Deques &ndash; <a href="https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing">notes</a>',
-          'Linked Lists &ndash; <a href="https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing">notes</a>'
+          'Linked Lists &ndash; <a href="https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/lldeque">example code</a>'
         ]
       },
       {
@@ -95,7 +95,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Linked Lists &ndash; <a href="https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing">notes</a>',
+          'Linked Lists &ndash; <a href="https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/lldeque">example code</a>',
           'Iterators &ndash; <a href="https://docs.google.com/document/d/1h17U-0nDinnKPUJSehJbVB1Lx8Z73G-HsHl7RabMVjo/edit?usp=sharing">notes</a>',
           'Ordered Arrays and Binary Search &ndash; <a href="https://docs.google.com/document/d/145ReP_mk2ATwW7aUCX_i0FoP_Xp1mzy9Aor4qWYIxHA/edit?usp=sharing">notes</a>'
         ]
