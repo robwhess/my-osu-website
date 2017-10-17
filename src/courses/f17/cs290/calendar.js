@@ -84,7 +84,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'JavaScript DOM Manipulation &ndash; <a href="https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing">notes</a>'
+          'JavaScript DOM Manipulation &ndash; <a href="https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/js-dom-manipulation">example code</a>'
         ]
       },
       {

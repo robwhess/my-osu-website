@@ -56,7 +56,7 @@ var taInfo = {
       gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UURFeEZJR3Qxd0h1fGRlZmF1bHR8ZjdkYTg3ODQ3YjQ2NDk0NzNmOWM5YTBkNmU0ODk4MzU"
     },
     {
-      name: "Ozgar Ozmen",
+      name: "Ozgur Ozmen",
       email: "ozmenmu@oregonstate.edu",
       officeHours: [ "F 4:30-5:30pm (John 125)" ],
       gradingHours: [
