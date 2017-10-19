@@ -123,6 +123,12 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1c_3NsjNeVLlZkx46_VUs5I0D6KvGNursji3It-nL_QM/edit?usp=sharing">Week 3 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1i04Viks6NSvvHMd0wzXr1otAl1OWVIiLM52N9y_5Ty4/edit?usp=sharing">Week 3 Quiz Solutions</a>'
+          ]
         }
       ]
     },
