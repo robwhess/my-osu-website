@@ -97,25 +97,26 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 6,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1JW9Stt44SDDjvVR3lx4uLknBPRSC1qgMYstoeoANSUo/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/js-events">example code</a> &ndash; <a href="https://jsfiddle.net/robwhess/kmo8ksm4/">JSFiddle event handling and DOM manipulation demo</a> &ndash; <a href="https://jsfiddle.net/robwhess/e3bzs31j/">JSFiddle forms demo</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers">Overview of Events and Handlers</a> &ndash; MDN',
-  //         '<a href="http://eloquentjavascript.net/14_event.html">Handling Events</a> &ndash; Eloquent Javascript, Chapter 14',
-  //         '<a href="http://eloquentjavascript.net/18_forms.html">Forms and Fields</a> &ndash; Eloquent Javascript, Chapter 18'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/js-events">example code</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers">Overview of Events and Handlers</a> &ndash; MDN',
+          '<a href="http://eloquentjavascript.net/14_event.html">Handling Events</a> &ndash; Eloquent Javascript, Chapter 14',
+          '<a href="http://eloquentjavascript.net/18_forms.html">Forms and Fields</a> &ndash; Eloquent Javascript, Chapter 18'
+        ]
+      }
+    ]
+  },
+
   // {
   //   week: 7,
   //   sections: [

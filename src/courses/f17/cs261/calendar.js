@@ -110,6 +110,27 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'The midterm exam will be on Wednesday of this week in our normal lecture location at the normal lecture time',
+          'Binary Search Trees &ndash; <a href="https://docs.google.com/document/d/1C5bj67r6SySgMgaPIrTltm0xA5nLQrNWz9ENe-KUKEU/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="' + CS261CourseNotes + '#page=104">Chapter 10 (pp. 1-6 on trees and pp. 13-15 on BSTs)</a> &ndash; Budd\'s Course Notes',
+          '<a href="https://en.wikipedia.org/wiki/Binary_tree">Binary tree</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary search tree</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 
