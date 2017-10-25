@@ -103,7 +103,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/js-events">example code</a>'
+          'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/js-events">example code</a> &ndash; <a href="https://jsfiddle.net/robwhess/kmo8ksm4/">Events and Forms JSFiddle</a>'
         ]
       },
       {
