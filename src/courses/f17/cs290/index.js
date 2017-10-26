@@ -3,7 +3,7 @@ import TAInfoPage from '../../../components/TAInfoPage';
 
 import calendar from './calendar';
 import assignments from './assignments';
-// import finalProject from './finalProject';
+import finalProject from './finalProject';
 import taInfo from './taInfo';
 
 var courseDetails = {
@@ -57,10 +57,10 @@ var courseDetails = {
     assignments: assignments
   },
 
-  // finalProject: {
-  //   preambleHTML: "<p>For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.</p>",
-  //   assignments: finalProject
-  // },
+  finalProject: {
+    preambleHTML: "<p>For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.</p>",
+    assignments: finalProject
+  },
 
   taInfo: taInfo,
 
