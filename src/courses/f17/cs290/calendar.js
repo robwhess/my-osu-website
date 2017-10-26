@@ -117,25 +117,26 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 7,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1fDUYKsdWBGEb0OTv-eN_PcUKmJaSqxRR2xc2Ec1myUA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/nodejs-basics">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="http://eloquentjavascript.net/20_node.html">Node.js</a> &ndash; Eloquent Javascript, Chapter 20',
-  //         '<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">The Art of Node</a>',
-  //         '<a href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/">Anatomy of an HTTP Transaction</a> &ndash; Node.js Docs'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 6,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://eloquentjavascript.net/20_node.html">Node.js</a> &ndash; Eloquent Javascript, Chapter 20',
+          '<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">The Art of Node</a>',
+          '<a href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/">Anatomy of an HTTP Transaction</a> &ndash; Node.js Docs'
+        ]
+      }
+    ]
+  },
+
   // {
   //   week: 8,
   //   sections: [
