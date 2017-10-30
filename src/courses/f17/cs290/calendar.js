@@ -123,7 +123,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing">notes</a>'
+          'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/nodejs-basics">example code</a>'
         ]
       },
       {
