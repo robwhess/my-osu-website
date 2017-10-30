@@ -22,6 +22,14 @@ var assignments = [
       'Assignment due by 11:59pm, Monday 10/23/2017',
       'Demo due by 11:59pm, Monday 11/6/2017'
     ]
+  },
+  {
+    link : 'https://classroom.github.com/a/AOdKHKJX',
+    title: 'Assignment 3 - Binary search trees',
+    notesHTML: [
+      'Assignment due by 11:59pm, Monday 11/13/2017',
+      'Demo due by 11:59pm, Monday 11/27/2017'
+    ]
   }
 ];
 
