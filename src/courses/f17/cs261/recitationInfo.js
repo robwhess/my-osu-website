@@ -166,6 +166,24 @@ var recitationInfo = {
           entriesHTML: []
         }
       ]
+    },
+
+    {
+      week: 6,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Midterm solution review'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            'No worksheet for this recication'
+          ]
+        }
+      ]
     }
   ]
 };
