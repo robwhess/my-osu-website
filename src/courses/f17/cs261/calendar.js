@@ -129,6 +129,12 @@ var calendar = [
           '<a href="https://en.wikipedia.org/wiki/Binary_tree">Binary tree</a> &ndash; Wikipedia',
           '<a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary search tree</a> &ndash; Wikipedia'
         ]
+      },
+      {
+        heading: 'Midterm solutions',
+        entriesHTML: [
+          '<a href="https://docs.google.com/document/d/1jlExFMgZ3wwHFYv2PMJdJS5GLBGPDtXm1jcRXVmvaDw/edit?usp=sharing">Midterm solutions</a>'
+        ]
       }
     ]
   },
