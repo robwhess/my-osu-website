@@ -174,7 +174,7 @@ var recitationInfo = {
         {
           heading: 'Topics',
           entriesHTML: [
-            'Midterm solution review'
+            'Midterm solution review &ndash; <a href="https://docs.google.com/document/d/1jlExFMgZ3wwHFYv2PMJdJS5GLBGPDtXm1jcRXVmvaDw/edit?usp=sharing">midterm solutions</a>'
           ]
         },
         {
