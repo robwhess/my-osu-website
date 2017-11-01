@@ -123,7 +123,8 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/nodejs-basics">example code</a>'
+          'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/nodejs-basics">example code</a>',
+          'Packages and npm &ndash; <a href="https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing">notes</a>'
         ]
       },
       {
@@ -131,7 +132,10 @@ var calendar = [
         entriesHTML: [
           '<a href="http://eloquentjavascript.net/20_node.html">Node.js</a> &ndash; Eloquent Javascript, Chapter 20',
           '<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">The Art of Node</a>',
-          '<a href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/">Anatomy of an HTTP Transaction</a> &ndash; Node.js Docs'
+          '<a href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/">Anatomy of an HTTP Transaction</a> &ndash; Node.js Docs',
+          '<a href="https://docs.npmjs.com/getting-started/what-is-npm">What is npm?</a> &ndash; npm docs',
+          '<a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally">Installing npm packages locally</a> &ndash; npm docs',
+          '<a href="https://docs.npmjs.com/getting-started/using-a-package.json">Using a package.json</a> &ndash; npm docs'
         ]
       }
     ]
@@ -143,7 +147,6 @@ var calendar = [
   //     {
   //       heading: 'Topics',
   //       entriesHTML: [
-  //         'Packages and npm &ndash; <a href="https://docs.google.com/document/d/14NgVlxruAz_oAbeJ037AZKIVAxRarlfWyRXPjgbgwB8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-Sp2017/nodejs-basics">example code</a>',
   //         'Express Basics &ndash; <a href="https://github.com/OSU-CS290-Sp2017/express-middleware-demo">example code</a>',
   //         'Dynamic Content with Express &ndash; <a href="https://github.com/OSU-CS290-Sp2017/express-dynamic-content">example code</a>'
   //       ]
@@ -151,9 +154,6 @@ var calendar = [
   //     {
   //       heading: 'Readings',
   //       entriesHTML: [
-  //         '<a href="https://docs.npmjs.com/getting-started/what-is-npm">What is npm?</a> &ndash; npm docs',
-  //         '<a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally">Installing npm packages locally</a> &ndash; npm docs',
-  //         '<a href="https://docs.npmjs.com/getting-started/using-a-package.json">Using a package.json</a> &ndash; npm docs',
   //         '<a href="https://expressjs.com/en/starter/hello-world.html">Hello world example</a> &ndash; Express docs',
   //         '<a href="https://expressjs.com/en/starter/static-files.html">Serving static files in Express</a> &ndash; Express docs',
   //         '<a href="https://expressjs.com/en/starter/basic-routing.html">Basic routing</a> &ndash; Express docs',

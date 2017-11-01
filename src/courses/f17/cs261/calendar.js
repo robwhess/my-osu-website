@@ -159,6 +159,26 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Priority Queues and Heaps &ndash; <a href="https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="' + CS261CourseNotes + '#page=123">Chapter 11</a> &ndash; Budd\'s Course Notes',
+          '<a href="https://en.wikipedia.org/wiki/Priority_queue">Priority queue</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Heap_(data_structure)">Heap</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 
