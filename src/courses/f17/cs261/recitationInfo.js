@@ -184,7 +184,25 @@ var recitationInfo = {
           ]
         }
       ]
-    }
+    },
+
+    {
+      week: 7,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'AVL Tree Operations',
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1TTIe7OCqy6htYEl2kxfCLbYLAnDrgOqrSbNvAMPDx3k/edit?usp=sharing">Week 7 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    },
   ]
 };
 

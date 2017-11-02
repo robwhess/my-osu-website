@@ -146,7 +146,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'Binary Trees Traversals &ndash; <a href="https://docs.google.com/document/d/1yldvT0k8xcoE59yBzHwtIv7VSzh4iL9fQ1gC9fHnqDg/edit?usp=sharing">notes</a>',
-          'AVL Trees &ndash; <a href="https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing">notes</a>'
+          'AVL Trees &ndash; <a href="https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/avl_tree">example code</a>'
         ]
       },
       {

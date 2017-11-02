@@ -141,27 +141,28 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 8,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Express Basics &ndash; <a href="https://github.com/OSU-CS290-Sp2017/express-middleware-demo">example code</a>',
-  //         'Dynamic Content with Express &ndash; <a href="https://github.com/OSU-CS290-Sp2017/express-dynamic-content">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://expressjs.com/en/starter/hello-world.html">Hello world example</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/starter/static-files.html">Serving static files in Express</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/starter/basic-routing.html">Basic routing</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/guide/writing-middleware.html">Writing middleware for use in Express apps</a> &ndash; Express docs'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Express Basics',
+          'Dynamic Content with Express'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://expressjs.com/en/starter/hello-world.html">Hello world example</a> &ndash; Express docs',
+          '<a href="https://expressjs.com/en/starter/static-files.html">Serving static files in Express</a> &ndash; Express docs',
+          '<a href="https://expressjs.com/en/starter/basic-routing.html">Basic routing</a> &ndash; Express docs',
+          '<a href="https://expressjs.com/en/guide/writing-middleware.html">Writing middleware for use in Express apps</a> &ndash; Express docs'
+        ]
+      }
+    ]
+  },
+
   // {
   //   week: 9,
   //   sections: [
