@@ -157,6 +157,7 @@ var calendar = [
           '<a href="https://expressjs.com/en/starter/hello-world.html">Hello world example</a> &ndash; Express docs',
           '<a href="https://expressjs.com/en/starter/static-files.html">Serving static files in Express</a> &ndash; Express docs',
           '<a href="https://expressjs.com/en/starter/basic-routing.html">Basic routing</a> &ndash; Express docs',
+          '<a href="https://expressjs.com/en/guide/routing.html">Routing</a> &ndash; Express docs',
           '<a href="https://expressjs.com/en/guide/writing-middleware.html">Writing middleware for use in Express apps</a> &ndash; Express docs'
         ]
       }
