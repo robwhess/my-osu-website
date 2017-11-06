@@ -147,8 +147,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Express Basics',
-          'Dynamic Content with Express'
+          'Serving with Express &ndash; <a href="https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing">notes</a>'
         ]
       },
       {
