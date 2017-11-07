@@ -147,7 +147,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Serving with Express &ndash; <a href="https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing">notes</a>'
+          'Serving with Express &ndash; <a href="https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/express-serving">example code</a>'
         ]
       },
       {
