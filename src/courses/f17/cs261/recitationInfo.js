@@ -203,6 +203,24 @@ var recitationInfo = {
         }
       ]
     },
+
+    {
+      week: 8,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Graph Representations',
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1PjuSRUwXo16J_a0fwRmUg_JvxmT9uvYxcak3KPdEdaY/edit?usp=sharing">Week 8 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    }
   ]
 };
 
