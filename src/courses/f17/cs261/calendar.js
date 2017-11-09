@@ -179,6 +179,26 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 8,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Maps and Hash Tables &ndash; <a href="https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="' + CS261CourseNotes + '#page=137">Chapter 12</a> &ndash; Budd\'s Course Notes',
+          '<a href="https://en.wikipedia.org/wiki/Associative_array">Associative array</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Hash_table">Hash table</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 
