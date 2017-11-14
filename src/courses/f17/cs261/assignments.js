@@ -30,6 +30,14 @@ var assignments = [
       'Assignment due by 11:59pm, Monday 11/13/2017',
       'Demo due by 11:59pm, Monday 11/27/2017'
     ]
+  },
+  {
+    link : 'https://classroom.github.com/a/sQj8HOGf',
+    title: 'Assignment 4 - Priority queues',
+    notesHTML: [
+      'Assignment due by 11:59pm, Monday 11/27/2017',
+      'Demo due by 11:59pm, Friday 12/1/2017'
+    ]
   }
 ];
 
