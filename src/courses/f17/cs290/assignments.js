@@ -34,6 +34,15 @@ var assignments = [
       'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 11/13/2017',
       '<b>No demo for this assignment</b>'
     ]
+  },
+  {
+    link : 'https://classroom.github.com/a/yFR6VblN',
+    title: 'Assignment 5 - Handlebars templating',
+    notesHTML: [
+      'Assignment due by 11:59pm, Wednesday 11/29/2017',
+      'Code Blog due <b>ON CANVAS</b> by 11:59pm, Wednesday 11/29/2017',
+      '<b>No demo for this assignment</b>'
+    ]
   }
 ];
 
