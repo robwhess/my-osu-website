@@ -187,7 +187,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Maps and Hash Tables &ndash; <a href="https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing">notes</a>'
+          'Maps and Hash Tables &ndash; <a href="https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/chained-hash">chained hash example code</a>'
         ]
       },
       {
