@@ -200,6 +200,13 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1TTIe7OCqy6htYEl2kxfCLbYLAnDrgOqrSbNvAMPDx3k/edit?usp=sharing">Week 7 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1rgS8iPHCXQhyG79duVzoMD83F7Y0NjrWvjsdCzkQKvs/edit?usp=sharing">Week 7 Quiz Solutions</a>',
+            '<a href="https://drive.google.com/open?id=0B8aZMq9VhvmrcXExc1pQdFM3ZTFXUHE4OFVGTFF1ajJ4TlE0">Week 7 Worksheet Solutions</a>'
+          ]
         }
       ]
     },
