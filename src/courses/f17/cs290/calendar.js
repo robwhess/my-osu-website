@@ -169,7 +169,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Rendering Dynamic Content with Handlebars &ndash; <a href="https://github.com/OSU-CS290-F17/handlebars-templating">example code</a>'
+          'Rendering Dynamic Content with Handlebars &ndash; <a href="https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/handlebars-templating">example code</a>'
         ]
       },
       {
