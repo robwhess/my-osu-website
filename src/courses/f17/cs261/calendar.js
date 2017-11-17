@@ -199,6 +199,26 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Graphs &ndash; <a href="https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="' + CS261CourseNotes + '#page=152">Chapter 13</a> &ndash; Budd\'s Course Notes',
+          '<a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)">Graph (discrete mathematics)</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)">Graph (ADT)</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 

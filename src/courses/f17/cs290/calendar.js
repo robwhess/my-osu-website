@@ -186,6 +186,24 @@ var calendar = [
     ]
   },
 
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Asynchronous Client-Server Communication',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest">Using XMLHttpRequest</a> &ndash; MDN'
+        ]
+      }
+    ]
+  },
+
   // {
   //   week: 10,
   //   sections: [
