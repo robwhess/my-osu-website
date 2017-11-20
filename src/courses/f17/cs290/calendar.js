@@ -193,7 +193,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Asynchronous Client-Server Communication',
+          'Asynchronous Client-Server Communication &ndash; <a href="https://github.com/OSU-CS290-F17/async-communication">example code</a>',
         ]
       },
       {
