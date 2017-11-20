@@ -177,9 +177,10 @@ var calendar = [
         entriesHTML: [
           '<a href="https://www.sitepoint.com/a-beginners-guide-to-handlebars/">A Beginner\'s Guide to Handlebars</a> &ndash; sitepoint',
           '<a href="http://handlebarsjs.com/expressions.html">Expressions</a> &ndash; Handlebars docs',
-          '<a href="http://handlebarsjs.com/builtin_helpers.html">Build-In Helpers</a> &ndash; Handlebars docs',
+          '<a href="http://handlebarsjs.com/builtin_helpers.html">Built-In Helpers</a> &ndash; Handlebars docs',
           '<a href="http://handlebarsjs.com/partials.html">Partials</a> &ndash; Handlebars docs',
           '<a href="https://github.com/ericf/express-handlebars/#readme">Express Handlebars</a> &ndash; GitHub',
+          '<a href="http://expressjs.com/en/guide/using-template-engines.html">Using template engines with Express</a> &ndash; Express docs',
           '<a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Model-view-controller</a> &ndash; Wikipedia'
         ]
       }
