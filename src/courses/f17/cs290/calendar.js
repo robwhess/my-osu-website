@@ -205,27 +205,25 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 10,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Client-Server Communication &ndash; <a href="https://github.com/OSU-CS290-Sp2017/simple-api-server">example code</a>',
-  //         'MongoDB &ndash; <a href="https://github.com/OSU-CS290-Sp2017/simple-mongo-server">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest">Using XMLHttpRequest</a> &ndash; MDN',
-  //         '<a href="https://docs.mongodb.com/getting-started/shell/">Getting Started with MongoDB</a> &ndash; MongoDB docs',
-  //         '<a href="https://docs.mongodb.com/manual/crud/">MongoDB CRUD Operations</a> &ndash; MongoDB docs',
-  //         '<a href="http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start/">Node.js Quick Start</a> &ndash; MongoDB docs'
-  //       ]
-  //     }
-  //   ]
-  // }
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'MongoDB'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://docs.mongodb.com/getting-started/shell/">Getting Started with MongoDB</a> &ndash; MongoDB docs',
+          '<a href="https://docs.mongodb.com/manual/crud/">MongoDB CRUD Operations</a> &ndash; MongoDB docs',
+          '<a href="http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start/">Node.js Quick Start</a> &ndash; MongoDB docs'
+        ]
+      }
+    ]
+  }
 ];
 
 export default calendar;
