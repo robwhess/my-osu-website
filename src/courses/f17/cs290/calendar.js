@@ -211,7 +211,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'MongoDB'
+          'MongoDB &ndash; <a href="https://github.com/OSU-CS290-F17/using-mongodb">example code</a>'
         ]
       },
       {
