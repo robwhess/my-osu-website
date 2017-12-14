@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import FontAwesome from 'react-fontawesome';
 
-import { courseData, coursesByTerm } from './CourseData';
+import { currentTerm, courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
@@ -37,12 +37,11 @@ class App extends Component {
 
   generateTeachingNavMenu() {
     var teachingNavlink = navLinks.find((navLink) => (navLink.title === 'Teaching'));
-    var currentTerm = coursesByTerm[0];
-    teachingNavlink.menu = []
-    currentTerm.courses.forEach((course) => {
+    teachingNavlink.menu = [];
+    Object.keys(courseData[currentTerm].courses).forEach((course) => {
       teachingNavlink.menu.push({
-        path: '/teaching/' + course,
-        title: courseData[course].number
+        path: `/teaching/${course}-${currentTerm}`,
+        title: courseData[currentTerm].courses[course].number
       });
     });
   }
@@ -63,8 +62,8 @@ class App extends Component {
             <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
             <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
 
-            <Route exact path={generateSitePath('/teaching') + '/:course'} children={({ match }) => {
-              var data = courseData[match.params.course];
+            <Route exact path={generateSitePath('/teaching') + '/:course-:term'} children={({ match }) => {
+              var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
               if (data) {
                 return <CoursePage courseData={data} />;
               } else {
@@ -72,8 +71,8 @@ class App extends Component {
               }
             }} />
 
-            <Route exact path={generateSitePath('/teaching') + '/:course/:subpage'} children={({ match }) => {
-              var data = courseData[match.params.course];
+          <Route exact path={generateSitePath('/teaching') + '/:course-:term/:subpage'} children={({ match }) => {
+              var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
               if (data && data.subPages && data.subPages[match.params.subpage]) {
                 var SubPageComponent = data.subPages[match.params.subpage];
                 return <SubPageComponent match={match} courseData={data} />;

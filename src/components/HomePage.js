@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import { courseData, coursesByTerm } from '../CourseData';
+import { currentTerm, courseData } from '../CourseData';
 import { generateSitePath } from '../lib/SitePath';
 import PageContent from './PageContent';
 import headshot from '../images/rob.jpg';
@@ -10,14 +10,13 @@ import '../styles/HomePage.css';
 class HomePage extends Component {
 
   generateCurrentCoursesComponent() {
-    var currentTerm = coursesByTerm[0];
     return (
       <section className="teaching">
         <h2>Teaching</h2>
-        <p>These are the classes I'm teaching this term ({currentTerm.term}):</p>
+        <p>These are the classes I'm teaching this term ({courseData[currentTerm].title}):</p>
         <ul>
-          {currentTerm.courses.map((course, i) => (
-            <li key={i}><Link to={generateSitePath('/teaching/' + course)}>{courseData[course].number} &ndash; {courseData[course].title}</Link></li>
+          {Object.keys(courseData[currentTerm].courses).map((course, i) => (
+            <li key={i}><Link to={generateSitePath(`/teaching/${course}-${currentTerm}`)}>{courseData[currentTerm].courses[course].number} &ndash; {courseData[currentTerm].courses[course].title}</Link></li>
           ))}
         </ul>
       </section>
