@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import RecitationLabInfoPage from './RecitationLabInfoPage';
 import '../styles/RecitationLabInfoPage.css';
 
-class RecitationInfoPage extends Component {
+class LabInfoPage extends Component {
 
   static propTypes = {
     match: React.PropTypes.object.isRequired,
@@ -14,10 +14,10 @@ class RecitationInfoPage extends Component {
     var { match, courseData } = this.props;
 
     return (
-      <RecitationLabInfoPage match={match} courseData={courseData} type="recitation" />
+      <RecitationLabInfoPage match={match} courseData={courseData} type="lab" />
     );
   }
 
 }
 
-export default RecitationInfoPage;
+export default LabInfoPage;
