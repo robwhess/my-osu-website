@@ -43,17 +43,27 @@ class RecitationLabInfoPage extends Component {
               <th className='bottom-align'>Location</th>
               <th className='bottom-align'>TA(s)</th>
             </tr>
-            {sections.map((section, i) => (
-              <tr key={i}>
-                <td>{section.number}</td>
-                <td>{section.dayTime}</td>
-                <td>{section.location}</td>
-                <td>{section.ta}</td>
-              </tr>
-            ))}
+            {sections.map(this.generateSectionsTableRowComponent)}
           </tbody>
         </table>
       </section>
+    );
+  }
+
+  generateSectionsTableRowComponent(section, key) {
+    var taCellComponent = null;
+    if (section.taHTML) {
+      taCellComponent = <td dangerouslySetInnerHTML={{ __html: section.taHTML }} />;
+    } else {
+      taCellComponent = <td>{section.ta}</td>;
+    }
+    return (
+      <tr key={key}>
+        <td>{section.number}</td>
+        <td>{section.dayTime}</td>
+        <td>{section.location}</td>
+        {taCellComponent}
+      </tr>
     );
   }
 

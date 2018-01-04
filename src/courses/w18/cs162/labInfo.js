@@ -1,10 +1,8 @@
 var labInfo = {
   policiesHTML: [
-    // '<strong>You must attend the recitation section for which you are registered.</strong>',
-    // 'A writing utensil is required for all recitations.',
-    // '<strong>It is your responsibility to print out each recitation\'s worksheet and bring it with you to your recitation.</strong>',
-    // '<strong>Attendance is required for recitations.</strong>  Excused absences must be approved by the lecture instructor.  You will receive a zero for any unexcused absences from recitation.  It is your responsibility to make up recitation work missed for an excused absence.',
-    // '<a href="https://docs.google.com/document/d/1vpw9bfv2tsoLjiYVJ3hsDnDlBxO4YLsaFOFKP0Axx2U/edit?usp=sharing">Recitation syllabus</a>',
+    '<strong>Lab attendance.</strong> Attendance is required for labs, and you must attend the lab section for which you are registered.  Excused absences from labs must be approved by the lecture instructor.  It is your responsibility to make up lab work missed for an excused absence.  You will receive a zero for any unexcused absences from lab.',
+    '<strong>Laptops required.</strong> You must bring a laptop to lab.',
+    '<strong>Finishing lab work.</strong> You may finish or re-do up to 30% of the points for a week’s lab work after your lab meeting for that week.  To redeem these points, you must show your update to your lab TA at the beginning of the following week’s lab meeting.  Otherwise, your update will not be accepted.'
   ],
 
   sections: [
@@ -12,31 +10,31 @@ var labInfo = {
       number: '010',
       dayTime: 'Tu 10:00-11:50am',
       location: 'DEAR 208',
-      ta: 'TBD'
+      taHTML: 'Glenn Upthagrove<br>Yipeng Song'
     },
     {
       number: '011',
       dayTime: 'Tu 12:00-1:50pm',
       location: 'DEAR 208',
-      ta: 'TBD'
+      taHTML: 'Glenn Upthagrove<br>Kaitlin Hill'
     },
     {
       number: '012',
       dayTime: 'W 8:00-9:50am',
       location: 'DEAR 208',
-      ta: 'TBD'
+      taHTML: 'Mason Sidebottom<br>Yipeng Song'
     },
     {
       number: '013',
       dayTime: 'Tu 1:00-2:50pm',
       location: 'DEAR 208',
-      ta: 'TBD'
+      taHTML: 'Kaitlin Hill<br>Mason Sidebottom'
     },
     {
       number: '015',
       dayTime: 'Th 12:00-1:50pm',
       location: 'DEAR 208',
-      ta: 'TBD'
+      taHTML: 'Kaitlin Hill<br>Mason Sidebottom'
     },
   ],
 

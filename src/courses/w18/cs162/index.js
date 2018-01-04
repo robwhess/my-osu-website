@@ -18,7 +18,7 @@ var courseDetails = {
   essentials: [
     {
       title: 'Instructor',
-      infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)<br/>Office hours: TBD (KEC 1109)'
+      infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)<br/>Office hours: W 2:00&ndash;4:00pm, Th 10:00&ndash;11:00am (KEC 1109)'
     },
     {
       title: 'TAs',
@@ -41,7 +41,7 @@ var courseDetails = {
     },
     {
       title: 'Syllabus',
-      infoHTML: '<a href="#">CS 162 Syllabus</a>'
+      infoHTML: '<a href="https://docs.google.com/document/d/1W0imnas27fZ-E2ttDyFuqmiHPutazFFKYZHdDlV0zRI/edit?usp=sharing">CS 162 Syllabus</a>'
     },
     {
       title: 'Piazza',

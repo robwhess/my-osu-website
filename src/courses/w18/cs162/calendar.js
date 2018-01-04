@@ -5,24 +5,18 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'TBD',
-          // 'Course Intro &ndash; <a href="https://docs.google.com/document/d/1N9pyiZpiaQsVnle9xayVtjABpFIpFzXA6O_mFVyARdw/edit?usp=sharing">notes</a>',
-          // 'Git and GitHub &ndash; <a href="https://docs.google.com/document/d/1TnMfQfhkam3vOdVLWAaF3Y_V-Z8eX7IvKx0w2tPr0Pg/edit?usp=sharing">notes</a>',
-          // 'C Review/Crash Course &ndash; <a href="https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing">notes</a>'
+          'Course Intro',
+          'Git and GitHub &ndash; <a href="https://docs.google.com/document/d/1lBaJnhL_lQZEFht7syMCOzpM-up6DWKrsNV7NwW5Cp8/edit?usp=sharing">notes</a>',
+          'Review: Pointers, Arrays, and Structs &ndash; <a href="https://docs.google.com/document/d/1rc4tvvVOSXMGjdVDBgNT0tlQ-KJFOoY5nZ6t1kd7r8I/edit?usp=sharing">notes</a>'
         ]
       },
-      // {
-      //   heading: 'Readings',
-      //   entriesHTML: [
-      //     '<a href="' + CS261CourseNotes + '#page=1">Chapters 1&ndash;3</a> &ndash; Budd\'s Course Notes',
-      //     '<a href="https://git-scm.com/book/en/v2">Chapters 1 and 2</a> &ndash; Pro Git',
-      //     '<a href="http://www.cprogramming.com/tutorial/c/lesson1.html">Lesson 1: Intro to C</a> &ndash; C Programming',
-      //     '<a href="http://www.cprogramming.com/tutorial/c/lesson4.html">Lesson 4: Functions in C</a> &ndash; C Programming',
-      //     '<a href="http://www.cprogramming.com/tutorial/c/lesson7.html">Lesson 7: Structures in C</a> &ndash; C Programming',
-      //     '<a href="http://www.cprogramming.com/tutorial/c/lesson6.html">Lesson 6: Pointers in C</a> &ndash; C Programming',
-      //     'Note that the above readings assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to <a href="https://en.wikipedia.org/wiki/C99#Design">Wikipedia</a> to understand the differences between C89 and C99.'
-      //   ]
-      // }
+      {
+        heading: 'Readings',
+        entriesHTML: [
+            '<a href="https://git-scm.com/book/en/v2">Chapters 1 and 2</a> &ndash; Pro Git',
+            '<a href="http://www.learncpp.com/#Chapter6">Chapter 6 (Arrays, Strings, Pointers, and References)</a> &ndash; LearnCpp.com'
+          ]
+      }
     ]
   },
 ];

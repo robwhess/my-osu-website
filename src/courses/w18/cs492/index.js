@@ -15,8 +15,8 @@ var courseDetails = {
       infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)'
     },
     {
-      title: 'TAs',
-      infoHTML: 'TBD'
+      title: 'TA',
+      infoHTML: 'Ozgur Ozmen (<a href="mailto:ozmenmu@oregonstate.edu">ozmenmu@oregonstate.edu</a>)'
     },
     {
       title: 'Lectures',
@@ -24,7 +24,7 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: TBD (KEC 1109)'
+      infoHTML: 'Rob: W 2:00&ndash;4:00pm, Th 10:00&ndash;11:00am (KEC 1109)<br>Ozgur: TBD'
     },
     {
       title: 'Grading Hours',
@@ -32,7 +32,7 @@ var courseDetails = {
     },
     {
       title: 'Syllabus',
-      infoHTML: '<a href="#">CS 492 Syllabus</a>'
+      infoHTML: '<a href="https://docs.google.com/document/d/1_b4yYVgUtwT17wOiptlwHTwUwI8UM9xjuholV0y6cqk/edit?usp=sharing">CS 492 Syllabus</a>'
     },
     {
       title: 'Piazza',
