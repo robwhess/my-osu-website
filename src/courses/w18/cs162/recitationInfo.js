@@ -12,7 +12,7 @@ var recitationInfo = {
       number: '016',
       dayTime: 'Tu 2:00-2:50pm',
       location: 'GILK 100',
-      ta: 'Mason Sidebottom'
+      ta: 'Kyle Nichols'
     },
     {
       number: '017',
@@ -30,7 +30,7 @@ var recitationInfo = {
       number: '019',
       dayTime: 'W 11:00-11:50am',
       location: 'KIDD 238',
-      ta: 'TBD'
+      ta: 'Mason Sidebottom'
     },
     {
       number: '020',
