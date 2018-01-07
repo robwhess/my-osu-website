@@ -24,7 +24,7 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: W 2:00&ndash;4:00pm, Th 10:00&ndash;11:00am (KEC 1109)<br>Ozgur: TBD'
+      infoHTML: 'Rob: Tu 10:00&ndash;11:00am, W 2:00&ndash;4:00pm (KEC 1109)<br>Ozgur: TBD'
     },
     {
       title: 'Grading Hours',

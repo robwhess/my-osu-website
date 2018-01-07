@@ -18,7 +18,7 @@ var courseDetails = {
   essentials: [
     {
       title: 'Instructor',
-      infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)<br/>Office hours: W 2:00&ndash;4:00pm, Th 10:00&ndash;11:00am (KEC 1109)'
+      infoHTML: 'Rob Hess (<a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a>)<br/>Office hours: Tu 10:00&ndash;11:00am, W 2:00&ndash;4:00pm (KEC 1109)'
     },
     {
       title: 'TAs',
