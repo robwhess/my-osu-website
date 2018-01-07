@@ -43,9 +43,9 @@ var labInfo = {
       week: 1,
       sections: [
         {
-          heading: 'Exercise',
+          heading: 'Lab Exercise',
           entriesHTML: [
-            'TBD'
+            '<a href="https://docs.google.com/document/d/1IrVJm1SPP2aOWi7w8fOoLFOszPgwGh0Gk4GuGO4ScGk/edit?usp=sharing">Week 1 Lab Exercise</a> &ndash; Git, GitHub, and C++ review'
           ]
         }
       ]
