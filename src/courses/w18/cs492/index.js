@@ -24,11 +24,11 @@ var courseDetails = {
     },
     {
       title: 'Office Hours',
-      infoHTML: 'Rob: Tu 10:00&ndash;11:00am, W 2:00&ndash;4:00pm (KEC 1109)<br>Ozgur: TBD'
+      infoHTML: 'Rob: Tu 10:00&ndash;11:00am, W 2:00&ndash;4:00pm (KEC 1109)<br>Ozgur: WF 1:30&ndash;2:30pm (KEC 2087)'
     },
     {
       title: 'Grading Hours',
-      infoHTML: 'TBD'
+      infoHTML: '<table><tbody><tr><td>Ozgur:</td><td><a href="#">M 3:00&ndash;4:30pm (KEC 2087)<br>Tu 12:00&ndash;1:30pm (KEC 2087)<br>W 2:30&ndash;4:30pm (KEC 2087)<br>F 2:30&ndash;4:30pm (KEC 2087)<br></a></td></tr></tbody></table>'
     },
     {
       title: 'Syllabus',
