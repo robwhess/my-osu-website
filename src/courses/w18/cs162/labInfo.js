@@ -26,7 +26,7 @@ var labInfo = {
     },
     {
       number: '013',
-      dayTime: 'Tu 1:00-2:50pm',
+      dayTime: 'W 1:00-2:50pm',
       location: 'DEAR 208',
       taHTML: 'Kaitlin Hill<br>Mason Sidebottom'
     },
