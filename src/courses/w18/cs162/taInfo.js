@@ -47,16 +47,6 @@ var taInfo = {
       gradingHoursPollLink: '#'
     },
     {
-      name: 'Taz Thenell',
-      email: 'thenellt@oregonstate.edu',
-      officeHours: [
-        'M 2:00-3:30pm (KEC 1174)',
-        'W 2:00-4:00pm (KEC 1174)'
-      ],
-      gradingHours: [],
-      gradingHoursPollLink: '#'
-    },
-    {
       name: 'Roger Song',
       email: 'songyip@oregonstate.edu',
       officeHours: [
@@ -65,6 +55,16 @@ var taInfo = {
       gradingHours: [
         'TBD'
       ],
+      gradingHoursPollLink: '#'
+    },
+    {
+      name: 'Taz Thenell',
+      email: 'thenellt@oregonstate.edu',
+      officeHours: [
+        'M 2:00-3:30pm (KEC 1174)',
+        'W 2:00-4:00pm (KEC 1174)'
+      ],
+      gradingHours: [],
       gradingHoursPollLink: '#'
     }
   ]
