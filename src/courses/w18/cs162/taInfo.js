@@ -56,7 +56,7 @@ var taInfo = {
       gradingHoursPollLink: '#'
     },
     {
-      name: 'Yipeng Song',
+      name: 'Roger Song',
       email: 'songyip@oregonstate.edu',
       officeHours: [
         'TBD'
