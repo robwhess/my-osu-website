@@ -15,10 +15,11 @@ var taInfo = {
       name: 'Kaitlin Hill',
       email: 'hillkai@oregonstate.edu',
       officeHours: [
-        'TBD'
+        'M 1:30-3:30pm (KEC 1174)'
       ],
       gradingHours: [
-        'TBD'
+        'W 3:00-4:00pm (KEC 1174)',
+        'Th 2:00-3:00pm (KEC 1174)'
       ],
       gradingHoursPollLink: '#'
     },
@@ -37,7 +38,8 @@ var taInfo = {
       name: 'Mason Sidebottom',
       email: 'sidebotm@oregonstate.edu',
       officeHours: [
-        'TBD'
+        'Tu 1:00-4:00pm (KEC 1174)',
+        'Th 2:00-4:00pm (KEC 1174)'
       ],
       gradingHours: [
         'TBD'
@@ -48,11 +50,10 @@ var taInfo = {
       name: 'Taz Thenell',
       email: 'thenellt@oregonstate.edu',
       officeHours: [
-        'TBD'
+        'M 2:00-3:30pm (KEC 1174)',
+        'W 2:00-4:00pm (KEC 1174)'
       ],
-      gradingHours: [
-        'TBD'
-      ],
+      gradingHours: [],
       gradingHoursPollLink: '#'
     },
     {
