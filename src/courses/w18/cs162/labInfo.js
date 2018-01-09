@@ -16,13 +16,13 @@ var labInfo = {
       number: '011',
       dayTime: 'Tu 12:00-1:50pm',
       location: 'DEAR 208',
-      taHTML: 'Glenn Upthagrove<br>Kaitlin Hill'
+      taHTML: 'Kaitlin Hill<br>Roger Song'
     },
     {
       number: '012',
       dayTime: 'W 8:00-9:50am',
       location: 'DEAR 208',
-      taHTML: 'Mason Sidebottom<br>Roger Song'
+      taHTML: 'Glenn Upthagrove<br>Mason Sidebottom'
     },
     {
       number: '013',
