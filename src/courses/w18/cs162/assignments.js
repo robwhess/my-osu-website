@@ -5,9 +5,12 @@ var assignments = {
     "<p>Note that all of your assignments will have a component of their grade based on your code style and commenting. Using descriptive comments and good, consistent code style is very important to ensure the code you write is readable, understandable, and maintainable. For more on why good, consistent style is important, check out the background and goals of <a href='https://google.github.io/styleguide/cppguide.html#Background'>Google's C++ style guide</a>.  Please read the <a href='" + CourseStyleGuidelines + "'>style guidelines for this course</a> and try to follow them when writing your assignments.</p>",
   assignments: [
     {
-      link : '#',
-      title: 'TBD',
-      notesHTML: []
+      link : 'https://classroom.github.com/a/Hl6XiXUi',
+      title: 'Assignment 1 - Pointers, arrays, structs, and file I/O',
+      notesHTML: [
+        'Due by 11:59pm, Monday 1/22/2018',
+        'Demo due by 11:59pm, Monday 2/5/2018'
+      ]
     }
   ]
 };
