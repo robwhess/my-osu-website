@@ -7,7 +7,7 @@ var calendar = [
         entriesHTML: [
           'Course Intro',
           'Overview of Compilers &ndash; <a href="https://docs.google.com/document/d/1TVQFQlMrP0RpSTYAI9P-xnM_5iA45rswqCuI0yADEfw/edit?usp=sharing">notes</a>',
-          'Scanning: Finite Automata and Regular Expressions'
+          'Scanning: Finite Automata and Regular Expressions &ndash; <a href="https://docs.google.com/document/d/1FODBAP83e_JCkJBTxzfa5672vKLdCRDLw4c4UEjMerE/edit?usp=sharing">notes</a>'
         ]
       },
       {
