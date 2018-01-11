@@ -4,10 +4,11 @@ var taInfo = {
       name: 'Glenn Upthagrove',
       email: 'upthagrg@oregonstate.edu',
       officeHours: [
-        'TBD'
+        'Tu 1:00-2:00pm (KEC 1174)'
       ],
       gradingHours: [
-        'TBD'
+        'Tu 12:00-1:00pm (KEC 1174)',
+        'Th 11:00am-1:00pm (KEC 1174)'
       ],
       gradingHoursPollLink: '#'
     },
