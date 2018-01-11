@@ -4,11 +4,11 @@ var taInfo = {
       name: 'Chengxi Yang',
       email: 'yangchen@oregonstate.edu',
       officeHours: [
-        'M 1:00-3:00pm (Room TBD)'
+        'M 1:00-3:00pm (John 123)'
       ],
       gradingHours: [
-        'Tu 2:00-5:00pm (Room TBD)',
-        'Th 2:00-5:00pm (Room TBD)'
+        'Tu 2:00-5:00pm (John 123)',
+        'Th 2:00-5:00pm (John 123)'
       ],
       gradingHoursPollLink: '#'
     },
@@ -16,11 +16,11 @@ var taInfo = {
       name: 'Wenxuan Wu',
       email: 'wuwen@oregonstate.edu',
       officeHours: [
-        'Th 11:00am-12:00pm (Room TBD)'
+        'Th 11:00am-12:00pm (John 123)'
       ],
       gradingHours: [
-        'Tu 10:00am-12:00pm (Room TBD)',
-        'Th 10:00-11:00am (Room TBD)'
+        'Tu 10:00am-12:00pm (John 123)',
+        'Th 10:00-11:00am (John 123)'
       ],
       gradingHoursPollLink: '#'
     }
