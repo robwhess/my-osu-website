@@ -10,7 +10,7 @@ var taInfo = {
         'Tu 12:00-1:00pm (KEC 1174)',
         'Th 11:00am-1:00pm (KEC 1174)'
       ],
-      gradingHoursPollLink: '#'
+      gradingHoursPollLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUxlU2hhV3prZ3NUfGRlZmF1bHR8NWNiZGZkZGRhNTg4NGI4YTA0MmFlMDk3YzFjYTY5MTc'
     },
     {
       name: 'Kaitlin Hill',
