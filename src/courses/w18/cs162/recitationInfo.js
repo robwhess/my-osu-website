@@ -71,6 +71,24 @@ var recitationInfo = {
         }
       ]
     },
+
+    {
+      week: 2,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Code style'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1G4kNtOlgWOBinUAAG6XduYmrIAH37I4Y6rpFeMHtYqw/edit?usp=sharing">Week 2 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    },
   ]
 };
 

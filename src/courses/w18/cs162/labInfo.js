@@ -50,6 +50,19 @@ var labInfo = {
         }
       ]
     },
+
+    {
+      week: 2,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            'During week 2 lab, you will have an extra week to complete week 1\'s lab exercise.',
+            '<a href="https://docs.google.com/document/d/1IrVJm1SPP2aOWi7w8fOoLFOszPgwGh0Gk4GuGO4ScGk/edit?usp=sharing">Week 1 Lab Exercise</a> &ndash; Git, GitHub, and C++ review'
+          ]
+        }
+      ]
+    },
   ]
 };
 
