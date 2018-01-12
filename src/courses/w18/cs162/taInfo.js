@@ -28,7 +28,7 @@ var taInfo = {
       name: 'Kyle Nichols',
       email: 'nichokyl@oregonstate.edu',
       officeHours: [
-        'Tu 1:00-3:00pm (KEC 1174)'
+        'M 4:00-6:00pm (Dear 119)'
       ],
       gradingHours: [],
       gradingHoursPollLink: '#'
