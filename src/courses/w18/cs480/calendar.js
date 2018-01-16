@@ -27,13 +27,13 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Scanning',
+          'Regular Expression-Based Scanners &ndash; <a href="https://docs.google.com/document/d/1Q3Qj3pZVixeeD6bQ7oDeBze3csKF58-k0E6r5XJ7Ssk/edit?usp=sharing">notes</a>'
         ]
       },
       {
         heading: 'Readings',
         entriesHTML: [
-          'Chapter 2 &ndash; Cooper and Torczon',
+          'Chapter 2 (2.4&ndash;2.5) &ndash; Cooper and Torczon'
         ]
       }
     ]
