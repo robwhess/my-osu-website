@@ -28,7 +28,7 @@ var courseDetails = {
     },
     {
       title: 'Grading Hours',
-      infoHTML: '<table><tbody><tr><td>Ozgur:</td><td><a href="#">M 3:00&ndash;4:30pm (KEC 2087)<br>Tu 12:00&ndash;1:30pm (KEC 2087)<br>W 2:30&ndash;4:30pm (KEC 2087)<br>F 2:30&ndash;4:30pm (KEC 2087)<br></a></td></tr></tbody></table>'
+      infoHTML: '<table><tbody><tr><td>Ozgur:</td><td><a href="https://calendar.google.com/calendar/selfsched?sstoken=UVBTQUJQTDNUbDlVfGRlZmF1bHR8ZjU2YzFjODY0YmVhM2M2YmRjMDY1Y2U0NzRmNGVmNmI">M 3:00&ndash;4:30pm (KEC 2087)<br>Tu 12:00&ndash;1:30pm (KEC 2087)<br>W 2:30&ndash;4:30pm (KEC 2087)<br>F 2:30&ndash;4:30pm (KEC 2087)<br></a></td></tr></tbody></table>'
     },
     {
       title: 'Syllabus',
