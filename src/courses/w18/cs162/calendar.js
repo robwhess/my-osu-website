@@ -26,7 +26,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'File I/O &ndash; <a href="https://docs.google.com/document/d/1hWYCUBf9NL80O6PK-oH7sA0zMFEd8A3F8SAODc_0f9U/edit?usp=sharing">notes</a>',
+          'File I/O &ndash; <a href="https://docs.google.com/document/d/1hWYCUBf9NL80O6PK-oH7sA0zMFEd8A3F8SAODc_0f9U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/file-io">example code</a>',
           'Separation of Files, Compilation, and Make &ndash; <a href="https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing">notes</a>'
         ]
       },

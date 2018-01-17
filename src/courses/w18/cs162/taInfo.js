@@ -37,8 +37,8 @@ var taInfo = {
       name: 'Mason Sidebottom',
       email: 'sidebotm@oregonstate.edu',
       officeHours: [
-        'Tu 1:00-4:00pm (KEC 1174)',
-        'Th 2:00-4:00pm (KEC 1174)'
+        'Tu 1:00-4:00pm (DEAR 119)',
+        'Th 2:00-4:00pm (DEAR 119)'
       ],
       gradingHours: [
         'TBD'
