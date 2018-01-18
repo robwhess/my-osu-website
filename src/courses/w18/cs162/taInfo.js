@@ -41,9 +41,10 @@ var taInfo = {
         'Th 2:00-4:00pm (DEAR 119)'
       ],
       gradingHours: [
-        'TBD'
+        'W 10:00-10:50am (KEC 1174)',
+        'F 10:00-11:50am (KEC 1174)'
       ],
-      gradingHoursPollLink: '#'
+      gradingHoursPollLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUExWWdOQWpabF9WfGRlZmF1bHR8NTEwYTE3ZmVlZWMwYmJlZDQyMjM0NzExNzNmZGJmOGI'
     },
     {
       name: 'Roger Song',
