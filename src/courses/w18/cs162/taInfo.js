@@ -63,8 +63,8 @@ var taInfo = {
       name: 'Taz Thenell',
       email: 'thenellt@oregonstate.edu',
       officeHours: [
-        'M 2:00-3:30pm (KEC 1174)',
-        'W 2:00-4:00pm (KEC 1174)'
+        'W 2:00-4:00pm (Dear 119)',
+        'Th 1:00-2:00pm (Dear 119)'
       ],
       gradingHours: [],
       gradingHoursPollLink: '#'
