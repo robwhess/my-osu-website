@@ -27,7 +27,7 @@ var calendar = [
         entriesHTML: [
           'Getting Started with Android Studio &ndash; <a href="https://docs.google.com/document/d/182E2WAi6A7IgaStmhQLK8aMUcSf1x71bteQ-L3iIom4/edit?usp=sharing">notes</a>',
           'Our First Android App: TODOs &ndash; <a href="https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/SimpleTODOs">example code</a>',
-          'RecyclerView &ndash; <a href="https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing">notes</a>'
+          'RecyclerView &ndash; <a href="https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewTODOs">example code</a>'
         ]
       },
       {
