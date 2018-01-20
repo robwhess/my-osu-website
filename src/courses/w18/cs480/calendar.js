@@ -37,6 +37,28 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 3,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'The Flex Scanner Generator',
+          'Context-Free Grammars'
+
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/handouts/050%20Flex%20In%20A%20Nutshell.pdf">Flex In a Nutshell</a> &ndash; Julie Zelenski (Stanford)',
+          '<a href="ftp://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_mono/flex.html">Flex - A fast scanner generator</a> &ndash; The Flex user manual',
+          'Chapter 3 (3.1&ndash;3.2) &ndash; Cooper and Torczon'
+        ]
+      }
+    ]
   }
 ];
 

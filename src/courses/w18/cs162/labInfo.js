@@ -63,6 +63,18 @@ var labInfo = {
         }
       ]
     },
+
+    {
+      week: 3,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1OGO1WE7rqKTUi4bDwmLZQV9lDU4p6b3RetiW-8kwJN0/edit?usp=sharing">Week 3 Lab Exercise</a> &ndash; File I/O'
+          ]
+        }
+      ]
+    },
   ]
 };
 

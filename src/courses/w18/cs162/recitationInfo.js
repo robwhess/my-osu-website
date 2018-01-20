@@ -89,6 +89,24 @@ var recitationInfo = {
         }
       ]
     },
+
+    {
+      week: 3,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Object-oriented design'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1lqwoIdCQT9Di13vBw-Wvzr94Zr_DnBTN8Cq-RiyqPkg/edit?usp=sharing">Week 3 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    },
   ]
 };
 
