@@ -248,7 +248,7 @@ var courseDetails = {
     preambleHTML: "<p> Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a <code>README.md</code> file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.</p>",
     assignments: [
       {
-        link : 'https://classroom.github.com/assignment-invitations/0192703fc2e58909c9325671d4f83a82',
+        link : '#',
         title: 'Assignment 1 – The beginnings of a weather app',
         notesHTML: [
           'Assignment due by 11:59pm, Monday 4/24/2017',
@@ -256,7 +256,7 @@ var courseDetails = {
         ]
       },
       {
-        link : 'https://classroom.github.com/assignment-invitations/d1c8fd469370b44cf35e1ae3fe1d5395',
+        link : '#',
         title: 'Assignment 2 – Internet connectivity and intents',
         notesHTML: [
           'Assignment due by 11:59pm, Monday 5/8/2017',
@@ -264,7 +264,7 @@ var courseDetails = {
         ]
       },
       {
-        link : 'https://classroom.github.com/assignment-invitations/a245f4dc8c45c057e0eab16d0ce70aab',
+        link : '#',
         title: 'Assignment 3 – The activity lifecycle and AsyncTaskLoader',
         notesHTML: [
           'Assignment due by 11:59pm, Monday 5/22/2017',
@@ -272,7 +272,7 @@ var courseDetails = {
         ]
       },
       {
-        link : 'https://classroom.github.com/assignment-invitations/99a4d6d179aa94f6fd3eddb9a5cd13c9',
+        link : '#',
         title: 'Assignment 4 – SharedPreferences',
         notesHTML: [
           'Assignment due by 11:59pm, Monday 6/5/2017',
