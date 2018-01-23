@@ -45,7 +45,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'The Flex Scanner Generator',
+          'The Flex Scanner Generator &ndash; <a href="https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing">notes</a>',
           'Context-Free Grammars'
 
         ]
