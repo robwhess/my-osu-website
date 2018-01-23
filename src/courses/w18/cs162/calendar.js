@@ -45,7 +45,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Separation of Files, Compilation, and Make &ndash; <a href="https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing">notes</a>',
+          'Separation of Files, Compilation, and Make &ndash; <a href="https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/compilation">example code</a>',
           'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a>'
         ]
       },
