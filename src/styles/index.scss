@@ -32,6 +32,10 @@ a {
   }
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 @media (max-width: 640px) {
   body {
     font-weight: 400;
