@@ -50,7 +50,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'User Interactions and RecyclerView &ndash; <a href="https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing">notes</a>',
+          'User Interactions and RecyclerView &ndash; <a href="https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewInteractions">example code</a>',
           'Fetching Internet Data using AsyncTask &ndash; <a href="https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing">notes</a>'
 
         ]
