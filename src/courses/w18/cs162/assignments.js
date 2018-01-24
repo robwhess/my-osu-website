@@ -11,6 +11,14 @@ var assignments = {
         'Due by 11:59pm, Monday 1/22/2018',
         'Demo due by 11:59pm, Monday 2/5/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/oLioGZfr',
+      title: 'Assignment 2 - Go Fish (Classes and Composition)',
+      notesHTML: [
+        'Due by 11:59pm, Monday 2/5/2018',
+        'Demo due by 11:59pm, Monday 2/19/2018'
+      ]
     }
   ]
 };
