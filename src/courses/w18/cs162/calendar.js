@@ -46,7 +46,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'Separation of Files, Compilation, and Make &ndash; <a href="https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/compilation">example code</a>',
-          'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a>'
+          'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/class-basics">example code</a>'
         ]
       },
       {
@@ -58,6 +58,27 @@ var calendar = [
           '<a href="http://mrbook.org/blog/tutorials/make/">Makefiles: A tutorial by example</a> &ndash; Mrbook',
           '<a href="http://www.learncpp.com/#Chapter8">Chapter 8 (Basic object-oriented programming)</a> &ndash; LearnCpp.com',
           '<a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes</a> &ndash; cplusplus.com'
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/class-basics">example code</a>',
+          'Object Composition'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://www.learncpp.com/#Chapter8">Chapter 8 (Basic object-oriented programming)</a> &ndash; LearnCpp.com',
+          '<a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes</a> &ndash; cplusplus.com',
+          '<a href="http://www.learncpp.com/cpp-tutorial/102-composition/">10.2 - Composition</a> &ndash; LearnCpp.com'
         ]
       }
     ]

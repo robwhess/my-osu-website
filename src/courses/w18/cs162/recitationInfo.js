@@ -86,6 +86,12 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1G4kNtOlgWOBinUAAG6XduYmrIAH37I4Y6rpFeMHtYqw/edit?usp=sharing">Week 2 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Quiz solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1zSORhGOX_2-KpIkw3UYzpSiaokg171fDSF1VMujLF58/edit?usp=sharing">Week 2 Recitation Quiz Solutions</a>'
+          ]
         }
       ]
     },
@@ -104,9 +110,33 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1lqwoIdCQT9Di13vBw-Wvzr94Zr_DnBTN8Cq-RiyqPkg/edit?usp=sharing">Week 3 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Quiz solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1ixDZWv_wgm1DarO-8IHIOiXnfxAUMQdrvW87fIie8zA/edit?usp=sharing">Week 3 Recitation Quiz Solutions</a>'
+          ]
         }
       ]
     },
+
+    {
+      week: 4,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Object-oriented design implementation'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1bCOEVMPOam3xESHhvSgHSdNm9bOv-Sz82HEByW8JLPE/edit?usp=sharing">Week 4 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    }
   ]
 };
 

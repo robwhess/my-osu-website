@@ -75,6 +75,18 @@ var labInfo = {
         }
       ]
     },
+
+    {
+      week: 4,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1MN-PX8HAxpi7eagDanX5TR2F1E-tyVJf7_tMpxZCQ5w/edit?usp=sharing">Week 4 Lab Exercise</a> &ndash; Classes and composition'
+          ]
+        }
+      ]
+    }
   ]
 };
 
