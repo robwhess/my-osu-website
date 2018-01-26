@@ -50,9 +50,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'User Interactions and RecyclerView &ndash; <a href="https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewInteractions">example code</a>',
-          'Fetching Internet Data using AsyncTask &ndash; <a href="https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing">notes</a>'
-
+          'User Interactions and RecyclerView &ndash; <a href="https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewInteractions">example code</a>'
         ]
       },
       {
@@ -60,6 +58,23 @@ var calendar = [
         entriesHTML: [
           '<a href="https://developer.android.com/guide/topics/ui/notifiers/toasts.html">Toasts</a> &ndash; Android Developers',
           '<a href="https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback.html">ItemTouchHelper.SimpleCallback</a> &ndash; Android Developers',
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Fetching Internet Data using AsyncTask &ndash; <a href="https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearch">example code</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
           '<a href="https://developer.android.com/reference/java/net/URL.html">URL</a> &ndash; Android Developers',
           '<a href="https://developer.android.com/reference/android/net/Uri.Builder.html">Uri.Builder</a> &ndash; Android Developers',
           '<a href="https://developer.android.com/guide/components/processes-and-threads.html">Processes and Threads</a> &ndash; Android Developers',
@@ -70,29 +85,6 @@ var calendar = [
       }
     ]
   },
-  //
-  // {
-  //   week: 4,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Fetching Internet Data using AsyncTask &ndash; <a href="https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearch">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.android.com/reference/java/net/URL.html">URL</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/reference/android/net/Uri.Builder.html">Uri.Builder</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/guide/components/processes-and-threads.html">Processes and Threads</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/guide/topics/permissions/index.html">Permissions</a> &ndash; Android Developers',
-  //         '<a href="https://www.tutorialspoint.com/android/android_json_parser.htm">Android - JSON Parser</a> &ndash; TutorialsPoint'
-  //       ]
-  //     }
-  //   ]
-  // },
   //
   // {
   //   week: 5,
