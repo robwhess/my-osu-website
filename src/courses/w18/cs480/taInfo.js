@@ -22,7 +22,7 @@ var taInfo = {
         'Tu 10:00am-12:00pm (John 123)',
         'Th 10:00-11:00am (John 123)'
       ],
-      gradingHoursPollLink: '#'
+      gradingHoursPollLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU1WSllGMnRONGxOfGRlZmF1bHR8YTIwNWE2MjA5MTk5ODYyN2MyMmQxNjVlMmYyNWEyNTM'
     }
   ]
 };
