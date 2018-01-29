@@ -46,7 +46,6 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'The Flex Scanner Generator &ndash; <a href="https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS480-W18/flex">example code</a>',
-          'Context-Free Grammars'
         ]
       },
       {
@@ -54,7 +53,25 @@ var calendar = [
         entriesHTML: [
           '<a href="https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/handouts/050%20Flex%20In%20A%20Nutshell.pdf">Flex In a Nutshell</a> &ndash; Julie Zelenski (Stanford)',
           '<a href="ftp://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_mono/flex.html">Flex - A fast scanner generator</a> &ndash; The Flex user manual',
-          'Chapter 3 (3.1&ndash;3.2) &ndash; Cooper and Torczon'
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Context-Free Grammars &ndash; <a href="https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing">notes</a>',
+          'Top-Down Parsing and LL(1) Grammars'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          'Chapter 3 (3.1&ndash;3.3) &ndash; Cooper and Torczon'
         ]
       }
     ]
