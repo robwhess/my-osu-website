@@ -9,6 +9,14 @@ var assignments = {
         'Demo due by 11:59pm, Monday 2/12/2018'
       ]
     },
+    {
+      link : 'https://classroom.github.com/a/rFOdv9FN',
+      title: 'Assignment 2 – A weather app with internet connectivity and Intents',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 2/12/2018',
+        'Demo due by 11:59pm, Monday 2/26/2018'
+      ]
+    }
   ]
 };
 
