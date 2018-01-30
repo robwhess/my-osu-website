@@ -241,19 +241,6 @@ var calendar = [
         ]
       }
     ]
-  },
-
-  {
-    week: 11,
-    sections: [
-      {
-        heading: 'Final Exam Solutions',
-        entriesHTML: [
-          '<a href="https://docs.google.com/document/d/1QjEkom0ZGpwR8Z49ea9vMD4e102mPiEOQbzjf6xzAqE/edit?usp=sharing">Section 001</a>',
-          '<a href="https://docs.google.com/document/d/1b5PjPFYpy9JkD9ZJTrRTqGTWZPGhYwm7sfWq9hrR0sk/edit?usp=sharing">Section 002</a>'
-        ]
-      }
-    ]
   }
 ];
 
