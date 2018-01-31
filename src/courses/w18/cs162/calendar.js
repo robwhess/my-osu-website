@@ -70,7 +70,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/class-basics">example code</a>',
-          'Object Composition'
+          'Object Composition &ndash; <a href="https://github.com/OSU-CS162-W18/object-composition">example code</a>'
         ]
       },
       {
