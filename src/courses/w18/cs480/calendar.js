@@ -65,7 +65,7 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'Context-Free Grammars &ndash; <a href="https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing">notes</a>',
-          'Top-Down Parsing and LL(1) Grammars'
+          'Top-Down Parsing and LL(1) Grammars &ndash; <a href="https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing">notes</a>'
         ]
       },
       {
