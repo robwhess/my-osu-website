@@ -136,6 +136,24 @@ var recitationInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 5,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Real-world inheritance'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1ybL9pbogGO8DuQl1gcpeq8EaZlyzT2il0o4Y7k-kXw8/edit?usp=sharing">Week 5 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
     }
   ]
 };
