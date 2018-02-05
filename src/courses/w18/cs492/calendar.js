@@ -85,28 +85,28 @@ var calendar = [
       }
     ]
   },
-  //
-  // {
-  //   week: 5,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Starting New Activities with Intents &ndash; <a href="https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearchWithIntents">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.android.com/training/basics/firstapp/starting-activity.html">Start Another Activity</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/guide/topics/ui/menus.html">Menus</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/training/basics/intents/sending.html">Sending the User to Another App</a> &ndash; Android Developers',
-  //         '<a href="https://developer.android.com/training/sharing/index.html">Sharing Simple Data</a> &ndash; Android Developers'
-  //       ]
-  //     }
-  //   ]
-  // },
+
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Starting New Activities with Intents &ndash; <a href="https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.android.com/training/basics/firstapp/starting-activity.html">Start Another Activity</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/guide/topics/ui/menus.html">Menus</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/training/basics/intents/sending.html">Sending the User to Another App</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/training/sharing/index.html">Sharing Simple Data</a> &ndash; Android Developers'
+        ]
+      }
+    ]
+  },
   //
   // {
   //   week: 6,

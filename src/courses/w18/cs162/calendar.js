@@ -82,6 +82,32 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'First Exam',
+        entriesHTML: [
+          'Our first exam will be this Wednesday at our normal lecture location and time.',
+          'The exam will cover everything we\'ve talked about so far in lecture, through classes and object composition.',
+        ]
+      },
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Inheritance (the "is-a" relationship) &ndash; <a href="https://docs.google.com/document/d/1C22qC6mz_2m_2kB6xvoCFeVfsz8PPMBXIpQhmEvyYro/edit?usp=sharing">notes</a>',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://www.learncpp.com/cpp-tutorial/111-introduction-to-inheritance/">11.1 - Introduction to inheritance</a> &ndash; LearnCpp.com',
+          '<a href="http://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/">11.2 - Basic inheritance in C++</a> &ndash; LearnCpp.com'
+        ]
+      }
+    ]
   }
 ];
 

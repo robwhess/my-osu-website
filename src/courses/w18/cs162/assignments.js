@@ -19,6 +19,14 @@ var assignments = {
         'Due by 11:59pm, Monday 2/5/2018',
         'Demo due by 11:59pm, Monday 2/19/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/z3alch7x',
+      title: 'Assignment 3 - Zoo Tycoon (Inheritance)',
+      notesHTML: [
+        'Due by 11:59pm, Monday 2/19/2018',
+        'Demo due by 11:59pm, Monday 3/5/2018'
+      ]
     }
   ]
 };

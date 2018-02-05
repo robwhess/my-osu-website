@@ -75,6 +75,20 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'First Exam',
+        entriesHTML: [
+          'Our first exam will be this Friday at our normal lecture location and time.',
+          'The exam will cover everything we\'ve talked about so far in lecture, through top-down parsing and LL(1) grammars.',
+          'During lecture this Wednesday, we\'ll do some practice exercises that will be similar to the questions that will appear on the exam.'
+        ]
+      }
+    ]
   }
 ];
 
