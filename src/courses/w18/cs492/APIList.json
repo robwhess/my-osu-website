@@ -76,6 +76,10 @@
     "url": "https://www.microsoft.com/cognitive-services/en-us/computer-vision-api"
   },
   {
+    "name": "The Discord API",
+    "url": "https://discordapp.com/developers/docs/intro"
+  },
+  {
     "name": "Riot Games API",
     "url": "https://developer.riotgames.com/"
   },
@@ -84,7 +88,7 @@
     "url": "https://www.etsy.com/developers/"
   },
   {
-    "name": "Goodreads API",
+    "name": "Goodreads API (note that many of this API's methods only return XML)",
     "url": "https://www.goodreads.com/api"
   },
   {

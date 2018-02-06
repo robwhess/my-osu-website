@@ -1,5 +1,6 @@
 import { generateSitePath } from '../../../lib/SitePath';
 
+import FinalProjectProposalPage from './FinalProjectProposalPage';
 import calendar from './calendar';
 import assignments from './assignments';
 import finalProject from './finalProject';
@@ -51,9 +52,9 @@ var courseDetails = {
 
   finalProject: finalProject,
 
-  // subPages: {
-  //   'final-project-proposal': FinalProjectProposalPage
-  // }
+  subPages: {
+    'final-project-proposal': FinalProjectProposalPage
+  }
 };
 
 export default courseDetails;
