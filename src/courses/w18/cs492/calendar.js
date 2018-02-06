@@ -92,7 +92,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Starting New Activities with Intents &ndash; <a href="https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing">notes</a>'
+          'Starting New Activities with Intents &ndash; <a href="https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithIntents">example code</a>'
         ]
       },
       {

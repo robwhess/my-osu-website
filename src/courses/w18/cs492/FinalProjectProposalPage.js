@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
 
 import APIListData from './APIList.json';
 import CourseSubPage from '../../../components/CourseSubPage';
@@ -78,7 +77,5 @@ class FinalProjectProposalPage extends Component {
     );
   }
 }
-
-FinalProjectProposalPage = withRouter(FinalProjectProposalPage);
 
 export default FinalProjectProposalPage;
