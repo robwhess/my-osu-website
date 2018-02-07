@@ -87,6 +87,12 @@ var calendar = [
           'The exam will cover everything we\'ve talked about so far in lecture, through top-down parsing and LL(1) grammars.',
           'During lecture this Wednesday, we\'ll do some practice exercises that will be similar to the questions that will appear on the exam.'
         ]
+      },
+      {
+        heading: 'Exam Warmup Problems',
+        entriesHTML: [
+          '<a href="https://docs.google.com/document/d/1Sq-7RGNfWZmsxOu_RZne0llZs7yveAoqSz4WRmP4WZs/edit?usp=sharing">Exam 1 Warmup Problems</a> &ndash; These are similar to the kinds of questions you\'ll see on the exam.',
+        ]
       }
     ]
   }
