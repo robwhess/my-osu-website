@@ -134,6 +134,12 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1bCOEVMPOam3xESHhvSgHSdNm9bOv-Sz82HEByW8JLPE/edit?usp=sharing">Week 4 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Quiz solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1VLeOEgqPTmXy64SHjDPVE_wXvbznEH6YaCOz-KjdqRk/edit?usp=sharing">Week 4 Recitation Quiz Solutions</a>'
+          ]
         }
       ]
     },
