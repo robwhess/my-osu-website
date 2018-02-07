@@ -6,9 +6,17 @@ var assignments = {
       title: 'Assignment 1 - Scanning',
       notesHTML: [
         'Assignment due by 11:59pm, Monday <span class="strike">1/29/2018</span> 2/5/2018',
-        'Demo due by 11:59pm, Monday <span class="strike">2/12/2018</span 2/19/2018'
+        'Demo due by 11:59pm, Monday <span class="strike">2/12/2018</span> 2/19/2018'
       ]
     },
+    {
+      link : 'https://classroom.github.com/a/Jd54l1S3',
+      title: 'Assignment 2 - Parsing and syntax-directed translation',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 2/19/2018',
+        'Demo due by 11:59pm, Monday 3/5/2018'
+      ]
+    }
   ]
 };
 
