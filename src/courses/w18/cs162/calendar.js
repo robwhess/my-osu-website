@@ -92,12 +92,13 @@ var calendar = [
         entriesHTML: [
           'Our first exam will be this Wednesday at our normal lecture location and time.',
           'The exam will cover everything we\'ve talked about so far in lecture, through classes and object composition.',
+          '<a href="https://docs.google.com/document/d/1Da8MMEJY8O2WXmHCmOFPe5BBp-40sD4zUruml2fr0Qc/edit?usp=sharing">Exam #1 Solutions</a>'
         ]
       },
       {
         heading: 'Topics',
         entriesHTML: [
-          'Inheritance (the "is-a" relationship) &ndash; <a href="https://docs.google.com/document/d/1C22qC6mz_2m_2kB6xvoCFeVfsz8PPMBXIpQhmEvyYro/edit?usp=sharing">notes</a>',
+          'Inheritance (the "is-a" relationship) &ndash; <a href="https://docs.google.com/document/d/1C22qC6mz_2m_2kB6xvoCFeVfsz8PPMBXIpQhmEvyYro/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/inheritance">example code</a>',
         ]
       },
       {
@@ -105,6 +106,30 @@ var calendar = [
         entriesHTML: [
           '<a href="http://www.learncpp.com/cpp-tutorial/111-introduction-to-inheritance/">11.1 - Introduction to inheritance</a> &ndash; LearnCpp.com',
           '<a href="http://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/">11.2 - Basic inheritance in C++</a> &ndash; LearnCpp.com'
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 6,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Polymorphism &ndash; <a href="https://docs.google.com/document/d/1GJaaVwUr20-PNZn5zCy-WcZfTWtHIk9f-9tUWVyLNkg/edit?usp=sharing">notes</a>',
+          'Exceptions &ndash; <a href="https://docs.google.com/document/d/1gFuNbMun8-9dQ5P2b0ZDUdDA5GarrRu1sNadtZRLGS0/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://www.learncpp.com/cpp-tutorial/121-pointers-and-references-to-the-base-class-of-derived-objects/">12.1 &ndash; Pointers and references to the base class of derived objects</a> &ndash; LearnCpp.com',
+          '<a href="http://www.learncpp.com/cpp-tutorial/122-virtual-functions/">12.2 &ndash; Virtual functions and polymorphism</a> &ndash; LearnCpp.com',
+          '<a href="http://www.cplusplus.com/doc/tutorial/polymorphism/">Polymorphism</a> &ndash; cplusplus.com',
+          '<a href="http://www.learncpp.com/#Chapter14">Chapter 14 (Exceptions)</a> &ndash; LearnCpp.com',
+          '<a href="http://www.cplusplus.com/doc/tutorial/exceptions/">Exceptions</a> &ndash; cplusplus.com',
+          '<a href="https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons">C++ Exceptions: Pros and Cons</a> &ndash; Code Project'
         ]
       }
     ]

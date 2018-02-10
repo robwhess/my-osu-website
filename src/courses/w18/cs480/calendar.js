@@ -96,6 +96,24 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 6,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'The Bison Parser Generator',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://www.gnu.org/software/bison/manual/bison.html">Bison</a> &ndash; The Bison user manual'
+        ]
+      }
+    ]
   }
 ];
 

@@ -160,6 +160,24 @@ var recitationInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 6,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1Da8MMEJY8O2WXmHCmOFPe5BBp-40sD4zUruml2fr0Qc/edit?usp=sharing">Exam #1 Solutions</a>'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            'There will be no worksheet for this week\'s recitation.'
+          ]
+        }
+      ]
     }
   ]
 };

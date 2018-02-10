@@ -98,6 +98,18 @@ var labInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 6,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1inAoXBmmONesrI0LrJSnh4lDPeRqtny27iA8cd8vg_o/edit?usp=sharing">Week 6 Lab Exercise</a> &ndash; Inheritance'
+          ]
+        }
+      ]
     }
   ]
 };
