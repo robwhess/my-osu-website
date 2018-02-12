@@ -104,7 +104,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'The Bison Parser Generator',
+          'The Bison Parser Generator &ndash; <a href="https://docs.google.com/document/d/19LCYNojTimpgpvrZu-pawIj0wfRXKZCKHVapwS2BxUI/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS480-W18/bison">example code</a>',
         ]
       },
       {
