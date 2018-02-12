@@ -104,6 +104,12 @@ var calendar = [
           '<a href="https://developer.android.com/training/basics/intents/sending.html">Sending the User to Another App</a> &ndash; Android Developers',
           '<a href="https://developer.android.com/training/sharing/index.html">Sharing Simple Data</a> &ndash; Android Developers'
         ]
+      },
+      {
+        heading: 'Entrepreneurship Presentation',
+        entriesHTML: [
+          '<a href="https://drive.google.com/file/d/0B8aZMq9Vhvmrb29ib3NsOHVBZ0VuLU1nLXk0aHpXRHR6eUlj/view?usp=sharing">Entrepreneurship in CS</a> &ndash; These are the slides from Gabriel Kauffman\'s presentation on entrepreneurship'
+        ]
       }
     ]
   },
