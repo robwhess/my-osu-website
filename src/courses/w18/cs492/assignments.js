@@ -16,6 +16,14 @@ var assignments = {
         'Assignment due by 11:59pm, Monday 2/12/2018',
         'Demo due by 11:59pm, Monday 2/26/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/XF2HFBa4',
+      title: 'Assignment 3 – The activity lifecycle and user preferences',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 2/26/2018',
+        'Demo due by 11:59pm, Monday 3/12/2018'
+      ]
     }
   ]
 };
