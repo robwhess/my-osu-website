@@ -120,7 +120,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'The Activity Lifecycle and Loaders &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a>'
+          'The Activity Lifecycle and Loaders &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/LifecycleLogging">example code (lifecycle logging)</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithLifecycle">example code (lifecycle-enabled GitHub search)</a>'
         ]
       },
       {
