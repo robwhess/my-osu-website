@@ -110,6 +110,18 @@ var labInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 7,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1IxW2MbbE0xWOerRcQoi3YYn_5TsmdwSc9v_061OosZk/edit?usp=sharing">Week 7 Lab Exercise</a> &ndash; Debugging with GDB'
+          ]
+        }
+      ]
     }
   ]
 };

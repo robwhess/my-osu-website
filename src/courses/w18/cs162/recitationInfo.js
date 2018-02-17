@@ -178,6 +178,24 @@ var recitationInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 7,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Templates'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1nvV9Wy6m41E1zrCIz_nwGMK3N-AX5xNCGYMXm4Xg_6k/edit?usp=sharing">Week 7 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
     }
   ]
 };

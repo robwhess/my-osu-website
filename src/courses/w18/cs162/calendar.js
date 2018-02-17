@@ -133,6 +133,27 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Templates and the C++ Standard Template Library (STL) &ndash; <a href="https://docs.google.com/document/d/1TMz14Bx4TkCWME4qIEatONifl_JmVkiZXl1H7Y2V9Cw/edit?usp=sharing">notes</a>',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://www.cplusplus.com/doc/oldtutorial/templates/">Templates</a> &ndash; cplusplus.com',
+          '<a href="http://www.learncpp.com/#Chapter13">Chapter 13 (Templates)</a> &ndash; LearnCpp.com',
+          '<a href="http://www.learncpp.com/#Chapter16">Chapter 16 (The Standard Template Library)</a> &ndash; LearnCpp.com',
+          '<a href="http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html">C++ STL Tutorial and Examples</a> &ndash; yolinux.com'
+        ]
+      }
+    ]
   }
 ];
 
