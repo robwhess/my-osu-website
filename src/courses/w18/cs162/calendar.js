@@ -117,8 +117,8 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Polymorphism &ndash; <a href="https://docs.google.com/document/d/1GJaaVwUr20-PNZn5zCy-WcZfTWtHIk9f-9tUWVyLNkg/edit?usp=sharing">notes</a>',
-          'Exceptions &ndash; <a href="https://docs.google.com/document/d/1gFuNbMun8-9dQ5P2b0ZDUdDA5GarrRu1sNadtZRLGS0/edit?usp=sharing">notes</a>'
+          'Polymorphism &ndash; <a href="https://docs.google.com/document/d/1GJaaVwUr20-PNZn5zCy-WcZfTWtHIk9f-9tUWVyLNkg/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/polymorphism">example code</a>',
+          'Exceptions &ndash; <a href="https://docs.google.com/document/d/1gFuNbMun8-9dQ5P2b0ZDUdDA5GarrRu1sNadtZRLGS0/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/exceptions">example code</a>'
         ]
       },
       {
