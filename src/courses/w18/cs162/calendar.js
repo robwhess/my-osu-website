@@ -141,7 +141,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Templates and the C++ Standard Template Library (STL) &ndash; <a href="https://docs.google.com/document/d/1TMz14Bx4TkCWME4qIEatONifl_JmVkiZXl1H7Y2V9Cw/edit?usp=sharing">notes</a>',
+          'Templates and the C++ Standard Template Library (STL) &ndash; <a href="https://docs.google.com/document/d/1TMz14Bx4TkCWME4qIEatONifl_JmVkiZXl1H7Y2V9Cw/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/templates">example code</a>',
         ]
       },
       {
