@@ -120,6 +120,24 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Bottom-Up Parsing and LR(1) Grammars'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          'Chapter 3 (3.4) &ndash; Cooper and Torczon'
+        ]
+      }
+    ]
   }
 ];
 
