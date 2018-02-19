@@ -8,10 +8,13 @@ var finalProject = {
         'Due <a href="https://oregonstate.instructure.com/courses/1687528/assignments/7194659"><strong>on Canvas</strong></a> by 11:59pm on Friday 2/16/2018'
       ]
     },
-    // {
-    //   title: 'Final Project Description',
-    //   link: 'https://docs.google.com/document/d/1x0GulHsdlpbo1S5fTW6ipF8Hpw90EdRXOX_OIbKrzJA/edit?usp=sharing'
-    // },
+    {
+      title: 'Final Project Description',
+      link: 'https://docs.google.com/document/d/1R6MSsuzGFWOl7pg6cJIxgK4YTOHbcAse61nB8l0IxEw/edit?usp=sharing',
+      notesHTML: [
+        'Code and demo due by 5:00pm on Friday, 3/23/2018'
+      ]
+    },
     // {
     //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
     //   title: 'Final Project Demo Signup',
