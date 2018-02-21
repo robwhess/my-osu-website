@@ -141,7 +141,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Storing Prefs with SharedPreferences &ndash; <a href="https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing">notes</a>'
+          'Storing Prefs with SharedPreferences &ndash; <a href="https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithPrefs">example code</a>'
         ]
       },
       {
