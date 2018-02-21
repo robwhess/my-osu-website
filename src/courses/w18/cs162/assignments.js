@@ -27,6 +27,14 @@ var assignments = {
         'Due by 11:59pm, Monday 2/19/2018',
         'Demo due by 11:59pm, Monday 3/5/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/cwjffebS',
+      title: 'Assignment 4 - Hunt the Wumpus (Polymorphism and the STL)',
+      notesHTML: [
+        'Due by 11:59pm, Monday 3/5/2018',
+        'Demo due by 11:59pm, Monday 3/19/2018'
+      ]
     }
   ]
 };
