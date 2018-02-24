@@ -131,6 +131,12 @@ var calendar = [
           '<a href="http://www.cplusplus.com/doc/tutorial/exceptions/">Exceptions</a> &ndash; cplusplus.com',
           '<a href="https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons">C++ Exceptions: Pros and Cons</a> &ndash; Code Project'
         ]
+      },
+      {
+        heading: 'Entrepreneurship Presentation',
+        entriesHTML: [
+          '<a href="https://drive.google.com/file/d/0B8aZMq9Vhvmrb29ib3NsOHVBZ0VuLU1nLXk0aHpXRHR6eUlj/view?usp=sharing">Entrepreneurship in CS</a> &ndash; These are the slides from Gabriel Kauffman\'s presentation on entrepreneurship'
+        ]
       }
     ]
   },
