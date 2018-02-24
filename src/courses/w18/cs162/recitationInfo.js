@@ -158,6 +158,12 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1ybL9pbogGO8DuQl1gcpeq8EaZlyzT2il0o4Y7k-kXw8/edit?usp=sharing">Week 5 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Quiz solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1cTX6oDDkRu1WFDw7CaZ4KQvlxQYzb6nrXQYFEJdDDKU/edit?usp=sharing">Week 5 Recitation Quiz Solutions</a>'
+          ]
         }
       ]
     },
@@ -193,6 +199,30 @@ var recitationInfo = {
           heading: 'Recitation worksheet',
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1nvV9Wy6m41E1zrCIz_nwGMK3N-AX5xNCGYMXm4Xg_6k/edit?usp=sharing">Week 7 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        },
+        {
+          heading: 'Quiz solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1AMCu612cGfmGC60e5hfIT3tBhdaRWEbuEI3zPgalDxs/edit?usp=sharing">Week 7 Recitation Quiz Solutions</a>'
+          ]
+        }
+      ]
+    },
+
+    {
+      week: 8,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Sorting'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1cUKpN7H20JvfVaV4HgHkVFj_1lqvk43LQY6EoewooxM/edit?usp=sharing">Week 8 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
         }
       ]

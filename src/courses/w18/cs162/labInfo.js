@@ -122,6 +122,18 @@ var labInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 8,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1xkceZkTgsAoWyzhfY_hRGswquh2m29xaSeMr4Zch5c0/edit?usp=sharing">Week 8 Lab Exercise</a> &ndash; Templates and exceptions'
+          ]
+        }
+      ]
     }
   ]
 };

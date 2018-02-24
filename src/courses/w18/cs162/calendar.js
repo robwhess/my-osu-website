@@ -160,6 +160,29 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 8,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Complexity Analysis (Big O) &ndash; <a href="https://docs.google.com/document/d/1DeNgvvPxNR0DkrCSmwZFh01wTnstJABRQuS8vLpcQLA/edit?usp=sharing">notes</a>',
+          'Sorting Algorithms &ndash; <a href="https://docs.google.com/document/d/1KlpahJuzj_FCl-PernsVINRxWviS3NloQTjXjlI-Vfs/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://en.wikipedia.org/wiki/Analysis_of_algorithms">Analysis of algorithms</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Sorting_algorithm">Sorting algorithm</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Selection_sort">Selection sort</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Insertion_sort">Insertion sort</a> &ndash; Wikipedia',
+          '<a href="https://en.wikipedia.org/wiki/Merge_sort">Merge sort</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 
