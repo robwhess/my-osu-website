@@ -160,7 +160,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Storing Data with SQLite &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearchWithSQLite">example code</a>'
+          'Storing Data with SQLite (Featuring Navigation Drawers) &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a>'
         ]
       },
       {
