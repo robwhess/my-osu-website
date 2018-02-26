@@ -128,7 +128,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Bottom-Up Parsing and LR(1) Grammars'
+          'Bottom-Up Parsing and LR(1) Grammars &ndash; <a href="https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing">notes</a>'
         ]
       },
       {
@@ -146,13 +146,15 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'Bottom-Up Parsing and LR(1) Grammars'
+          'Bottom-Up Parsing and LR(1) Grammars &ndash; <a href="https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing">notes</a>',
+          'Intermediate Representations'
         ]
       },
       {
         heading: 'Readings',
         entriesHTML: [
-          'Chapter 3 (3.4) &ndash; Cooper and Torczon'
+          'Chapter 3 (3.4) &ndash; Cooper and Torczon',
+          'Chapter 5 &ndash; Cooper and Torczon'
         ]
       }
     ]
