@@ -24,6 +24,14 @@ var assignments = {
         'Assignment due by 11:59pm, Monday 2/26/2018',
         'Demo due by 11:59pm, Monday 3/12/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/vIh39KNx',
+      title: 'Assignment 4 – SQLite and navitation drawers',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 3/12/2018',
+        'Demo due by 11:59pm, Tuesday 3/20/2018'
+      ]
     }
   ]
 };
