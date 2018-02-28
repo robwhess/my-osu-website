@@ -16,6 +16,14 @@ var assignments = {
         'Assignment due by 11:59pm, Monday <span class="strike">2/19/2018</span> 2/26/2018',
         'Demo due by 11:59pm, Monday <span class="strike">3/5/2018</span> 3/12/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/8XIBXP2x',
+      title: 'Assignment 3 - Abstract syntax trees and simple code generation',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 3/12/2018',
+        'Demo due by 11:59pm, Friday 3/23/2018'
+      ]
     }
   ]
 };
