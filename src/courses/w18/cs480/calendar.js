@@ -147,7 +147,6 @@ var calendar = [
         heading: 'Topics',
         entriesHTML: [
           'Bottom-Up Parsing and LR(1) Grammars &ndash; <a href="https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing">notes</a>',
-          'Intermediate Representations'
         ]
       },
       {
@@ -157,6 +156,39 @@ var calendar = [
           'Chapter 5 &ndash; Cooper and Torczon'
         ]
       }
+    ]
+  },
+
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Intermediate Representations &ndash; <a href="https://docs.google.com/document/d/1NHqnUdp6EV6Pi6ewJ_SXbeuN79sgBCsAag56C9VtlzA/edit?usp=sharing">notes</a>',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          'Chapter 5 &ndash; Cooper and Torczon'
+        ]
+      },
+      {
+        heading: 'Second Exam',
+        entriesHTML: [
+          'Our second exam will be this Friday at our normal lecture location and time.',
+          'The exam will cover everything we\'ve talked about in lecture after the first exam, including bottom-up parsing and LL(1) grammars and intermediate representations.',
+          'During lecture this Wednesday, we\'ll do some practice exercises that will be similar to the questions that will appear on the exam.',
+        ]
+      },
+      // {
+      //   heading: 'Exam Warmup Problems',
+      //   entriesHTML: [
+      //     '<a href="https://docs.google.com/document/d/1Sq-7RGNfWZmsxOu_RZne0llZs7yveAoqSz4WRmP4WZs/edit?usp=sharing">Exam 1 Warmup Problems</a> &ndash; These are similar to the kinds of questions you\'ll see on the exam.',
+      //     '<a href="https://docs.google.com/document/d/1AWG8zQOucLnR-KczxtYIXEnYK-9fzlqpRF0J_8SsCyI/edit?usp=sharing">Solutions to Exam 1 Warmup Problems</a>'
+      //   ]
+      // },
     ]
   }
 ];
