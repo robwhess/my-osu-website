@@ -35,6 +35,14 @@ var assignments = {
         'Due by 11:59pm, Monday 3/5/2018',
         'Demo due by 11:59pm, Monday 3/19/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/xC2GJqqF',
+      title: 'Final Project - Escape from CS 162',
+      notesHTML: [
+        'Due by 11:59pm, Monday 3/19/2018',
+        'There will be <b>NO DEMO</b> for the final project.'
+      ]
     }
   ]
 };
