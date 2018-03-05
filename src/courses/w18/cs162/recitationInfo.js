@@ -224,6 +224,30 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1cUKpN7H20JvfVaV4HgHkVFj_1lqvk43LQY6EoewooxM/edit?usp=sharing">Week 8 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Quiz solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/19Iitp5byjq5M9LXLCq4e-pUjMGpcTuq23YxDj9iYBmQ/edit?usp=sharing">Week 8 Recitation Quiz Solutions</a>'
+          ]
+        }
+      ]
+    },
+
+    {
+      week: 9,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Final project design'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1fOTGrR3TtbQyoBxrVx9h5MmpY_aweEJf45arsQSZlVo/edit?usp=sharing">Week 9 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
         }
       ]
     }

@@ -134,6 +134,18 @@ var labInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 9,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/17xfN5N1SQbQn5hCUHSA8JvwaEQG98yN8n2VI292MQgU/edit?usp=sharing">Week 9 Lab Exercise</a> &ndash; Mazes'
+          ]
+        }
+      ]
     }
   ]
 };
