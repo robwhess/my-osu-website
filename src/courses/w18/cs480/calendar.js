@@ -182,13 +182,12 @@ var calendar = [
           'During lecture this Wednesday, we\'ll do some practice exercises that will be similar to the questions that will appear on the exam.',
         ]
       },
-      // {
-      //   heading: 'Exam Warmup Problems',
-      //   entriesHTML: [
-      //     '<a href="https://docs.google.com/document/d/1Sq-7RGNfWZmsxOu_RZne0llZs7yveAoqSz4WRmP4WZs/edit?usp=sharing">Exam 1 Warmup Problems</a> &ndash; These are similar to the kinds of questions you\'ll see on the exam.',
-      //     '<a href="https://docs.google.com/document/d/1AWG8zQOucLnR-KczxtYIXEnYK-9fzlqpRF0J_8SsCyI/edit?usp=sharing">Solutions to Exam 1 Warmup Problems</a>'
-      //   ]
-      // },
+      {
+        heading: 'Exam Warmup Problems',
+        entriesHTML: [
+          '<a href="https://docs.google.com/document/d/1e-k6ivtOvOc9JQhg6XF_dX-IiUAFQIV6I43naMcH-dE/edit?usp=sharing">Exam 2 Warmup Problems</a> &ndash; These are similar to the kinds of questions you\'ll see on the exam.',
+        ]
+      },
     ]
   }
 ];
