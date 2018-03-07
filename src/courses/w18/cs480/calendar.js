@@ -186,6 +186,7 @@ var calendar = [
         heading: 'Exam Warmup Problems',
         entriesHTML: [
           '<a href="https://docs.google.com/document/d/1e-k6ivtOvOc9JQhg6XF_dX-IiUAFQIV6I43naMcH-dE/edit?usp=sharing">Exam 2 Warmup Problems</a> &ndash; These are similar to the kinds of questions you\'ll see on the exam.',
+          '<a href="https://docs.google.com/document/d/1u1Kh84UcwEcA5gTPsHbI6BBjDIo4AlStOncqDcWc0PQ/edit?usp=sharing">Solutions to Exam 2 Warmup Problems</a>'
         ]
       },
     ]
