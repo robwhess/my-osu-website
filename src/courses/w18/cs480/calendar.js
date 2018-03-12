@@ -190,6 +190,25 @@ var calendar = [
         ]
       },
     ]
+  },
+
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'LLVM: Code Generation and Optimization'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://llvm.org/docs/tutorial/index.html">Kaleidoscope: Implementing a Language with LLVM</a> &ndash; LLVM Tutorial',
+          '<a href="http://www.aosabook.org/en/llvm.html">The Architecture of Open Source Applications: LLVM</a> &ndash; Chris Lattner'
+        ]
+      }
+    ]
   }
 ];
 

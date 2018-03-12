@@ -166,52 +166,54 @@ var calendar = [
       {
         heading: 'Readings',
         entriesHTML: [
-          '<a href="https://developer.android.com/guide/topics/ui/settings.html">Settings</a> &ndash; Android Developers',
-          '<a href="https://developer.android.com/training/basics/data-storage/shared-preferences.html">Saving Key-Value Sets</a> &ndash; Android Developers',
           '<a href="https://developer.android.com/training/implementing-navigation/nav-drawer.html">Creating a Navigation Drawer</a> &ndash; Android Developers',
-          '<a href="https://developer.android.com/reference/android/support/design/widget/NavigationView.html">NavigationView</a> &ndash; Android Developers'
+          '<a href="https://developer.android.com/reference/android/support/design/widget/NavigationView.html">NavigationView</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/training/basics/data-storage/databases.html">Saving Data in SQL Databases</a> &ndash; Android Developers',
+          '<a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>'
         ]
       }
     ]
   },
-  //
-  // {
-  //   week: 9,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Storing Data with SQLite &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/GitHubSearchWithSQLite">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.android.com/training/basics/data-storage/databases.html">Saving Data in SQL Databases</a> &ndash; Android Developers',
-  //         '<a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>'
-  //       ]
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   week: 10,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'A Photo Gallery App &ndash; <a href="https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS496-Sp2017/PhotosApp">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.android.com/training/implementing-navigation/lateral.html">Creating Swipe Views with Tabs</a> &ndash; Android Developers',
-  //         '<a href="http://bumptech.github.io/glide/">Glide documentation</a>'
-  //       ]
-  //     }
-  //   ]
-  // }
+
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Storing Data with SQLite (Featuring Navigation Drawers) &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithSQLite">example code</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.android.com/training/implementing-navigation/nav-drawer.html">Creating a Navigation Drawer</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/reference/android/support/design/widget/NavigationView.html">NavigationView</a> &ndash; Android Developers',
+          '<a href="https://developer.android.com/training/basics/data-storage/databases.html">Saving Data in SQL Databases</a> &ndash; Android Developers',
+          '<a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>'
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'A Photo Gallery App &ndash; <a href="https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing">notes</a>'
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="https://developer.android.com/training/implementing-navigation/lateral.html">Creating Swipe Views with Tabs</a> &ndash; Android Developers',
+          '<a href="http://bumptech.github.io/glide/">Glide documentation</a>'
+        ]
+      }
+    ]
+  }
 ];
 
 export default calendar;

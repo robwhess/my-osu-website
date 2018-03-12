@@ -203,6 +203,25 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesHTML: [
+          'Recursion and Quicksort &ndash; <a href="https://docs.google.com/document/d/1HOfRbc2lOC5i5ncDEjRu_lPRm4ruwJvPGLCAT-y_SIM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/sorting">example code</a>',
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesHTML: [
+          '<a href="http://www.learncpp.com/cpp-tutorial/7-11-recursion/">7.11 &ndash; Recursion</a> &ndash; LearnCpp.com',
+          '<a href="https://en.wikipedia.org/wiki/Quicksort">Quicksort</a> &ndash; Wikipedia'
+        ]
+      }
+    ]
   }
 ];
 

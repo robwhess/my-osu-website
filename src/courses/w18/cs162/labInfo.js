@@ -146,7 +146,19 @@ var labInfo = {
           ]
         }
       ]
-    }
+    },
+
+    {
+      week: 10,
+      sections: [
+        {
+          heading: 'Lab Exercise',
+          entriesHTML: [
+            'This week during lab, we will have our final proficiency demo.'
+          ]
+        }
+      ]
+    },
   ]
 };
 

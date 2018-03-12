@@ -250,6 +250,24 @@ var recitationInfo = {
           ]
         }
       ]
+    },
+
+    {
+      week: 10,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Final project design'
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            'There will be no worksheet for this week\'s recitation.'
+          ]
+        }
+      ]
     }
   ]
 };
