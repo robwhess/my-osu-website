@@ -15,15 +15,15 @@ var finalProject = {
         'Code and demo due by 5:00pm on Friday, 3/23/2018'
       ]
     },
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
-    //   title: 'Final Project Demo Signup',
-    //   notesHTML: [
-    //     'Sign up for a Final Project demo using the link above',
-    //     'Sign up for one slot per team',
-    //     'Code is due on GitHub when when you do your demo'
-    //   ]
-    // }
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
+      title: 'Final Project Demo Signup',
+      notesHTML: [
+        'Sign up for a Final Project demo using the link above',
+        'Sign up for one slot per team',
+        'Code is due on GitHub when when you do your demo'
+      ]
+    }
   ]
 };
 
