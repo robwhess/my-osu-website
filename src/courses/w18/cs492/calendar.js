@@ -202,7 +202,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'A Photo Gallery App &ndash; <a href="https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing">notes</a>'
+          'A Photo Gallery App &ndash; <a href="https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/PhotosApp">example code</a>'
         ]
       },
       {
