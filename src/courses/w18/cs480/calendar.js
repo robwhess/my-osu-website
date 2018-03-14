@@ -189,6 +189,12 @@ var calendar = [
           '<a href="https://docs.google.com/document/d/1u1Kh84UcwEcA5gTPsHbI6BBjDIo4AlStOncqDcWc0PQ/edit?usp=sharing">Solutions to Exam 2 Warmup Problems</a>'
         ]
       },
+      {
+        heading: 'Exam Solutions',
+        entriesHTML: [
+          '<a href="https://docs.google.com/document/d/1tdBiCVzJCYn9DCQiB_NeK8mP9CwAU_jBLWyuvxBuD88/edit?usp=sharing">Exam 2 Solutions</a> &ndash; solutions for the second exam'
+        ]
+      }
     ]
   },
 
