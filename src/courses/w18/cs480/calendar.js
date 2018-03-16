@@ -204,7 +204,7 @@ var calendar = [
       {
         heading: 'Topics',
         entriesHTML: [
-          'LLVM: Code Generation and Optimization &ndash; <a href="https://github.com/OSU-CS480-W18/llvm">example code</a>'
+          'LLVM: Code Generation and Optimization &ndash; <a href="https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS480-W18/llvm">example code</a>'
         ]
       },
       {
