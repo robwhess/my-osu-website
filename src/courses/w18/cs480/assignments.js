@@ -24,6 +24,14 @@ var assignments = {
         'Assignment due by 11:59pm, Monday 3/12/2018',
         'Demo due by 11:59pm, Friday 3/23/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/gkTLyITD',
+      title: 'Final Project - Code generation and optimization with LLVM',
+      notesHTML: [
+        'Assignment due by 1:00pm, Friday 3/23/2018',
+        '<a href="https://goo.gl/forms/Sp16KdRkxBEZgxpU2">Grading signup form</a> &ndash; Please fill out this form when you submit to make sure your submission is graded.'
+      ]
     }
   ]
 };
