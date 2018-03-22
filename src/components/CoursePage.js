@@ -53,21 +53,56 @@ class CoursePage extends Component {
     return (
       <div className="week" key={key}>
         <h3>Week {week.week}</h3>
-        {week.sections.map((section, i) => (
-          <div key={i}>
-            <h4>{section.heading}</h4>
-            <ul>
-              {section.entriesHTML.map((entryHTML, j) => (
-                <li key={j} dangerouslySetInnerHTML={{ __html: entryHTML }} />
-              ))}
-            </ul>
-          </div>
-        ))}
+
+        /*
+         * Generate each section for the week.
+         */
+        {week.sections.map((section, i) => {
+          /*
+           * First generate the list of entries for the section.  This can be
+           * specified either in entriesHTML or in entries.
+           */
+          var entriesListComponent = null;
+          if (section.entriesHTML) {
+            entriesListComponent = (
+              <ul>
+                {section.entriesHTML.map((entryHTML, j) => (
+                  <li key={j} dangerouslySetInnerHTML={{ __html: entryHTML }} />
+                ))}
+              </ul>
+            );
+          } else if (section.entries) {
+            // Coming soon...
+          }
+
+          return (
+            <div key={i}>
+              <h4>{section.heading}</h4>
+              {entriesListComponent}
+            </div>
+          );
+        })}
+
       </div>
     );
   }
 
-  generateAssignmentComponent(assignment, key) {
+  generateCalendarComponent(calendar) {
+    var calendarComponent = null;
+    if (calendar) {
+      calendarComponent = (
+        <section className="calendar">
+          <h2>Course Calendar</h2>
+          <div className="calendar-weeks">
+            {calendar.map(this.generateCalendarWeekComponent.bind(this))}
+          </div>
+        </section>
+      );
+    }
+    return calendarComponent;
+  }
+
+  generateSingleAssignmentComponent(assignment, key) {
     var { match } = this.props;
     var matchURLWithSlash = match.url.replace(/\/$/, '') + '/';
 
@@ -101,6 +136,34 @@ class CoursePage extends Component {
     );
   }
 
+  generateAssignmentsComponent(assignments, title, anchorName) {
+    var assignmentsComponent = null;
+    if (assignments) {
+      var anchorComponent = anchorName ? <a name={anchorName} /> : null;
+      var preambleComponent = null;
+      if (assignments.preambleHTML) {
+        preambleComponent = <div dangerouslySetInnerHTML={{ __html: assignments.preambleHTML }} />;
+      }
+      var assignmentsListComponent = null;
+      if (assignments.assignments) {
+        assignmentsListComponent = (
+          <ul>
+            {assignments.assignments.map(this.generateSingleAssignmentComponent.bind(this))}
+          </ul>
+        );
+      }
+      assignmentsComponent = (
+        <section className="assignments">
+          {anchorComponent}
+          <h2>{title}</h2>
+          {preambleComponent}
+          {assignmentsListComponent}
+        </section>
+      );
+    }
+    return assignmentsComponent;
+  }
+
   generateEssentialsRowComponent(item, key) {
     var { match } = this.props;
     var matchURLWithSlash = match.url.replace(/\/$/, '') + '/';
@@ -122,59 +185,47 @@ class CoursePage extends Component {
     );
   }
 
+  generateEssentialsComponent(essentials) {
+    var essentialsComponent = null;
+    if (essentials) {
+      essentialsComponent = (
+        <section className="info-table">
+          <table>
+            <tbody>
+              {essentials.map(this.generateEssentialsRowComponent.bind(this))}
+            </tbody>
+          </table>
+        </section>
+      );
+    }
+    return essentialsComponent;
+  }
+
   render() {
 
     var { number, title, term, essentials, calendar, assignments, finalProject, subnavItems } = this.props.courseData;
 
     var subnavComponent = this.generateSubnavComponent(subnavItems, number);
-
-    var finalProjectComponent = null;
-    if (finalProject) {
-      finalProjectComponent = (
-        <section className="assignments">
-          <a name="final-project" />
-          <h2>Final Project</h2>
-          <div dangerouslySetInnerHTML={{ __html: finalProject.preambleHTML }} />
-          <ul>
-            {finalProject.assignments.map(this.generateAssignmentComponent.bind(this))}
-          </ul>
-        </section>
-      );
-    }
+    var essentialsComponent = this.generateEssentialsComponent(essentials);
+    var calendarComponent = this.generateCalendarComponent(calendar);
+    var assignmentsComponent = this.generateAssignmentsComponent(assignments, "Assignments", "assignments");
+    var finalProjectComponent = this.generateAssignmentsComponent(finalProject, "Final Project", "final-project");
 
     return (
       <div>
         {subnavComponent}
+
         <PageContent contentClassName="course-page">
+
           <Helmet title={number} />
           <h1>{number} &ndash; {title}</h1>
           <h3>{term}</h3>
 
-          <section className="info-table">
-            <table>
-              <tbody>
-                {essentials.map(this.generateEssentialsRowComponent.bind(this))}
-              </tbody>
-            </table>
-          </section>
-
-          <section className="calendar">
-            <h2>Course Calendar</h2>
-            <div className="calendar-weeks">
-              {calendar.map(this.generateCalendarWeekComponent)}
-            </div>
-          </section>
-
-          <section className="assignments">
-            <a name="assignments" />
-            <h2>Assignments</h2>
-            <div dangerouslySetInnerHTML={{ __html: assignments.preambleHTML }} />
-            <ul>
-              {assignments.assignments.map(this.generateAssignmentComponent.bind(this))}
-            </ul>
-          </section>
-
+          {essentialsComponent}
+          {calendarComponent}
+          {assignmentsComponent}
           {finalProjectComponent}
+
         </PageContent>
       </div>
     );
