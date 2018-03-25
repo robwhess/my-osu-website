@@ -49,39 +49,52 @@ class CoursePage extends Component {
     return subnavComponent;
   }
 
+  generateSectionEntryListComponent(entryList, key) {
+    var entryListItemComponents = [];
+    entryList.forEach((entryListItem, i) => {
+      if (i > 0) {
+        entryListItemComponents.push(<span dangerouslySetInnerHTML={{ __html: " &ndash; " }}></span>);
+      }
+      if (entryListItem.link) {
+        entryListItemComponents.push(<a href={entryListItem.link} target="_blank">{entryListItem.text}</a>);
+      } else {
+        entryListItemComponents.push(<span>{entryListItem.text}</span>);
+      }
+    });
+    return <li key={key}>{entryListItemComponents}</li>;
+  }
+
+  generateCalendarSectionEntriesComponent(section) {
+    var entriesListComponent = null;
+    if (section.entriesHTML) {
+      entriesListComponent = (
+        <ul>
+          {section.entriesHTML.map((entryHTML, i) => (
+            <li key={i} dangerouslySetInnerHTML={{ __html: entryHTML }} />
+          ))}
+        </ul>
+      );
+    } else if (section.entriesLists) {
+      entriesListComponent = (
+        <ul>
+          {section.entriesLists.map(this.generateSectionEntryListComponent.bind(this))}
+        </ul>
+      );
+    }
+    return entriesListComponent;
+  }
+
   generateCalendarWeekComponent(week, key) {
     return (
       <div className="week" key={key}>
         <h3>Week {week.week}</h3>
 
-        /*
-         * Generate each section for the week.
-         */
-        {week.sections.map((section, i) => {
-          /*
-           * First generate the list of entries for the section.  This can be
-           * specified either in entriesHTML or in entries.
-           */
-          var entriesListComponent = null;
-          if (section.entriesHTML) {
-            entriesListComponent = (
-              <ul>
-                {section.entriesHTML.map((entryHTML, j) => (
-                  <li key={j} dangerouslySetInnerHTML={{ __html: entryHTML }} />
-                ))}
-              </ul>
-            );
-          } else if (section.entries) {
-            // Coming soon...
-          }
-
-          return (
-            <div key={i}>
-              <h4>{section.heading}</h4>
-              {entriesListComponent}
-            </div>
-          );
-        })}
+        {week.sections.map((section, i) => (
+          <div key={i}>
+            <h4>{section.heading}</h4>
+            {this.generateCalendarSectionEntriesComponent(section)}
+          </div>
+        ))}
 
       </div>
     );
