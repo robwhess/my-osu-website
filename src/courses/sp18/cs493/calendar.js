@@ -11,10 +11,11 @@ var calendar = [
           ],
           [
             { text: 'Git and GitHub' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/173SxuVUO4mreOiYTnd0NraZC-CH1wuR3zCY3wTYhpXk/edit?usp=sharing' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/173SxuVUO4mreOiYTnd0NraZC-CH1wuR3zCY3wTYhpXk/edit?usp=sharing' }
           ],
           [
-            { text: 'RESTful API Design'}
+            { text: 'RESTful API Design' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1AYg6cE2JYTkDvu0JxiyNbNFrMc3fZxQqoHZqim81voM/edit?usp=sharing' }
           ]
         ]
       },
