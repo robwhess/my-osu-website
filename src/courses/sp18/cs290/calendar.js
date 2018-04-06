@@ -35,24 +35,30 @@ var calendar = [
       }
     ]
   },
-  //
-  // {
-  //   week: 1,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'CSS &ndash; <a href="https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/css">example code</a>',
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS">Introduction to CSS</a> &ndash; MDN',
-  //       ]
-  //     }
-  //   ]
-  // },
+
+  {
+    week: 2,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'CSS' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Introduction to CSS', link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS' },
+            { text: 'MDN' }
+          ]
+        ]
+      }
+    ]
+  },
   //
   // {
   //   week: 2,
