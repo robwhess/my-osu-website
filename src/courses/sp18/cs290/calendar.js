@@ -15,7 +15,8 @@ var calendar = [
           ],
           [
             { text: 'HTML' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/html' }
           ]
         ]
       },
