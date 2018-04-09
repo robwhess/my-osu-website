@@ -44,7 +44,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'CSS' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/css' }
           ]
         ]
       },
