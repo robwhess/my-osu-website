@@ -38,6 +38,55 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 2,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Setting up a Server with Node.js and Express' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/serving' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Node.js', link: 'http://eloquentjavascript.net/20_node.html' },
+            { text: 'Eloquent Javascript, Chapter 20' }
+          ],
+          [
+            { text: 'How to Install Local Packages', link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally' },
+            { text: 'npm docs' }
+          ],
+          [
+            { text: 'Working with package.json', link: 'https://docs.npmjs.com/getting-started/using-a-package.json' },
+            { text: 'npm docs' }
+          ],
+          [
+            { text: 'Hello world example', link: 'https://expressjs.com/en/starter/hello-world.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Basic routing', link: 'https://expressjs.com/en/starter/basic-routing.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Routing', link: 'https://expressjs.com/en/guide/routing.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Writing middleware for use in Express apps', link: 'https://expressjs.com/en/guide/writing-middleware.html' },
+            { text: 'Express docs' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 
