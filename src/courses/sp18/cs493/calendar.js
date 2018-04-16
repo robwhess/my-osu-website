@@ -87,6 +87,39 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 3,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Setting up a Server with Node.js and Express' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/serving' }
+          ],
+          [
+            { text: 'The OpenAPI Specification' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1IK3oENCagkrOM2gCcsJkUYJvHzN8tZE-pLZ-BvXaa5Y/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Writing OpenAPI (Swagger) Specification Tutorial', link: 'https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/' },
+            { text: 'API Handyman' }
+          ],
+          [
+            { text: 'OpenAPI Specification Docs', link: 'https://swagger.io/docs/specification/about/' },
+            { text: 'Swagger' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 
