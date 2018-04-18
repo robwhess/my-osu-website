@@ -116,6 +116,22 @@ var calendar = [
           [
             { text: 'OpenAPI Specification Docs', link: 'https://swagger.io/docs/specification/about/' },
             { text: 'Swagger' }
+          ],
+          [
+            { text: 'Requests', link: 'https://www.getpostman.com/docs/v6/postman/sending_api_requests/requests' },
+            { text: 'Postman' }
+          ],
+          [
+            { text: 'Responses', link: 'https://www.getpostman.com/docs/v6/postman/sending_api_requests/responses' },
+            { text: 'Postman' }
+          ],
+          [
+            { text: 'Test scripts', link: 'https://www.getpostman.com/docs/v6/postman/scripts/test_scripts' },
+            { text: 'Postman' }
+          ],
+          [
+            { text: 'Test examples', link: 'https://www.getpostman.com/docs/v6/postman/scripts/test_examples' },
+            { text: 'Postman' }
           ]
         ]
       }
