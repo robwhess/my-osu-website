@@ -102,7 +102,8 @@ var calendar = [
           ],
           [
             { text: 'The OpenAPI Specification' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1IK3oENCagkrOM2gCcsJkUYJvHzN8tZE-pLZ-BvXaa5Y/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1IK3oENCagkrOM2gCcsJkUYJvHzN8tZE-pLZ-BvXaa5Y/edit?usp=sharing' },
+            { text: 'example code', link: 'https://gist.github.com/robwhess/3e7378b1f2049af51c2dffc65935fb2b' }
           ]
         ]
       },
