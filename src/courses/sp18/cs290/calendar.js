@@ -78,7 +78,8 @@ var calendar = [
           ],
           [
             { text: 'JavaScript Fundamentals' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/js-fundamentals' }
           ]
         ]
       },
