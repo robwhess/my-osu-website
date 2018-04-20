@@ -137,6 +137,33 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Containerization with Docker' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Docker overview', link: 'https://docs.docker.com/engine/docker-overview/' },
+            { text: 'Docker Docs' }
+          ],
+          [
+            { text: 'Get started with Docker', link: 'https://docs.docker.com/get-started/' },
+            { text: 'Docker Docs' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 
