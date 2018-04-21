@@ -146,7 +146,8 @@ var calendar = [
         heading: 'Topics',
         entriesLists: [
           [
-            { text: 'Containerization with Docker' }
+            { text: 'Containerization with Docker' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/docker' }
           ]
         ]
       },
