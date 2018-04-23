@@ -147,6 +147,7 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Containerization with Docker' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing' },
             { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/docker' }
           ]
         ]
@@ -160,6 +161,22 @@ var calendar = [
           ],
           [
             { text: 'Get started with Docker', link: 'https://docs.docker.com/get-started/' },
+            { text: 'Docker Docs' }
+          ],
+          [
+            { text: 'Dockerfile reference', link: 'https://docs.docker.com/engine/reference/builder/' },
+            { text: 'Docker Docs' }
+          ],
+          [
+            { text: 'Networking overview', link: 'https://docs.docker.com/network/' },
+            { text: 'Docker Docs' }
+          ],
+          [
+            { text: 'Networking with standalone containers', link: 'https://docs.docker.com/network/network-tutorial-standalone/' },
+            { text: 'Docker Docs' }
+          ],
+          [
+            { text: 'Overview of Docker Compose', link: 'https://docs.docker.com/compose/overview/' },
             { text: 'Docker Docs' }
           ]
         ]
