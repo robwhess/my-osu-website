@@ -168,6 +168,10 @@ var calendar = [
             { text: 'Docker Docs' }
           ],
           [
+            { text: 'Use volumes', link: 'https://docs.docker.com/storage/volumes/' },
+            { text: 'Docker Docs' }
+          ],
+          [
             { text: 'Networking overview', link: 'https://docs.docker.com/network/' },
             { text: 'Docker Docs' }
           ],
@@ -177,6 +181,10 @@ var calendar = [
           ],
           [
             { text: 'Overview of Docker Compose', link: 'https://docs.docker.com/compose/overview/' },
+            { text: 'Docker Docs' }
+          ],
+          [
+            { text: 'Compose file version 3 reference', link: 'https://docs.docker.com/compose/compose-file/' },
             { text: 'Docker Docs' }
           ]
         ]
