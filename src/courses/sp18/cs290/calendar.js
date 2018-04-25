@@ -120,7 +120,8 @@ var calendar = [
           ],
           [
             { text: 'JavaScript DOM Manipulation' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/js-dom-manipulation' }
           ]
         ]
       },
