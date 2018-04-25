@@ -9,6 +9,14 @@ var assignments = {
         'Demo due by 11:59pm on Monday, 5/7/2018'
       ]
     },
+    {
+      link : 'https://classroom.github.com/a/9ar_8SwW',
+      title: 'Assignment 2 - Docker and MySQL',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 5/7/2018',
+        'Demo due by 11:59pm on Monday, 5/21/2018'
+      ]
+    }
   ]
 };
 
