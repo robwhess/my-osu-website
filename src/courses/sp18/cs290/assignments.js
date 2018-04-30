@@ -24,8 +24,8 @@ var assignments = {
       title: 'Assignment 3 - Client-side JS',
       notesHTML: [
         'Assignment due by 11:59pm, Monday 5/7/2018',
-        'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/7/2018',
-        'Demo due by 11:59pm on Monday, 5/21/2018'
+        'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday <span class="strike">5/7/2018</span> 5/14/2018',
+        'Demo due by 11:59pm on Monday, <span class="strike">5/21/2018</span> 5/28/2018'
       ]
     },
     // {

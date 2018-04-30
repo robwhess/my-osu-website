@@ -140,27 +140,42 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'JavaScript Event Handling' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/js-events' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Overview of Events and Handlers', link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers' },
+            { text: 'MDN' }
+          ],
+          [
+            { text: 'Handling Events', link: 'http://eloquentjavascript.net/14_event.html' },
+            { text: 'Eloquent Javascript' },
+            { text: 'Chapter 14' }
+          ],
+          [
+            { text: 'Forms and Fields', link: 'http://eloquentjavascript.net/18_forms.html' },
+            { text: 'Eloquent Javascript' },
+            { text: 'Chapter 18' }
+          ]
+        ]
+      }
+    ]
   }
-  //
-  // {
-  //   week: 5,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'JavaScript Event Handling &ndash; <a href="https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/js-events">example code</a> &ndash; <a href="https://jsfiddle.net/robwhess/kmo8ksm4/">Events and Forms JSFiddle</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers">Overview of Events and Handlers</a> &ndash; MDN',
-  //         '<a href="http://eloquentjavascript.net/14_event.html">Handling Events</a> &ndash; Eloquent Javascript, Chapter 14',
-  //         '<a href="http://eloquentjavascript.net/18_forms.html">Forms and Fields</a> &ndash; Eloquent Javascript, Chapter 18'
-  //       ]
-  //     }
-  //   ]
-  // },
   //
   // {
   //   week: 6,
