@@ -190,6 +190,47 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Using MySQL to Store API Data' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/mysql' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Official mysql image', link: 'https://hub.docker.com/_/mysql/' },
+            { text: 'Docker Hub' }
+          ],
+          [
+            { text: 'MySQL Tutorial', link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html' },
+            { text: 'MySQL Docs' }
+          ],
+          [
+            { text: 'The mysql package for Node.js', link: 'https://www.npmjs.com/package/mysql' },
+            { text: 'NPM' }
+          ],
+          [
+            { text: 'Promises', link: 'https://www.promisejs.org/' },
+            { text: 'promisejs.org' }
+          ],
+          [
+            { text: 'Using promises', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises' },
+            { text: 'MDN' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 
