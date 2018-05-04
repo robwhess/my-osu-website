@@ -231,6 +231,45 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 6,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'MongoDB' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Official mysql image', link: 'https://hub.docker.com/_/mysql/' },
+            { text: 'Docker Hub' }
+          ],
+          [
+            { text: 'Getting Started with MongoDB', link: 'https://docs.mongodb.com/getting-started/shell/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'Documents', link: 'https://docs.mongodb.com/manual/core/document/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'MongoDB CRUD Operations', link: 'https://docs.mongodb.com/manual/crud/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'Node.js Quick Start', link: 'http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start/' },
+            { text: 'MongoDB docs' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 

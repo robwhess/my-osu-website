@@ -176,31 +176,55 @@ var calendar = [
         ]
       }
     ]
-  }
-  //
-  // {
-  //   week: 6,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Node.js Basics &ndash; <a href="https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/nodejs-basics">example code</a>',
-  //         'Packages and npm &ndash; <a href="https://docs.google.com/document/d/1jz3-RWjGoDzRddNAwPhAeNuqYF0o9MUWqVMQ-anN4TI/edit?usp=sharing">notes</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="http://eloquentjavascript.net/20_node.html">Node.js</a> &ndash; Eloquent Javascript, Chapter 20',
-  //         '<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">The Art of Node</a>',
-  //         '<a href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/">Anatomy of an HTTP Transaction</a> &ndash; Node.js Docs',
-  //         '<a href="https://docs.npmjs.com/getting-started/what-is-npm">What is npm?</a> &ndash; npm docs',
-  //         '<a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally">Installing npm packages locally</a> &ndash; npm docs',
-  //         '<a href="https://docs.npmjs.com/getting-started/using-a-package.json">Using a package.json</a> &ndash; npm docs'
-  //       ]
-  //     }
-  //   ]
-  // },
+  },
+
+  {
+    week: 6,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Node.js Basics' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing' }
+          ],
+          [
+            { text: 'Packages and npm' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1jz3-RWjGoDzRddNAwPhAeNuqYF0o9MUWqVMQ-anN4TI/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Node.js', link: 'http://eloquentjavascript.net/20_node.html' },
+            { text: 'Eloquent Javascript' },
+            { text: 'Chapter 20' }
+          ],
+          [
+            { text: 'The Art of Node', link: 'https://github.com/maxogden/art-of-node/#the-art-of-node' }
+          ],
+          [
+            { text: 'Anatomy of an HTTP Transaction', link: 'https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/' },
+            { text: 'Node.js docs' }
+          ],
+          [
+            { text: 'What is npm?', link: 'https://docs.npmjs.com/getting-started/what-is-npm' },
+            { text: 'npm docs' }
+          ],
+          [
+            { text: 'Installing npm packages locally', link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally' },
+            { text: 'npm docs' }
+          ],
+          [
+            { text: 'Using a package.json', link: 'https://docs.npmjs.com/getting-started/using-a-package.json' },
+            { text: 'npm docs' }
+          ]
+        ]
+      }
+    ]
+  },
   //
   // {
   //   week: 7,
