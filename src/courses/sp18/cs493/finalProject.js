@@ -1,10 +1,16 @@
 var finalProject = {
-  preambleHTML: "<p>For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.</p>",
+  preambleHTML: "<p>For the final project in this course, you will work in teams to implement a complete RESTful API.  You can find more info below.</p>",
   assignments: [
-    // {
-    //   title: 'Final Project Description',
-    //   link: 'https://docs.google.com/document/d/1x0GulHsdlpbo1S5fTW6ipF8Hpw90EdRXOX_OIbKrzJA/edit?usp=sharing'
-    // },
+    {
+      title: 'Final Project Description',
+      link: 'https://docs.google.com/document/d/1zsU2VgMNpsz3imOZT7gNKboIqF66bu5hG5R6noohvmM/edit?usp=sharing'
+    },
+    {
+      title: 'Final Project Proposal',
+      notesHTML: [
+        'Due <a href="https://oregonstate.instructure.com/courses/1687645/assignments/7273818"><strong>on Canvas</strong></a> by 5:00pm on Friday 5/18/2018'
+      ]
+    }
     // {
     //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
     //   title: 'Final Project Demo Signup',
@@ -16,7 +22,5 @@ var finalProject = {
     // }
   ]
 };
-
-finalProject = null;
 
 export default finalProject;
