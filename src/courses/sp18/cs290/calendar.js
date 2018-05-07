@@ -186,7 +186,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Node.js Basics' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/node-basics' }
           ],
           [
             { text: 'Packages and npm' },
