@@ -240,7 +240,8 @@ var calendar = [
         heading: 'Topics',
         entriesLists: [
           [
-            { text: 'Using MongoDB to Store API Data' }
+            { text: 'Using MongoDB to Store API Data' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/mongodb' }
           ]
         ]
       },
