@@ -209,7 +209,7 @@ var calendar = [
         heading: 'Readings',
         entriesLists: [
           [
-            { text: 'Official mysql image', link: 'https://hub.docker.com/_/mysql/' },
+            { text: 'Official MySQL image', link: 'https://hub.docker.com/_/mysql/' },
             { text: 'Docker Hub' }
           ],
           [
@@ -249,7 +249,7 @@ var calendar = [
         heading: 'Readings',
         entriesLists: [
           [
-            { text: 'Official mysql image', link: 'https://hub.docker.com/_/mysql/' },
+            { text: 'Official MongoDB image', link: 'https://hub.docker.com/_/mongo/' },
             { text: 'Docker Hub' }
           ],
           [
