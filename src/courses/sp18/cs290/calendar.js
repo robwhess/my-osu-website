@@ -226,28 +226,46 @@ var calendar = [
       }
     ]
   },
-  //
-  // {
-  //   week: 7,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Serving with Express &ndash; <a href="https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/express-serving">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://expressjs.com/en/starter/hello-world.html">Hello world example</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/starter/static-files.html">Serving static files in Express</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/starter/basic-routing.html">Basic routing</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/guide/routing.html">Routing</a> &ndash; Express docs',
-  //         '<a href="https://expressjs.com/en/guide/writing-middleware.html">Writing middleware for use in Express apps</a> &ndash; Express docs'
-  //       ]
-  //     }
-  //   ]
-  // },
+
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Serving with Express' },
+            { text: 'notes', link: 'ttps://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Hello world example', link: 'https://expressjs.com/en/starter/hello-world.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Basic routing', link: 'https://expressjs.com/en/starter/basic-routing.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Routing', link: 'https://expressjs.com/en/guide/routing.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Writing middleware for use in Express apps', link: 'https://expressjs.com/en/guide/writing-middleware.html' },
+            { text: 'Express docs' }
+          ],
+          [
+            { text: 'Serving static files in Express', link: 'https://expressjs.com/en/starter/static-files.html' },
+            { text: 'Express docs' }
+          ]
+        ]
+      }
+    ]
+  },
   //
   // {
   //   week: 8,

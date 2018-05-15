@@ -241,6 +241,7 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Using MongoDB to Store API Data' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing' },
             { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/mongodb' }
           ]
         ]
@@ -266,6 +267,39 @@ var calendar = [
           ],
           [
             { text: 'Node.js Quick Start', link: 'http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start/' },
+            { text: 'MongoDB docs' }
+          ]
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Using MongoDB to Store API Data' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/mongodb' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Indexes', link: 'https://docs.mongodb.com/manual/indexes/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'Aggregation', link: 'https://docs.mongodb.com/manual/aggregation/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'Aggregation Pipeline Stages', link: 'https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/' },
             { text: 'MongoDB docs' }
           ]
         ]
