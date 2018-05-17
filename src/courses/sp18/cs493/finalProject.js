@@ -8,7 +8,7 @@ var finalProject = {
     {
       title: 'Final Project Proposal',
       notesHTML: [
-        'Due <a href="https://oregonstate.instructure.com/courses/1687645/assignments/7273818"><strong>on Canvas</strong></a> by 5:00pm on Friday 5/18/2018'
+        'Due <a href="https://oregonstate.instructure.com/courses/1687645/assignments/7273818"><strong>on Canvas</strong></a> by <span class="strike">5:00pm on Friday, 5/18/2018</span> 11:59pm on Monday, 5/21/2018'
       ]
     }
     // {

@@ -16,6 +16,14 @@ var assignments = {
         'Assignment due by 11:59pm, Monday <span class="strike">5/7/2018</span> 5/14/2018',
         'Demo due by 11:59pm on Monday, <span class="strike">5/21/2018</span> 5/28/2018'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/47d8kqpH',
+      title: 'Assignment 3 - MongoDB and API Security',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday, 6/4/2018',
+        'Demo due by 11:59pm on Monday, 6/15/2018'
+      ]
     }
   ]
 };
