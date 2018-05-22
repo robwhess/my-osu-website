@@ -37,15 +37,15 @@ var assignments = {
         '<b>No demo for this assignment</b>'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 5 - Handlebars templating',
-    //   notesHTML: [
-    //     'Assignment due by 11:59pm, Wednesday 11/29/2017',
-    //     'Code Blog due <b>ON CANVAS</b> by 11:59pm, Wednesday 11/29/2017',
-    //     '<b>No demo for this assignment</b>'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/do_8u8WU',
+      title: 'Assignment 5 - Handlebars templating',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 6/4/2018',
+        'Code Blog due <b>ON CANVAS</b> by 11:59pm, Wednesday 6/4/2018',
+        'Demo due by 5:00pm on Friday, 6/15/2018'
+      ]
+    }
   ]
 };
 
