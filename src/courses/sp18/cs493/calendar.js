@@ -305,6 +305,44 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 8,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'API Authentication and Authorization' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/auth' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Securing Node.js RESTful APIs with JSON Web Tokens', link: 'https://medium.freecodecamp.org/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52' },
+            { text: 'Adnan Rahić' },
+            { text: 'freeCodeCamp.org' }
+          ],
+          [
+            { text: 'Introduction to JSON Web Tokens', link: 'https://jwt.io/introduction/' },
+            { text: 'JWT.IO' }
+          ],
+          [
+            { text: 'JSON Web Token', link: 'https://en.wikipedia.org/wiki/JSON_Web_Token' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'bcrypt.js', link: 'https://www.npmjs.com/package/bcryptjs' },
+            { text: 'npm' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 
