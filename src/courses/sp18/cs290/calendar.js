@@ -316,24 +316,31 @@ var calendar = [
       }
     ]
   },
-  //
-  // {
-  //   week: 9,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Asynchronous Client-Server Communication &ndash; <a href="https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS290-F17/async-communication">example code</a>',
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest">Using XMLHttpRequest</a> &ndash; MDN'
-  //       ]
-  //     }
-  //   ]
-  // },
+
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists:
+        [
+          [
+            { text: 'Asynchronous Client-Server Communication' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Using XMLHttpRequest', link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest' },
+            { text: 'MDN' }
+          ]
+        ]
+      }
+    ]
+  },
   //
   // {
   //   week: 10,
