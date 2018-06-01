@@ -10,16 +10,18 @@ var finalProject = {
       notesHTML: [
         'Due <a href="https://oregonstate.instructure.com/courses/1687645/assignments/7273818"><strong>on Canvas</strong></a> by <span class="strike">5:00pm on Friday, 5/18/2018</span> 11:59pm on Monday, 5/21/2018'
       ]
+    },
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
+      title: 'Final Project Demo Signup',
+      notesHTML: [
+        'Final project demos will be during finals week in KEC 1109.',
+        'Sign up for a final project demo using the link above.',
+        'Sign up for one slot per team.',
+        'All team members must attend your demo.',
+        'Code is due on GitHub when when you do your demo.'
+      ]
     }
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
-    //   title: 'Final Project Demo Signup',
-    //   notesHTML: [
-    //     'Sign up for a Final Project demo using the link above',
-    //     'Sign up for one slot per team',
-    //     'Code is due on GitHub when when you do your demo'
-    //   ]
-    // }
   ]
 };
 

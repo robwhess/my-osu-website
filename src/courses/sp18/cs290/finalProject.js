@@ -5,15 +5,17 @@ var finalProject = {
       title: 'Final Project Description',
       link: 'https://docs.google.com/document/d/1XTnAL8cuM8n_FCZuN2Dw9LARleZT3HKg-zg2qPPsjWk/edit?usp=sharing'
     },
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
-    //   title: 'Final Project Demo Signup',
-    //   notesHTML: [
-    //     'Sign up for a Final Project demo using the link above',
-    //     'Sign up for one slot per team',
-    //     'Code is due on GitHub when when you do your demo'
-    //   ]
-    // }
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
+      title: 'Final Project Demo Signup',
+      notesHTML: [
+        'Final project demos will be during finals week in KEC 1109.',
+        'Sign up for a final project demo using the link above.',
+        'Sign up for one slot per team.',
+        'All team members must attend your demo.',
+        'Code is due on GitHub when when you do your demo.'
+      ]
+    }
   ]
 };
 
