@@ -343,6 +343,49 @@ var calendar = [
         ]
       }
     ]
+  },
+
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'API Rate Limiting and Redis' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/rate-limiting' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Scaling your API with rate limiters', link: 'https://stripe.com/blog/rate-limiters' },
+            { text: 'Paul Tarjan' },
+            { text: 'Stripe Engineering Blog' }
+          ],
+          [
+            { text: 'An alternative approach to rate limiting', link: 'https://blog.figma.com/an-alternative-approach-to-rate-limiting-f8a06cf7c94c' },
+            { text: 'Nikrad Mahdi' },
+            { text: 'Figma Design Blog' }
+          ],
+          [
+            { text: 'Token bucket', link: 'https://en.wikipedia.org/wiki/Token_bucket' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'An introduction to Redis data types and abstractions', link: 'https://redis.io/topics/data-types-intro' },
+            { text: 'Redis docs' }
+          ],
+          [
+            { text: 'Redis commands', link: 'https://redis.io/commands' },
+            { text: 'Redis docs' }
+          ]
+        ]
+      }
+    ]
   }
 ];
 
