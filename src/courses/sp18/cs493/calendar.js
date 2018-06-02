@@ -266,7 +266,7 @@ var calendar = [
             { text: 'MongoDB docs' }
           ],
           [
-            { text: 'Node.js Quick Start', link: 'http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start/' },
+            { text: 'Node.js Quick Start', link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/' },
             { text: 'MongoDB docs' }
           ]
         ]
@@ -382,6 +382,37 @@ var calendar = [
           [
             { text: 'Redis commands', link: 'https://redis.io/commands' },
             { text: 'Redis docs' }
+          ]
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Data Replication' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'MongoDB Replication', link: 'https://docs.mongodb.com/manual/replication/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'MySQL Replication', link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html' },
+            { text: 'MySQL docs' }
+          ],
+          [
+            { text: 'A Primer on Database Replication', link: 'https://www.brianstorti.com/replication/' },
+            { text: 'Brian Storti' }
           ]
         ]
       }
