@@ -395,7 +395,8 @@ var calendar = [
         heading: 'Topics',
         entriesLists: [
           [
-            { text: 'Data Replication' }
+            { text: 'Data Replication' },
+            { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/data-replication' }
           ]
         ]
       },
