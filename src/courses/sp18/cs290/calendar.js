@@ -351,7 +351,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'MongoDB' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/mongodb' }
           ]
         ]
       },
