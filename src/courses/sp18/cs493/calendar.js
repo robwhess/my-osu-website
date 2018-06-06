@@ -408,6 +408,10 @@ var calendar = [
             { text: 'MongoDB docs' }
           ],
           [
+            { text: 'Deploy New Replica Set With Keyfile Access Control', link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
             { text: 'MySQL Replication', link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html' },
             { text: 'MySQL docs' }
           ],
