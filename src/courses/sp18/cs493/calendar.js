@@ -396,6 +396,7 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Data Replication' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing' },
             { text: 'example code', link: 'https://github.com/OSU-CS493-Sp18/data-replication' }
           ]
         ]
