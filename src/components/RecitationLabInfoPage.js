@@ -89,7 +89,7 @@ class RecitationLabInfoPage extends Component {
           <div key={i}>
             <h4>{section.heading}</h4>
             <ul>
-              {section.entriesHTML.map((entryHTML, j) => (
+              {section.entriesHTML && section.entriesHTML.map((entryHTML, j) => (
                 <li key={j} dangerouslySetInnerHTML={{ __html: entryHTML }} />
               ))}
             </ul>
