@@ -1,24 +1,23 @@
 var taInfo = {
   TAs: [
     {
-      name: "TBA",
-      email: "",
+      name: "Ujjval Kumaria",
+      email: "kumariau@oregonstate.edu",
+      officeHours: [ "Tu 2:00-3:00pm (JOHN 123)" ],
+      gradingHours: [
+        "TBA"
+      ],
+      gradingHoursPollLink: "#"
+    },
+    {
+      name: "Vivswan Shitole",
+      email: "shitolev@oregonstate.edu",
       officeHours: [ "TBA" ],
       gradingHours: [
         "TBA"
       ],
       gradingHoursPollLink: "#"
     },
-    // {
-    //   name: "Arash Shahbaz Badr",
-    //   email: "shahbaar@oregonstate.edu",
-    //   officeHours: [ "Th 3:00-5:00pm (JOHN 123)" ],
-    //   gradingHours: [
-    //     "Tu 12:00-5:00pm (JOHN 123)",
-    //     "Th 2:00-3:00pm (JOHN 123)"
-    //   ],
-    //   gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UU1TZS1ucWlQMFN5fGRlZmF1bHR8ZWRmNzgzN2UzZWUwOGNhYmMzZmY3MGJlYTExNmRlNjE"
-    // },
   ]
 };
 
