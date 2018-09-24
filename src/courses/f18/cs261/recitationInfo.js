@@ -36,13 +36,13 @@ var recitationInfo = {
       number: '014',
       dayTime: 'Th 6:00-6:50pm',
       location: 'KEC 1003',
-      ta: 'Aayam Shrestha'
+      ta: 'Chloe Fleming'
     },
     {
       number: '015',
       dayTime: 'Tu 6:00-6:50pm',
       location: 'KEC 1003',
-      ta: 'Chloe Fleming'
+      ta: 'Aayam Shrestha'
     },
     {
       number: '016',
