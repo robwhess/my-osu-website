@@ -4,12 +4,11 @@ var taInfo = {
       name: "Zahir Al-Sulaimawi",
       email: "alsulaiz@oregonstate.edu",
       officeHours: [
-        "Tu 4:00-5:00pm (Covell 140, Table 1)",
-        "F 4:00-5:00pm (JOHN 122)"
+        "M 8:00-10:00am (JOHN 121)"
       ],
       gradingHours: [
         "Th 4:00-7:00pm (JOHN 122)",
-        "F 5:00-8:00pm (JOHN 122)"
+        "F 4:00-7:00pm (JOHN 122)"
       ],
       gradingHoursPollLink: "#"
     },
@@ -25,11 +24,15 @@ var taInfo = {
     {
       name: "Chloe Fleming",
       email: "flemichl@oregonstate.edu",
-      officeHours: [ "TBA" ],
-      gradingHours: [
-        "TBA"
+      officeHours: [
+        "Tu 4:00-5:00pm (Covell 140 Table 4)",
+        "F 12:00-1:00pm (Covell 140 Table 2)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHours: [
+        "W 3:00-6:00pm (Covell 140 Table 4)",
+        "Th 9:00am-12:00pm (Covell 140 Table 2)"
+      ],
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UUxLN1A2MzFPUVF3fGRlZmF1bHR8MTE4ODlmYzUzZjEyNTUzN2VhMzcyZWJjZjZlOTY2YzU"
     },
     {
       name: "Prashant Kumar",
