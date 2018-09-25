@@ -17,7 +17,8 @@ var taInfo = {
       email: "emmotta@oregonstate.edu",
       officeHours: [ "TBA" ],
       gradingHours: [
-        "TBA"
+        "Tu 12:00-2:00pm (JOHN 123)",
+        "Th 1:00-2:00pm (JOHN 125)"
       ],
       gradingHoursPollLink: "#"
     },
