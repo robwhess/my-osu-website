@@ -93,7 +93,7 @@ var calendar = [
       },
       {
         heading: 'Readings',
-        entriesLists: [,
+        entriesLists: [
           [
             { text: 'Chapter 4-5', link: CS261CourseNotes + '#page=28' },
             { text: 'Budd\'s Course Notes' }
