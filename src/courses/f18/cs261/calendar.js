@@ -38,11 +38,8 @@ var calendar = [
           ],
           [
             { text: 'C Review/Crash Course' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing' }
-          ],
-          [
-            { text: 'Complexity Analysis (Big O)' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/c-basics' }
           ]
         ]
       },
@@ -72,9 +69,33 @@ var calendar = [
           [
             { text: 'Note that the above four readings assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to the following link to understand the differences between C89 and C99.' },
             { text: 'C99: Design', link: 'https://en.wikipedia.org/wiki/C99#Design' }
+          ]
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 2,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Complexity Analysis (Big O)' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing' }
           ],
           [
-            { text: 'Chapter 4', link: CS261CourseNotes + '#page=28' },
+            { text: 'Dynamic Arrays' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [,
+          [
+            { text: 'Chapter 4-5', link: CS261CourseNotes + '#page=28' },
             { text: 'Budd\'s Course Notes' }
           ],
           [
@@ -85,25 +106,6 @@ var calendar = [
       }
     ]
   },
-
-  // {
-  //   week: 2,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Complexity Analysis (Big O) &ndash; <a href="https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing">notes</a>',
-  //         'Dynamic Arrays &ndash; <a href="https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/dynarray">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=48">Chapter 5</a> &ndash; Budd\'s Course Notes'
-  //       ]
-  //     }
-  //   ]
-  // },
 
   // {
   //   week: 3,
