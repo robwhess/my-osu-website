@@ -27,6 +27,7 @@ var calendar = [
           [
             { text: 'HTML' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/html' }
           ]
         ]
       },
@@ -46,34 +47,33 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 2,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesLists: [
-  //         [
-  //           { text: 'CSS' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/css' }
-  //         ]
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesLists: [
-  //         [
-  //           { text: 'Introduction to CSS', link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS' },
-  //           { text: 'MDN' }
-  //         ],
-  //         [
-  //           { text: 'Cyclomatic Complexity: Logic in CSS', link: 'http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/' },
-  //           { text: 'CSS Wizardry' }
-  //         ]
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 2,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'CSS' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' },
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Introduction to CSS', link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS' },
+            { text: 'MDN' }
+          ],
+          [
+            { text: 'Cyclomatic Complexity: Logic in CSS', link: 'http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/' },
+            { text: 'CSS Wizardry' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 3,
