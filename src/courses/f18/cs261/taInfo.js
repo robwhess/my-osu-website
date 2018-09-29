@@ -55,7 +55,8 @@ var taInfo = {
       gradingHours: [
         "M 5:00-7:00pm (KEC Atrium)",
         "Tu 8:00-10:00am (KEC Atrium)",
-        "Tu 2:00-4:00pm (KEC Atrium)"
+        "Tu 2:00-3:00pm (KEC Atrium)",
+        "Tu 4:00-5:00pm (KEC Atrium)"
       ],
       gradingHoursPollLink: "#"
     },
