@@ -9,14 +9,14 @@ var assignments = {
         '<b>No demo for this assignment</b>'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 - Practicing C and pointers',
-    //   notesHTML: [
-    //     'Assignment due by 11:59pm, Monday 10/9/2017',
-    //     'Demo due by 11:59pm, Monday 10/23/2017'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/FRPkj3G3',
+      title: 'Assignment 1 - C, pointers, and dynamic arrays',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 10/15/2018',
+        'Demo due by 11:59pm, Monday 10/29/2018'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 - Linked lists, stacks, and queues',
