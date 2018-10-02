@@ -6,7 +6,7 @@ var taInfo = {
       officeHours: [ "Tu 2:00-3:00pm (JOHN 123)" ],
       gradingHours: [
         "Tu 12:00-2:00pm (JOHN 121)",
-        "F 3:00-5:00pm (KEC 1087)"
+        "F 4:00-6:00pm (KEC 1087)"
       ],
       gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM"
     },
