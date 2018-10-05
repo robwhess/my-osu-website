@@ -17,10 +17,8 @@ var taInfo = {
         "F 10:00am-12:00pm (KEC Atrium)",
       ],
       gradingHours: [
-        "M 10:00am-12:00pm (KEC Atrium)",
-        "Tu 2:00-4:00pm (KEC Atrium)",
-        "W 10:00am-12:00pm (KEC Atrium)",
-        "Th 2:00-4:00pm (KEC Atrium)"
+        "M 10:00am-2:00pm (KEC Atrium)",
+        "W 10:00am-2:00pm (KEC Atrium)",
       ],
       gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UUs3Y2tCOTdtUXgwfGRlZmF1bHR8YzM0NzIwNzI3MWNjNzUzZTQyMWM0MWZiOWM1ODY4NDI"
     },
