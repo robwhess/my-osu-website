@@ -76,47 +76,46 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 3,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesLists: [
-  //         [
-  //           { text: 'CSS' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/css' }
-  //         ],
-  //         [
-  //           { text: 'JavaScript Fundamentals' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/js-fundamentals' }
-  //         ]
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesLists: [
-  //         [
-  //           { text: 'Using CSS Flexible Boxes', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes' },
-  //           { text: 'MDN' }
-  //         ],
-  //         [
-  //           { text: 'Responsive Web Design Basics', link: 'https://developers.google.com/web/fundamentals/design-and-ui/responsive/' },
-  //           { text: 'Google Web Fundamentals' }
-  //         ],
-  //         [
-  //           { text: 'JavaScript first steps', link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps' },
-  //           { text: 'MDN' }
-  //         ],
-  //         [
-  //           { text: 'JavaScript building blocks', link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks' },
-  //           { text: 'MDN' }
-  //         ]
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 3,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'CSS' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/css' }
+          ],
+          [
+            { text: 'JavaScript Fundamentals' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Using CSS Flexible Boxes', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes' },
+            { text: 'MDN' }
+          ],
+          [
+            { text: 'Responsive Web Design Basics', link: 'https://developers.google.com/web/fundamentals/design-and-ui/responsive/' },
+            { text: 'Google Web Fundamentals' }
+          ],
+          [
+            { text: 'JavaScript first steps', link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps' },
+            { text: 'MDN' }
+          ],
+          [
+            { text: 'JavaScript building blocks', link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks' },
+            { text: 'MDN' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 4,

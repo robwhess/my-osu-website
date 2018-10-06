@@ -81,7 +81,7 @@ var recitationInfo = {
           heading: 'Topics',
           entriesHTML: [
             'Recitation syllabus review',
-            '<a href="https://docs.google.com/presentation/d/1Y_az4p9rHyE33dAQBB6ZYTvYkVbu44dl5aWFT2NRfwY/edit?usp=sharing">CS 261 IT Basics</a>'
+            '<a href="https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing">CS 261 IT Basics</a>'
           ]
         },
         {
@@ -106,11 +106,36 @@ var recitationInfo = {
         {
           heading: 'Recitation worksheet',
           entriesHTML: [
-            '<a href="https://docs.google.com/document/d/1K19gZC--DIOke_UL2HCfuh0WhdQue5ZYIulpMYGvWWo/edit?usp=sharing">Week 2 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+            '<a href="https://docs.google.com/document/d/1qLatGmhnC29_8rKXMd6OD80ZOQ6nppPlO3Duo9arLqc/edit?usp=sharing">Week 2 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://drive.google.com/open?id=0B8aZMq9VhvmrSVBtNmw0X3hobVhQTE1Xa3dVcHNfZWE4eHBN">Week 2 Recitation Worksheet Solutions</a>',
+            '<a href="https://docs.google.com/document/d/1Tm0mPQMljeFRuWK505vWe4vq9vZzxDHpVz9Y6r1qlYM/edit?usp=sharing">Week 2 Recitation Quiz Solutions</a>'
           ]
         }
       ]
     },
+
+    {
+      week: 3,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Iterating through ADTs',
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1c_3NsjNeVLlZkx46_VUs5I0D6KvGNursji3It-nL_QM/edit?usp=sharing">Week 3 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        }
+      ]
+    }
   ]
 };
 

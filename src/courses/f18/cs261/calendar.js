@@ -84,10 +84,6 @@ var calendar = [
           [
             { text: 'Complexity Analysis (Big O)' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing' }
-          ],
-          [
-            { text: 'Dynamic Arrays' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing' }
           ]
         ]
       },
@@ -107,28 +103,57 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 3,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Stacks, Queues, and Deques &ndash; <a href="https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing">notes</a>',
-  //         'Linked Lists &ndash; <a href="https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/lldeque">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=58">Chapters 6-7</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Queue</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Double-ended_queue">Double-ended queue</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Linked_list">Linked list</a> &ndash; Wikipedia'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 3,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Dynamic Arrays' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing' }
+          ],
+          [
+            { text: 'Stacks, Queues, and Deques' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing' }
+          ],
+          [
+            { text: 'Linked Lists' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Chapter 6-7', link: CS261CourseNotes + '#page=58' },
+            { text: 'Budd\'s Course Notes' }
+          ],
+          [
+            { text: 'Stack', link: 'https://en.wikipedia.org/wiki/Stack_(abstract_data_type)' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Queue', link: 'https://en.wikipedia.org/wiki/Queue_(abstract_data_type)' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Double-ended queue', link: 'https://en.wikipedia.org/wiki/Double-ended_queue' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Linked list', link: 'https://en.wikipedia.org/wiki/Linked_list' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Linked list (with Stack, Queue, and Deque)', link: 'https://visualgo.net/en/list' },
+            { text: 'VisuAlgo.net' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 4,
