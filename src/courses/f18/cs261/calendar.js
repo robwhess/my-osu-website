@@ -111,7 +111,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Dynamic Arrays' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/dynarray' }
           ],
           [
             { text: 'Stacks, Queues, and Deques' },
