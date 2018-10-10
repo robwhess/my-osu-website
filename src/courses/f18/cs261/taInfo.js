@@ -10,7 +10,7 @@ var taInfo = {
         "Th 4:00-7:00pm (JOHN 122)",
         "F 4:00-7:00pm (JOHN 122)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UURkY1pGQTNXb3dNfGRlZmF1bHR8NzAxNWI0NTczZjM2ZmM1NTgzYTU5MjI1NDJjNDc4YTk"
     },
     {
       name: "Andrew Emmott",
@@ -46,7 +46,7 @@ var taInfo = {
         "Tu 4:00-7:00pm (JOHN 122)",
         "Th 2:00-5:00pm (JOHN 121)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UU12WkRvTS1TekxvfGRlZmF1bHR8YWVhMWJiZThjOTg1MDEyZWRkNWM0N2U3M2Y0ODk3ZGI"
     },
     {
       name: "Aayam Shrestha",
