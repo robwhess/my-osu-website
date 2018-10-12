@@ -117,40 +117,38 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 4,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesLists: [
-  //         [
-  //           { text: 'JavaScript Fundamentals' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/js-fundamentals' }
-  //         ],
-  //         [
-  //           { text: 'JavaScript DOM Manipulation' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/js-dom-manipulation' }
-  //         ]
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesLists: [
-  //         [
-  //           { text: 'Introduction to the DOM', link: 'https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction' },
-  //           { text: 'MDN' }
-  //         ],
-  //         [
-  //           { text: 'The Document Object Model', link: 'http://eloquentjavascript.net/13_dom.html' },
-  //           { text: 'Eloquent Javascript' },
-  //           { text: 'Chapter 13' }
-  //         ]
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 4,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'JavaScript Fundamentals' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing' },
+          ],
+          [
+            { text: 'JavaScript DOM Manipulation' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing' },
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Introduction to the DOM', link: 'https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction' },
+            { text: 'MDN' }
+          ],
+          [
+            { text: 'The Document Object Model', link: 'http://eloquentjavascript.net/13_dom.html' },
+            { text: 'Eloquent Javascript' },
+            { text: 'Chapter 13' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 5,
