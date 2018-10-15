@@ -58,7 +58,7 @@ var taInfo = {
         "Tu 2:00-3:00pm (KEC Atrium)",
         "Tu 4:00-5:00pm (KEC Atrium)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UUV2cnhwSURETWwzfGRlZmF1bHR8NWRiNTNlNmViOGI0ODk3MDQxNjExOGFjMWQyNmFmMDQ"
     },
   ]
 };
