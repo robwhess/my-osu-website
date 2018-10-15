@@ -120,7 +120,8 @@ var calendar = [
           ],
           [
             { text: 'Linked Lists' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/lldeque' }
           ]
         ]
       },
@@ -164,7 +165,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Linked Lists' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/lldeque' }
           ],
           [
             { text: 'Iterators' },
