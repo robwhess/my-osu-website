@@ -20,7 +20,7 @@ var taInfo = {
         "Tu 12:00-2:00pm (JOHN 123)",
         "Th 1:00-2:00pm (JOHN 125)"
       ],
-      gradingHoursPollLink: "#"
+      gradingHoursPollLink: "https://calendar.google.com/calendar/selfsched?sstoken=UU9xNmlQOVNJT0tNfGRlZmF1bHR8MWU3ZDRmNDU0OWMzODFhNmZiOTEyZjE4YWExMTFmYWU"
     },
     {
       name: "Chloe Fleming",
