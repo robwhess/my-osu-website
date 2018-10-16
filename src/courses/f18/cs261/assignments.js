@@ -17,14 +17,14 @@ var assignments = {
         'Demo due by 11:59pm, Monday 10/29/2018'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 - Linked lists, stacks, and queues',
-    //   notesHTML: [
-    //     'Assignment due by 11:59pm, Monday 10/23/2017',
-    //     'Demo due by 11:59pm, Monday 11/6/2017'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/n4Md7XzG',
+      title: 'Assignment 2 - Linked lists, stacks, and queues',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 10/29/2018',
+        'Demo due by 11:59pm, Monday 11/12/2018'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 - Binary search trees',
