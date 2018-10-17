@@ -170,7 +170,8 @@ var calendar = [
           ],
           [
             { text: 'Iterators' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1h17U-0nDinnKPUJSehJbVB1Lx8Z73G-HsHl7RabMVjo/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1h17U-0nDinnKPUJSehJbVB1Lx8Z73G-HsHl7RabMVjo/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/lldeque' }
           ],
           [
             { text: 'Ordered Arrays and Binary Search' },
