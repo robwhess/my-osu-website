@@ -15,7 +15,7 @@ var taInfo = {
     {
       name: "Andrew Emmott",
       email: "emmotta@oregonstate.edu",
-      officeHours: [ "TBA" ],
+      officeHours: [ { time: "W 11:00am-4:00pm", location: "webex", locationLink: "https://oregonstate.webex.com/oregonstate/j.php?MTID=ma0d9d6122c98cc6ea0254573b14b57f4" } ],
       gradingHours: [
         "Tu 12:00-2:00pm (JOHN 123)",
         "Th 1:00-2:00pm (JOHN 125)"

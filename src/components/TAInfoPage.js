@@ -11,10 +11,22 @@ class TAInfoPage extends Component {
     courseData: React.PropTypes.object.isRequired,
   }
 
+  generateHoursItemComponent(hoursItem) {
+    if (hoursItem.time && hoursItem.location) {
+      if (hoursItem.locationLink) {
+        return <span>{hoursItem.time} (<a href={hoursItem.locationLink}>{hoursItem.location}</a>)</span>
+      } else {
+        return <span>{hoursItem.time} ({hoursItem.location})</span>
+      }
+    } else {
+      return hoursItem;
+    }
+  }
+
   generateHoursListComponent(hoursList) {
     if (hoursList) {
       return hoursList.map((hoursItem, i) => (
-        <div key={i}>{hoursItem}</div>
+        <div key={i}>{this.generateHoursItemComponent(hoursItem)}</div>
       ));
     } else {
       return null;
