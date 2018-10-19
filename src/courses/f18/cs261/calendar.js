@@ -203,32 +203,55 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 5,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'The midterm exam will be on Wednesday of this week in our normal lecture location at the normal lecture time',
-  //         'Binary Search Trees &ndash; <a href="https://docs.google.com/document/d/1C5bj67r6SySgMgaPIrTltm0xA5nLQrNWz9ENe-KUKEU/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/bst">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=104">Chapter 10 (pp. 1-6 on trees and pp. 13-15 on BSTs)</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="https://en.wikipedia.org/wiki/Binary_tree">Binary tree</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary search tree</a> &ndash; Wikipedia'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Midterm solutions',
-  //       entriesHTML: [
-  //         '<a href="https://docs.google.com/document/d/1jlExFMgZ3wwHFYv2PMJdJS5GLBGPDtXm1jcRXVmvaDw/edit?usp=sharing">Midterm solutions</a>'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 5,
+    sections: [
+      {
+        heading: 'Midterm exam',
+        entriesLists: [
+          [
+            { text: 'The midterm exam will be on Friday of this week in our normal lecture location at the normal lecture time.' },
+          ],
+          [
+            { text: 'The exam will cover everything from the first half of the course, up to and including binary search.  Trees and binary search trees will not be covered on the exam.'},
+          ],
+          [
+            { text: 'On Wednesday of this week, I will hold an "ask me anything" session, where you can ask me questions about material for the exam you want to review.'}
+          ]
+        ]
+      },
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Binary Search Trees' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1C5bj67r6SySgMgaPIrTltm0xA5nLQrNWz9ENe-KUKEU/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Chapter 10 (pp. 1-6 on trees and pp. 13-15 on BSTs)', link: CS261CourseNotes + '#page=104' },
+            { text: 'Budd\'s Course Notes' }
+          ],
+          [
+            { text: 'Binary tree', link: 'https://en.wikipedia.org/wiki/Binary_tree' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Binary search tree', link: 'https://en.wikipedia.org/wiki/Binary_search_tree' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Binary Search Tree', link: 'https://visualgo.net/en/bst' },
+            { text: 'VisuAlgo.net' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 6,

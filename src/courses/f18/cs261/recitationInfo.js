@@ -157,6 +157,22 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1NrevxgIlatWTj3fo4h5l4r7CMTsMBBQeNKCnlw-WHUk/edit?usp=sharing">Week 4 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1QRWtPQWmulDyvKlqJ-UBsrc7ilNNARKLAcGeTcg0178/edit?usp=sharing">Week 4 Recitation Worksheet Solutions</a>',
+            '<a href="https://docs.google.com/document/d/1r15d63MLyoOFBaS7O96jhWG2hGVUJybYenchwcEJMus/edit?usp=sharing">Week 4 Recitation Quiz Solutions</a>'
+          ]
+        }
+      ]
+    },
+
+    {
+      week: 5,
+      sections: [
+        {
+          heading: 'No recitation this week.',
         }
       ]
     }
