@@ -162,7 +162,8 @@ var calendar = [
           [
             { text: 'JavaScript Event Handling' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing' },
-            { text: 'JS Fiddle DOM Manipulation Example', link: 'https://jsfiddle.net/robwhess/kmo8ksm4/' }
+            { text: 'JS Fiddle DOM Manipulation Example', link: 'https://jsfiddle.net/robwhess/kmo8ksm4/' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/js-events' }
           ]
         ]
       },
