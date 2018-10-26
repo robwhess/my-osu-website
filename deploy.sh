@@ -6,7 +6,7 @@ DEPLOY_DEST_DIR="public_html"
 DEPLOY_SRC_DIR="build"
 
 STASH_SUCCEEDED=false
-if git stash --include-untracked; then
+if ! git stash --include-untracked | grep "No local changes to save"; then
   STASH_SUCCEEDED=true
 fi
 npm run build
