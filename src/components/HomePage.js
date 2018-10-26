@@ -25,7 +25,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <PageContent>
+      <PageContent contentClassName="home-page">
         <section className="essentials">
           <img src={headshot} alt="Me" className="headshot" />
           <div className="digits">

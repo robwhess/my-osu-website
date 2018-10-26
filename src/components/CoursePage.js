@@ -51,14 +51,15 @@ class CoursePage extends Component {
 
   generateSectionEntryListComponent(entryList, key) {
     var entryListItemComponents = [];
+    var entryItemKey = 0;
     entryList.forEach((entryListItem, i) => {
       if (i > 0) {
-        entryListItemComponents.push(<span dangerouslySetInnerHTML={{ __html: " &ndash; " }}></span>);
+        entryListItemComponents.push(<span key={entryItemKey++} dangerouslySetInnerHTML={{ __html: " &ndash; " }}></span>);
       }
       if (entryListItem.link) {
-        entryListItemComponents.push(<a href={entryListItem.link} target="_blank">{entryListItem.text}</a>);
+        entryListItemComponents.push(<a key={entryItemKey++} href={entryListItem.link} target="_blank">{entryListItem.text}</a>);
       } else {
-        entryListItemComponents.push(<span>{entryListItem.text}</span>);
+        entryListItemComponents.push(<span key={entryItemKey++}>{entryListItem.text}</span>);
       }
     });
     return <li key={key}>{entryListItemComponents}</li>;
@@ -198,11 +199,15 @@ class CoursePage extends Component {
     );
   }
 
-  generateEssentialsComponent(essentials) {
+  generateEssentialsComponent(number, title, term, essentials) {
     var essentialsComponent = null;
     if (essentials) {
       essentialsComponent = (
         <section className="info-table">
+          <div className="course-title-block">
+            <h1>{number} &ndash; {title}</h1>
+            <h3>{term}</h3>
+          </div>
           <table>
             <tbody>
               {essentials.map(this.generateEssentialsRowComponent.bind(this))}
@@ -219,7 +224,7 @@ class CoursePage extends Component {
     var { number, title, term, essentials, calendar, assignments, finalProject, subnavItems } = this.props.courseData;
 
     var subnavComponent = this.generateSubnavComponent(subnavItems, number);
-    var essentialsComponent = this.generateEssentialsComponent(essentials);
+    var essentialsComponent = this.generateEssentialsComponent(number, title, term, essentials);
     var calendarComponent = this.generateCalendarComponent(calendar);
     var assignmentsComponent = this.generateAssignmentsComponent(assignments, "Assignments", "assignments");
     var finalProjectComponent = this.generateAssignmentsComponent(finalProject, "Final Project", "final-project");
@@ -231,8 +236,9 @@ class CoursePage extends Component {
         <PageContent contentClassName="course-page">
 
           <Helmet title={number} />
+          {/*
           <h1>{number} &ndash; {title}</h1>
-          <h3>{term}</h3>
+          <h3>{term}</h3>*/}
 
           {essentialsComponent}
           {calendarComponent}
