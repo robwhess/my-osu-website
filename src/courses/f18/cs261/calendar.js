@@ -221,11 +221,36 @@ var calendar = [
         ]
       },
       {
+        heading: 'Midterm exam solutions',
+        entriesLists: [
+          [
+            { text: 'Section 001 midterm solutions', link: 'https://docs.google.com/document/d/1Xp3NQxk6rVCtvQXm_5dZQmFaoXDmqJzOaZXT8ubYawE/edit?usp=sharing' }
+          ],
+          [
+            { text: 'Section 002 midterm solutions', link: 'https://docs.google.com/document/d/1CXWp11Zc6-WeOOlPJE2nX_mmyuQfiuRexSAOLCN1aww/edit?usp=sharing' }
+          ]
+        ]
+      }
+    ]
+  },
+
+  {
+    week: 6,
+    sections: [
+      {
         heading: 'Topics',
         entriesLists: [
           [
             { text: 'Binary Search Trees' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1C5bj67r6SySgMgaPIrTltm0xA5nLQrNWz9ENe-KUKEU/edit?usp=sharing' }
+          ],
+          [
+            { text: 'Binary Trees Traversals' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1yldvT0k8xcoE59yBzHwtIv7VSzh4iL9fQ1gC9fHnqDg/edit?usp=sharing' }
+          ],
+          [
+            { text: 'AVL Trees' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing' }
           ]
         ]
       },
@@ -233,7 +258,11 @@ var calendar = [
         heading: 'Readings',
         entriesLists: [
           [
-            { text: 'Chapter 10 (pp. 1-6 on trees and pp. 13-15 on BSTs)', link: CS261CourseNotes + '#page=104' },
+            { text: 'Chapter 10', link: CS261CourseNotes + '#page=104' },
+            { text: 'Budd\'s Course Notes' }
+          ],
+          [
+            { text: 'Worksheet 31 (AVL Trees)', link: CS261CourseNotes + '#page=236' },
             { text: 'Budd\'s Course Notes' }
           ],
           [
@@ -245,35 +274,21 @@ var calendar = [
             { text: 'Wikipedia' }
           ],
           [
-            { text: 'Binary Search Tree', link: 'https://visualgo.net/en/bst' },
+            { text: 'Tree traversa', link: 'https://en.wikipedia.org/wiki/Tree_traversal' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'AVL tree', link: 'https://en.wikipedia.org/wiki/AVL_tree' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Binary Search Tree (and AVL Tree)', link: 'https://visualgo.net/en/bst' },
             { text: 'VisuAlgo.net' }
           ]
         ]
       }
     ]
   },
-
-  // {
-  //   week: 6,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Binary Trees Traversals &ndash; <a href="https://docs.google.com/document/d/1yldvT0k8xcoE59yBzHwtIv7VSzh4iL9fQ1gC9fHnqDg/edit?usp=sharing">notes</a>',
-  //         'AVL Trees &ndash; <a href="https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/avl_tree">example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=109">Chapter 10 (pp. 6-9 "Tree Traversals")</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="' + CS261CourseNotes + '#page=236">Worksheet 31 (AVL Trees)</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="https://en.wikipedia.org/wiki/Tree_traversal">Tree traversal</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/AVL_tree">AVL tree</a> &ndash; Wikipedia'
-  //       ]
-  //     }
-  //   ]
-  // },
 
   // {
   //   week: 7,

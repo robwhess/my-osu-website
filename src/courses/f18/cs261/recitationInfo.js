@@ -175,6 +175,24 @@ var recitationInfo = {
           heading: 'No recitation this week.',
         }
       ]
+    },
+
+    {
+      week: 6,
+      sections: [
+        {
+          heading: 'Topics',
+          entriesHTML: [
+            'Midterm solutions review <ul><li><a href="https://docs.google.com/document/d/1Xp3NQxk6rVCtvQXm_5dZQmFaoXDmqJzOaZXT8ubYawE/edit?usp=sharing">Section 001 midterm solutions</a></li><li><a href="https://docs.google.com/document/d/1CXWp11Zc6-WeOOlPJE2nX_mmyuQfiuRexSAOLCN1aww/edit?usp=sharing">Section 002 midterm solutions</a></li>',
+          ]
+        },
+        {
+          heading: 'Recitation worksheet',
+          entriesHTML: [
+            'No worksheet this week'
+          ]
+        }
+      ]
     }
   ]
 };

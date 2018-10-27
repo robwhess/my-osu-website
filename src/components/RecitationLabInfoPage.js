@@ -71,7 +71,7 @@ class RecitationLabInfoPage extends Component {
     var titleType = this.props.type === 'lab' ? 'Lab' : "Recitation";
     var calendarComponent = null;
     if (calendar) {
-      calendarComponent =<section className="calendar">
+      calendarComponent = <section className="calendar">
         <h2>{titleType} Calendar</h2>
         <div className="calendar-weeks">
           {calendar.map(this.generateCalendarWeekComponent)}
