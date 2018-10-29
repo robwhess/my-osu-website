@@ -242,7 +242,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Binary Search Trees' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1C5bj67r6SySgMgaPIrTltm0xA5nLQrNWz9ENe-KUKEU/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1C5bj67r6SySgMgaPIrTltm0xA5nLQrNWz9ENe-KUKEU/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/bst' }
           ],
           [
             { text: 'Binary Trees Traversals' },
