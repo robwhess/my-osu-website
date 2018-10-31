@@ -25,14 +25,14 @@ var assignments = {
         'Demo due by 11:59pm, Monday 11/12/2018'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 - Binary search trees',
-    //   notesHTML: [
-    //     'Assignment due by 11:59pm, Monday 11/13/2017',
-    //     'Demo due by 11:59pm, Monday 11/27/2017'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/a-pnR8zg',
+      title: 'Assignment 3 - Binary search trees',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 11/12/2017',
+        'Demo due by 11:59pm, Monday 11/26/2017'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 - Priority queues',
