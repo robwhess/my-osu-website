@@ -275,7 +275,7 @@ var calendar = [
             { text: 'Wikipedia' }
           ],
           [
-            { text: 'Tree traversa', link: 'https://en.wikipedia.org/wiki/Tree_traversal' },
+            { text: 'Tree traversal', link: 'https://en.wikipedia.org/wiki/Tree_traversal' },
             { text: 'Wikipedia' }
           ],
           [
@@ -291,25 +291,41 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 7,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Priority Queues and Heaps &ndash; <a href="https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing">notes</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=123">Chapter 11</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="https://en.wikipedia.org/wiki/Priority_queue">Priority queue</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Heap_(data_structure)">Heap</a> &ndash; Wikipedia'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 7,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Priority Queues and Heaps' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Chapter 11', link: CS261CourseNotes + '#page=123' },
+            { text: 'Budd\'s Course Notes' }
+          ],
+          [
+            { text: 'Priority queue', link: 'https://en.wikipedia.org/wiki/Priority_queue' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Heap', link: 'https://en.wikipedia.org/wiki/Heap_(data_structure)' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Binary Heap', link: 'https://visualgo.net/en/heap' },
+            { text: 'VisuAlgo.net' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 8,
