@@ -251,7 +251,8 @@ var calendar = [
           ],
           [
             { text: 'AVL Trees' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/avl_tree' }
           ]
         ]
       },
@@ -297,6 +298,11 @@ var calendar = [
       {
         heading: 'Topics',
         entriesLists: [
+          [
+            { text: 'AVL Trees' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS261-F18/avl_tree' }
+          ],
           [
             { text: 'Priority Queues and Heaps' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing' }
