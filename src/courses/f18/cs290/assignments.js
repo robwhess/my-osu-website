@@ -28,15 +28,15 @@ var assignments = {
         'Demo due by 11:59pm on Monday, 11/19/2018'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 - Native Node.js file serving',
-    //   notesHTML: [
-    //     'Assignment due by 11:59pm, Monday 5/21/2018',
-    //     'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 5/21/2018',
-    //     '<b>No demo for this assignment</b>'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/YoQufS8y',
+      title: 'Assignment 4 - Native Node.js file serving',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 11/12/2018',
+        'Code Blog due <b>ON CANVAS</b> by 11:59pm, Monday 11/12/2018',
+        '<b>No demo for this assignment</b>'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 5 - Handlebars templating',
