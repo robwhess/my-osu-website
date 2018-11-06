@@ -29,6 +29,10 @@ var courseDetails = {
       infoHTML: 'Section 001: MWF 1:00&ndash;1:50pm, GLFN AUD<br/>Section 002: MWF 9:00&ndash;9:50am, DEAR 118'
     },
     {
+      title: 'Final Exams',
+      infoHTML: 'Section 001: Thursday 12/6/2018, 12:00&ndash;1:50pm, GLFN AUD<br/>Section 002: Monday 12/3/2018, 2:00&ndash;3:50pm, DEAR 118'
+    },
+    {
       title: 'TA Office Hours',
       infoSubPage: 'ta-info',
       infoText: 'See this page for TA office hours'
