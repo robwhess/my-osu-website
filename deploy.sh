@@ -18,4 +18,6 @@ if [[ ${CURRENT_BRANCH} == ${DEPLOY_BRANCH} ]]; then
 	if [[ ${STASH_SUCCEEDED} == true ]]; then
 	  git stash pop
 	fi
+else
+	echo "== Error: can only deploy from branch \"${DEPLOY_BRANCH}\""
 fi
