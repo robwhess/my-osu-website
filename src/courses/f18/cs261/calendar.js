@@ -335,25 +335,41 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 8,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Maps and Hash Tables &ndash; <a href="https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS261-F17/chained-hash">chained hash example code</a> &ndash; <a href="https://github.com/OSU-CS261-F17/open-addressed-hash">open-addressed hash example code</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=137">Chapter 12</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="https://en.wikipedia.org/wiki/Associative_array">Associative array</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Hash_table">Hash table</a> &ndash; Wikipedia'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 8,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Maps and Hash Tables' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Chapter 12', link: CS261CourseNotes + '#page=137' },
+            { text: 'Budd\'s Course Notes' }
+          ],
+          [
+            { text: 'Associative array', link: 'https://en.wikipedia.org/wiki/Associative_array' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Hash Table', link: 'https://en.wikipedia.org/wiki/Hash_table' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Hash Table', link: 'https://visualgo.net/en/hashtable' },
+            { text: 'VisuAlgo.net' }
+          ]
+        ]
+      }
+    ]
+  },
 
   // {
   //   week: 9,
