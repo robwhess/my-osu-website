@@ -246,7 +246,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Serving with Express' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/express-serving' }
           ]
         ]
       },
@@ -286,7 +287,8 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Serving with Express' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/express-serving' }
           ],
           [
             { text: 'Rendering Dynamic Content with Handlebars' },
