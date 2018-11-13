@@ -33,14 +33,14 @@ var assignments = {
         'Demo due by 11:59pm, Monday 11/26/2017'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 - Priority queues',
-    //   notesHTML: [
-    //     'Assignment due by 11:59pm, Monday 11/27/2017',
-    //     'Demo due by 11:59pm, Friday 12/8/2017'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/vPEiapqI',
+      title: 'Assignment 4 - Priority queues',
+      notesHTML: [
+        'Assignment due by 11:59pm, Monday 11/26/2018',
+        '<b>No demo for this assignment</b>'
+      ]
+    }
   ]
 };
 
