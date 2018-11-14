@@ -293,6 +293,7 @@ var calendar = [
           [
             { text: 'Rendering Dynamic Content with Handlebars' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/handlebars-templating' }
           ]
         ]
       },
