@@ -71,15 +71,16 @@ class App extends Component {
               }
             }} />
 
-          <Route exact path={generateSitePath('/teaching') + '/:course-:term/:subpage'} children={({ match }) => {
-              var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
-              if (data && data.subPages && data.subPages[match.params.subpage]) {
-                var SubPageComponent = data.subPages[match.params.subpage];
-                return <SubPageComponent match={match} courseData={data} />;
-              } else {
-                return <NoMatchPage />;
-              }
-            }} />
+            <Route exact path={generateSitePath('/teaching') + '/:course-:term/:subpage'} children={({ match }) => {
+                var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
+                if (data && data.subPages && data.subPages[match.params.subpage]) {
+                  var SubPageComponent = data.subPages[match.params.subpage];
+                  return <SubPageComponent match={match} courseData={data} />;
+                } else {
+                  return <NoMatchPage />;
+                }
+              }}
+            />
 
             <Route component={NoMatchPage} />
 

@@ -236,9 +236,6 @@ class CoursePage extends Component {
         <PageContent contentClassName="course-page">
 
           <Helmet title={number} />
-          {/*
-          <h1>{number} &ndash; {title}</h1>
-          <h3>{term}</h3>*/}
 
           {essentialsComponent}
           {calendarComponent}
