@@ -237,6 +237,18 @@ var recitationInfo = {
         }
       ]
     },
+
+    {
+      week: 9,
+      sections: [
+        {
+          heading: 'No recitation this week (except section 018).',
+          entriesHTML: [
+            'Only section 018 will meet on Monday at 6pm to cover week 8\'s recitation material'
+          ]
+        }
+      ]
+    }
   ]
 };
 

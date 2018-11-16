@@ -1,5 +1,5 @@
 import CS261CourseNotes from '../../../files/CS261CourseNotes.pdf';
-// import GraphSearchPresentation from '../../../files/GraphAlgorithmsII_DFS_BFS.pdf';
+import GraphSearchPresentation from '../../../files/GraphAlgorithmsII_DFS_BFS.pdf';
 
 var calendar = [
   {
@@ -371,46 +371,85 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 9,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Graphs &ndash; <a href="https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing">notes</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + CS261CourseNotes + '#page=152">Chapter 13</a> &ndash; Budd\'s Course Notes',
-  //         '<a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)">Graph (discrete mathematics)</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)">Graph (ADT)</a> &ndash; Wikipedia'
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Graphs' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Chapter 13', link: CS261CourseNotes + '#page=152' },
+            { text: 'Budd\'s Course Notes' }
+          ],
+          [
+            { text: 'Graph (discrete mathematics)', link: 'https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Graph (ADT)', link: 'https://en.wikipedia.org/wiki/Graph_(abstract_data_type)' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Graph Data Structures', link: 'https://visualgo.net/en/graphds' },
+            { text: 'VisuAlgo.net' }
+          ]
+        ]
+      }
+    ]
+  },
 
-  // {
-  //   week: 10,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesHTML: [
-  //         'Graphs &ndash; <a href="https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing">notes</a>'
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesHTML: [
-  //         '<a href="' + GraphSearchPresentation + '">DFS and BFS</a> &ndash; Old CS 261 Presentation',
-  //         '<a href="https://en.wikipedia.org/wiki/Depth-first_search">Depth-first search</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Breadth-first_search">Breadth-first search</a> &ndash; Wikipedia',
-  //         '<a href="https://en.wikipedia.org/wiki/Dijkstra\'s_algorithm">Dijkstra\'s Algorithm</a> &ndash; Wikipedia'
-  //       ]
-  //     }
-  //   ]
-  // }
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'Graphs' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing' }
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'DFS and BFS', link: GraphSearchPresentation },
+            { text: 'Old CS 261 Presentation' }
+          ],
+          [
+            { text: 'Depth-first search', link: 'https://en.wikipedia.org/wiki/Depth-first_search' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Breadth-first search', link: 'https://en.wikipedia.org/wiki/Breadth-first_search' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Dijkstra\'s Algorithm', link: 'https://en.wikipedia.org/wiki/Dijkstra\'s_algorithm' },
+            { text: 'Wikipedia' }
+          ],
+          [
+            { text: 'Graph Traversal (DFS/BFS)', link: 'https://visualgo.net/en/dfsbfs' },
+            { text: 'VisuAlgo.net' }
+          ],
+          [
+            { text: 'Single-Source Shortest Paths (Dijkstra\'s Algorithm)', link: 'https://visualgo.net/en/sssp' },
+            { text: 'VisuAlgo.net' }
+          ]
+        ]
+      }
+    ]
+  }
 ];
 
 export default calendar;

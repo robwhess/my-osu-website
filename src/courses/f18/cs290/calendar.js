@@ -333,68 +333,66 @@ var calendar = [
     ]
   },
 
-  // {
-  //   week: 9,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesLists:
-  //       [
-  //         [
-  //           { text: 'Asynchronous Client-Server Communication' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/async-communication' }
-  //         ]
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesLists: [
-  //         [
-  //           { text: 'Using XMLHttpRequest', link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest' },
-  //           { text: 'MDN' }
-  //         ]
-  //       ]
-  //     }
-  //   ]
-  // },
+  {
+    week: 9,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists:
+        [
+          [
+            { text: 'Asynchronous Client-Server Communication' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing' },
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Using XMLHttpRequest', link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest' },
+            { text: 'MDN' }
+          ]
+        ]
+      }
+    ]
+  },
 
-  // {
-  //   week: 10,
-  //   sections: [
-  //     {
-  //       heading: 'Topics',
-  //       entriesLists: [
-  //         [
-  //           { text: 'MongoDB' },
-  //           { text: 'notes', link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing' },
-  //           { text: 'example code', link: 'https://github.com/OSU-CS290-Sp18/mongodb' }
-  //         ]
-  //       ]
-  //     },
-  //     {
-  //       heading: 'Readings',
-  //       entriesLists: [
-  //         [
-  //           { text: 'Getting Started with MongoDB', link: 'https://docs.mongodb.com/getting-started/shell/' },
-  //           { text: 'MongoDB docs' }
-  //         ],
-  //         [
-  //           { text: 'Documents', link: 'https://docs.mongodb.com/manual/core/document/' },
-  //           { text: 'MongoDB docs' }
-  //         ],
-  //         [
-  //           { text: 'MongoDB CRUD Operations', link: 'https://docs.mongodb.com/manual/crud/' },
-  //           { text: 'MongoDB docs' }
-  //         ],
-  //         [
-  //           { text: 'Node.js Quick Start', link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/' },
-  //           { text: 'MongoDB docs' }
-  //         ]
-  //       ]
-  //     }
-  //   ]
-  // }
+  {
+    week: 10,
+    sections: [
+      {
+        heading: 'Topics',
+        entriesLists: [
+          [
+            { text: 'MongoDB' },
+            { text: 'notes', link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing' },
+          ]
+        ]
+      },
+      {
+        heading: 'Readings',
+        entriesLists: [
+          [
+            { text: 'Getting Started with MongoDB', link: 'https://docs.mongodb.com/getting-started/shell/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'Documents', link: 'https://docs.mongodb.com/manual/core/document/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'MongoDB CRUD Operations', link: 'https://docs.mongodb.com/manual/crud/' },
+            { text: 'MongoDB docs' }
+          ],
+          [
+            { text: 'Node.js Quick Start', link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/' },
+            { text: 'MongoDB docs' }
+          ]
+        ]
+      }
+    ]
+  }
 ];
 
 export default calendar;
