@@ -343,7 +343,9 @@ var calendar = [
         entriesLists: [
           [
             { text: 'Maps and Hash Tables' },
-            { text: 'notes', link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing' }
+            { text: 'notes', link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing' },
+            { text: 'chained hash table code', link: 'https://github.com/OSU-CS261-F18/chained-hash' },
+            { text: 'open-addressed hash table code', link: 'https://github.com/OSU-CS261-F18/open-addressed-hash' }
           ]
         ]
       },
