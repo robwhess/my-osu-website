@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import CourseSubPage from './CourseSubPage';
@@ -7,8 +8,8 @@ import '../styles/TAInfoPage.css';
 class TAInfoPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired,
-    courseData: React.PropTypes.object.isRequired,
+    match: PropTypes.object.isRequired,
+    courseData: PropTypes.object.isRequired,
   }
 
   generateHoursItemComponent(hoursItem) {

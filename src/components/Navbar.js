@@ -17,7 +17,7 @@ class Navbar extends Component {
   generateLinkComponent(link) {
     var { path, title, isExternal } = link;
     if (isExternal) {
-      return <a href={path} target="_blank">{title}</a>;
+      return <a href={path} target="_blank" rel="noopener noreferrer">{title}</a>;
     } else {
       return <NavLink exact to={generateSitePath(path)}>{title}</NavLink>;
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 
 import companyData from './CompanyData.json';
@@ -8,7 +9,7 @@ import './AssignmentPage.css';
 class DiversityAssignmentPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired
+    match: PropTypes.object.isRequired
   }
 
   render() {
@@ -34,7 +35,7 @@ class DiversityAssignmentPage extends Component {
             The assignment outline template is available here:
           </p>
           <ul>
-            <li><a href="https://docs.google.com/a/oregonstate.edu/presentation/d/1B4AzXCvjmUqvV8O1Al-QKocv35P7cNBN2QUYjFPBo2c/edit?usp=sharing" target="_blank">Assignment outline template</a></li>
+            <li><a href="https://docs.google.com/a/oregonstate.edu/presentation/d/1B4AzXCvjmUqvV8O1Al-QKocv35P7cNBN2QUYjFPBo2c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Assignment outline template</a></li>
           </ul>
 
           <h2>Companies</h2>

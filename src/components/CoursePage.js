@@ -1,4 +1,6 @@
+/* eslint "jsx-a11y/anchor-is-valid": "off", "jsx-a11y/anchor-has-content": "off" */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Link, withRouter } from 'react-router-dom';
 
@@ -9,7 +11,7 @@ import '../styles/CoursePage.css';
 class CoursePage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired
+    match: PropTypes.object.isRequired
   }
 
   generateSubnavComponent(subnavItems, courseNumber) {
@@ -57,7 +59,7 @@ class CoursePage extends Component {
         entryListItemComponents.push(<span key={entryItemKey++} dangerouslySetInnerHTML={{ __html: " &ndash; " }}></span>);
       }
       if (entryListItem.link) {
-        entryListItemComponents.push(<a key={entryItemKey++} href={entryListItem.link} target="_blank">{entryListItem.text}</a>);
+        entryListItemComponents.push(<a key={entryItemKey++} href={entryListItem.link} target="_blank" rel="noopener noreferrer">{entryListItem.text}</a>);
       } else {
         entryListItemComponents.push(<span key={entryItemKey++}>{entryListItem.text}</span>);
       }

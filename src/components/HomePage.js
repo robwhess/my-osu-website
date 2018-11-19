@@ -35,7 +35,7 @@ class HomePage extends Component {
             <p className="university"><a href="http://oregonstate.edu">Oregon State University</a></p>
             <p className="town">Corvallis, OR 97331</p>
             <p className="email">Email: <a href="mailto:hessro@oregonstate.edu">hessro@oregonstate.edu</a></p>
-            <p className="office">Office: <a href="https://goo.gl/maps/DoQVXpSxZrQ2" target="_blank">KEC 1109</a></p>
+            <p className="office">Office: <a href="https://goo.gl/maps/DoQVXpSxZrQ2" target="_blank" rel="noopener noreferrer">KEC 1109</a></p>
           </div>
         </section>
 
@@ -48,21 +48,21 @@ class HomePage extends Component {
             Vision team, where I got to research, design, and
             deploy some <a
             href="http://code.flickr.net/2014/10/20/introducing-flickr-park-or-bird/"
-            target="_blank">very cool technologies</a> at <a
+            target="_blank" rel="noopener noreferrer">very cool technologies</a> at <a
             href="http://code.flickr.net/2014/05/20/computer-vision-at-scale-with-hadoop-and-storm/"
-            target="_blank">massive scale</a>.  While I was at Yahoo, I also spent
+            target="_blank" rel="noopener noreferrer">massive scale</a>.  While I was at Yahoo, I also spent
             time working on Flickr's Front End team where I implemented and
             deployed <a href="https://www.flickr.com/search"
-            target="_blank">web</a> <a href="https://www.flickr.com/explore"
-            target="_blank">pages</a> that millions of people use every day.
+            target="_blank" rel="noopener noreferrer">web</a> <a href="https://www.flickr.com/explore"
+            target="_blank" rel="noopener noreferrer">pages</a> that millions of people use every day.
           </p>
           <p>
             Before Yahoo, I worked at a small computer vision startup named IQ
             Engines, which <a
             href="https://techcrunch.com/2013/08/23/yahoo-acquires-image-recognition-startup-iq-engines/"
-            target="_blank">Yahoo acquired</a>, and long, long ago, I earned <a
+            target="_blank" rel="noopener noreferrer">Yahoo acquired</a>, and long, long ago, I earned <a
             href="http://ir.library.oregonstate.edu/xmlui/handle/1957/30348"
-            target="_blank">my PhD</a> right here in the CS department of Oregon
+            target="_blank" rel="noopener noreferrer">my PhD</a> right here in the CS department of Oregon
             State.
           </p>
           <p>
