@@ -29,15 +29,15 @@ var assignments = {
       link : 'https://classroom.github.com/a/a-pnR8zg',
       title: 'Assignment 3 - Binary search trees',
       notesHTML: [
-        'Assignment due by 11:59pm, Monday 11/12/2017',
-        'Demo due by 11:59pm, Monday 11/26/2017'
+        'Assignment due by 11:59pm, Monday 11/12/2018',
+        'Demo due by 11:59pm, <span class="strike">Monday 11/26/2018</span> Friday 11/30/2018'
       ]
     },
     {
       link : 'https://classroom.github.com/a/vPEiapqI',
       title: 'Assignment 4 - Priority queues',
       notesHTML: [
-        'Assignment due by 11:59pm, Monday 11/26/2018',
+        'Assignment due by 11:59pm, <span class="strike">Monday 11/26/2018</span> Wednesday 11/28/2018',
         '<b>No demo for this assignment</b>'
       ]
     }
