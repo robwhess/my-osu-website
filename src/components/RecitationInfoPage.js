@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import RecitationLabInfoPage from './RecitationLabInfoPage';
 import '../styles/RecitationLabInfoPage.css';
@@ -6,8 +7,8 @@ import '../styles/RecitationLabInfoPage.css';
 class RecitationInfoPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired,
-    courseData: React.PropTypes.object.isRequired,
+    match: PropTypes.object.isRequired,
+    courseData: PropTypes.object.isRequired,
   }
 
   render() {

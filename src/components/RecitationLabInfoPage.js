@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import CourseSubPage from './CourseSubPage';
@@ -7,9 +8,9 @@ import '../styles/RecitationLabInfoPage.css';
 class RecitationLabInfoPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired,
-    courseData: React.PropTypes.object.isRequired,
-    type: React.PropTypes.oneOf(['lab', 'recitation']).isRequired
+    match: PropTypes.object.isRequired,
+    courseData: PropTypes.object.isRequired,
+    type: PropTypes.oneOf(['lab', 'recitation']).isRequired
   }
 
   generatePoliciesComponent(policiesHTML) {

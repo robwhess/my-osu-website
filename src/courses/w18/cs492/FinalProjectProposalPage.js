@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import APIListData from './APIList.json';
 import CourseSubPage from '../../../components/CourseSubPage';
@@ -7,8 +8,8 @@ import './AssignmentPage.css';
 class FinalProjectProposalPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired,
-    courseData: React.PropTypes.object.isRequired
+    match: PropTypes.object.isRequired,
+    courseData: PropTypes.object.isRequired
   }
 
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 
 import articleData from './EthicalTheoriesArticleData.json';
@@ -8,7 +9,7 @@ import './AssignmentPage.css';
 class EthicalTheoriesAssignmentPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired
+    match: PropTypes.object.isRequired
   }
 
   render() {
@@ -33,28 +34,28 @@ class EthicalTheoriesAssignmentPage extends Component {
           <div className="video-list">
 
             <div className="video">
-              <iframe width="356" height="200" src="https://www.youtube.com/embed/8bIys6JoEDw" frameBorder="0" allowFullScreen></iframe>
+              <iframe width="356" height="200" title="Kantianism video embed" src="https://www.youtube.com/embed/8bIys6JoEDw" frameBorder="0" allowFullScreen></iframe>
               <h3 className="video-caption">
                 Kantianism
               </h3>
             </div>
 
             <div className="video">
-              <iframe width="356" height="200" src="https://www.youtube.com/embed/-a739VjqdSI" frameBorder="0" allowFullScreen></iframe>
+              <iframe width="356" height="200" title="Utilitarianism video embed" src="https://www.youtube.com/embed/-a739VjqdSI" frameBorder="0" allowFullScreen></iframe>
               <h3 className="video-caption">
                 Utilitarianism (Act and Rule)
               </h3>
             </div>
 
             <div className="video">
-              <iframe width="356" height="200" src="https://www.youtube.com/embed/2Co6pNvd9mc" frameBorder="0" allowFullScreen></iframe>
+              <iframe width="356" height="200" title="Social contract theory video embed" src="https://www.youtube.com/embed/2Co6pNvd9mc" frameBorder="0" allowFullScreen></iframe>
               <h3 className="video-caption">
                 Social Contract Theory
               </h3>
             </div>
 
             <div className="video">
-              <iframe width="356" height="200" src="https://www.youtube.com/embed/PrvtOWEXDIQ" frameBorder="0" allowFullScreen></iframe>
+              <iframe width="356" height="200" title="Virtue theory video embed" src="https://www.youtube.com/embed/PrvtOWEXDIQ" frameBorder="0" allowFullScreen></iframe>
               <h3 className="video-caption">
                 Virtue Theory
               </h3>
