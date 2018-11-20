@@ -57,12 +57,3 @@ After you've made those changes, you can deploy like this:
 ```
 npm run deploy
 ```
-
-## Using Yarn
-
-[Yarn](https://yarnpkg.com/en/) is nice.  It's a little faster than npm because it uses caching and parallelization.  If you want to use Yarn instead of npm, the commands above become these:
-```
-yarn install
-yarn start
-yarn deploy
-```
