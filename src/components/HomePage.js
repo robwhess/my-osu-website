@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { currentTerm, courseData } from '../CourseData';
 import { generateSitePath } from '../lib/SitePath';
 import PageContent from './PageContent';
-import headshot from '../images/rob.jpg';
+import headshot from '../static/rob.jpg';
 import '../styles/HomePage.css';
 
 class HomePage extends Component {
