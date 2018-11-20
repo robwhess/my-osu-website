@@ -11,7 +11,7 @@ import TeachingPage from './components/TeachingPage';
 import CommunityPage from './components/CommunityPage';
 import CoursePage from './components/CoursePage';
 import NoMatchPage from './components/NoMatchPage';
-import reactLogo from './images/ReactLogo.svg';
+import reactLogo from './static/ReactLogo.svg';
 import './styles/App.css';
 
 var navLinks = [
