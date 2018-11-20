@@ -343,6 +343,7 @@ var calendar = [
           [
             { text: 'Asynchronous Client-Server Communication' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/async-communication' }
           ]
         ]
       },
