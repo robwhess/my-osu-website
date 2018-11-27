@@ -1,5 +1,5 @@
-import CS261CourseNotes from '../../../files/CS261CourseNotes.pdf';
-import GraphSearchPresentation from '../../../files/GraphAlgorithmsII_DFS_BFS.pdf';
+import CS261CourseNotes from '../../../static/CS261CourseNotes.pdf';
+// import GraphSearchPresentation from '../../../static/GraphAlgorithmsII_DFS_BFS.pdf';
 
 var calendar = [
   {
