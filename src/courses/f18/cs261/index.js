@@ -7,7 +7,7 @@ import calendar from './calendar';
 import assignments from './assignments';
 import taInfo from './taInfo';
 import recitationInfo from './recitationInfo';
-import CS261CourseNotes from '../../../files/CS261CourseNotes.pdf';
+import CS261CourseNotes from '../../../static/CS261CourseNotes.pdf';
 
 var courseDetails = {
   number: 'CS 261',
