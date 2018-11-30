@@ -191,13 +191,6 @@ var recitationInfo = {
           entriesHTML: [
             'No worksheet this week'
           ]
-        },
-        {
-          heading: 'Solutions',
-          entriesHTML: [
-            '<a href="https://drive.google.com/open?id=0B8aZMq9VhvmrcXExc1pQdFM3ZTFXUHE4OFVGTFF1ajJ4TlE0">Week 7 Recitation Worksheet Solutions</a>',
-            '<a href="https://docs.google.com/document/d/1OGgErCvtIBTfhdP8eRaVY6ivLdel0KT1TFUxwSPbVUM/edit?usp=sharing">Week 7 Recitation Quiz Solutions</a>'
-          ]
         }
       ]
     },
@@ -216,6 +209,13 @@ var recitationInfo = {
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1TTIe7OCqy6htYEl2kxfCLbYLAnDrgOqrSbNvAMPDx3k/edit?usp=sharing">Week 7 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
           ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://drive.google.com/open?id=0B8aZMq9VhvmrcXExc1pQdFM3ZTFXUHE4OFVGTFF1ajJ4TlE0">Week 7 Recitation Worksheet Solutions</a>',
+            '<a href="https://docs.google.com/document/d/1OGgErCvtIBTfhdP8eRaVY6ivLdel0KT1TFUxwSPbVUM/edit?usp=sharing">Week 7 Recitation Quiz Solutions</a>'
+          ]
         }
       ]
     },
@@ -233,6 +233,12 @@ var recitationInfo = {
           heading: 'Recitation worksheet',
           entriesHTML: [
             '<a href="https://docs.google.com/document/d/1PjuSRUwXo16J_a0fwRmUg_JvxmT9uvYxcak3KPdEdaY/edit?usp=sharing">Week 8 Recitation Worksheet</a> &ndash; print this and bring it with you to recitation'
+          ]
+        },
+        {
+          heading: 'Solutions',
+          entriesHTML: [
+            '<a href="https://docs.google.com/document/d/1QO2RDjNpLRWepcBsVt7VKx6suS3RlfkUJOnHbKY6fZ0/edit?usp=sharing">Week 8 Recitation Quiz Solutions</a>'
           ]
         }
       ]
