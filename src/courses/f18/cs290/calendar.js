@@ -368,6 +368,7 @@ var calendar = [
           [
             { text: 'MongoDB' },
             { text: 'notes', link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing' },
+            { text: 'example code', link: 'https://github.com/OSU-CS290-F18/using-mongodb' }
           ]
         ]
       },
