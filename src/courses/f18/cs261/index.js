@@ -30,7 +30,7 @@ var courseDetails = {
     },
     {
       title: 'Final Exams',
-      infoHTML: 'Section 001: Thurs. 12/6/2018, 12:00&ndash;1:50pm, <span class="strike">GLFN AUD</span> <strong>LINC 128</strong><br/>Section 002: Mon. 12/3/2018, 2:00&ndash;3:50pm, DEAR 118'
+      infoHTML: 'Section 001: Thurs. 12/6/2018, 12:00&ndash;1:50pm, <span class="strike">GLFN AUD</span> <strong>LINC 128</strong><br/>Section 002: Mon. 12/3/2018, 2:00&ndash;3:50pm, DEAR 118<br/>Solutions: <a href="https://docs.google.com/document/d/141qv9bf9AnqueT24gQIYYP-Q_ko5PVEhd57AlBTH7tE/edit?usp=sharing">Section 001</a>, <a href="https://docs.google.com/document/d/1uOeIkqgjuibpJAzOPafTAQE4mchmpgaMXqgywCXPbUU/edit?usp=sharing">Section 002</a>'
     },
     {
       title: 'TA Office Hours',
