@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Link, withRouter } from 'react-router-dom';
 
-import Navbar from './Navbar';
+import Navbar from './Navbar2';
 import PageContent from './PageContent';
 import '../styles/CoursePage.css';
 
@@ -38,13 +38,12 @@ class CoursePage extends Component {
         isLink: true
       });
 
-      links.push({
+      const heading = {
         path: matchURLWithoutSlash,
-        title: courseNumber,
-        isHeading: true
-      });
+        title: courseNumber
+      };
 
-      subnavComponent = <Navbar links={links} subnav />;
+      subnavComponent = <Navbar heading={heading} links={links} subnav />;
 
     }
 

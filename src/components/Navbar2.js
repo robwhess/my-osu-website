@@ -14,8 +14,24 @@ const NavItem = styled.li`
     box-shadow: inset 0 -2px 0 #d54f1e;
   }
   a:hover {
-    background-color: ${props => props.right ? 'initial' : 'rgba(213, 79, 30, 0.5)'};
-    color: ${props => props.right ? 'inherit' : '#eee'};
+    background-color: ${props =>{
+      if (props.right) {
+        return 'initial';
+      } else if (props.subnav) {
+        return 'rgba(213, 79, 30, 0.2)';
+      } else {
+        return 'rgba(213, 79, 30, 0.5)';
+      }
+    }};
+    color: ${props => {
+      if (props.right) {
+        return 'inherit';
+      } else if (props.subnav) {
+        return '#333';
+      } else {
+        return '#eee';
+      }
+    }};
   }
 `;
 
@@ -72,7 +88,7 @@ class Navbar extends React.Component {
 
   generateNavItem(link, key) {
     return (
-      <NavItem key={key} right={link.isRight} external={link.isExternal}>
+      <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
         {link.isExternal ?
           <a href={link.path} target="_blank" rel="noopener noreferrer">{link.title}</a> :
           <NavLink exact to={generateSitePath(link.path)}>{link.title}</NavLink>
@@ -85,7 +101,7 @@ class Navbar extends React.Component {
     return (
       <NavbarContainer subnav={this.props.subnav}>
         <NavbarHeading>
-          <Link to={generateSitePath('/')}>{this.props.title}</Link>
+          <Link to={generateSitePath(this.props.heading.path)}>{this.props.heading.title}</Link>
         </NavbarHeading>
         <Nav>
           <NavList>
@@ -100,7 +116,10 @@ class Navbar extends React.Component {
 
 Navbar.propTypes = {
   links: PropTypes.array.isRequired,
-  title: PropTypes.string.isRequired,
+  heading: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired
+  }).isRequired,
   subnav: PropTypes.bool
 };
 

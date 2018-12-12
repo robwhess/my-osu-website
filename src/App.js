@@ -14,7 +14,10 @@ import NoMatchPage from './components/NoMatchPage';
 import reactLogo from './static/ReactLogo.svg';
 import './styles/App.css';
 
-var navTitle = 'Rob Hess';
+var navHeading = {
+  title: 'Rob Hess',
+  path: '/'
+};
 var navLinks = [
   {
     path: '/teaching',
@@ -50,7 +53,7 @@ class App extends Component {
 
           <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
 
-          <Navbar title={navTitle} links={navLinks} />
+          <Navbar heading={navHeading} links={navLinks} />
 
           <Switch>
 
