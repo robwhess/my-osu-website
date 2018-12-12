@@ -5,7 +5,7 @@ import FontAwesome from 'react-fontawesome';
 
 import { currentTerm, courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar2';
 import HomePage from './components/HomePage';
 import TeachingPage from './components/TeachingPage';
 import CommunityPage from './components/CommunityPage';
@@ -14,12 +14,8 @@ import NoMatchPage from './components/NoMatchPage';
 import reactLogo from './static/ReactLogo.svg';
 import './styles/App.css';
 
+var navTitle = 'Rob Hess';
 var navLinks = [
-  {
-    path: '/',
-    title: 'Rob Hess',
-    isHeading: true
-  },
   {
     path: '/teaching',
     title: 'Teaching',
@@ -54,7 +50,7 @@ class App extends Component {
 
           <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
 
-          <Navbar links={navLinks} />
+          <Navbar title={navTitle} links={navLinks} />
 
           <Switch>
 

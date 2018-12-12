@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "http://web.engr.oregonstate.edu/~hessro/",
   "dependencies": {
-    "emotion": "^9.2.12",
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -26,6 +27,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "./deploy.sh"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
