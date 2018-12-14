@@ -41,6 +41,10 @@ const globalStyles = css`
     background-color: #eee;
   }
 
+  * {
+    box-sizing: border-box;
+  }
+
   h1, h2, h3 {
     font-weight: 400;
   }

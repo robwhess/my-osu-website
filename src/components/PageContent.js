@@ -8,7 +8,7 @@ import styled from '@emotion/styled/macro';
 import breakpoints from '../lib/breakpoints';
 
 const PageContent = styled.main`
-  width: 67%;
+  width: ${props => props.fullWidth ? '95%' : '67%'};
   margin: 50px auto;
 
   @media (max-width: ${breakpoints[0]}px) {
