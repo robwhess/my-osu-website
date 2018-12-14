@@ -5,7 +5,7 @@ import FontAwesome from 'react-fontawesome';
 
 import { currentTerm, courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
-import Navbar from './components/Navbar2';
+import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import TeachingPage from './components/TeachingPage';
 import CommunityPage from './components/CommunityPage';

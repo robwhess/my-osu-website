@@ -8,11 +8,6 @@ import '../styles/CourseSubPage.css';
 
 class CourseSubPage extends Component {
 
-  static propTypes = {
-    match: PropTypes.object.isRequired,
-    courseData: PropTypes.object.isRequired,
-  }
-
   getParentPageURL() {
     var { match } = this.props;
     var matchURLWithoutSlash = match.url.replace(/\/$/, '');
@@ -38,13 +33,12 @@ class CourseSubPage extends Component {
       isLink: true
     });
 
-    links.push({
+    const heading = {
       path: parentPageURL,
-      title: courseNumber,
-      isHeading: true
-    });
+      title: courseNumber
+    };
 
-    return <Navbar links={links} subnav />;
+    return <Navbar heading={heading} links={links} subnav />;
   }
 
   generateParentPageLinkComponent(courseNumber) {
@@ -78,6 +72,11 @@ class CourseSubPage extends Component {
     );
   }
 
+}
+
+CourseSubPage.propTypes = {
+  match: PropTypes.object.isRequired,
+  courseData: PropTypes.object.isRequired,
 }
 
 export default CourseSubPage;

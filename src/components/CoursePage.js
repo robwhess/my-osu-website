@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Link, withRouter } from 'react-router-dom';
 
-import Navbar from './Navbar2';
+import Navbar from './Navbar';
 import PageContent from './PageContent';
 import '../styles/CoursePage.css';
 
