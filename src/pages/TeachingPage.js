@@ -1,30 +1,37 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+/*
+ * This file contains a component for displaying all courses taught across
+ * all terms.
+ */
+
+import React from 'react';
+import styled from '@emotion/styled/macro';
 import Helmet from 'react-helmet';
 
-import { courseData } from '../CourseData';
-import { generateSitePath } from '../lib/SitePath';
 import PageContent from '../components/PageContent';
-import '../styles/TeachingPage.css';
+import SectionBox from '../components/SectionBox';
+import CourseList from '../components/CourseList';
+import { courseData } from '../CourseData';
 
-class TeachingPage extends Component {
-  render() {
-    return (
-      <PageContent className="teaching-page">
-        <Helmet title="Teaching" />
-        {Object.keys(courseData).map((term, i) => (
-          <div className="teaching-term" key={i}>
-            <h2>{courseData[term].title}</h2>
-            {Object.keys(courseData[term].courses).map((course, j) => (
-              <p key={j}>
-                <Link to={generateSitePath(`/teaching/${course}-${term}`)}>{courseData[term].courses[course].number} &ndash; {courseData[term].courses[course].title}</Link>
-              </p>
-            ))}
-          </div>
-        ))}
-      </PageContent>
-    );
+const TermInfoContainer = styled.div`
+  h2 {
+    margin: 20px 0 5px 0;
   }
+`;
+
+function TeachingPage() {
+  return (
+    <PageContent>
+      <Helmet title="Teaching" />
+      <SectionBox>
+        {Object.keys(courseData).map((term, i) => (
+          <TermInfoContainer key={i}>
+            <h2>{courseData[term].title}</h2>
+            <CourseList term={term} courses={courseData[term].courses} />
+          </TermInfoContainer>
+        ))}
+      </SectionBox>
+    </PageContent>
+  )
 }
 
 export default TeachingPage;

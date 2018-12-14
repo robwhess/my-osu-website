@@ -4,12 +4,11 @@
 
 import React from 'react';
 import styled from '@emotion/styled/macro';
-import { Link } from 'react-router-dom';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
+import CourseList from '../components/CourseList';
 import { currentTerm, currentTermData } from '../CourseData';
-import { generateSitePath } from '../lib/SitePath';
 import breakpoints from '../lib/breakpoints';
 import headshot from '../static/rob.jpg';
 
@@ -102,11 +101,7 @@ function HomePage() {
       <HomePageSectionBox>
         <h2>Teaching</h2>
         <p>These are the classes I'm teaching this term ({currentTermData.title}):</p>
-        <ul>
-          {Object.keys(currentTermData.courses).map((course, i) => (
-            <li key={i}><Link to={generateSitePath(`/teaching/${course}-${currentTerm}`)}>{currentTermData.courses[course].number} &ndash; {currentTermData.courses[course].title}</Link></li>
-          ))}
-        </ul>
+        <CourseList term={currentTerm} courses={currentTermData.courses} />
       </HomePageSectionBox>
 
       <HomePageSectionBox>
