@@ -101,7 +101,7 @@ const NavMenu = styled.ul`
   display: none;
   padding: 0;
   position: absolute;
-  top: 46px;
+  top: 44px;
   left: 0;
   right: 0;
   z-index: 1000;
