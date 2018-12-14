@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 import FontAwesome from 'react-fontawesome';
@@ -96,51 +96,49 @@ class App extends Component {
   render() {
     this.generateTeachingNavMenu();
     return (
-      <Router>
-        <div>
-          <Global styles={globalStyles} />
-          <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
+      <div>
+        <Global styles={globalStyles} />
+        <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
 
-          <Navbar heading={navHeading} links={navLinks} />
+        <Navbar heading={navHeading} links={navLinks} />
 
-          <Switch>
+        <Switch>
 
-            <Route exact path={generateSitePath('/')} component={HomePage} />
-            <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
-            <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
+          <Route exact path={generateSitePath('/')} component={HomePage} />
+          <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
+          <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
 
-            <Route exact path={generateSitePath('/teaching') + '/:course-:term'} children={({ match }) => {
+          <Route exact path={generateSitePath('/teaching') + '/:course-:term'} children={({ match }) => {
+            var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
+            if (data) {
+              return <CoursePage courseData={data} />;
+            } else {
+              return <NoMatchPage />;
+            }
+          }} />
+
+          <Route exact path={generateSitePath('/teaching') + '/:course-:term/:subpage'} children={({ match }) => {
               var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
-              if (data) {
-                return <CoursePage courseData={data} />;
-              } else {
-                return <NoMatchPage />;
-              }
-            }} />
+            if (data && data.subPages && data.subPages[match.params.subpage]) {
+                var SubPageComponent = data.subPages[match.params.subpage];
+              return <SubPageComponent match={match} courseData={data} />;
+            } else {
+              return <NoMatchPage />;
+            }
+          }}
+          />
 
-            <Route exact path={generateSitePath('/teaching') + '/:course-:term/:subpage'} children={({ match }) => {
-                var data = courseData[match.params.term] && courseData[match.params.term].courses[match.params.course];
-                if (data && data.subPages && data.subPages[match.params.subpage]) {
-                  var SubPageComponent = data.subPages[match.params.subpage];
-                  return <SubPageComponent match={match} courseData={data} />;
-                } else {
-                  return <NoMatchPage />;
-                }
-              }}
-            />
+          <Route component={NoMatchPage} />
 
-            <Route component={NoMatchPage} />
+        </Switch>
 
-          </Switch>
+        <footer>
+          <img src={reactLogo} className="react-logo" alt="React logo" />
+          This site is powered by <a href="https://facebook.github.io/react/" target="_blank" rel="noopener noreferrer">React</a>.  It was bootstrapped with <a href="https://github.com/facebookincubator/create-react-app" target="_blank" rel="noopener noreferrer">Create React App</a>.
+          The source code is <a href="https://github.com/robwhess/my-osu-website" target="_blank" rel="noopener noreferrer">on GitHub <FontAwesome name="github" /></a>.
+        </footer>
 
-          <footer>
-            <img src={reactLogo} className="react-logo" alt="React logo" />
-            This site is powered by <a href="https://facebook.github.io/react/" target="_blank" rel="noopener noreferrer">React</a>.  It was bootstrapped with <a href="https://github.com/facebookincubator/create-react-app" target="_blank" rel="noopener noreferrer">Create React App</a>.
-            The source code is <a href="https://github.com/robwhess/my-osu-website" target="_blank" rel="noopener noreferrer">on GitHub <FontAwesome name="github" /></a>.
-          </footer>
-
-        </div>
-      </Router>
+      </div>
     );
   }
 }
