@@ -2,18 +2,16 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
-import FontAwesome from 'react-fontawesome';
 
 import { currentTerm, courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import TeachingPage from './pages/TeachingPage';
 import CommunityPage from './pages/CommunityPage';
 import CoursePage from './pages/CoursePage';
 import NoMatchPage from './pages/NoMatchPage';
-import reactLogo from './static/ReactLogo.svg';
-import './styles/App.css';
 
 const navHeading = {
   title: 'Rob Hess',
@@ -132,11 +130,7 @@ class App extends Component {
 
         </Switch>
 
-        <footer>
-          <img src={reactLogo} className="react-logo" alt="React logo" />
-          This site is powered by <a href="https://facebook.github.io/react/" target="_blank" rel="noopener noreferrer">React</a>.  It was bootstrapped with <a href="https://github.com/facebookincubator/create-react-app" target="_blank" rel="noopener noreferrer">Create React App</a>.
-          The source code is <a href="https://github.com/robwhess/my-osu-website" target="_blank" rel="noopener noreferrer">on GitHub <FontAwesome name="github" /></a>.
-        </footer>
+        <Footer />
 
       </div>
     );
