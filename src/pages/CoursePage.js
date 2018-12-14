@@ -234,7 +234,7 @@ class CoursePage extends Component {
       <div>
         {subnavComponent}
 
-        <PageContent contentClassName="course-page">
+        <PageContent className="course-page">
 
           <Helmet title={number} />
 

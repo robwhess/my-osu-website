@@ -64,7 +64,7 @@ class CourseSubPage extends Component {
     return (
       <div>
         {subnavComponent}
-        <PageContent contentClassName={this.props.contentClassName}>
+        <PageContent className={this.props.contentClassName}>
           {parentPageLinkComponent}
           {this.props.children}
         </PageContent>

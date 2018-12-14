@@ -10,7 +10,7 @@ import '../styles/TeachingPage.css';
 class TeachingPage extends Component {
   render() {
     return (
-      <PageContent contentClassName="teaching-page">
+      <PageContent className="teaching-page">
         <Helmet title="Teaching" />
         {Object.keys(courseData).map((term, i) => (
           <div className="teaching-term" key={i}>

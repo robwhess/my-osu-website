@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import { currentTerm, courseData } from '../CourseData';
+import { currentTerm, currentTermData } from '../CourseData';
 import { generateSitePath } from '../lib/SitePath';
 import PageContent from '../components/PageContent';
 import headshot from '../static/rob.jpg';
@@ -13,10 +13,10 @@ class HomePage extends Component {
     return (
       <section className="teaching">
         <h2>Teaching</h2>
-        <p>These are the classes I'm teaching this term ({courseData[currentTerm].title}):</p>
+        <p>These are the classes I'm teaching this term ({currentTermData.title}):</p>
         <ul>
-          {Object.keys(courseData[currentTerm].courses).map((course, i) => (
-            <li key={i}><Link to={generateSitePath(`/teaching/${course}-${currentTerm}`)}>{courseData[currentTerm].courses[course].number} &ndash; {courseData[currentTerm].courses[course].title}</Link></li>
+          {Object.keys(currentTermData.courses).map((course, i) => (
+            <li key={i}><Link to={generateSitePath(`/teaching/${course}-${currentTerm}`)}>{currentTermData.courses[course].number} &ndash; {currentTermData.courses[course].title}</Link></li>
           ))}
         </ul>
       </section>
@@ -25,7 +25,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <PageContent contentClassName="home-page">
+      <PageContent className="home-page">
         <section className="essentials">
           <img src={headshot} alt="Me" className="headshot" />
           <div className="digits">

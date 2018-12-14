@@ -7,7 +7,7 @@ import '../styles/CommunityPage.css';
 class CommunityPage extends Component {
   render() {
     return (
-      <PageContent contentClassName="community-page">
+      <PageContent className="community-page">
         <section className="info-box">
           <h1>Establishing a positive classroom community</h1>
 

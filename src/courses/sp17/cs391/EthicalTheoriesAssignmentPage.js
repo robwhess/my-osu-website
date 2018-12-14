@@ -17,7 +17,7 @@ class EthicalTheoriesAssignmentPage extends Component {
     var matchURLWithoutSlash = match.url.replace(/\/$/, '');
     var parentPageURL = matchURLWithoutSlash.substring(0, matchURLWithoutSlash.lastIndexOf('/') + 1);
     return (
-      <PageContent contentClassName="assignment-page">
+      <PageContent className="assignment-page">
         <section className="assignment-box">
 
           <Link to={parentPageURL}>&larr; Back to CS 391</Link>

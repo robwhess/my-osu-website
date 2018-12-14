@@ -14,4 +14,6 @@ const courseData = {
   sp17: sp17
 };
 
-export { currentTerm, courseData };
+const currentTermData = courseData[currentTerm];
+
+export { currentTerm, courseData, currentTermData };
