@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import PageContent from './PageContent';
+
+import PageContent from '../components/PageContent';
 import '../styles/NoMatchPage.css';
 
 class NoMatchPage extends Component {

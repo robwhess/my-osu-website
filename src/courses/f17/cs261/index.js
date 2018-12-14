@@ -1,7 +1,7 @@
 import { generateSitePath } from '../../../lib/SitePath';
 
-import TAInfoPage from '../../../components/TAInfoPage';
-import RecitationInfoPage from '../../../components/RecitationInfoPage';
+import TAInfoPage from '../../../pages/TAInfoPage';
+import RecitationInfoPage from '../../../pages/RecitationInfoPage';
 
 import calendar from './calendar';
 import assignments from './assignments';

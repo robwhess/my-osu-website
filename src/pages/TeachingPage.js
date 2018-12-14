@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 import { courseData } from '../CourseData';
 import { generateSitePath } from '../lib/SitePath';
-import PageContent from './PageContent';
+import PageContent from '../components/PageContent';
 import '../styles/TeachingPage.css';
 
 class TeachingPage extends Component {

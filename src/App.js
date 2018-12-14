@@ -6,11 +6,11 @@ import FontAwesome from 'react-fontawesome';
 import { currentTerm, courseData } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
 import Navbar from './components/Navbar';
-import HomePage from './components/HomePage';
-import TeachingPage from './components/TeachingPage';
-import CommunityPage from './components/CommunityPage';
-import CoursePage from './components/CoursePage';
-import NoMatchPage from './components/NoMatchPage';
+import HomePage from './pages/HomePage';
+import TeachingPage from './pages/TeachingPage';
+import CommunityPage from './pages/CommunityPage';
+import CoursePage from './pages/CoursePage';
+import NoMatchPage from './pages/NoMatchPage';
 import reactLogo from './static/ReactLogo.svg';
 import './styles/App.css';
 

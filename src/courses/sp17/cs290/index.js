@@ -1,5 +1,5 @@
 import { generateSitePath } from '../../../lib/SitePath';
-import TAInfoPage from '../../../components/TAInfoPage';
+import TAInfoPage from '../../../pages/TAInfoPage';
 
 var courseDetails = {
   number: 'CS 290',

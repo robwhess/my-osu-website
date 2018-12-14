@@ -1,8 +1,8 @@
 import { generateSitePath } from '../../../lib/SitePath';
 
-import TAInfoPage from '../../../components/TAInfoPage';
-import RecitationInfoPage from '../../../components/RecitationInfoPage';
-import LabInfoPage from '../../../components/LabInfoPage';
+import TAInfoPage from '../../../pages/TAInfoPage';
+import RecitationInfoPage from '../../../pages/RecitationInfoPage';
+import LabInfoPage from '../../../pages/LabInfoPage';
 
 import calendar from './calendar';
 import assignments from './assignments';

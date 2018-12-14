@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import Navbar from './Navbar';
-import PageContent from './PageContent';
+import Navbar from '../components/Navbar';
+import PageContent from '../components/PageContent';
 import '../styles/CourseSubPage.css';
 
 class CourseSubPage extends Component {

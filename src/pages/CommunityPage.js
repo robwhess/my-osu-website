@@ -1,7 +1,7 @@
 /* eslint "jsx-a11y/anchor-is-valid": "off", "jsx-a11y/anchor-has-content": "off" */
 import React, { Component } from 'react';
 
-import PageContent from './PageContent';
+import PageContent from '../components/PageContent';
 import '../styles/CommunityPage.css';
 
 class CommunityPage extends Component {

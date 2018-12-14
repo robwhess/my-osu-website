@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Link, withRouter } from 'react-router-dom';
 
-import Navbar from './Navbar';
-import PageContent from './PageContent';
+import Navbar from '../components/Navbar';
+import PageContent from '../components/PageContent';
 import '../styles/CoursePage.css';
 
 class CoursePage extends Component {
