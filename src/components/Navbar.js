@@ -21,11 +21,10 @@ const NavbarContainer = styled.div`
   color: ${props => props.subnav ? '#333' : '#ddd'};
   background-color: ${props => props.subnav ? '#fff' : '#333'};
   font-weight: 100;
-  font-size: 22px;
+  font-size: 20px;
   a {
     color: inherit;
     display: block;
-    padding: 10px 20px;
     &:hover {
       text-decoration: none;
     }
@@ -42,10 +41,22 @@ const NavbarContainer = styled.div`
 const NavbarHeading = styled.div`
   flex: 0 0 auto;
   display: inline-block;
+  a {
+    padding: 10px 0;
+  }
 `;
 
 const Nav = styled.nav`
   flex: 1 0 auto;
+  a {
+    padding: 10px 20px;
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    a {
+      padding: 0;
+      margin: 10px 0;
+    }
+  }
 `;
 
 const NavList = styled.ul`
@@ -96,7 +107,7 @@ const NavMenu = styled.ul`
   z-index: 1000;
   background-color: #fff;
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   list-style-type: none;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
   ${NavItem}:hover & {
@@ -122,7 +133,7 @@ const NavMenuItem = styled.li `
   }
   @media (max-width: ${breakpoints[0]}px) {
     a {
-      padding-left: 40px;
+      margin-left: 20px;
       &:hover {
         background-color: inherit;
         color: inherit;
@@ -135,7 +146,7 @@ const CollapseButton = styled.button`
   display: none;
   padding: 0 12px;
   border: none;
-  font-size: inherit;
+  font-size: 14px;
   color: inherit;
   background-color: inherit;
   cursor: pointer;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 import FontAwesome from 'react-fontawesome';
 
@@ -14,11 +15,11 @@ import NoMatchPage from './pages/NoMatchPage';
 import reactLogo from './static/ReactLogo.svg';
 import './styles/App.css';
 
-var navHeading = {
+const navHeading = {
   title: 'Rob Hess',
   path: '/'
 };
-var navLinks = [
+const navLinks = [
   {
     path: '/teaching',
     title: 'Teaching',
@@ -31,6 +32,53 @@ var navLinks = [
     isExternal: true
   }
 ];
+
+const globalStyles = css`
+  @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+  body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #eee;
+  }
+
+  h1, h2, h3 {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: #666;
+  }
+
+  a {
+    text-decoration: none;
+    color: #d54f1e;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  @media (max-width: 640px) {
+    body {
+      font-weight: 400;
+    }
+  }
+`;
 
 class App extends Component {
 
@@ -50,7 +98,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-
+          <Global styles={globalStyles} />
           <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
 
           <Navbar heading={navHeading} links={navLinks} />
