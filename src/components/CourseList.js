@@ -29,12 +29,12 @@ const CourseListList = styled.ul`
 `;
 
 const CourseItem = styled.li`
-  display: flex;
-  align-items: center;
   font-weight: 400;
 `;
 
 const CourseNumber = styled.div`
+  display: table-cell;
+  vertical-align: middle;
   padding: 5px 5px 5px 10px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -47,6 +47,8 @@ const CourseNumber = styled.div`
 `;
 
 const CourseTitle = styled.div`
+  display: table-cell;
+  vertical-align: middle;
   padding: 5px 10px 5px 5px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
