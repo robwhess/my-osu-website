@@ -6,9 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import MarkdownIt from 'markdown-it';
 
-const md = new MarkdownIt();
+import DayTimeLocation from '../components/DayTimeLocation'
 
 const EssentialInfoContainer = styled.div`
   h1 {
@@ -42,10 +41,6 @@ const EssentialInfoData = styled.div`
     list-style-type: ${props => props.bulletedList ? 'circle' : 'none'};
   }
 `
-
-function DayTimeLocation({ day, time, location }) {
-  return <span dangerouslySetInnerHTML={{ __html: md.renderInline(`${day}, *${time}* (${location})`) }} />;
-}
 
 function CourseEssentialInfo(props) {
   const { number, title, term, instructor, officeHours, lectures, finalExams, syllabusLink, textbooks, links } = props;
@@ -144,21 +139,9 @@ CourseEssentialInfo.propTypes = {
     name: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired
   }).isRequired,
-  officeHours: PropTypes.arrayOf(PropTypes.shape({
-    day: PropTypes.string.isRequired,
-    time: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-  })).isRequired,
-  lectures: PropTypes.objectOf(PropTypes.shape({
-    day: PropTypes.string.isRequired,
-    time: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-  })).isRequired,
-  finalExams: PropTypes.objectOf(PropTypes.shape({
-    day: PropTypes.string.isRequired,
-    time: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-  })),
+  officeHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes)).isRequired,
+  lectures: PropTypes.objectOf(PropTypes.shape(DayTimeLocation.propTypes)).isRequired,
+  finalExams: PropTypes.objectOf(PropTypes.shape(DayTimeLocation.propTypes)),
   syllabusLink: PropTypes.string.isRequired,
   textbooks: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
