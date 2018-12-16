@@ -4,7 +4,7 @@ import TAInfoPage from '../../../pages/TAInfoPage';
 import RecitationInfoPage from '../../../pages/RecitationInfoPage';
 
 import calendar from './calendar';
-import assignments from './assignments';
+import { assignments, preamble as assignmentsPreamble } from './assignments';
 import taInfo from './taInfo';
 import recitationInfo from './recitationInfo';
 import CS261CourseNotes from '../../../static/CS261CourseNotes.pdf';
@@ -81,6 +81,7 @@ const courseDetails = {
   calendar: calendar,
 
   assignments: assignments,
+  assignmentsPreamble: assignmentsPreamble,
 
   taInfo: taInfo,
 

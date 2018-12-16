@@ -10,6 +10,7 @@ import styled from '@emotion/styled/macro';
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import CourseEssentialInfo from '../components/CourseEssentialInfo';
+import CourseAssignmentList from '../components/CourseAssignmentList';
 
 const CourseInfoPageContent = styled(PageContent)`
   display: flex;
@@ -34,6 +35,13 @@ function CourseInfoPage({ course }) {
       <TransprentFlexContainer column>
         <CourseInfoPageSectionBox>
           <CourseEssentialInfo {...course} />
+        </CourseInfoPageSectionBox>
+        <CourseInfoPageSectionBox>
+          <CourseAssignmentList
+            title="Assignments"
+            preamble={course.assignmentsPreamble}
+            assignments={course.assignments}
+          />
         </CourseInfoPageSectionBox>
       </TransprentFlexContainer>
     </CourseInfoPageContent>

@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
 import DayTimeLocation from '../components/DayTimeLocation'
+import DoubleAngleItem from '../components/DoubleAngleItem'
 import breakpoints from '../lib/breakpoints';
 
 const EssentialInfoContainer = styled.div`
@@ -45,16 +46,12 @@ const EssentialInfoData = styled.div`
   padding: 5px 0;
   ul {
     margin: 0;
-    padding-left: ${props => props.bulletedList ? '25px' : 0};
-    list-style-type: ${props => props.bulletedList ? 'circle' : 'none'};
+    padding-left: 10px;
+    list-style-type: none;
   }
   @media (max-width: ${breakpoints[0]}px) {
     border-bottom: 1px solid #efefef;
     padding: 10px 0;
-    ul {
-      padding-left: 25px;
-      list-style-type: circle;
-    }
     ${EssentialInfoItem}:last-child & {
       border-bottom: 0;
     }
@@ -71,7 +68,7 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Instructor:</EssentialInfoHeading>
           <EssentialInfoData>
-            <a href={`mailto:${instructor.email}`}>{instructor.name}</a>
+            {instructor.name} (<a href={`mailto:${instructor.email}`}>{instructor.email}</a>)
           </EssentialInfoData>
         </EssentialInfoItem>
 
@@ -80,7 +77,7 @@ function CourseEssentialInfo(props) {
           <EssentialInfoData>
             <ul>
               {officeHours.map((dtl, i) => (
-                <li key={i}><DayTimeLocation {...dtl} /></li>
+                <DoubleAngleItem key={i}><DayTimeLocation {...dtl} /></DoubleAngleItem>
               ))}
             </ul>
           </EssentialInfoData>
@@ -91,7 +88,7 @@ function CourseEssentialInfo(props) {
           <EssentialInfoData>
             <ul>
               {Object.keys(lectures).map((section, i) => (
-                <li key={i}>Section {section}: <DayTimeLocation {...lectures[section]} /></li>
+                <DoubleAngleItem key={i}>Section {section}: <DayTimeLocation {...lectures[section]} /></DoubleAngleItem>
               ))}
             </ul>
           </EssentialInfoData>
@@ -103,7 +100,7 @@ function CourseEssentialInfo(props) {
             <EssentialInfoData>
               <ul>
                 {Object.keys(finalExams).map((section, i) => (
-                  <li key={i}>Section {section}: <DayTimeLocation {...finalExams[section]} /></li>
+                  <DoubleAngleItem key={i}>Section {section}: <DayTimeLocation {...finalExams[section]} /></DoubleAngleItem>
                 ))}
               </ul>
             </EssentialInfoData>
@@ -124,7 +121,7 @@ function CourseEssentialInfo(props) {
             <EssentialInfoData>
               <ul>
                 {textbooks.map((textbook, i) => (
-                  <li key={i}><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</li>
+                  <DoubleAngleItem key={i}><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</DoubleAngleItem>
                 ))}
               </ul>
             </EssentialInfoData>
@@ -135,10 +132,10 @@ function CourseEssentialInfo(props) {
         {links ?
           <EssentialInfoItem>
             <EssentialInfoHeading>Links:</EssentialInfoHeading>
-            <EssentialInfoData bulletedList>
+            <EssentialInfoData>
               <ul>
                 {links.map((link, i) => (
-                  <li key={i}><a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a></li>
+                  <DoubleAngleItem key={i}><a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a></DoubleAngleItem>
                 ))}
               </ul>
             </EssentialInfoData>

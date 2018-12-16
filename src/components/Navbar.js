@@ -146,7 +146,7 @@ const CollapseButton = styled.button`
   display: none;
   padding: 0 12px;
   border: none;
-  font-size: 14px;
+  font-size: 18px;
   color: inherit;
   background-color: inherit;
   cursor: pointer;
@@ -204,7 +204,7 @@ class Navbar extends React.Component {
         <NavbarHeading>
           <Link to={generateSitePath(this.props.heading.path)}>{this.props.heading.title}</Link>
           <CollapseButton onClick={this.toggleNavbarCollapsed} collapsed={this.state.collapsed}>
-            <FontAwesome name="chevron-down" />
+            <FontAwesome name="angle-down" />
           </CollapseButton>
         </NavbarHeading>
         <Nav>

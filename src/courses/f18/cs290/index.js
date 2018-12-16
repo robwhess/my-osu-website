@@ -2,7 +2,7 @@ import { generateSitePath } from '../../../lib/SitePath';
 import TAInfoPage from '../../../pages/TAInfoPage';
 
 import calendar from './calendar';
-import assignments from './assignments';
+import { assignments, preamble as assignmentsPreamble } from './assignments';
 import finalProject from './finalProject';
 import taInfo from './taInfo';
 
@@ -52,6 +52,7 @@ var courseDetails = {
   calendar: calendar,
 
   assignments: assignments,
+  assignmentsPreamble: assignmentsPreamble,
 
   finalProject: finalProject,
 
