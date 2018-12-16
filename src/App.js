@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 
 import { currentTermData, currentTerm } from './CourseData';
 import { generateSitePath } from './lib/SitePath';
+import breakpoints from './lib/breakpoints';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -75,7 +76,7 @@ const globalStyles = css`
     text-decoration: line-through;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: ${breakpoints[0]}px) {
     body {
       font-weight: 400;
     }

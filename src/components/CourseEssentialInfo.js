@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
 import DayTimeLocation from '../components/DayTimeLocation'
+import breakpoints from '../lib/breakpoints';
 
 const EssentialInfoContainer = styled.div`
   h1 {
@@ -25,20 +26,38 @@ const EssentialInfoItem = styled.div`
 const EssentialInfoHeading = styled.div`
   display: table-cell;
   vertical-align: middle;
-  border-bottom: 10px solid transparent;
+  padding: 5px 15px 5px 0;
   text-align: right;
   font-weight: 400;
+  @media (max-width: ${breakpoints[0]}px) {
+    border-bottom: 1px solid #efefef;
+    padding: 10px 15px 10px 0;
+    font-weight: bold;
+    ${EssentialInfoItem}:last-child & {
+      border-bottom: 0;
+    }
+  }
 `
 
 const EssentialInfoData = styled.div`
   display: table-cell;
   vertical-align: middle;
-  border-left: 15px solid transparent;
-  border-bottom: 10px solid transparent;
-  ul {\
+  padding: 5px 0;
+  ul {
     margin: 0;
     padding-left: ${props => props.bulletedList ? '25px' : 0};
     list-style-type: ${props => props.bulletedList ? 'circle' : 'none'};
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    border-bottom: 1px solid #efefef;
+    padding: 10px 0;
+    ul {
+      padding-left: 25px;
+      list-style-type: circle;
+    }
+    ${EssentialInfoItem}:last-child & {
+      border-bottom: 0;
+    }
   }
 `
 
