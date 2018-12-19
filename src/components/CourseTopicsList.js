@@ -30,17 +30,6 @@ const ResourceList = styled.div`
   flex-wrap: wrap;
 `
 
-function generateTopicSubtitle(topic) {
-  let title = null;
-  if (topic.weeks && topic.weeks.length > 1) {
-    const lastWeek = topic.weeks.length - 1;
-    title = `Weeks ${topic.weeks[0]} &ndash; ${topic.weeks[lastWeek]}`;
-  } else if (topic.weeks) {
-    title = `Week ${topic.weeks[0]}`;
-  }
-  return title;
-}
-
 function CourseTopicsList({ title, topics }) {
   return (
     <TopicsListContainer>
@@ -49,8 +38,7 @@ function CourseTopicsList({ title, topics }) {
         <CollapsibleSection
           key={i}
           startCollapsed={!topic.isCurrent}
-          title={topic.title}
-          subtitle={generateTopicSubtitle(topic)}>
+          title={topic.title}>
           <ResourceList>
 
           </ResourceList>
