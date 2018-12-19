@@ -3,7 +3,7 @@ import TAInfoPage from '../../../pages/TAInfoPage';
 
 import calendar from './calendar';
 import { assignments, preamble as assignmentsPreamble } from './assignments';
-import finalProject from './finalProject';
+import { assignments as finalProjectAssignments, preamble as finalProjectPreamble } from './finalProject';
 import taInfo from './taInfo';
 
 var courseDetails = {
@@ -54,7 +54,8 @@ var courseDetails = {
   assignments: assignments,
   assignmentsPreamble: assignmentsPreamble,
 
-  finalProject: finalProject,
+  finalProjectAssignments: finalProjectAssignments,
+  finalProjectPreamble: finalProjectPreamble,
 
   taInfo: taInfo,
 

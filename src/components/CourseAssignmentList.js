@@ -55,7 +55,11 @@ function CourseAssignmentList({ title, preamble, assignments }) {
         <Assignment key={i}>
           <h3><FontAwesome name="angle-double-right" /> <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /></h3>
           <AssignmentInfo>
-            <DueDate>Due: <DayTimeLocation {...assignment.due} /></DueDate>
+            {assignment.due ?
+              <DueDate>Due: <DayTimeLocation {...assignment.due} /></DueDate> :
+              null
+            }
+
             {assignment.notes ?
               <ul>
                 {assignment.notes.map((note, i) => (

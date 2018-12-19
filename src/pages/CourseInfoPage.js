@@ -43,6 +43,16 @@ function CourseInfoPage({ course }) {
             assignments={course.assignments}
           />
         </CourseInfoPageSectionBox>
+        {course.finalProjectAssignments ?
+          <CourseInfoPageSectionBox>
+            <CourseAssignmentList
+              title="Final Project"
+              preamble={course.finalProjectPreamble}
+              assignments={course.finalProjectAssignments}
+            />
+          </CourseInfoPageSectionBox> :
+          null
+        }
       </TransprentFlexContainer>
     </CourseInfoPageContent>
   );
