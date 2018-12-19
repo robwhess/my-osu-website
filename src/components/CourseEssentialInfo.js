@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
 import DayTimeLocation from '../components/DayTimeLocation'
-import DoubleAngleItem from '../components/DoubleAngleItem'
+import DoubleAngleList from '../components/DoubleAngleList'
 import breakpoints from '../lib/breakpoints';
 
 const EssentialInfoContainer = styled.div`
@@ -44,11 +44,6 @@ const EssentialInfoData = styled.div`
   display: table-cell;
   vertical-align: middle;
   padding: 5px 0;
-  ul {
-    margin: 0;
-    padding-left: 10px;
-    list-style-type: none;
-  }
   @media (max-width: ${breakpoints[0]}px) {
     border-bottom: 1px solid #efefef;
     padding: 10px 0;
@@ -75,34 +70,30 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Office hours:</EssentialInfoHeading>
           <EssentialInfoData>
-            <ul>
-              {officeHours.map((dtl, i) => (
-                <DoubleAngleItem key={i}><DayTimeLocation {...dtl} /></DoubleAngleItem>
-              ))}
-            </ul>
+            <DoubleAngleList noOneElementList
+              items={officeHours.map((dtl, i) => (
+                <DayTimeLocation {...dtl} />
+              ))}/>
           </EssentialInfoData>
         </EssentialInfoItem>
 
         <EssentialInfoItem>
           <EssentialInfoHeading>Lectures:</EssentialInfoHeading>
           <EssentialInfoData>
-            <ul>
-              {Object.keys(lectures).map((section, i) => (
-                <DoubleAngleItem key={i}>Section {section}: <DayTimeLocation {...lectures[section]} /></DoubleAngleItem>
-              ))}
-            </ul>
+            <DoubleAngleList noOneElementList
+              items={Object.keys(lectures).map((section, i) => (
+                <span>Section {section}: <DayTimeLocation {...lectures[section]} /></span>
+              ))}/>
           </EssentialInfoData>
         </EssentialInfoItem>
 
         {finalExams ?
           <EssentialInfoItem>
             <EssentialInfoHeading>Final Exams:</EssentialInfoHeading>
-            <EssentialInfoData>
-              <ul>
-                {Object.keys(finalExams).map((section, i) => (
-                  <DoubleAngleItem key={i}>Section {section}: <DayTimeLocation {...finalExams[section]} /></DoubleAngleItem>
-                ))}
-              </ul>
+            <EssentialInfoData><DoubleAngleList noOneElementList
+              items={Object.keys(finalExams).map((section, i) => (
+                <span>Section {section}: <DayTimeLocation {...finalExams[section]} /></span>
+              ))}/>
             </EssentialInfoData>
           </EssentialInfoItem> :
           null
@@ -119,11 +110,9 @@ function CourseEssentialInfo(props) {
           <EssentialInfoItem>
             <EssentialInfoHeading>Textbooks:</EssentialInfoHeading>
             <EssentialInfoData>
-              <ul>
-                {textbooks.map((textbook, i) => (
-                  <DoubleAngleItem key={i}><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</DoubleAngleItem>
-                ))}
-              </ul>
+              <DoubleAngleList noOneElementList items={textbooks.map((textbook, i) => (
+                <span><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</span>
+              ))} />
             </EssentialInfoData>
           </EssentialInfoItem>:
           null
@@ -133,11 +122,9 @@ function CourseEssentialInfo(props) {
           <EssentialInfoItem>
             <EssentialInfoHeading>Links:</EssentialInfoHeading>
             <EssentialInfoData>
-              <ul>
-                {links.map((link, i) => (
-                  <DoubleAngleItem key={i}><a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a></DoubleAngleItem>
-                ))}
-              </ul>
+              <DoubleAngleList items={links.map((link, i) => (
+                <a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a>
+              ))} />
             </EssentialInfoData>
           </EssentialInfoItem>:
           null
