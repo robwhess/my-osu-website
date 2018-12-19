@@ -28,15 +28,29 @@ const Topic = styled.div`
 const ResourceList = styled.div`
   display: flex;
   flex-wrap: wrap;
-
 `
+
+function generateTopicSubtitle(topic) {
+  let title = null;
+  if (topic.weeks && topic.weeks.length > 1) {
+    const lastWeek = topic.weeks.length - 1;
+    title = `Weeks ${topic.weeks[0]} &ndash; ${topic.weeks[lastWeek]}`;
+  } else if (topic.weeks) {
+    title = `Week ${topic.weeks[0]}`;
+  }
+  return title;
+}
 
 function CourseTopicsList({ title, topics }) {
   return (
     <TopicsListContainer>
       {title ? <h2>{title}</h2> : null}
       {topics.reverse().map((topic, i) => (
-        <CollapsibleSection key={i} title={topic.title} startCollapsed={!topic.isCurrent}>
+        <CollapsibleSection
+          key={i}
+          startCollapsed={!topic.isCurrent}
+          title={topic.title}
+          subtitle={generateTopicSubtitle(topic)}>
           <ResourceList>
 
           </ResourceList>
@@ -92,8 +106,9 @@ CourseTopicsList.propTypes = {
       link: PropTypes.string,
       description: PropTypes.string,
     })),
-    notes: PropTypes.arrayOf(PropTypes.string)
-  })).isRequired
+    notes: PropTypes.arrayOf(PropTypes.string),
+    isCurrent: PropTypes.bool
+  })).isRequired,
 }
 
 export default CourseTopicsList;

@@ -20,7 +20,6 @@ const CourseInfoPageContent = styled(PageContent)`
 const CourseInfoPageSectionBox = styled(SectionBox)`
   max-width: 100%;
   margin: 5px;
-  flex: 1 1 auto;
 `
 
 const PageColumn = styled.div`
@@ -28,6 +27,9 @@ const PageColumn = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   flex: 1 1 50%;
+  ${CourseInfoPageSectionBox}:last-child {
+    flex: 1 1 auto;
+  }
 `
 
 function CourseInfoPage({ course }) {
@@ -59,7 +61,7 @@ function CourseInfoPage({ course }) {
       <PageColumn>
         <CourseInfoPageSectionBox>
           <CourseTopicsList
-            title="CourseTopics"
+            title="Course Topics"
             topics={course.topics} />
         </CourseInfoPageSectionBox>
       </PageColumn>

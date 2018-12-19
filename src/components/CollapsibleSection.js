@@ -6,6 +6,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import FontAwesome from 'react-fontawesome';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt();
 
 const CollapsibleSectionContainer = styled.div`
   margin-top: 20px;
@@ -30,6 +33,12 @@ const CollapsibleSectionTitle = styled(CollapseButton)`
   &:focus {
     outline: none;
   }
+`;
+
+const CollapsibleSectionSubtitle = styled.h3`
+  margin: 0;
+  font-size: 24px;
+  padding-left: 24px;
 `;
 
 const CollapsibleSectionChildrenContainer = styled.div`
@@ -65,6 +74,10 @@ class CollapsibleSection extends React.Component {
             collapsed={this.state.collapsed}>
             <FontAwesome name="angle-down" />
           </CollapseButton>
+          {this.props.subtitle ?
+            <CollapsibleSectionSubtitle dangerouslySetInnerHTML={{ __html: md.renderInline(this.props.subtitle)}} /> :
+            null
+          }
         </div>
         <CollapsibleSectionChildrenContainer collapsed={this.state.collapsed}>
           {this.props.children}
@@ -77,6 +90,7 @@ class CollapsibleSection extends React.Component {
 CollapsibleSection.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
+  subtitle: PropTypes.string,
   startCollapsed: PropTypes.bool
 };
 
