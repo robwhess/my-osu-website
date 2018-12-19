@@ -11,10 +11,10 @@ import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import CourseEssentialInfo from '../components/CourseEssentialInfo';
 import CourseAssignmentList from '../components/CourseAssignmentList';
+import CourseTopicsList from '../components/CourseTopicsList';
 
 const CourseInfoPageContent = styled(PageContent)`
   display: flex;
-  flex-wrap: wrap;
 `;
 
 const CourseInfoPageSectionBox = styled(SectionBox)`
@@ -23,16 +23,17 @@ const CourseInfoPageSectionBox = styled(SectionBox)`
   flex: 1 1 auto;
 `
 
-const TransprentFlexContainer = styled.div`
+const PageColumn = styled.div`
   display: flex;
   flex-wrap: wrap;
-  flex-direction: ${props => props.column? 'column' : 'row'};
+  flex-direction: column;
+  flex: 1 1 50%;
 `
 
 function CourseInfoPage({ course }) {
   return (
     <CourseInfoPageContent fullWidth>
-      <TransprentFlexContainer column>
+      <PageColumn>
         <CourseInfoPageSectionBox>
           <CourseEssentialInfo {...course} />
         </CourseInfoPageSectionBox>
@@ -53,7 +54,15 @@ function CourseInfoPage({ course }) {
           </CourseInfoPageSectionBox> :
           null
         }
-      </TransprentFlexContainer>
+      </PageColumn>
+
+      <PageColumn>
+        <CourseInfoPageSectionBox>
+          <CourseTopicsList
+            title="CourseTopics"
+            topics={course.topics} />
+        </CourseInfoPageSectionBox>
+      </PageColumn>
     </CourseInfoPageContent>
   );
 }

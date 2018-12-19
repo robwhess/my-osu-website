@@ -1,6 +1,6 @@
 /*
- * This file contains a component to render a list whose elements have a
- * double-angle-style bullet.
+ * This file contains a component to render a list whose elements have an
+ * angle-style bullet.
  */
 
 import React from 'react';
@@ -10,7 +10,7 @@ import FontAwesome from 'react-fontawesome';
 
 const List = styled.ul`
   margin: 0;
-  padding-left: 10px;
+  padding-left: 15px;
   list-style-type: none;
 `;
 
@@ -19,7 +19,7 @@ const ListItem = styled.li`
   padding-left: 0.67ch;
 `
 
-function DoubleAngleList(props) {
+function AngleList(props) {
   if (props.noOneElementList && props.items.length <= 1) {
     return (
       <div>
@@ -31,7 +31,7 @@ function DoubleAngleList(props) {
       <List>
         {props.items.map((item, i) => (
           <ListItem key={i}>
-            <FontAwesome name="angle-double-right" />
+            <FontAwesome name={props.singleAngle ? 'angle-right' : 'angle-double-right'} />
             &nbsp;
             {item}
           </ListItem>
@@ -41,13 +41,15 @@ function DoubleAngleList(props) {
   }
 }
 
-DoubleAngleList.propTypes = {
+AngleList.propTypes = {
   items: PropTypes.arrayOf(PropTypes.element).isRequired,
-  noOneElementList: PropTypes.bool
+  noOneElementList: PropTypes.bool,
+  singleAngle: PropTypes.bool
 };
 
-DoubleAngleList.defaultProps = {
-  noOneElementList: false
+AngleList.defaultProps = {
+  noOneElementList: false,
+  singleAngle: false
 }
 
-export default DoubleAngleList;
+export default AngleList;

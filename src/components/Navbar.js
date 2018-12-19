@@ -155,7 +155,7 @@ const CollapseButton = styled.button`
   }
   @media (max-width: ${breakpoints[0]}px) {
     display: inline-block;
-    transform: ${props => props.collapsed ? 'none' : 'rotate(-180deg)'};
+    transform: ${props => props.collapsed ? 'rotate(-180deg)' : 'none'};
     transition: transform 150ms ease;
   }
 `;

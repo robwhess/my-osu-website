@@ -1,9 +1,6 @@
 import { generateSitePath } from '../../../lib/SitePath';
 
-import TAInfoPage from '../../../pages/TAInfoPage';
-import RecitationInfoPage from '../../../pages/RecitationInfoPage';
-
-import calendar from './calendar';
+import topics from './topics';
 import { assignments, preamble as assignmentsPreamble } from './assignments';
 import taInfo from './taInfo';
 import recitationInfo from './recitationInfo';
@@ -78,30 +75,14 @@ const courseDetails = {
     }
   ],
 
-  calendar: calendar,
+  topics: topics,
 
   assignments: assignments,
   assignmentsPreamble: assignmentsPreamble,
 
   taInfo: taInfo,
 
-  recitationInfo: recitationInfo,
-
-  subPages: {
-    'ta-info': TAInfoPage,
-    'recitation-info': RecitationInfoPage
-  },
-
-  subnavItems: [
-    {
-      subPage: 'ta-info',
-      title: 'TA Info'
-    },
-    {
-      subPage: 'recitation-info',
-      title: 'Recitations'
-    }
-  ]
+  recitationInfo: recitationInfo
 };
 
 export default courseDetails;

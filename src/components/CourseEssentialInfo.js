@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
 import DayTimeLocation from '../components/DayTimeLocation'
-import DoubleAngleList from '../components/DoubleAngleList'
+import AngleList from '../components/AngleList'
 import breakpoints from '../lib/breakpoints';
 
 const EssentialInfoContainer = styled.div`
@@ -70,7 +70,7 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Office hours:</EssentialInfoHeading>
           <EssentialInfoData>
-            <DoubleAngleList noOneElementList
+            <AngleList noOneElementList
               items={officeHours.map((dtl, i) => (
                 <DayTimeLocation {...dtl} />
               ))}/>
@@ -80,7 +80,7 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Lectures:</EssentialInfoHeading>
           <EssentialInfoData>
-            <DoubleAngleList noOneElementList
+            <AngleList noOneElementList
               items={Object.keys(lectures).map((section, i) => (
                 <span>Section {section}: <DayTimeLocation {...lectures[section]} /></span>
               ))}/>
@@ -90,7 +90,7 @@ function CourseEssentialInfo(props) {
         {finalExams ?
           <EssentialInfoItem>
             <EssentialInfoHeading>Final Exams:</EssentialInfoHeading>
-            <EssentialInfoData><DoubleAngleList noOneElementList
+            <EssentialInfoData><AngleList noOneElementList
               items={Object.keys(finalExams).map((section, i) => (
                 <span>Section {section}: <DayTimeLocation {...finalExams[section]} /></span>
               ))}/>
@@ -110,7 +110,7 @@ function CourseEssentialInfo(props) {
           <EssentialInfoItem>
             <EssentialInfoHeading>Textbooks:</EssentialInfoHeading>
             <EssentialInfoData>
-              <DoubleAngleList noOneElementList items={textbooks.map((textbook, i) => (
+              <AngleList noOneElementList items={textbooks.map((textbook, i) => (
                 <span><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</span>
               ))} />
             </EssentialInfoData>
@@ -122,7 +122,7 @@ function CourseEssentialInfo(props) {
           <EssentialInfoItem>
             <EssentialInfoHeading>Links:</EssentialInfoHeading>
             <EssentialInfoData>
-              <DoubleAngleList items={links.map((link, i) => (
+              <AngleList items={links.map((link, i) => (
                 <a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a>
               ))} />
             </EssentialInfoData>
