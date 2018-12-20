@@ -25,10 +25,13 @@ const Topic = styled.div`
   }
 `;
 
-const ResourceList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`
+function generateWeeksString(weeks) {
+  if (weeks.length > 1) {
+    return <span>Weeks {weeks[0]} &ndash; {weeks[weeks.length - 1]}</span>;
+  } else {
+    return `Week ${weeks[0]}`;
+  }
+}
 
 function CourseTopicsList({ title, topics }) {
   return (
@@ -39,10 +42,11 @@ function CourseTopicsList({ title, topics }) {
           key={i}
           startCollapsed={!topic.isCurrent}
           title={topic.title}>
-          <ResourceList>
-
-          </ResourceList>
           <Topic>
+            {topic.weeks ?
+              <h4>{generateWeeksString(topic.weeks)}</h4> :
+              null
+            }
             {topic.resources ?
               <div>
                 <h4>Resources</h4>
