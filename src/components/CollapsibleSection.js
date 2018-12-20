@@ -40,7 +40,7 @@ class CollapsibleSection extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapsed: !!props.startCollapsed
+      collapsed: !!props.collapsed
     };
     this.toggleCollapsed = this.toggleCollapsed.bind(this);
   }
@@ -49,6 +49,18 @@ class CollapsibleSection extends React.Component {
     this.setState({
       collapsed: !this.state.collapsed
     });
+  }
+
+  /*
+   * Since this component is re-used across pages, we need to make sure the current
+   * state is synchronized with the incoming props before it is re-rendered.
+   */
+  componentDidUpdate(prevProps, prevState) {
+    if (this.props.collapsed !== prevProps.collapsed || this.props.collapsed !== prevState.collapsed) {
+      this.setState({
+        collapsed: this.props.collapsed
+      });
+    }
   }
 
   render() {
@@ -74,11 +86,11 @@ class CollapsibleSection extends React.Component {
 CollapsibleSection.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
-  startCollapsed: PropTypes.bool
+  collapsed: PropTypes.bool
 };
 
 CollapsibleSection.defaultProps = {
-  startCollapsed: false
+  collapsed: false
 };
 
 export default CollapsibleSection;

@@ -38,10 +38,10 @@ function CourseTopicsList({ title, topics }) {
     <TopicsListContainer>
       {title ? <h2>{title}</h2> : null}
       <h4>(click titles to expand)</h4>
-      {topics.reverse().map((topic, i) => (
+      {topics.map((topic, i) => (
         <CollapsibleSection
           key={i}
-          startCollapsed={!topic.isCurrent}
+          collapsed={!topic.isCurrent}
           title={topic.title}>
           <Topic>
             {topic.weeks ?
