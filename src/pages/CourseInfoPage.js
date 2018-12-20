@@ -27,9 +27,6 @@ const PageColumn = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   flex: 1 1 50%;
-  ${CourseInfoPageSectionBox}:last-child {
-    flex: 1 1 auto;
-  }
 `
 
 function CourseInfoPage({ course }) {
