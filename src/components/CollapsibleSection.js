@@ -67,7 +67,7 @@ class CollapsibleSection extends React.Component {
           </CollapseButton>
         </div>
         <CollapsibleSectionChildrenContainer collapsed={this.state.collapsed}>
-          {this.props.children}
+          {this.state.collapsed ? null : this.props.children}
         </CollapsibleSectionChildrenContainer>
       </CollapsibleSectionContainer>
     );
