@@ -9,18 +9,24 @@ import MarkdownIt from 'markdown-it';
 
 const md = new MarkdownIt();
 
-function DayTimeLocation({ day, time, location }) {
-  let dayTimeLocString = `${day}, *${time}*`;
+function DayTimeLocation({ day, time, location, link }) {
+  let DTLString = `${day}, *${time}*`;
   if (location) {
-    dayTimeLocString += ` (${location})`;
+    DTLString += ` (${location})`;
   }
-  return <span dangerouslySetInnerHTML={{ __html: md.renderInline(dayTimeLocString) }} />;
+  const DTLSpan = <span dangerouslySetInnerHTML={{ __html: md.renderInline(DTLString) }} />;
+  if (link) {
+    return <a href={link} target="_blank" rel="noopener noreferrer">{DTLSpan}</a>;
+  } else{
+    return DTLSpan;
+  }
 }
 
 DayTimeLocation.propTypes = {
   day: PropTypes.string.isRequired,
   time: PropTypes.string.isRequired,
-  location: PropTypes.string
+  location: PropTypes.string,
+  link: PropTypes.string
 };
 
 export default DayTimeLocation;

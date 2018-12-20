@@ -9,6 +9,7 @@ import { Switch, Route } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
 import CourseInfoPage from './CourseInfoPage';
+import TAInfoPage from './TAInfoPage';
 import NoMatchPage from './NoMatchPage';
 import Navbar from '../components/Navbar';
 import { courseData } from '../CourseData';
@@ -40,9 +41,27 @@ function CoursePage({ match }) {
     navHeading.title = course.number;
     navHeading.path = `${matchUrl}/`;
     navLinks.push({
-      title: "Course Info",
+      title: 'Course Info',
       path: `${matchUrl}/`
     });
+
+    /*
+     * If there is TA info for the course, add route and navbar info for the TA page.
+     */
+    if (course.taInfo) {
+      routes.push(
+        <Route
+          exact
+          path={`${matchUrl}/ta-info`}
+          render={() => <TAInfoPage title={`${course.number} TA Info`} taInfo={course.taInfo} />}
+          key={routes.length}
+        />
+      );
+      navLinks.push({
+        title: 'TA Info',
+        path: `${matchUrl}/ta-info`
+      });
+    }
   }
 
   /*

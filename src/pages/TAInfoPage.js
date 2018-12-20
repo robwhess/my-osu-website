@@ -1,92 +1,86 @@
-import React, { Component } from 'react';
+/*
+ * This file contains a component for rendering a page to display info about
+ * a course's TAs.
+ */
+
+import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import styled from '@emotion/styled/macro';
+import FontAwesome from 'react-fontawesome';
 
-import CourseSubPage from './CourseSubPage';
-import '../styles/TAInfoPage.css';
+import PageContent from '../components/PageContent';
+import SectionBox from '../components/SectionBox';
+import DayTimeLocation from '../components/DayTimeLocation';
+import AngleList from '../components/AngleList';
 
-class TAInfoPage extends Component {
-
-  static propTypes = {
-    match: PropTypes.object.isRequired,
-    courseData: PropTypes.object.isRequired,
+const TAInfoSectionBox = styled(SectionBox)`
+  h1 {
+    margin: 10px 0;
   }
+`
 
-  generateHoursItemComponent(hoursItem) {
-    if (hoursItem.time && hoursItem.location) {
-      if (hoursItem.locationLink) {
-        return <span>{hoursItem.time} (<a href={hoursItem.locationLink}>{hoursItem.location}</a>)</span>
-      } else {
-        return <span>{hoursItem.time} ({hoursItem.location})</span>
-      }
-    } else {
-      return hoursItem;
-    }
+const TAInfoContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+`;
+
+const TAInfoItem = styled.div`
+  margin: 10px 20px;
+  h2 {
+    margin: 0;
   }
+`;
 
-  generateHoursListComponent(hoursList) {
-    if (hoursList) {
-      return hoursList.map((hoursItem, i) => (
-        <div key={i}>{this.generateHoursItemComponent(hoursItem)}</div>
-      ));
-    } else {
-      return null;
-    }
+const TAInfoData = styled.div`
+  padding-left: 28px;
+  h4 {
+    margin: 8px 0 0 0;
   }
+`;
 
-  generateTATableRowComponent(ta, key) {
-    var taGradingHoursComponent = null;
-    if (ta.gradingHoursPollLink) {
-      taGradingHoursComponent = <a href={ta.gradingHoursPollLink}>{this.generateHoursListComponent(ta.gradingHours)}</a>
-    } else if (ta.gradingHours) {
-      taGradingHoursComponent = this.generateHoursListComponent(ta.gradingHours);
-    }
-    return (
-      <tr key={key}>
-        <td><a href={"mailto:" + ta.email}>{ta.name}</a></td>
-        <td className="hours-list">{this.generateHoursListComponent(ta.officeHours)}</td>
-        <td className="hours-list">{taGradingHoursComponent}</td>
-      </tr>
-    );
-  }
+function TAInfoPage({ title, taInfo }) {
+  return (
+    <PageContent fullWidth>
+      <TAInfoSectionBox>
+        <h1>{title}</h1>
+        <TAInfoContainer>
+          {taInfo.map((ta, i) => (
+            <TAInfoItem key={i}>
+              <h2><FontAwesome name="angle-double-right" /> {ta.name}</h2>
+              <TAInfoData>
+                <a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a>
 
-  render() {
-    var { match, courseData } = this.props;
-    var taInfo = courseData.taInfo;
+                <h4>Office Hours</h4>
+                <AngleList singleAngle
+                  items={ta.officeHours.map((hours, j) => (
+                    <DayTimeLocation key={j} {...hours} />
+                  ))}
+                />
 
-    var officeHoursLocationComponent = null;
-    if (taInfo.officeHoursLocation) {
-      officeHoursLocationComponent = (
-        <span className="hours-location">({taInfo.officeHoursLocation})</span>
-      );
-    }
-
-    var gradingHoursLocationComponent = null;
-    if (taInfo.gradingHoursLocation) {
-      gradingHoursLocationComponent = (
-        <span className="hours-location">({taInfo.gradingHoursLocation})</span>
-      );
-    }
-    return (
-      <CourseSubPage contentClassName="ta-info-page" match={match} courseData={courseData}>
-        <Helmet title={"TA Info - " + courseData.number} />
-        <section className="info-table">
-          <h1>{courseData.number} TA Info</h1>
-          <table className="full-width-table alternating-table">
-            <tbody>
-              <tr>
-                <th className="bottom-align">TA Name</th>
-                <th className="bottom-align">Office Hours{officeHoursLocationComponent}</th>
-                <th className="bottom-align">Grading Hours{gradingHoursLocationComponent}</th>
-              </tr>
-
-            {taInfo.TAs.map(this.generateTATableRowComponent.bind(this))}
-            </tbody>
-          </table>
-        </section>
-      </CourseSubPage>
-    );
-  }
+                <h4>Grading Hours</h4>
+                <AngleList singleAngle
+                  items={ta.gradingHours.map((hours, j) => (
+                    <DayTimeLocation key={j} {...hours} />
+                  ))}
+                />
+              </TAInfoData>
+            </TAInfoItem>
+          ))}
+        </TAInfoContainer>
+      </TAInfoSectionBox>
+    </PageContent>
+  );
 }
+
+TAInfoPage.propTypes = {
+  title: PropTypes.string.isRequired,
+  taInfo: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+    officeHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes)),
+    gradingHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes))
+  })).isRequired
+};
 
 export default TAInfoPage;
