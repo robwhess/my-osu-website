@@ -14,7 +14,7 @@ import TitleLinkDescription from './TitleLinkDescription';
 const md = new MarkdownIt();
 
 const TopicsListContainer = styled.div`
-  h2 {
+  h2, h4 {
     margin: 0;
   }
 `;
@@ -37,6 +37,7 @@ function CourseTopicsList({ title, topics }) {
   return (
     <TopicsListContainer>
       {title ? <h2>{title}</h2> : null}
+      <h4>(click titles to expand)</h4>
       {topics.reverse().map((topic, i) => (
         <CollapsibleSection
           key={i}
