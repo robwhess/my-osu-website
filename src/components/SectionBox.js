@@ -7,7 +7,7 @@ import styled from '@emotion/styled/macro';
 
 const SectionBox = styled.section`
   padding: 10px 20px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #eee;
   border-radius: 5px;
   background-color: #fff;
 `;

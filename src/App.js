@@ -39,7 +39,7 @@ const globalStyles = css`
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    background-color: #eee;
+    background-color: #efefef;
   }
 
   * {

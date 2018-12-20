@@ -13,9 +13,9 @@ import { generateSitePath } from '../lib/SitePath';
 import breakpoints from '../lib/breakpoints';
 
 const NavbarContainer = styled.div`
-  box-sizing: border-box;
   width: 100%;
   padding-left: 20px;
+  border-bottom: ${props => props.subnav ? '1px solid #eee' : 'none'};
   display: flex;
   align-items: center;
   color: ${props => props.subnav ? '#333' : '#ddd'};

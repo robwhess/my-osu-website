@@ -100,7 +100,8 @@ CourseTopicsList.propTypes = {
       description: PropTypes.string,
     })),
     notes: PropTypes.arrayOf(PropTypes.string),
-    isCurrent: PropTypes.bool
+    isCurrent: PropTypes.bool,
+    weeks: PropTypes.arrayOf(PropTypes.number)
   })).isRequired,
 }
 
