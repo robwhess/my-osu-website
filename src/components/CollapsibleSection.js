@@ -11,25 +11,23 @@ const CollapsibleSectionContainer = styled.div`
   margin-top: 20px;
 `;
 
-const CollapseButton = styled.button`
+const CollapsibleSectionTitle = styled.button`
   display: inline-block;
   padding: 0;
   border: none;
+  text-align: left;
   font-size: 28px;
   color: inherit;
   background-color: inherit;
   cursor: pointer;
-  transform: ${props => props.collapsed ? 'rotate(-180deg)' : 'none'};
-  transition: transform 150ms ease;
 `;
 
-const CollapsibleSectionTitle = styled(CollapseButton)`
-  margin-right: 10px;
-  transform: none;
-  transition: none;
-  &:focus {
-    outline: none;
-  }
+
+const CollapsibleSectionAngleIndicator = styled.span`
+  display: inline-block;
+  margin-left: 5px;
+  transform: ${props => props.collapsed ? 'rotate(-180deg)' : 'none'};
+  transition: transform 150ms ease;
 `;
 
 const CollapsibleSectionChildrenContainer = styled.div`
@@ -56,16 +54,15 @@ class CollapsibleSection extends React.Component {
   render() {
     return (
       <CollapsibleSectionContainer>
-        <div>
-          <CollapsibleSectionTitle tabIndex="-1" onClick={this.toggleCollapsed}>
-            <FontAwesome name="angle-double-right" /> {this.props.title}
-          </CollapsibleSectionTitle>
-          <CollapseButton
-            onClick={this.toggleCollapsed}
-            collapsed={this.state.collapsed}>
+        <CollapsibleSectionTitle onClick={this.toggleCollapsed}>
+          <FontAwesome name="angle-double-right" />
+          &nbsp;
+          {this.props.title}
+          &nbsp;
+          <CollapsibleSectionAngleIndicator collapsed={this.state.collapsed}>
             <FontAwesome name="angle-down" />
-          </CollapseButton>
-        </div>
+          </CollapsibleSectionAngleIndicator>
+        </CollapsibleSectionTitle>
         <CollapsibleSectionChildrenContainer collapsed={this.state.collapsed}>
           {this.state.collapsed ? null : this.props.children}
         </CollapsibleSectionChildrenContainer>
