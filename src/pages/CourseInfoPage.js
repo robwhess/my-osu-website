@@ -15,7 +15,7 @@ import CourseTopicsList from '../components/CourseTopicsList';
 
 const CourseInfoPageSectionBox = styled(SectionBox)`
   margin: 5px;
-`
+`;
 
 function CourseInfoPage({ course }) {
   return (

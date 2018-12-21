@@ -10,6 +10,7 @@ import Helmet from 'react-helmet';
 
 import CourseInfoPage from './CourseInfoPage';
 import TAInfoPage from './TAInfoPage';
+import RecitationLabInfoPage from './RecitationLabInfoPage';
 import NoMatchPage from './NoMatchPage';
 import Navbar from '../components/Navbar';
 import { courseData } from '../CourseData';
@@ -60,6 +61,24 @@ function CoursePage({ match }) {
       navLinks.push({
         title: 'TAs',
         path: `${matchUrl}/tas`
+      });
+    }
+
+    /*
+     * If there is recitation info for the course, add route and navbar info for the recitation page.
+     */
+    if (course.recitations) {
+      routes.push(
+        <Route
+          exact
+          path={`${matchUrl}/recitations`}
+          render={() => <RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
+          key={routes.length}
+        />
+      );
+      navLinks.push({
+        title: 'Recitations',
+        path: `${matchUrl}/recitations`
       });
     }
   }
