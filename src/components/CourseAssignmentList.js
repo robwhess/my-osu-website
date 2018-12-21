@@ -77,10 +77,15 @@ function CourseAssignmentList({ title, assignments }) {
 
 CourseAssignmentList.propTypes = {
   title: PropTypes.string,
-  preamble: PropTypes.string,
-  assignments: PropTypes.arrayOf(PropTypes.shape({
-
-  })).isRequired
+  assignments: PropTypes.shape({
+    assignments: PropTypes.arrayOf(PropTypes.shape({
+      link: PropTypes.string,
+      title: PropTypes.string.isRequired,
+      due: PropTypes.shape(DayTimeLocation.propTypes),
+      notes: PropTypes.arrayOf(PropTypes.string)
+    })).isRequired,
+    preamble: PropTypes.string,
+  }).isRequired
 };
 
 export default CourseAssignmentList;

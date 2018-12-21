@@ -72,7 +72,7 @@ RecitationLabInfoPage.propTypes = {
     calendar: CourseTopicsList.propTypes.topics,
     sections: PropTypes.objectOf(PropTypes.shape({
       meeting: PropTypes.shape(DayTimeLocation.propTypes).isRequired,
-      ta: PropTypes.string.isRequired
+      tas: PropTypes.arrayOf(PropTypes.string).isRequired
     })).isRequired,
     policies: PropTypes.arrayOf(PropTypes.string).isRequired
   }).isRequired

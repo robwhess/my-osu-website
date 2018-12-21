@@ -28,9 +28,9 @@ function CourseList(props) {
   return (
     <CourseListList>
       {Object.keys(props.courses).map((course, i) => (
-        <CourseItem>
+        <CourseItem key={i}>
           <FontAwesome name="angle-double-right" /> &nbsp;
-          <Link key={i} to={generateSitePath(`/teaching/${course}-${props.term}`)}>
+          <Link to={generateSitePath(`/teaching/${course}-${props.term}`)}>
             {props.courses[course].number} &ndash; {props.courses[course].title}
           </Link>
         </CourseItem>

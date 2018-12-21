@@ -30,25 +30,27 @@ const AlternatingTableData = styled.td`
 function AlternatingTable({ headings, rows }) {
   return (
     <AlternatingTableTable>
-      {headings ?
-        <AlternatingTableRow even>
-          {headings.map((heading, i) => (
-            <AlternatingTableHeading key={i}>
-              {heading}
-            </AlternatingTableHeading>
-          ))}
-        </AlternatingTableRow> :
-        null
-      }
-      {rows.map((row, i) => (
-        <AlternatingTableRow key={i} even={!!(i % 2)}>
-          {row.map((column, j) => (
-            <AlternatingTableData key={j}>
-              {column}
-            </AlternatingTableData>
-          ))}
-        </AlternatingTableRow>
-      ))}
+      <tbody>
+        {headings ?
+          <AlternatingTableRow even>
+            {headings.map((heading, i) => (
+              <AlternatingTableHeading key={i}>
+                {heading}
+              </AlternatingTableHeading>
+            ))}
+          </AlternatingTableRow> :
+          null
+        }
+        {rows.map((row, i) => (
+          <AlternatingTableRow key={i} even={!!(i % 2)}>
+            {row.map((column, j) => (
+              <AlternatingTableData key={j}>
+                {column}
+              </AlternatingTableData>
+            ))}
+          </AlternatingTableRow>
+        ))}
+      </tbody>
     </AlternatingTableTable>
   );
 }

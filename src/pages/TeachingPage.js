@@ -13,8 +13,9 @@ import CourseList from '../components/CourseList';
 import { courseData } from '../CourseData';
 
 const TermInfoContainer = styled.div`
+  margin: 10px 0;
   h2 {
-    margin: 20px 0 5px 0;
+    margin: 0;
   }
 `;
 
