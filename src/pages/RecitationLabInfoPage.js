@@ -6,7 +6,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
 import MarkdownIt from 'markdown-it';
 
 import TwoColumnPageContent from '../components/TwoColumnPageContent';
@@ -14,6 +13,7 @@ import SectionBox from '../components/SectionBox';
 import CourseTopicsList from '../components/CourseTopicsList';
 import DayTimeLocation from '../components/DayTimeLocation';
 import AngleList from '../components/AngleList';
+import AlternatingTable from '../components/AlternatingTable';
 
 const md = new MarkdownIt();
 
@@ -27,20 +27,6 @@ const InfoPageSectionBox = styled(SectionBox)`
   }
 `;
 
-const SectionInfoItem = styled.div`
-  margin-bottom: 15px;
-  h3 {
-    margin: 0;
-  }
-`;
-
-const SectionInfoData = styled.div`
-  padding-left: 24px;
-  h4 {
-    margin: 4px 0 0 0;
-  }
-`;
-
 function RecitationLabInfoPage({ title, info }) {
   return (
     <TwoColumnPageContent
@@ -48,24 +34,23 @@ function RecitationLabInfoPage({ title, info }) {
         <React.Fragment>
           <InfoPageSectionBox>
             <h1>{title}</h1>
+            <h2>Sections</h2>
+            <AlternatingTable
+              headings={[ 'Section', 'Weekly Meeting', 'TA(s)' ]}
+              rows={Object.keys(info.sections).map((section) => [
+                  section,
+                    <DayTimeLocation {...info.sections[section].meeting} />,
+                <AngleList singleAngle noOneElementList items={info.sections[section].tas} />
+              ])}
+            />
+          </InfoPageSectionBox>
+          <InfoPageSectionBox>
             <h2>Policies</h2>
             <AngleList
               items={info.policies.map((policy) => (
                 <span dangerouslySetInnerHTML={{ __html: md.renderInline(policy) }} />
               ))}
             />
-          </InfoPageSectionBox>
-          <InfoPageSectionBox>
-            <h2>Sections</h2>
-            {Object.keys(info.sections).map((section, i) => (
-              <SectionInfoItem key={i}>
-                <h3><FontAwesome name="angle-double-right" /> Section {section}</h3>
-                <SectionInfoData>
-                  <h4><DayTimeLocation {...info.sections[section].meeting} /></h4>
-                  <h4>TA: {info.sections[section].ta}</h4>
-                </SectionInfoData>
-              </SectionInfoItem>
-            ))}
           </InfoPageSectionBox>
         </React.Fragment>
       }

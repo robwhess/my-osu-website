@@ -42,7 +42,7 @@ function AngleList(props) {
 }
 
 AngleList.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.element).isRequired,
+  items: PropTypes.arrayOf(PropTypes.node).isRequired,
   noOneElementList: PropTypes.bool,
   singleAngle: PropTypes.bool
 };
