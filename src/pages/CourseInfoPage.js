@@ -12,9 +12,13 @@ import SectionBox from '../components/SectionBox';
 import CourseEssentialInfo from '../components/CourseEssentialInfo';
 import CourseAssignmentList from '../components/CourseAssignmentList';
 import CourseTopicsList from '../components/CourseTopicsList';
+import breakpoints from '../lib/breakpoints';
 
 const CourseInfoPageContent = styled(PageContent)`
   display: flex;
+  @media (max-width: ${breakpoints[0]}px) {
+    flex-direction: column;
+  }
 `;
 
 const CourseInfoPageSectionBox = styled(SectionBox)`
