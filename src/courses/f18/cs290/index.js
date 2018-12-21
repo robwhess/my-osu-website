@@ -4,7 +4,7 @@ import TAInfoPage from '../../../pages/TAInfoPage';
 import topics from './topics';
 import { assignments, preamble as assignmentsPreamble } from './assignments';
 import { assignments as finalProjectAssignments, preamble as finalProjectPreamble } from './finalProject';
-import taInfo from './taInfo';
+import tas from './tas';
 
 var courseDetails = {
   number: 'CS 290',
@@ -57,7 +57,7 @@ var courseDetails = {
   finalProjectAssignments: finalProjectAssignments,
   finalProjectPreamble: finalProjectPreamble,
 
-  taInfo: taInfo,
+  tas: tas,
 
   subPages: {
     'ta-info': TAInfoPage

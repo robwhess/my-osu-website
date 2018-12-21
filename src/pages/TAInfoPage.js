@@ -39,13 +39,13 @@ const TAInfoData = styled.div`
   }
 `;
 
-function TAInfoPage({ title, taInfo }) {
+function TAInfoPage({ title, tas }) {
   return (
     <PageContent fullWidth>
       <TAInfoSectionBox>
         <h1>{title}</h1>
         <TAInfoContainer>
-          {taInfo.map((ta, i) => (
+          {tas.map((ta, i) => (
             <TAInfoItem key={i}>
               <h2><FontAwesome name="angle-double-right" /> {ta.name}</h2>
               <TAInfoData>
@@ -75,7 +75,7 @@ function TAInfoPage({ title, taInfo }) {
 
 TAInfoPage.propTypes = {
   title: PropTypes.string.isRequired,
-  taInfo: PropTypes.arrayOf(PropTypes.shape({
+  tas: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
     officeHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes)),

@@ -48,18 +48,18 @@ function CoursePage({ match }) {
     /*
      * If there is TA info for the course, add route and navbar info for the TA page.
      */
-    if (course.taInfo) {
+    if (course.tas) {
       routes.push(
         <Route
           exact
-          path={`${matchUrl}/ta-info`}
-          render={() => <TAInfoPage title={`${course.number} TA Info`} taInfo={course.taInfo} />}
+          path={`${matchUrl}/tas`}
+          render={() => <TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
           key={routes.length}
         />
       );
       navLinks.push({
-        title: 'TA Info',
-        path: `${matchUrl}/ta-info`
+        title: 'Teaching Assistants',
+        path: `${matchUrl}/tas`
       });
     }
   }
