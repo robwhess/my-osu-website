@@ -1,9 +1,8 @@
 import { generateSitePath } from '../../../lib/SitePath';
-import TAInfoPage from '../../../pages/TAInfoPage';
 
 import topics from './topics';
-import { assignments, preamble as assignmentsPreamble } from './assignments';
-import { assignments as finalProjectAssignments, preamble as finalProjectPreamble } from './finalProject';
+import assignments from './assignments';
+import finalProject from './finalProject';
 import tas from './tas';
 
 var courseDetails = {
@@ -52,16 +51,10 @@ var courseDetails = {
   topics: topics,
 
   assignments: assignments,
-  assignmentsPreamble: assignmentsPreamble,
 
-  finalProjectAssignments: finalProjectAssignments,
-  finalProjectPreamble: finalProjectPreamble,
+  finalProject: finalProject,
 
-  tas: tas,
-
-  subPages: {
-    'ta-info': TAInfoPage
-  }
+  tas: tas
 };
 
 export default courseDetails;

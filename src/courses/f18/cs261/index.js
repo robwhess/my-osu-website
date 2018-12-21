@@ -1,9 +1,9 @@
 import { generateSitePath } from '../../../lib/SitePath';
 
 import topics from './topics';
-import { assignments, preamble as assignmentsPreamble } from './assignments';
+import assignments from './assignments';
+import recitations from './recitations';
 import tas from './tas';
-import recitationInfo from './recitationInfo';
 import CS261CourseNotes from '../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
@@ -78,11 +78,10 @@ const courseDetails = {
   topics: topics,
 
   assignments: assignments,
-  assignmentsPreamble: assignmentsPreamble,
 
   tas: tas,
 
-  recitationInfo: recitationInfo
+  recitations: recitations
 };
 
 export default courseDetails;

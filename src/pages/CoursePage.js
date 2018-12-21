@@ -58,7 +58,7 @@ function CoursePage({ match }) {
         />
       );
       navLinks.push({
-        title: 'Teaching Assistants',
+        title: 'TAs',
         path: `${matchUrl}/tas`
       });
     }

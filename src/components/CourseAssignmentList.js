@@ -46,12 +46,12 @@ const DueDate = styled.p`
   color: #666;
 `
 
-function CourseAssignmentList({ title, preamble, assignments }) {
+function CourseAssignmentList({ title, assignments }) {
   return (
     <AssignmentListContainer>
       {title ? <h2>{title}</h2> : null}
-      {preamble ? <p dangerouslySetInnerHTML={{ __html: md.renderInline(preamble) }} /> : null}
-      {assignments.map((assignment, i) => (
+      {assignments.preamble ? <p dangerouslySetInnerHTML={{ __html: md.renderInline(assignments.preamble) }} /> : null}
+      {assignments.assignments.map((assignment, i) => (
         <Assignment key={i}>
           <h3><FontAwesome name="angle-double-right" /> <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /></h3>
           <AssignmentInfo>

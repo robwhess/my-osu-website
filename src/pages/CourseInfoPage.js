@@ -28,16 +28,14 @@ function CourseInfoPage({ course }) {
           <CourseInfoPageSectionBox>
             <CourseAssignmentList
               title="Assignments"
-              preamble={course.assignmentsPreamble}
               assignments={course.assignments}
             />
           </CourseInfoPageSectionBox>
-          {course.finalProjectAssignments ?
+          {course.finalProject ?
             <CourseInfoPageSectionBox>
               <CourseAssignmentList
                 title="Final Project"
-                preamble={course.finalProjectPreamble}
-                assignments={course.finalProjectAssignments}
+                assignments={course.finalProject}
               />
             </CourseInfoPageSectionBox> :
             null
