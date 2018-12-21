@@ -7,66 +7,51 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
-import PageContent from '../components/PageContent';
+import TwoColumnPageContent from '../components/TwoColumnPageContent';
 import SectionBox from '../components/SectionBox';
 import CourseEssentialInfo from '../components/CourseEssentialInfo';
 import CourseAssignmentList from '../components/CourseAssignmentList';
 import CourseTopicsList from '../components/CourseTopicsList';
-import breakpoints from '../lib/breakpoints';
-
-const CourseInfoPageContent = styled(PageContent)`
-  display: flex;
-  @media (max-width: ${breakpoints[0]}px) {
-    flex-direction: column;
-  }
-`;
 
 const CourseInfoPageSectionBox = styled(SectionBox)`
-  max-width: 100%;
   margin: 5px;
-`
-
-const PageColumn = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  flex: 1 1 50%;
 `
 
 function CourseInfoPage({ course }) {
   return (
-    <CourseInfoPageContent fullWidth>
-      <PageColumn>
-        <CourseInfoPageSectionBox>
-          <CourseEssentialInfo {...course} />
-        </CourseInfoPageSectionBox>
-        <CourseInfoPageSectionBox>
-          <CourseAssignmentList
-            title="Assignments"
-            preamble={course.assignmentsPreamble}
-            assignments={course.assignments}
-          />
-        </CourseInfoPageSectionBox>
-        {course.finalProjectAssignments ?
+    <TwoColumnPageContent
+      left={
+        <React.Fragment>
+          <CourseInfoPageSectionBox>
+            <CourseEssentialInfo {...course} />
+          </CourseInfoPageSectionBox>
           <CourseInfoPageSectionBox>
             <CourseAssignmentList
-              title="Final Project"
-              preamble={course.finalProjectPreamble}
-              assignments={course.finalProjectAssignments}
+              title="Assignments"
+              preamble={course.assignmentsPreamble}
+              assignments={course.assignments}
             />
-          </CourseInfoPageSectionBox> :
-          null
-        }
-      </PageColumn>
-
-      <PageColumn>
+          </CourseInfoPageSectionBox>
+          {course.finalProjectAssignments ?
+            <CourseInfoPageSectionBox>
+              <CourseAssignmentList
+                title="Final Project"
+                preamble={course.finalProjectPreamble}
+                assignments={course.finalProjectAssignments}
+              />
+            </CourseInfoPageSectionBox> :
+            null
+          }
+        </React.Fragment>
+      }
+      right={
         <CourseInfoPageSectionBox>
           <CourseTopicsList
             title="Course Topics"
             topics={course.topics} />
         </CourseInfoPageSectionBox>
-      </PageColumn>
-    </CourseInfoPageContent>
+      }
+    />
   );
 }
 
