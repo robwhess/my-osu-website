@@ -85,7 +85,7 @@ function CourseTopicsList({ title, topics }) {
             </CollapsibleSection>
           ))}
         </React.Fragment> :
-        <h3><FontAwesome name="angle-double-right" /> No topics defined yet.</h3>
+        <h3><FontAwesome name="angle-double-right" /> No topics listed yet.</h3>
       }
     </TopicsListContainer>
   );
