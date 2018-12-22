@@ -50,17 +50,18 @@ function CoursePage({ match }) {
      * If there is TA info for the course, add route and navbar info for the TA page.
      */
     if (course.tas) {
+      const taPageUrl = `${matchUrl}/tas`;
       routes.push(
         <Route
           exact
-          path={`${matchUrl}/tas`}
+          path={taPageUrl}
           render={() => <TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
           key={routes.length}
         />
       );
       navLinks.push({
         title: 'TAs',
-        path: `${matchUrl}/tas`
+        path: taPageUrl
       });
     }
 
@@ -68,17 +69,37 @@ function CoursePage({ match }) {
      * If there is recitation info for the course, add route and navbar info for the recitation page.
      */
     if (course.recitations) {
+      const recitationPageUrl = `${matchUrl}/recitations`;
       routes.push(
         <Route
           exact
-          path={`${matchUrl}/recitations`}
+          path={recitationPageUrl}
           render={() => <RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
           key={routes.length}
         />
       );
       navLinks.push({
         title: 'Recitations',
-        path: `${matchUrl}/recitations`
+        path: recitationPageUrl
+      });
+    }
+
+    /*
+     * If there is lab info for the course, add route and navbar info for the recitation page.
+     */
+    if (course.labs) {
+      const labPageUrl = `${matchUrl}/labs`;
+      routes.push(
+        <Route
+          exact
+          path={labPageUrl}
+          render={() => <RecitationLabInfoPage title={`${course.number} Labs`} info={course.labs} />}
+          key={routes.length}
+        />
+      );
+      navLinks.push({
+        title: 'Labs',
+        path: labPageUrl
       });
     }
   }
