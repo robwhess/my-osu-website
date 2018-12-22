@@ -1,85 +1,235 @@
-import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+/*
+ * This file contains a navbar component that can be used for both the primary
+ * site navbar and sub-navbars.
+ */
+
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, NavLink } from 'react-router-dom';
+import styled from '@emotion/styled/macro';
 import FontAwesome from 'react-fontawesome';
 
 import { generateSitePath } from '../lib/SitePath';
-import '../styles/Navbar.css';
+import breakpoints from '../lib/breakpoints';
 
-class Navbar extends Component {
+const NavbarContainer = styled.div`
+  width: 100%;
+  padding-left: 20px;
+  border-bottom: ${props => props.subnav ? '1px solid #eee' : 'none'};
+  display: flex;
+  align-items: center;
+  color: ${props => props.subnav ? '#333' : '#ddd'};
+  background-color: ${props => props.subnav ? '#fff' : '#333'};
+  font-weight: 100;
+  font-size: 20px;
+  a {
+    color: inherit;
+    display: block;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    flex-direction: column;
+    align-items: flex-start;
+    a {
+      display: inline-block;
+    }
+  }
+`;
+
+const NavbarHeading = styled.div`
+  flex: 0 0 auto;
+  display: inline-block;
+  a {
+    padding: 10px 0;
+  }
+`;
+
+const Nav = styled.nav`
+  flex: 1 0 auto;
+  a {
+    padding: 10px 20px;
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    a {
+      padding: 0;
+      margin: 10px 0;
+    }
+  }
+`;
+
+const NavList = styled.ul`
+  list-style-type: none;
+  margin: 0;
+  @media (max-width: ${breakpoints[0]}px) {
+    height: ${props => props.collapsed ? 0 : 'auto'};
+    overflow: hidden;
+  }
+`;
+
+const NavItem = styled.li`
+  display: inline-block;
+  position: relative;
+  float: ${props => props.right ? 'right' : 'initial'};
+  &:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  a.active {
+    box-shadow: inset 0 -2px 0 #d54f1e;
+  }
+  a:hover {
+    background-color: rgba(213, 79, 30, 0.2);
+    color: #333;
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    display: block;
+    float: initial;
+    position: relative;
+    &:hover, a:hover {
+      background-color: inherit;
+      color: inherit;
+    }
+    a.active {
+      box-shadow: none;
+    }
+  }
+`;
+
+const NavMenu = styled.ul`
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  list-style-type: none;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+  ${NavItem}:hover & {
+    display: block;
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    position: static;
+    display: initial;
+    font-size: inherit;
+    background-color: inherit;
+    color: inherit;
+    box-shadow: none;
+  }
+`;
+
+const NavMenuItem = styled.li `
+  a {
+    padding-left: 30px;
+    &:hover {
+      background-color: rgba(213, 79, 30, 0.2);
+      color: #333;
+    }
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    a {
+      margin-left: 20px;
+      &:hover {
+        background-color: inherit;
+        color: inherit;
+      }
+    }
+  }
+`;
+
+const CollapseButton = styled.button`
+  display: none;
+  padding: 0 12px;
+  border: none;
+  font-size: 18px;
+  color: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  &:focus {
+    outline:none
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    display: inline-block;
+    transform: ${props => props.collapsed ? 'rotate(-180deg)' : 'none'};
+    transition: transform 150ms ease;
+  }
+`;
+
+class Navbar extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      navbarCollapsed: true
+      collapsed: true
     };
-  }
-
-  generateLinkComponent(link) {
-    var { path, title, isExternal } = link;
-    if (isExternal) {
-      return <a href={path} target="_blank">{title}</a>;
-    } else {
-      return <NavLink exact to={generateSitePath(path)}>{title}</NavLink>;
-    }
-  }
-
-  generateNavMenuComponent(menu) {
-    if (menu) {
-      return (
-        <ul className="navmenu-list">
-          {menu.map((menuItem, i) => (
-            <li key={i} className="navmenu-item">
-              <NavLink exact to={generateSitePath(menuItem.path)}>{menuItem.title}</NavLink>
-            </li>
-          ))}
-        </ul>
-      );
-    } else {
-      return null;
-    }
+    this.toggleNavbarCollapsed = this.toggleNavbarCollapsed.bind(this);
+    this.generateNavItem = this.generateNavItem.bind(this);
   }
 
   toggleNavbarCollapsed() {
     this.setState({
-      navbarCollapsed: !this.state.navbarCollapsed
+      collapsed: !this.state.collapsed
     });
   }
 
-  render() {
-    var headingItems = this.props.links.filter((item) => item.isHeading);
-    var nonHeadingItems = this.props.links.filter((item) => (!item.isHeading));
-
+  generateNavItem(link, key) {
     return (
-      <nav className={"navbar" + (this.props.subnav ? " subnav" : "")}>
-
-        {headingItems.map((item, i) => (
-          <div className="heading" key={i}>
-            {this.generateLinkComponent(item)}
-          </div>
-        ))}
-
-        <div className="navbar-list-container">
-          <ul className={"navbar-list" + (this.state.navbarCollapsed ? " collapsed" : "")}>
-            {nonHeadingItems.map((item, i) => {
-              var { menu, isLink, isRight } = item;
-              var linkComponent = this.generateLinkComponent(item);
-              var navMenuComponent = this.generateNavMenuComponent(menu);
-              return (
-                <li key={i} className={"navitem" + (navMenuComponent ? " navmenu" : "") + (isLink ? " navlink" : "")+ (isRight ? " right" : "")}>
-                  {linkComponent}
-                  {navMenuComponent}
-                </li>
-              );
-            })}
-          </ul>
-          <div className="collapse-button" onClick={this.toggleNavbarCollapsed.bind(this)}>
-            <FontAwesome name="bars" />
-          </div>
-        </div>
-
-      </nav>
+      <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
+        {link.isExternal ?
+          <a href={link.path} target="_blank" rel="noopener noreferrer">{link.title}</a> :
+          <NavLink exact to={generateSitePath(link.path)}>{link.title}</NavLink>
+        }
+        {link.menu ?
+          <NavMenu>
+            {link.menu.map((menuItem, i) => (
+              <NavMenuItem key={i}>
+                <Link to={generateSitePath(menuItem.path)}>{menuItem.title}</Link>
+              </NavMenuItem>
+            ))}
+          </NavMenu> :
+          null
+        }
+      </NavItem>
     );
   }
+
+  render() {
+    return (
+      <NavbarContainer subnav={this.props.subnav} collapsed={this.state.collapsed}>
+        <NavbarHeading>
+          <Link to={generateSitePath(this.props.heading.path)}>{this.props.heading.title}</Link>
+          <CollapseButton onClick={this.toggleNavbarCollapsed} collapsed={this.state.collapsed}>
+            <FontAwesome name="angle-down" />
+          </CollapseButton>
+        </NavbarHeading>
+        <Nav>
+          <NavList collapsed={this.state.collapsed}>
+            {this.props.links.map(this.generateNavItem)}
+          </NavList>
+        </Nav>
+
+      </NavbarContainer>
+    );
+  }
+
 }
+
+Navbar.propTypes = {
+  links: PropTypes.array.isRequired,
+  heading: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired
+  }).isRequired,
+  subnav: PropTypes.bool
+};
+
+Navbar.defaultProps = {
+  subnav: false
+};
 
 export default Navbar;

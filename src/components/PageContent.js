@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import '../styles/PageContent.css';
+/*
+ * This file contains a component representing a lightweight wrapper for the
+ * main contents of a page.
+ */
 
-class PageContent extends Component {
-  render() {
-    return (
-      <main className={"content" + (this.props.contentClassName ? " " + this.props.contentClassName : "")}>
-        {this.props.children}
-      </main>
-    );
-  }
-}
+import styled from '@emotion/styled/macro';
+
+const PageContent = styled.main`
+  width: 95%;
+  margin: 25px auto;
+`;
 
 export default PageContent;

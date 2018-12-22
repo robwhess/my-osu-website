@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 
 import deviceData from './DeviceData.json';
@@ -8,7 +9,7 @@ import './AssignmentPage.css';
 class DeviceAssignmentPage extends Component {
 
   static propTypes = {
-    match: React.PropTypes.object.isRequired
+    match: PropTypes.object.isRequired
   }
 
   render() {
