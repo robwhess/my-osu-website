@@ -1,11 +1,131 @@
 const recitations = {
   calendar: [
     {
+      title: 'Week 10: No Recitation',
+      isCurrent: true,
+      notes: [
+        'No recitation this week.'
+      ]
+    },
+
+    {
+      title: 'Week 9: No Recitation',
+      notes: [
+        'No recitation this week.',
+        'Only section 018 will meet on Monday at 6pm to cover week 8\'s recitation material.'
+      ]
+    },
+
+    {
+      title: 'Week 8: Graph Representations',
+      resources: [
+        {
+          title: 'Recitation worksheet',
+          link: 'https://docs.google.com/document/d/1PjuSRUwXo16J_a0fwRmUg_JvxmT9uvYxcak3KPdEdaY/edit?usp=sharing',
+          description: 'Print this and bring it with you to recitation.'
+        },
+        {
+          title: 'Recitation Quiz Solutions',
+          link: 'https://docs.google.com/document/d/1QO2RDjNpLRWepcBsVt7VKx6suS3RlfkUJOnHbKY6fZ0/edit?usp=sharing'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 7: AVL Tree Operations',
+      resources: [
+        {
+          title: 'Recitation worksheet',
+          link: 'https://docs.google.com/document/d/1TTIe7OCqy6htYEl2kxfCLbYLAnDrgOqrSbNvAMPDx3k/edit?usp=sharing',
+          description: 'Print this and bring it with you to recitation.'
+        },
+        {
+          title: 'Recitation Worksheet Solutions',
+          link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrcXExc1pQdFM3ZTFXUHE4OFVGTFF1ajJ4TlE0'
+        },
+        {
+          title: 'Recitation Quiz Solutions',
+          link: 'https://docs.google.com/document/d/1OGgErCvtIBTfhdP8eRaVY6ivLdel0KT1TFUxwSPbVUM/edit?usp=sharing'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 6: Midterm Solutions review',
+      resources: [
+        {
+          title: 'No recitation worksheet this week.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 5: No Recitation',
+      notes: [
+        'No recitation this week.'
+      ]
+    },
+
+    {
+      title: 'Week 4: Set Operations with Ordered Arrays',
+      resources: [
+        {
+          title: 'Recitation worksheet',
+          link: 'https://docs.google.com/document/d/1NrevxgIlatWTj3fo4h5l4r7CMTsMBBQeNKCnlw-WHUk/edit?usp=sharing',
+          description: 'Print this and bring it with you to recitation.'
+        },
+        {
+          title: 'Recitation Worksheet Solutions',
+          link: 'https://docs.google.com/document/d/1QRWtPQWmulDyvKlqJ-UBsrc7ilNNARKLAcGeTcg0178/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation Quiz Solutions',
+          link: 'https://docs.google.com/document/d/1r15d63MLyoOFBaS7O96jhWG2hGVUJybYenchwcEJMus/edit?usp=sharing'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 3: Iterating through ADTs',
+      resources: [
+        {
+          title: 'Recitation worksheet',
+          link: 'https://docs.google.com/document/d/1c_3NsjNeVLlZkx46_VUs5I0D6KvGNursji3It-nL_QM/edit?usp=sharing',
+          description: 'Print this and bring it with you to recitation.'
+        },
+        {
+          title: 'Recitation Quiz Solutions',
+          link: 'https://docs.google.com/document/d/1wQzap-66QQBPirWaS-9ZXzaQOnmq32rYEM9mejTSl0I/edit?usp=sharing'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 2: Pointers and Program Memory in C',
+      resources: [
+        {
+          title: 'Recitation worksheet',
+          link: 'https://docs.google.com/document/d/1qLatGmhnC29_8rKXMd6OD80ZOQ6nppPlO3Duo9arLqc/edit?usp=sharing',
+          description: 'Print this and bring it with you to recitation.'
+        },
+        {
+          title: 'Recitation Worksheet Solutions',
+          link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrSVBtNmw0X3hobVhQTE1Xa3dVcHNfZWE4eHBN'
+        },
+        {
+          title: 'Recitation Quiz Solutions',
+          link: 'https://docs.google.com/document/d/1Tm0mPQMljeFRuWK505vWe4vq9vZzxDHpVz9Y6r1qlYM/edit?usp=sharing'
+        }
+      ]
+    },
+
+    {
       title: 'Week 1: Recitation Preparation',
       resources: [
         {
           title: 'CS 261 IT Basics',
-          link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing'
+          link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
+          description: 'Presentation slides.'
         },
         {
           title: 'Recitation worksheet',
