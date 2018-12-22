@@ -7,6 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import FontAwesome from 'react-fontawesome';
+import Helmet from 'react-helmet';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
@@ -42,6 +43,7 @@ const TAInfoData = styled.div`
 function TAInfoPage({ title, tas }) {
   return (
     <PageContent fullWidth>
+      <Helmet title={title} />
       <TAInfoSectionBox>
         <h1>{title}</h1>
         <TAInfoContainer>

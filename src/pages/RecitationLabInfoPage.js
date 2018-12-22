@@ -6,6 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
+import Helmet from 'react-helmet';
 import MarkdownIt from 'markdown-it';
 
 import TwoColumnPageContent from '../components/TwoColumnPageContent';
@@ -32,6 +33,7 @@ function RecitationLabInfoPage({ title, info }) {
     <TwoColumnPageContent
       left={
         <React.Fragment>
+          <Helmet title={title} />
           <InfoPageSectionBox>
             <h1>{title}</h1>
             <h2>Sections</h2>

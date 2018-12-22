@@ -21,8 +21,7 @@ const navHeading = {
 const navLinks = [
   {
     path: '/teaching',
-    title: 'Teaching',
-    isLink: true
+    title: 'Teaching'
   },
   {
     path: 'https://github.com/robwhess',

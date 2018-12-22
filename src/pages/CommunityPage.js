@@ -9,6 +9,7 @@
 /* eslint "jsx-a11y/anchor-is-valid": "off", "jsx-a11y/anchor-has-content": "off" */
 
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
@@ -16,6 +17,7 @@ import SectionBox from '../components/SectionBox';
 function CommunityPage() {
   return (
     <PageContent>
+      <Helmet title="Establishing a positive classroom community" />
       <SectionBox>
         <h1>Establishing a positive classroom community</h1>
 
