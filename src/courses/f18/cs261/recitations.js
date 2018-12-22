@@ -1,13 +1,6 @@
 const recitations = {
   calendar: [
     {
-      title: 'Week 0: No Recitation',
-      notes: [
-        'No recitation this week.'
-      ]
-    },
-
-    {
       title: 'Week 1: Recitation Preparation',
       resources: [
         {
@@ -24,6 +17,13 @@ const recitations = {
           link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/301eb52186fa405d80311b5827f9dfc1d15bce31/test.c',
           description: 'This is the C program you\'ll have to download as part of the week\'s recitation exercise.'
         }
+      ]
+    },
+
+    {
+      title: 'Week 0: No Recitation',
+      notes: [
+        'No recitation this week.'
       ]
     }
   ],
