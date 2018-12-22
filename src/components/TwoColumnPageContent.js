@@ -25,7 +25,7 @@ const Column = styled.div`
 
 function TwoColumnPageContent({ left, right }) {
   return (
-    <TwoColumnContainer fullWidth>
+    <TwoColumnContainer>
       <Column>{left}</Column>
       <Column>{right}</Column>
     </TwoColumnContainer>

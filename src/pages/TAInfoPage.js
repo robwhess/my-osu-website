@@ -42,7 +42,7 @@ const TAInfoData = styled.div`
 
 function TAInfoPage({ title, tas }) {
   return (
-    <PageContent fullWidth>
+    <PageContent>
       <Helmet title={title} />
       <TAInfoSectionBox>
         <h1>{title}</h1>

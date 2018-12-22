@@ -21,6 +21,9 @@ const HomePageSectionBox = styled(SectionBox)`
   max-width: 100%;
   margin: 5px;
   flex: 1 1 auto;
+  @media (max-width: ${breakpoints[0]}px) {
+    padding-bottom: 30px;
+  }
 `
 
 const TransprentFlexContainer = styled.div`
@@ -73,7 +76,7 @@ const AboutMeContainer = styled.div`
 
 function HomePage() {
   return (
-    <HomePageContent fullWidth>
+    <HomePageContent>
       <HomePageSectionBox>
         <TransprentFlexContainer>
           <HeadshotContainer>

@@ -5,15 +5,9 @@
 
 import styled from '@emotion/styled/macro';
 
-import breakpoints from '../lib/breakpoints';
-
 const PageContent = styled.main`
-  width: ${props => props.fullWidth ? '95%' : '67%'};
+  width: 95%;
   margin: 25px auto;
-
-  @media (max-width: ${breakpoints[0]}px) {
-    width: 95%;
-  }
 `;
 
 export default PageContent;
