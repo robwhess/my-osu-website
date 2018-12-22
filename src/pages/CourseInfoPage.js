@@ -25,12 +25,15 @@ function CourseInfoPage({ course }) {
           <CourseInfoPageSectionBox>
             <CourseEssentialInfo {...course} />
           </CourseInfoPageSectionBox>
-          <CourseInfoPageSectionBox>
-            <CourseAssignmentList
-              title="Assignments"
-              assignments={course.assignments}
-            />
-          </CourseInfoPageSectionBox>
+          {course.assignments ?
+            <CourseInfoPageSectionBox>
+              <CourseAssignmentList
+                title="Assignments"
+                assignments={course.assignments}
+              />
+            </CourseInfoPageSectionBox> :
+            null
+          }
           {course.finalProject ?
             <CourseInfoPageSectionBox>
               <CourseAssignmentList

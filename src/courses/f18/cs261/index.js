@@ -18,12 +18,12 @@ const courseDetails = {
   officeHours: [
     {
       day: 'Tues.',
-      time: '9:30&ndash;11:30am',
+      time: '9:30 &ndash; 11:30am',
       location: 'KEC 1109'
     },
     {
       day: 'Wed.',
-      time: '10:00&ndash;11:00am',
+      time: '10:00 &ndash; 11:00am',
       location: 'KEC 1109'
     }
   ],
@@ -31,12 +31,12 @@ const courseDetails = {
   lectures: {
     '001': {
       day: 'MWF',
-      time: '1:00&ndash;1:50pm',
+      time: '1:00 &ndash; 1:50pm',
       location: 'GLFN AUD'
     },
     '002': {
       day: 'MWF',
-      time: '9:00&ndash;9:50am',
+      time: '9:00 &ndash; 9:50am',
       location: 'DEAR 118'
     },
   },
@@ -44,12 +44,12 @@ const courseDetails = {
   finalExams: {
     '001': {
       day: 'Thurs. 12/6/2018',
-      time: '12:00&ndash;1:50pm',
+      time: '12:00 &ndash; 1:50pm',
       location: '~~GLFN AUD~~ **LINC 128**'
     },
     '002': {
       day: 'Mon. 12/3/2018',
-      time: '2:00&ndash;3:50pm',
+      time: '2:00 &ndash; 3:50pm',
       location: 'DEAR 118'
     },
   },

@@ -5,6 +5,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
+import FontAwesome from 'react-fontawesome';
 import MarkdownIt from 'markdown-it';
 
 import CollapsibleSection from './CollapsibleSection';
@@ -37,50 +38,55 @@ function CourseTopicsList({ title, topics }) {
   return (
     <TopicsListContainer>
       {title ? <h2>{title}</h2> : null}
-      <h4>(click titles to expand)</h4>
-      {topics.map((topic, i) => (
-        <CollapsibleSection
-          key={i}
-          collapsed={!topic.isCurrent}
-          title={topic.title}>
-          <Topic>
-            {topic.weeks ?
-              <h4>{generateWeeksString(topic.weeks)}</h4> :
-              null
-            }
-            {topic.resources ?
-              <div>
-                <h4>Resources</h4>
-                <AngleList singleAngle
-                  items={topic.resources.map((resource, j) => (
-                    <TitleLinkDescription key={j} {...resource} />
-                  ))} />
-              </div> :
-              null
-            }
-            {topic.readings ?
-              <div>
-                <h4>Readings</h4>
-                <AngleList singleAngle
-                  items={topic.readings.map((reading, j) => (
-                    <TitleLinkDescription key={j} {...reading} />
-                  ))} />
-              </div> :
-              null
-            }
-            {topic.notes ?
-              <div>
-                <h4>Notes</h4>
-                <AngleList singleAngle
-                  items={topic.notes.map((note, j) => (
-                    <span key={j} dangerouslySetInnerHTML={{ __html: md.renderInline(note) }} />
-                  ))} />
-              </div> :
-              null
-            }
-          </Topic>
-        </CollapsibleSection>
-      ))}
+      {topics ?
+        <React.Fragment>
+          <h4>(click titles to expand)</h4>
+          {topics.map((topic, i) => (
+            <CollapsibleSection
+              key={i}
+              collapsed={!topic.isCurrent}
+              title={topic.title}>
+              <Topic>
+                {topic.weeks ?
+                  <h4>{generateWeeksString(topic.weeks)}</h4> :
+                  null
+                }
+                {topic.resources ?
+                  <div>
+                    <h4>Resources</h4>
+                    <AngleList singleAngle
+                      items={topic.resources.map((resource, j) => (
+                        <TitleLinkDescription key={j} {...resource} />
+                      ))} />
+                  </div> :
+                  null
+                }
+                {topic.readings ?
+                  <div>
+                    <h4>Readings</h4>
+                    <AngleList singleAngle
+                      items={topic.readings.map((reading, j) => (
+                        <TitleLinkDescription key={j} {...reading} />
+                      ))} />
+                  </div> :
+                  null
+                }
+                {topic.notes ?
+                  <div>
+                    <h4>Notes</h4>
+                    <AngleList singleAngle
+                      items={topic.notes.map((note, j) => (
+                        <span key={j} dangerouslySetInnerHTML={{ __html: md.renderInline(note) }} />
+                      ))} />
+                  </div> :
+                  null
+                }
+              </Topic>
+            </CollapsibleSection>
+          ))}
+        </React.Fragment> :
+        <h3><FontAwesome name="angle-double-right" /> No topics defined yet.</h3>
+      }
     </TopicsListContainer>
   );
 }
