@@ -1,11 +1,13 @@
-// import cs290 from './cs290';
-// import cs261 from './cs261';
+import cs162 from './cs162';
+import cs391 from './cs391';
+import cs492 from './cs492';
 
 const termData = {
   title: "Winter 2019",
   courses: {
-    // cs261: cs261,
-    // cs290: cs290
+    cs162: cs162,
+    cs391: cs391,
+    cs492: cs492
   }
 };
 
