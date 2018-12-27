@@ -13,7 +13,7 @@ import TAInfoPage from './TAInfoPage';
 import RecitationLabInfoPage from './RecitationLabInfoPage';
 import NoMatchPage from './NoMatchPage';
 import Navbar from '../components/Navbar';
-import { courseData } from '../CourseData';
+import { courseData } from '../courses';
 
 function CoursePage({ match }) {
   const { courseNum, term } = match.params;

@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 
-import { currentTermData, currentTerm } from './CourseData';
+import { currentTermData, currentTerm } from './courses';
 import { generateSitePath } from './lib/SitePath';
 import breakpoints from './lib/breakpoints';
 import Navbar from './components/Navbar';

@@ -8,7 +8,7 @@ import styled from '@emotion/styled/macro';
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import CourseList from '../components/CourseList';
-import { currentTerm, currentTermData } from '../CourseData';
+import { currentTerm, currentTermData } from '../courses';
 import breakpoints from '../lib/breakpoints';
 import headshot from '../static/rob.jpg';
 

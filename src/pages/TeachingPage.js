@@ -10,7 +10,7 @@ import Helmet from 'react-helmet';
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import CourseList from '../components/CourseList';
-import { courseData } from '../CourseData';
+import { courseData } from '../courses';
 
 const TermInfoContainer = styled.div`
   margin: 10px 0;
