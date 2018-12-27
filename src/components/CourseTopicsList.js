@@ -38,7 +38,7 @@ function CourseTopicsList({ title, topics }) {
   return (
     <TopicsListContainer>
       {title ? <h2>{title}</h2> : null}
-      {topics ?
+      {topics && topics.length > 0 ?
         <React.Fragment>
           <h4>(click titles to expand)</h4>
           {topics.map((topic, i) => (
