@@ -53,19 +53,29 @@ function TAInfoPage({ title, tas }) {
               <TAInfoData>
                 <a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a>
 
-                <h4>Office Hours</h4>
-                <AngleList singleAngle
-                  items={ta.officeHours.map((hours, j) => (
-                    <DayTimeLocation key={j} {...hours} />
-                  ))}
-                />
+                {ta.officeHours ?
+                  <React.Fragment>
+                    <h4>Office Hours</h4>
+                    <AngleList singleAngle
+                      items={ta.officeHours.map((hours, j) => (
+                        <DayTimeLocation key={j} {...hours} />
+                      ))}
+                    />
+                  </React.Fragment> :
+                  null
+                }
 
-                <h4>Grading Hours</h4>
-                <AngleList singleAngle
-                  items={ta.gradingHours.map((hours, j) => (
-                    <DayTimeLocation key={j} {...hours} />
-                  ))}
-                />
+                {ta.gradingHours ?
+                  <React.Fragment>
+                    <h4>Grading Hours</h4>
+                    <AngleList singleAngle
+                      items={ta.gradingHours.map((hours, j) => (
+                        <DayTimeLocation key={j} {...hours} />
+                      ))}
+                    />
+                  </React.Fragment> :
+                  null
+                }
               </TAInfoData>
             </TAInfoItem>
           ))}

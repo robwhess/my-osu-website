@@ -10,7 +10,7 @@ import MarkdownIt from 'markdown-it';
 
 import DayTimeLocation from './DayTimeLocation';
 
-const md = new MarkdownIt();
+const md = new MarkdownIt({ breaks: true });
 
 const AssignmentListContainer = styled.div`
   h2 {
@@ -51,26 +51,29 @@ function CourseAssignmentList({ title, assignments }) {
     <AssignmentListContainer>
       {title ? <h2>{title}</h2> : null}
       {assignments.preamble ? <p dangerouslySetInnerHTML={{ __html: md.renderInline(assignments.preamble) }} /> : null}
-      {assignments.assignments.map((assignment, i) => (
-        <Assignment key={i}>
-          <h3><FontAwesome name="angle-double-right" /> <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /></h3>
-          <AssignmentInfo>
-            {assignment.due ?
-              <DueDate>Due: <DayTimeLocation {...assignment.due} /></DueDate> :
-              null
-            }
+      {assignments.assignments && assignments.assignments.length > 0 ?
+        assignments.assignments.map((assignment, i) => (
+          <Assignment key={i}>
+            <h3><FontAwesome name="angle-double-right" /> <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /></h3>
+            <AssignmentInfo>
+              {assignment.due ?
+                <DueDate>Due: <DayTimeLocation {...assignment.due} /></DueDate> :
+                null
+              }
 
-            {assignment.notes ?
-              <ul>
-                {assignment.notes.map((note, i) => (
-                  <li key={i} dangerouslySetInnerHTML={{ __html: md.renderInline(note) }} />
-                ))}
-              </ul> :
-              null
-            }
-          </AssignmentInfo>
-        </Assignment>
-      ))}
+              {assignment.notes ?
+                <ul>
+                  {assignment.notes.map((note, i) => (
+                    <li key={i} dangerouslySetInnerHTML={{ __html: md.renderInline(note) }} />
+                  ))}
+                </ul> :
+                null
+              }
+            </AssignmentInfo>
+          </Assignment>
+        )) :
+        <h3><FontAwesome name="angle-double-right" /> No assignments listed yet.</h3>
+        }
     </AssignmentListContainer>
   );
 }
