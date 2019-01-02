@@ -18,7 +18,7 @@ const recitations = {
         time: '2:00 &ndash; 2:50pm',
         location: 'Nash 204'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Johannes Freischuetz' ]
     },
     '017': {
       meeting: {
@@ -26,7 +26,7 @@ const recitations = {
         time: '3:00 &ndash; 3:50pm',
         location: 'KIDD 237'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Johannes Freischuetz' ]
     },
     '018': {
       meeting: {
@@ -34,7 +34,7 @@ const recitations = {
         time: '10:00 &ndash; 10:50am',
         location: 'STAG 263'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Mason Sidebottom' ]
     },
     '019': {
       meeting: {
@@ -42,7 +42,7 @@ const recitations = {
         time: '11:00 &ndash; 11:50am',
         location: 'BRC 136'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Alex Guyer' ]
     },
     '020': {
       meeting: {
@@ -50,7 +50,7 @@ const recitations = {
         time: '10:00 &ndash; 10:50am',
         location: 'PHAR 107'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Johannes Freischuetz' ]
     },
     '021': {
       meeting: {
@@ -58,7 +58,7 @@ const recitations = {
         time: '11:00 &ndash; 11:50am',
         location: 'GILK 108'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Johannes Freischuetz' ]
     },
     '022': {
       meeting: {
@@ -66,7 +66,7 @@ const recitations = {
         time: '2:00 &ndash; 2:50pm',
         location: 'Nash 204'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Alex Guyer' ]
     }
   },
 

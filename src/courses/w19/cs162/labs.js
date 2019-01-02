@@ -18,7 +18,7 @@ const recitations = {
         time: '10:00 &ndash; 11:50am',
         location: 'DEAR 222'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Kaitlin Hill', 'Jarrod Hollis', 'Fauzi Kliman' ]
     },
     '011': {
       meeting: {
@@ -26,7 +26,7 @@ const recitations = {
         time: '12:00 &ndash; 1:50pm',
         location: 'DEAR 222'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Benjamin Friedman', 'Jarrod Hollis', 'Fauzi Kliman' ]
     },
     '012': {
       meeting: {
@@ -34,7 +34,7 @@ const recitations = {
         time: '2:00 &ndash; 3:50pm',
         location: 'DEAR 222'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Benjamin Friedman', 'Burton Jaursch', 'Mason Sidebottom' ]
     },
     '013': {
       meeting: {
@@ -42,7 +42,7 @@ const recitations = {
         time: '2:00 &ndash; 3:50pm',
         location: 'DEAR 222'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Kaitlin Hill', 'Jarrod Hollis', 'Aiden Nelson' ]
     },
     '014': {
       meeting: {
@@ -50,7 +50,7 @@ const recitations = {
         time: '2:00 &ndash; 3:50pm',
         location: 'DEAR 222'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Jarrod Hollis', 'Aiden Nelson', 'Mason Sidebottom' ]
     },
     '015': {
       meeting: {
@@ -58,7 +58,7 @@ const recitations = {
         time: '2:00 &ndash; 3:50pm',
         location: 'DEAR 222'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Benjamin Friedman', 'Burton Jaursch', 'Fauzi Kliman' ]
     }
   },
 

@@ -21,22 +21,37 @@ const TAInfoSectionBox = styled(SectionBox)`
 `
 
 const TAInfoContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  ${'' /* display: flex;
+  flex-direction: column; */}
   margin-bottom: 20px;
 `;
 
 const TAInfoItem = styled.div`
-  margin: 10px 20px;
+  display: table-row;
   h2 {
     margin: 0;
   }
 `;
 
 const TAInfoData = styled.div`
+  display: table-cell;
+  padding: 25px;
+  border-bottom: 1px solid #eee;
+  h4 {
+    margin: 0;
+  }
+  &:first-child {
+    padding-left: 0;
+  }
+  ${TAInfoItem}:last-child & {
+    border-bottom: none;
+  }
+`;
+
+const TAEmail = styled.div`
   padding-left: 28px;
   h4 {
-    margin: 8px 0 0 0;
+    margin: 4px 0 0 0;
   }
 `;
 
@@ -49,34 +64,34 @@ function TAInfoPage({ title, tas }) {
         <TAInfoContainer>
           {tas.map((ta, i) => (
             <TAInfoItem key={i}>
-              <h2><FontAwesome name="angle-double-right" /> {ta.name}</h2>
               <TAInfoData>
-                <a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a>
-
-                {ta.officeHours ?
-                  <React.Fragment>
-                    <h4>Office Hours</h4>
-                    <AngleList singleAngle
-                      items={ta.officeHours.map((hours, j) => (
-                        <DayTimeLocation key={j} {...hours} />
-                      ))}
-                    />
-                  </React.Fragment> :
-                  null
-                }
-
-                {ta.gradingHours ?
-                  <React.Fragment>
-                    <h4>Grading Hours</h4>
-                    <AngleList singleAngle
-                      items={ta.gradingHours.map((hours, j) => (
-                        <DayTimeLocation key={j} {...hours} />
-                      ))}
-                    />
-                  </React.Fragment> :
-                  null
-                }
+                <h2><FontAwesome name="angle-double-right" /> {ta.name}</h2>
+                <TAEmail><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAEmail>
               </TAInfoData>
+
+              {ta.officeHours ?
+                <TAInfoData>
+                  <h4>Office Hours</h4>
+                  <AngleList singleAngle
+                    items={ta.officeHours.map((hours, j) => (
+                      <DayTimeLocation key={j} {...hours} />
+                    ))}
+                  />
+                </TAInfoData> :
+                  null
+              }
+
+              {ta.gradingHours ?
+                <TAInfoData>
+                  <h4>Grading Hours</h4>
+                  <AngleList singleAngle
+                    items={ta.gradingHours.map((hours, j) => (
+                      <DayTimeLocation key={j} {...hours} />
+                    ))}
+                  />
+                </TAInfoData> :
+                  null
+              }
             </TAInfoItem>
           ))}
         </TAInfoContainer>
