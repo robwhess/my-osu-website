@@ -21,8 +21,6 @@ const TAInfoSectionBox = styled(SectionBox)`
 `
 
 const TAInfoContainer = styled.div`
-  ${'' /* display: flex;
-  flex-direction: column; */}
   margin-bottom: 20px;
 `;
 
@@ -40,10 +38,10 @@ const TAInfoData = styled.div`
   h4 {
     margin: 0;
   }
-  &:first-child {
+  &:first-of-type {
     padding-left: 0;
   }
-  ${TAInfoItem}:last-child & {
+  ${TAInfoItem}:last-of-type & {
     border-bottom: none;
   }
 `;

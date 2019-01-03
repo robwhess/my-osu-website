@@ -34,7 +34,7 @@ const EssentialInfoHeading = styled.div`
     border-bottom: 1px solid #efefef;
     padding: 10px 15px 10px 0;
     font-weight: bold;
-    ${EssentialInfoItem}:last-child & {
+    ${EssentialInfoItem}:last-of-type & {
       border-bottom: 0;
     }
   }
@@ -47,7 +47,7 @@ const EssentialInfoData = styled.div`
   @media (max-width: ${breakpoints[0]}px) {
     border-bottom: 1px solid #efefef;
     padding: 10px 0;
-    ${EssentialInfoItem}:last-child & {
+    ${EssentialInfoItem}:last-of-type & {
       border-bottom: 0;
     }
   }
