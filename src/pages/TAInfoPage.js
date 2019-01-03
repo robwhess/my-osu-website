@@ -70,25 +70,27 @@ function TAInfoPage({ title, tas }) {
               {ta.officeHours ?
                 <TAInfoData>
                   <h4>Office Hours</h4>
-                  <AngleList singleAngle
+                  <AngleList
+                    singleAngle
                     items={ta.officeHours.map((hours, j) => (
                       <DayTimeLocation key={j} {...hours} />
                     ))}
                   />
                 </TAInfoData> :
-                  null
+                null
               }
 
               {ta.gradingHours ?
                 <TAInfoData>
                   <h4>Grading Hours</h4>
-                  <AngleList singleAngle
+                  <AngleList
+                    singleAngle
                     items={ta.gradingHours.map((hours, j) => (
                       <DayTimeLocation key={j} {...hours} />
                     ))}
                   />
                 </TAInfoData> :
-                  null
+                null
               }
             </TAInfoItem>
           ))}

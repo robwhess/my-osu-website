@@ -40,8 +40,8 @@ function RecitationLabInfoPage({ title, info }) {
             <AlternatingTable
               headings={[ 'Section', 'Weekly Meeting', 'TA(s)' ]}
               rows={Object.keys(info.sections).map((section) => [
-                  section,
-                    <DayTimeLocation {...info.sections[section].meeting} />,
+                section,
+                <DayTimeLocation {...info.sections[section].meeting} />,
                 <AngleList singleAngle noOneElementList items={info.sections[section].tas} />
               ])}
             />
