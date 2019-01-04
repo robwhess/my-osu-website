@@ -17,6 +17,11 @@ const recitations = {
         {
           title: 'Example design document',
           link: ExampleDesignDocument
+        },
+        {
+          title: 'Assignment 1 link',
+          link: 'https://classroom.github.com/a/rP9YUQXN',
+          description: 'on GitHub Classroom'
         }
       ]
     }

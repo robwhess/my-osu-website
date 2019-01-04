@@ -1,12 +1,21 @@
 const recitations = {
   calendar: [
     {
-      title: 'Week 1: TBD',
+      title: 'Lab 1: Git, GitHub, and C++ review',
+      weeks: [ 1, 2 ],
       isCurrent: true,
       resources: [
         {
-          title: 'TBD'
+          title: 'Lab description',
+          link: 'https://docs.google.com/document/d/1IrVJm1SPP2aOWi7w8fOoLFOszPgwGh0Gk4GuGO4ScGk/edit?usp=sharing'
+        },
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/oC3UOqv2'
         }
+      ],
+      notes: [
+        'This will be a 2-week lab.'
       ]
     }
   ],
