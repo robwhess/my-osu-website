@@ -19,8 +19,8 @@ const tas = [
     ]
   },
   {
-    name: "Fengfei Zheng",
-    email: "zhengfen@oregonstate.edu",
+    name: "Anand Koshy",
+    email: "koshya@oregonstate.edu",
     officeHours: [
       {
         day: 'TBD',
