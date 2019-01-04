@@ -1,4 +1,4 @@
-import CourseStyleGuidelines from '../../../static/162_style_guideline.pdf';
+import CourseStyleGuidelines from '../../../static/cs162-style-guidelines.pdf';
 
 const assignments = {
   assignments: [],

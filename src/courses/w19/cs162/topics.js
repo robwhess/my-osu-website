@@ -35,29 +35,33 @@ const topics = [
         description: 'LearnCpp.com'
       }
     ]
+  },
+
+  {
+    title: 'File I/O',
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1hWYCUBf9NL80O6PK-oH7sA0zMFEd8A3F8SAODc_0f9U/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Input/output with files',
+        link: 'http://www.cplusplus.com/doc/tutorial/files/',
+        description: 'cplusplus.com'
+      },
+      {
+        title: '18.6 - Basic file I/O',
+        link: 'http://www.learncpp.com/cpp-tutorial/186-basic-file-io/',
+        description: 'LearnCpp.com'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 2,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'File I/O &ndash; <a href="https://docs.google.com/document/d/1hWYCUBf9NL80O6PK-oH7sA0zMFEd8A3F8SAODc_0f9U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/file-io">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.cplusplus.com/doc/tutorial/files/">Input/output with files</a> &ndash; cplusplus.com',
-//           '<a href="http://www.learncpp.com/cpp-tutorial/186-basic-file-io/">18.6 - Basic file I/O</a> &ndash; LearnCpp.com'
-//           ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 3,
