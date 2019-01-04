@@ -23,6 +23,9 @@ const recitations = {
           link: 'https://classroom.github.com/a/rP9YUQXN',
           description: 'on GitHub Classroom'
         }
+      ],
+      notes: [
+        'Assignment 1 design due on Canvas by 11:59pm, Sunday 1/13/2019'
       ]
     }
   ],
