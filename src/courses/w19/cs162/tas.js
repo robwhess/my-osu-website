@@ -23,16 +23,22 @@ const tas = [
     email: "friedmab@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Wed.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'DEAR 119'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Mon.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'KEC 1174',
+        link: '#'
+      },
+      {
+        day: 'Mon.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC 1174',
         link: '#'
       }
     ]
@@ -61,9 +67,14 @@ const tas = [
     email: "hillkai@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Mon.',
+        time: '9:00 &ndash; 10:00am',
+        location: 'JOHN 220'
+      },
+      {
+        day: 'Wed.',
+        time: '9:00 &ndash; 10:00am',
+        location: 'JOHN 220'
       }
     ],
     gradingHours: [
@@ -80,16 +91,16 @@ const tas = [
     email: "hollisj@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Thurs.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'DEAR 119'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Wed.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC 1174',
         link: '#'
       }
     ]
@@ -137,16 +148,21 @@ const tas = [
     email: "nelsonai@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Wed.',
+        time: '9:30 &ndash; 11:00am',
+        location: 'JOHN 125'
+      },
+      {
+        day: 'Fri.',
+        time: '9:30 &ndash; 11:00am',
+        location: 'JOHN 125'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Mon.',
+        time: '1:00 &ndash; 3:00pm',
+        location: 'KEC 1174',
         link: '#'
       }
     ]
@@ -156,9 +172,9 @@ const tas = [
     email: "sidebotm@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Thurs.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'DEAR 119'
       }
     ],
     gradingHours: [
