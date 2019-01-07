@@ -35,7 +35,7 @@ const courseDetails = {
     }
   },
 
-  syllabusLink: '#',
+  syllabusLink: 'https://docs.google.com/document/d/19H1OQhx5CNJihha2Bpjo_tzNYM-ZTN8rLA5W5O7PZig/edit?usp=sharing',
 
   links: [
     {
