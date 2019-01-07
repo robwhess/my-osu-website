@@ -1,6 +1,7 @@
 import CourseStyleGuidelines from '../../../static/cs162-style-guidelines.pdf';
 
 const assignments = {
+  title: 'Assignments',
   assignments: [
     {
       link : 'https://classroom.github.com/a/rP9YUQXN',

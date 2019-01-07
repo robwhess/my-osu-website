@@ -51,7 +51,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignments: assignments,
+  assignmentGroups: [ assignments ],
 
   tas: tas,
 

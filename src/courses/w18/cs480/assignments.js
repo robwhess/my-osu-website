@@ -1,4 +1,5 @@
 const assignments = {
+  title: 'Assignments',
   assignments: [
     {
       link : 'https://classroom.github.com/a/MoVXmSsT',

@@ -25,24 +25,11 @@ function CourseInfoPage({ course }) {
           <CourseInfoPageSectionBox>
             <CourseEssentialInfo {...course} />
           </CourseInfoPageSectionBox>
-          {course.assignments ?
-            <CourseInfoPageSectionBox>
-              <CourseAssignmentList
-                title="Assignments"
-                assignments={course.assignments}
-              />
-            </CourseInfoPageSectionBox> :
-            null
-          }
-          {course.finalProject ?
-            <CourseInfoPageSectionBox>
-              <CourseAssignmentList
-                title="Final Project"
-                assignments={course.finalProject}
-              />
-            </CourseInfoPageSectionBox> :
-            null
-          }
+          {(course.assignmentGroups || []).map((assignmentGroup, i) => (
+            <CourseInfoPageSectionBox key={i}>
+              <CourseAssignmentList {...assignmentGroup} />
+            </CourseInfoPageSectionBox>
+          ))}
         </React.Fragment>
       }
       right={

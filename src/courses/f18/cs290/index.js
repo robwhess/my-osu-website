@@ -50,9 +50,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignments: assignments,
-
-  finalProject: finalProject,
+  assignmentGroups: [ assignments, finalProject ],
 
   tas: tas
 };

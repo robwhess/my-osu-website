@@ -56,7 +56,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignments: assignments
+  assignmentGroups: [ assignments ]
 };
 
 export default courseDetails;

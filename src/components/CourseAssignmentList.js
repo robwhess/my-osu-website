@@ -46,13 +46,13 @@ const DueDate = styled.p`
   color: #666;
 `
 
-function CourseAssignmentList({ title, assignments }) {
+function CourseAssignmentList({ title, assignments, preamble }) {
   return (
     <AssignmentListContainer>
       {title ? <h2>{title}</h2> : null}
-      {assignments.preamble ? <p dangerouslySetInnerHTML={{ __html: md.renderInline(assignments.preamble) }} /> : null}
-      {assignments.assignments && assignments.assignments.length > 0 ?
-        assignments.assignments.map((assignment, i) => (
+      {preamble ? <p dangerouslySetInnerHTML={{ __html: md.renderInline(preamble) }} /> : null}
+      {assignments && assignments.length > 0 ?
+        assignments.map((assignment, i) => (
           <Assignment key={i}>
             <h3><FontAwesome name="angle-double-right" /> <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /></h3>
             <AssignmentInfo>
@@ -80,15 +80,13 @@ function CourseAssignmentList({ title, assignments }) {
 
 CourseAssignmentList.propTypes = {
   title: PropTypes.string,
-  assignments: PropTypes.shape({
-    assignments: PropTypes.arrayOf(PropTypes.shape({
-      link: PropTypes.string,
-      title: PropTypes.string.isRequired,
-      due: PropTypes.shape(DayTimeLocation.propTypes),
-      notes: PropTypes.arrayOf(PropTypes.string)
-    })).isRequired,
-    preamble: PropTypes.string,
-  }).isRequired
+  assignments: PropTypes.arrayOf(PropTypes.shape({
+    link: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    due: PropTypes.shape(DayTimeLocation.propTypes),
+    notes: PropTypes.arrayOf(PropTypes.string)
+  })).isRequired,
+  preamble: PropTypes.string,
 };
 
 export default CourseAssignmentList;

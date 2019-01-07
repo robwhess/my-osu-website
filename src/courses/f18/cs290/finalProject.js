@@ -1,4 +1,5 @@
 const finalProject = {
+  title: 'Final Project',
   assignments: [
     {
       title: 'Final Project Description',
