@@ -129,16 +129,21 @@ const tas = [
     email: "klimanf@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Wed.',
+        time: '11:00am &ndash; 12:00pm',
+        location: 'JOHN 125'
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 12:00pm',
+        location: 'JOHN 125'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Thurs.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC 1174',
         link: '#'
       }
     ]
