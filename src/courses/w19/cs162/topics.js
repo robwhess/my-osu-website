@@ -1,5 +1,29 @@
 const topics = [
   {
+    title: 'Course Intro',
+    isCurrent: true,
+    weeks: [ 1 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1dWX-4PeCH2DFqYUj_Rqj5MtIRfZMiG8tDLd3-ZIRtRw/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'What is Object-Oriented Programming?',
+        link: 'https://medium.com/learn-how-to-program/chapter-3-what-is-object-oriented-programming-d0a6ec0a7615',
+        description: 'Richard Kenneth Eng (Chapter 3 of "Learn How To Program" on Medium)'
+      },
+      {
+        title: 'How to explain object-oriented programming concepts to a 6-year-old',
+        link: 'https://medium.freecodecamp.org/object-oriented-programming-concepts-21bb035f7260',
+        description: 'Alexander Petkov (on Medium\'s freeCodeCamp)'
+      }
+    ]
+  },
+
+  {
     title: 'Git and GitHub',
     isCurrent: true,
     weeks: [ 1 ],
