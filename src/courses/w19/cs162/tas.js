@@ -48,9 +48,14 @@ const tas = [
     email: "guyera@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Tues.',
+        time: '1:00 &ndash; 3:00pm',
+        location: 'DEAR 119'
+      },
+      {
+        day: 'Thurs.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'DEAR 119'
       }
     ],
     gradingHours: [
