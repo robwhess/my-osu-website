@@ -104,7 +104,7 @@ const tas = [
     gradingHours: [
       {
         day: 'Wed.',
-        time: '4:00 &ndash; 6:00pm',
+        time: '4:30 &ndash; 6:00pm',
         location: 'KEC 1174',
         link: '#'
       }
