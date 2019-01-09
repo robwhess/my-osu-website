@@ -50,6 +50,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1rc4tvvVOSXMGjdVDBgNT0tlQ-KJFOoY5nZ6t1kd7r8I/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/cpp-review',
+        description: 'code written in lecture'
       }
     ],
     readings: [
