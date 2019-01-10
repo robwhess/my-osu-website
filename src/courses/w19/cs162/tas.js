@@ -97,7 +97,7 @@ const tas = [
     officeHours: [
       {
         day: 'Thurs.',
-        time: '12:00 &ndash; 2:00pm',
+        time: '10:00am &ndash; 2:00pm',
         location: 'DEAR 119'
       }
     ],
