@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -25,7 +24,6 @@ const topics = [
 
   {
     title: 'Git and GitHub',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -69,6 +67,7 @@ const topics = [
   {
     title: 'File I/O',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -87,6 +86,39 @@ const topics = [
         description: 'LearnCpp.com'
       }
     ]
+  },
+
+  {
+    title: 'Separation of Files, Compilation, and Make',
+    weeks: [ 2, 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: '1.9 - Header files',
+        link: 'http://www.learncpp.com/cpp-tutorial/19-header-files/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: '1.10 - A first look at the preprocessor',
+        link: 'http://www.learncpp.com/cpp-tutorial/110-a-first-look-at-the-preprocessor/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: '1.10a - Header guards',
+        link: 'http://www.learncpp.com/cpp-tutorial/1-10a-header-guards/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Makefiles: A tutorial by example',
+        link: 'http://mrbook.org/blog/tutorials/make/',
+        description: 'Mrbook'
+      }
+    ]
   }
 ];
 
@@ -98,17 +130,17 @@ const topics = [
 //       {
 //         heading: 'Topics',
 //         entriesHTML: [
-//           'Separation of Files, Compilation, and Make &ndash; <a href="https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/compilation">example code</a>',
+//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/compilation">example code</a>',
 //           'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/class-basics">example code</a>'
 //         ]
 //       },
 //       {
 //         heading: 'Readings',
 //         entriesHTML: [
-//           '<a href="http://www.learncpp.com/cpp-tutorial/19-header-files/">1.9 - Header files</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.learncpp.com/cpp-tutorial/110-a-first-look-at-the-preprocessor/">1.10 - A first look at the preprocessor</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.learncpp.com/cpp-tutorial/1-10a-header-guards/">1.10a - Header guards</a> &ndash; LearnCpp.com',
-//           '<a href="http://mrbook.org/blog/tutorials/make/">Makefiles: A tutorial by example</a> &ndash; Mrbook',
+//           '<a href=""></a> &ndash; ',
+//           '<a href=""></a> &ndash; LearnCpp.com',
+//           '<a href=""></a> &ndash; LearnCpp.com',
+//           '<a href=""></a> &ndash; ',
 //           '<a href="http://www.learncpp.com/#Chapter8">Chapter 8 (Basic object-oriented programming)</a> &ndash; LearnCpp.com',
 //           '<a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes</a> &ndash; cplusplus.com'
 //         ]
