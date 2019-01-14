@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -40,29 +39,93 @@ const topics = [
         description: 'Columbia College'
       }
     ]
+  },
+
+  {
+    title: 'Foundations of Ethics',
+    isCurrent: true,
+    weeks: [ 1, 2 ],
+    resources: [
+      {
+        title: 'Questions on the Foundations of Ethics',
+        link: 'https://docs.google.com/document/d/1MIGYaL6yesB7gzYMVus8slosIM1kvSB5_PTMT3NTeI0/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'What is a Moral Issue?',
+        link: 'https://philosophy.lander.edu/ethics/issue.html',
+        description: 'philosophy.lander.edu'
+      },
+      {
+        title: 'Ethics: A General Introduction',
+        link: 'http://www.bbc.co.uk/ethics/introduction/intro_1.shtml',
+        description: 'BBC Ethics Guide'
+      },
+      {
+        title: 'The trolley problem',
+        link: 'https://en.wikipedia.org/wiki/Trolley_problem',
+        description: 'Wikipedia'
+      }
+    ]
+  },
+
+  {
+    title: 'Ethical Theories',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1getG6DdDkI-5NEL0mSzC7rF-t49gMo8wg-QFU5TsTyg/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Calculating Consequences: The Utilitarian Approach to Ethics',
+        link: 'https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/calculating-consequences-the-utilitarian-approach/',
+        description: 'Markkula Center for Applied Ethics at Santa Clara University'
+      },
+      {
+        title: 'Kantian Ethics',
+        link: 'https://www.csus.edu/indiv/g/gaskilld/ethics/kantian%20ethics.htm',
+        description: 'Dan Gaskill (CSU Sacramento)'
+      },
+      {
+        title: 'Rights',
+        link: 'https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/rights/',
+        description: 'Markkula Center for Applied Ethics at Santa Clara University'
+      },
+      {
+        title: 'The Common Good',
+        link: 'https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/the-common-good/',
+        description: 'Markkula Center for Applied Ethics at Santa Clara University'
+      },
+      {
+        title: 'Social Contract Theory',
+        link: 'https://www.iep.utm.edu/soc-cont/',
+        description: 'Internet Encyclopedia of Philosophy'
+      },
+      {
+        title: 'Justice and Fairness',
+        link: 'https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/justice-and-fairness/',
+        description: 'Markkula Center for Applied Ethics at Santa Clara University'
+      },
+      {
+        title: 'Ethics and Virtue',
+        link: 'https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/ethics-and-virtue/',
+        description: 'Markkula Center for Applied Ethics at Santa Clara University'
+      },
+      {
+        title: 'Virtue Ethics',
+        link: 'https://www.iep.utm.edu/virtue/',
+        description: 'Internet Encyclopedia of Philosophy'
+      }
+    ]
   }
 ];
 
 // calendar: [
-//   {
-//     week: 1,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Course Intro &ndash; <a href="https://docs.google.com/document/d/1BbRs0IJAN9Js-wCfrGH_ByztlOgTML6uMDdmY0iJixg/edit?usp=sharing">notes</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://people.oregonstate.edu/~vanlondp/cs391/writing.php">Writing Requirements</a> &ndash; Pam Van London\'s CS 391 Course',
-//           '<a href="http://people.oregonstate.edu/~vanlondp/cs391/research.php">Research Tools</a> &ndash; Pam Van London\'s CS 391 Course',
-//           '<a href=""></a> &ndash; ',
-//         ]
-//       }
-//     ]
-//   },
 //   {
 //     week: 2,
 //     sections: [
@@ -75,7 +138,7 @@ const topics = [
 //       {
 //         heading: 'Readings',
 //         entriesHTML: [
-//           '<a href="https://en.wikipedia.org/wiki/Trolley_problem">The trolley problem</a> &ndash; Wikipedia',
+//           '<a href="">The trolley problem</a> &ndash; Wikipedia',
 //           '<a href="https://www.nytimes.com/2016/09/02/technology/artificial-intelligence-ethics.html">How Tech Giants Are Devising Real Ethics for Artificial Intelligence</a> &ndash; NY Times',
 //           '<a href="http://spectrum.ieee.org/video/robotics/robotics-software/how-to-build-a-moral-robot">How to Build a Moral Robot</a> &ndash; IEEE Spectrum'
 //         ]
