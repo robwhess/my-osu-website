@@ -67,31 +67,35 @@ function TAInfoPage({ title, tas }) {
                 <TAEmail><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAEmail>
               </TAInfoData>
 
-              {ta.officeHours ?
-                <TAInfoData>
-                  <h4>Office Hours</h4>
-                  <AngleList
-                    singleAngle
-                    items={ta.officeHours.map((hours, j) => (
-                      <DayTimeLocation key={j} {...hours} />
-                    ))}
-                  />
-                </TAInfoData> :
-                null
-              }
+              <TAInfoData>
+                {ta.officeHours ?
+                  <React.Fragment>
+                    <h4>Office Hours</h4>
+                    <AngleList
+                      singleAngle
+                      items={ta.officeHours.map((hours, j) => (
+                        <DayTimeLocation key={j} {...hours} />
+                      ))}
+                    />
+                  </React.Fragment> :
+                  null
+                }
+              </TAInfoData>
 
-              {ta.gradingHours ?
-                <TAInfoData>
-                  <h4>Grading Hours</h4>
-                  <AngleList
-                    singleAngle
-                    items={ta.gradingHours.map((hours, j) => (
-                      <DayTimeLocation key={j} {...hours} />
-                    ))}
-                  />
-                </TAInfoData> :
-                null
-              }
+              <TAInfoData>
+                {ta.gradingHours ?
+                  <React.Fragment>
+                    <h4>Grading Hours</h4>
+                    <AngleList
+                      singleAngle
+                      items={ta.gradingHours.map((hours, j) => (
+                        <DayTimeLocation key={j} {...hours} />
+                      ))}
+                    />
+                  </React.Fragment> :
+                  null
+                }
+              </TAInfoData>
             </TAInfoItem>
           ))}
         </TAInfoContainer>

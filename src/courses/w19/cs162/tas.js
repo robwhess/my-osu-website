@@ -1,22 +1,7 @@
 const tas = [
   {
     name: "Johannes Freischuetz",
-    email: "freischj@oregonstate.edu",
-    officeHours: [
-      {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
-      }
-    ],
-    gradingHours: [
-      {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
-        link: '#'
-      }
-    ]
+    email: "freischj@oregonstate.edu"
   },
   {
     name: "Benjamin Friedman",
@@ -58,14 +43,6 @@ const tas = [
         location: 'DEAR 119'
       }
     ],
-    gradingHours: [
-      {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
-        link: '#'
-      }
-    ]
   },
   {
     name: "Kaitlin Hill",
@@ -84,10 +61,16 @@ const tas = [
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
-        link: '#'
+        day: 'Wed.',
+        time: '3:00 &ndash; 4:00pm',
+        location: 'KEC 1174',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUo2RXZFTlNxa0pFfGRlZmF1bHR8NzUzNTNkMDY4NmE3ZDIyZGMwYzE4MTQ2MWMzZmQyMzg'
+      },
+      {
+        day: 'Thurs.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC 1174',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUo2RXZFTlNxa0pFfGRlZmF1bHR8NzUzNTNkMDY4NmE3ZDIyZGMwYzE4MTQ2MWMzZmQyMzg'
       }
     ]
   },
