@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -37,7 +36,6 @@ const topics = [
 
   {
     title: 'Java',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -58,29 +56,60 @@ const topics = [
       }
     ]
   },
+
+  {
+    title: 'Getting Started with Android Studio',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/182E2WAi6A7IgaStmhQLK8aMUcSf1x71bteQ-L3iIom4/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Android Studio User Guide',
+        link: 'https://developer.android.com/studio/intro/index.html'
+      }
+    ]
+  },
+
+  {
+    title: 'Our First Android App: TODOs',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS492-W19/SimpleTodoApp'
+      }
+    ],
+    readings: [
+      {
+        title: 'Building Your First App',
+        link: 'https://developer.android.com/training/basics/firstapp/index.html',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Introduction to Activities',
+        link: 'https://developer.android.com/guide/components/activities/intro-activities.html',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Layouts',
+        link: 'https://developer.android.com/guide/topics/ui/declaring-layout.html',
+        description: 'Android Developers'
+      }
+    ]
+  }
 ];
 
 // var calendar = [
-//   {
-//     week: 1,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Course Intro &ndash; <a href="">notes</a>',
-//           ' &ndash; <a href="">notes</a>',
-//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/java">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href=""></a> &ndash; ',
-//           '<a href=""></a> &ndash; '
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 2,
@@ -88,18 +117,18 @@ const topics = [
 //       {
 //         heading: 'Topics',
 //         entriesHTML: [
-//           'Getting Started with Android Studio &ndash; <a href="https://docs.google.com/document/d/182E2WAi6A7IgaStmhQLK8aMUcSf1x71bteQ-L3iIom4/edit?usp=sharing">notes</a>',
-//           'Our First Android App: TODOs &ndash; <a href="https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/SimpleTODOs">example code</a>',
+//           ' &ndash; <a href="">notes</a>',
+//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/SimpleTODOs">example code</a>',
 //           'RecyclerView &ndash; <a href="https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewTODOs">example code</a>'
 //         ]
 //       },
 //       {
 //         heading: 'Readings',
 //         entriesHTML: [
-//           '<a href="https://developer.android.com/studio/intro/index.html">Android Studio User Guide</a>',
-//           '<a href="https://developer.android.com/training/basics/firstapp/index.html">Building Your First App</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/components/activities/intro-activities.html">Introduction to Activities</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/topics/ui/declaring-layout.html">Layouts</a> &ndash; Android Developers',
+//           '<a href=""></a>',
+//           '<a href=""></a> &ndash; ',
+//           '<a href=""></a> &ndash; Android Developers',
+//           '<a href=""></a> &ndash; Android Developers',
 //           '<a href="https://developer.android.com/guide/topics/ui/layout/recyclerview.html">RecyclerView</a> &ndash; Android Developers',
 //           '<a href="https://developer.android.com/training/material/lists-cards.html#RecyclerView">Creating Lists and Cards (Create Lists)</a> &ndash; Android Developers',
 //         ]
