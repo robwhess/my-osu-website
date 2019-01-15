@@ -4,16 +4,39 @@ const tas = [
     email: "baisettr@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Wed.',
+        time: '3:00 &ndash; 4:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 12:00pm',
+        location: 'KEC Atrium'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Wed.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium',
+        link: '#'
+      },
+      {
+        day: 'Fri.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'JOHN 123',
+        link: '#'
+      },
+      {
+        day: 'Fri.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'JOHN 121',
+        link: '#'
+      },
+      {
+        day: 'Fri.',
+        time: '4:00 &ndash; 7:00pm',
+        location: 'JOHN 125',
         link: '#'
       }
     ]
