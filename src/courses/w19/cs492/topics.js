@@ -69,8 +69,8 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Android Studio User Guide',
-        link: 'https://developer.android.com/studio/intro/index.html'
+        title: 'Meet Android Studio',
+        link: 'https://developer.android.com/studio/intro/'
       }
     ]
   },
@@ -86,23 +86,43 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/OSU-CS492-W19/SimpleTodoApp'
+        link: 'https://github.com/OSU-CS492-W19/SimpleTodoApp',
+        description: 'code written in lecture'
       }
     ],
     readings: [
       {
         title: 'Building Your First App',
-        link: 'https://developer.android.com/training/basics/firstapp/index.html',
+        link: 'https://developer.android.com/training/basics/firstapp/',
         description: 'Android Developers'
       },
       {
         title: 'Introduction to Activities',
-        link: 'https://developer.android.com/guide/components/activities/intro-activities.html',
+        link: 'https://developer.android.com/guide/components/activities/intro-activities',
         description: 'Android Developers'
       },
       {
         title: 'Layouts',
-        link: 'https://developer.android.com/guide/topics/ui/declaring-layout.html',
+        link: 'https://developer.android.com/guide/topics/ui/declaring-layout',
+        description: 'Android Developers'
+      }
+    ]
+  },
+
+  {
+    title: 'RecyclerView',
+    isCurrent: true,
+    weeks: [ 2, 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Create a List with RecyclerView',
+        link: 'https://developer.android.com/guide/topics/ui/layout/recyclerview',
         description: 'Android Developers'
       }
     ]
@@ -110,31 +130,6 @@ const topics = [
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 2,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           ' &ndash; <a href="">notes</a>',
-//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/SimpleTODOs">example code</a>',
-//           'RecyclerView &ndash; <a href="https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewTODOs">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href=""></a>',
-//           '<a href=""></a> &ndash; ',
-//           '<a href=""></a> &ndash; Android Developers',
-//           '<a href=""></a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/topics/ui/layout/recyclerview.html">RecyclerView</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/training/material/lists-cards.html#RecyclerView">Creating Lists and Cards (Create Lists)</a> &ndash; Android Developers',
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 3,
