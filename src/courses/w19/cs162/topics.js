@@ -72,6 +72,10 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hWYCUBf9NL80O6PK-oH7sA0zMFEd8A3F8SAODc_0f9U/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/file-io'
       }
     ],
     readings: [
