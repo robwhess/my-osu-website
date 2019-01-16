@@ -40,7 +40,7 @@ function CourseTopicsList({ title, topics }) {
       {title ? <h2>{title}</h2> : null}
       {topics && topics.length > 0 ?
         <React.Fragment>
-          <h4>(click titles to expand)</h4>
+          <h4>(click titles to expand/collapse)</h4>
           {topics.map((topic, i) => (
             <CollapsibleSection
               key={i}

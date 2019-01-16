@@ -95,6 +95,7 @@ const topics = [
   {
     title: 'Separation of Files, Compilation, and Make',
     weeks: [ 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
