@@ -80,7 +80,7 @@ const tas = [
     officeHours: [
       {
         day: 'Thurs.',
-        time: '10:00am &ndash; 2:00pm',
+        time: '11:00am &ndash; 2:00pm',
         location: 'DEAR 119'
       }
     ],
@@ -89,7 +89,7 @@ const tas = [
         day: 'Wed.',
         time: '4:30 &ndash; 6:00pm',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU95YXNpUFYwdzZGfGRlZmF1bHR8ODFmZTg2MjkzZDE3YmMyMDQwNTNkNmM4ZTJjZTJiZTY'
       }
     ]
   },
