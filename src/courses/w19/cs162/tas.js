@@ -18,13 +18,13 @@ const tas = [
         day: 'Mon.',
         time: '8:00 &ndash; 10:00am',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUl1U05VeDlmU3N1fGRlZmF1bHR8ZDIxNjk4MmZiNjQwY2QxZDZkNWQyYTdhZmNmZTliMTI'
       },
       {
         day: 'Mon.',
         time: '2:00 &ndash; 3:00pm',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUl1U05VeDlmU3N1fGRlZmF1bHR8ZDIxNjk4MmZiNjQwY2QxZDZkNWQyYTdhZmNmZTliMTI'
       }
     ]
   },
@@ -42,7 +42,7 @@ const tas = [
         time: '1:00 &ndash; 2:00pm',
         location: 'DEAR 119'
       }
-    ],
+    ]
   },
   {
     name: "Kaitlin Hill",
@@ -100,12 +100,12 @@ const tas = [
       {
         day: 'Wed.',
         time: '11:00am &ndash; 12:00pm',
-        location: 'TBD'
+        location: 'KEC Atrium'
       },
       {
         day: 'Fri.',
         time: '11:00am &ndash; 12:00pm',
-        location: 'TBD'
+        location: 'KEC Atrium'
       }
     ],
     gradingHours: [
@@ -113,7 +113,7 @@ const tas = [
         day: 'Tues.',
         time: '12:00 &ndash; 2:00pm',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUxpRVB5a3pZMy1xfGRlZmF1bHR8YmNhNTk5MzVlODIyN2FkODlmYjI5MTRkODEyMTdmOWM'
       }
     ]
   },
@@ -161,7 +161,7 @@ const tas = [
         day: 'Mon.',
         time: '1:00 &ndash; 3:00pm',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU0ydWlxc28wZnRvfGRlZmF1bHR8MzdhZGE1YmYwNDlhOThiMWZkN2IwNTlmYWRmYTMxN2U'
       }
     ]
   },
@@ -185,7 +185,7 @@ const tas = [
         day: 'Tues.',
         time: '12:00 &ndash; 1:50pm',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUExWWdOQWpabF9WfGRlZmF1bHR8NTEwYTE3ZmVlZWMwYmJlZDQyMjM0NzExNzNmZGJmOGI'
       }
     ]
   },
