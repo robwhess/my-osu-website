@@ -4,7 +4,6 @@ const recitations = {
   calendar: [
     {
       title: 'Week 1: Recitation Overview & Assignment 1 Design',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 162 recitation syllabus',
@@ -26,6 +25,15 @@ const recitations = {
       ],
       notes: [
         'Assignment 1 design due on Canvas by 11:59pm, Sunday 1/13/2019'
+      ]
+    },
+
+    {
+      title: 'Week 2: Assignment 1 Design Review',
+      isCurrent: true,
+      // resources: [],
+      notes: [
+        'In this week\'s recitation, your TA will review your assignment 1 designs and take questions on the assignment.'
       ]
     }
   ],

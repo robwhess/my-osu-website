@@ -98,16 +98,21 @@ const tas = [
     email: "jaurschb@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
+        day: 'Wed.',
+        time: '11:00am &ndash; 12:00pm',
+        location: 'TBD'
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 12:00pm',
         location: 'TBD'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Tues.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'KEC 1174',
         link: '#'
       }
     ]
@@ -132,7 +137,7 @@ const tas = [
         day: 'Thurs.',
         time: '10:00am &ndash; 12:00pm',
         location: 'KEC 1174',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUt4SmlQNXM3NHB2fGRlZmF1bHR8ODY3OTdiNWJmYzBhMDQ1NTVkYjkyYWY1YTZlYzM4NTg'
       }
     ]
   },
