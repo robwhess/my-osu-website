@@ -42,7 +42,6 @@ const topics = [
 
   {
     title: 'Review: Pointers, Arrays, and Structs',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -66,7 +65,7 @@ const topics = [
 
   {
     title: 'File I/O',
-    weeks: [ 2 ],
+    weeks: [ 2, 3 ],
     isCurrent: true,
     resources: [
       {
@@ -94,7 +93,7 @@ const topics = [
 
   {
     title: 'Separation of Files, Compilation, and Make',
-    weeks: [ 2, 3 ],
+    weeks: [ 3 ],
     isCurrent: true,
     resources: [
       {
@@ -124,34 +123,34 @@ const topics = [
         description: 'Mrbook'
       }
     ]
+  },
+
+  {
+    title: 'Classes',
+    weeks: [ 3, 4 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 8 (Basic object-oriented programming)',
+        link: 'http://www.learncpp.com/#Chapter8',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Classes',
+        link: 'http://www.cplusplus.com/doc/tutorial/classes/',
+        description: 'cplusplus.com'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 3,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/compilation">example code</a>',
-//           'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/class-basics">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href=""></a> &ndash; ',
-//           '<a href=""></a> &ndash; LearnCpp.com',
-//           '<a href=""></a> &ndash; LearnCpp.com',
-//           '<a href=""></a> &ndash; ',
-//           '<a href="http://www.learncpp.com/#Chapter8">Chapter 8 (Basic object-oriented programming)</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes</a> &ndash; cplusplus.com'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 4,
