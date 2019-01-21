@@ -3,7 +3,6 @@ const recitations = {
     {
       title: 'Lab 1: Git, GitHub, and C++ review',
       weeks: [ 1, 2 ],
-      isCurrent: true,
       resources: [
         {
           title: 'Lab description',
@@ -16,6 +15,18 @@ const recitations = {
       ],
       notes: [
         'This will be a 2-week lab.'
+      ]
+    },
+
+    {
+      title: 'Lab 3: File I/O',
+      weeks: [ 3 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/LtNEhHcp'
+        }
       ]
     }
   ],
