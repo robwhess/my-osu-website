@@ -43,7 +43,6 @@ const topics = [
 
   {
     title: 'Foundations of Ethics',
-    isCurrent: true,
     weeks: [ 1, 2 ],
     resources: [
       {
@@ -73,7 +72,7 @@ const topics = [
   {
     title: 'Ethical Theories',
     isCurrent: true,
-    weeks: [ 2 ],
+    weeks: [ 2, 3 ],
     resources: [
       {
         title: 'Lecture notes',

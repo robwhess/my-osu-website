@@ -76,7 +76,6 @@ const topics = [
 
   {
     title: 'Our First Android App: TODOs',
-    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -130,52 +129,82 @@ const topics = [
         description: 'Android Developers'
       }
     ]
+  },
+
+  {
+    title: 'User Interactions and RecyclerView',
+    isCurrent: true,
+    weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Toasts overview',
+        link: 'https://developer.android.com/guide/topics/ui/notifiers/toasts',
+        description: 'Android Developers'
+      },
+      {
+        title: 'ItemTouchHelper.SimpleCallback',
+        link: 'https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Drag and Swipe with RecyclerView',
+        link: 'https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf',
+        description: 'Paul Burke (Medium)'
+      }
+    ]
+  },
+
+  {
+    title: 'Fetching Internet Data using AsyncTask',
+    weeks: [ 3, 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'URL',
+        link: 'https://developer.android.com/reference/java/net/URL',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Uri.Builder',
+        link: 'https://developer.android.com/reference/android/net/Uri.Builder',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Processes and threads overview',
+        link: 'https://developer.android.com/guide/components/processes-and-threads',
+        description: 'Android Developers'
+      },
+      {
+        title: 'AsyncTask',
+        link: 'https://developer.android.com/reference/android/os/AsyncTask',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Permissions overview',
+        link: 'https://developer.android.com/guide/topics/permissions/overview',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Gson User Guide',
+        link: 'https://github.com/google/gson/blob/master/UserGuide.md',
+        description: 'on GitHub'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 3,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'User Interactions and RecyclerView &ndash; <a href="https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/RecyclerViewInteractions">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/guide/topics/ui/notifiers/toasts.html">Toasts</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback.html">ItemTouchHelper.SimpleCallback</a> &ndash; Android Developers',
-//         ]
-//       }
-//     ]
-//   },
-//
-//   {
-//     week: 4,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Fetching Internet Data using AsyncTask &ndash; <a href="https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearch">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/reference/java/net/URL.html">URL</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/reference/android/net/Uri.Builder.html">Uri.Builder</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/components/processes-and-threads.html">Processes and Threads</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/topics/permissions/index.html">Permissions</a> &ndash; Android Developers',
-//           '<a href="https://www.tutorialspoint.com/android/android_json_parser.htm">Android - JSON Parser</a> &ndash; TutorialsPoint'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 5,
