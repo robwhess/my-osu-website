@@ -31,9 +31,37 @@ const recitations = {
     {
       title: 'Week 2: Assignment 1 Design Review',
       isCurrent: true,
-      // resources: [],
+      resources: [
+        {
+          title: 'Week 2 quiz solutions',
+          link: 'https://docs.google.com/document/d/1DWx80uBSLQdw45yBltY-UB1U_-UiAf0C2SlEQzoYqho/edit?usp=sharing'
+        }
+      ],
       notes: [
         'In this week\'s recitation, your TA will review your assignment 1 designs and take questions on the assignment.'
+      ]
+    },
+
+    {
+      title: 'Week 3: Assignment 2 Design',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'CS 162 design document requirements',
+          link: 'https://docs.google.com/document/d/1_5AGiczmRTAi1IVLpYIfIXlLNfpS2oPLQegobG2KL1c/edit?usp=sharing'
+        },
+        {
+          title: 'Example design document',
+          link: ExampleDesignDocument
+        },
+        {
+          title: 'Assignment 2 link',
+          link: 'https://classroom.github.com/a/phbOO7kT',
+          description: 'on GitHub Classroom'
+        }
+      ],
+      notes: [
+        'Assignment 2 design due on Canvas by 11:59pm, Sunday 1/27/2019'
       ]
     }
   ],
