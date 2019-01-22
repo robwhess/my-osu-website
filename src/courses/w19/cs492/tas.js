@@ -61,19 +61,19 @@ const tas = [
         day: 'Tues.',
         time: '4:30 &ndash; 7:00pm',
         location: 'Covell 140, Table 3',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI'
       },
       {
         day: 'Wed.',
         time: '3:00 &ndash; 4:30pm',
         location: 'Covell 140, Table 3',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI'
       },
       {
         day: 'Fri.',
         time: '5:00 &ndash; 7:00pm',
         location: 'Covell 140, Table 3',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI'
       }
     ]
   }
