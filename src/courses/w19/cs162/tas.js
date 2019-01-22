@@ -1,7 +1,14 @@
 const tas = [
   {
     name: "Johannes Freischuetz",
-    email: "freischj@oregonstate.edu"
+    email: "freischj@oregonstate.edu",
+    officeHours: [
+      {
+        day: 'Tues.',
+        time: '10:00 &ndash; 11:00am',
+        location: 'DEAR 119'
+      }
+    ]
   },
   {
     name: "Benjamin Friedman",
