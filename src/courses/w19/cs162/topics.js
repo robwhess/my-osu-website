@@ -74,7 +74,8 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/OSU-CS162-W19/file-io'
+        link: 'https://github.com/OSU-CS162-W19/file-io',
+        description: 'code written in lecture'
       }
     ],
     readings: [
@@ -133,6 +134,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/class-basics',
+        description: 'code written in lecture'
       }
     ],
     readings: [
