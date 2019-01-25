@@ -121,7 +121,73 @@ const topics = [
         description: 'Internet Encyclopedia of Philosophy'
       }
     ]
-  }
+  },
+
+  {
+    title: 'Professional Ethics',
+    isCurrent: true,
+    weeks: [ 3 ],
+    readings: [
+      {
+        title: 'ACM Code of Ethics and Professional Conduct',
+        link: 'https://www.acm.org/code-of-ethics',
+        description: 'Association for Computing Machinery'
+      },
+      {
+        title: 'IEEE Code of Ethics',
+        link: 'https://www.ieee.org/about/corporate/governance/p7-8.html',
+        description: 'Institute of Electrical and Electronics Engineers'
+      },
+      {
+        title: 'Artificial Intelligence at Google: Our Principles',
+        link: 'https://ai.google/principles/',
+        description: 'Google AI'
+      }
+    ]
+  },
+
+  // {
+  //   title: 'Risks, Harm, and Accountability',
+  //   isCurrent: true,
+  //   weeks: [ 4 ],
+  //   readings: [
+  //     {
+  //       title: 'Computing and Moral Responsibility',
+  //       link: 'https://plato.stanford.edu/entries/computing-responsibility/',
+  //       description: 'Stanford Encyclopedia of Philosophy'
+  //     },
+  //     {
+  //       title: 'Killed by a Machine: The Therac-25',
+  //       link: 'https://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/',
+  //       description: 'Adam Fabio (Hackaday)'
+  //     },
+  //     {
+  //       title: 'The Therac-25: 30 Years Later',
+  //       link: 'https://www.computer.org/csdl/mags/co/2017/11/mco2017110008.html',
+  //       description: 'Nancy G. Leveson (Computer Magazine)'
+  //     },
+  //     {
+  //       title: 'Hawaii’s missile alert interface had a one-word difference between sending a test alert and a real one',
+  //       link: 'https://www.theverge.com/2018/1/16/16896368/hawaii-false-missile-alert-system-confusing-interface-poor-design',
+  //       description: 'Shannon Liao (The Verge)'
+  //     },
+  //     {
+  //       title: 'Man sues Hawaii, blaming false missile alert for heart attack',
+  //       link: 'https://www.reuters.com/article/us-usa-missiles/startled-by-false-missile-alert-man-sues-hawaii-for-heart-attack-idUSKCN1NX26M',
+  //       description: 'Reuters'
+  //     },
+  //     {
+  //       title: '',
+  //       link: '',
+  //       description: ''
+  //     },
+  //     {
+  //       title: '',
+  //       link: '',
+  //       description: ''
+  //     }
+  //   ]
+  // }
 ];
 
 // calendar: [
