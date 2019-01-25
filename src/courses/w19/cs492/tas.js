@@ -19,25 +19,25 @@ const tas = [
         day: 'Wed.',
         time: '2:00 &ndash; 3:00pm',
         location: 'KEC Atrium',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUk5UGoxTWhXdmhnfGRlZmF1bHR8NTRhY2M5ZjlmZWNlOGQzM2U0MzdmNWQyYzhhNWU2MWM'
       },
       {
         day: 'Fri.',
         time: '1:00 &ndash; 2:00pm',
         location: 'JOHN 123',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUk5UGoxTWhXdmhnfGRlZmF1bHR8NTRhY2M5ZjlmZWNlOGQzM2U0MzdmNWQyYzhhNWU2MWM'
       },
       {
         day: 'Fri.',
         time: '2:00 &ndash; 3:00pm',
         location: 'JOHN 121',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUk5UGoxTWhXdmhnfGRlZmF1bHR8NTRhY2M5ZjlmZWNlOGQzM2U0MzdmNWQyYzhhNWU2MWM'
       },
       {
         day: 'Fri.',
         time: '4:00 &ndash; 7:00pm',
         location: 'JOHN 125',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUk5UGoxTWhXdmhnfGRlZmF1bHR8NTRhY2M5ZjlmZWNlOGQzM2U0MzdmNWQyYzhhNWU2MWM'
       }
     ]
   },

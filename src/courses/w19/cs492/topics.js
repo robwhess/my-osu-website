@@ -167,7 +167,7 @@ const topics = [
 
   {
     title: 'Fetching Internet Data using AsyncTask',
-    weeks: [ 3, 4 ],
+    weeks: [ 4 ],
     resources: [
       {
         title: 'Lecture notes',
