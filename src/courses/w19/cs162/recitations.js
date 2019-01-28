@@ -30,7 +30,6 @@ const recitations = {
 
     {
       title: 'Week 2: Assignment 1 Design Review',
-      isCurrent: true,
       resources: [
         {
           title: 'Week 2 quiz solutions',
@@ -62,6 +61,14 @@ const recitations = {
       ],
       notes: [
         'Assignment 2 design due on Canvas by 11:59pm, Sunday 1/27/2019'
+      ]
+    },
+
+    {
+      title: 'Week 4: Assignment 2 Design Review',
+      isCurrent: true,
+      notes: [
+        'In this week\'s recitation, your TA will review your assignment 2 designs and take questions on the assignment.'
       ]
     }
   ],

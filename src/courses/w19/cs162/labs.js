@@ -6,7 +6,8 @@ const recitations = {
       resources: [
         {
           title: 'Lab description',
-          link: 'https://docs.google.com/document/d/1IrVJm1SPP2aOWi7w8fOoLFOszPgwGh0Gk4GuGO4ScGk/edit?usp=sharing'
+          link: 'https://docs.google.com/document/d/1IrVJm1SPP2aOWi7w8fOoLFOszPgwGh0Gk4GuGO4ScGk/edit?usp=sharing',
+          description: 'on Google Docs'
         },
         {
           title: 'GitHub Classroom link for lab',
@@ -21,11 +22,27 @@ const recitations = {
     {
       title: 'Lab 3: File I/O',
       weeks: [ 3 ],
-      isCurrent: true,
       resources: [
         {
           title: 'GitHub Classroom link for lab',
           link: 'https://classroom.github.com/a/LtNEhHcp'
+        }
+      ]
+    },
+
+    {
+      title: 'Lab 4: Classes and OOP',
+      weeks: [ 4 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/yKSGJWwb'
+        },
+        {
+          title: 'Lab description',
+          link: 'https://docs.google.com/document/d/1MN-PX8HAxpi7eagDanX5TR2F1E-tyVJf7_tMpxZCQ5w/edit?usp=sharing',
+          description: 'on Google Docs'
         }
       ]
     }
