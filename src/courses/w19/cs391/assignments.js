@@ -20,6 +20,14 @@ const assignments = {
         day: 'Monday, 1/28/2019',
         time: '11:59pm'
       }
+    },
+    {
+      link : 'https://docs.google.com/document/d/1Wf-qT456QI4U5acXBotLLpy3OvLb-ov_RbPZqUf49ck/edit?usp=sharing',
+      title: 'Assignment 2 &ndash; Assessing Accountability',
+      due: {
+        day: 'Monday, 2/11/2019',
+        time: '11:59pm'
+      }
     }
   ],
 
