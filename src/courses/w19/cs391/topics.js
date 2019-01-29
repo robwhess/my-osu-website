@@ -124,8 +124,13 @@ const topics = [
 
   {
     title: 'Professional Ethics',
-    isCurrent: true,
     weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Notes and questions',
+        link: 'https://docs.google.com/document/d/1IbIFU4mVMuH1IYrmhi-Taz5aIpqLVEnEc7WcU6fSzZc/edit?usp=sharing'
+      }
+    ],
     readings: [
       {
         title: 'ACM Code of Ethics and Professional Conduct',
@@ -149,6 +154,12 @@ const topics = [
     title: 'Risks, Harm, and Accountability',
     isCurrent: true,
     weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Notes and questions',
+        link: 'https://docs.google.com/document/d/1pQa-23QMXU30V-q3PBGuzCYpCpyhnwrXKB9srNohL0Q/edit?usp=sharing'
+      }
+    ],
     readings: [
       {
         title: 'Computing and Moral Responsibility',
@@ -174,17 +185,59 @@ const topics = [
         title: 'Man sues Hawaii, blaming false missile alert for heart attack',
         link: 'https://www.reuters.com/article/us-usa-missiles/startled-by-false-missile-alert-man-sues-hawaii-for-heart-attack-idUSKCN1NX26M',
         description: 'Reuters'
+      }
+    ]
+  },
+
+  {
+    title: 'Whistleblowing',
+    weeks: [ 4, 5 ],
+    readings: [
+      {
+        title: 'Encouraging Internal Whistleblowing in Organizations',
+        link: 'https://www.scu.edu/ethics/focus-areas/business-ethics/resources/encouraging-internal-whistleblowing/',
+        description: 'Lilanthi Ravishankar (Markkula Center for Applied Ethics at Santa Clara University)'
       },
-      // {
-      //   title: '',
-      //   link: '',
-      //   description: ''
-      // },
-      // {
-      //   title: '',
-      //   link: '',
-      //   description: ''
-      // }
+      {
+        title: 'Whistle Blowing in the Public Sector',
+        link: 'https://www.scu.edu/government-ethics/resources/what-is-government-ethics/whistle-blowing-in-the-public-sector/',
+        description: 'Judy Nadler and Miriam Schulman (Markkula Center for Applied Ethics at Santa Clara University)'
+      },
+      {
+        title: 'United States of Secrets',
+        link: 'https://www.pbs.org/wgbh/frontline/film/united-states-of-secrets/#united-states-of-secrets',
+        description: 'Frontline (a two-part video series)'
+      },
+      {
+        title: 'Edward Snowden - Global surveillance disclosures',
+        link: 'https://en.wikipedia.org/wiki/Edward_Snowden#Global_surveillance_disclosures',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Edward Snowden - Criminal charges',
+        link: 'https://en.wikipedia.org/wiki/Edward_Snowden#Criminal_charges',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Edward Snowden - Reaction',
+        link: 'https://en.wikipedia.org/wiki/Edward_Snowden#Reaction',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Chelsea Manning - Publication of leaked material',
+        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning#Publication_of_leaked_material',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Chelsea Manning - Legal proceedings',
+        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning#Legal_proceedings',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Chelsea Manning - Reaction to disclosures',
+        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning#Reaction_to_disclosures',
+        description: 'Wikipedia'
+      }
     ]
   }
 ];
