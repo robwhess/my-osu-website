@@ -66,7 +66,6 @@ const topics = [
   {
     title: 'File I/O',
     weeks: [ 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -88,40 +87,6 @@ const topics = [
         title: '18.6 - Basic file I/O',
         link: 'http://www.learncpp.com/cpp-tutorial/186-basic-file-io/',
         description: 'LearnCpp.com'
-      }
-    ]
-  },
-
-  {
-    title: 'Separation of Files, Compilation, and Make',
-    weeks: [ 3 ],
-    isCurrent: true,
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing'
-      }
-    ],
-    readings: [
-      {
-        title: '1.9 - Header files',
-        link: 'http://www.learncpp.com/cpp-tutorial/19-header-files/',
-        description: 'LearnCpp.com'
-      },
-      {
-        title: '1.10 - A first look at the preprocessor',
-        link: 'http://www.learncpp.com/cpp-tutorial/110-a-first-look-at-the-preprocessor/',
-        description: 'LearnCpp.com'
-      },
-      {
-        title: '1.10a - Header guards',
-        link: 'http://www.learncpp.com/cpp-tutorial/1-10a-header-guards/',
-        description: 'LearnCpp.com'
-      },
-      {
-        title: 'Makefiles: A tutorial by example',
-        link: 'http://mrbook.org/blog/tutorials/make/',
-        description: 'Mrbook'
       }
     ]
   },
@@ -151,6 +116,40 @@ const topics = [
         title: 'Classes',
         link: 'http://www.cplusplus.com/doc/tutorial/classes/',
         description: 'cplusplus.com'
+      }
+    ]
+  },
+
+  {
+    title: 'Separation of Files, Compilation, and Make',
+    weeks: [ 4 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: '1.9 - Header files',
+        link: 'http://www.learncpp.com/cpp-tutorial/19-header-files/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: '1.10 - A first look at the preprocessor',
+        link: 'http://www.learncpp.com/cpp-tutorial/110-a-first-look-at-the-preprocessor/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: '1.10a - Header guards',
+        link: 'http://www.learncpp.com/cpp-tutorial/1-10a-header-guards/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Makefiles: A tutorial by example',
+        link: 'http://mrbook.org/blog/tutorials/make/',
+        description: 'Mrbook'
       }
     ]
   }
