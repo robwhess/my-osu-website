@@ -151,7 +151,7 @@ const topics = [
   },
 
   {
-    title: 'Risks, Harm, and Accountability',
+    title: 'Risks, Harm, Accountability, and the Ethics of Design',
     isCurrent: true,
     weeks: [ 4 ],
     resources: [
@@ -185,12 +185,18 @@ const topics = [
         title: 'Man sues Hawaii, blaming false missile alert for heart attack',
         link: 'https://www.reuters.com/article/us-usa-missiles/startled-by-false-missile-alert-man-sues-hawaii-for-heart-attack-idUSKCN1NX26M',
         description: 'Reuters'
+      },
+      {
+        title: 'What are "Ethics in Design"?',
+        link: 'https://slate.com/technology/2018/08/ethics-in-design-what-exactly-does-that-mean.html',
+        description: 'Slate'
       }
     ]
   },
 
   {
     title: 'Whistleblowing',
+    isCurrent: true,
     weeks: [ 4, 5 ],
     readings: [
       {
@@ -204,39 +210,26 @@ const topics = [
         description: 'Judy Nadler and Miriam Schulman (Markkula Center for Applied Ethics at Santa Clara University)'
       },
       {
+        title: 'Edward Snowden',
+        link: 'https://en.wikipedia.org/wiki/Edward_Snowden',
+        description: 'Wikipedia (focus on these sections: "Global surveillance disclosures", "Criminal charges", "Reaction")'
+      },
+      {
+        title: 'Chelsea Manning',
+        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning',
+        description: 'Wikipedia (focus on these sections: "Publication of leaked material", "Legal proceedings", "Reaction to disclosures")'
+      }
+    ]
+  },
+
+  {
+    title: 'Privacy, data collection, and digital surveillance',
+    weeks: [ 5 ],
+    readings: [
+      {
         title: 'United States of Secrets',
         link: 'https://www.pbs.org/wgbh/frontline/film/united-states-of-secrets/#united-states-of-secrets',
         description: 'Frontline (a two-part video series)'
-      },
-      {
-        title: 'Edward Snowden - Global surveillance disclosures',
-        link: 'https://en.wikipedia.org/wiki/Edward_Snowden#Global_surveillance_disclosures',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'Edward Snowden - Criminal charges',
-        link: 'https://en.wikipedia.org/wiki/Edward_Snowden#Criminal_charges',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'Edward Snowden - Reaction',
-        link: 'https://en.wikipedia.org/wiki/Edward_Snowden#Reaction',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'Chelsea Manning - Publication of leaked material',
-        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning#Publication_of_leaked_material',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'Chelsea Manning - Legal proceedings',
-        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning#Legal_proceedings',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'Chelsea Manning - Reaction to disclosures',
-        link: 'https://en.wikipedia.org/wiki/Chelsea_Manning#Reaction_to_disclosures',
-        description: 'Wikipedia'
       }
     ]
   }
