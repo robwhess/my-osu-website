@@ -94,7 +94,6 @@ const topics = [
   {
     title: 'Classes',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -116,6 +115,11 @@ const topics = [
         title: 'Classes',
         link: 'http://www.cplusplus.com/doc/tutorial/classes/',
         description: 'cplusplus.com'
+      },
+      {
+        title: '10.2 - Composition',
+        link: 'http://www.learncpp.com/cpp-tutorial/102-composition/',
+        description: 'LearnCpp.com'
       }
     ]
   },
@@ -152,31 +156,32 @@ const topics = [
         description: 'Mrbook'
       }
     ]
+  },
+
+  {
+    title: 'First Exam',
+    weeks: [ 5 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Practice exam',
+        link: 'https://docs.google.com/document/d/1W2AEhd6qxcvbjunHNY9ZlaXv-G1gBuJHzm8MQFZJoCE/edit?usp=sharing',
+        description: 'from winter 2017'
+      },
+      {
+        title: 'Practice exam solutions',
+        link: 'https://docs.google.com/document/d/18eSpIaw3rbZniFP_xw5URs6Nm_i5JUTQhtayF2x0j-Q/edit?usp=sharing'
+      }
+    ],
+    notes: [
+      'Our first exam will be this Wednesday at our normal lecture location and time.',
+      'The exam will cover everything we\'ve talked about so far in lecture, through classes and compilation/makefiles.',
+      'The exam will be all multiple choice and true/false questions.  I will provide Scantron forms.'
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 4,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Classes &ndash; <a href="https://docs.google.com/document/d/1pDGAfxSOaQd7-D0oC57t2-2M8a0q9aForxqDCzUbj8E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/class-basics">example code</a>',
-//           'Object Composition &ndash; <a href="https://github.com/OSU-CS162-W18/object-composition">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.learncpp.com/#Chapter8">Chapter 8 (Basic object-oriented programming)</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes</a> &ndash; cplusplus.com',
-//           '<a href="http://www.learncpp.com/cpp-tutorial/102-composition/">10.2 - Composition</a> &ndash; LearnCpp.com'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 5,

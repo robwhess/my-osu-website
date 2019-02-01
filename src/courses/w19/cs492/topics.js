@@ -180,14 +180,14 @@ const topics = [
     ],
     readings: [
       {
-        title: 'URL',
-        link: 'https://developer.android.com/reference/java/net/URL',
-        description: 'Android Developers'
-      },
-      {
         title: 'Uri.Builder',
         link: 'https://developer.android.com/reference/android/net/Uri.Builder',
         description: 'Android Developers'
+      },
+      {
+        title: 'OkHttp Recipes',
+        link: 'https://github.com/square/okhttp/wiki/Recipes',
+        description: 'OkHttp Wiki'
       },
       {
         title: 'Processes and threads overview',
