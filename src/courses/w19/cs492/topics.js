@@ -210,38 +210,54 @@ const topics = [
         description: 'on GitHub'
       }
     ]
+  },
+
+  {
+    title: 'Starting New Activities with Intents',
+    weeks: [ 5 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearch',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Start Another Activity',
+        link: 'https://developer.android.com/training/basics/firstapp/starting-activity',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Intents and Intent Filters',
+        link: 'https://developer.android.com/guide/components/intents-filters',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Menus',
+        link: 'https://developer.android.com/guide/topics/ui/menus',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sending the User to Another App',
+        link: 'https://developer.android.com/training/basics/intents/sending',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sharing Simple Data',
+        link: 'https://developer.android.com/training/sharing/',
+        description: 'Android Developers'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 5,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Starting New Activities with Intents &ndash; <a href="https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithIntents">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/training/basics/firstapp/starting-activity.html">Start Another Activity</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/topics/ui/menus.html">Menus</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/training/basics/intents/sending.html">Sending the User to Another App</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/training/sharing/index.html">Sharing Simple Data</a> &ndash; Android Developers'
-//         ]
-//       },
-//       {
-//         heading: 'Entrepreneurship Presentation',
-//         entriesHTML: [
-//           '<a href="https://drive.google.com/file/d/0B8aZMq9Vhvmrb29ib3NsOHVBZ0VuLU1nLXk0aHpXRHR6eUlj/view?usp=sharing">Entrepreneurship in CS</a> &ndash; These are the slides from Gabriel Kauffman\'s presentation on entrepreneurship'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 6,
