@@ -33,7 +33,6 @@ const recitations = {
     {
       title: 'Lab 4: Classes and OOP',
       weeks: [ 4 ],
-      isCurrent: true,
       resources: [
         {
           title: 'GitHub Classroom link for lab',
@@ -44,6 +43,15 @@ const recitations = {
           link: 'https://docs.google.com/document/d/1MN-PX8HAxpi7eagDanX5TR2F1E-tyVJf7_tMpxZCQ5w/edit?usp=sharing',
           description: 'on Google Docs'
         }
+      ]
+    },
+
+    {
+      title: 'Practice Proficiency Demo',
+      weeks: [ 5 ],
+      isCurrent: true,
+      notes: [
+        'This week in lab, we will have our practice proficiency demo, where you\'ll get a chance to practice doing a problem similar to the ones you\'ll do during the final proficiency demo.'
       ]
     }
   ],

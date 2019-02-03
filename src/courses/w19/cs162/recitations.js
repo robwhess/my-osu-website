@@ -43,7 +43,6 @@ const recitations = {
 
     {
       title: 'Week 3: Assignment 2 Design',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 162 design document requirements',
@@ -57,6 +56,10 @@ const recitations = {
           title: 'Assignment 2 link',
           link: 'https://classroom.github.com/a/phbOO7kT',
           description: 'on GitHub Classroom'
+        },
+        {
+          title: 'Week 3 quiz solutions',
+          link: 'https://docs.google.com/document/d/14AvYL4hXCZmvqES58jnBnOi33XxZmTsRMv2okp69azI/edit?usp=sharing'
         }
       ],
       notes: [
@@ -67,8 +70,37 @@ const recitations = {
     {
       title: 'Week 4: Assignment 2 Design Review',
       isCurrent: true,
+      resources: [
+        {
+          title: 'Week 4 quiz solutions',
+          link: 'https://docs.google.com/document/d/1Dbp0zLJ44acE6t_jppIvEto5nzi_geYE-UvFpY6W2qU/edit?usp=sharing'
+        }
+      ],
       notes: [
         'In this week\'s recitation, your TA will review your assignment 2 designs and take questions on the assignment.'
+      ]
+    },
+
+    {
+      title: 'Week 5: Assignment 3 Design',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'CS 162 design document requirements',
+          link: 'https://docs.google.com/document/d/1_5AGiczmRTAi1IVLpYIfIXlLNfpS2oPLQegobG2KL1c/edit?usp=sharing'
+        },
+        {
+          title: 'Example design document',
+          link: ExampleDesignDocument
+        },
+        {
+          title: 'Assignment 3 link',
+          link: '#',
+          description: 'on GitHub Classroom'
+        }
+      ],
+      notes: [
+        'Assignment 3 design due on Canvas by 11:59pm, Sunday 2/10/2019'
       ]
     }
   ],
