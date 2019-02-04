@@ -65,6 +65,11 @@ const topics = [
         title: 'The trolley problem',
         link: 'https://en.wikipedia.org/wiki/Trolley_problem',
         description: 'Wikipedia'
+      },
+      {
+        title: 'Feynman\'s Error: On Ethical Thinking and Drifting',
+        link: 'https://www.danmunro.ca/blog/2018/11/29/feynmans-error-on-ethical-thinking-and-drifting-nbsp',
+        description: 'Dan Munro'
       }
     ]
   },
@@ -152,7 +157,6 @@ const topics = [
 
   {
     title: 'Risks, Harm, Accountability, and the Ethics of Design',
-    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
@@ -224,6 +228,7 @@ const topics = [
 
   {
     title: 'Privacy, data collection, and digital surveillance',
+    isCurrent: true,
     weeks: [ 5 ],
     readings: [
       {

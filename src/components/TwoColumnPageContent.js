@@ -17,6 +17,7 @@ const TwoColumnContainer = styled(PageContent)`
 `;
 
 const Column = styled.div`
+  margin: 0 5px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
