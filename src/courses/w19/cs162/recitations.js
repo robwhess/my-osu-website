@@ -95,7 +95,7 @@ const recitations = {
         },
         {
           title: 'Assignment 3 link',
-          link: '#',
+          link: 'https://classroom.github.com/a/UVvn4Qiq',
           description: 'on GitHub Classroom'
         }
       ],

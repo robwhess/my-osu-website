@@ -25,6 +25,18 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm, Monday 2/18/2019'
       ]
+    },
+
+    {
+      link : 'https://classroom.github.com/a/UVvn4Qiq',
+      title: 'Assignment 3 &ndash; Zoo Tycoon (Inheritance)',
+      due: {
+        day: 'Monday, 2/18/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/4/2019'
+      ]
     }
   ],
 
