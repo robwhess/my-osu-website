@@ -24,6 +24,12 @@ const debate = {
         day: 'Friday, 3/15/2019',
         time: '11:59pm'
       }
+    },
+    {
+      title: 'Debate Surveys',
+      notes: [
+        'Debate #1 (2/8): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLScDzeLyzLFDmwM8WxwE99emfBcbKOL7o2xkUlw-jewvCTjSUg/viewform?usp=sf_link)'
+      ]
     }
   ],
   preamble: 'Starting in week 4 or 5, we\'ll hold one debate between two teams of students each week during lecture.  Each debate will focus on an issue related to the topics we discuss in class.  Assignments and information about the debate are listed below.'

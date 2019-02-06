@@ -20,12 +20,14 @@ const AssignmentListContainer = styled.div`
 
 const Assignment = styled.div`
   margin-bottom: 15px;
-  h3 {
-    margin: 0;
-    margin-left: 15px;
-    text-indent: -0.67ch;
-    padding-left: 0.67ch;
-  }
+`;
+
+const AssignmentTitle = styled.h3`
+  margin: 0;
+  margin-left: 15px;
+  text-indent: -0.67ch;
+  padding-left: 0.67ch;
+  color: #333;
 `;
 
 const AssignmentInfo = styled.div`
@@ -44,7 +46,7 @@ const DueDate = styled.p`
   font-size: 20px;
   font-weight: 400;
   color: #666;
-`
+`;
 
 function CourseAssignmentList({ title, assignments, preamble }) {
   return (
@@ -54,7 +56,13 @@ function CourseAssignmentList({ title, assignments, preamble }) {
       {assignments && assignments.length > 0 ?
         assignments.map((assignment, i) => (
           <Assignment key={i}>
-            <h3><FontAwesome name="angle-double-right" /> <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /></h3>
+            <AssignmentTitle>
+              <FontAwesome name="angle-double-right" />&nbsp;
+              {assignment.link ?
+                <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /> :
+                <span dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} />
+              }
+            </AssignmentTitle>
             <AssignmentInfo>
               {assignment.due ?
                 <DueDate>Due: <DayTimeLocation {...assignment.due} /></DueDate> :
