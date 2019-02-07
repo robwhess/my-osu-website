@@ -115,11 +115,6 @@ const topics = [
         title: 'Classes',
         link: 'http://www.cplusplus.com/doc/tutorial/classes/',
         description: 'cplusplus.com'
-      },
-      {
-        title: '10.2 - Composition',
-        link: 'http://www.learncpp.com/cpp-tutorial/102-composition/',
-        description: 'LearnCpp.com'
       }
     ]
   },
@@ -127,11 +122,15 @@ const topics = [
   {
     title: 'Separation of Files, Compilation, and Make',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/16rDDHrqcnR1O4ID7Ji9J8NAsZErkByxgg1QjVvsGLdA/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/class-basics',
+        description: 'code written in lecture'
       }
     ],
     readings: [
@@ -171,6 +170,10 @@ const topics = [
       {
         title: 'Practice exam solutions',
         link: 'https://docs.google.com/document/d/18eSpIaw3rbZniFP_xw5URs6Nm_i5JUTQhtayF2x0j-Q/edit?usp=sharing'
+      },
+      {
+        title: 'Exam solutions',
+        link: 'https://docs.google.com/document/d/1_LXO7wAPKwyTalT04qTw-WlapWnieUJySaJIKS6MXJ4/edit?usp=sharing'
       }
     ],
     notes: [
@@ -178,37 +181,59 @@ const topics = [
       'The exam will cover everything we\'ve talked about so far in lecture, through classes and compilation/makefiles.',
       'The exam will be all multiple choice and true/false questions.  I will provide Scantron forms.'
     ]
+  },
+
+  {
+    title: 'Composition',
+    weeks: [ 5 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/composition',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: '10.2 - Composition',
+        link: 'https://www.learncpp.com/cpp-tutorial/102-composition/',
+        description: 'LearnCpp.com'
+      }
+    ]
+  },
+
+  {
+    title: 'Inheritance',
+    weeks: [ 5, 6 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1C22qC6mz_2m_2kB6xvoCFeVfsz8PPMBXIpQhmEvyYro/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/inheritance',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: '11.1 - Introduction to inheritance',
+        link: 'http://www.learncpp.com/cpp-tutorial/111-introduction-to-inheritance/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: '11.2 - Basic inheritance in C++',
+        link: 'http://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/',
+        description: 'LearnCpp.com'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 5,
-//     sections: [
-//       {
-//         heading: 'First Exam',
-//         entriesHTML: [
-//           'Our first exam will be this Wednesday at our normal lecture location and time.',
-//           'The exam will cover everything we\'ve talked about so far in lecture, through classes and object composition.',
-//           '<a href="https://docs.google.com/document/d/1Da8MMEJY8O2WXmHCmOFPe5BBp-40sD4zUruml2fr0Qc/edit?usp=sharing">Exam #1 Solutions</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Inheritance (the "is-a" relationship) &ndash; <a href="https://docs.google.com/document/d/1C22qC6mz_2m_2kB6xvoCFeVfsz8PPMBXIpQhmEvyYro/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/inheritance">example code</a>',
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.learncpp.com/cpp-tutorial/111-introduction-to-inheritance/">11.1 - Introduction to inheritance</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/">11.2 - Basic inheritance in C++</a> &ndash; LearnCpp.com'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 6,
