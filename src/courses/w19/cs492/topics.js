@@ -166,7 +166,6 @@ const topics = [
   {
     title: 'Fetching Internet Data using AsyncTask',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -254,30 +253,44 @@ const topics = [
         description: 'Android Developers'
       }
     ]
+  },
+
+  {
+    title: 'The Activity Lifecycle and Loaders',
+    weeks: [ 5, 6 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing'
+      },
+      {
+        title: 'Lifecycle logging example code',
+        link: 'https://github.com/OSU-CS492-W19/LifecycleLogging',
+        description: 'small demo app code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Understand the Activity Lifecycle',
+        link: 'https://developer.android.com/guide/components/activities/activity-lifecycle',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Handle Activity State Changes',
+        link: 'https://developer.android.com/guide/components/activities/state-changes',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Understand Tasks and Back Stack',
+        link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
+        description: 'Android Developers'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 6,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'The Activity Lifecycle and Loaders &ndash; <a href="https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/LifecycleLogging">example code (lifecycle logging)</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithLifecycle">example code (lifecycle-enabled GitHub search)</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/guide/components/activities/activity-lifecycle.html">The Activity Lifecycle</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/components/activities/state-changes.html">Activity State Changes</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/guide/components/activities/tasks-and-back-stack.html">Tasks and Back Stack</a> &ndash; Android Developers'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 7,
