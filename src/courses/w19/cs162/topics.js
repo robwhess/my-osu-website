@@ -160,7 +160,6 @@ const topics = [
   {
     title: 'First Exam',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Practice exam',
@@ -186,7 +185,6 @@ const topics = [
   {
     title: 'Composition',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Example code',
@@ -230,40 +228,76 @@ const topics = [
         description: 'LearnCpp.com'
       }
     ]
+  },
+
+  {
+    title: 'Polymorphism',
+    weeks: [ 6, 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1GJaaVwUr20-PNZn5zCy-WcZfTWtHIk9f-9tUWVyLNkg/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS162-W19/inheritance',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: '12.1 - Pointers and references to the base class of derived objects',
+        link: 'http://www.learncpp.com/cpp-tutorial/121-pointers-and-references-to-the-base-class-of-derived-objects/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: '12.2 - Virtual functions and polymorphism',
+        link: 'http://www.learncpp.com/cpp-tutorial/122-virtual-functions/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Polymorphism',
+        link: 'http://www.cplusplus.com/doc/tutorial/polymorphism/',
+        description: 'cplusplus.com'
+      }
+    ]
+  },
+
+  {
+    title: 'Exceptions',
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1gFuNbMun8-9dQ5P2b0ZDUdDA5GarrRu1sNadtZRLGS0/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS162-W19/inheritance',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Chapter 14 - Exceptions',
+        link: 'http://www.learncpp.com/#Chapter14',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Exceptions',
+        link: 'http://www.cplusplus.com/doc/tutorial/exceptions/',
+        description: 'cplusplus.com'
+      },
+      {
+        title: 'C++ Exceptions: Pros and Cons',
+        link: 'https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons',
+        description: 'Code Project'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 6,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Polymorphism &ndash; <a href="https://docs.google.com/document/d/1GJaaVwUr20-PNZn5zCy-WcZfTWtHIk9f-9tUWVyLNkg/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/polymorphism">example code</a>',
-//           'Exceptions &ndash; <a href="https://docs.google.com/document/d/1gFuNbMun8-9dQ5P2b0ZDUdDA5GarrRu1sNadtZRLGS0/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/exceptions">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.learncpp.com/cpp-tutorial/121-pointers-and-references-to-the-base-class-of-derived-objects/">12.1 &ndash; Pointers and references to the base class of derived objects</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.learncpp.com/cpp-tutorial/122-virtual-functions/">12.2 &ndash; Virtual functions and polymorphism</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.cplusplus.com/doc/tutorial/polymorphism/">Polymorphism</a> &ndash; cplusplus.com',
-//           '<a href="http://www.learncpp.com/#Chapter14">Chapter 14 (Exceptions)</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.cplusplus.com/doc/tutorial/exceptions/">Exceptions</a> &ndash; cplusplus.com',
-//           '<a href="https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons">C++ Exceptions: Pros and Cons</a> &ndash; Code Project'
-//         ]
-//       },
-//       {
-//         heading: 'Entrepreneurship Presentation',
-//         entriesHTML: [
-//           '<a href="https://drive.google.com/file/d/0B8aZMq9Vhvmrb29ib3NsOHVBZ0VuLU1nLXk0aHpXRHR6eUlj/view?usp=sharing">Entrepreneurship in CS</a> &ndash; These are the slides from Gabriel Kauffman\'s presentation on entrepreneurship'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 7,
