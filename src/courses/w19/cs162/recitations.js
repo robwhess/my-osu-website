@@ -69,7 +69,6 @@ const recitations = {
 
     {
       title: 'Week 4: Assignment 2 Design Review',
-      isCurrent: true,
       resources: [
         {
           title: 'Week 4 quiz solutions',
@@ -83,7 +82,6 @@ const recitations = {
 
     {
       title: 'Week 5: Assignment 3 Design',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 162 design document requirements',
@@ -101,6 +99,14 @@ const recitations = {
       ],
       notes: [
         'Assignment 3 design due on Canvas by 11:59pm, Sunday 2/10/2019'
+      ]
+    },
+
+    {
+      title: 'Week 6: Assignment 3 Design Review',
+      isCurrent: true,
+      notes: [
+        'In this week\'s recitation, your TA will review your assignment 3 designs and take questions on the assignment.'
       ]
     }
   ],

@@ -49,9 +49,25 @@ const recitations = {
     {
       title: 'Practice Proficiency Demo',
       weeks: [ 5 ],
-      isCurrent: true,
       notes: [
         'This week in lab, we will have our practice proficiency demo, where you\'ll get a chance to practice doing a problem similar to the ones you\'ll do during the final proficiency demo.'
+      ]
+    },
+
+    {
+      title: 'Lab 6: Inheritance',
+      weeks: [ 6 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/U2HqeGfo'
+        },
+        {
+          title: 'Lab description',
+          link: 'https://docs.google.com/document/d/1inAoXBmmONesrI0LrJSnh4lDPeRqtny27iA8cd8vg_o/edit?usp=sharing',
+          description: 'on Google Docs'
+        }
       ]
     }
   ],
