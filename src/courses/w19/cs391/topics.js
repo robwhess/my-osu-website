@@ -200,7 +200,6 @@ const topics = [
 
   {
     title: 'Whistleblowing',
-    isCurrent: true,
     weeks: [ 4, 5 ],
     readings: [
       {
@@ -240,6 +239,16 @@ const topics = [
         title: 'A Contextual Approach to Privacy Online',
         link: 'https://www.amacad.org/publication/contextual-approach-privacy-online',
         description: 'Helen Nissenbaum'
+      },
+      {
+        title: 'Facebook Average Revenue per User (ARPU)',
+        link: 'https://s21.q4cdn.com/399680738/files/doc_financials/2018/Q1/Q1-2018-Earnings-Presentation-%281%29.pdf#page=8',
+        description: 'page 8 of Facebook\'s Q1 2018 earnings presentation'
+      },
+      {
+        title: 'Facebook\'s Data Policy',
+        link: 'https://www.facebook.com/policy.php',
+        description: 'Facebook'
       }
     ]
   }

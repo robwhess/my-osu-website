@@ -28,6 +28,14 @@ const assignments = {
         day: 'Monday, 2/11/2019',
         time: '11:59pm'
       }
+    },
+    {
+      link : 'https://docs.google.com/document/d/1RifYMy6fhNF1JmMk1d1rkP3ToMTJUousekQz11bKyF4/edit?usp=sharing',
+      title: 'Assignment 3 &ndash; Context and Online Privacy',
+      due: {
+        day: 'Monday, 2/25/2019',
+        time: '11:59pm'
+      }
     }
   ],
 
