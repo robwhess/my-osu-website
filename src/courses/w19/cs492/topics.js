@@ -214,7 +214,6 @@ const topics = [
   {
     title: 'Starting New Activities with Intents',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -268,6 +267,11 @@ const topics = [
         title: 'Lifecycle logging example code',
         link: 'https://github.com/OSU-CS492-W19/LifecycleLogging',
         description: 'small demo app code written in lecture'
+      },
+      {
+        title: 'GitHub search example code',
+        link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithLifecycle',
+        description: 'GitHub search app code written in lecture'
       }
     ],
     readings: [
