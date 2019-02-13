@@ -289,6 +289,16 @@ const topics = [
         title: 'Understand Tasks and Back Stack',
         link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
         description: 'Android Developers'
+      },
+      {
+        title: 'ViewModel Overview',
+        link: 'https://developer.android.com/topic/libraries/architecture/viewmodel',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Lifecycle Aware Data Loading with Architecture Components',
+        link: 'https://medium.com/androiddevelopers/lifecycle-aware-data-loading-with-android-architecture-components-f95484159de4',
+        description: 'Ian Lake (on Medium)'
       }
     ]
   }
