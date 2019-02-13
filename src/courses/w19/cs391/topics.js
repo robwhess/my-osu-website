@@ -226,9 +226,9 @@ const topics = [
   },
 
   {
-    title: 'Privacy, data collection, and digital surveillance',
+    title: 'Privacy, Data Collection, and Digital Surveillance',
     isCurrent: true,
-    weeks: [ 5 ],
+    weeks: [ 5, 6 ],
     readings: [
       {
         title: 'United States of Secrets',
@@ -249,6 +249,46 @@ const topics = [
         title: 'Facebook\'s Data Policy',
         link: 'https://www.facebook.com/policy.php',
         description: 'Facebook'
+      }
+    ]
+  },
+
+  {
+    title: 'Human Attention and Humane Technology Design',
+    isCurrent: true,
+    weeks: [ 6, 7 ],
+    // resources: [
+    //
+    // ],
+    readings: [
+      {
+        title: 'Center for Humane Technology',
+        link: 'http://humanetech.com/'
+      },
+      {
+        title: 'Can software be good for us?',
+        link: 'https://medium.com/what-to-build/dear-zuck-fd25ecb1aa5a',
+        description: 'Joe Edelman (on Medium)'
+      },
+      {
+        title: 'How to Design Social Systems (Without Causing Depression and War)',
+        link: 'https://medium.com/what-to-build/how-to-design-social-systems-without-causing-depression-and-war-3c3f8e0226d1',
+        description: 'Joe Edelman (on Medium)'
+      },
+      {
+        title: 'Luddite',
+        link: 'https://en.wikipedia.org/wiki/Luddite',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Amish Community Not Anti-Technology, Just More Thoughtful',
+        link: 'https://www.npr.org/sections/alltechconsidered/2013/09/02/217287028/amish-community-not-anti-technology-just-more-thoughful',
+        description: 'NPR'
+      },
+      {
+        title: 'Stand Out of Our Light: Freedom and Resistance in the Attention Economy',
+        link: 'https://www.cambridge.org/core/books/stand-out-of-our-light/3F8D7BA2C0FE3A7126A4D9B73A89415D',
+        description: 'James Williams (optional)'
       }
     ]
   }
