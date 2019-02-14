@@ -301,6 +301,35 @@ const topics = [
         description: 'Ian Lake (on Medium)'
       }
     ]
+  },
+
+  {
+    title: 'Storing Prefs with SharedPreferences',
+    weeks: [ 6, 7 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithPrefs',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Settings',
+        link: 'https://developer.android.com/guide/topics/ui/settings/',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Save key-value data',
+        link: 'https://developer.android.com/training/data-storage/shared-preferences',
+        description: 'Android Developers'
+      }
+    ]
   }
 ];
 
@@ -312,14 +341,14 @@ const topics = [
 //       {
 //         heading: 'Topics',
 //         entriesHTML: [
-//           'Storing Prefs with SharedPreferences &ndash; <a href="https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithPrefs">example code</a>'
+//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithPrefs">example code</a>'
 //         ]
 //       },
 //       {
 //         heading: 'Readings',
 //         entriesHTML: [
 //           '<a href="https://developer.android.com/guide/topics/ui/settings.html">Settings</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/training/basics/data-storage/shared-preferences.html">Saving Key-Value Sets</a> &ndash; Android Developers'
+//           '<a href="">Saving Key-Value Sets</a> &ndash; Android Developers'
 //         ]
 //       }
 //     ]
