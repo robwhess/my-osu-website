@@ -204,7 +204,6 @@ const topics = [
   {
     title: 'Inheritance',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -233,16 +232,17 @@ const topics = [
   {
     title: 'Polymorphism',
     weeks: [ 6, 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1GJaaVwUr20-PNZn5zCy-WcZfTWtHIk9f-9tUWVyLNkg/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS162-W19/inheritance',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/polymorphism',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
