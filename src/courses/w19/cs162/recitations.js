@@ -179,7 +179,7 @@ const recitations = {
       meeting: {
         day: 'Th',
         time: '11:00 &ndash; 11:50am',
-        location: 'GILK 108'
+        location: '~~GILK 108~~ **KIDD 237**'
       },
       tas: [ 'Johannes Freischuetz' ]
     },
