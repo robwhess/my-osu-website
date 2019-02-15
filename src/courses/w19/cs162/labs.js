@@ -57,7 +57,6 @@ const recitations = {
     {
       title: 'Lab 6: Inheritance',
       weeks: [ 6 ],
-      isCurrent: true,
       resources: [
         {
           title: 'GitHub Classroom link for lab',
@@ -66,6 +65,23 @@ const recitations = {
         {
           title: 'Lab description',
           link: 'https://docs.google.com/document/d/1inAoXBmmONesrI0LrJSnh4lDPeRqtny27iA8cd8vg_o/edit?usp=sharing',
+          description: 'on Google Docs'
+        }
+      ]
+    },
+
+    {
+      title: 'Lab 7: Debugging using gdb',
+      weeks: [ 7 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/ED42C9Xk'
+        },
+        {
+          title: 'Lab description',
+          link: 'https://docs.google.com/document/d/1IxW2MbbE0xWOerRcQoi3YYn_5TsmdwSc9v_061OosZk/edit?usp=sharing',
           description: 'on Google Docs'
         }
       ]
