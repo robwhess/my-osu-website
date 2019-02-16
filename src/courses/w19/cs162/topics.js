@@ -294,31 +294,48 @@ const topics = [
         description: 'Code Project'
       }
     ]
+  },
+
+  {
+    title: 'Templates and the C++ Standard Template Library (STL)',
+    weeks: [ 7, 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1TMz14Bx4TkCWME4qIEatONifl_JmVkiZXl1H7Y2V9Cw/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS162-W19/inheritance',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Chapter 13 - Templates',
+        link: 'http://www.learncpp.com/#Chapter13',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Templates',
+        link: 'http://www.cplusplus.com/doc/oldtutorial/templates/',
+        description: 'cplusplus.com'
+      },
+      {
+        title: 'Chapter 16 - The Standard Template Library',
+        link: 'http://www.learncpp.com/#Chapter16',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'C++ STL Tutorial and Examples',
+        link: 'http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html',
+        description: 'yolinux.com'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 7,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Templates and the C++ Standard Template Library (STL) &ndash; <a href="https://docs.google.com/document/d/1TMz14Bx4TkCWME4qIEatONifl_JmVkiZXl1H7Y2V9Cw/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/templates">example code</a>',
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.cplusplus.com/doc/oldtutorial/templates/">Templates</a> &ndash; cplusplus.com',
-//           '<a href="http://www.learncpp.com/#Chapter13">Chapter 13 (Templates)</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.learncpp.com/#Chapter16">Chapter 16 (The Standard Template Library)</a> &ndash; LearnCpp.com',
-//           '<a href="http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html">C++ STL Tutorial and Examples</a> &ndash; yolinux.com'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 8,

@@ -336,25 +336,6 @@ const topics = [
 // var calendar = [
 //
 //   {
-//     week: 7,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           ' &ndash; <a href="">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithPrefs">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/guide/topics/ui/settings.html">Settings</a> &ndash; Android Developers',
-//           '<a href="">Saving Key-Value Sets</a> &ndash; Android Developers'
-//         ]
-//       }
-//     ]
-//   },
-//
-//   {
 //     week: 8,
 //     sections: [
 //       {
