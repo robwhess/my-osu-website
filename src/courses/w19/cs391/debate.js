@@ -29,7 +29,8 @@ const debate = {
       title: 'Debate Surveys',
       notes: [
         'Debate #1 (2/8): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLScDzeLyzLFDmwM8WxwE99emfBcbKOL7o2xkUlw-jewvCTjSUg/viewform?usp=sf_link) | [Post-debate](https://docs.google.com/forms/d/e/1FAIpQLScd-r1xz5sQKq4_JWLi6Wed_Y4NMLomQ_7WI7KQAuQUD6YyvQ/viewform?usp=sf_link)',
-        'Debate #2 (2/15): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSf-n_dJ1A3z7dxbHxYILrZJwVIOTfcAqo7uCwzaDosuuO60JQ/viewform?usp=sf_link)'
+        'Debate #2 (2/15): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSf-n_dJ1A3z7dxbHxYILrZJwVIOTfcAqo7uCwzaDosuuO60JQ/viewform?usp=sf_link) | [Post-debate](https://docs.google.com/forms/d/e/1FAIpQLSd4RXKpDzr__3eE9F75XHkgh7bWaTP2eJDxFqiZqZHq_PKE-w/viewform?usp=sf_link)',
+        'Debate #3 (2/25): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSee7HNo1zWcGUV-2Rks8X8PFXkP7L_vlnzKzIZFWay0EKkhWQ/viewform?usp=sf_link)',
       ]
     }
   ],
