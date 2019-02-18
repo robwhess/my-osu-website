@@ -37,6 +37,18 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm, Monday 3/4/2019'
       ]
+    },
+
+    {
+      link : 'https://classroom.github.com/a/UmUz5DLK',
+      title: 'Assignment 4 &ndash; Hunt the Wumpus (Polymorphism and the STL)',
+      due: {
+        day: 'Monday, 3/4/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/18/2019'
+      ]
     }
   ],
 
