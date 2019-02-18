@@ -271,11 +271,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1gFuNbMun8-9dQ5P2b0ZDUdDA5GarrRu1sNadtZRLGS0/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS162-W19/inheritance',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/exceptions',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
