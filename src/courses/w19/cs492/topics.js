@@ -257,7 +257,6 @@ const topics = [
   {
     title: 'The Activity Lifecycle and Loaders',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -330,52 +329,48 @@ const topics = [
         description: 'Android Developers'
       }
     ]
+  },
+
+  {
+    title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
+    weeks: [ 7, 8 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithSQLite',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Create a navigation drawer',
+        link: 'https://developer.android.com/training/implementing-navigation/nav-drawer',
+        description: 'Android Developers'
+      },
+      {
+        title: 'NavigationView',
+        link: 'https://developer.android.com/reference/android/support/design/widget/NavigationView',
+        description: 'Android Developers'
+      },
+      {
+        title: 'SQLite Tutorial',
+        link: 'http://www.sqlitetutorial.net/'
+      },
+      {
+        title: 'Save data in a local database using Room',
+        link: 'https://developer.android.com/training/data-storage/room/',
+        description: 'Android Developers'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 8,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Storing Data with SQLite (Featuring Navigation Drawers) &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithSQLite">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/training/implementing-navigation/nav-drawer.html">Creating a Navigation Drawer</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/reference/android/support/design/widget/NavigationView.html">NavigationView</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/training/basics/data-storage/databases.html">Saving Data in SQL Databases</a> &ndash; Android Developers',
-//           '<a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>'
-//         ]
-//       }
-//     ]
-//   },
-//
-//   {
-//     week: 9,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Storing Data with SQLite (Featuring Navigation Drawers) &ndash; <a href="https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/GitHubSearchWithSQLite">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/training/implementing-navigation/nav-drawer.html">Creating a Navigation Drawer</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/reference/android/support/design/widget/NavigationView.html">NavigationView</a> &ndash; Android Developers',
-//           '<a href="https://developer.android.com/training/basics/data-storage/databases.html">Saving Data in SQL Databases</a> &ndash; Android Developers',
-//           '<a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 10,
