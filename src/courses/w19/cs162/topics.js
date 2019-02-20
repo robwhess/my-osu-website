@@ -232,7 +232,6 @@ const topics = [
   {
     title: 'Polymorphism',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -266,6 +265,7 @@ const topics = [
   {
     title: 'Exceptions',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -299,16 +299,17 @@ const topics = [
   {
     title: 'Templates and the C++ Standard Template Library (STL)',
     weeks: [ 7, 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1TMz14Bx4TkCWME4qIEatONifl_JmVkiZXl1H7Y2V9Cw/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS162-W19/inheritance',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/templates',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
