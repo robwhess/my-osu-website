@@ -10,6 +10,14 @@ const finalProject = {
         location: 'on Canvas'
       }
     },
+    {
+      title: 'Final Project Details',
+      link: 'https://docs.google.com/document/d/173u2sbb93-C_1W2jhakQKzR2t9TI5eph0TePadqrSUs/edit?usp=sharing',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 3/22/2019'
+      }
+    },
     // {
     //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
     //   title: 'Final Project Demo Signup',
@@ -21,13 +29,15 @@ const finalProject = {
     //     'Code is due on GitHub when when you do your demo.'
     //   ]
     // },
-    // {
-    //   link: 'https://docs.google.com/document/d/1xtAkfi6860veDD22_4FpwHcJyP1x9y-nXI0jJ2XRTS0/edit?usp=sharing',
-    //   title: 'Final Project Group Evaluation',
-    //   notes: [
-    //     'Due **ON CANVAS** by 5:00pm, Friday 12/7/2018'
-    //   ]
-    // }
+    {
+      link: 'https://docs.google.com/document/d/1nAeLEjkrwo9iwRfNvDHyR6uLj6S9Pe4kHike4veE5pk/edit?usp=sharing',
+      title: 'Final Project Group Evaluation',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 3/22/2019',
+        location: 'on Canvas'
+      }
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete Android app that gets data from a third-party API.  The project will have two deliverables: a proposal, where you outline the app you\'d like to write; and an implementation of your app.  Follow the links below to find out more about each of these deliverables.'
