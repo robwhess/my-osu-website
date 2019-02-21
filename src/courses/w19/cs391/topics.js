@@ -227,7 +227,6 @@ const topics = [
 
   {
     title: 'Privacy, Data Collection, and Digital Surveillance',
-    isCurrent: true,
     weeks: [ 5, 6 ],
     readings: [
       {
@@ -255,7 +254,6 @@ const topics = [
 
   {
     title: 'Human Attention and Humane Technology Design',
-    isCurrent: true,
     weeks: [ 6, 7 ],
     // resources: [
     //
@@ -289,6 +287,37 @@ const topics = [
         title: 'Stand Out of Our Light: Freedom and Resistance in the Attention Economy',
         link: 'https://www.cambridge.org/core/books/stand-out-of-our-light/3F8D7BA2C0FE3A7126A4D9B73A89415D',
         description: 'James Williams (optional)'
+      }
+    ]
+  },
+
+  {
+    title: 'AI and Algorithmic Bias',
+    isCurrent: true,
+    weeks: [ 7, 8 ],
+    // resources: [
+    //
+    // ],
+    readings: [
+      {
+        title: 'Machine Bias',
+        link: 'https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing',
+        description: 'Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner (ProPublica)'
+      },
+      {
+        title: 'How We Analyzed the COMPAS Recidivism Algorithm',
+        link: 'https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm',
+        description: 'Jeff Larson, Surya Mattu, Lauren Kirchner, and Julia Angwin (ProPublica)'
+      },
+      {
+        title: 'Make Algorithms Accountable',
+        link: 'https://www.nytimes.com/2016/08/01/opinion/make-algorithms-accountable.html?_r=0',
+        description: 'Julia Angwin (NY Times)'
+      },
+      {
+        title: 'Make Algorithms Accountable',
+        link: 'https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/?noredirect=on&utm_term=.4666a0a937a3#comments',
+        description: 'Sam Corbett-Davies, Emma Pierson, Avi Feller, and Sharad Goel (Washington Post)'
       }
     ]
   }
