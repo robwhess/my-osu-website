@@ -265,7 +265,6 @@ const topics = [
   {
     title: 'Exceptions',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -333,33 +332,61 @@ const topics = [
         description: 'yolinux.com'
       }
     ]
+  },
+
+  {
+    title: 'Complexity Analysis (Big O)',
+    weeks: [ 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1DeNgvvPxNR0DkrCSmwZFh01wTnstJABRQuS8vLpcQLA/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Analysis of algorithms',
+        link: 'https://en.wikipedia.org/wiki/Analysis_of_algorithms',
+        description: 'Wikipedia'
+      }
+    ]
+  },
+
+  {
+    title: 'Sorting Algorithms',
+    weeks: [ 8, 9 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1KlpahJuzj_FCl-PernsVINRxWviS3NloQTjXjlI-Vfs/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Sorting algorithm',
+        link: 'https://en.wikipedia.org/wiki/Sorting_algorithm',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Selection sort',
+        link: 'https://en.wikipedia.org/wiki/Selection_sort',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Insertion sort',
+        link: 'https://en.wikipedia.org/wiki/Insertion_sort',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Merge sort',
+        link: 'https://en.wikipedia.org/wiki/Merge_sort',
+        description: 'Wikipedia'
+      }
+    ]
   }
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 8,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Complexity Analysis (Big O) &ndash; <a href="https://docs.google.com/document/d/1DeNgvvPxNR0DkrCSmwZFh01wTnstJABRQuS8vLpcQLA/edit?usp=sharing">notes</a>',
-//           'Sorting Algorithms &ndash; <a href="https://docs.google.com/document/d/1KlpahJuzj_FCl-PernsVINRxWviS3NloQTjXjlI-Vfs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/sorting">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://en.wikipedia.org/wiki/Analysis_of_algorithms">Analysis of algorithms</a> &ndash; Wikipedia',
-//           '<a href="https://en.wikipedia.org/wiki/Sorting_algorithm">Sorting algorithm</a> &ndash; Wikipedia',
-//           '<a href="https://en.wikipedia.org/wiki/Selection_sort">Selection sort</a> &ndash; Wikipedia',
-//           '<a href="https://en.wikipedia.org/wiki/Insertion_sort">Insertion sort</a> &ndash; Wikipedia',
-//           '<a href="https://en.wikipedia.org/wiki/Merge_sort">Merge sort</a> &ndash; Wikipedia'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 9,
