@@ -315,9 +315,14 @@ const topics = [
         description: 'Julia Angwin (NY Times)'
       },
       {
-        title: 'Make Algorithms Accountable',
+        title: 'A computer program used for bail and sentencing decisions was labeled biased against blacks. It’s actually not that clear.',
         link: 'https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/?noredirect=on&utm_term=.4666a0a937a3#comments',
         description: 'Sam Corbett-Davies, Emma Pierson, Avi Feller, and Sharad Goel (Washington Post)'
+      },
+      {
+        title: 'Bias detectives: the researchers striving to make algorithms fair',
+        link: 'https://www.nature.com/articles/d41586-018-05469-3',
+        description: 'Rachel Courtlan (in Nature)'
       }
     ]
   }
