@@ -337,6 +337,7 @@ const topics = [
   {
     title: 'Complexity Analysis (Big O)',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
