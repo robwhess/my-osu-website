@@ -73,7 +73,6 @@ const recitations = {
     {
       title: 'Lab 7: Debugging using gdb',
       weeks: [ 7 ],
-      isCurrent: true,
       resources: [
         {
           title: 'GitHub Classroom link for lab',
@@ -82,6 +81,23 @@ const recitations = {
         {
           title: 'Lab description',
           link: 'https://docs.google.com/document/d/1IxW2MbbE0xWOerRcQoi3YYn_5TsmdwSc9v_061OosZk/edit?usp=sharing',
+          description: 'on Google Docs'
+        }
+      ]
+    },
+
+    {
+      title: 'Lab 8: Templates and exceptions',
+      weeks: [ 8 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/7U1UkDpB'
+        },
+        {
+          title: 'Lab description',
+          link: 'https://docs.google.com/document/d/1xkceZkTgsAoWyzhfY_hRGswquh2m29xaSeMr4Zch5c0/edit?usp=sharing',
           description: 'on Google Docs'
         }
       ]
