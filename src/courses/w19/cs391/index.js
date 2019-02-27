@@ -3,6 +3,7 @@ import { generateSitePath } from '../../../lib/SitePath';
 import topics from './topics';
 import assignments from './assignments';
 import debate from './debate';
+import finalReport from './finalReport';
 import tas from './tas';
 
 const courseDetails = {
@@ -50,7 +51,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments, debate ],
+  assignmentGroups: [ assignments, debate, finalReport ],
 
   tas: tas
 };
