@@ -305,7 +305,6 @@ const topics = [
   {
     title: 'Storing Prefs with SharedPreferences',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -334,7 +333,6 @@ const topics = [
   {
     title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -364,6 +362,35 @@ const topics = [
       {
         title: 'Save data in a local database using Room',
         link: 'https://developer.android.com/training/data-storage/room/',
+        description: 'Android Developers'
+      }
+    ]
+  },
+
+  {
+    title: 'Revisiting the Activity Lifecycle: Incorporating ViewModel',
+    weeks: [ 8, 9 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithViewModel',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'ViewModel Overview',
+        link: 'https://developer.android.com/topic/libraries/architecture/viewmodel',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Guide to app architecture',
+        link: 'https://developer.android.com/jetpack/docs/guide',
         description: 'Android Developers'
       }
     ]
