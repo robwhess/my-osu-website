@@ -298,7 +298,6 @@ const topics = [
   {
     title: 'Templates and the C++ Standard Template Library (STL)',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -356,10 +355,16 @@ const topics = [
   {
     title: 'Sorting Algorithms',
     weeks: [ 8, 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1KlpahJuzj_FCl-PernsVINRxWviS3NloQTjXjlI-Vfs/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/sorting',
+        description: 'code written in lecture'
       }
     ],
     readings: [
@@ -383,6 +388,28 @@ const topics = [
         link: 'https://en.wikipedia.org/wiki/Merge_sort',
         description: 'Wikipedia'
       }
+    ]
+  },
+
+  {
+    title: 'Second Exam',
+    weeks: [ 9 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Practice exam',
+        link: 'https://docs.google.com/document/d/1OvL-Z8hvgLnVl3VaMv2URzjKkBSEqrz1Rl9JWU1DwPA/edit?usp=sharing',
+        description: 'from winter 2017'
+      },
+      {
+        title: 'Practice exam solutions',
+        link: 'https://docs.google.com/document/d/19qd56TBphz2xTjTOOJ3XDoz_k-rJYranriHrfSehwKY/edit?usp=sharing'
+      }
+    ],
+    notes: [
+      'Our second exam will be on the Friday of week 9 at our normal lecture location and time.',
+      'The exam will cover everything we\'ve talked about in lecture after the first exam, from inheritance through and sorting.',
+      'The exam will be all multiple choice and true/false questions.  I will provide Scantron forms.'
     ]
   }
 ];
