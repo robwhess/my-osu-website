@@ -89,7 +89,6 @@ const recitations = {
     {
       title: 'Lab 8: Templates and exceptions',
       weeks: [ 8 ],
-      isCurrent: true,
       resources: [
         {
           title: 'GitHub Classroom link for lab',
@@ -100,6 +99,22 @@ const recitations = {
           link: 'https://docs.google.com/document/d/1xkceZkTgsAoWyzhfY_hRGswquh2m29xaSeMr4Zch5c0/edit?usp=sharing',
           description: 'on Google Docs'
         }
+      ]
+    },
+
+    {
+      title: 'Proficiency Demo',
+      weeks: [ 10 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Two practice proficiency demo problems',
+          link: 'https://docs.google.com/document/d/1e_XFss33xT6Qa8uSvSSIlUGyPLVKlAaix8DKc2DN6JM/edit?usp=sharing',
+          description: 'these are two problems from week 5\'s practice proficiency demo that you can use to practice for the final demo'
+        }
+      ],
+      notes: [
+        'During week 10\'s lab, we\'ll have our final proficiency demo.'
       ]
     }
   ],
