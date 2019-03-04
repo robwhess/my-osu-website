@@ -294,7 +294,7 @@ const topics = [
   {
     title: 'AI and Algorithmic Bias',
     isCurrent: true,
-    weeks: [ 7, 8 ],
+    weeks: [ 7, 8, 9 ],
     // resources: [
     //
     // ],
