@@ -49,6 +49,18 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm, Monday 3/18/2019'
       ]
+    },
+
+    {
+      link : 'https://classroom.github.com/a/TCnBdE0N',
+      title: 'Final Project &ndash; Escape from CS 162',
+      due: {
+        day: 'Wednesday, 3/20/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'There will be **NO DEMO** for the final project'
+      ]
     }
   ],
 

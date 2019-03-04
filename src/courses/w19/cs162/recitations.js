@@ -133,9 +133,31 @@ const recitations = {
 
     {
       title: 'Week 8: Assignment 4 Design Review',
-      isCurrent: true,
       notes: [
         'In this week\'s recitation, your TA will review your assignment 4 designs and take questions on the assignment.'
+      ]
+    },
+
+    {
+      title: 'Week 9: Final Project Design',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'CS 162 design document requirements',
+          link: 'https://docs.google.com/document/d/1_5AGiczmRTAi1IVLpYIfIXlLNfpS2oPLQegobG2KL1c/edit?usp=sharing'
+        },
+        {
+          title: 'Example design document',
+          link: ExampleDesignDocument
+        },
+        {
+          title: 'Final project link',
+          link: 'https://classroom.github.com/a/TCnBdE0N',
+          description: 'on GitHub Classroom'
+        }
+      ],
+      notes: [
+        'Final project design due on Canvas by 11:59pm, Sunday 3/10/2019'
       ]
     }
   ],

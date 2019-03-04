@@ -103,6 +103,23 @@ const recitations = {
     },
 
     {
+      title: 'Lab 9: Mazes',
+      weeks: [ 9 ],
+      isCurrent: true,
+      resources: [
+        {
+          title: 'GitHub Classroom link for lab',
+          link: 'https://classroom.github.com/a/r6SAyYlI'
+        },
+        {
+          title: 'Lab description',
+          link: 'https://docs.google.com/document/d/17xfN5N1SQbQn5hCUHSA8JvwaEQG98yN8n2VI292MQgU/edit?usp=sharing',
+          description: 'on Google Docs'
+        }
+      ]
+    },
+
+    {
       title: 'Proficiency Demo',
       weeks: [ 10 ],
       isCurrent: true,
