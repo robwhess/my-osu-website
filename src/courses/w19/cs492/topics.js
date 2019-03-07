@@ -370,7 +370,6 @@ const topics = [
   {
     title: 'Revisiting the Activity Lifecycle: Incorporating ViewModel',
     weeks: [ 8, 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -394,29 +393,35 @@ const topics = [
         description: 'Android Developers'
       }
     ]
+  },
+
+  {
+    title: 'A Photo Gallery App',
+    weeks: [ 9, 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS492-W19/PhotosApp',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Creating swipe views with tabs',
+        link: 'https://developer.android.com/training/implementing-navigation/lateral',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Glide documentation',
+        link: 'http://bumptech.github.io/glide/'
+      }
+    ]
   }
 ];
-
-// var calendar = [
-//
-//   {
-//     week: 10,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'A Photo Gallery App &ndash; <a href="https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS492-W18/PhotosApp">example code</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://developer.android.com/training/implementing-navigation/lateral.html">Creating Swipe Views with Tabs</a> &ndash; Android Developers',
-//           '<a href="http://bumptech.github.io/glide/">Glide documentation</a>'
-//         ]
-//       }
-//     ]
-//   }
-// ];
 
 export default topics;
