@@ -32,7 +32,8 @@ const debate = {
         'Debate #2 (2/15): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSf-n_dJ1A3z7dxbHxYILrZJwVIOTfcAqo7uCwzaDosuuO60JQ/viewform?usp=sf_link) | [Post-debate](https://docs.google.com/forms/d/e/1FAIpQLSd4RXKpDzr__3eE9F75XHkgh7bWaTP2eJDxFqiZqZHq_PKE-w/viewform?usp=sf_link)',
         'Debate #3 (2/25): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSee7HNo1zWcGUV-2Rks8X8PFXkP7L_vlnzKzIZFWay0EKkhWQ/viewform?usp=sf_link) | [Post-debate](https://docs.google.com/forms/d/e/1FAIpQLSdvWN1kO1XPynILnHAqlUQbptyXtFztvZjqvE0I4zoZmOY_KA/viewform?usp=sf_link)',
         'Debate #4 (3/1): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSc7A6A3BtAuCFCaks3emikzQxzhNMEO-BCr3sXUqskezOEz5Q/viewform?usp=sf_link) | [Post-debate](https://docs.google.com/forms/d/e/1FAIpQLScSX2LocjR98Wt8WtIEbxFHk1Sog-Ldt8fiMnNmS8eHgIV4og/viewform?usp=sf_link)',
-        'Debate #5 (3/6): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSe8R_RQXEnoipjhF2yMDeVMvSQnaF9xGx7cYa3P4xkUeraYbw/viewform?usp=sf_link)',
+        'Debate #5 (3/6): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSe8R_RQXEnoipjhF2yMDeVMvSQnaF9xGx7cYa3P4xkUeraYbw/viewform?usp=sf_link) | [Post-debate](https://docs.google.com/forms/d/e/1FAIpQLSeAfzHiPHGFPwyE8sz38K6dqWn_tsDBuPy0sDf7L7k4re2HIw/viewform?usp=sf_link)',
+        'Debate #6 (3/8): [Pre-debate](https://docs.google.com/forms/d/e/1FAIpQLSfHMREKnhce-OdKXqwaF5KwUJfGIyadAZDZYsq8h80Fq_SCJw/viewform?usp=sf_link)'
       ]
     }
   ],
