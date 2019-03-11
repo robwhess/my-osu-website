@@ -18,20 +18,20 @@ const finalProject = {
         day: 'Friday, 3/22/2019'
       }
     },
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Final project demos will be during finals week in KEC 1109.',
-    //     'Sign up for a final project demo using the link above.',
-    //     'Sign up for one slot per team.',
-    //     'All team members must attend your demo.',
-    //     'Code is due on GitHub when when you do your demo.'
-    //   ]
-    // },
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Final project demos will be during finals week in KEC 1109.',
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo.',
+        'Code is due on GitHub when when you do your demo.'
+      ]
+    },
     {
       link: 'https://docs.google.com/document/d/1nAeLEjkrwo9iwRfNvDHyR6uLj6S9Pe4kHike4veE5pk/edit?usp=sharing',
-      title: 'Final Project Group Evaluation',
+      title: 'Final Project Team Evaluation',
       due: {
         time: '5:00pm',
         day: 'Friday, 3/22/2019',
