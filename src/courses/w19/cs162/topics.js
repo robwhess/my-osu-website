@@ -336,7 +336,6 @@ const topics = [
   {
     title: 'Complexity Analysis (Big O)',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -404,6 +403,10 @@ const topics = [
       {
         title: 'Practice exam solutions',
         link: 'https://docs.google.com/document/d/19qd56TBphz2xTjTOOJ3XDoz_k-rJYranriHrfSehwKY/edit?usp=sharing'
+      },
+      {
+        title: 'Exam solutions',
+        link: 'https://docs.google.com/document/d/1pBYtDa_t8FaPZ36K_a23tVcCMsaJGAbGW_aumvHL6eA/edit?usp=sharing'
       }
     ],
     notes: [
@@ -415,26 +418,6 @@ const topics = [
 ];
 
 // var calendar = [
-//
-//   {
-//     week: 9,
-//     sections: [
-//       {
-//         heading: 'Second Exam',
-//         entriesHTML: [
-//           'Our second exam will be this Wednesday at our normal lecture location and time.',
-//           'The exam will cover everything we talked about in lecture after the first exam, from inheritance through sorting algorithms.',
-//           'Below is a link to an old exam (and its soluitions) that you can use for practice:<ul><li><a href="https://docs.google.com/document/d/1OvL-Z8hvgLnVl3VaMv2URzjKkBSEqrz1Rl9JWU1DwPA/edit?usp=sharing">Practice exam</a></li><li><a href="https://docs.google.com/document/d/19qd56TBphz2xTjTOOJ3XDoz_k-rJYranriHrfSehwKY/edit?usp=sharing">Practice exam solutions</a></li></ul>'
-//         ]
-//       },
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Sorting Algorithms &ndash; <a href="https://docs.google.com/document/d/1KlpahJuzj_FCl-PernsVINRxWviS3NloQTjXjlI-Vfs/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/sorting">example code</a>'
-//         ]
-//       }
-//     ]
-//   },
 //
 //   {
 //     week: 10,

@@ -124,6 +124,10 @@ const recitations = {
           title: 'Assignment 4 link',
           link: 'https://classroom.github.com/a/UmUz5DLK',
           description: 'on GitHub Classroom'
+        },
+        {
+          title: 'Week 7 quiz solutions',
+          link: 'https://docs.google.com/document/d/1NY4aaAQlWUO7YQj34EgG5nH8WK7Wgqlp9rnbtU-owp0/edit?usp=sharing'
         }
       ],
       notes: [
@@ -133,6 +137,12 @@ const recitations = {
 
     {
       title: 'Week 8: Assignment 4 Design Review',
+      resources: [
+        {
+          title: 'Week 8 quiz solutions',
+          link: 'https://docs.google.com/document/d/1HnI1KAlXwZo_ZhCXMdilYnQXX9KFaPulWbRsnPl0ikA/edit?usp=sharing'
+        }
+      ],
       notes: [
         'In this week\'s recitation, your TA will review your assignment 4 designs and take questions on the assignment.'
       ]
@@ -140,7 +150,6 @@ const recitations = {
 
     {
       title: 'Week 9: Final Project Design',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 162 design document requirements',
@@ -158,6 +167,14 @@ const recitations = {
       ],
       notes: [
         'Final project design due on Canvas by 11:59pm, Sunday 3/10/2019'
+      ]
+    },
+
+    {
+      title: 'Week 10: Final Project Design Review',
+      isCurrent: true,
+      notes: [
+        'In this week\'s recitation, your TA will review your final project designs and take questions on the assignment.'
       ]
     }
   ],
