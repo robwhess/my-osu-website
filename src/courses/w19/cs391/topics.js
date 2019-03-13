@@ -293,7 +293,6 @@ const topics = [
 
   {
     title: 'AI and Algorithmic Bias',
-    isCurrent: true,
     weeks: [ 7, 8, 9 ],
     // resources: [
     //
@@ -325,101 +324,38 @@ const topics = [
         description: 'Rachel Courtlan (in Nature)'
       }
     ]
+  },
+
+  {
+    title: 'Private Platforms and Free Speech',
+    isCurrent: true,
+    weeks: [ 10 ],
+    // resources: [
+    //
+    // ],
+    readings: [
+      {
+        title: 'It\'s the (Democracy-Poisoning) Golden Age of Free Speech',
+        link: 'https://www.wired.com/story/free-speech-issue-tech-turmoil-new-censorship/',
+        description: 'Zeynep Tufecki (Wired)'
+      },
+      {
+        title: 'Does the banning of Alex Jones signal a new era of big tech responsibility?',
+        link: 'https://www.theguardian.com/technology/2018/aug/10/alex-jones-banning-apple-facebook-youtube-twitter-free-speech',
+        description: 'Julia Carrie Wong and Olivia Solon (The Guardian)'
+      },
+      {
+        title: 'Inside Twitter’s Struggle Over What Gets Banned',
+        link: 'https://www.nytimes.com/2018/08/10/technology/twitter-free-speech-infowars.html',
+        description: 'Cecilia Kang and Kate Conger (NY Times)'
+      },
+      {
+        title: 'Is the First Amendment Obsolete',
+        link: 'https://knightcolumbia.org/content/tim-wu-first-amendment-obsolete',
+        description: 'Tim Wu'
+      }
+    ]
   }
 ];
-
-// calendar: [
-//   {
-//     week: 2,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Ethical Theories &ndash; <a href="https://docs.google.com/document/d/1getG6DdDkI-5NEL0mSzC7rF-t49gMo8wg-QFU5TsTyg/edit?usp=sharing">notes</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="">The trolley problem</a> &ndash; Wikipedia',
-//           '<a href="https://www.nytimes.com/2016/09/02/technology/artificial-intelligence-ethics.html">How Tech Giants Are Devising Real Ethics for Artificial Intelligence</a> &ndash; NY Times',
-//           '<a href="http://spectrum.ieee.org/video/robotics/robotics-software/how-to-build-a-moral-robot">How to Build a Moral Robot</a> &ndash; IEEE Spectrum'
-//         ]
-//       }
-//     ]
-//   },
-//   {
-//     week: 3,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Accountability'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://plato.stanford.edu/entries/computing-responsibility/">Computing and Moral Responsibility</a> &ndash; Stanford Encyclopedia of Philosphy',
-//           '<a href="https://www.nytimes.com/2016/12/14/technology/yahoo-hack.html">Yahoo Says 1 Billion User Accounts Were Hacked</a> &ndash; NY Times'
-//         ]
-//       }
-//     ]
-//   },
-//   {
-//     week: 4,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Accountability'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://fortune.com/2017/03/01/twitter-abuse-real-time/">Twitter is Now Trying to Detect and Curb Abuse in Real Time</a> &ndash; Fortune'
-//         ]
-//       }
-//     ]
-//   },
-//   {
-//     week: 5,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Privacy'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="https://plato.stanford.edu/entries/it-privacy/">Privacy and Information Technology</a> &ndash; Stanford Encyclopedia of Philosophy',
-//           '<a href="http://www.npr.org/2017/03/28/521831393/congress-overturns-internet-privacy-regulation">Congress Overturns Internet Privacy Regulation</a> &ndash; NPR',
-//           '<a href="https://www.nytimes.com/2017/04/28/us/politics/nsa-surveillance-terrorism-privacy.html?_r=0">N.S.A. Halts Collection of Americans\' Emails About Foreign Targets</a> &ndash; NY Times',
-//           '<a href="https://www.forbes.com/sites/legalnewsline/2016/07/05/il-facial-recognition-law-leads-to-wave-of-class-actions-against-facebook-others/">Illinois Facial Recognition Law Leads To Wave Of Class Actions Against Facebook, Others</a> &ndash; Forbes'
-//         ]
-//       }
-//     ]
-//   },
-//   {
-//     week: 6,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Intellectual Property &ndash; <a href="https://docs.google.com/document/d/1r_AwMzclmqfSoq8_Xhv3gWzqpE2B1enFH03Y4OQHQUU/edit?usp=sharing">notes</a>'
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.wipo.int/about-ip/en/">What is Intellectual Property</a> &ndash; World Intellectual Property Organization'
-//         ]
-//       }
-//     ]
-//   }
-// ],
 
 export default topics;
