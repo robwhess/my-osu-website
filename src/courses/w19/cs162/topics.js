@@ -393,7 +393,6 @@ const topics = [
   {
     title: 'Second Exam',
     weeks: [ 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Practice exam',
@@ -414,29 +413,36 @@ const topics = [
       'The exam will cover everything we\'ve talked about in lecture after the first exam, from inheritance through and sorting.',
       'The exam will be all multiple choice and true/false questions.  I will provide Scantron forms.'
     ]
+  },
+
+  {
+    title: 'Recursion and Quicksort',
+    weeks: [ 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1HOfRbc2lOC5i5ncDEjRu_lPRm4ruwJvPGLCAT-y_SIM/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS162-W19/sorting',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: '7.11 - Recursion',
+        link: 'http://www.learncpp.com/cpp-tutorial/7-11-recursion/',
+        description: 'LearnCpp.com'
+      },
+      {
+        title: 'Quicksort',
+        link: 'https://en.wikipedia.org/wiki/Quicksort',
+        description: 'Wikipedia'
+      }
+    ]
   }
 ];
-
-// var calendar = [
-//
-//   {
-//     week: 10,
-//     sections: [
-//       {
-//         heading: 'Topics',
-//         entriesHTML: [
-//           'Recursion and Quicksort &ndash; <a href="https://docs.google.com/document/d/1HOfRbc2lOC5i5ncDEjRu_lPRm4ruwJvPGLCAT-y_SIM/edit?usp=sharing">notes</a> &ndash; <a href="https://github.com/OSU-CS162-W18/sorting">example code</a>',
-//         ]
-//       },
-//       {
-//         heading: 'Readings',
-//         entriesHTML: [
-//           '<a href="http://www.learncpp.com/cpp-tutorial/7-11-recursion/">7.11 &ndash; Recursion</a> &ndash; LearnCpp.com',
-//           '<a href="https://en.wikipedia.org/wiki/Quicksort">Quicksort</a> &ndash; Wikipedia'
-//         ]
-//       }
-//     ]
-//   }
-// ];
 
 export default topics;
