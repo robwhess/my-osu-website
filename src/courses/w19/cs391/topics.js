@@ -353,6 +353,26 @@ const topics = [
         title: 'Is the First Amendment Obsolete',
         link: 'https://knightcolumbia.org/content/tim-wu-first-amendment-obsolete',
         description: 'Tim Wu'
+      },
+      {
+        title: 'Tech Platforms and the Knowledge Problem',
+        link: 'https://americanaffairsjournal.org/2018/05/tech-platforms-and-the-knowledge-problem/',
+        description: 'Frank Pasquale'
+      },
+      {
+        title: 'The New Governors: The People, Rules, and Processes Governing Online Speech',
+        link: 'https://harvardlawreview.org/wp-content/uploads/2018/04/1598-1670_Online.pdf',
+        description: 'Kate Klonick (you can just read the introduction)'
+      },
+      {
+        title: 'Resisting Political Fragmentation on the Internet',
+        link: 'https://www.mitpressjournals.org/doi/pdf/10.1162/daed_a_00118',
+        description: 'R. Kelly Garrett & Paul Resnick'
+      },
+      {
+        title: 'The Social Responsibility of Business is to Increase its Profits',
+        link: 'http://umich.edu/~thecore/doc/Friedman.pdf',
+        description: 'Milton Friedman'
       }
     ]
   }
