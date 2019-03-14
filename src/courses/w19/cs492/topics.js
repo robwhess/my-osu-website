@@ -421,6 +421,45 @@ const topics = [
         link: 'http://bumptech.github.io/glide/'
       }
     ]
+  },
+
+  {
+    title: 'Background Work and Notifications',
+    weeks: [ 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1zZAneZTOFFfDhze99ZeJpOb_0XO98pXfUYr3e8M6Z90/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithNotifications',
+        description: 'code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Guide to background processing',
+        link: 'https://developer.android.com/guide/background/',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Getting started with WorkManager',
+        link: 'https://developer.android.com/topic/libraries/architecture/workmanager/basics',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Notifications Overview',
+        link: 'https://developer.android.com/guide/topics/ui/notifiers/notifications',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Create a Notification',
+        link: 'https://developer.android.com/training/notify-user/build-notification',
+        description: 'Android Developers'
+      }
+    ]
   }
 ];
 
