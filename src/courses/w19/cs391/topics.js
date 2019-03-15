@@ -375,6 +375,41 @@ const topics = [
         description: 'Milton Friedman'
       }
     ]
+  },
+
+  {
+    title: 'Culture and Diversity in Tech',
+    isCurrent: true,
+    weeks: [ 10 ],
+    // resources: [
+    //
+    // ],
+    readings: [
+      {
+        title: 'Prologue (How Diversity Trumps Ability: Fun at Caltech)',
+        link: 'http://assets.press.princeton.edu/chapters/p8353.pdf',
+        description: 'Scott Page - From "The Difference"'
+      },
+      {
+        title: 'Reflecting on one very, very strange year at Uber',
+        link: 'https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber',
+        description: 'Susan Fowler'
+      },
+      {
+        title: 'Google’s Ideological Echo Chamber',
+        link: 'https://assets.documentcloud.org/documents/3914586/Googles-Ideological-Echo-Chamber.pdf',
+        description: 'James Damore'
+      },
+      {
+        title: 'We’re the Organizers of the Google Walkout. Here Are Our Demands',
+        link: 'https://www.thecut.com/2018/11/google-walkout-organizers-explain-demands.html',
+        description: 'Claire Stapleton, Tanuja Gupta, Meredith Whittaker, Celie O\'Neil-Hart, Stephanie Parker, Erica Anderson, and Amr Gaber'
+      },
+      {
+        title: 'Google Diversity Annual Report 2018',
+        link: 'https://static.googleusercontent.com/media/diversity.google/en//static/pdf/Google_Diversity_annual_report_2018.pdf',
+      }
+    ]
   }
 ];
 
