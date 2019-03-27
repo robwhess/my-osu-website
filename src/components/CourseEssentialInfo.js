@@ -63,7 +63,12 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Instructor:</EssentialInfoHeading>
           <EssentialInfoData>
-            {instructor.name} (<a href={`mailto:${instructor.email}`}>{instructor.email}</a>)
+            {instructor.name}
+            {
+              instructor.email ?
+              <React.Fragment>(<a href={`mailto:${instructor.email}`}>{instructor.email}</a>)</React.Fragment> :
+              null
+            }
           </EssentialInfoData>
         </EssentialInfoItem>
 
