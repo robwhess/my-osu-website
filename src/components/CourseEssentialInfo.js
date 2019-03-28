@@ -107,7 +107,7 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Syllabus:</EssentialInfoHeading>
           <EssentialInfoData>
-            <a href={syllabusLink}>{number} syllabus</a>
+            <a href={syllabusLink} target="_blank" rel="noopener noreferrer">{number} syllabus</a>
           </EssentialInfoData>
         </EssentialInfoItem>
 
