@@ -26,7 +26,7 @@ const topics = [
   {
     title: 'RESTful API Design',
     isCurrent: true,
-    weeks: [ 1, 2 ],
+    weeks: [ 1 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -47,57 +47,57 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Setting up a Server with Node.js and Express',
-  //   weeks: [ 2, 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS493-Sp18/serving'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Node.js',
-  //       link: 'http://eloquentjavascript.net/20_node.html',
-  //       description: 'Eloquent Javascript, Chapter 20'
-  //     },
-  //     {
-  //       title: 'How to Install Local Packages',
-  //       link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally',
-  //       description: 'npm docs'
-  //     },
-  //     {
-  //       title: 'Working with package.json',
-  //       link: 'https://docs.npmjs.com/getting-started/using-a-package.json',
-  //       description: 'npm docs'
-  //     },
-  //     {
-  //       title: 'Hello world example',
-  //       link: 'https://expressjs.com/en/starter/hello-world.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Basic routing',
-  //       link: 'https://expressjs.com/en/starter/basic-routing.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Routing',
-  //       link: 'https://expressjs.com/en/guide/routing.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Writing middleware for use in Express apps',
-  //       link: 'https://expressjs.com/en/guide/writing-middleware.html',
-  //       description: 'Express docs'
-  //     }
-  //   ]
-  // },
+  {
+    title: 'Setting up a Server with Node.js and Express',
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS493-Sp18/serving'
+      }
+    ],
+    readings: [
+      {
+        title: 'Node.js',
+        link: 'http://eloquentjavascript.net/20_node.html',
+        description: 'Eloquent Javascript, Chapter 20'
+      },
+      {
+        title: 'How to Install Local Packages',
+        link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally',
+        description: 'npm docs'
+      },
+      {
+        title: 'Working with package.json',
+        link: 'https://docs.npmjs.com/getting-started/using-a-package.json',
+        description: 'npm docs'
+      },
+      {
+        title: 'Hello world example',
+        link: 'https://expressjs.com/en/starter/hello-world.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Basic routing',
+        link: 'https://expressjs.com/en/starter/basic-routing.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Routing',
+        link: 'https://expressjs.com/en/guide/routing.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Writing middleware for use in Express apps',
+        link: 'https://expressjs.com/en/guide/writing-middleware.html',
+        description: 'Express docs'
+      }
+    ]
+  },
   //
   // {
   //   title: 'The OpenAPI Specification',
