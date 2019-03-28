@@ -40,22 +40,22 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Regular Expression-Based Scanners',
-  //   weeks: [ 2 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Q3Qj3pZVixeeD6bQ7oDeBze3csKF58-k0E6r5XJ7Ssk/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 2 (2.4 - 2.5)',
-  //       description: 'Cooper and Torczon'
-  //     }
-  //   ]
-  // },
+  {
+    title: 'Regular Expression-Based Scanners',
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Q3Qj3pZVixeeD6bQ7oDeBze3csKF58-k0E6r5XJ7Ssk/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 2 (2.4 - 2.5)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
   //
   // {
   //   title: 'The Flex Scanner Generator',

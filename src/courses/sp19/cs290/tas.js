@@ -8,14 +8,48 @@ const taInfo = [
   {
     name: "Braden Hitchcock",
     email: "hitchcob@oregonstate.edu",
-    officeHours: [],
-    gradingHours: []
+    officeHours: [
+      {
+        day: 'Thurs.',
+        time: '9:00 &ndash; 11:00am',
+        location: 'JOHN 121'
+      }
+    ],
+    gradingHours: [
+      {
+        day: 'Wed.',
+        time: '10:00 &ndash; 11:00am',
+        location: 'JOHN 121'
+      },
+      {
+        day: 'Fri.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'JOHN 121'
+      }
+    ]
   },
   {
     name: "Akshay Shinde",
     email: "shindea@oregonstate.edu",
-    officeHours: [],
-    gradingHours: []
+    officeHours: [
+      {
+        day: 'Fri.',
+        time: '1:00 &ndash; 5:00pm',
+        location: 'JOHN 123'
+      }
+    ],
+    gradingHours: [
+      {
+        day: 'Mon.',
+        time: '1:00 &ndash; 4:00pm',
+        location: 'Covell 140, Table 4'
+      },
+      {
+        day: 'Tues.',
+        time: '2:00 &ndash; 5:00pm',
+        location: 'Covell 140, Table 4'
+      }
+    ]
   }
 ];
 
