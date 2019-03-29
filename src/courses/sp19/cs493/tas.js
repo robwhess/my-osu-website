@@ -35,8 +35,25 @@ const taInfo = [
   {
     name: "Vijay Tadimeti",
     email: "tadimetv@oregonstate.edu",
-    officeHours: [],
-    gradingHours: []
+    officeHours: [
+      {
+        day: 'Wed.',
+        time: '11:30am &ndash; 12:30pm',
+        location: 'Covell 140, Table 1'
+      },
+      {
+        day: 'Fri.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'Covell 140, Table 1'
+      }
+    ],
+    gradingHours: [
+      {
+        day: 'Thurs.',
+        time: '12:00 &ndash; 1:30pm',
+        location: 'Covell 140, Table 1'
+      }
+    ]
   }
 ];
 
