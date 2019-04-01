@@ -14,7 +14,7 @@ const assignments = {
       ]
     },
     // {
-    //   link : 'https://classroom.github.com/a/maIig3lb',
+    //   link : '',
     //   title: 'Assignment 2 &ndash; Styling a page with CSS',
     //   due: {
     //     day: 'Monday, 10/15/2018',
@@ -26,7 +26,7 @@ const assignments = {
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/kyZpz9RI',
+    //   link : '',
     //   title: 'Assignment 3 &ndash; Client-side JS',
     //   due: {
     //     day: 'Monday, 11/5/2018',
@@ -38,7 +38,7 @@ const assignments = {
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/YoQufS8y',
+    //   link : '',
     //   title: 'Assignment 4 &ndash; Native Node.js file serving',
     //   due: {
     //     day: 'Monday, 11/12/2018',
@@ -50,7 +50,7 @@ const assignments = {
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/dm-85Pd3',
+    //   link : '',
     //   title: 'Assignment 5 &ndash; Handlebars templating',
     //   due: {
     //     day: 'Wednesday, 11/28/2018',

@@ -2,7 +2,7 @@ const assignments = {
   title: 'Assignments',
   assignments: [
     // {
-    //   link : 'https://classroom.github.com/a/MoVXmSsT',
+    //   link : '',
     //   title: 'Assignment 1 &ndash;Scanning',
     //   due: {
     //     day: 'Monday, ~~1/29/2018~~ 2/5/2018',
@@ -13,7 +13,7 @@ const assignments = {
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/Jd54l1S3',
+    //   link : '',
     //   title: 'Assignment 2 &ndash;Parsing and syntax-directed translation',
     //   due: {
     //     day: 'Monday, ~~2/19/2018~~ 2/26/2018',
@@ -24,7 +24,7 @@ const assignments = {
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/8XIBXP2x',
+    //   link : '',
     //   title: 'Assignment 3 &ndash;Abstract syntax trees and simple code generation',
     //   due: {
     //     day: 'Monday, 3/12/2018',
@@ -35,7 +35,7 @@ const assignments = {
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/gkTLyITD',
+    //   link : '',
     //   title: 'Final Project &ndash;Code generation and optimization with LLVM',
     //   due: {
     //     day: 'Friday, 3/23/2018',
