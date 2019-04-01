@@ -49,6 +49,11 @@ const taInfo = [
     ],
     gradingHours: [
       {
+        day: 'Mon.',
+        time: '10:30am &ndash; 12:00pm',
+        location: 'Covell 140, Table 1'
+      },
+      {
         day: 'Thurs.',
         time: '12:00 &ndash; 1:30pm',
         location: 'Covell 140, Table 1'
