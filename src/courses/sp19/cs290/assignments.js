@@ -1,18 +1,18 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : 'https://classroom.github.com/a/7zGLdJGC',
-    //   title: 'Assignment 1 &ndash; HTML and web publishing',
-    //   due: {
-    //     day: 'Monday, 10/1/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Monday, 10/15/2018'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/7zGLdJGC',
+      title: 'Assignment 1 &ndash; HTML and web publishing',
+      due: {
+        day: 'Monday, 4/8/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog due **ON CANVAS** by assignment due date',
+        'Demo due by 11:59pm on Monday, 4/22/2019'
+      ]
+    },
     // {
     //   link : 'https://classroom.github.com/a/maIig3lb',
     //   title: 'Assignment 2 &ndash; Styling a page with CSS',

@@ -16,8 +16,8 @@ var courseDetails = {
 
   officeHours: [
     {
-      day: 'Tues.',
-      time: '10:00am&ndash;12:00pm',
+      day: 'Thurs.',
+      time: '9:30&ndash;11:30am',
       location: 'KEC 1109'
     },
     {
