@@ -2,7 +2,7 @@ const assignments = {
   title: 'Assignments',
   assignments: [
     {
-      link : 'https://classroom.github.com/a/7zGLdJGC',
+      link : 'https://classroom.github.com/a/3yw23lJ4',
       title: 'Assignment 1 &ndash; HTML and web publishing',
       due: {
         day: 'Monday, 4/8/2019',
