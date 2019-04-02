@@ -75,6 +75,12 @@ const globalStyles = css`
     text-decoration: line-through;
   }
 
+  .noscroll {
+    @media (max-width: ${breakpoints[0]}px) {
+      overflow: hidden;
+    }
+  }
+
   @media (max-width: ${breakpoints[0]}px) {
     body {
       font-weight: 400;
