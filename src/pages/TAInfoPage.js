@@ -13,6 +13,7 @@ import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import DayTimeLocation from '../components/DayTimeLocation';
 import AngleList from '../components/AngleList';
+import breakpoints from '../lib/breakpoints';
 
 const TAInfoSectionBox = styled(SectionBox)`
   h1 {
@@ -29,6 +30,15 @@ const TAInfoItem = styled.div`
   h2 {
     margin: 0;
   }
+  @media (max-width: ${breakpoints[0]}px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
 `;
 
 const TAInfoData = styled.div`
@@ -43,6 +53,15 @@ const TAInfoData = styled.div`
   }
   ${TAInfoItem}:last-of-type & {
     border-bottom: none;
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    display: initial;
+    flex: 1 1 100%;
+    padding: 10px;
+    border-bottom: none;
+    &:not(:first-of-type) {
+      margin-left: 20px;
+    }
   }
 `;
 
