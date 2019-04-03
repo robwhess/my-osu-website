@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -49,6 +48,7 @@ const topics = [
 
   {
     title: 'Setting up a Server with Node.js and Express',
+    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -57,7 +57,7 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/OSU-CS493-Sp18/serving'
+        link: 'https://github.com/osu-cs493-sp19/server-setup'
       }
     ],
     readings: [
