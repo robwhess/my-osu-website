@@ -4,7 +4,7 @@ const taInfo = [
     email: "bhuvab@oregonstate.edu",
     officeHours: [
       {
-        day: 'Tues.',
+        day: 'Wed.',
         time: '10:00am &ndash; 12:00pm',
         location: 'JOHN 123'
       },
@@ -17,7 +17,12 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Mon.',
-        time: '4:00 &ndash; 6:00pm',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'JOHN 125'
+      },
+      {
+        day: 'Tues.',
+        time: '5:00 &ndash; 6:00pm',
         location: 'JOHN 125'
       },
       {
