@@ -41,12 +41,14 @@ const taInfo = [
       {
         day: 'Wed.',
         time: '10:00 &ndash; 11:00am',
-        location: 'JOHN 121'
+        location: 'JOHN 121',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUY5Z1hLQ1pfYkJmfGRlZmF1bHR8MTE2Mzc0MTljNmFkZTJlNWQ0MDMzN2VhYTJjYmZiNTM'
       },
       {
         day: 'Fri.',
         time: '4:00 &ndash; 6:00pm',
-        location: 'JOHN 121'
+        location: 'JOHN 121',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUY5Z1hLQ1pfYkJmfGRlZmF1bHR8MTE2Mzc0MTljNmFkZTJlNWQ0MDMzN2VhYTJjYmZiNTM'
       }
     ]
   },

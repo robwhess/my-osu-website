@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro/Overview of Compilers',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -25,7 +24,7 @@ const topics = [
   {
     title: 'Finite Automata and Regular Expressions',
     isCurrent: true,
-    weeks: [ 1, 2 ],
+    weeks: [ 1 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -42,7 +41,8 @@ const topics = [
 
   {
     title: 'Regular Expression-Based Scanners',
-    weeks: [ 2 ],
+    isCurrent: true,
+    weeks: [ 1, 2 ],
     resources: [
       {
         title: 'Lecture notes',
