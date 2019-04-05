@@ -1,17 +1,17 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash;Scanning',
-    //   due: {
-    //     day: 'Monday, ~~1/29/2018~~ 2/5/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday ~~2/12/2018~~ 2/19/2018'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/NdGQm4hI',
+      title: 'Assignment 1 &ndash; Scanning with flex',
+      due: {
+        day: 'Monday, 4/22/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 5/6/2019'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash;Parsing and syntax-directed translation',

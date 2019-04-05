@@ -23,7 +23,6 @@ const topics = [
 
   {
     title: 'Finite Automata and Regular Expressions',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -56,33 +55,34 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'The Flex Scanner Generator',
-  //   weeks: [ 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS480-W18/flex'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Flex In a Nutshell',
-  //       link: 'https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/handouts/050%20Flex%20In%20A%20Nutshell.pdf',
-  //       description: 'Julie Zelenski (Stanford)'
-  //     },
-  //     {
-  //       title: 'Flex - A fast scanner generator',
-  //       link: 'ftp://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_mono/flex.html',
-  //       description: 'The Flex user manual'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'The Flex Scanner Generator',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp19/flex'
+      }
+    ],
+    readings: [
+      {
+        title: 'Flex In a Nutshell',
+        link: 'https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/handouts/050%20Flex%20In%20A%20Nutshell.pdf',
+        description: 'Julie Zelenski (Stanford)'
+      },
+      {
+        title: 'Flex - A fast scanner generator',
+        link: 'ftp://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_mono/flex.html',
+        description: 'The Flex user manual'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Context-Free Grammars',

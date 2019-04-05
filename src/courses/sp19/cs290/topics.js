@@ -12,7 +12,6 @@ const topics = [
 
   {
     title: 'Git and GitHub',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -53,42 +52,43 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'CSS',
-  //   weeks: [ 2, 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/css'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Introduction to CSS',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS',
-  //       description: 'MDN'
-  //     },
-  //     {
-  //       title: 'Cyclomatic Complexity: Logic in CSS',
-  //       link: 'http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/',
-  //       description: 'CSS Wizardry'
-  //     },
-  //     {
-  //       title: 'Using CSS Flexible Boxes',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes',
-  //       description: 'MDN'
-  //     },
-  //     {
-  //       title: 'Responsive Web Design Basics',
-  //       link: 'https://developers.google.com/web/fundamentals/design-and-ui/responsive/',
-  //       description: 'Google Web Fundamentals'
-  //     }
-  //   ]
-  // },
+  {
+    title: 'CSS',
+    isCurrent: true,
+    weeks: [ 2, 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp19/css'
+      }
+    ],
+    readings: [
+      {
+        title: 'Introduction to CSS',
+        link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS',
+        description: 'MDN'
+      },
+      {
+        title: 'Cyclomatic Complexity: Logic in CSS',
+        link: 'http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/',
+        description: 'CSS Wizardry'
+      },
+      {
+        title: 'Using CSS Flexible Boxes',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes',
+        description: 'MDN'
+      },
+      {
+        title: 'Responsive Web Design Basics',
+        link: 'https://developers.google.com/web/fundamentals/design-and-ui/responsive/',
+        description: 'Google Web Fundamentals'
+      }
+    ]
+  },
   //
   // {
   //   title: 'JavaScript Fundamentals',
