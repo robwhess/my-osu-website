@@ -5,8 +5,8 @@ const taInfo = [
     officeHours: [
       {
         day: 'Wed.',
-        time: '10:00am &ndash; 12:00pm',
-        location: 'JOHN 123'
+        time: '9:00 &ndash; 11:00am',
+        location: 'JOHN 125'
       },
       {
         day: 'Fri.',
@@ -23,7 +23,7 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '5:00 &ndash; 6:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 123'
       },
       {
         day: 'Wed.',
