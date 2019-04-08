@@ -18,12 +18,14 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '1:00 &ndash; 4:00pm',
-        location: 'Covell 140, Table 1'
+        location: 'Covell 140, Table 1',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU84NHpfZXZLVVRhfGRlZmF1bHR8NDU5ZTRkYmYxMTRjYzk0ZmZkMzhjMGI1ZmZmZTU2NjM'
       },
       {
         day: 'Wed.',
         time: '1:00 &ndash; 4:00pm',
-        location: 'Covell 140, Table 4'
+        location: 'Covell 140, Table 4',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU84NHpfZXZLVVRhfGRlZmF1bHR8NDU5ZTRkYmYxMTRjYzk0ZmZkMzhjMGI1ZmZmZTU2NjM'
       }
     ]
   },
@@ -66,12 +68,14 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '1:00 &ndash; 4:00pm',
-        location: 'Covell 140, Table 4'
+        location: 'Covell 140, Table 4',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZqRXpqMmtPZkdLfGRlZmF1bHR8YWZmOWVlMDUyOWJkNjliZTljMGI2NTdmY2IyNWU1Mjc'
       },
       {
-        day: 'Tues.',
-        time: '2:00 &ndash; 5:00pm',
-        location: 'Covell 140, Table 4'
+        day: 'Wed.',
+        time: '1:00 &ndash; 4:00pm',
+        location: 'KEC Atrium',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZqRXpqMmtPZkdLfGRlZmF1bHR8YWZmOWVlMDUyOWJkNjliZTljMGI2NTdmY2IyNWU1Mjc'
       }
     ]
   }
