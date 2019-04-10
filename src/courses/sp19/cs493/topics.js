@@ -24,7 +24,6 @@ const topics = [
 
   {
     title: 'RESTful API Design',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -95,6 +94,26 @@ const topics = [
         title: 'Writing middleware for use in Express apps',
         link: 'https://expressjs.com/en/guide/writing-middleware.html',
         description: 'Express docs'
+      },
+      {
+        title: 'Requests',
+        link: 'https://www.getpostman.com/docs/postman/sending_api_requests/requests',
+        description: 'Postman'
+      },
+      {
+        title: 'Responses',
+        link: 'https://www.getpostman.com/docs/postman/sending_api_requests/responses',
+        description: 'Postman'
+      },
+      {
+        title: 'Test scripts',
+        link: 'https://www.getpostman.com/docs/postman/scripts/test_scripts',
+        description: 'Postman'
+      },
+      {
+        title: 'Test examples',
+        link: 'https://www.getpostman.com/docs/postman/scripts/test_examples',
+        description: 'Postman'
       }
     ]
   },
@@ -122,86 +141,66 @@ const topics = [
   //       title: 'OpenAPI Specification Docs',
   //       link: 'https://swagger.io/docs/specification/about/',
   //       description: 'Swagger'
-  //     },
-  //     {
-  //       title: 'Requests',
-  //       link: 'https://www.getpostman.com/docs/v6/postman/sending_api_requests/requests',
-  //       description: 'Postman'
-  //     },
-  //     {
-  //       title: 'Responses',
-  //       link: 'https://www.getpostman.com/docs/v6/postman/sending_api_requests/responses',
-  //       description: 'Postman'
-  //     },
-  //     {
-  //       title: 'Test scripts',
-  //       link: 'https://www.getpostman.com/docs/v6/postman/scripts/test_scripts',
-  //       description: 'Postman'
-  //     },
-  //     {
-  //       title: 'Test examples',
-  //       link: 'https://www.getpostman.com/docs/v6/postman/scripts/test_examples',
-  //       description: 'Postman'
   //     }
   //   ]
   // },
   //
-  // {
-  //   title: 'Containerization with Docker',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS493-Sp18/docker'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Docker overview',
-  //       link: 'https://docs.docker.com/engine/docker-overview/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Get started with Docker',
-  //       link: 'https://docs.docker.com/get-started/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Dockerfile reference',
-  //       link: 'https://docs.docker.com/engine/reference/builder/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Use volumes',
-  //       link: 'https://docs.docker.com/storage/volumes/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Networking overview',
-  //       link: 'https://docs.docker.com/network/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Networking with standalone containers',
-  //       link: 'https://docs.docker.com/network/network-tutorial-standalone/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Overview of Docker Compose',
-  //       link: 'https://docs.docker.com/compose/overview/',
-  //       description: 'Docker docs'
-  //     },
-  //     {
-  //       title: 'Compose file version 3 reference',
-  //       link: 'https://docs.docker.com/compose/compose-file/',
-  //       description: 'Docker docs'
-  //     },
-  //   ]
-  // },
+  {
+    title: 'Containerization with Docker',
+    weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS493-Sp18/docker'
+      }
+    ],
+    readings: [
+      {
+        title: 'Docker overview',
+        link: 'https://docs.docker.com/engine/docker-overview/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Get started with Docker',
+        link: 'https://docs.docker.com/get-started/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Dockerfile reference',
+        link: 'https://docs.docker.com/engine/reference/builder/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Use volumes',
+        link: 'https://docs.docker.com/storage/volumes/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Networking overview',
+        link: 'https://docs.docker.com/network/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Networking with standalone containers',
+        link: 'https://docs.docker.com/network/network-tutorial-standalone/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Overview of Docker Compose',
+        link: 'https://docs.docker.com/compose/overview/',
+        description: 'Docker docs'
+      },
+      {
+        title: 'Compose file version 3 reference',
+        link: 'https://docs.docker.com/compose/compose-file/',
+        description: 'Docker docs'
+      },
+    ]
+  },
   //
   // {
   //   title: 'Using MySQL to Store API Data',
