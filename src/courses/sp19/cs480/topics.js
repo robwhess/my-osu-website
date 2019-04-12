@@ -85,7 +85,7 @@ const topics = [
 
   {
     title: 'Context-Free Grammars',
-    weeks: [ 4 ],
+    weeks: [ 3 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -102,7 +102,7 @@ const topics = [
 
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
-    weeks: [ 4, 5 ],
+    weeks: [ 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
