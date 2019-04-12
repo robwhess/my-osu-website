@@ -40,7 +40,6 @@ const topics = [
 
   {
     title: 'Regular Expression-Based Scanners',
-    isCurrent: true,
     weeks: [ 1, 2 ],
     resources: [
       {
@@ -83,40 +82,40 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Context-Free Grammars',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 3 (3.1)',
-  //       description: 'Cooper and Torczon'
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'Top-Down Parsing and LL(1) Grammars',
-  //   weeks: [ 4, 5 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 3 (3.2 - 3.3)',
-  //       description: 'Cooper and Torczon'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Context-Free Grammars',
+    weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 3 (3.1)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'Top-Down Parsing and LL(1) Grammars',
+    weeks: [ 4, 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 3 (3.2 - 3.3)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
   //
   // {
   //   title: 'First Exam',
