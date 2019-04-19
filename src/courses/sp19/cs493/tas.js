@@ -18,22 +18,26 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '5:00 &ndash; 6:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 125',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU4yb0N0WUpNS2JofGRlZmF1bHR8MTAwNWNhZjRjNGUwOTE5OGQ1ZjYyZmVmYTdlZDg4NDk'
       },
       {
         day: 'Tues.',
         time: '5:00 &ndash; 6:00pm',
-        location: 'JOHN 123'
+        location: 'JOHN 123',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU4yb0N0WUpNS2JofGRlZmF1bHR8MTAwNWNhZjRjNGUwOTE5OGQ1ZjYyZmVmYTdlZDg4NDk'
       },
       {
         day: 'Wed.',
         time: '4:00 &ndash; 6:00pm',
-        location: 'JOHN 123'
+        location: 'JOHN 123',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU4yb0N0WUpNS2JofGRlZmF1bHR8MTAwNWNhZjRjNGUwOTE5OGQ1ZjYyZmVmYTdlZDg4NDk'
       },
       {
         day: 'Fri.',
         time: '2:00 &ndash; 4:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 125',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU4yb0N0WUpNS2JofGRlZmF1bHR8MTAwNWNhZjRjNGUwOTE5OGQ1ZjYyZmVmYTdlZDg4NDk'
       }
     ]
   },
@@ -56,12 +60,14 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '10:30am &ndash; 12:00pm',
-        location: 'Covell 140, Table 1'
+        location: 'Covell 140, Table 1',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUlZVmVLTU9Lai1ofGRlZmF1bHR8M2FkZjNjZGUxZjRhMmExYTI1NDBiNTY2ZWJmNmM3Y2Q'
       },
       {
         day: 'Thurs.',
         time: '12:00 &ndash; 1:30pm',
-        location: 'Covell 140, Table 1'
+        location: 'Covell 140, Table 1',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUlZVmVLTU9Lai1ofGRlZmF1bHR8M2FkZjNjZGUxZjRhMmExYTI1NDBiNTY2ZWJmNmM3Y2Q'
       }
     ]
   }
