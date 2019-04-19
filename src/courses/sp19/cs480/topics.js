@@ -102,6 +102,7 @@ const topics = [
 
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
+    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
