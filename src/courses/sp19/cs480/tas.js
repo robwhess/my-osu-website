@@ -17,18 +17,21 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Tue.',
-        time: '2:30 &ndash; 5:00pm',
-        location: 'JOHN 125'
+        time: '2:20 &ndash; 5:00pm',
+        location: 'JOHN 125',
+        link: 'https://docs.google.com/spreadsheets/d/1IER613-b9Ni-fhGZ0lIilYz7YP3BZbJQpZ-uCZZQVwo/edit?usp=sharing'
       },
       {
         day: 'Wed.',
         time: '3:00 &ndash; 6:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 125',
+        link: 'https://docs.google.com/spreadsheets/d/1IER613-b9Ni-fhGZ0lIilYz7YP3BZbJQpZ-uCZZQVwo/edit?usp=sharing'
       },
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 5:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 125',
+        link: 'https://docs.google.com/spreadsheets/d/1IER613-b9Ni-fhGZ0lIilYz7YP3BZbJQpZ-uCZZQVwo/edit?usp=sharing'
       }
     ]
   },
@@ -53,7 +56,8 @@ const taInfo = [
       {
         day: 'Wed.',
         time: '12:00 &ndash; 3:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 125',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU9xNmlQOVNJT0tNfGRlZmF1bHR8MWU3ZDRmNDU0OWMzODFhNmZiOTEyZjE4YWExMTFmYWU'
       }
     ]
   }
