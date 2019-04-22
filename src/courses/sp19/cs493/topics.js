@@ -116,37 +116,9 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'The OpenAPI Specification',
-  //   weeks: [ 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1IK3oENCagkrOM2gCcsJkUYJvHzN8tZE-pLZ-BvXaa5Y/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://gist.github.com/robwhess/3e7378b1f2049af51c2dffc65935fb2b'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Writing OpenAPI (Swagger) Specification Tutorial',
-  //       link: 'https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/',
-  //       description: 'API Handyman'
-  //     },
-  //     {
-  //       title: 'OpenAPI Specification Docs',
-  //       link: 'https://swagger.io/docs/specification/about/',
-  //       description: 'Swagger'
-  //     }
-  //   ]
-  // },
-  //
+
   {
     title: 'Containerization with Docker',
-    isCurrent: true,
     weeks: [ 3 ],
     resources: [
       {
@@ -201,48 +173,49 @@ const topics = [
       },
     ]
   },
-  //
-  // {
-  //   title: 'Using MySQL to Store API Data',
-  //   weeks: [ 5 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS493-Sp18/mysql'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Official MySQL image',
-  //       link: 'https://hub.docker.com/_/mysql/',
-  //       description: 'Docker Hub'
-  //     },
-  //     {
-  //       title: 'MySQL Tutorial',
-  //       link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html',
-  //       description: 'MySQL Docs'
-  //     },
-  //     {
-  //       title: 'mysql',
-  //       link: 'https://www.npmjs.com/package/mysql',
-  //       description: 'npm'
-  //     },
-  //     {
-  //       title: 'Promises',
-  //       link: 'https://www.promisejs.org/',
-  //       description: 'promisejs.org'
-  //     },
-  //     {
-  //       title: 'Using promises',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
-  //       description: 'MDN'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Using MySQL to Store API Data',
+    isCurrent: true,
+    weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp19/using-mysql'
+      }
+    ],
+    readings: [
+      {
+        title: 'Official MySQL image',
+        link: 'https://hub.docker.com/_/mysql/',
+        description: 'Docker Hub'
+      },
+      {
+        title: 'MySQL Tutorial',
+        link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html',
+        description: 'MySQL Docs'
+      },
+      {
+        title: 'mysql',
+        link: 'https://www.npmjs.com/package/mysql',
+        description: 'npm'
+      },
+      {
+        title: 'Promises',
+        link: 'https://www.promisejs.org/',
+        description: 'promisejs.org'
+      },
+      {
+        title: 'Using promises',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
+        description: 'MDN'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Using MongoDB to Store API Data',
