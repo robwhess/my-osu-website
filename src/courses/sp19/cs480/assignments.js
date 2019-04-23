@@ -12,17 +12,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 5/6/2019'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash;Parsing and syntax-directed translation',
-    //   due: {
-    //     day: 'Monday, ~~2/19/2018~~ 2/26/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday ~~3/5/2018~~ 3/12/2018'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/A8uGgdiC',
+      title: 'Assignment 2 &ndash;Parsing and syntax-directed translation',
+      due: {
+        day: 'Monday, 5/13/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 5/27/2019'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash;Abstract syntax trees and simple code generation',
