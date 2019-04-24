@@ -53,7 +53,6 @@ const topics = [
 
   {
     title: 'CSS',
-    isCurrent: true,
     weeks: [ 2, 3 ],
     resources: [
       {
@@ -116,33 +115,33 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'JavaScript DOM Manipulation',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/js-dom-manipulation'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Introduction to the DOM',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction',
-  //       description: 'MDN'
-  //     },
-  //     {
-  //       title: 'The Document Object Model',
-  //       link: 'http://eloquentjavascript.net/13_dom.html',
-  //       description: 'Eloquent Javascript (Chapter 13)'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'JavaScript DOM Manipulation',
+    weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS290-F18/js-dom-manipulation'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Introduction to the DOM',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction',
+        description: 'MDN'
+      },
+      {
+        title: 'The Document Object Model',
+        link: 'http://eloquentjavascript.net/13_dom.html',
+        description: 'Eloquent Javascript (Chapter 13)'
+      }
+    ]
+  },
   //
   // {
   //   title: 'JavaScript Event Handling',
