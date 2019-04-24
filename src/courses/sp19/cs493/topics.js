@@ -216,63 +216,63 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Using MongoDB to Store API Data',
-  //   weeks: [ 6, 7 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS493-Sp18/mongodb'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Official MongoDB image',
-  //       link: 'https://hub.docker.com/_/mongo/',
-  //       description: 'Docker Hub'
-  //     },
-  //     {
-  //       title: 'Getting Started with MongoDB',
-  //       link: 'https://docs.mongodb.com/getting-started/shell/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Documents',
-  //       link: 'https://docs.mongodb.com/manual/core/document/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'MongoDB CRUD Operations',
-  //       link: 'https://docs.mongodb.com/manual/crud/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Node.js Quick Start',
-  //       link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Indexes',
-  //       link: 'https://docs.mongodb.com/manual/indexes/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Aggregation',
-  //       link: 'https://docs.mongodb.com/manual/aggregation/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Aggregation Pipeline Stages',
-  //       link: 'https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/',
-  //       description: 'MongoDB docs'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Using MongoDB to Store API Data',
+    weeks: [ 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS493-Sp18/mongodb'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Official MongoDB image',
+        link: 'https://hub.docker.com/_/mongo/',
+        description: 'Docker Hub'
+      },
+      {
+        title: 'Getting Started with MongoDB',
+        link: 'https://docs.mongodb.com/getting-started/shell/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Documents',
+        link: 'https://docs.mongodb.com/manual/core/document/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'MongoDB CRUD Operations',
+        link: 'https://docs.mongodb.com/manual/crud/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Node.js Quick Start',
+        link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Indexes',
+        link: 'https://docs.mongodb.com/manual/indexes/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Aggregation',
+        link: 'https://docs.mongodb.com/manual/aggregation/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Aggregation Pipeline Stages',
+        link: 'https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/',
+        description: 'MongoDB docs'
+      }
+    ]
+  },
   //
   // {
   //   title: 'API Authentication and Authorization',
