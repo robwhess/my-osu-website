@@ -118,16 +118,17 @@ const topics = [
 
   {
     title: 'JavaScript DOM Manipulation',
+    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS290-F18/js-dom-manipulation'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp19/js-dom-manipulation'
+      }
     ],
     readings: [
       {
