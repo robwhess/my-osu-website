@@ -1,10 +1,10 @@
 const finalProject = {
   title: 'Final Project',
   assignments: [
-    // {
-    //   title: 'Final Project Description',
-    //   link: 'https://docs.google.com/document/d/1dMv_TcO9pJf3KbpkMrkhCeSZ0pWolj0t0k_uR6e-ufs/edit?usp=sharing'
-    // },
+    {
+      title: 'Final Project Description',
+      link: 'https://docs.google.com/document/d/1yz34l-pfAUI09d-_FbM78hlveftSZXOvAsG5mMEb9g8/edit?usp=sharing'
+    },
     // {
     //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
     //   title: 'Final Project Demo Signup',
@@ -16,13 +16,13 @@ const finalProject = {
     //     'Code is due on GitHub when when you do your demo.'
     //   ]
     // },
-    // {
-    //   link: 'https://docs.google.com/document/d/1xtAkfi6860veDD22_4FpwHcJyP1x9y-nXI0jJ2XRTS0/edit?usp=sharing',
-    //   title: 'Final Project Group Evaluation',
-    //   notes: [
-    //     'Due **ON CANVAS** by 5:00pm, Friday 12/7/2018'
-    //   ]
-    // }
+    {
+      link: 'https://docs.google.com/document/d/1weWNBYQITX35QqG1HpiEEf8ZkhdnJKr10SRhWSQoIA4/edit?usp=sharing',
+      title: 'Final Project Team Evaluation',
+      notes: [
+        'Due **ON CANVAS** by 5:00pm, Friday 6/14/2019'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.'
