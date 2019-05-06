@@ -273,43 +273,43 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'API Authentication and Authorization',
-  //   weeks: [ 8 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS493-Sp18/auth'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Securing Node.js RESTful APIs with JSON Web Tokens',
-  //       link: 'https://medium.freecodecamp.org/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52',
-  //       description: 'Adnan Rahić (freeCodeCamp.org)'
-  //     },
-  //     {
-  //       title: 'Introduction to JSON Web Tokens',
-  //       link: 'https://jwt.io/introduction/',
-  //       description: 'JWT.IO'
-  //     },
-  //     {
-  //       title: 'JSON Web Token',
-  //       link: 'https://en.wikipedia.org/wiki/JSON_Web_Token',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'bcrypt.js',
-  //       link: 'https://www.npmjs.com/package/bcryptjs',
-  //       description: 'npm'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'API Authentication and Authorization',
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS493-Sp18/auth'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Securing Node.js RESTful APIs with JSON Web Tokens',
+        link: 'https://medium.freecodecamp.org/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52',
+        description: 'Adnan Rahić (freeCodeCamp.org)'
+      },
+      {
+        title: 'Introduction to JSON Web Tokens',
+        link: 'https://jwt.io/introduction/',
+        description: 'JWT.IO'
+      },
+      {
+        title: 'JSON Web Token',
+        link: 'https://en.wikipedia.org/wiki/JSON_Web_Token',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'bcrypt.js',
+        link: 'https://www.npmjs.com/package/bcryptjs',
+        description: 'npm'
+      }
+    ]
+  },
   //
   // {
   //   title: 'API Rate Limiting and Redis',

@@ -179,37 +179,37 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Node.js Basics',
-  //   weeks: [ 6 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/node-basics'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Node.js',
-  //       link: 'http://eloquentjavascript.net/20_node.html',
-  //       description: 'Eloquent Javascript (Chapter 20)'
-  //     },
-  //     {
-  //       title: 'The Art of Node',
-  //       link: 'https://github.com/maxogden/art-of-node/#the-art-of-node'
-  //     },
-  //     {
-  //       title: 'Anatomy of an HTTP Transaction',
-  //       link: 'https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/',
-  //       description: 'Node.js docs'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Node.js Basics',
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS290-F18/node-basics'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Node.js',
+        link: 'http://eloquentjavascript.net/20_node.html',
+        description: 'Eloquent Javascript (Chapter 20)'
+      },
+      {
+        title: 'The Art of Node',
+        link: 'https://github.com/maxogden/art-of-node/#the-art-of-node'
+      },
+      {
+        title: 'Anatomy of an HTTP Transaction',
+        link: 'https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/',
+        description: 'Node.js docs'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Packages and npm',
