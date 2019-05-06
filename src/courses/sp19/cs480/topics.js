@@ -101,7 +101,6 @@ const topics = [
 
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
-    isCurrent: true,
     weeks: [ 4, 5 ],
     resources: [
       {
@@ -120,7 +119,7 @@ const topics = [
   {
     title: 'The Bison Parser Generator',
     isCurrent: true,
-    weeks: [ 5 ],
+    weeks: [ 5, 6 ],
     resources: [
       {
         title: 'Lecture notes',

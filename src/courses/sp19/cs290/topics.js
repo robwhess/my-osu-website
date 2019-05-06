@@ -117,7 +117,6 @@ const topics = [
 
   {
     title: 'JavaScript DOM Manipulation',
-    isCurrent: true,
     weeks: [ 4, 5 ],
     resources: [
       {
@@ -145,7 +144,6 @@ const topics = [
 
   {
     title: 'JavaScript Event Handling',
-    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
@@ -182,6 +180,7 @@ const topics = [
 
   {
     title: 'Node.js Basics',
+    isCurrent: true,
     weeks: [ 6 ],
     resources: [
       {

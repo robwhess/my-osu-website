@@ -218,7 +218,6 @@ const topics = [
 
   {
     title: 'Using MongoDB to Store API Data',
-    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
@@ -276,16 +275,17 @@ const topics = [
 
   {
     title: 'API Authentication and Authorization',
+    isCurrent: true,
     weeks: [ 6 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS493-Sp18/auth'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp19/auth'
+      }
     ],
     readings: [
       {
