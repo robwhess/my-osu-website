@@ -187,10 +187,10 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS290-F18/node-basics'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp19/node-basics'
+      }
     ],
     readings: [
       {
