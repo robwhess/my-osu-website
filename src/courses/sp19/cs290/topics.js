@@ -181,7 +181,7 @@ const topics = [
   {
     title: 'Node.js Basics',
     isCurrent: true,
-    weeks: [ 6 ],
+    weeks: [ 6, 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -209,76 +209,77 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Packages and npm',
-  //   weeks: [ 6 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1jz3-RWjGoDzRddNAwPhAeNuqYF0o9MUWqVMQ-anN4TI/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'What is npm?',
-  //       link: 'https://docs.npmjs.com/getting-started/what-is-npm',
-  //       description: 'npm docs'
-  //     },
-  //     {
-  //       title: 'Installing npm packages locally',
-  //       link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally',
-  //       description: 'npm docs'
-  //     },
-  //     {
-  //       title: 'Using a package.json',
-  //       link: 'https://docs.npmjs.com/getting-started/using-a-package.json',
-  //       description: 'npm docs'
-  //     },
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'Serving with Express',
-  //   weeks: [ 7, 8 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/express-serving'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Hello world example',
-  //       link: 'https://expressjs.com/en/starter/hello-world.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Basic routing',
-  //       link: 'https://expressjs.com/en/starter/basic-routing.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Routing',
-  //       link: 'https://expressjs.com/en/guide/routing.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Writing middleware for use in Express apps',
-  //       link: 'https://expressjs.com/en/guide/writing-middleware.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Serving static files in Express',
-  //       link: 'https://expressjs.com/en/starter/static-files.html',
-  //       description: 'Express docs'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Packages and npm',
+    isCurrent: true,
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1jz3-RWjGoDzRddNAwPhAeNuqYF0o9MUWqVMQ-anN4TI/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'What is npm?',
+        link: 'https://docs.npmjs.com/getting-started/what-is-npm',
+        description: 'npm docs'
+      },
+      {
+        title: 'Installing npm packages locally',
+        link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally',
+        description: 'npm docs'
+      },
+      {
+        title: 'Using a package.json',
+        link: 'https://docs.npmjs.com/getting-started/using-a-package.json',
+        description: 'npm docs'
+      },
+    ]
+  },
+
+  {
+    title: 'Serving with Express',
+    weeks: [ 7, 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS290-F18/express-serving'
+      }
+    ],
+    readings: [
+      {
+        title: 'Hello world example',
+        link: 'https://expressjs.com/en/starter/hello-world.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Basic routing',
+        link: 'https://expressjs.com/en/starter/basic-routing.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Routing',
+        link: 'https://expressjs.com/en/guide/routing.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Writing middleware for use in Express apps',
+        link: 'https://expressjs.com/en/guide/writing-middleware.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Serving static files in Express',
+        link: 'https://expressjs.com/en/starter/static-files.html',
+        description: 'Express docs'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Rendering Dynamic Content with Handlebars',
