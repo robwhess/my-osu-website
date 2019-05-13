@@ -313,6 +313,7 @@ const topics = [
 
   {
     title: 'API Rate Limiting and Redis',
+    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
@@ -321,7 +322,7 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/OSU-CS493-Sp18/rate-limiting'
+        link: 'https://github.com/osu-cs493-sp19/rate-limiting'
       }
     ],
     readings: [
