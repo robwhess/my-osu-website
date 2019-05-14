@@ -180,7 +180,6 @@ const topics = [
 
   {
     title: 'Node.js Basics',
-    isCurrent: true,
     weeks: [ 6, 7 ],
     resources: [
       {
@@ -241,6 +240,7 @@ const topics = [
 
   {
     title: 'Serving with Express',
+    isCurrent: true,
     weeks: [ 7, 8 ],
     resources: [
       {
