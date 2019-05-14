@@ -19,19 +19,19 @@ const taInfo = [
         day: 'Tue.',
         time: '2:20 &ndash; 5:00pm',
         location: 'JOHN 125',
-        link: 'https://docs.google.com/spreadsheets/d/1IER613-b9Ni-fhGZ0lIilYz7YP3BZbJQpZ-uCZZQVwo/edit?usp=sharing'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUlkN1hNd1VjZFZTfGRlZmF1bHR8ZTg4ZDE0NzgxMmY0YjhhZDQ5OTIwOGFjMGFjYzMxMjI'
       },
       {
         day: 'Wed.',
         time: '3:00 &ndash; 6:00pm',
         location: 'JOHN 125',
-        link: 'https://docs.google.com/spreadsheets/d/1IER613-b9Ni-fhGZ0lIilYz7YP3BZbJQpZ-uCZZQVwo/edit?usp=sharing'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUlkN1hNd1VjZFZTfGRlZmF1bHR8ZTg4ZDE0NzgxMmY0YjhhZDQ5OTIwOGFjMGFjYzMxMjI'
       },
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 5:00pm',
         location: 'JOHN 125',
-        link: 'https://docs.google.com/spreadsheets/d/1IER613-b9Ni-fhGZ0lIilYz7YP3BZbJQpZ-uCZZQVwo/edit?usp=sharing'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUlkN1hNd1VjZFZTfGRlZmF1bHR8ZTg4ZDE0NzgxMmY0YjhhZDQ5OTIwOGFjMGFjYzMxMjI'
       }
     ]
   },
