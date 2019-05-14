@@ -276,7 +276,7 @@ const topics = [
   {
     title: 'API Authentication and Authorization',
     isCurrent: true,
-    weeks: [ 6 ],
+    weeks: [ 6, 7 ],
     resources: [
       {
         title: 'Lecture notes',
