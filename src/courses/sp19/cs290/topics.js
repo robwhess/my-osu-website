@@ -249,7 +249,7 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/OSU-CS290-F18/express-serving'
+        link: 'https://github.com/osu-cs290-sp19/express-serving'
       }
     ],
     readings: [
