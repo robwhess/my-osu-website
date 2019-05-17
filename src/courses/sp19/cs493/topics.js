@@ -362,10 +362,10 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1FD1RY28hHCzeIirL1r9eMtTqr-fa4biBG7e-tKXpub8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/rate-limiting'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp19/file-storage'
+      }
     ],
     readings: [
       {
