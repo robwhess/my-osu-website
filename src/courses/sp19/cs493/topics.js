@@ -275,7 +275,6 @@ const topics = [
 
   {
     title: 'API Authentication and Authorization',
-    isCurrent: true,
     weeks: [ 6, 7 ],
     resources: [
       {
@@ -350,7 +349,50 @@ const topics = [
         title: 'Redis commands',
         link: 'https://redis.io/commands',
         description: 'Redis docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Storing File Data',
+    isCurrent: true,
+    weeks: [ 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1FD1RY28hHCzeIirL1r9eMtTqr-fa4biBG7e-tKXpub8/edit?usp=sharing'
       },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp19/rate-limiting'
+      // }
+    ],
+    readings: [
+      {
+        title: 'POST (info on multipart form-data)',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST',
+        description: 'MDN'
+      },
+      {
+        title: 'Multer',
+        link: 'https://expressjs.com/en/resources/middleware/multer.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Building MongoDB Applications with Binary Files Using GridFS: Part 2',
+        link: 'https://www.mongodb.com/blog/post/building-mongodb-applications-binary-files-using-gridfs-part-2',
+        description: 'Jay Runkel (MongoDB blog)'
+      },
+      {
+        title: 'GridFS',
+        link: 'https://docs.mongodb.com/manual/core/gridfs/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'The GridFS API',
+        link: 'http://mongodb.github.io/node-mongodb-native/3.2/tutorials/gridfs/streaming/',
+        description: 'MongoDB Node.js driver docs'
+      }
     ]
   },
   //

@@ -211,7 +211,6 @@ const topics = [
 
   {
     title: 'Packages and npm',
-    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
@@ -280,63 +279,64 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Rendering Dynamic Content with Handlebars',
-  //   weeks: [ 8 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/handlebars-templating'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'A Beginner\'s Guide to Handlebars',
-  //       link: 'https://www.sitepoint.com/a-beginners-guide-to-handlebars/',
-  //       description: 'sitepoint'
-  //     },
-  //     {
-  //       title: 'Expressions',
-  //       link: 'http://handlebarsjs.com/expressions.html',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Built-In Helpers',
-  //       link: 'http://handlebarsjs.com/expressions.html',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Expressions',
-  //       link: 'http://handlebarsjs.com/builtin_helpers.html',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Partials',
-  //       link: 'http://handlebarsjs.com/partials.html',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Express Handlebars',
-  //       link: 'https://github.com/ericf/express-handlebars/#readme',
-  //       description: 'On GitHub'
-  //     },
-  //     {
-  //       title: 'Using template engines with Express',
-  //       link: 'http://expressjs.com/en/guide/using-template-engines.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Model-view-controller',
-  //       link: 'https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Rendering Dynamic Content with Handlebars',
+    isCurrent: true,
+    weeks: [ 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/OSU-CS290-F18/handlebars-templating'
+      }
+    ],
+    readings: [
+      {
+        title: 'A Beginner\'s Guide to Handlebars',
+        link: 'https://www.sitepoint.com/a-beginners-guide-to-handlebars/',
+        description: 'sitepoint'
+      },
+      {
+        title: 'Expressions',
+        link: 'http://handlebarsjs.com/expressions.html',
+        description: 'Handlebars docs'
+      },
+      {
+        title: 'Built-In Helpers',
+        link: 'http://handlebarsjs.com/expressions.html',
+        description: 'Handlebars docs'
+      },
+      {
+        title: 'Expressions',
+        link: 'http://handlebarsjs.com/builtin_helpers.html',
+        description: 'Handlebars docs'
+      },
+      {
+        title: 'Partials',
+        link: 'http://handlebarsjs.com/partials.html',
+        description: 'Handlebars docs'
+      },
+      {
+        title: 'Express Handlebars',
+        link: 'https://github.com/ericf/express-handlebars/#readme',
+        description: 'On GitHub'
+      },
+      {
+        title: 'Using template engines with Express',
+        link: 'http://expressjs.com/en/guide/using-template-engines.html',
+        description: 'Express docs'
+      },
+      {
+        title: 'Model-view-controller',
+        link: 'https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller',
+        description: 'Wikipedia'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Asynchronous Client-Server Communication',
