@@ -291,7 +291,7 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/OSU-CS290-F18/handlebars-templating'
+        link: 'https://github.com/osu-cs493-sp19/handlebars-templating'
       }
     ],
     readings: [
