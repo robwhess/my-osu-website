@@ -33,6 +33,17 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm on Monday, 6/3/2019'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/La-D9ayA',
+      title: 'Assignment 4 &ndash; File uploads and offline work',
+      due: {
+        day: 'Monday, 6/3/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 5:00pm on Friday, 6/14/2019'
+      ]
     }
   ],
 
