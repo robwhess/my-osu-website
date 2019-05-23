@@ -337,28 +337,28 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Asynchronous Client-Server Communication',
-  //   weeks: [ 9, 10 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/async-communication'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Using XMLHttpRequest',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest',
-  //       description: 'MDN'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Asynchronous Client-Server Communication',
+    weeks: [ 9 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS290-F18/async-communication'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Using XMLHttpRequest',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest',
+        description: 'MDN'
+      }
+    ]
+  },
   //
   // {
   //   title: 'MongoDB',
