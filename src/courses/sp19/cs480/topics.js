@@ -140,7 +140,6 @@ const topics = [
 
   {
     title: 'Bottom-Up Parsing and LR(1) Grammars',
-    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
@@ -172,55 +171,33 @@ const topics = [
   //     }
   //   ]
   // },
-  //
-  // {
-  //   title: 'Second Exam',
-  //   weeks: [ 9 ],
-  //   resources: [
-  //     {
-  //       title: 'Exam warmup problems',
-  //       link: 'https://docs.google.com/document/d/1e-k6ivtOvOc9JQhg6XF_dX-IiUAFQIV6I43naMcH-dE/edit?usp=sharing',
-  //       description: 'These are similar to the kinds of questions you\'ll see on the exam.'
-  //     },
-  //     {
-  //       title: 'Exam warmup problem solutions',
-  //       link: 'https://docs.google.com/document/d/1u1Kh84UcwEcA5gTPsHbI6BBjDIo4AlStOncqDcWc0PQ/edit?usp=sharing'
-  //     }
-  //   ],
-  //   notes: [
-  //     'Our second exam will be this Friday at our normal lecture location and time.',
-  //     'The exam will cover everything we\'ve talked about in lecture after the first exam, including bottom-up parsing and LR(1) grammars and intermediate representations.',
-  //     'During lecture this Wednesday, we\'ll do some practice exercises that will be similar to the questions that will appear on the exam.'
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'LLVM: Code Generation and Optimization',
-  //   weeks: [ 10 ],
-  //   isCurrent: true,
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS480-W18/llvm'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Kaleidoscope: Implementing a Language with LLVM',
-  //       link: 'https://llvm.org/docs/tutorial/index.html',
-  //       description: 'LLVM Tutorial'
-  //     },
-  //     {
-  //       title: 'The Architecture of Open Source Applications: LLVM',
-  //       link: 'http://www.aosabook.org/en/llvm.html',
-  //       description: 'Chris Lattner'
-  //     }
-  //   ]
-  // }
+  {
+    title: 'LLVM: Code Generation and Optimization',
+    weeks: [ 9, 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS480-W18/llvm'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Kaleidoscope: Implementing a Language with LLVM',
+        link: 'https://llvm.org/docs/tutorial/index.html',
+        description: 'LLVM Tutorial'
+      },
+      {
+        title: 'The Architecture of Open Source Applications: LLVM',
+        link: 'http://www.aosabook.org/en/llvm.html',
+        description: 'Chris Lattner'
+      }
+    ]
+  }
 ];
 
 export default topics;

@@ -34,17 +34,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 6/10/2019'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Final Project &ndash;Code generation and optimization with LLVM',
-    //   due: {
-    //     day: 'Friday, 3/23/2018',
-    //     time: '1:00pm'
-    //   },
-    //   notes: [
-    //     '[Grading signup form](https://goo.gl/forms/Sp16KdRkxBEZgxpU2) &ndash; Please fill out this form when you submit to make sure your submission is graded.'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/6GEGuChU',
+      title: 'Final Project &ndash;Code generation and optimization with LLVM',
+      due: {
+        day: 'Wednesday, 6/12/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        '**This assignment will not be demoed**'
+      ]
+    }
   ],
 
   preamble: "Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline."
