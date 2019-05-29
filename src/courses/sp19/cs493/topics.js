@@ -312,7 +312,6 @@ const topics = [
 
   {
     title: 'API Rate Limiting and Redis',
-    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
@@ -355,7 +354,6 @@ const topics = [
 
   {
     title: 'Storing File Data',
-    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
@@ -397,6 +395,44 @@ const topics = [
         title: 'Stream',
         link: 'https://nodejs.org/api/stream.html',
         description: 'Node.js docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Performing Offline Work with RabbitMQ',
+    isCurrent: true,
+    weeks: [ 9 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/11HHOL2J2O8pbppHvAOFjoqqUfmWXURmsT0VmtGaAUew/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp19/offline-work'
+      }
+    ],
+    readings: [
+      {
+        title: 'Message Queues',
+        link: 'https://aws.amazon.com/message-queue/',
+        description: 'AWS Docs'
+      },
+      {
+        title: 'Pub/Sub Messaging',
+        link: 'https://aws.amazon.com/pub-sub-messaging/',
+        description: 'AWS Docs'
+      },
+      {
+        title: '"Hello World!"',
+        link: 'https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html',
+        description: 'RabbitMQ Tutorials'
+      },
+      {
+        title: 'Work Queues',
+        link: 'https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html',
+        description: 'RabbitMQ Tutorials'
       }
     ]
   },
