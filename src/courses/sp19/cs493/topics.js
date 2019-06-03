@@ -444,7 +444,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'ttps://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
       },
       {
         title: 'Example code',
