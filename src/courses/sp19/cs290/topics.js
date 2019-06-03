@@ -358,44 +358,44 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'MongoDB',
-  //   weeks: [ 10 ],
-  //   isCurrent: true,
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS290-F18/using-mongodb'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Getting Started with MongoDB',
-  //       link: 'https://docs.mongodb.com/getting-started/shell/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Documents',
-  //       link: 'https://docs.mongodb.com/manual/core/document/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'MongoDB CRUD Operations',
-  //       link: 'https://docs.mongodb.com/manual/crud/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Node.js Quick Start',
-  //       link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
-  //       description: 'MongoDB docs'
-  //     }
-  //   ]
-  // }
+
+  {
+    title: 'MongoDB',
+    weeks: [ 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp19/using-mongodb'
+      }
+    ],
+    readings: [
+      {
+        title: 'Getting Started with MongoDB',
+        link: 'https://docs.mongodb.com/getting-started/shell/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Documents',
+        link: 'https://docs.mongodb.com/manual/core/document/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'MongoDB CRUD Operations',
+        link: 'https://docs.mongodb.com/manual/crud/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Node.js Quick Start',
+        link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
+        description: 'MongoDB docs'
+      }
+    ]
+  }
 ];
 
 export default topics;
