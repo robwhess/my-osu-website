@@ -436,44 +436,44 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Data Replication',
-  //   weeks: [ 10 ],
-  //   isCurrent: true,
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'ttps://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS493-Sp18/data-replication'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'A Primer on Database Replication',
-  //       link: 'https://www.brianstorti.com/replication/',
-  //       description: 'Brian Storti'
-  //     },
-  //     {
-  //       title: 'MongoDB Replication',
-  //       link: 'https://docs.mongodb.com/manual/replication/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Deploy New Replica Set With Keyfile Access Control',
-  //       link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'MySQL Replication',
-  //       link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html',
-  //       description: 'MySQL docs'
-  //     }
-  //   ]
-  // }
+
+  {
+    title: 'Data Replication',
+    weeks: [ 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'ttps://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp19/data-replication'
+      }
+    ],
+    readings: [
+      {
+        title: 'A Primer on Database Replication',
+        link: 'https://www.brianstorti.com/replication/',
+        description: 'Brian Storti'
+      },
+      {
+        title: 'MongoDB Replication',
+        link: 'https://docs.mongodb.com/manual/replication/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Deploy New Replica Set With Keyfile Access Control',
+        link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'MySQL Replication',
+        link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html',
+        description: 'MySQL docs'
+      }
+    ]
+  }
 ];
 
 export default topics;
