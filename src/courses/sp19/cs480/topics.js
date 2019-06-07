@@ -154,23 +154,7 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Intermediate Representations',
-  //   weeks: [ 9 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1NHqnUdp6EV6Pi6ewJ_SXbeuN79sgBCsAag56C9VtlzA/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 5',
-  //       description: 'Cooper and Torczon'
-  //     }
-  //   ]
-  // },
+
   {
     title: 'LLVM: Code Generation and Optimization',
     weeks: [ 9, 10 ],
@@ -195,6 +179,23 @@ const topics = [
         title: 'The Architecture of Open Source Applications: LLVM',
         link: 'http://www.aosabook.org/en/llvm.html',
         description: 'Chris Lattner'
+      }
+    ]
+  },
+
+  {
+    title: 'Bonus Material: Intermediate Representations',
+    weeks: [ 11 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1NHqnUdp6EV6Pi6ewJ_SXbeuN79sgBCsAag56C9VtlzA/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 5',
+        description: 'Cooper and Torczon'
       }
     ]
   }
