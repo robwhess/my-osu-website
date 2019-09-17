@@ -8,9 +8,12 @@ import styled from '@emotion/styled/macro';
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import CourseList from '../components/CourseList';
-import { currentTerm, currentTermData } from '../courses';
+
 import breakpoints from '../lib/breakpoints';
+
 import headshot from '../static/rob.jpg';
+
+import { currentTerm, currentTermData } from '../data/courses';
 
 const HomePageSectionBox = styled(SectionBox)`
   max-width: 100%;

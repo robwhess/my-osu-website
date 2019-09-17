@@ -3,16 +3,19 @@ import { Route, Switch } from 'react-router-dom';
 import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 
-import { currentTermData, currentTerm } from './courses';
-import { generateSitePath } from './lib/SitePath';
-import breakpoints from './lib/breakpoints';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
 import HomePage from './pages/HomePage';
 import TeachingPage from './pages/TeachingPage';
 import CommunityPage from './pages/CommunityPage';
 import CoursePage from './pages/CoursePage';
 import NoMatchPage from './pages/NoMatchPage';
+
+import { generateSitePath } from './lib/SitePath';
+import breakpoints from './lib/breakpoints';
+
+import { currentTermData, currentTerm } from './data/courses';
 
 const navHeading = {
   title: 'Rob Hess',

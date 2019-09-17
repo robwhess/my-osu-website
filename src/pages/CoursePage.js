@@ -12,8 +12,10 @@ import CourseInfoPage from './CourseInfoPage';
 import TAInfoPage from './TAInfoPage';
 import RecitationLabInfoPage from './RecitationLabInfoPage';
 import NoMatchPage from './NoMatchPage';
+
 import Navbar from '../components/Navbar';
-import { courseData } from '../courses';
+
+import { courseData } from '../data/courses';
 
 function CoursePage({ match }) {
   const { courseNum, term } = match.params;
