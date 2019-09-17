@@ -5,7 +5,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import MarkdownIt from 'markdown-it';
 
 import CollapsibleSection from './CollapsibleSection';
@@ -85,7 +86,7 @@ function CourseTopicsList({ title, topics }) {
             </CollapsibleSection>
           ))}
         </React.Fragment> :
-        <h3><FontAwesome name="angle-double-right" /> No topics listed yet.</h3>
+        <h3><FontAwesomeIcon icon={faAngleDoubleRight} /> No topics listed yet.</h3>
       }
     </TopicsListContainer>
   );

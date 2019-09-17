@@ -5,7 +5,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import MarkdownIt from 'markdown-it';
 
 import DayTimeLocation from './DayTimeLocation';
@@ -57,7 +58,7 @@ function CourseAssignmentList({ title, assignments, preamble }) {
         assignments.map((assignment, i) => (
           <Assignment key={i}>
             <AssignmentTitle>
-              <FontAwesome name="angle-double-right" />&nbsp;
+              <FontAwesomeIcon icon={faAngleDoubleRight} />&nbsp;
               {assignment.link ?
                 <a href={assignment.link} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} /> :
                 <span dangerouslySetInnerHTML={{ __html: md.renderInline(assignment.title) }} />
@@ -80,7 +81,7 @@ function CourseAssignmentList({ title, assignments, preamble }) {
             </AssignmentInfo>
           </Assignment>
         )) :
-        <h3><FontAwesome name="angle-double-right" /> No assignments listed yet.</h3>
+        <h3><FontAwesomeIcon icon={faAngleDoubleRight} /> No assignments listed yet.</h3>
         }
     </AssignmentListContainer>
   );

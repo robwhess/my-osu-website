@@ -5,8 +5,8 @@
 import React from 'react';
 import { keyframes } from '@emotion/core';
 import styled from '@emotion/styled/macro';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import reactLogo from '../static/ReactLogo.svg';
 

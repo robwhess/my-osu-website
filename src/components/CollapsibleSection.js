@@ -5,7 +5,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 const CollapsibleSectionContainer = styled.div`
   margin-top: 20px;
@@ -67,12 +68,12 @@ class CollapsibleSection extends React.Component {
     return (
       <CollapsibleSectionContainer>
         <CollapsibleSectionTitle onClick={this.toggleCollapsed}>
-          <FontAwesome name="angle-double-right" />
+          <FontAwesomeIcon icon={faAngleDoubleRight} />
           &nbsp;
           {this.props.title}
           &nbsp;
           <CollapsibleSectionAngleIndicator collapsed={this.state.collapsed}>
-            <FontAwesome name="angle-down" />
+            <FontAwesomeIcon icon={faAngleDown} />
           </CollapsibleSectionAngleIndicator>
         </CollapsibleSectionTitle>
         <CollapsibleSectionChildrenContainer collapsed={this.state.collapsed}>

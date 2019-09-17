@@ -6,7 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import Helmet from 'react-helmet';
 
 import PageContent from '../components/PageContent';
@@ -82,7 +83,7 @@ function TAInfoPage({ title, tas }) {
           {tas.map((ta, i) => (
             <TAInfoItem key={i}>
               <TAInfoData>
-                <h2><FontAwesome name="angle-double-right" /> {ta.name}</h2>
+                <h2><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</h2>
                 <TAEmail><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAEmail>
               </TAInfoData>
 

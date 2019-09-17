@@ -6,7 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleRight, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 const List = styled.ul`
   margin: 0;
@@ -31,7 +32,7 @@ function AngleList(props) {
       <List>
         {props.items.map((item, i) => (
           <ListItem key={i}>
-            <FontAwesome name={props.singleAngle ? 'angle-right' : 'angle-double-right'} />
+            <FontAwesomeIcon name={props.singleAngle ? faAngleRight : faAngleDoubleRight} />
             &nbsp;
             {item}
           </ListItem>

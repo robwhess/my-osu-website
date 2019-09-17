@@ -7,7 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import { Link } from 'react-router-dom';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 import { generateSitePath } from '../lib/SitePath';
 
@@ -29,7 +30,7 @@ function CourseList(props) {
     <CourseListList>
       {Object.keys(props.courses).map((course, i) => (
         <CourseItem key={i}>
-          <FontAwesome name="angle-double-right" /> &nbsp;
+          <FontAwesomeIcon icon={faAngleDoubleRight} /> &nbsp;
           <Link to={generateSitePath(`/teaching/${course}-${props.term}`)}>
             {props.courses[course].number} &ndash; {props.courses[course].title}
           </Link>

@@ -7,7 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, NavLink } from 'react-router-dom';
 import styled from '@emotion/styled/macro';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 import { generateSitePath } from '../lib/SitePath';
 import breakpoints from '../lib/breakpoints';
@@ -204,7 +205,7 @@ class Navbar extends React.Component {
         <NavbarHeading>
           <Link to={generateSitePath(this.props.heading.path)}>{this.props.heading.title}</Link>
           <CollapseButton onClick={this.toggleNavbarCollapsed} collapsed={this.state.collapsed}>
-            <FontAwesome name="angle-down" />
+            <FontAwesomeIcon icon={faAngleDown} />
           </CollapseButton>
         </NavbarHeading>
         <Nav>
