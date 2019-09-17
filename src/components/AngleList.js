@@ -32,7 +32,7 @@ function AngleList(props) {
       <List>
         {props.items.map((item, i) => (
           <ListItem key={i}>
-            <FontAwesomeIcon name={props.singleAngle ? faAngleRight : faAngleDoubleRight} />
+            {<FontAwesomeIcon icon={props.singleAngle ? faAngleRight : faAngleDoubleRight} />}
             &nbsp;
             {item}
           </ListItem>
