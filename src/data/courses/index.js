@@ -3,10 +3,12 @@ import sp18 from './sp18/';
 import f18 from './f18/';
 import w19 from './w19/';
 import sp19 from './sp19/';
+import f19 from './f19/';
 
-const currentTerm = 'sp19';
+const currentTerm = 'f19';
 
 const courseData = {
+  f19: f19,
   sp19: sp19,
   w19: w19,
   f18: f18,
