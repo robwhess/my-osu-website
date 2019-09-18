@@ -67,7 +67,7 @@ const TAInfoData = styled.div`
 `;
 
 const TAEmail = styled.div`
-  padding-left: 28px;
+  padding-left: 36px;
   h4 {
     margin: 4px 0 0 0;
   }

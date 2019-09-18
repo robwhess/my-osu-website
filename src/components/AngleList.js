@@ -11,13 +11,13 @@ import { faAngleRight, faAngleDoubleRight } from '@fortawesome/free-solid-svg-ic
 
 const List = styled.ul`
   margin: 0;
-  padding-left: 15px;
+  padding-left: 5px;
   list-style-type: none;
 `;
 
 const ListItem = styled.li`
-  text-indent: -0.67ch;
-  padding-left: 0.67ch;
+  text-indent: -1ch;
+  padding-left: 1ch;
 `
 
 function AngleList(props) {

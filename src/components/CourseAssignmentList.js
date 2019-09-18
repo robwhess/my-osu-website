@@ -26,13 +26,13 @@ const Assignment = styled.div`
 const AssignmentTitle = styled.h3`
   margin: 0;
   margin-left: 15px;
-  text-indent: -0.67ch;
-  padding-left: 0.67ch;
+  text-indent: -1.75ch;
+  padding-left: 1.75ch;
   color: #333;
 `;
 
 const AssignmentInfo = styled.div`
-  margin-left: 28px;
+  margin-left: 46px;
   p {
     margin: 0;
   }

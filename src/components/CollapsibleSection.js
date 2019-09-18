@@ -12,8 +12,8 @@ const CollapsibleSectionContainer = styled.div`
   margin-top: 20px;
 `;
 
-const CollapsibleSectionTitle = styled.button`
-  display: inline-block;
+const CollapsibleSectionHeader = styled.button`
+  display: table-row;
   padding: 0;
   border: none;
   text-align: left;
@@ -23,8 +23,12 @@ const CollapsibleSectionTitle = styled.button`
   cursor: pointer;
 `;
 
+const CollapsibleSectionHeaderItem = styled.span`
+  display: table-cell;
+  padding: 0 2px;
+`;
 
-const CollapsibleSectionAngleIndicator = styled.span`
+const CollapsibleSectionToggleIndicator = styled.span`
   display: inline-block;
   margin-left: 5px;
   transform: ${props => props.collapsed ? 'rotate(-180deg)' : 'none'};
@@ -34,7 +38,7 @@ const CollapsibleSectionAngleIndicator = styled.span`
 const CollapsibleSectionChildrenContainer = styled.div`
   height: ${props => props.collapsed ? 0 : 'auto'};
   overflow: hidden;
-  padding-left: 24px;
+  padding-left: 35px;
 `;
 
 class CollapsibleSection extends React.Component {
@@ -67,15 +71,18 @@ class CollapsibleSection extends React.Component {
   render() {
     return (
       <CollapsibleSectionContainer>
-        <CollapsibleSectionTitle onClick={this.toggleCollapsed}>
-          <FontAwesomeIcon icon={faAngleDoubleRight} />
-          &nbsp;
-          {this.props.title}
-          &nbsp;
-          <CollapsibleSectionAngleIndicator collapsed={this.state.collapsed}>
-            <FontAwesomeIcon icon={faAngleDown} />
-          </CollapsibleSectionAngleIndicator>
-        </CollapsibleSectionTitle>
+        <CollapsibleSectionHeader onClick={this.toggleCollapsed}>
+          <CollapsibleSectionHeaderItem>
+            <FontAwesomeIcon icon={faAngleDoubleRight} />
+          </CollapsibleSectionHeaderItem>
+          <CollapsibleSectionHeaderItem>
+            {this.props.title}
+            &nbsp;
+            <CollapsibleSectionToggleIndicator collapsed={this.state.collapsed}>
+              <FontAwesomeIcon icon={faAngleDown} />
+            </CollapsibleSectionToggleIndicator>
+          </CollapsibleSectionHeaderItem>
+        </CollapsibleSectionHeader>
         <CollapsibleSectionChildrenContainer collapsed={this.state.collapsed}>
           {this.state.collapsed ? null : this.props.children}
         </CollapsibleSectionChildrenContainer>
