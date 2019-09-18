@@ -77,13 +77,16 @@ const NavItem = styled.li`
     background-color: #fff;
     color: #333;
   }
-  a.active {
-    box-shadow: inset 0 -2px 0 #d54f1e;
+  a {
+    &.active {
+      box-shadow: inset 0 -2px 0 #d54f1e;
+    }
+    &:hover {
+      background-color: rgba(213, 79, 30, 0.2);
+      color: #333;
+    }
   }
-  a:hover {
-    background-color: rgba(213, 79, 30, 0.2);
-    color: #333;
-  }
+
   @media (max-width: ${breakpoints[0]}px) {
     display: block;
     float: initial;
@@ -179,11 +182,12 @@ class Navbar extends React.Component {
   }
 
   generateNavItem(link, key) {
+    const content = link.faIcon ? <FontAwesomeIcon icon={link.faIcon} /> : link.title;
     return (
       <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
         {link.isExternal ?
-          <a href={link.path} target="_blank" rel="noopener noreferrer">{link.title}</a> :
-          <NavLink exact to={generateSitePath(link.path)}>{link.title}</NavLink>
+          <a href={link.path} target="_blank" rel="noopener noreferrer">{content}</a> :
+          <NavLink exact to={generateSitePath(link.path)}>{content}</NavLink>
         }
         {link.menu ?
           <NavMenu>

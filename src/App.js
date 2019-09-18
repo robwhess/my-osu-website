@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Global, css } from '@emotion/core';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Helmet from 'react-helmet';
 
 import Navbar from './components/Navbar';
@@ -16,23 +17,45 @@ import { generateSitePath } from './lib/SitePath';
 import breakpoints from './lib/breakpoints';
 
 import { currentTermData, currentTerm } from './data/courses';
+import personalData from './data/personal';
 
 const navHeading = {
-  title: 'Rob Hess',
+  title: personalData.name,
   path: '/'
 };
 const navLinks = [
   {
     path: '/teaching',
     title: 'Teaching'
-  },
-  {
-    path: 'https://github.com/robwhess',
-    title: 'GitHub',
-    isRight: true,
-    isExternal: true
   }
 ];
+
+/*
+ * Add GitHub link to navbar if present in personal data.
+ */
+if (personalData.gitHub) {
+  navLinks.push({
+    path: personalData.gitHub,
+    faIcon: faGithub,
+    isRight: true,
+    isExternal: true
+  });
+}
+
+/*
+ * Attach menu containing links to current courses to the teaching link in the
+ * navbar, if we have current course data.
+ */
+if (currentTerm && currentTermData) {
+  const teachingNavlink = navLinks.find((navLink) => (navLink.title === 'Teaching'));
+  teachingNavlink.menu = [];
+  Object.keys(currentTermData.courses).forEach((course) => {
+    teachingNavlink.menu.push({
+      path: `/teaching/${course}-${currentTerm}`,
+      title: currentTermData.courses[course].number
+    });
+  });
+}
 
 const globalStyles = css`
   @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
@@ -91,45 +114,30 @@ const globalStyles = css`
   }
 `;
 
-class App extends Component {
+function App() {
+  return (
+    <div>
+      <Global styles={globalStyles} />
+      <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
 
-  generateTeachingNavMenu() {
-    var teachingNavlink = navLinks.find((navLink) => (navLink.title === 'Teaching'));
-    teachingNavlink.menu = [];
-    Object.keys(currentTermData.courses).forEach((course) => {
-      teachingNavlink.menu.push({
-        path: `/teaching/${course}-${currentTerm}`,
-        title: currentTermData.courses[course].number
-      });
-    });
-  }
+      <Navbar heading={navHeading} links={navLinks} />
 
-  render() {
-    this.generateTeachingNavMenu();
-    return (
-      <div>
-        <Global styles={globalStyles} />
-        <Helmet titleTemplate="%s - Rob Hess" defaultTitle="Rob Hess" />
+      <Switch>
 
-        <Navbar heading={navHeading} links={navLinks} />
+        <Route exact path={generateSitePath('/')} component={HomePage} />
+        <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
+        <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
 
-        <Switch>
+        <Route path={generateSitePath('/teaching') + '/:courseNum-:term'} component={CoursePage} />
 
-          <Route exact path={generateSitePath('/')} component={HomePage} />
-          <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
-          <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
+        <Route component={NoMatchPage} />
 
-          <Route path={generateSitePath('/teaching') + '/:courseNum-:term'} component={CoursePage} />
+      </Switch>
 
-          <Route component={NoMatchPage} />
+      <Footer />
 
-        </Switch>
-
-        <Footer />
-
-      </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;

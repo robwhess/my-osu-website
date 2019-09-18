@@ -7,8 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
-import DayTimeLocation from '../components/DayTimeLocation'
-import AngleList from '../components/AngleList'
+import DayTimeLocation from '../components/DayTimeLocation';
+import AngleList from '../components/AngleList';
 import breakpoints from '../lib/breakpoints';
 
 const EssentialInfoContainer = styled.div`
