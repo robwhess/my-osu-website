@@ -16,8 +16,8 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  text-indent: -1ch;
-  padding-left: 1ch;
+  text-indent: ${props => props.singleAngle ? '-1ch' : '-1.9ch'};
+  padding-left: ${props => props.singleAngle ? '1ch' : '1.9ch'};;
 `
 
 function AngleList(props) {
@@ -31,7 +31,7 @@ function AngleList(props) {
     return (
       <List>
         {props.items.map((item, i) => (
-          <ListItem key={i}>
+          <ListItem key={i} singleAngle={props.singleAngle}>
             {<FontAwesomeIcon icon={props.singleAngle ? faAngleRight : faAngleDoubleRight} />}
             &nbsp;
             {item}
