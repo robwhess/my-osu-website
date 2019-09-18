@@ -17,6 +17,11 @@ import Navbar from '../components/Navbar';
 
 import { courseData } from '../data/courses';
 
+/*
+ * This page, when rendered, will receive a React Router `match` prop, which
+ * will contain, among other things, the browser URL, and the course number
+ * and term parsed from that URL (stored in the `match.params`).
+ */
 function CoursePage({ match }) {
   const { courseNum, term } = match.params;
   const course = courseData[term] && courseData[term].courses[courseNum];
@@ -49,7 +54,8 @@ function CoursePage({ match }) {
     });
 
     /*
-     * If there is TA info for the course, add route and navbar info for the TA page.
+     * If there is TA info for the course, add route and navbar info for the
+     * TA page.
      */
     if (course.tas) {
       const taPageUrl = `${matchUrl}/tas`;
@@ -68,7 +74,8 @@ function CoursePage({ match }) {
     }
 
     /*
-     * If there is recitation info for the course, add route and navbar info for the recitation page.
+     * If there is recitation info for the course, add route and navbar info
+     * for the recitations page.
      */
     if (course.recitations) {
       const recitationPageUrl = `${matchUrl}/recitations`;
@@ -87,7 +94,8 @@ function CoursePage({ match }) {
     }
 
     /*
-     * If there is lab info for the course, add route and navbar info for the recitation page.
+     * If there is lab info for the course, add route and navbar info for the
+     * labs page.
      */
     if (course.labs) {
       const labPageUrl = `${matchUrl}/labs`;

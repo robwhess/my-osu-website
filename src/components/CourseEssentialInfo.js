@@ -9,7 +9,11 @@ import styled from '@emotion/styled/macro';
 
 import DayTimeLocation from '../components/DayTimeLocation';
 import AngleList from '../components/AngleList';
+import OfficeHoursList from '../components/OfficeHoursList';
+
 import breakpoints from '../lib/breakpoints';
+
+import personalData from '../data/personal';
 
 const EssentialInfoContainer = styled.div`
   h1 {
@@ -54,7 +58,7 @@ const EssentialInfoData = styled.div`
 `
 
 function CourseEssentialInfo(props) {
-  const { number, title, term, instructor, officeHours, lectures, finalExams, syllabusLink, textbooks, links } = props;
+  const { number, title, term, lectures, finalExams, syllabusLink, textbooks, links } = props;
   return (
       <EssentialInfoContainer>
         <h1>{number} &ndash; {title}</h1>
@@ -63,24 +67,25 @@ function CourseEssentialInfo(props) {
         <EssentialInfoItem>
           <EssentialInfoHeading>Instructor:</EssentialInfoHeading>
           <EssentialInfoData>
-            {instructor.name}
+            {personalData.name}
             {
-              instructor.email ?
-              <React.Fragment>(<a href={`mailto:${instructor.email}`}>{instructor.email}</a>)</React.Fragment> :
+              personalData.email ?
+              <React.Fragment>(<a href={`mailto:${personalData.email}`}>{personalData.email}</a>)</React.Fragment> :
               null
             }
           </EssentialInfoData>
         </EssentialInfoItem>
 
-        <EssentialInfoItem>
-          <EssentialInfoHeading>Office hours:</EssentialInfoHeading>
-          <EssentialInfoData>
-            <AngleList noOneElementList
-              items={officeHours.map((dtl, i) => (
-                <DayTimeLocation {...dtl} />
-              ))}/>
-          </EssentialInfoData>
-        </EssentialInfoItem>
+
+          {personalData.officeHours ?
+            <EssentialInfoItem>
+              <EssentialInfoHeading>Office hours:</EssentialInfoHeading>
+              <EssentialInfoData>
+                <OfficeHoursList officeHours={personalData.officeHours} />
+              </EssentialInfoData>
+            </EssentialInfoItem> :
+            null
+          }
 
         <EssentialInfoItem>
           <EssentialInfoHeading>Lectures:</EssentialInfoHeading>

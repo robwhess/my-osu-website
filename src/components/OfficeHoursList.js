@@ -16,11 +16,11 @@ const OfficeHoursTitle = styled.span`
 
 function OfficeHoursList(props) {
   return (
-    <AngleList noOneElementList
+    <AngleList singleAngle noOneElementList
       items={props.officeHours.map((officeHoursItem) => (
         <React.Fragment>
           <OfficeHoursTitle>{officeHoursItem.title}</OfficeHoursTitle>
-          <AngleList singleAngle
+          <AngleList
             items={officeHoursItem.hours.map((dtl) => <DayTimeLocation {...dtl} />)} />
         </React.Fragment>
       ))}/>
