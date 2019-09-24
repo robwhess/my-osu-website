@@ -12,18 +12,6 @@ const taInfo = [
     gradingHours: []
   },
   {
-    name: "Seifeddine Mejri",
-    email: "mejris@oregonstate.edu",
-    officeHours: [
-      // {
-      //   day: 'M',
-      //   time: '8:00 &ndash; 10:00am',
-      //   location: 'JOHN 121'
-      // }
-    ],
-    gradingHours: []
-  },
-  {
     name: "Gregory Blood",
     email: "bloodg@oregonstate.edu",
     officeHours: [],
@@ -45,6 +33,18 @@ const taInfo = [
     name: "Ryan Kennedy",
     email: "kennerya@oregonstate.edu",
     officeHours: [],
+    gradingHours: []
+  },
+  {
+    name: "Seifeddine Mejri",
+    email: "mejris@oregonstate.edu",
+    officeHours: [
+      // {
+      //   day: 'M',
+      //   time: '8:00 &ndash; 10:00am',
+      //   location: 'JOHN 121'
+      // }
+    ],
     gradingHours: []
   },
   {
