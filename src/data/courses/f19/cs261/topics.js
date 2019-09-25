@@ -10,6 +10,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1N9pyiZpiaQsVnle9xayVtjABpFIpFzXA6O_mFVyARdw/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles (9/25)',
+        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrRDF1MDBxSlJMRzRTSVpjanJ4SVVSbzJCOWc4/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
