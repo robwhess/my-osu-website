@@ -19,8 +19,7 @@ const recitations = {
         },
         {
           title: 'Recitation worksheet',
-          link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing',
-          description: 'Print this and bring it with you to recitation.'
+          link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
         },
         {
           title: 'test.c',
@@ -30,7 +29,7 @@ const recitations = {
       ],
       notes: [
         'This week in recitation, instead of taking a quiz, you\'ll do a basic exercise to ensure that you are able to edit and compile code on the OSU ENGR servers (which you\'ll have to be able to do for all of your assignments in this course).  Complete the worksheet above and show the compiled program\'s output to your TA during your recitation section to earn full credit for this week\'s recitation.',
-        '**Make sure to bring your laptop with you to recitation this week!**'
+        '**Make sure to bring your laptop with you to recitation this week!**  The exercise you\'ll do will require a laptop.'
       ]
     }
   ],
