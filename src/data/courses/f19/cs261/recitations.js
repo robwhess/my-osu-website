@@ -155,7 +155,7 @@ const recitations = {
         time: '3:00 &ndash; 3:50pm',
         location: 'Bexell 328'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Seifeddine Mejri' ]
     },
     '011': {
       meeting: {
@@ -163,7 +163,7 @@ const recitations = {
         time: '3:00 &ndash; 3:50pm',
         location: 'Bexell 323'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Zahir Al-Sulaimawi' ]
     },
     '012': {
       meeting: {
@@ -171,7 +171,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Zahir Al-Sulaimawi' ]
     },
     '013': {
       meeting: {
@@ -179,7 +179,7 @@ const recitations = {
         time: '8:00 &ndash; 8:50am',
         location: 'Bexell 3289'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Huahua Wang' ]
     },
     '014': {
       meeting: {
@@ -187,7 +187,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Aaron Didner' ]
     },
     '015': {
       meeting: {
@@ -195,7 +195,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Jiawei Mo' ]
     },
     '016': {
       meeting: {
@@ -203,7 +203,7 @@ const recitations = {
         time: '10:00 &ndash; 10:50am',
         location: 'Bexell 102'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Gregory Blood' ]
     },
     '017': {
       meeting: {
@@ -211,7 +211,7 @@ const recitations = {
         time: '11:00 &ndash; 11:50am',
         location: 'Bexell 102'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Ryan Kennedy' ]
     },
     '018': {
       meeting: {
@@ -219,7 +219,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Jianlong Huang' ]
     }
   },
 
