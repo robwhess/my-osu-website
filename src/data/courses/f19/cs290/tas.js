@@ -1,7 +1,7 @@
 const taInfo = [
   {
-    name: "Ujjval Kumaria",
-    email: "kumariau@oregonstate.edu",
+    name: 'Ujjval Kumaria',
+    email: 'kumariau@oregonstate.edu',
     officeHours: [
       // {
       //   day: 'Tu',
@@ -19,8 +19,8 @@ const taInfo = [
     ]
   },
   {
-    name: "Vaishnavi Rangarajan",
-    email: "rangarav@oregonstate.edu",
+    name: 'Vaishnavi Rangarajan',
+    email: 'rangarav@oregonstate.edu',
     officeHours: [
       // {
       //   day: 'Tu',

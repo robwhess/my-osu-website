@@ -1,7 +1,7 @@
 const taInfo = [
   {
-    name: "Zahir Al-Sulaimawi",
-    email: "alsulaiz@oregonstate.edu",
+    name: 'Zahir Al-Sulaimawi',
+    email: 'alsulaiz@oregonstate.edu',
     officeHours: [
       // {
       //   day: 'M',
@@ -12,32 +12,32 @@ const taInfo = [
     gradingHours: []
   },
   {
-    name: "Gregory Blood",
-    email: "bloodg@oregonstate.edu",
+    name: 'Gregory Blood',
+    email: 'bloodg@oregonstate.edu',
     officeHours: [],
     gradingHours: []
   },
   {
-    name: "Aaron Didner",
-    email: "didnera@oregonstate.edu",
+    name: 'Aaron Didner',
+    email: 'didnera@oregonstate.edu',
     officeHours: [],
     gradingHours: []
   },
   {
-    name: "Jianlong Huang",
-    email: "huangj2@oregonstate.edu",
+    name: 'Jianlong Huang',
+    email: 'huangj2@oregonstate.edu',
     officeHours: [],
     gradingHours: []
   },
   {
-    name: "Ryan Kennedy",
-    email: "kennerya@oregonstate.edu",
+    name: 'Ryan Kennedy',
+    email: 'kennerya@oregonstate.edu',
     officeHours: [],
     gradingHours: []
   },
   {
-    name: "Seifeddine Mejri",
-    email: "mejris@oregonstate.edu",
+    name: 'Seifeddine Mejri',
+    email: 'mejris@oregonstate.edu',
     officeHours: [
       // {
       //   day: 'M',
@@ -48,14 +48,14 @@ const taInfo = [
     gradingHours: []
   },
   {
-    name: "Jiawei Mo",
-    email: "moji@oregonstate.edu",
+    name: 'Jiawei Mo',
+    email: 'moji@oregonstate.edu',
     officeHours: [],
     gradingHours: []
   },
   {
-    name: "Huahua Wang",
-    email: "wanghuah@oregonstate.edu",
+    name: 'Huahua Wang',
+    email: 'wanghuah@oregonstate.edu',
     officeHours: [],
     gradingHours: []
   }
