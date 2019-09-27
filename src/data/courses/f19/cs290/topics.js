@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 0 ],
     resources: [
       {
@@ -32,6 +31,7 @@ const topics = [
 
   {
     title: 'HTML',
+    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
