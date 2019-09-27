@@ -14,7 +14,7 @@ const topics = [
   {
     title: 'Git and GitHub',
     isCurrent: true,
-    weeks: [ 0 ],
+    weeks: [ 0, 1 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -38,11 +38,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-sp19/html',
-        description: 'code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-sp19/html',
+      //   description: 'code written in lecture'
+      // }
     ],
     readings: [
       {

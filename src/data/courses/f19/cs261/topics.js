@@ -12,7 +12,7 @@ const topics = [
         link: 'https://docs.google.com/document/d/1N9pyiZpiaQsVnle9xayVtjABpFIpFzXA6O_mFVyARdw/edit?usp=sharing'
       },
       {
-        title: 'Lecture doodles (9/25)',
+        title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrRDF1MDBxSlJMRzRTSVpjanJ4SVVSbzJCOWc4/view?usp=sharing',
         description: 'section 001'
       }
@@ -29,11 +29,16 @@ const topics = [
   {
     title: 'Git and GitHub',
     isCurrent: true,
-    weeks: [ 0 ],
+    weeks: [ 0, 1 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1TnMfQfhkam3vOdVLWAaF3Y_V-Z8eX7IvKx0w2tPr0Pg/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1W_5yO4dHI6ZeS-pzIS7j9qxOU-c3fsxG/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
