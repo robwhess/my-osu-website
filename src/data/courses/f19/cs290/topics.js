@@ -18,7 +18,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1xE-s_V4OuLuSE-0-pvQqolKVyzOFuHkwHT-9NMJR7Xk/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1JBVKJO5EiASXyF2p4gj7xfDGRGgeIdpWoIj1ds28TRQ/edit?usp=sharing'
       }
     ],
     readings: [
