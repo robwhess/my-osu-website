@@ -32,8 +32,8 @@ const taInfo = [
   {
     name: 'Ryan Kennedy',
     email: 'kennerya@oregonstate.edu',
-    officeHours: [],
-    gradingHours: []
+     officeHours: [{day: "T", time: "10:00am - 10:30am", location: "Johnson 123"}, {day: "T", time: "10:30am - 11:30am", location: "Johnson 125"}, {day: "W", time: "9:00am - 11:00am", location: "Johnson 123"}, {day: "Th", time: "9:00am - 11:30am", location: "Johnson 123"}, {day: "F", time: "12:00pm - 3:00pm", location: "Johnson 121"}],
+    gradingHours:[{day: "M", time: "9:00am - 12:00pm", location: "Johnson 123"}, {day: "T", time: "9:00am - 9:30am", location: "Johnson 123"}]
   },
   {
     name: 'Seifeddine Mejri',
