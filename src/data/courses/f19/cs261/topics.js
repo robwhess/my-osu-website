@@ -4,7 +4,6 @@ import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 0 ],
     resources: [
       {
@@ -50,45 +49,47 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'C Review/Crash Course',
-  //   weeks: [ 1 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS261-F18/c-basics'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Lesson 1: Intro to C',
-  //       link: 'http://www.cprogramming.com/tutorial/c/lesson1.html',
-  //       description: 'C Programming'
-  //     },
-  //     {
-  //       title: 'Lesson 4: Functions in C',
-  //       link: 'http://www.cprogramming.com/tutorial/c/lesson4.html',
-  //       description: 'C Programming'
-  //     },
-  //     {
-  //       title: 'Lesson 7: Structures in C',
-  //       link: 'http://www.cprogramming.com/tutorial/c/lesson7.html',
-  //       description: 'C Programming'
-  //     },
-  //     {
-  //       title: 'Lesson 6: Pointers in C',
-  //       link: 'http://www.cprogramming.com/tutorial/c/lesson6.html',
-  //       description: 'C Programming'
-  //     }
-  //   ],
-  //   notes: [
-  //     'Note that the above four readings assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to the following link to understand the differences between C89 and C99: [C99: Design](https://en.wikipedia.org/wiki/C99#Design).'
-  //   ]
-  // },
+  {
+    title: 'C Review/Crash Course',
+    isCurrent: true,
+    weeks: [ 1 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1w56HxnSUpmoJ8PZct4lhhR5_4WNg6NdlefpxmHe5LWQ/edit?usp=sharing',
+        description: 'old lecture notes; updated notes will be posted shortly'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs261-f19/c-basics'
+      }
+    ],
+    readings: [
+      {
+        title: 'Lesson 1: Intro to C',
+        link: 'http://www.cprogramming.com/tutorial/c/lesson1.html',
+        description: 'C Programming'
+      },
+      {
+        title: 'Lesson 4: Functions in C',
+        link: 'http://www.cprogramming.com/tutorial/c/lesson4.html',
+        description: 'C Programming'
+      },
+      {
+        title: 'Lesson 7: Structures in C',
+        link: 'http://www.cprogramming.com/tutorial/c/lesson7.html',
+        description: 'C Programming'
+      },
+      {
+        title: 'Lesson 6: Pointers in C',
+        link: 'http://www.cprogramming.com/tutorial/c/lesson6.html',
+        description: 'C Programming'
+      }
+    ],
+    notes: [
+      'Note that the above four readings assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to the following link to understand the differences between C89 and C99: [C99: Design](https://en.wikipedia.org/wiki/C99#Design).'
+    ]
+  },
   //
   // {
   //   title: 'Complexity Analysis (Big O)',
