@@ -84,10 +84,25 @@ const topics = [
         title: 'Lesson 6: Pointers in C',
         link: 'http://www.cprogramming.com/tutorial/c/lesson6.html',
         description: 'C Programming'
+      },
+      {
+        title: 'Void Pointers',
+        link: 'https://www.learncpp.com/cpp-tutorial/613-void-pointers/',
+        description: 'LearnCpp.com (link talks about C++, but it\'s basically the same as for C)'
+      },
+      {
+        title: 'Function Pointers in C and C++',
+        link: 'https://www.cprogramming.com/tutorial/function-pointers.html',
+        description: 'C Programming'
+      },
+      {
+        title: 'Function Pointers',
+        link: 'https://www.learn-c.org/en/Function_Pointers',
+        description: 'Learn-C.org'
       }
     ],
     notes: [
-      'Note that the above four readings assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to the following link to understand the differences between C89 and C99: [C99: Design](https://en.wikipedia.org/wiki/C99#Design).'
+      'Note that the first four readings above assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to the following link to understand the differences between C89 and C99: [C99: Design](https://en.wikipedia.org/wiki/C99#Design).'
     ]
   },
   //
