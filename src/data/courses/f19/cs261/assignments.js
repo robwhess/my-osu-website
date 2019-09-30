@@ -1,28 +1,17 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 0 &ndash; Git and GitHub',
-    //   due: {
-    //     day: 'Monday, 10/1/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     '**No demo for this assignment**'
-    //   ]
-    // },
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; C, pointers, and dynamic arrays',
-    //   due: {
-    //     day: 'Monday, 10/15/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 10/29/2018'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/2T_78VDJ',
+      title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
+      due: {
+        day: 'Monday, 10/14/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 10/28/2019'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Linked lists, stacks, and queues',
