@@ -9,7 +9,8 @@ const assignments = {
         time: '11:59pm'
       },
       notes: [
-        'Demo due by 11:59pm, Monday 10/28/2019'
+        'Demo due by 11:59pm, Monday 10/28/2019',
+        '[Lecture doodles](https://drive.google.com/file/d/1MIebHdfzmZcYYOdYTLTx_i7LubgteaBl/view?usp=sharing) &ndash; section 001'
       ]
     },
     // {
