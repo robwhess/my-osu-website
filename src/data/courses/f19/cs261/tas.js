@@ -20,8 +20,20 @@ const taInfo = [
   {
     name: 'Gregory Blood',
     email: 'bloodg@oregonstate.edu',
-    officeHours: [],
-    gradingHours: []
+    officeHours: [
+      {
+        day: 'Tu',
+        time: '11:00am &ndash; 2:00pm',
+        location: 'KEC Atrium'
+      }
+    ],
+    gradingHours: [
+      {
+        day: 'Th',
+        time: '10:30am &ndash; 2:00pm',
+        location: 'KEC Atrium'
+      }
+    ]
   },
   {
     name: 'Aaron Didner',
