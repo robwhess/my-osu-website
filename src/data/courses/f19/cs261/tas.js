@@ -11,7 +11,7 @@ const taInfo = [
     ],
     gradingHours: [
       {
-        day: '',
+        day: 'M',
         time: '8:00 &ndash; 9:30am',
         location: 'Covell 140, Table 1'
       }
@@ -78,8 +78,35 @@ const taInfo = [
   {
     name: 'Jiawei Mo',
     email: 'moji@oregonstate.edu',
-    officeHours: [],
-    gradingHours: []
+    officeHours: [
+      {
+        day: 'Tu',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'DEAR 119'
+      },
+      {
+        day: 'W',
+        time: '10:00 &ndash; 11:00am',
+        location: 'DEAR 119'
+      },
+      {
+        day: 'Th',
+        time: '4:00 &ndash; 5:00pm',
+        location: 'DEAR 119'
+      }
+    ],
+    gradingHours: [
+      {
+        day: 'M',
+        time: '5:00 &ndash; 6:30pm',
+        location: 'DEAR 119'
+      },
+      {
+        day: 'F',
+        time: '5:00 &ndash; 7:00pm',
+        location: 'DEAR 119'
+      }
+    ]
   },
   {
     name: 'Huahua Wang',
