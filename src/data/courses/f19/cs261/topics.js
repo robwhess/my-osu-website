@@ -27,7 +27,6 @@ const topics = [
 
   {
     title: 'Git and GitHub',
-    isCurrent: true,
     weeks: [ 0, 1 ],
     resources: [
       {
@@ -50,7 +49,7 @@ const topics = [
   },
 
   {
-    title: 'C Review/Crash Course',
+    title: 'C Basics',
     isCurrent: true,
     weeks: [ 1 ],
     resources: [
