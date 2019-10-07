@@ -3,17 +3,40 @@ const taInfo = [
     name: 'Ujjval Kumaria',
     email: 'kumariau@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: 'Tu',
-      //   time: '2:00 &ndash; 3:00pm',
-      //   location: 'JOHN 123'
-      // }
+      {
+        day: 'M',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'F',
+        time: '10:00 &ndash; 11:00am',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
       {
-        day: 'TuWThF',
-        time: 'TBA',
-        location: 'follow link for time and location',
+        day: 'Tu',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC Atrium',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
+      },
+      {
+        day: 'W',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC Atrium',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
+      },
+      {
+        day: 'Th',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC Atrium',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
+      },
+      {
+        day: 'F',
+        time: '11:00am &ndash; 12:00pm',
+        location: 'KEC Atrium',
         link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
       }
     ]
