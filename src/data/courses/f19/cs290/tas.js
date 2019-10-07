@@ -10,12 +10,12 @@ const taInfo = [
       // }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tu',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'JOHN 121',
-      //   link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
-      // }
+      {
+        day: 'TuWThF',
+        time: 'TBA',
+        location: 'follow link for time and location',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
+      }
     ]
   },
   {
@@ -39,12 +39,24 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tu',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'JOHN 121',
-      //   link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJjZnUtYW1ZXzE1fGRlZmF1bHR8YzYxNzM2NzY3ODIxZmEyNzY3ZjQ0OTZiNWU1MTc1OTM'
-      // }
+      {
+        day: 'Tu',
+        time: '2:00 &ndash; 4:30pm',
+        location: 'KEC Atrium',
+        link: 'http://bit.ly/cs290hw'
+      },
+      {
+        day: 'W',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'KEC Atrium',
+        link: 'http://bit.ly/cs290hw'
+      },
+      {
+        day: 'Th',
+        time: '2:00 &ndash; 4:30pm',
+        location: 'KEC Atrium',
+        link: 'http://bit.ly/cs290hw'
+      }
     ]
   }
 ];
