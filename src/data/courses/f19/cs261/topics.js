@@ -51,7 +51,7 @@ const topics = [
   {
     title: 'C Basics',
     isCurrent: true,
-    weeks: [ 1 ],
+    weeks: [ 1, 2 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -61,6 +61,11 @@ const topics = [
       {
         title: 'Example code',
         link: 'https://github.com/osu-cs261-f19/c-basics'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrdEZPN182Y0NZTWVoUDdSSWZZQ0REWTZ1R3gw/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
@@ -102,6 +107,45 @@ const topics = [
     ],
     notes: [
       'Note that the first four readings above assume an older C standard (C89) than we\'ll be using in this class (C99), but everything they describe will still work for us.  You can refer to the following link to understand the differences between C89 and C99: [C99: Design](https://en.wikipedia.org/wiki/C99#Design).'
+    ]
+  },
+
+  {
+    title: 'Dynamic Arrays and Linked Lists',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1rv5N3MU833p0HrZSRNMy7SD8Q4jBDqmPzfsPRm1H0ls/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Worksheet 14: Introduction to the Dynamic Array',
+        link: `${CS261CourseNotes}#page=174`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Worksheet 17: Linked List Introduction, List Stack',
+        link: `${CS261CourseNotes}#page=185`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Dynamic Array',
+        link: 'https://en.wikipedia.org/wiki/Dynamic_array',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Linked list',
+        link: 'https://en.wikipedia.org/wiki/Linked_list',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Linked list',
+        link: 'https://visualgo.net/en/list',
+        description: 'VisuAlgo.net'
+      }
     ]
   },
   //
