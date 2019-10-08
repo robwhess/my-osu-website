@@ -31,7 +31,8 @@ const taInfo = [
       {
         day: 'Th',
         time: '10:30am &ndash; 2:00pm',
-        location: 'KEC Atrium'
+        location: 'KEC Atrium',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUFUWnZHY3Bpcmw1fGRlZmF1bHR8ZGQyOGMwNjVjMmUwMjZiYjE3MzVlZjQ5YzYzMjFhNzg'
       }
     ]
   },
@@ -82,17 +83,20 @@ const taInfo = [
       {
         day: 'Tu',
         time: '4:30 &ndash; 5:30pm',
-        location: 'DEAR 119'
+        location: 'DEAR 119',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJlNWpjMlZXMEMwfGRlZmF1bHR8ZmM4NzYzZGE0NGI1Zjg2M2QxOTYzZTQxYzI0NDNlYjI'
       },
       {
         day: 'Th',
         time: '4:30 &ndash; 5:30pm',
-        location: 'DEAR 119'
+        location: 'DEAR 119',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJlNWpjMlZXMEMwfGRlZmF1bHR8ZmM4NzYzZGE0NGI1Zjg2M2QxOTYzZTQxYzI0NDNlYjI'
       },
       {
         day: 'F',
         time: '4:30 &ndash; 6:00pm',
-        location: 'DEAR 119'
+        location: 'DEAR 119',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUJlNWpjMlZXMEMwfGRlZmF1bHR8ZmM4NzYzZGE0NGI1Zjg2M2QxOTYzZTQxYzI0NDNlYjI'
       }
     ]
   },
@@ -154,7 +158,14 @@ const taInfo = [
         location: 'KEC Atrium'
       }
     ],
-    gradingHours: []
+    gradingHours: [
+      {
+        day: 'F',
+        time: '8:30am &ndash; 12:00pm',
+        location: 'KEC Atrium',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUNiaVRkaWFrbkxXfGRlZmF1bHR8Y2EwY2UwZDE5MzhiZmQwN2I1ZTJjZDJlMDI0NGQ0M2E'
+      }
+    ]
   },
   {
     name: 'Jiawei Mo',
