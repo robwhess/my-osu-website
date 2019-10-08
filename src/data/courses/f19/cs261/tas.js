@@ -50,12 +50,14 @@ const taInfo = [
       {
         day: 'Tu',
         time: '10:00am &ndash; 12:00pm',
-        location: 'Covell 140'
+        location: 'Covell 140',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UURSdm9NdzJ2bk8xfGRlZmF1bHR8MTBmNTNlMjBlNzQ5ZDFjYjgzMTczZjE0ZDNlZmIyNzM'
       },
       {
         day: 'W',
         time: '2:00 &ndash; 3:30pm',
-        location: 'Covell 140'
+        location: 'Covell 140',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UURSdm9NdzJ2bk8xfGRlZmF1bHR8MTBmNTNlMjBlNzQ5ZDFjYjgzMTczZjE0ZDNlZmIyNzM'
       }
     ]
   },
