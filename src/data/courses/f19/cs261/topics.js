@@ -50,7 +50,6 @@ const topics = [
 
   {
     title: 'C Basics',
-    isCurrent: true,
     weeks: [ 1, 2 ],
     resources: [
       {
@@ -64,7 +63,7 @@ const topics = [
       },
       {
         title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrdEZPN182Y0NZTWVoUDdSSWZZQ0REWTZ1R3gw/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrU3ZfUVZjSlJiaWZfaENVWTFYRDVIdXkzWUY0/view?usp=sharing',
         description: 'section 001'
       }
     ],
@@ -118,6 +117,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1rv5N3MU833p0HrZSRNMy7SD8Q4jBDqmPzfsPRm1H0ls/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrNkxlZFRwdU5kTW5pSnNtOF9VQ25Qd0t3S2M0/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
