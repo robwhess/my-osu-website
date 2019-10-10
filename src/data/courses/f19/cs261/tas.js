@@ -41,7 +41,7 @@ const taInfo = [
     email: 'didnera@oregonstate.edu',
     officeHours: [
       {
-        day: 'W',
+        day: 'M',
         time: '2:00 &ndash; 5:00pm',
         location: 'Covell 140'
       }
