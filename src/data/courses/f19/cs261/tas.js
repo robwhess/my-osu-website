@@ -221,17 +221,20 @@ const taInfo = [
       {
         day: 'M',
         time: '9:00 &ndash; 11:00am',
-        location: 'DEAR 119'
+        location: 'DEAR 119',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUc2dDF2T1FHcmstfGRlZmF1bHR8M2I2NzVjYWViOTczNzFjOGM1NGFmZjEzMDJhYTA3OTU'
       },
       {
         day: 'M',
         time: '4:00 &ndash; 5:00pm',
-        location: 'JOHN 125'
+        location: 'JOHN 125',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUc2dDF2T1FHcmstfGRlZmF1bHR8M2I2NzVjYWViOTczNzFjOGM1NGFmZjEzMDJhYTA3OTU'
       },
       {
         day: 'M',
         time: '5:00 &ndash; 5:30pm',
-        location: 'JOHN 121'
+        location: 'JOHN 121',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUc2dDF2T1FHcmstfGRlZmF1bHR8M2I2NzVjYWViOTczNzFjOGM1NGFmZjEzMDJhYTA3OTU'
       }
     ]
   }

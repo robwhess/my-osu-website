@@ -152,29 +152,36 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Complexity Analysis (Big O)',
-  //   weeks: [ 2 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1aHgFRl9RkOE8bNf3Kdh-L69eSE-J0NQJybf_TJXGy3w/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapters 4-5',
-  //       link: `${CS261CourseNotes}#page=28`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Analysis of algorithms',
-  //       link: 'https://en.wikipedia.org/wiki/Analysis_of_algorithms',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Complexity Analysis (Big O)',
+    isCurrent: true,
+    weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1aUobiojWEM-9Zne4FT0W1-iTUFK0B_07Hx51jCcDEtw/edit?usp=sharing',
+        description: 'notes in progrees'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapters 4-5',
+        link: `${CS261CourseNotes}#page=28`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Analysis of algorithms',
+        link: 'https://en.wikipedia.org/wiki/Analysis_of_algorithms',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Big O notation',
+        link: 'https://en.wikipedia.org/wiki/Big_O_notation',
+        description: 'Wikipedia'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Dynamic Arrays',
