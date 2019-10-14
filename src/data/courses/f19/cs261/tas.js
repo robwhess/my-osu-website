@@ -107,41 +107,43 @@ const taInfo = [
     email: 'kennerya@oregonstate.edu',
      officeHours: [
        {
-         day: "T",
-         time: "10:00am - 10:30am",
-         location: "JOHN 123"
+         day: 'T',
+         time: '10:00am - 10:30am',
+         location: 'JOHN 123'
        },
        {
-         day: "T",
-         time: "10:30am - 11:30am",
-         location: "JOHN 125"
+         day: 'T',
+         time: '10:30am - 11:30am',
+         location: 'JOHN 125'
        },
        {
-         day: "W",
-         time: "9:00am - 11:00am",
-         location: "JOHN 123"
+         day: 'W',
+         time: '9:00am - 11:00am',
+         location: 'JOHN 123'
        },
        {
-         day: "Th",
-         time: "9:00am - 11:30am",
-         location: "JOHN 123"
+         day: 'Th',
+         time: '9:00am - 11:30am',
+         location: 'JOHN 123'
        },
        {
-         day: "F",
-         time: "12:00pm - 3:00pm",
-         location: "JOHN 121"
+         day: 'F',
+         time: '12:00pm - 3:00pm',
+         location: 'JOHN 121'
        }
      ],
     gradingHours:[
       {
-        day: "M",
-        time: "9:00am - 12:00pm",
-        location: "JOHN 123"
+        day: 'M',
+        time: '9:00am - 12:00pm',
+        location: 'JOHN 123',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUF5LUlsZlBzRkJtfGRlZmF1bHR8YzliYjkxM2U4NzI0MmEwN2M2NmEyMzAxYjZmZmFmMTQ'
       },
       {
-        day: "T",
-        time: "9:00am - 9:30am",
-        location: "JOHN 123"
+        day: 'Tu',
+        time: '9:00am - 9:30am',
+        location: 'JOHN 123',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUF5LUlsZlBzRkJtfGRlZmF1bHR8YzliYjkxM2U4NzI0MmEwN2M2NmEyMzAxYjZmZmFmMTQ'
       }
     ]
   },
@@ -193,12 +195,14 @@ const taInfo = [
       {
         day: 'M',
         time: '5:00 &ndash; 6:30pm',
-        location: 'DEAR 119'
+        location: 'DEAR 119',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU5OcUN1V3ZEcE5mfGRlZmF1bHR8MjRlNDE3ZWIyYzk1ZTRmNDQ3NzAxZjI3M2FmY2UwYzY'
       },
       {
         day: 'F',
         time: '5:00 &ndash; 7:00pm',
-        location: 'DEAR 119'
+        location: 'DEAR 119',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UU5OcUN1V3ZEcE5mfGRlZmF1bHR8MjRlNDE3ZWIyYzk1ZTRmNDQ3NzAxZjI3M2FmY2UwYzY'
       }
     ]
   },
