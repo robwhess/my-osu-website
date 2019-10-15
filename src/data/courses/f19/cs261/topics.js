@@ -111,7 +111,6 @@ const topics = [
 
   {
     title: 'Dynamic Arrays and Linked Lists',
-    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -162,6 +161,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1aUobiojWEM-9Zne4FT0W1-iTUFK0B_07Hx51jCcDEtw/edit?usp=sharing',
         description: 'notes in progrees'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1sBF6_-w8jrOIE5PrvRQhmbYZ__ydEZ2x/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
