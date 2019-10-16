@@ -186,81 +186,40 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Dynamic Arrays',
-  //   weeks: [ 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1kz-1aTo3thyJBi0TIVYVPeb_UA9_-VCGo2ln6UZvXoY/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS261-F18/dynarray'
-  //     },
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'Stacks, Queues, and Deques',
-  //   weeks: [ 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapters 6-7',
-  //       link: `${CS261CourseNotes}#page=58`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Stack',
-  //       link: 'https://en.wikipedia.org/wiki/Stack_(abstract_data_type)',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Queue',
-  //       link: 'https://en.wikipedia.org/wiki/Queue_(abstract_data_type)',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Double-ended queue',
-  //       link: 'https://en.wikipedia.org/wiki/Double-ended_queue',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'Linked Lists',
-  //   weeks: [ 3, 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS261-F18/lldeque'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Linked list',
-  //       link: 'https://en.wikipedia.org/wiki/Linked_list',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Linked list (with Stack, Queue, and Deque)',
-  //       link: 'https://visualgo.net/en/list',
-  //       description: 'VisuAlgo.net'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Stacks, Queues, and Deques',
+    weeks: [ 3, 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        // link: 'https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing'
+        description: 'forthcoming'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapters 6-7',
+        link: `${CS261CourseNotes}#page=58`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Stack',
+        link: 'https://en.wikipedia.org/wiki/Stack_(abstract_data_type)',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Queue',
+        link: 'https://en.wikipedia.org/wiki/Queue_(abstract_data_type)',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Double-ended queue',
+        link: 'https://en.wikipedia.org/wiki/Double-ended_queue',
+        description: 'Wikipedia'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Iterators',
