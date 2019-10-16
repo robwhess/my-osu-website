@@ -26,6 +26,10 @@ var courseDetails = {
       link: 'https://piazza.com/oregonstate/fall2019/cs290'
     },
     {
+      text: 'CS 290 on GitHub',
+      link: 'https://github.com/osu-cs290-f19'
+    },
+    {
       text: 'Establishing a positive classroom community',
       link: generateSitePath("/teaching/community")
     }

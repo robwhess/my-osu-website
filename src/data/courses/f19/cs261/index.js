@@ -40,6 +40,10 @@ const courseDetails = {
       link: 'https://piazza.com/oregonstate/fall2019/cs261'
     },
     {
+      text: 'CS 261 on GitHub',
+      link: 'https://github.com/osu-cs261-f19'
+    },
+    {
       text: 'Establishing a positive classroom community',
       link: generateSitePath("/teaching/community")
     }
