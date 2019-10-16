@@ -13,17 +13,17 @@ const assignments = {
         '[Lecture doodles](https://drive.google.com/file/d/1MIebHdfzmZcYYOdYTLTx_i7LubgteaBl/view?usp=sharing) &ndash; section 001'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; Linked lists, stacks, and queues',
-    //   due: {
-    //     day: 'Monday, 10/29/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 11/12/2018'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/IAOtN2r5',
+      title: 'Assignment 2 &ndash; Stacks and queues',
+      due: {
+        day: 'Monday, 10/28/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 11/11/2019'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Binary search trees',
