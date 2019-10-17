@@ -54,7 +54,7 @@ function CourseTopicsList({ title, topics }) {
                 }
                 {topic.resources ?
                   <div>
-                    <h4>Resources</h4>
+                    <h4>Lecture Materials</h4>
                     <AngleList singleAngle
                       items={topic.resources.map((resource, j) => (
                         <TitleLinkDescription key={j} {...resource} />

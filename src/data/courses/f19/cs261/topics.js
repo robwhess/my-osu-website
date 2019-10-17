@@ -59,7 +59,8 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/osu-cs261-f19/c-basics'
+        link: 'https://github.com/osu-cs261-f19/c-basics',
+        description: 'code written in lecture'
       },
       {
         title: 'Lecture doodles',
