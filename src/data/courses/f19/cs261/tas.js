@@ -13,7 +13,8 @@ const taInfo = [
       {
         day: 'M',
         time: '8:00 &ndash; 9:30am',
-        location: 'Covell 140, Table 1'
+        location: 'Covell 140, Table 1',
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UURkY1pGQTNXb3dNfGRlZmF1bHR8NzAxNWI0NTczZjM2ZmM1NTgzYTU5MjI1NDJjNDc4YTk'
       }
     ]
   },
