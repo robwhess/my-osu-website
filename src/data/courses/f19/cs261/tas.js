@@ -43,7 +43,12 @@ const taInfo = [
     officeHours: [
       {
         day: 'M',
-        time: '2:00 &ndash; 5:00pm',
+        time: '2:00 &ndash; 4:00pm',
+        location: 'Covell 140'
+      },
+      {
+        day: 'W',
+        time: '3:30 &ndash; 4:30pm',
         location: 'Covell 140'
       }
     ],
