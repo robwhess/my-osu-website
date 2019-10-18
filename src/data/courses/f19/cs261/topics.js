@@ -190,12 +190,22 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
-    weeks: [ 3, 4 ],
+    weeks: [ 4 ],
     resources: [
       {
         title: 'Lecture notes',
         // link: 'https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing'
-        description: 'forthcoming'
+        description: 'updated notes forthcoming'
+      },
+      {
+        title: 'Old lecture notes',
+        link: 'https://docs.google.com/document/d/1YE5kQFFFPvu7R-tFU6P_hOFUxOlLlKZqkWagSVfMSVU/edit?usp=sharing',
+        description: 'dynamic array-based stacks, queues, and deques'
+      },
+      {
+        title: 'Old lecture notes',
+        link: 'https://docs.google.com/document/d/1CY-1eXaAf6hPZWNXduejKIxHgra8Z8M1YYfxxyvaxYs/edit?usp=sharing',
+        description: 'linked list-based stacks, queues, and deques'
       }
     ],
     readings: [
