@@ -30,7 +30,6 @@ const topics = [
 
   {
     title: 'HTML',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -90,33 +89,33 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'JavaScript Fundamentals',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/osu-cs290-sp19/js-fundamentals'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'JavaScript first steps',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps',
-  //       description: 'MDN'
-  //     },
-  //     {
-  //       title: 'JavaScript building blocks',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks',
-  //       description: 'MDN'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'JavaScript Fundamentals',
+    weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-sp19/js-fundamentals'
+      // }
+    ],
+    readings: [
+      {
+        title: 'JavaScript first steps',
+        link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps',
+        description: 'MDN'
+      },
+      {
+        title: 'JavaScript building blocks',
+        link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks',
+        description: 'MDN'
+      }
+    ]
+  },
   //
   // {
   //   title: 'JavaScript DOM Manipulation',
