@@ -190,6 +190,7 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
+    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
@@ -228,6 +229,11 @@ const topics = [
         title: 'Double-ended queue',
         link: 'https://en.wikipedia.org/wiki/Double-ended_queue',
         description: 'Wikipedia'
+      },
+      {
+        title: 'Linked list (with stack, queue, and deque)',
+        link: 'https://visualgo.net/en/list',
+        description: 'VisuAlgo.net'
       }
     ]
   },
