@@ -54,7 +54,6 @@ const topics = [
   {
     title: 'CSS',
     weeks: [ 1, 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
