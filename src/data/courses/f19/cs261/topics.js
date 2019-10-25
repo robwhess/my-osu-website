@@ -225,60 +225,62 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Iterators',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1h17U-0nDinnKPUJSehJbVB1Lx8Z73G-HsHl7RabMVjo/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS261-F18/lldeque'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 8 (pp. 4-5, "Introduction to the Iterator")',
-  //       link: `${CS261CourseNotes}#page=90`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Iterator',
-  //       link: 'https://en.wikipedia.org/wiki/Iterator',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'Ordered Arrays and Binary Search',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/145ReP_mk2ATwW7aUCX_i0FoP_Xp1mzy9Aor4qWYIxHA/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS261-F18/lldeque'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 9',
-  //       link: `${CS261CourseNotes}#page=96`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Binary search algorithm',
-  //       link: 'https://en.wikipedia.org/wiki/Binary_search_algorithm',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Encapsulation and Iterators',
+    isCurrent: true,
+    weeks: [ 4, 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1woJcoYQ5w879ySiilpmFHCpALo59RVznHQhmVT5LJGE/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS261-F18/lldeque'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Chapter 8 (pp. 4-5, "Introduction to the Iterator")',
+        link: `${CS261CourseNotes}#page=90`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Encapsulation (computer programming)',
+        link: 'https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Iterator',
+        link: 'https://en.wikipedia.org/wiki/Iterator',
+        description: 'Wikipedia'
+      }
+    ]
+  },
+
+  {
+    title: 'Binary Search',
+    weeks: [ 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1q3pXT21qbqZ_KCW1XjSGUUZV5doZ0QyHJzolbM3hCbk/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 9',
+        link: `${CS261CourseNotes}#page=96`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Binary search algorithm',
+        link: 'https://en.wikipedia.org/wiki/Binary_search_algorithm',
+        description: 'Wikipedia'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Midterm exam',
