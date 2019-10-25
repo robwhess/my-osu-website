@@ -235,10 +235,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1woJcoYQ5w879ySiilpmFHCpALo59RVznHQhmVT5LJGE/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS261-F18/lldeque'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs261-f19/list-iterator',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
