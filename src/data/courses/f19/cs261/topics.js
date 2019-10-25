@@ -195,6 +195,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1-ujrdx618YEaR7ouHl1v84THacVBy4GcIKcnFOmOBzc/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1C9xTpndPowMYJoIeYGBVCmo4VtvgFF7i/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
@@ -229,7 +234,7 @@ const topics = [
   {
     title: 'Encapsulation and Iterators',
     isCurrent: true,
-    weeks: [ 4, 5 ],
+    weeks: [ 5 ],
     resources: [
       {
         title: 'Lecture notes',
