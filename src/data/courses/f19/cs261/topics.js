@@ -189,7 +189,6 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
-    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
@@ -267,6 +266,7 @@ const topics = [
 
   {
     title: 'Binary Search',
+    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
