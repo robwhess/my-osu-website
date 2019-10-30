@@ -91,7 +91,6 @@ const topics = [
 
   {
     title: 'JavaScript Fundamentals',
-    isCurrent: true,
     weeks: [ 4, 5 ],
     resources: [
       {
@@ -146,42 +145,42 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'JavaScript Event Handling',
-  //   weeks: [ 5 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/osu-cs290-sp19/js-events'
-  //     },
-  //     {
-  //       title: 'JS Fiddle DOM manipulation example',
-  //       link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Overview of Events and Handlers',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers',
-  //       description: 'MDN'
-  //     },
-  //     {
-  //       title: 'Handling Events',
-  //       link: 'http://eloquentjavascript.net/14_event.html',
-  //       description: 'Eloquent Javascript (Chapter 14)'
-  //     },
-  //     {
-  //       title: 'Forms and Fields',
-  //       link: 'http://eloquentjavascript.net/18_forms.html',
-  //       description: 'Eloquent Javascript (Chapter 18)'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'JavaScript Event Handling',
+    weeks: [ 5, 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-sp19/js-events'
+      // },
+      {
+        title: 'JS Fiddle DOM manipulation example',
+        link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
+      }
+    ],
+    readings: [
+      {
+        title: 'Overview of Events and Handlers',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers',
+        description: 'MDN'
+      },
+      {
+        title: 'Handling Events',
+        link: 'http://eloquentjavascript.net/14_event.html',
+        description: 'Eloquent Javascript (Chapter 14)'
+      },
+      {
+        title: 'Forms and Fields',
+        link: 'http://eloquentjavascript.net/18_forms.html',
+        description: 'Eloquent Javascript (Chapter 18)'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Node.js Basics',

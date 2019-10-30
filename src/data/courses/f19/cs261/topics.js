@@ -232,7 +232,6 @@ const topics = [
 
   {
     title: 'Encapsulation and Iterators',
-    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
@@ -300,6 +299,7 @@ const topics = [
 
   {
     title: 'Binary Search Trees',
+    isCurrent: true,
     weeks: [ 5, 6 ],
     resources: [
       {
