@@ -24,17 +24,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 11/11/2019'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Binary search trees',
-    //   due: {
-    //     day: 'Monday, 11/12/2018',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, ~~Monday 11/26/2018~~ Friday 11/30/2018'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/e3SiPn5-',
+      title: 'Assignment 3 &ndash; Binary search trees',
+      due: {
+        day: 'Monday, 11/11/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 11/25/2019'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Priority queues',
