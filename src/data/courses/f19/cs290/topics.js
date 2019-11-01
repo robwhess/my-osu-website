@@ -148,16 +148,17 @@ const topics = [
 
   {
     title: 'JavaScript Event Handling',
+    isCurrent: true,
     weeks: [ 5, 6 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp19/js-events'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f19/js-events'
+      },
       {
         title: 'JS Fiddle DOM manipulation example',
         link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
