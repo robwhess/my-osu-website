@@ -270,7 +270,6 @@ const topics = [
 
   {
     title: 'Binary Search',
-    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
@@ -306,6 +305,11 @@ const topics = [
         title: 'Old lecture notes',
         link: 'https://docs.google.com/document/d/14_cGmdCXMS8wz2QuMe5AbQEu4t2lcGl-JNk___1EtXY/edit?usp=sharing',
         description: 'updated notes forthcoming'
+      },
+      {
+        title: 'New lecture notes',
+        link: 'https://docs.google.com/document/d/1hJPLu5HvMnpDpfraac4gQHFihOSmVeRZf3acghzPXE0/edit?usp=sharing',
+        description: 'in progress'
       }
     ],
     readings: [
