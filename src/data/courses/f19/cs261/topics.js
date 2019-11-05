@@ -310,6 +310,11 @@ const topics = [
         title: 'New lecture notes',
         link: 'https://docs.google.com/document/d/1hJPLu5HvMnpDpfraac4gQHFihOSmVeRZf3acghzPXE0/edit?usp=sharing',
         description: 'in progress'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1ZoLaO7dHpaPlhB1tKdjLHU50BreAf-6i/view?usp=sharing',
+        description: 'section 001'
       }
     ],
     readings: [
