@@ -353,45 +353,42 @@ const topics = [
       }
     ]
   },
-  // {
-  //   title: 'AVL Trees',
-  //   weeks: [ 6, 7 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS261-F18/avl_tree'
-  //     },
-  //     {
-  //       title: 'AVL Trees "Quiz"',
-  //       link: 'https://docs.google.com/document/d/12ZfZhlYodHqZr9y3y431gztxwy5_oZvJ8keGUGbb6io/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'AVL Trees "Quiz" Solutions',
-  //       link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrYm5KcjFWUmFpRFNGdy01djA3UjNBOXFvekxj'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Worksheet 31',
-  //       link: `${CS261CourseNotes}#page=236`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'AVL tree',
-  //       link: 'https://en.wikipedia.org/wiki/AVL_tree',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Binary Search Tree (with AVL Tree)',
-  //       link: 'https://visualgo.net/en/bst',
-  //       description: 'VisuAlgo.net'
-  //     }
-  //   ]
-  // },
+  {
+    title: 'AVL Trees',
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Old lecture notes',
+        link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing',
+        description: 'new notes in progress'
+      },
+      // {
+      //   title: 'AVL Trees "Quiz"',
+      //   link: 'https://docs.google.com/document/d/12ZfZhlYodHqZr9y3y431gztxwy5_oZvJ8keGUGbb6io/edit?usp=sharing'
+      // },
+      // {
+      //   title: 'AVL Trees "Quiz" Solutions',
+      //   link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrYm5KcjFWUmFpRFNGdy01djA3UjNBOXFvekxj'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Worksheet 31',
+        link: `${CS261CourseNotes}#page=236`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'AVL tree',
+        link: 'https://en.wikipedia.org/wiki/AVL_tree',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Binary Search Tree (with AVL Tree)',
+        link: 'https://visualgo.net/en/bst',
+        description: 'VisuAlgo.net'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Priority Queues and Heaps',
