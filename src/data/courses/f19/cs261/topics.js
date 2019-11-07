@@ -334,24 +334,25 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Binary Tree Traversals',
-  //   weeks: [ 6 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1yldvT0k8xcoE59yBzHwtIv7VSzh4iL9fQ1gC9fHnqDg/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Tree traversal',
-  //       link: 'https://en.wikipedia.org/wiki/Tree_traversal',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Binary Tree Traversals',
+    isCurrent: true,
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1d_5h_TzL8gMy2GyxDOYdAG8JJ3fkep7i3GWM_UnaqvM/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Tree traversal',
+        link: 'https://en.wikipedia.org/wiki/Tree_traversal',
+        description: 'Wikipedia'
+      }
+    ]
+  },
   // {
   //   title: 'AVL Trees',
   //   weeks: [ 6, 7 ],
