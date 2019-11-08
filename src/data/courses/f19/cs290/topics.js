@@ -147,7 +147,6 @@ const topics = [
 
   {
     title: 'JavaScript Event Handling',
-    isCurrent: true,
     weeks: [ 5, 6 ],
     resources: [
       {
@@ -203,6 +202,11 @@ const topics = [
         description: 'Eloquent Javascript (Chapter 20)'
       },
       {
+        title: 'Environment variable',
+        link: 'https://en.wikipedia.org/wiki/Environment_variable',
+        description: 'Wikipedia'
+      },
+      {
         title: 'The Art of Node',
         link: 'https://github.com/maxogden/art-of-node/#the-art-of-node'
       },
@@ -213,34 +217,35 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Packages and npm',
-  //   weeks: [ 7 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1jz3-RWjGoDzRddNAwPhAeNuqYF0o9MUWqVMQ-anN4TI/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'What is npm?',
-  //       link: 'https://docs.npmjs.com/getting-started/what-is-npm',
-  //       description: 'npm docs'
-  //     },
-  //     {
-  //       title: 'Installing npm packages locally',
-  //       link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally',
-  //       description: 'npm docs'
-  //     },
-  //     {
-  //       title: 'Using a package.json',
-  //       link: 'https://docs.npmjs.com/getting-started/using-a-package.json',
-  //       description: 'npm docs'
-  //     },
-  //   ]
-  // },
+
+  {
+    title: 'Packages and npm',
+    isCurrent: true,
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1jz3-RWjGoDzRddNAwPhAeNuqYF0o9MUWqVMQ-anN4TI/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'What is npm?',
+        link: 'https://docs.npmjs.com/getting-started/what-is-npm',
+        description: 'npm docs'
+      },
+      {
+        title: 'Installing npm packages locally',
+        link: 'https://docs.npmjs.com/getting-started/installing-npm-packages-locally',
+        description: 'npm docs'
+      },
+      {
+        title: 'Using a package.json',
+        link: 'https://docs.npmjs.com/getting-started/using-a-package.json',
+        description: 'npm docs'
+      },
+    ]
+  },
   //
   // {
   //   title: 'Serving with Express',
