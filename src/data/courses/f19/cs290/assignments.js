@@ -37,18 +37,18 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 11/25/2019'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Native Node.js file serving',
-    //   due: {
-    //     day: 'Monday, 5/20/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
-    //     '**No demo for this assignment**'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/5VPxE8Cu',
+      title: 'Assignment 4 &ndash; Native Node.js file serving',
+      due: {
+        day: 'Monday, 11/18/2019',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog due **ON CANVAS** by assignment due date',
+        '**No demo for this assignment**'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 5 &ndash; Handlebars templating',
