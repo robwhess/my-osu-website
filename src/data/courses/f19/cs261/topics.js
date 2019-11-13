@@ -298,7 +298,6 @@ const topics = [
 
   {
     title: 'Binary Search Trees',
-    isCurrent: true,
     weeks: [ 6 ],
     resources: [
       {
@@ -337,7 +336,6 @@ const topics = [
 
   {
     title: 'Binary Tree Traversals',
-    isCurrent: true,
     weeks: [ 6 ],
     resources: [
       {
@@ -353,14 +351,21 @@ const topics = [
       }
     ]
   },
+
   {
     title: 'AVL Trees',
+    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
         title: 'Old lecture notes',
         link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing',
         description: 'new notes in progress'
+      },
+      {
+        title: 'New lecture notes',
+        link: 'https://docs.google.com/document/d/1z954mUuOKFdPImsg8cyPde7ycXYGFh5j3pDJgXpYDkY/edit?usp=sharing',
+        description: 'in progress'
       },
       // {
       //   title: 'AVL Trees "Quiz"',
