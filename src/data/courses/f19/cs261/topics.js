@@ -358,14 +358,8 @@ const topics = [
     weeks: [ 7 ],
     resources: [
       {
-        title: 'Old lecture notes',
-        link: 'https://docs.google.com/document/d/1efClZUfxEWQ3Q6DYNdrg159sWuVRDUMSMC4Plxk8Txs/edit?usp=sharing',
-        description: 'new notes in progress'
-      },
-      {
-        title: 'New lecture notes',
-        link: 'https://docs.google.com/document/d/1z954mUuOKFdPImsg8cyPde7ycXYGFh5j3pDJgXpYDkY/edit?usp=sharing',
-        description: 'in progress'
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1z954mUuOKFdPImsg8cyPde7ycXYGFh5j3pDJgXpYDkY/edit?usp=sharing'
       },
       // {
       //   title: 'AVL Trees "Quiz"',
