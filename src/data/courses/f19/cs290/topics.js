@@ -183,7 +183,6 @@ const topics = [
 
   {
     title: 'Node.js Basics',
-    isCurrent: true,
     weeks: [ 6, 7 ],
     resources: [
       {
@@ -221,7 +220,7 @@ const topics = [
   {
     title: 'Packages and npm',
     isCurrent: true,
-    weeks: [ 7 ],
+    weeks: [ 8 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -249,16 +248,17 @@ const topics = [
 
   {
     title: 'Serving with Express',
+    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp19/express-serving'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f19/express-serving'
+      }
     ],
     readings: [
       {
