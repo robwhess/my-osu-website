@@ -394,34 +394,34 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Priority Queues and Heaps',
-  //   weeks: [ 7 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 11',
-  //       link: `${CS261CourseNotes}#page=123`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Heap',
-  //       link: 'https://en.wikipedia.org/wiki/Heap_(data_structure)',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Binary Heap',
-  //       link: 'https://visualgo.net/en/heap',
-  //       description: 'VisuAlgo.net'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Priority Queues and Heaps',
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 11',
+        link: `${CS261CourseNotes}#page=123`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Heap',
+        link: 'https://en.wikipedia.org/wiki/Heap_(data_structure)',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Binary Heap',
+        link: 'https://visualgo.net/en/heap',
+        description: 'VisuAlgo.net'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Maps and Hash Tables',
