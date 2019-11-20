@@ -13,7 +13,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrRDF1MDBxSlJMRzRTSVpjanJ4SVVSbzJCOWc4/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -36,7 +36,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1W_5yO4dHI6ZeS-pzIS7j9qxOU-c3fsxG/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -65,7 +65,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrU3ZfUVZjSlJiaWZfaENVWTFYRDVIdXkzWUY0/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -121,7 +121,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrNkxlZFRwdU5kTW5pSnNtOF9VQ25Qd0t3S2M0/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -165,7 +165,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1sBF6_-w8jrOIE5PrvRQhmbYZ__ydEZ2x/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -198,7 +198,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1C9xTpndPowMYJoIeYGBVCmo4VtvgFF7i/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -246,7 +246,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1gTFmJz4bvE32KVN2WiZByHFMJdXerQbN/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -279,7 +279,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1K03duCzhAdU6d3M-DWQ4fljyax2sR_Q7/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -307,7 +307,7 @@ const topics = [
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1ZoLaO7dHpaPlhB1tKdjLHU50BreAf-6i/view?usp=sharing',
-        description: 'section 001'
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -354,13 +354,17 @@ const topics = [
 
   {
     title: 'AVL Trees',
-    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1z954mUuOKFdPImsg8cyPde7ycXYGFh5j3pDJgXpYDkY/edit?usp=sharing'
       },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrM3k2c0pDblJfVENzTlc0Z0VGX05oa3RDZy1j/view?usp=sharing',
+        description: 'from section 001'
+      }
       // {
       //   title: 'AVL Trees "Quiz"',
       //   link: 'https://docs.google.com/document/d/12ZfZhlYodHqZr9y3y431gztxwy5_oZvJ8keGUGbb6io/edit?usp=sharing'
@@ -391,6 +395,7 @@ const topics = [
 
   {
     title: 'Priority Queues and Heaps',
+    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
