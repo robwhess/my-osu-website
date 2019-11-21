@@ -187,13 +187,8 @@ const taInfo = [
         location: 'DEAR 119'
       },
       {
-        day: 'W',
-        time: '10:00 &ndash; 11:00am',
-        location: 'DEAR 119'
-      },
-      {
         day: 'Th',
-        time: '4:00 &ndash; 5:00pm',
+        time: '3:00 &ndash; 5:00pm',
         location: 'DEAR 119'
       }
     ],
