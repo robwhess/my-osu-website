@@ -396,11 +396,16 @@ const topics = [
   {
     title: 'Priority Queues and Heaps',
     isCurrent: true,
-    weeks: [ 7 ],
+    weeks: [ 8 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1LXH3iQ9lpiQ-qN6zW6JnT4xeUKC1Xigp/view?usp=sharing',
+        description: 'from section 001'
       }
     ],
     readings: [
@@ -421,47 +426,47 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Maps and Hash Tables',
-  //   weeks: [ 8 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code (chained hash table)',
-  //       link: 'https://github.com/OSU-CS261-F18/chained-hash'
-  //     },
-  //     {
-  //       title: 'Example code (open-addressed hash table)',
-  //       link: 'https://github.com/OSU-CS261-F18/open-addressed-hash'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 12',
-  //       link: `${CS261CourseNotes}#page=137`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Associative array',
-  //       link: 'https://en.wikipedia.org/wiki/Associative_array',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Hash table',
-  //       link: 'https://en.wikipedia.org/wiki/Hash_table',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Hash Table',
-  //       link: 'https://visualgo.net/en/hashtable',
-  //       description: 'VisuAlgo.net'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Maps and Hash Tables',
+    weeks: [ 9, 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code (chained hash table)',
+      //   link: 'https://github.com/OSU-CS261-F18/chained-hash'
+      // },
+      // {
+      //   title: 'Example code (open-addressed hash table)',
+      //   link: 'https://github.com/OSU-CS261-F18/open-addressed-hash'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Chapter 12',
+        link: `${CS261CourseNotes}#page=137`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Associative array',
+        link: 'https://en.wikipedia.org/wiki/Associative_array',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Hash table',
+        link: 'https://en.wikipedia.org/wiki/Hash_table',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Hash Table',
+        link: 'https://visualgo.net/en/hashtable',
+        description: 'VisuAlgo.net'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Graphs',

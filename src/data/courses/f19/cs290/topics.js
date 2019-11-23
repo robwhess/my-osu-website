@@ -247,7 +247,6 @@ const topics = [
 
   {
     title: 'Serving with Express',
-    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
@@ -290,6 +289,7 @@ const topics = [
 
   {
     title: 'Rendering Dynamic Content with Handlebars',
+    isCurrent: true,
     weeks: [ 8, 9 ],
     resources: [
       {
@@ -344,67 +344,65 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Asynchronous Client-Server Communication',
-  //   isCurrent: true,
-  //   weeks: [ 9 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/osu-cs290-sp19/async-communication'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Using XMLHttpRequest',
-  //       link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest',
-  //       description: 'MDN'
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'MongoDB',
-  //   weeks: [ 10 ],
-  //   isCurrent: true,
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/osu-cs290-sp19/using-mongodb'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Getting Started with MongoDB',
-  //       link: 'https://docs.mongodb.com/getting-started/shell/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Documents',
-  //       link: 'https://docs.mongodb.com/manual/core/document/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'MongoDB CRUD Operations',
-  //       link: 'https://docs.mongodb.com/manual/crud/',
-  //       description: 'MongoDB docs'
-  //     },
-  //     {
-  //       title: 'Node.js Quick Start',
-  //       link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
-  //       description: 'MongoDB docs'
-  //     }
-  //   ]
-  // }
+
+  {
+    title: 'Asynchronous Client-Server Communication',
+    weeks: [ 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-sp19/async-communication'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Using XMLHttpRequest',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest',
+        description: 'MDN'
+      }
+    ]
+  },
+
+  {
+    title: 'MongoDB',
+    weeks: [ 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1kRFCS2htU1WPgRn4Gwk-VLl-9wd-pIEEDwF3I73JQhc/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-sp19/using-mongodb'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Getting Started with MongoDB',
+        link: 'https://docs.mongodb.com/getting-started/shell/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Documents',
+        link: 'https://docs.mongodb.com/manual/core/document/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'MongoDB CRUD Operations',
+        link: 'https://docs.mongodb.com/manual/crud/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Node.js Quick Start',
+        link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
+        description: 'MongoDB docs'
+      }
+    ]
+  }
 ];
 
 export default topics;
