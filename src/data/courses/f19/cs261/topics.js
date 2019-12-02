@@ -1,5 +1,5 @@
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
-// import GraphSearchPresentation from '../../../../static/GraphAlgorithmsII_DFS_BFS.pdf';
+import GraphSearchPresentation from '../../../../static/GraphAlgorithmsII_DFS_BFS.pdf';
 
 const topics = [
   {
@@ -395,7 +395,6 @@ const topics = [
 
   {
     title: 'Priority Queues and Heaps',
-    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
@@ -429,6 +428,7 @@ const topics = [
 
   {
     title: 'Maps and Hash Tables',
+    isCurrent: true,
     weeks: [ 9, 10 ],
     resources: [
       {
@@ -467,65 +467,64 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Graphs',
-  //   weeks: [ 9, 10 ],
-  //   isCurrent: true,
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Chapter 13',
-  //       link: `${CS261CourseNotes}#page=152`,
-  //       description: 'Budd\'s Course Notes'
-  //     },
-  //     {
-  //       title: 'Graph (discrete mathematics)',
-  //       link: 'https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Graph (ADT)',
-  //       link: 'https://en.wikipedia.org/wiki/Graph_(abstract_data_type)',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Graph Data Structures',
-  //       link: 'https://visualgo.net/en/graphds',
-  //       description: 'VisuAlgo.net'
-  //     },
-  //     {
-  //       title: 'DFS and BFS',
-  //       link: GraphSearchPresentation,
-  //       description: 'Old CS 261 Presentation'
-  //     },
-  //     {
-  //       title: 'Depth-first search',
-  //       link: 'https://en.wikipedia.org/wiki/Depth-first_search',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Breadth-first search',
-  //       link: 'https://en.wikipedia.org/wiki/Breadth-first_search',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Dijkstra\'s algorithm',
-  //       link: 'https://en.wikipedia.org/wiki/Dijkstra\'s_algorithm',
-  //       description: 'Wikipedia'
-  //     },
-  //     {
-  //       title: 'Single-Source Shortest Paths (Dijkstra\'s Algorithm)',
-  //       link: 'https://visualgo.net/en/sssp',
-  //       description: 'VisuAlgo.net'
-  //     }
-  //   ]
-  // }
+
+  {
+    title: 'Graphs',
+    weeks: [ 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 13',
+        link: `${CS261CourseNotes}#page=152`,
+        description: 'Budd\'s Course Notes'
+      },
+      {
+        title: 'Graph (discrete mathematics)',
+        link: 'https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Graph (ADT)',
+        link: 'https://en.wikipedia.org/wiki/Graph_(abstract_data_type)',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Graph Data Structures',
+        link: 'https://visualgo.net/en/graphds',
+        description: 'VisuAlgo.net'
+      },
+      {
+        title: 'DFS and BFS',
+        link: GraphSearchPresentation,
+        description: 'Old CS 261 Presentation'
+      },
+      {
+        title: 'Depth-first search',
+        link: 'https://en.wikipedia.org/wiki/Depth-first_search',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Breadth-first search',
+        link: 'https://en.wikipedia.org/wiki/Breadth-first_search',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Dijkstra\'s algorithm',
+        link: 'https://en.wikipedia.org/wiki/Dijkstra\'s_algorithm',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'Single-Source Shortest Paths (Dijkstra\'s Algorithm)',
+        link: 'https://visualgo.net/en/sssp',
+        description: 'VisuAlgo.net'
+      }
+    ]
+  }
 ];
 
 export default topics;

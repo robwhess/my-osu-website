@@ -17,10 +17,11 @@ const finalProject = {
       title: 'Final Project Demo Signup',
       notes: [
         'Final project demos will be during finals week in KEC 1109.',
-        'Sign up for a final project demo using the link above.',
-        'Sign up for one slot per team.',
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
         'All team members must attend your demo.',
-        'Code is due on GitHub when when at the time of your demo.'
+        'Code is due on GitHub when when at the time of your demo.',
+        'Plan on using one of your team\'s laptops for the demo.'
       ]
     }
   ],
