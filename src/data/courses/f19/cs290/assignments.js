@@ -53,7 +53,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/TPWqRIrF',
       title: 'Assignment 5 &ndash; Handlebars templating',
       due: {
-        day: 'Wednesday, 12/4/2019',
+        day: '~~Wednesday, 12/4/2019~~ Friday, 12/6/2019',
         time: '11:59pm'
       },
       notes: [
