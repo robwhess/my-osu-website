@@ -289,7 +289,6 @@ const topics = [
 
   {
     title: 'Rendering Dynamic Content with Handlebars',
-    isCurrent: true,
     weeks: [ 8, 9 ],
     resources: [
       {
@@ -347,16 +346,17 @@ const topics = [
 
   {
     title: 'Asynchronous Client-Server Communication',
+    isCurrent: true,
     weeks: [ 10 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp19/async-communication'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f19/async-communication'
+      }
     ],
     readings: [
       {
