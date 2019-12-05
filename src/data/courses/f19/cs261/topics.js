@@ -437,7 +437,7 @@ const topics = [
       },
       {
         title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1oKoTKkmAoFRhUn5E317tEXTvl4oMkXcY/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/1zuNyPROzWs1TNy6aE9euyVYFo52PrlBP/view?usp=sharing',
         description: 'from section 001'
       },
       {
