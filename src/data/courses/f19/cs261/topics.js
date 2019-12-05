@@ -435,14 +435,19 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code (chained hash table)',
-      //   link: 'https://github.com/OSU-CS261-F18/chained-hash'
-      // },
-      // {
-      //   title: 'Example code (open-addressed hash table)',
-      //   link: 'https://github.com/OSU-CS261-F18/open-addressed-hash'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1oKoTKkmAoFRhUn5E317tEXTvl4oMkXcY/view?usp=sharing',
+        description: 'from section 001'
+      },
+      {
+        title: 'Example code (chained hash table)',
+        link: 'https://github.com/osu-cs261-f18/chained-hash'
+      },
+      {
+        title: 'Example code (open-addressed hash table)',
+        link: 'https://github.com/osu-cs261-f18/open-addressed-hash'
+      }
     ],
     readings: [
       {
@@ -476,6 +481,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1nheyK6B9jV2PjxhY8y8WxCW4oh-ippMCBKkQOJXm7M0/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1zuNyPROzWs1TNy6aE9euyVYFo52PrlBP/view?usp=sharing',
+        description: 'from section 001'
       }
     ],
     readings: [
