@@ -6,7 +6,7 @@ import sp19 from './sp19/';
 import f19 from './f19/';
 import w20 from './w20/';
 
-const currentTerm = 'f19';
+const currentTerm = 'w20';
 
 const courseData = {
   w20: w20,

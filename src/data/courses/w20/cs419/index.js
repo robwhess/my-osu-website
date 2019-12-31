@@ -18,7 +18,7 @@ var courseDetails = {
     }
   },
 
-  syllabusLink: '#',
+  syllabusLink: 'https://docs.google.com/document/d/1nuWFfAHy6kAbMOyUX0nwPsPHN6B2MWDybafHF7heg2c/edit?usp=sharing',
 
   links: [
     {
