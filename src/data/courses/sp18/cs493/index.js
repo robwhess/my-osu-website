@@ -36,11 +36,11 @@ var courseDetails = {
 
   links: [
     {
-      text: 'CS 493 on Piazza',
+      title: 'CS 493 on Piazza',
       link: 'https://piazza.com/oregonstate/spring2018/cs493'
     },
     {
-      text: 'Establishing a positive classroom community',
+      title: 'Establishing a positive classroom community',
       link: generateSitePath("/teaching/community")
     }
   ],

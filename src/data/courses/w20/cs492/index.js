@@ -22,16 +22,19 @@ const courseDetails = {
 
   links: [
     {
-      text: 'CS 492 on Piazza',
-      link: 'https://piazza.com/oregonstate/winter2020/cs492'
+      title: 'CS 492 on Piazza',
+      link: 'https://piazza.com/oregonstate/winter2020/cs492',
+      description: 'course Q & A forum'
     },
     {
-      text: 'CS 492 on GitHub',
-      link: 'https://github.com/osu-cs492-w20'
+      title: 'CS 492 on GitHub',
+      link: 'https://github.com/osu-cs492-w20',
+      description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
-      text: 'Establishing a positive classroom community',
-      link: generateSitePath("/teaching/community")
+      title: 'Establishing a positive classroom community',
+      link: generateSitePath("/teaching/community"),
+      description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'
     }
   ],
 

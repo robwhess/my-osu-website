@@ -10,6 +10,7 @@ import styled from '@emotion/styled/macro';
 import DayTimeLocation from '../components/DayTimeLocation';
 import AngleList from '../components/AngleList';
 import OfficeHoursList from '../components/OfficeHoursList';
+import TitleLinkDescription from './TitleLinkDescription';
 
 import breakpoints from '../lib/breakpoints';
 
@@ -132,9 +133,7 @@ function CourseEssentialInfo(props) {
           <EssentialInfoItem>
             <EssentialInfoHeading>Links:</EssentialInfoHeading>
             <EssentialInfoData>
-              <AngleList items={links.map((link, i) => (
-                <a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a>
-              ))} />
+              <AngleList items={links.map(link => <TitleLinkDescription {...link} />)} />
             </EssentialInfoData>
           </EssentialInfoItem>:
           null

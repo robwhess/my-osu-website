@@ -66,11 +66,11 @@ const courseDetails = {
 
   links: [
     {
-      text: 'CS 261 on Piazza',
+      title: 'CS 261 on Piazza',
       link: 'https://piazza.com/oregonstate/fall2018/cs261'
     },
     {
-      text: 'Establishing a positive classroom community',
+      title: 'Establishing a positive classroom community',
       link: generateSitePath("/teaching/community")
     }
   ],
