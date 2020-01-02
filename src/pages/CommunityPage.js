@@ -10,9 +10,16 @@
 
 import React from 'react';
 import Helmet from 'react-helmet';
+import styled from '@emotion/styled/macro';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
+
+const HatTip = styled.p`
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 14px;
+`;
 
 function CommunityPage() {
   return (
@@ -77,6 +84,8 @@ function CommunityPage() {
           <li>You may contact OSU's <a href="http://oregonstate.edu/ombuds/" target="_blank" rel="noopener noreferrer">University Ombuds Office</a> for confidential guidance and advice.</li>
           <li>You may contact OSU's <a href="http://eoa.oregonstate.edu/" target="_blank" rel="noopener noreferrer">Office of Equal Opportunity and Access</a> to file an informal or formal complaint.</li>
         </ul>
+
+        <HatTip>Hat tip to <a href="http://web.engr.oregonstate.edu/~walkiner/" target="_blank" rel="noopener noreferrer">Eric Walkingshaw</a> for developing the original version of this statement.</HatTip>
 
       </SectionBox>
     </PageContent>
