@@ -23,16 +23,33 @@ const tas = [
     email: "bhuvab@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Mon.',
+        time: '9:00 &ndash; 11:00am',
+        location: 'JOHN 125'
+      },
+      {
+        day: 'Fri.',
+        time: '10:00 &ndash; 11:00am',
+        location: 'JOHN 121'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Mon.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'JOHN 121',
+        link: '#'
+      },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'JOHN 123',
+        link: '#'
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'JOHN 123',
         link: '#'
       }
     ]
@@ -42,9 +59,14 @@ const tas = [
     email: "rangarav@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Tues.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'JOHN 125'
+      },
+      {
+        day: 'Fri.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'JOHN 125'
       }
     ],
     gradingHours: [
