@@ -6,7 +6,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: '#'
+        link: 'https://docs.google.com/document/d/1JXtkTnnGypf8C-PLdONnwh9znzspJjq8zp_3JglDJc8/edit?usp=sharing'
       }
     ],
     readings: [
@@ -24,6 +24,35 @@ const topics = [
         title: 'Why did we build React?',
         link: 'https://reactjs.org/blog/2013/06/05/why-react.html',
         description: 'Pete Hunt (ReactJS blog)'
+      }
+    ]
+  },
+
+  {
+    title: 'React: JSX and Components',
+    isCurrent: true,
+    weeks: [ 1 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: '#'
+      }
+    ],
+    readings: [
+      {
+        title: 'Introducing JSX',
+        link: 'https://reactjs.org/docs/introducing-jsx.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Rendering Elements',
+        link: 'https://reactjs.org/docs/rendering-elements.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Components and Props',
+        link: 'https://reactjs.org/docs/components-and-props.html',
+        description: 'React Docs'
       }
     ]
   }

@@ -19,23 +19,6 @@ const topics = [
   },
 
   {
-    title: 'Git and GitHub',
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1AdrFnQTwCLeB5dCphfRj3itg6cTcaeePm2WCtVHlLGA/edit?usp=sharing'
-      }
-    ],
-    readings: [
-      {
-        title: 'Chapters 1 and 2',
-        link: 'https://git-scm.com/book/en/v2',
-        description: 'Pro Git (optional, for those without much git/GitHub experience)'
-      }
-    ]
-  },
-
-  {
     title: 'Java',
     isCurrent: true,
     weeks: [ 1 ],
