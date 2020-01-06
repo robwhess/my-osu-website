@@ -31,7 +31,6 @@ const EssentialInfoItem = styled.div`
 
 const EssentialInfoHeading = styled.div`
   display: table-cell;
-  vertical-align: middle;
   padding: 5px 15px 5px 0;
   text-align: right;
   font-weight: 400;
@@ -47,7 +46,6 @@ const EssentialInfoHeading = styled.div`
 
 const EssentialInfoData = styled.div`
   display: table-cell;
-  vertical-align: middle;
   padding: 5px 0;
   @media (max-width: ${breakpoints[0]}px) {
     border-bottom: 1px solid #efefef;
