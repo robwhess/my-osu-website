@@ -44,7 +44,7 @@ function CourseTopicsList({ title, topics }) {
           <h4>(click titles to expand/collapse)</h4>
           {topics.map((topic, i) => (
             <CollapsibleSection
-              key={i}
+              key={topic.title}
               collapsed={!topic.isCurrent}
               title={topic.title}>
               <Topic>

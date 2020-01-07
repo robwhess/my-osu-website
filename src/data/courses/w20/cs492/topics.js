@@ -27,11 +27,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/10-d9kS41MD5JXYK0vbuJBtNXP6yAZQzmTjYnsL8WxGs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS492-W19/java',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w20/java',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
