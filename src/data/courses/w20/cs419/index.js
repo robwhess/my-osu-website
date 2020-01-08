@@ -32,6 +32,11 @@ var courseDetails = {
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
+      title: 'CS 419 on Codepen',
+      link: 'https://codepen.io/collection/DRjwRL',
+      description: 'find the React pens from lecture here'
+    },
+    {
       title: 'Statement on establishing a positive classroom community',
       link: generateSitePath("/teaching/community"),
       description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'

@@ -35,23 +35,28 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: '#'
+        link: 'https://docs.google.com/document/d/14rZmZWMDETj1EIu1Oj4BZAwJhtg3grTZCXwLmDfze8k/edit?usp=sharing'
+      },
+      {
+        title: 'JSX and Elements code',
+        link: 'https://codepen.io/robwhess/pen/LYEdEZo',
+        description: 'on Codepen'
+      },
+      {
+        title: 'Our First Components code',
+        link: 'https://codepen.io/robwhess/pen/RwNMNoW',
+        description: 'on Codepen'
+      },
+      {
+        title: 'A Stateful Clock code',
+        link: 'https://codepen.io/robwhess/pen/povLvRa',
+        description: 'on Codepen'
       }
     ],
     readings: [
       {
-        title: 'Introducing JSX',
-        link: 'https://reactjs.org/docs/introducing-jsx.html',
-        description: 'React Docs'
-      },
-      {
-        title: 'Rendering Elements',
-        link: 'https://reactjs.org/docs/rendering-elements.html',
-        description: 'React Docs'
-      },
-      {
-        title: 'Components and Props',
-        link: 'https://reactjs.org/docs/components-and-props.html',
+        title: 'React Main Concepts (1 - 12)',
+        link: 'https://reactjs.org/docs/hello-world.html',
         description: 'React Docs'
       }
     ]
