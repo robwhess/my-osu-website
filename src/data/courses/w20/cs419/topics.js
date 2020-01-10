@@ -55,7 +55,7 @@ const topics = [
     ],
     readings: [
       {
-        title: 'React Main Concepts (1 - 12)',
+        title: 'React Main Concepts (1 - 5)',
         link: 'https://reactjs.org/docs/hello-world.html',
         description: 'React Docs'
       }
