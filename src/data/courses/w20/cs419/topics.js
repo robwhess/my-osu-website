@@ -70,11 +70,11 @@ const topics = [
         title: 'Lecture notes',
         link: '#'
       },
-      // {
-      //   title: 'JSX and Elements code',
-      //   link: 'https://codepen.io/robwhess/pen/LYEdEZo',
-      //   description: 'on Codepen'
-      // }
+      {
+        title: 'Handling Events code',
+        link: 'https://codepen.io/robwhess/pen/yLyEqZY',
+        description: 'on Codepen'
+      }
     ],
     readings: [
       {
