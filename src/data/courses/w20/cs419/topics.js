@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -31,7 +30,7 @@ const topics = [
   {
     title: 'React: JSX and Components',
     isCurrent: true,
-    weeks: [ 1 ],
+    weeks: [ 1, 2 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -57,6 +56,30 @@ const topics = [
       {
         title: 'React Main Concepts (1 - 5)',
         link: 'https://reactjs.org/docs/hello-world.html',
+        description: 'React Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'React: From Components to Apps',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: '#'
+      },
+      // {
+      //   title: 'JSX and Elements code',
+      //   link: 'https://codepen.io/robwhess/pen/LYEdEZo',
+      //   description: 'on Codepen'
+      // }
+    ],
+    readings: [
+      {
+        title: 'React Main Concepts (6 - 12)',
+        link: 'https://reactjs.org/docs/handling-events.html',
         description: 'React Docs'
       }
     ]
