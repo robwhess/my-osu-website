@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -44,6 +43,7 @@ const topics = [
 
   {
     title: 'Getting Started with Android Studio',
+    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -58,39 +58,40 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Our First Android App: TODOs',
-  //   weeks: [ 2 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/SimpleTodoApp',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Building Your First App',
-  //       link: 'https://developer.android.com/training/basics/firstapp/',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Introduction to Activities',
-  //       link: 'https://developer.android.com/guide/components/activities/intro-activities',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Layouts',
-  //       link: 'https://developer.android.com/guide/topics/ui/declaring-layout',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Our First Android App: TODOs',
+    isCurrent: true,
+    weeks: [ 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/SimpleTodoApp',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Building Your First App',
+        link: 'https://developer.android.com/training/basics/firstapp/',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Introduction to Activities',
+        link: 'https://developer.android.com/guide/components/activities/intro-activities',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Layouts',
+        link: 'https://developer.android.com/guide/topics/ui/declaring-layout',
+        description: 'Android Developers'
+      }
+    ]
+  },
   //
   // {
   //   title: 'RecyclerView',
