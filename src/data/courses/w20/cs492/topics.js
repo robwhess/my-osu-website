@@ -68,11 +68,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS492-W19/SimpleTodoApp',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w20/BasicTodos',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
@@ -92,62 +92,62 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'RecyclerView',
-  //   weeks: [ 2, 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/RecyclerViewTodoApp',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Create a List with RecyclerView',
-  //       link: 'https://developer.android.com/guide/topics/ui/layout/recyclerview',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   title: 'User Interactions and RecyclerView',
-  //   weeks: [ 3 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/RecyclerViewInteractions',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Toasts overview',
-  //       link: 'https://developer.android.com/guide/topics/ui/notifiers/toasts',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'ItemTouchHelper.SimpleCallback',
-  //       link: 'https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Drag and Swipe with RecyclerView',
-  //       link: 'https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf',
-  //       description: 'Paul Burke (Medium)'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'RecyclerView',
+    weeks: [ 2, 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/RecyclerViewTodoApp',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Create a List with RecyclerView',
+        link: 'https://developer.android.com/guide/topics/ui/layout/recyclerview',
+        description: 'Android Developers'
+      }
+    ]
+  },
+
+  {
+    title: 'User Interactions and RecyclerView',
+    weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/RecyclerViewInteractions',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Toasts overview',
+        link: 'https://developer.android.com/guide/topics/ui/notifiers/toasts',
+        description: 'Android Developers'
+      },
+      {
+        title: 'ItemTouchHelper.SimpleCallback',
+        link: 'https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Drag and Swipe with RecyclerView',
+        link: 'https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf',
+        description: 'Paul Burke (Medium)'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Fetching Internet Data using AsyncTask',
