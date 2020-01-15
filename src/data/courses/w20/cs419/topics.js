@@ -84,6 +84,11 @@ const topics = [
         title: 'General Purpose <select> code',
         link: 'https://codepen.io/robwhess/pen/mdyGbBJ',
         description: 'on Codepen'
+      },
+      {
+        title: 'Synchronized Temperature Conversion code',
+        link: 'https://codepen.io/robwhess/pen/ExaeaLw',
+        description: 'on Codepen'
       }
     ],
     readings: [
