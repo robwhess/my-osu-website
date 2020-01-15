@@ -68,11 +68,21 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: '#'
+        link: 'https://docs.google.com/document/d/1gxjgBCFZfB2cERMZEizn2_Bp8ySonFbwH_fc2id6h78/edit?usp=sharing'
       },
       {
         title: 'Handling Events code',
         link: 'https://codepen.io/robwhess/pen/yLyEqZY',
+        description: 'on Codepen'
+      },
+      {
+        title: 'Controlled Components code',
+        link: 'https://codepen.io/robwhess/pen/eYmjGBK',
+        description: 'on Codepen'
+      },
+      {
+        title: 'General Purpose <select> code',
+        link: 'https://codepen.io/robwhess/pen/mdyGbBJ',
         description: 'on Codepen'
       }
     ],
