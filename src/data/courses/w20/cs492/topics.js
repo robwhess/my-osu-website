@@ -19,7 +19,6 @@ const topics = [
 
   {
     title: 'Java',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -43,7 +42,6 @@ const topics = [
 
   {
     title: 'Getting Started with Android Studio',
-    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -95,6 +93,7 @@ const topics = [
 
   {
     title: 'RecyclerView',
+    isCurrent: true,
     weeks: [ 2, 3 ],
     resources: [
       {
