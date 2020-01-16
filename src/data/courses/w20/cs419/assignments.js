@@ -5,7 +5,7 @@ const assignments = {
       link : 'https://docs.google.com/document/d/1ZTa93Vr9PyRvKatnIuaDRY3b8YNOfR1hLx2e4eq81wg/edit?usp=sharing',
       title: 'Assignment 0 &ndash; Sign up for piazza',
       due: {
-        day: 'Monday, 1/20/2020',
+        day: '~~Monday, 1/20/2020~~ Wednesday, 1/22/2020',
         time: '11:59pm'
       },
       notes: [
@@ -16,7 +16,7 @@ const assignments = {
       link : 'https://docs.google.com/document/d/1s0lwLzS7Fyqyvu2ZziQwMn1GEV_s2QGWFY1mK36KVsY/edit?usp=sharing',
       title: 'Assignment 1 &ndash; A simple photo app',
       due: {
-        day: 'Monday, 1/20/2020',
+        day: '~~Monday, 1/20/2020~~ Wednesday, 1/22/2020',
         time: '11:59pm'
       },
       notes: [
