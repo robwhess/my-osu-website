@@ -6,9 +6,9 @@ const tas = [
       {
         day: 'Tues.',
         time: '8:00 &ndash; 10:00am',
-        // location: 'JOHN 121',
-        location: 'video conference',
-        details: 'Akshay\'s office hours during the first two weeks will be held by video conference at the following link:\n\nhttps://oregonstate.zoom.us/j/7621923704'
+        location: 'JOHN 121'
+        // location: 'video conference',
+        // details: 'Akshay\'s office hours during the first two weeks will be held by video conference at the following link:\n\nhttps://oregonstate.zoom.us/j/7621923704'
       }
     ],
     gradingHours: [
@@ -25,16 +25,27 @@ const tas = [
     email: "tadimetv@oregonstate.edu",
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD'
+        day: 'Mon.',
+        time: '11:30am &ndash; 12:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '11:30am &ndash; 12:30pm',
+        location: 'KEC Atrium'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'TBD',
+        day: 'Tues.',
+        time: '1:30 &ndash; 3:00pm',
+        location: 'KEC Atrium',
+        link: '#'
+      },
+      {
+        day: 'Thurs.',
+        time: '1:30 &ndash; 3:00pm',
+        location: 'KEC Atrium',
         link: '#'
       }
     ]
