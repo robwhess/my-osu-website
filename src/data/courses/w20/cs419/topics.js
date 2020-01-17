@@ -29,7 +29,6 @@ const topics = [
 
   {
     title: 'React: JSX and Components',
-    isCurrent: true,
     weeks: [ 1, 2 ],
     resources: [
       {
@@ -96,6 +95,25 @@ const topics = [
         title: 'React Main Concepts (6 - 12)',
         link: 'https://reactjs.org/docs/handling-events.html',
         description: 'React Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Create React App',
+    isCurrent: true,
+    weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: '#'
+      }
+    ],
+    readings: [
+      {
+        title: 'Getting Started',
+        link: 'https://create-react-app.dev/docs/getting-started',
+        description: 'Create React App Docs'
       }
     ]
   }
