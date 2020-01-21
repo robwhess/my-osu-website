@@ -62,7 +62,6 @@ const topics = [
 
   {
     title: 'React: From Components to Apps',
-    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -106,7 +105,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: '#'
+        link: 'https://docs.google.com/document/d/1VdOF6FeOxnbvYdWVPP4s-bqwyd-akTy-_I3GBMxeHPU/edit?usp=sharing'
       }
     ],
     readings: [
@@ -114,6 +113,73 @@ const topics = [
         title: 'Getting Started',
         link: 'https://create-react-app.dev/docs/getting-started',
         description: 'Create React App Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'React: Hooks',
+    isCurrent: true,
+    weeks: [ 3, 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: '#'
+      }
+    ],
+    readings: [
+      {
+        title: 'Hooks at a Glance',
+        link: 'https://reactjs.org/docs/hooks-overview.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Using the State Hook',
+        link: 'https://reactjs.org/docs/hooks-state.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Using the Effect Hook',
+        link: 'https://reactjs.org/docs/hooks-effect.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Rules of Hooks',
+        link: 'https://reactjs.org/docs/hooks-rules.html',
+        description: 'React Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Creating Multi-Page Apps with React Router',
+    weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: '#'
+      }
+    ],
+    readings: [
+      {
+        title: 'Quick Start',
+        link: 'https://reacttraining.com/react-router/web/guides/quick-start',
+        description: 'React Router Docs'
+      },
+      {
+        title: 'Primary Components',
+        link: 'https://reacttraining.com/react-router/web/guides/primary-components',
+        description: 'React Router Docs'
+      },
+      {
+        title: 'URL Parameters',
+        link: 'https://reacttraining.com/react-router/web/example/url-params',
+        description: 'React Router examples'
+      },
+      {
+        title: 'Nesting',
+        link: 'https://reacttraining.com/react-router/web/example/nesting',
+        description: 'React Router examples'
       }
     ]
   }
