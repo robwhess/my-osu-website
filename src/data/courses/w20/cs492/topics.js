@@ -59,7 +59,6 @@ const topics = [
 
   {
     title: 'Our First Android App: TODOs',
-    isCurrent: true,
     weeks: [ 2 ],
     resources: [
       {
@@ -117,6 +116,7 @@ const topics = [
 
   {
     title: 'User Interactions and RecyclerView',
+    isCurrent: true,
     weeks: [ 3 ],
     resources: [
       {
@@ -147,54 +147,54 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Fetching Internet Data using AsyncTask',
-  //   weeks: [ 4 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/GitHubSearch',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Uri.Builder',
-  //       link: 'https://developer.android.com/reference/android/net/Uri.Builder',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'OkHttp Recipes',
-  //       link: 'https://github.com/square/okhttp/wiki/Recipes',
-  //       description: 'OkHttp Wiki'
-  //     },
-  //     {
-  //       title: 'Processes and threads overview',
-  //       link: 'https://developer.android.com/guide/components/processes-and-threads',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'AsyncTask',
-  //       link: 'https://developer.android.com/reference/android/os/AsyncTask',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Permissions overview',
-  //       link: 'https://developer.android.com/guide/topics/permissions/overview',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Gson User Guide',
-  //       link: 'https://github.com/google/gson/blob/master/UserGuide.md',
-  //       description: 'on GitHub'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Fetching Internet Data using AsyncTask',
+    weeks: [ 4 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearch',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Uri.Builder',
+        link: 'https://developer.android.com/reference/android/net/Uri.Builder',
+        description: 'Android Developers'
+      },
+      {
+        title: 'OkHttp Recipes',
+        link: 'https://github.com/square/okhttp/wiki/Recipes',
+        description: 'OkHttp Wiki'
+      },
+      {
+        title: 'Processes and threads overview',
+        link: 'https://developer.android.com/guide/components/processes-and-threads',
+        description: 'Android Developers'
+      },
+      {
+        title: 'AsyncTask',
+        link: 'https://developer.android.com/reference/android/os/AsyncTask',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Permissions overview',
+        link: 'https://developer.android.com/guide/topics/permissions/overview',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Gson User Guide',
+        link: 'https://github.com/google/gson/blob/master/UserGuide.md',
+        description: 'on GitHub'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Starting New Activities with Intents',
