@@ -137,7 +137,7 @@ const topics = [
       },
       {
         title: 'ItemTouchHelper.SimpleCallback',
-        link: 'https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.SimpleCallback',
+        link: 'https://developer.android.com/reference/androidx/recyclerview/widget/ItemTouchHelper.SimpleCallback.html',
         description: 'Android Developers'
       },
       {
