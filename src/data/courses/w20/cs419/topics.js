@@ -120,11 +120,16 @@ const topics = [
   {
     title: 'React: Hooks',
     isCurrent: true,
-    weeks: [ 3, 4 ],
+    weeks: [ 3 ],
     resources: [
       {
         title: 'Lecture notes',
-        link: '#'
+        link: 'https://docs.google.com/document/d/1UBr0sukXuRUs2xb8bx4DUwMg5E6nqAK5_1q3JqBjX3M/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/react-hooks',
+        description: 'code written during lecture'
       }
     ],
     readings: [
