@@ -16,13 +16,13 @@ const tas = [
         day: 'Wed.',
         time: '9:00 &ndash; 10:00am',
         location: 'JOHN 121',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZqRXpqMmtPZkdLfGRlZmF1bHR8YWZmOWVlMDUyOWJkNjliZTljMGI2NTdmY2IyNWU1Mjc'
       },
       {
         day: 'Thurs.',
         time: '9:00 &ndash; 11:00am',
         location: 'JOHN 123',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZqRXpqMmtPZkdLfGRlZmF1bHR8YWZmOWVlMDUyOWJkNjliZTljMGI2NTdmY2IyNWU1Mjc'
       }
     ]
   },
@@ -46,19 +46,19 @@ const tas = [
         day: 'Mon.',
         time: '4:00 &ndash; 6:00pm',
         location: 'JOHN 121',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUhYMHlRSmtkMUQyfGRlZmF1bHR8YzI1NTVjY2FiZjJhNDY4MzlhZmVjOWQ5NGJkMjdlNzk'
       },
       {
         day: 'Wed.',
         time: '10:00am &ndash; 12:00pm',
         location: 'JOHN 123',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUhYMHlRSmtkMUQyfGRlZmF1bHR8YzI1NTVjY2FiZjJhNDY4MzlhZmVjOWQ5NGJkMjdlNzk'
       },
       {
         day: 'Fri.',
         time: '11:00am &ndash; 1:00pm',
         location: 'JOHN 123',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUhYMHlRSmtkMUQyfGRlZmF1bHR8YzI1NTVjY2FiZjJhNDY4MzlhZmVjOWQ5NGJkMjdlNzk'
       }
     ]
   },
@@ -82,19 +82,19 @@ const tas = [
         day: 'Tues.',
         time: '10:00 &ndash; 11:30am',
         location: 'KEC Atrium',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM'
       },
       {
         day: 'Wed.',
         time: '12:00 &ndash; 2:00pm',
         location: 'KEC Atrium',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM'
       },
       {
         day: 'Thurs.',
         time: '11:00am &ndash; 1:30pm',
         location: 'KEC Atrium',
-        link: '#'
+        link: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM'
       }
     ]
   }
