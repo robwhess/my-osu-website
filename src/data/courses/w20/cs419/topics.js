@@ -120,7 +120,7 @@ const topics = [
   {
     title: 'React: Hooks',
     isCurrent: true,
-    weeks: [ 3 ],
+    weeks: [ 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
