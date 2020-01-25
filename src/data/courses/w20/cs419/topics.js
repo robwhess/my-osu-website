@@ -157,7 +157,7 @@ const topics = [
   },
 
   {
-    title: 'Creating Multi-Page Apps with React Router',
+    title: 'Client-Side Navigation with React Router',
     weeks: [ 4 ],
     resources: [
       {
@@ -166,6 +166,11 @@ const topics = [
       }
     ],
     readings: [
+      {
+        title: 'Working with the History API',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API',
+        description: 'MDN'
+      },
       {
         title: 'Quick Start',
         link: 'https://reacttraining.com/react-router/web/guides/quick-start',
