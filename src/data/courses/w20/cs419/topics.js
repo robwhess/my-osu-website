@@ -100,7 +100,6 @@ const topics = [
 
   {
     title: 'Create React App',
-    isCurrent: true,
     weeks: [ 3 ],
     resources: [
       {
@@ -157,12 +156,18 @@ const topics = [
   },
 
   {
-    title: 'Client-Side Navigation with React Router',
+    title: 'Client-Side Routing with React Router',
+    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
         title: 'Lecture notes',
-        link: '#'
+        link: 'https://docs.google.com/document/d/1s0zG2b0wa5fGZrf2Dg9mimGW-Tdm_gtXXPfvDqE2wV8/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/using-react-router',
+        description: 'code written during lecture'
       }
     ],
     readings: [
@@ -170,6 +175,11 @@ const topics = [
         title: 'Working with the History API',
         link: 'https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API',
         description: 'MDN'
+      },
+      {
+        title: 'Philosophy',
+        link: 'https://reacttraining.com/react-router/web/guides/philosophy',
+        description: 'React Router Docs'
       },
       {
         title: 'Quick Start',
