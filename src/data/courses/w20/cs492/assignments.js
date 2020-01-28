@@ -12,17 +12,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 2/10/2020'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; A weather app with internet connectivity and Intents',
-    //   due: {
-    //     day: 'Monday, 2/11/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/25/2019'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/QhafLEOR',
+      title: 'Assignment 2 &ndash; A weather app with internet connectivity and Intents',
+      due: {
+        day: 'Monday, 2/10/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/24/2020'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; A lifecycle-aware weather app with user preferences',
