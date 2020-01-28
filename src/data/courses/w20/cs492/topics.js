@@ -92,7 +92,6 @@ const topics = [
 
   {
     title: 'RecyclerView',
-    isCurrent: true,
     weeks: [ 2, 3 ],
     resources: [
       {
@@ -117,7 +116,7 @@ const topics = [
   {
     title: 'User Interactions and RecyclerView',
     isCurrent: true,
-    weeks: [ 3 ],
+    weeks: [ 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -150,17 +149,18 @@ const topics = [
 
   {
     title: 'Fetching Internet Data using AsyncTask',
+    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearch',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w20/GitHubSearch',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
@@ -170,7 +170,7 @@ const topics = [
       },
       {
         title: 'OkHttp Recipes',
-        link: 'https://github.com/square/okhttp/wiki/Recipes',
+        link: 'https://square.github.io/okhttp/recipes/',
         description: 'OkHttp Wiki'
       },
       {
