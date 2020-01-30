@@ -115,7 +115,6 @@ const topics = [
 
   {
     title: 'User Interactions and RecyclerView',
-    isCurrent: true,
     weeks: [ 3, 4 ],
     resources: [
       {
