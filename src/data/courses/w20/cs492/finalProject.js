@@ -1,25 +1,25 @@
 const finalProject = {
   title: 'Final Project',
   assignments: [
-    // {
-    //   title: 'Final Project Proposal',
-    //   link: 'https://docs.google.com/document/d/1ryxKn4Ib0V_8xRZTr6jTmhsFbHN8Q3iKVN16ybVc_Oc/edit?usp=sharing',
-    //   due: {
-    //     time: '11:59pm',
-    //     day: 'Monday, 2/18/2019',
-    //     location: 'on Canvas'
-    //   }
-    // },
+    {
+      title: 'Final Project Proposal',
+      link: 'https://docs.google.com/document/d/1RoN5WfwYn-i63446UjvC3EokJEueVnWhEZ-8DVEaoDw/edit?usp=sharing',
+      due: {
+        time: '11:59pm',
+        day: 'Thursday, 2/13/2019',
+        location: 'on Canvas'
+      }
+    },
     // {
     //   title: 'Final Project Details',
-    //   link: 'https://docs.google.com/document/d/173u2sbb93-C_1W2jhakQKzR2t9TI5eph0TePadqrSUs/edit?usp=sharing',
+    //   link: '',
     //   due: {
     //     time: '5:00pm',
     //     day: 'Friday, 3/22/2019'
     //   }
     // },
     // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
+    //   link : '',
     //   title: 'Final Project Demo Signup',
     //   notes: [
     //     'Final project demos will be during finals week in KEC 1109.',
@@ -30,7 +30,7 @@ const finalProject = {
     //   ]
     // },
     // {
-    //   link: 'https://docs.google.com/document/d/1nAeLEjkrwo9iwRfNvDHyR6uLj6S9Pe4kHike4veE5pk/edit?usp=sharing',
+    //   link: '',
     //   title: 'Final Project Team Evaluation',
     //   due: {
     //     time: '5:00pm',

@@ -195,49 +195,49 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Starting New Activities with Intents',
-  //   weeks: [ 5 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithIntents',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Start Another Activity',
-  //       link: 'https://developer.android.com/training/basics/firstapp/starting-activity',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Intents and Intent Filters',
-  //       link: 'https://developer.android.com/guide/components/intents-filters',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Menus',
-  //       link: 'https://developer.android.com/guide/topics/ui/menus',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Sending the User to Another App',
-  //       link: 'https://developer.android.com/training/basics/intents/sending',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Sharing Simple Data',
-  //       link: 'https://developer.android.com/training/sharing/',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Starting New Activities with Intents',
+    weeks: [ 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithIntents',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Start Another Activity',
+        link: 'https://developer.android.com/training/basics/firstapp/starting-activity',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Intents and Intent Filters',
+        link: 'https://developer.android.com/guide/components/intents-filters',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Menus',
+        link: 'https://developer.android.com/guide/topics/ui/menus',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sending the User to Another App',
+        link: 'https://developer.android.com/training/basics/intents/sending',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sharing Simple Data',
+        link: 'https://developer.android.com/training/sharing/',
+        description: 'Android Developers'
+      }
+    ]
+  },
   //
   // {
   //   title: 'The Activity Lifecycle and Loaders',
