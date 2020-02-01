@@ -118,7 +118,6 @@ const topics = [
 
   {
     title: 'React: Hooks',
-    isCurrent: true,
     weeks: [ 3, 4 ],
     resources: [
       {
@@ -200,6 +199,60 @@ const topics = [
         title: 'Nesting',
         link: 'https://reacttraining.com/react-router/web/example/nesting',
         description: 'React Router examples'
+      }
+    ]
+  },
+
+  {
+    title: 'Styling Components with Emotion',
+    isCurrent: true,
+    weeks: [ 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: ''
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/using-emotion',
+        description: 'code written during lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Introduction to Emotion',
+        link: 'https://emotion.sh/docs/introduction',
+        description: 'Emotion Docs'
+      },
+      {
+        title: 'The css Prop',
+        link: 'https://emotion.sh/docs/css-prop',
+        description: 'Emotion Docs'
+      },
+      {
+        title: 'Composition',
+        link: 'https://emotion.sh/docs/composition',
+        description: 'Emotion Docs'
+      },
+      {
+        title: 'Nested Selectors',
+        link: 'https://emotion.sh/docs/nested',
+        description: 'Emotion Docs'
+      },
+      {
+        title: 'Global Styles',
+        link: 'https://emotion.sh/docs/globals',
+        description: 'Emotion Docs'
+      },
+      {
+        title: 'Media Queries',
+        link: 'https://emotion.sh/docs/media-queries',
+        description: 'Emotion Docs'
+      },
+      {
+        title: 'Styled Components',
+        link: 'https://emotion.sh/docs/styled',
+        description: 'Emotion Docs'
       }
     ]
   }
