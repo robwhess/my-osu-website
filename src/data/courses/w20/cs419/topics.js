@@ -156,7 +156,6 @@ const topics = [
 
   {
     title: 'Client-Side Routing with React Router',
-    isCurrent: true,
     weeks: [ 4 ],
     resources: [
       {
@@ -210,7 +209,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: ''
+        link: 'https://docs.google.com/document/d/1XgCyJ3XA7lzpaT7HN5fNY65RuqN_j6vaPrWbxq0Vjso/edit?usp=sharing'
       },
       {
         title: 'Example code',
