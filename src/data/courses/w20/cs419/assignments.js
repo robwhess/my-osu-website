@@ -33,6 +33,17 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm, Monday 3/2/2020'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/y5YIGpge',
+      title: 'Assignment 3 &ndash; Styling an application with Emotion',
+      due: {
+        day: 'Monday, 2/17/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/9/2020'
+      ]
     }
   ],
 
