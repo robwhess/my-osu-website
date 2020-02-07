@@ -6,7 +6,7 @@ const finalProject = {
       link: 'https://docs.google.com/document/d/1RoN5WfwYn-i63446UjvC3EokJEueVnWhEZ-8DVEaoDw/edit?usp=sharing',
       due: {
         time: '11:59pm',
-        day: 'Thursday, 2/13/2019',
+        day: 'Thursday, 2/13/2020',
         location: 'on Canvas'
       }
     },
