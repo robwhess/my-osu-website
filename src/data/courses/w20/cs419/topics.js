@@ -204,7 +204,6 @@ const topics = [
 
   {
     title: 'Styling Components with Emotion',
-    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
@@ -252,6 +251,40 @@ const topics = [
         title: 'Styled Components',
         link: 'https://emotion.sh/docs/styled',
         description: 'Emotion Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Communicating with an HTTP API',
+    isCurrent: true,
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Q7mF8c3psaiEPX2M2Dzd9Hkqoo60tpD8_XigrGAHShk/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/api-communication',
+        description: 'code written during lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'How to fetch data with React Hooks',
+        link: 'https://www.robinwieruch.de/react-hooks-fetch-data',
+        description: 'Robin Wieruch'
+      },
+      {
+        title: 'Async JavaScript: From Callbacks, to Promises, to Async/Await',
+        link: 'https://tylermcginnis.com/async-javascript-from-callbacks-to-promises-to-async-await/',
+        description: 'Tyler McGinnis'
+      },
+      {
+        title: 'How to work with React the right way to avoid some common pitfalls',
+        link: 'https://www.freecodecamp.org/news/how-to-work-with-react-the-right-way-to-avoid-some-common-pitfalls-fc9eb5e34d9e/',
+        description: 'Adeel Imran (freeCodeCamp)'
       }
     ]
   }
