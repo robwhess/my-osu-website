@@ -272,6 +272,11 @@ const topics = [
     ],
     readings: [
       {
+        title: 'AJAX and APIs',
+        link: 'https://reactjs.org/docs/faq-ajax.html',
+        description: 'React Docs'
+      },
+      {
         title: 'How to fetch data with React Hooks',
         link: 'https://www.robinwieruch.de/react-hooks-fetch-data',
         description: 'Robin Wieruch'
