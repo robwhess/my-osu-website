@@ -196,7 +196,6 @@ const topics = [
 
   {
     title: 'Starting New Activities with Intents',
-    isCurrent: true,
     weeks: [ 5 ],
     resources: [
       {
@@ -237,54 +236,55 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'The Activity Lifecycle and Loaders',
-  //   weeks: [ 5, 6 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Lifecycle logging example code',
-  //       link: 'https://github.com/OSU-CS492-W19/LifecycleLogging',
-  //       description: 'small demo app code written in lecture'
-  //     },
-  //     {
-  //       title: 'GitHub search example code',
-  //       link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithLifecycle',
-  //       description: 'GitHub search app code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Understand the Activity Lifecycle',
-  //       link: 'https://developer.android.com/guide/components/activities/activity-lifecycle',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Handle Activity State Changes',
-  //       link: 'https://developer.android.com/guide/components/activities/state-changes',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Understand Tasks and Back Stack',
-  //       link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'ViewModel Overview',
-  //       link: 'https://developer.android.com/topic/libraries/architecture/viewmodel',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Lifecycle Aware Data Loading with Architecture Components',
-  //       link: 'https://medium.com/androiddevelopers/lifecycle-aware-data-loading-with-android-architecture-components-f95484159de4',
-  //       description: 'Ian Lake (on Medium)'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'The Activity Lifecycle and the ViewModel Architecture',
+    isCurrent: true,
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w20/GitHubSearchWithIntents',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Understand the Activity Lifecycle',
+        link: 'https://developer.android.com/guide/components/activities/activity-lifecycle',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Handle Activity State Changes',
+        link: 'https://developer.android.com/guide/components/activities/state-changes',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Understand Tasks and Back Stack',
+        link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
+        description: 'Android Developers'
+      },
+      {
+        title: 'ViewModel Overview',
+        link: 'https://developer.android.com/topic/libraries/architecture/viewmodel',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Guide to app architecture',
+        link: 'https://developer.android.com/jetpack/docs/guide',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Lifecycle Aware Data Loading with Architecture Components',
+        link: 'https://medium.com/androiddevelopers/lifecycle-aware-data-loading-with-android-architecture-components-f95484159de4',
+        description: 'Ian Lake (on Medium)'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Storing Prefs with SharedPreferences',
