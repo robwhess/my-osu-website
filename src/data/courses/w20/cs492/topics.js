@@ -285,34 +285,34 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Storing Prefs with SharedPreferences',
-  //   weeks: [ 6, 7 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithPrefs',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Settings',
-  //       link: 'https://developer.android.com/guide/topics/ui/settings/',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Save key-value data',
-  //       link: 'https://developer.android.com/training/data-storage/shared-preferences',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Storing Prefs with SharedPreferences',
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithPrefs',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Settings',
+        link: 'https://developer.android.com/guide/topics/ui/settings/',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Save key-value data',
+        link: 'https://developer.android.com/training/data-storage/shared-preferences',
+        description: 'Android Developers'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
