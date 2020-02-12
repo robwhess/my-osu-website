@@ -292,6 +292,55 @@ const topics = [
         description: 'Adeel Imran (freeCodeCamp)'
       }
     ]
+  },
+
+  {
+    title: 'Next.js',
+    isCurrent: true,
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1W_Lgbq_vfwAR3EGJ9BhdB81uYwqE1x5kSM3bMAGIHOk/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/using-nextjs',
+        description: 'code written during lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Getting Started',
+        link: 'https://nextjs.org/docs/getting-started',
+        description: 'Next.js Docs'
+      },
+      {
+        title: 'Pages',
+        link: 'https://nextjs.org/docs/basic-features/pages',
+        description: 'Next.js Docs'
+      },
+      {
+        title: 'Routing',
+        link: 'https://nextjs.org/docs/routing/introduction',
+        description: 'Next.js Docs'
+      },
+      {
+        title: 'Dynamic Routes',
+        link: 'https://nextjs.org/docs/routing/dynamic-routes',
+        description: 'Next.js Docs'
+      },
+      {
+        title: 'Data Fetching',
+        link: 'https://nextjs.org/docs/basic-features/data-fetching',
+        description: 'Next.js Docs'
+      },
+      {
+        title: 'API Routes',
+        link: 'https://nextjs.org/docs/api-routes/introduction',
+        description: 'Next.js Docs'
+      }
+    ]
   }
 ];
 
