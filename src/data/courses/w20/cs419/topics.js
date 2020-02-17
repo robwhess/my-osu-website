@@ -257,7 +257,6 @@ const topics = [
 
   {
     title: 'Communicating with an HTTP API',
-    isCurrent: true,
     weeks: [ 6 ],
     resources: [
       {
@@ -297,7 +296,7 @@ const topics = [
   {
     title: 'Next.js',
     isCurrent: true,
-    weeks: [ 6 ],
+    weeks: [ 6, 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -339,6 +338,45 @@ const topics = [
         title: 'API Routes',
         link: 'https://nextjs.org/docs/api-routes/introduction',
         description: 'Next.js Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Centralizing Application State with Redux',
+    isCurrent: true,
+    weeks: [ 7 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1tJpcZAEn9igobPQHtAlGkn3M4XoOWbB4ZYB68bksTP4/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/using-redux',
+        description: 'code written during lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Redux: Core Concepts',
+        link: 'https://redux.js.org/introduction/core-concepts',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'Redux: Three Principles',
+        link: 'https://redux.js.org/introduction/three-principles',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'Redux: Basic Tutorial',
+        link: 'https://redux.js.org/basics/basic-tutorial',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'React Redux: Basic Tutorial',
+        link: 'https://react-redux.js.org/introduction/basic-tutorial',
+        description: 'Redux Docs'
       }
     ]
   }
