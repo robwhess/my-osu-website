@@ -10,14 +10,14 @@ const finalProject = {
         location: 'on Canvas'
       }
     },
-    // {
-    //   title: 'Final Project Details',
-    //   link: '',
-    //   due: {
-    //     time: '5:00pm',
-    //     day: 'Friday, 3/22/2019'
-    //   }
-    // },
+    {
+      title: 'Final Project Details',
+      link: 'https://docs.google.com/document/d/1xeNce3tEsmo05OQGZVHiDQKe3hzeA76iRmVEjZm7fcA/edit?usp=sharing',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 3/20/2020'
+      }
+    },
     // {
     //   link : '',
     //   title: 'Final Project Demo Signup',
@@ -29,18 +29,18 @@ const finalProject = {
     //     'Code is due on GitHub when when you do your demo.'
     //   ]
     // },
-    // {
-    //   link: '',
-    //   title: 'Final Project Team Evaluation',
-    //   due: {
-    //     time: '5:00pm',
-    //     day: 'Friday, 3/22/2019',
-    //     location: 'on Canvas'
-    //   }
-    // }
+    {
+      link: 'https://docs.google.com/document/d/1yyV8zLSE2oAeYD4-sQmbYCCfsYu0b1tv4AfdzUXfvtY/edit?usp=sharing',
+      title: 'Final Project Team Evaluation',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 3/20/2020',
+        location: 'on Canvas'
+      }
+    }
   ],
 
-  preamble: 'For the final project in this course, you will work in teams to implement a complete Android app that gets data from a third-party API.  The project will have two deliverables: a proposal, where you outline the app you\'d like to write; and an implementation of your app.  Follow the links below to find out more about each of these deliverables.'
+  preamble: 'For the final project in this course, you will work in teams to implement a complete Android app that gets data from a third-party API.  The project will have three deliverables: a proposal, where you outline the app you\'d like to write; an implementation of your app; and a brief evaluation of your project team.  Follow the links below to find out more about each of these deliverables.'
 };
 
 export default finalProject;
