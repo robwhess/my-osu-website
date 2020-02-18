@@ -239,7 +239,6 @@ const topics = [
 
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
-    isCurrent: true,
     weeks: [ 6 ],
     resources: [
       {
@@ -288,17 +287,18 @@ const topics = [
 
   {
     title: 'Storing Prefs with SharedPreferences',
+    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithPrefs',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w20/GitHubSearchWithPrefs',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
@@ -313,43 +313,43 @@ const topics = [
       }
     ]
   },
-  //
-  // {
-  //   title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
-  //   weeks: [ 7, 8 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing'
-  //     },
-  //     {
-  //       title: 'Example code',
-  //       link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithSQLite',
-  //       description: 'code written in lecture'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Create a navigation drawer',
-  //       link: 'https://developer.android.com/training/implementing-navigation/nav-drawer',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'NavigationView',
-  //       link: 'https://developer.android.com/reference/android/support/design/widget/NavigationView',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'SQLite Tutorial',
-  //       link: 'http://www.sqlitetutorial.net/'
-  //     },
-  //     {
-  //       title: 'Save data in a local database using Room',
-  //       link: 'https://developer.android.com/training/data-storage/room/',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
+
+  {
+    title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
+    weeks: [ 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithSQLite',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Create a navigation drawer',
+        link: 'https://developer.android.com/training/implementing-navigation/nav-drawer',
+        description: 'Android Developers'
+      },
+      {
+        title: 'NavigationView',
+        link: 'https://developer.android.com/reference/android/support/design/widget/NavigationView',
+        description: 'Android Developers'
+      },
+      {
+        title: 'SQLite Tutorial',
+        link: 'http://www.sqlitetutorial.net/'
+      },
+      {
+        title: 'Save data in a local database using Room',
+        link: 'https://developer.android.com/training/data-storage/room/',
+        description: 'Android Developers'
+      }
+    ]
+  },
   //
   // {
   //   title: 'Revisiting the Activity Lifecycle: Incorporating ViewModel',
