@@ -295,7 +295,6 @@ const topics = [
 
   {
     title: 'Next.js',
-    isCurrent: true,
     weeks: [ 6, 7 ],
     resources: [
       {
@@ -349,7 +348,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1tJpcZAEn9igobPQHtAlGkn3M4XoOWbB4ZYB68bksTP4/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1nYBJTdCKoAbP_pKxjBfSqjozDAPqH5ppiOyh6ZjUjPs/edit?usp=sharing'
       },
       {
         title: 'Example code',
