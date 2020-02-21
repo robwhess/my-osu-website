@@ -44,6 +44,17 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm, Monday 3/9/2020'
       ]
+    },
+    {
+      link : 'https://classroom.github.com/a/_0zsvJ0k',
+      title: 'Assignment 4 &ndash; A Redux-powered shopping app',
+      due: {
+        day: 'Monday, 3/2/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 5:00pm, Friday 3/20/2020'
+      ]
     }
   ],
 
