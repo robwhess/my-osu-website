@@ -10,14 +10,14 @@ const finalProject = {
         location: 'on Canvas'
       }
     },
-    // {
-    //   title: 'Final Project Details',
-    //   link: '',
-    //   due: {
-    //     time: '5:00pm',
-    //     day: 'Friday, 3/20/2020'
-    //   }
-    // },
+    {
+      title: 'Final Project Details',
+      link: 'https://docs.google.com/document/d/18AfRdg7-gaL7xbn7oszkrddeOp5LPEee0AldiAGFeAM/edit?usp=sharing',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 3/20/2020'
+      }
+    },
     // {
     //   link : '',
     //   title: 'Final Project Demo Signup',
@@ -30,15 +30,15 @@ const finalProject = {
     //     'Plan on using one of your team\'s laptops for the demo.'
     //   ]
     // },
-    // {
-    //   link: '',
-    //   title: 'Final Project Team Evaluation',
-    //   due: {
-    //     time: '5:00pm',
-    //     day: 'Friday, 3/20/2020',
-    //     location: 'on Canvas'
-    //   }
-    // }
+    {
+      link: 'https://docs.google.com/document/d/1jv4e3MxoiIt5PVYlOcXMFTV7ZrviSrue6-3TXz6KEp0/edit?usp=sharing',
+      title: 'Final Project Team Evaluation',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 3/20/2020',
+        location: 'on Canvas'
+      }
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete React-based web application that serves dynamic, interactive data from an API.  You can find more info below.'
