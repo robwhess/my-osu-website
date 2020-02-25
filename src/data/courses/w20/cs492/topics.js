@@ -287,7 +287,6 @@ const topics = [
 
   {
     title: 'Storing Prefs with SharedPreferences',
-    isCurrent: true,
     weeks: [ 7 ],
     resources: [
       {
@@ -316,17 +315,18 @@ const topics = [
 
   {
     title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
+    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithSQLite',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w20/GitHubSearchWithSQLite',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
