@@ -343,8 +343,7 @@ const topics = [
 
   {
     title: 'Centralizing Application State with Redux',
-    isCurrent: true,
-    weeks: [ 7 ],
+    weeks: [ 7, 8 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -376,6 +375,51 @@ const topics = [
         title: 'React Redux: Basic Tutorial',
         link: 'https://react-redux.js.org/introduction/basic-tutorial',
         description: 'Redux Docs'
+      }
+    ]
+  },
+
+  {
+    title: 'API Queries with GraphQL',
+    isCurrent: true,
+    weeks: [ 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: '',
+        description: 'forthcoming'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/using-graphql',
+        description: 'code written during lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Introduction to GraphQL',
+        link: 'https://graphql.org/learn/',
+        description: 'GraphQL Docs'
+      },
+      {
+        title: 'Schemas and Types',
+        link: 'https://graphql.org/learn/schema/',
+        description: 'GraphQL Docs'
+      },
+      {
+        title: 'Queries and Mutations',
+        link: 'https://graphql.org/learn/queries/',
+        description: 'GraphQL Docs'
+      },
+      {
+        title: 'Thinking in Graphs',
+        link: 'https://graphql.org/learn/thinking-in-graphs/',
+        description: 'GraphQL Docs'
+      },
+      {
+        title: 'GraphQL Fundamentals (4 videos)',
+        link: 'https://www.howtographql.com/',
+        description: 'How to GraphQL'
       }
     ]
   }
