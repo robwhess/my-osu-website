@@ -386,8 +386,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: '',
-        description: 'forthcoming'
+        link: 'https://docs.google.com/document/d/1i02SdUAS96QYayvf4KtDa0HmEwZNOLZZb7jZBfbWWl8/edit?usp=sharing'
       },
       {
         title: 'Example code',
@@ -420,6 +419,21 @@ const topics = [
         title: 'GraphQL Fundamentals (4 videos)',
         link: 'https://www.howtographql.com/',
         description: 'How to GraphQL'
+      },
+      {
+        title: 'Apollo Client: Get started',
+        link: 'https://www.apollographql.com/docs/react/get-started/',
+        description: 'Apollo Client Docs'
+      },
+      {
+        title: 'Apollo Client: Queries',
+        link: 'https://www.apollographql.com/docs/react/data/queries/',
+        description: 'Apollo Client Docs'
+      },
+      {
+        title: 'Apollo Client: Mutations',
+        link: 'https://www.apollographql.com/docs/react/data/mutations/',
+        description: 'Apollo Client Docs'
       }
     ]
   }
