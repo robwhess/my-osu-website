@@ -18,17 +18,6 @@ const finalProject = {
         day: 'Friday, 3/20/2020'
       }
     },
-    // {
-    //   link : '',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Final project demos will be during finals week in KEC 1109.',
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo.',
-    //     'Code is due on GitHub when when you do your demo.'
-    //   ]
-    // },
     {
       link: 'https://docs.google.com/document/d/1yyV8zLSE2oAeYD4-sQmbYCCfsYu0b1tv4AfdzUXfvtY/edit?usp=sharing',
       title: 'Final Project Team Evaluation',
@@ -37,6 +26,18 @@ const finalProject = {
         day: 'Friday, 3/20/2020',
         location: 'on Canvas'
       }
+    },
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UU5lX0wwMmRLWll3fGRlZmF1bHR8YTY3MWY4YzUxZWQ4ZmMzY2ZiY2Y1NmM0ZjkxYjJjODQ',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Final project demos will be during finals week in KEC 1109.',
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo.',
+        'Code is due on GitHub when when at the time of your demo.',
+        'Plan on using one of your team\'s laptops for the demo.'
+      ]
     }
   ],
 
