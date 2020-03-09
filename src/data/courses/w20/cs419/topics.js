@@ -439,7 +439,6 @@ const topics = [
 
   {
     title: 'Setting up a GraphQL API with Apollo',
-    isCurrent: true,
     weeks: [ 9 ],
     resources: [
       {
@@ -482,6 +481,35 @@ const topics = [
         title: 'API Reference: apollo-server',
         link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
         description: 'Apollo docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Authenticating Users',
+    isCurrent: true,
+    weeks: [ 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/17zERsoO6i5MMQjVfDsb_OKo2MopVV4Jn8Q8qbo8bFFI/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs419-w20/authentication',
+        description: 'code written during lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Set-Cookie',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie',
+        description: 'MDN'
+      },
+      {
+        title: 'The Ultimate Guide to Next.js Authentication with Auth0',
+        link: 'https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0/',
+        description: 'Sandrino Di Mattia (Auth0 Blog)'
       }
     ]
   }
