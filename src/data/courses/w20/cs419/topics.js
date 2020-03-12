@@ -510,6 +510,16 @@ const topics = [
         title: 'The Ultimate Guide to Next.js Authentication with Auth0',
         link: 'https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0/',
         description: 'Sandrino Di Mattia (Auth0 Blog)'
+      },
+      {
+        title: 'Example app utilizing cookie-based authentication',
+        link: 'https://github.com/zeit/next.js/tree/canary/examples/with-cookie-auth',
+        description: 'Next.js examples on GitHub'
+      },
+      {
+        title: 'Cross-site request forgery',
+        link: 'https://en.wikipedia.org/wiki/Cross-site_request_forgery',
+        description: 'Wikipedia'
       }
     ]
   }
