@@ -10,7 +10,6 @@ import styled from '@emotion/styled/macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
-import { generateSitePath } from '../lib/SitePath';
 import breakpoints from '../lib/breakpoints';
 
 const NavbarContainer = styled.div`
@@ -187,13 +186,13 @@ class Navbar extends React.Component {
       <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
         {link.isExternal ?
           <a href={link.path} target="_blank" rel="noopener noreferrer">{content}</a> :
-          <NavLink exact to={generateSitePath(link.path)}>{content}</NavLink>
+          <NavLink exact to={link.path}>{content}</NavLink>
         }
         {link.menu ?
           <NavMenu>
             {link.menu.map((menuItem, i) => (
               <NavMenuItem key={i}>
-                <Link to={generateSitePath(menuItem.path)}>{menuItem.title}</Link>
+                <Link to={menuItem.path}>{menuItem.title}</Link>
               </NavMenuItem>
             ))}
           </NavMenu> :
@@ -207,7 +206,7 @@ class Navbar extends React.Component {
     return (
       <NavbarContainer subnav={this.props.subnav} collapsed={this.state.collapsed}>
         <NavbarHeading>
-          <Link to={generateSitePath(this.props.heading.path)}>{this.props.heading.title}</Link>
+          <Link to={this.props.heading.path}>{this.props.heading.title}</Link>
           <CollapseButton onClick={this.toggleNavbarCollapsed} collapsed={this.state.collapsed}>
             <FontAwesomeIcon icon={faAngleDown} />
           </CollapseButton>

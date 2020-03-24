@@ -13,7 +13,6 @@ import CommunityPage from './pages/CommunityPage';
 import CoursePage from './pages/CoursePage';
 import NoMatchPage from './pages/NoMatchPage';
 
-import { generateSitePath } from './lib/SitePath';
 import breakpoints from './lib/breakpoints';
 
 import { currentTermData, currentTerm } from './data/courses';
@@ -124,11 +123,11 @@ function App() {
 
       <Switch>
 
-        <Route exact path={generateSitePath('/')} component={HomePage} />
-        <Route exact path={generateSitePath('/teaching')} component={TeachingPage} />
-        <Route exact path={generateSitePath('/teaching/community')} component={CommunityPage} />
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/teaching' component={TeachingPage} />
+        <Route exact path='/teaching/community' component={CommunityPage} />
 
-        <Route path={generateSitePath('/teaching') + '/:courseNum-:term'} component={CoursePage} />
+        <Route path='/teaching/:courseNum-:term' component={CoursePage} />
 
         <Route component={NoMatchPage} />
 

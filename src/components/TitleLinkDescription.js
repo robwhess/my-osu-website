@@ -4,20 +4,33 @@
  */
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import MarkdownIt from 'markdown-it';
 
 const md = new MarkdownIt();
 
+function generateTitleLinkElem(title, link) {
+  if (link) {
+    /*
+     * For relative links, use a React Router <Link>.
+     */
+    if (link.startsWith('/')) {
+      return <Link to={link}>{title}</Link>;
+    } else {
+      return <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>;
+    }
+  } else {
+    return <span>{title}</span>;
+  }
+}
+
 function TitleLinkDescription({ title, link, description }) {
   return (
     <span>
-      {link ?
-        <a href={link} target="_blank" rel="noopener noreferrer">{title}</a> :
-        <span>{title}</span>
-      }
-      {description ?
-        <span dangerouslySetInnerHTML={{ __html: md.renderInline(` &ndash; ${description}`) }} /> : null
+      {generateTitleLinkElem(title, link)}
+      {description &&
+        <span dangerouslySetInnerHTML={{ __html: md.renderInline(` &ndash; ${description}`) }} />
       }
     </span>
   )
