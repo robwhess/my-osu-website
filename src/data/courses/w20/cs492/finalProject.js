@@ -36,7 +36,8 @@ const finalProject = {
         'Sign up for one demo appointment per team.',
         'All team members must attend your demo.',
         'Code is due on GitHub when when at the time of your demo.',
-        'Plan on using one of your team\'s laptops for the demo.'
+        'Plan on using one of your team\'s laptops for the demo.',
+        '**All final project demos will be held remotely via Zoom.**  The Zoom meeting number is 432-803-228, and the meeting link is: [https://oregonstate.zoom.us/j/432803228](https://oregonstate.zoom.us/j/432803228).  Please check your email or Canvas for more details.'
       ]
     }
   ],
