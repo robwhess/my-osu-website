@@ -54,43 +54,27 @@ const ModalContent = styled.div`
   padding: 25px;
 `;
 
-class Modal extends React.Component {
+function Modal({ content, onClose }) {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      visible: false
-    };
-    this.show = this.show.bind(this);
-    this.hide = this.hide.bind(this);
-  }
-
-  show() {
-    this.setState({ visible: true });
-    document.body.classList.add('noscroll');
-  }
-
-  hide() {
-    this.setState({ visible: false });
+  function close() {
     document.body.classList.remove('noscroll');
+    onClose();
   }
 
-  render() {
-    return this.state.visible ?
-      <React.Fragment>
-        <Backdrop onClick={this.hide} />
-        <ModalContainer>
-          <ModalCloseButton onClick={this.hide}>&times;</ModalCloseButton>
-          <ModalContent dangerouslySetInnerHTML={{ __html: md.renderInline(this.props.content) }} />
-        </ModalContainer>
-      </React.Fragment> :
-      null;
-  }
-
+  return (
+    <t>
+      <Backdrop onClick={close} />
+      <ModalContainer>
+        <ModalCloseButton onClick={close}>&times;</ModalCloseButton>
+        <ModalContent dangerouslySetInnerHTML={{ __html: md.renderInline(content) }} />
+      </ModalContainer>
+    </t>
+  );
 }
 
 Modal.propTypes = {
-  content: PropTypes.string.isRequired
+  content: PropTypes.string.isRequired,
+  onClose: PropTypes.func.isRequired
 };
 
 export default Modal;
