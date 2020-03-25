@@ -6,17 +6,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleRight, faLink } from '@fortawesome/free-solid-svg-icons';
 import MarkdownIt from 'markdown-it';
+import slugify from 'slugify';
 
 import DayTimeLocation from './DayTimeLocation';
 
 const md = new MarkdownIt({ breaks: true });
 
-const AssignmentListContainer = styled.div`
-  h2 {
-    margin: 0;
-  }
+const AssignmentListTitle = styled.h2`
+  display: inline-block;
+  margin: 0 0 0 5px;
+`;
+
+const SlugLink = styled.a`
+  color: inherit;
+  font-size: 20px;
 `;
 
 const Assignment = styled.div`
@@ -50,9 +55,13 @@ const DueDate = styled.p`
 `;
 
 function CourseAssignmentList({ title, assignments, preamble }) {
+  const slug = slugify(title, { strict: true });
   return (
-    <AssignmentListContainer>
-      {title ? <h2>{title}</h2> : null}
+    <div>
+      <SlugLink href={`#${slug}`}>
+        <FontAwesomeIcon icon={faLink} />
+      </SlugLink>
+      <AssignmentListTitle id={slug}>{title}</AssignmentListTitle>
       {preamble ? <p dangerouslySetInnerHTML={{ __html: md.renderInline(preamble) }} /> : null}
       {assignments && assignments.length > 0 ?
         assignments.map((assignment, i) => (
@@ -83,12 +92,12 @@ function CourseAssignmentList({ title, assignments, preamble }) {
         )) :
         <h3><FontAwesomeIcon icon={faAngleDoubleRight} /> No assignments listed yet.</h3>
         }
-    </AssignmentListContainer>
+    </div>
   );
 }
 
 CourseAssignmentList.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
   assignments: PropTypes.arrayOf(PropTypes.shape({
     link: PropTypes.string,
     title: PropTypes.string.isRequired,
