@@ -145,22 +145,18 @@ CourseEssentialInfo.propTypes = {
   number: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   term: PropTypes.string.isRequired,
-  instructor: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    email: PropTypes.string.isRequired
-  }).isRequired,
-  officeHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes)).isRequired,
   lectures: PropTypes.objectOf(PropTypes.shape(DayTimeLocation.propTypes)).isRequired,
   finalExams: PropTypes.objectOf(PropTypes.shape(DayTimeLocation.propTypes)),
   syllabusLink: PropTypes.string.isRequired,
   textbooks: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired
   })),
   links: PropTypes.arrayOf(PropTypes.shape({
     link: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string
   }))
 };
 

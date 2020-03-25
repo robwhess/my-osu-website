@@ -43,7 +43,7 @@ function CoursePage({ match }) {
         exact
         path={`${matchUrl}`}
         render={() => <CourseInfoPage course={course} />}
-        key={routes.length}
+        key={`${matchUrl}`}
       />
     );
     navHeading.title = course.number;
@@ -64,7 +64,7 @@ function CoursePage({ match }) {
           exact
           path={taPageUrl}
           render={() => <TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
-          key={routes.length}
+          key={taPageUrl}
         />
       );
       navLinks.push({
@@ -84,7 +84,7 @@ function CoursePage({ match }) {
           exact
           path={recitationPageUrl}
           render={() => <RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
-          key={routes.length}
+          key={recitationPageUrl}
         />
       );
       navLinks.push({
@@ -104,7 +104,7 @@ function CoursePage({ match }) {
           exact
           path={labPageUrl}
           render={() => <RecitationLabInfoPage title={`${course.number} Labs`} info={course.labs} />}
-          key={routes.length}
+          key={labPageUrl}
         />
       );
       navLinks.push({
@@ -118,7 +118,7 @@ function CoursePage({ match }) {
    * Add a route for the no match page to handle the case when the request URL
    * doesn't match a course page or course subpage.
    */
-  routes.push(<Route component={NoMatchPage} key={routes.length} />);
+  routes.push(<Route component={NoMatchPage} key={"404"} />);
 
   return (
     <div>

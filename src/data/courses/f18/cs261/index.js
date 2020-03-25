@@ -1,5 +1,3 @@
-import { generateSitePath } from '../../../../lib/SitePath';
-
 import topics from './topics';
 import assignments from './assignments';
 import recitations from './recitations';
@@ -71,7 +69,7 @@ const courseDetails = {
     },
     {
       title: 'Establishing a positive classroom community',
-      link: generateSitePath("/teaching/community")
+      link: '/teaching/community'
     }
   ],
 

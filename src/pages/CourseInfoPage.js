@@ -21,16 +21,16 @@ function CourseInfoPage({ course }) {
   return (
     <TwoColumnPageContent
       left={
-        <React.Fragment>
+        <>
           <CourseInfoPageSectionBox>
             <CourseEssentialInfo {...course} />
           </CourseInfoPageSectionBox>
-          {(course.assignmentGroups || []).map((assignmentGroup, i) => (
-            <CourseInfoPageSectionBox key={i}>
+          {(course.assignmentGroups || []).map((assignmentGroup) => (
+            <CourseInfoPageSectionBox key={assignmentGroup.title}>
               <CourseAssignmentList {...assignmentGroup} />
             </CourseInfoPageSectionBox>
           ))}
-        </React.Fragment>
+        </>
       }
       right={
         <CourseInfoPageSectionBox>

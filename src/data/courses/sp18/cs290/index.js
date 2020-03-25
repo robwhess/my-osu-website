@@ -1,5 +1,3 @@
-import { generateSitePath } from '../../../../lib/SitePath';
-
 var courseDetails = {
   number: 'CS 290',
   title: 'Web Development',
@@ -39,7 +37,7 @@ var courseDetails = {
     },
     {
       title: 'Establishing a positive classroom community',
-      link: generateSitePath("/teaching/community")
+      link: '/teaching/community'
     }
   ]
 };

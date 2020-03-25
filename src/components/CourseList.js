@@ -10,8 +10,6 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
-import { generateSitePath } from '../lib/SitePath';
-
 const CourseListList = styled.ul`
   margin: 0;
   padding-left: 10px;
@@ -25,14 +23,14 @@ const CourseItem = styled.li`
   font-weight: 400;
 `;
 
-function CourseList(props) {
+function CourseList({ term, courses }) {
   return (
     <CourseListList>
-      {Object.keys(props.courses).map((course, i) => (
+      {Object.keys(courses).map((course, i) => (
         <CourseItem key={i}>
           <FontAwesomeIcon icon={faAngleDoubleRight} /> &nbsp;
-          <Link to={generateSitePath(`/teaching/${course}-${props.term}`)}>
-            {props.courses[course].number} &ndash; {props.courses[course].title}
+          <Link to={`/teaching/${course}-${term}`}>
+            {courses[course].number} &ndash; {courses[course].title}
           </Link>
         </CourseItem>
       ))}

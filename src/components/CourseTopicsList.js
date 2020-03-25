@@ -27,67 +27,64 @@ const Topic = styled.div`
   }
 `;
 
-function generateWeeksString(weeks) {
-  if (weeks.length > 1) {
-    return <span>Weeks {weeks[0]} &ndash; {weeks[weeks.length - 1]}</span>;
-  } else {
-    return `Week ${weeks[0]}`;
-  }
-}
-
 function CourseTopicsList({ title, topics }) {
+
+  function generateWeeksString(weeks) {
+    if (weeks.length > 1) {
+      return <span>Weeks {weeks[0]} &ndash; {weeks[weeks.length - 1]}</span>;
+    } else {
+      return `Week ${weeks[0]}`;
+    }
+  }
+
+  function generateResourcesList(title, items) {
+    return (
+      <div>
+        <h4>{title}</h4>
+        <AngleList singleAngle
+          items={items.map((item) => (
+            <TitleLinkDescription key={item.link} {...item} />
+          ))} />
+      </div>
+    );
+  }
+
+  function generateTopicElem(topic) {
+    return (
+      <CollapsibleSection
+        key={topic.title}
+        collapsed={!topic.isCurrent}
+        title={topic.title}
+        setSlug={true}>
+        <Topic>
+          {topic.weeks && <h4>{generateWeeksString(topic.weeks)}</h4>}
+          {topic.resources && generateResourcesList("Lecture Materials", topic.resources)}
+          {topic.readings && generateResourcesList("Readings", topic.readings)}
+          {topic.notes &&
+            <div>
+              <h4>Notes</h4>
+              <AngleList singleAngle
+                items={topic.notes.map((note) => (
+                  <span key={note} dangerouslySetInnerHTML={{ __html: md.renderInline(note) }} />
+                ))} />
+            </div>
+          }
+        </Topic>
+      </CollapsibleSection>
+    );
+  }
+
   return (
     <TopicsListContainer>
-      {title ? <h2>{title}</h2> : null}
-      {topics && topics.length > 0 ?
-        <React.Fragment>
+      {title && <h2>{title}</h2>}
+      {topics && topics.length > 0 ? (
+        <>
           <h4>(click titles to expand/collapse)</h4>
-          {topics.map((topic, i) => (
-            <CollapsibleSection
-              key={topic.title}
-              collapsed={!topic.isCurrent}
-              title={topic.title}>
-              <Topic>
-                {topic.weeks ?
-                  <h4>{generateWeeksString(topic.weeks)}</h4> :
-                  null
-                }
-                {topic.resources ?
-                  <div>
-                    <h4>Lecture Materials</h4>
-                    <AngleList singleAngle
-                      items={topic.resources.map((resource, j) => (
-                        <TitleLinkDescription key={j} {...resource} />
-                      ))} />
-                  </div> :
-                  null
-                }
-                {topic.readings ?
-                  <div>
-                    <h4>Readings</h4>
-                    <AngleList singleAngle
-                      items={topic.readings.map((reading, j) => (
-                        <TitleLinkDescription key={j} {...reading} />
-                      ))} />
-                  </div> :
-                  null
-                }
-                {topic.notes ?
-                  <div>
-                    <h4>Notes</h4>
-                    <AngleList singleAngle
-                      items={topic.notes.map((note, j) => (
-                        <span key={j} dangerouslySetInnerHTML={{ __html: md.renderInline(note) }} />
-                      ))} />
-                  </div> :
-                  null
-                }
-              </Topic>
-            </CollapsibleSection>
-          ))}
-        </React.Fragment> :
+          {topics.map(generateTopicElem)}
+        </>
+      ) : (
         <h3><FontAwesomeIcon icon={faAngleDoubleRight} /> No topics listed yet.</h3>
-      }
+      )}
     </TopicsListContainer>
   );
 }
