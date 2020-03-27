@@ -1,0 +1,207 @@
+const topics = [
+  {
+    title: 'Course Intro/Overview of Compilers',
+    weeks: [ 1 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1TVQFQlMrP0RpSTYAI9P-xnM_5iA45rswqCuI0yADEfw/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 1',
+        description: 'Cooper and Torczon'
+      },
+      {
+        title: 'Chapters 1 and 2',
+        link: 'https://git-scm.com/book/en/v2',
+        description: 'Pro Git'
+      }
+    ]
+  },
+
+  {
+    title: 'Finite Automata and Regular Expressions',
+    weeks: [ 1 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1FODBAP83e_JCkJBTxzfa5672vKLdCRDLw4c4UEjMerE/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 2 (2.1 - 2.3)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'Regular Expression-Based Scanners',
+    weeks: [ 1, 2 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Q3Qj3pZVixeeD6bQ7oDeBze3csKF58-k0E6r5XJ7Ssk/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 2 (2.4 - 2.5)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'The Flex Scanner Generator',
+    weeks: [ 2, 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs480-sp19/flex',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Flex In a Nutshell',
+        link: 'https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/handouts/050%20Flex%20In%20A%20Nutshell.pdf',
+        description: 'Julie Zelenski (Stanford)'
+      },
+      {
+        title: 'Flex - A fast scanner generator',
+        link: 'ftp://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_mono/flex.html',
+        description: 'The Flex user manual'
+      }
+    ]
+  },
+
+  {
+    title: 'Context-Free Grammars',
+    weeks: [ 3 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 3 (3.1)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'Top-Down Parsing and LL(1) Grammars',
+    weeks: [ 4, 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 3 (3.2 - 3.3)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'The Bison Parser Generator',
+    weeks: [ 5, 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/19LCYNojTimpgpvrZu-pawIj0wfRXKZCKHVapwS2BxUI/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs480-sp19/bison',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Bison',
+        link: 'https://www.gnu.org/software/bison/manual/bison.html',
+        description: 'The Bison user manual'
+      }
+    ]
+  },
+
+  {
+    title: 'Bottom-Up Parsing and LR(1) Grammars',
+    weeks: [ 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 3 (3.4)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'LLVM: Code Generation and Optimization',
+    weeks: [ 9, 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs480-sp19/llvm',
+      //   description: 'code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Kaleidoscope: Implementing a Language with LLVM',
+        link: 'https://llvm.org/docs/tutorial/index.html',
+        description: 'LLVM Tutorial'
+      },
+      {
+        title: 'The Architecture of Open Source Applications: LLVM',
+        link: 'http://www.aosabook.org/en/llvm.html',
+        description: 'Chris Lattner'
+      }
+    ]
+  },
+
+  {
+    title: 'Bonus Material: Intermediate Representations',
+    weeks: [ 11 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1NHqnUdp6EV6Pi6ewJ_SXbeuN79sgBCsAag56C9VtlzA/edit?usp=sharing'
+      }
+    ],
+    readings: [
+      {
+        title: 'Chapter 5',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  }
+];
+
+export default topics;
