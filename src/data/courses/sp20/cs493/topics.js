@@ -7,6 +7,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1L9pKt1GmBeBiQgTWswDkgwPHLW9mRz4ObrNDXGBp97s/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1PcDTszXoKyHLllIeq5DvdcTNY-NVfPLR/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
