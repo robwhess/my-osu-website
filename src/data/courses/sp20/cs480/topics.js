@@ -30,6 +30,7 @@ const topics = [
   {
     title: 'Finite Automata and Regular Expressions',
     weeks: [ 1 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -46,7 +47,7 @@ const topics = [
 
   {
     title: 'Regular Expression-Based Scanners',
-    weeks: [ 1, 2 ],
+    weeks: [ 2 ],
     resources: [
       {
         title: 'Lecture notes',

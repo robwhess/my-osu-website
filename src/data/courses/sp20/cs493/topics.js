@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -36,6 +35,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1AYg6cE2JYTkDvu0JxiyNbNFrMc3fZxQqoHZqim81voM/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1xOt7Q_WwPlxVgdaYeEE8ii7n_Pr4CI83/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
