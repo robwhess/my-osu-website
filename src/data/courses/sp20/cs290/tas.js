@@ -74,7 +74,7 @@ const taInfo = [
         day: 'Tues.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        description: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/816350612'
+        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/816350612'
       }
     ],
     gradingHours: [
@@ -82,13 +82,13 @@ const taInfo = [
         day: 'Mon.',
         time: '2:00 &ndash; 4:00pm',
         location: 'online via Zoom &ndash; click for details',
-        description: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/714998084'
+        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/714998084'
       },
       {
         day: 'Fri.',
         time: '1:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        description: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/797196318'
+        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/797196318'
       }
     ]
   },
