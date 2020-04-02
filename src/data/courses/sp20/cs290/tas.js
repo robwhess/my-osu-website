@@ -90,13 +90,13 @@ const taInfo = [
         day: 'Mon.',
         time: '2:00 &ndash; 4:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/714998084'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUhpSjRTUHMwLTd1fGRlZmF1bHR8MjhiNGFmYWE0MzNjYjZhZTBkNTJmZTdjYzFmM2FiOGM\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/714998084'
       },
       {
         day: 'Fri.',
         time: '1:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/797196318'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUhpSjRTUHMwLTd1fGRlZmF1bHR8MjhiNGFmYWE0MzNjYjZhZTBkNTJmZTdjYzFmM2FiOGM\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/797196318'
       }
     ]
   },
@@ -145,49 +145,52 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '1:00 &ndash; 2:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/203646919'
       },
       {
         day: 'Tues.',
         time: '1:00 &ndash; 2:00pm',
-        location: 'online via Zoom &ndash; details TBD'
-      },
-      {
-        day: 'Wed.',
-        time: '1:00 &ndash; 2:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/203646919'
       },
       {
         day: 'Thurs.',
         time: '1:00 &ndash; 2:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/203646919'
       },
       {
         day: 'Fri.',
         time: '1:00 &ndash; 2:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/203646919'
       }
     ],
     gradingHours: [
       {
         day: 'Mon.',
         time: '2:00 &ndash; 3:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Tues.',
         time: '2:00 &ndash; 3:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Wed.',
         time: '2:00 &ndash; 3:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 3:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       }
     ]
   }
