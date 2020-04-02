@@ -6,12 +6,14 @@ const taInfo = [
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 6:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/4421051055'
       },
       {
         day: 'Fri.',
         time: '2:00 &ndash; 6:00pm',
-        location: 'online via Zoom &ndash; details TBD'
+        location: 'online via Zoom &ndash; click for details',
+        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/4421051055'
       }
     ],
     gradingHours: [
