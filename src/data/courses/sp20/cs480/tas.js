@@ -4,6 +4,20 @@ const taInfo = [
     email: 'rangarav@oregonstate.edu',
     officeHours: [
       {
+        day: 'Wed.',
+        time: '9:00 &ndash; 10:00am',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/146383748'
+      },
+      {
+        day: 'Thurs.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/855540252'
+      }
+    ],
+    gradingHours: [
+      {
         day: 'Tues.',
         time: '8:00 &ndash; 9:00am',
         location: 'online via Zoom &ndash; click for details',
@@ -20,20 +34,6 @@ const taInfo = [
         time: '8:00 &ndash; 9:00am',
         location: 'online via Zoom &ndash; click for details',
         details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/710134679'
-      }
-    ],
-    gradingHours: [
-      {
-        day: 'Wed.',
-        time: '9:00 &ndash; 10:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/146383748'
-      },
-      {
-        day: 'Thurs.',
-        time: '2:00 &ndash; 3:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/855540252'
       }
     ]
   },
