@@ -172,25 +172,25 @@ const taInfo = [
         day: 'Mon.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Tues.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Wed.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/758977888'
       }
     ]
   }
