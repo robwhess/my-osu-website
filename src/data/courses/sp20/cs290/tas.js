@@ -7,13 +7,13 @@ const taInfo = [
         day: 'Thurs.',
         time: '2:00 &ndash; 6:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/4421051055'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/4421051055'
       },
       {
         day: 'Fri.',
         time: '2:00 &ndash; 6:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/4421051055'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/4421051055'
       }
     ],
     gradingHours: [
@@ -50,13 +50,13 @@ const taInfo = [
         day: 'Wed.',
         time: '3:00 &ndash; 4:30pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/694180780\n\nPhone Dial-In Information\n+1 971 247 1195 US (Portland)\n+1 253 215 8782 US\n+1 301 715 8592 US\n\nMeeting ID: 694 180 780\n\nJoin by Polycom/Cisco/Other Room System\n694180780@zoomcrc.com'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/694180780'
       },
       {
         day: 'Fri.',
         time: '12:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/623504283\n\nPhone Dial-In Information\n+1 971 247 1195 US (Portland)\n+1 253 215 8782 US\n+1 301 715 8592 US\n\nMeeting ID: 623 504 283\n\nJoin by Polycom/Cisco/Other Room System\n623504283@zoomcrc.com'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/623504283'
       }
     ],
     gradingHours: [
@@ -64,13 +64,13 @@ const taInfo = [
         day: 'Mon.',
         time: '12:30 &ndash; 2:30pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/845510912\n\nPhone Dial-In Information\n+1 971 247 1195 US (Portland)\n+1 253 215 8782 US\n+1 301 715 8592 US\n\nMeeting ID: 845 510 912\n\nJoin by Polycom/Cisco/Other Room System\n845510912@zoomcrc.com'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/845510912'
       },
       {
         day: 'Wed.',
         time: '12:30 &ndash; 2:30pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/845510912\n\nPhone Dial-In Information\n+1 971 247 1195 US (Portland)\n+1 253 215 8782 US\n+1 301 715 8592 US\n\nMeeting ID: 845 510 912\n\nJoin by Polycom/Cisco/Other Room System\n845510912@zoomcrc.com'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/845510912'
       }
     ]
   },
@@ -82,7 +82,7 @@ const taInfo = [
         day: 'Tues.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/816350612'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/816350612'
       }
     ],
     gradingHours: [
@@ -90,13 +90,13 @@ const taInfo = [
         day: 'Mon.',
         time: '2:00 &ndash; 4:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/714998084'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/714998084'
       },
       {
         day: 'Fri.',
         time: '1:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/797196318'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/797196318'
       }
     ]
   },
@@ -108,19 +108,19 @@ const taInfo = [
         day: 'Mon.',
         time: '10:00 &ndash; 11:30am',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/248709302'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/248709302'
       },
       {
         day: 'Tues.',
         time: '4:00 &ndash; 5:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/760064034'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/760064034'
       },
       {
         day: 'Wed.',
         time: '2:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/169690292'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/169690292'
       }
     ],
     gradingHours: [
@@ -128,13 +128,13 @@ const taInfo = [
         day: 'Mon.',
         time: '1:00 &ndash; 3:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/105451447\nPassword: 202020'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/105451447\n**Password**: 202020'
       },
       {
         day: 'Thurs.',
         time: '4:00 &ndash; 6:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/365717716\nPassword: 101010'
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/365717716\n**Password**: 101010'
       }
     ]
   },
