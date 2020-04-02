@@ -64,13 +64,13 @@ const taInfo = [
         day: 'Mon.',
         time: '12:30 &ndash; 2:30pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/845510912'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUV1dGxNN3NxLXlafGRlZmF1bHR8Y2M5NGVlODVlZDk1OGRhNzZmZWU5N2IxYjdlNjQ4M2E\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/845510912'
       },
       {
-        day: 'Wed.',
-        time: '12:30 &ndash; 2:30pm',
+        day: 'Fri.',
+        time: '10:00am &ndash; 12:00pm',
         location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/845510912'
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUV1dGxNN3NxLXlafGRlZmF1bHR8Y2M5NGVlODVlZDk1OGRhNzZmZWU5N2IxYjdlNjQ4M2E\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/656464564'
       }
     ]
   },
