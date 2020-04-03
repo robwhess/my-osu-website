@@ -17,7 +17,6 @@ const topics = [
 
   {
     title: 'Git and GitHub',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -52,6 +51,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp20/html',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/15QuYNsmnKznWfd8SyWEBUsamPaD99wy9/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
