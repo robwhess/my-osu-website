@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro/Overview of Compilers',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -35,6 +34,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1FODBAP83e_JCkJBTxzfa5672vKLdCRDLw4c4UEjMerE/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1yoaR8pcAWrmHIjrdAHuB1VSBOL_8HPKR/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -48,6 +52,7 @@ const topics = [
   {
     title: 'Regular Expression-Based Scanners',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
