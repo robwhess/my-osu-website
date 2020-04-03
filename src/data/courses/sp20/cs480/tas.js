@@ -43,13 +43,7 @@ const taInfo = [
     officeHours: [
       {
         day: 'Tues.',
-        time: '2:00 &ndash; 5:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
-      },
-      {
-        day: 'Thurs.',
-        time: '9:00am &ndash; 12:00pm',
+        time: '9:00am &ndash; 1:00pm',
         location: 'online via Zoom &ndash; click for details',
         details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
       }
@@ -57,7 +51,13 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Tues.',
-        time: '9:00am &ndash; 1:00pm',
+        time: '2:00 &ndash; 5:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
+      },
+      {
+        day: 'Thurs.',
+        time: '9:00am &ndash; 12:00pm',
         location: 'online via Zoom &ndash; click for details',
         details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
       }
