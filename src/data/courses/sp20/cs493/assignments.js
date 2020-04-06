@@ -1,17 +1,17 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; API design, implementation, and containerization',
-    //   due: {
-    //     day: 'Monday, 4/22/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm on Monday, 5/6/2019'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/rl-GdJln',
+      title: 'Assignment 1 &ndash; API design, implementation, and containerization',
+      due: {
+        day: 'Monday, 4/20/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm on Monday, 5/4/2020'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; API data storage',
