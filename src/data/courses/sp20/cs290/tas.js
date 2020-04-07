@@ -29,16 +29,18 @@ const taInfo = [
     email: 'bloodg@oregonstate.edu',
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'online via Zoom &ndash; details TBD'
+        day: 'Thurs.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/272698338'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'online via Zoom &ndash; details TBD'
+        day: 'Tues.',
+        time: '10:00am &ndash; 2:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUFUWnZHY3Bpcmw1fGRlZmF1bHR8ZGQyOGMwNjVjMmUwMjZiYjE3MzVlZjQ5YzYzMjFhNzg\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/429543490'
       }
     ]
   },
