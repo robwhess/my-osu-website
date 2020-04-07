@@ -18,8 +18,13 @@ const taInfo = [
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
+        day: 'Thurs.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'online via Zoom &ndash; details TBD'
+      },
+      {
+        day: 'Fri.',
+        time: '1:00 &ndash; 2:00pm',
         location: 'online via Zoom &ndash; details TBD'
       }
     ]
