@@ -1,19 +1,39 @@
 const taInfo = [
   {
-    name: 'Sonam Gyanchandani',
-    email: 'gyanchas@oregonstate.edu',
+    name: 'Satyajit Kamble',
+    email: 'kambles@oregonstate.edu',
     officeHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'online via Zoom &ndash; details TBD'
+        day: 'Mon.',
+        time: '5:00 &ndash; 7:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/332951740'
+      },
+      {
+        day: 'Wed.',
+        time: '5:00 &ndash; 7:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/332951740'
       }
     ],
     gradingHours: [
       {
-        day: 'TBD',
-        time: 'TBD',
-        location: 'online via Zoom &ndash; details TBD'
+        day: 'Tues.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+      },
+      {
+        day: 'Thurs.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+      },
+      {
+        day: 'Fri.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'online via Zoom &ndash; click for details',
+        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
       }
     ]
   },

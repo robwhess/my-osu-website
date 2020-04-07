@@ -1,5 +1,22 @@
 const taInfo = [
   {
+    name: 'Saurabhkumar Makwana',
+    email: 'makwanas@oregonstate.edu',
+    officeHours: [
+      {
+        day: 'Mon.',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'online via Zoom &ndash; details TBD'
+      },
+      {
+        day: 'Wed.',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'online via Zoom &ndash; details TBD'
+      }
+    ],
+    gradingHours: []
+  },
+  {
     name: 'Vaishnavi Rangarajan',
     email: 'rangarav@oregonstate.edu',
     officeHours: [
