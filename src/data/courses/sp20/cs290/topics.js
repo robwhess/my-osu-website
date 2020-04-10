@@ -41,7 +41,6 @@ const topics = [
   {
     title: 'HTML',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -80,6 +79,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp20/css',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1tVhtes-B6QPGIsKva-IjLNOMGoQBy35h/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
