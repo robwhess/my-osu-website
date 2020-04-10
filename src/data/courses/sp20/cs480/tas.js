@@ -15,8 +15,7 @@ const taInfo = [
         location: 'online via Zoom &ndash; click for details',
         details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/841043531'
       }
-    ],
-    gradingHours: []
+    ]
   },
   {
     name: 'Vaishnavi Rangarajan',
