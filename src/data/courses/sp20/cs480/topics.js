@@ -60,6 +60,11 @@ const topics = [
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1e2cRZIg81WVJ6WarsRoV9Aj3S0gGhuJy/view?usp=sharing',
         description: 'drawings from lecture'
+      },
+      {
+        title: 'Quiz 1 lecture doodles',
+        link: 'https://drive.google.com/file/d/17ECDkVyCwRqDV5Lh0DdEFnlNdYaUinYV/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
