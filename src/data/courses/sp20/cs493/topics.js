@@ -30,7 +30,6 @@ const topics = [
   {
     title: 'RESTful API Design',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -133,16 +132,17 @@ const topics = [
   {
     title: 'Containerization with Docker',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/docker',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/docker',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
