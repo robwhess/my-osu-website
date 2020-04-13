@@ -84,11 +84,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp19/flex',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp20/flex',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
