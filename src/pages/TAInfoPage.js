@@ -12,7 +12,7 @@ import Helmet from 'react-helmet';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
-import DayTimeLocation from '../components/DayTimeLocation';
+import Event from '../components/Event';
 import AngleList from '../components/AngleList';
 import breakpoints from '../lib/breakpoints';
 
@@ -94,7 +94,7 @@ function TAInfoPage({ title, tas }) {
                     <AngleList
                       singleAngle
                       items={ta.officeHours.map((hours, j) => (
-                        <DayTimeLocation key={j} {...hours} />
+                        <Event key={j} {...hours} />
                       ))}
                     />
                   </React.Fragment> :
@@ -109,7 +109,7 @@ function TAInfoPage({ title, tas }) {
                     <AngleList
                       singleAngle
                       items={ta.gradingHours.map((hours, j) => (
-                        <DayTimeLocation key={j} {...hours} />
+                        <Event key={j} {...hours} />
                       ))}
                     />
                   </React.Fragment> :
@@ -129,8 +129,8 @@ TAInfoPage.propTypes = {
   tas: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
-    officeHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes)),
-    gradingHours: PropTypes.arrayOf(PropTypes.shape(DayTimeLocation.propTypes))
+    officeHours: PropTypes.arrayOf(PropTypes.shape(Event.propTypes)),
+    gradingHours: PropTypes.arrayOf(PropTypes.shape(Event.propTypes))
   })).isRequired
 };
 
