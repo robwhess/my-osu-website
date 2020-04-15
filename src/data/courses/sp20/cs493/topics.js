@@ -58,7 +58,6 @@ const topics = [
   {
     title: 'Setting up a Server with Node.js and Express',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -142,6 +141,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/docker',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1oe74BHxQPGkIuiIzmnezgOD-b2sPKAzv/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
