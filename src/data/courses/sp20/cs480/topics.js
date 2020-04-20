@@ -77,7 +77,7 @@ const topics = [
 
   {
     title: 'The Flex Scanner Generator',
-    weeks: [ 2, 3 ],
+    weeks: [ 2, 3, 4 ],
     isCurrent: true,
     resources: [
       {
@@ -88,6 +88,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs480-sp20/flex',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1RXjAuGgpHSAmF05Ew-IID-_7oX-MTRuL/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -106,7 +111,8 @@ const topics = [
 
   {
     title: 'Context-Free Grammars',
-    weeks: [ 3 ],
+    weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

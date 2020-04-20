@@ -130,7 +130,7 @@ const topics = [
 
   {
     title: 'Containerization with Docker',
-    weeks: [ 3 ],
+    weeks: [ 3, 4 ],
     isCurrent: true,
     resources: [
       {
@@ -195,6 +195,7 @@ const topics = [
   {
     title: 'Using MySQL to Store API Data',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
