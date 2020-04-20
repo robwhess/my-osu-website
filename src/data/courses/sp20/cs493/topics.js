@@ -201,11 +201,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/using-mysql',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/using-mysql',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
