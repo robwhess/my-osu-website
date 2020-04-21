@@ -131,7 +131,6 @@ const topics = [
   {
     title: 'Containerization with Docker',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
