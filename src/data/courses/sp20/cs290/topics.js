@@ -113,6 +113,7 @@ const topics = [
   {
     title: 'JavaScript Fundamentals',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
