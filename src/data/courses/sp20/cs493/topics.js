@@ -204,6 +204,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/using-mysql',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1VyuPooTtBZNuS5k32Z3duY2qHNpdxaIl/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
