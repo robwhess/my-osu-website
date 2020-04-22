@@ -117,6 +117,11 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/10pu-6e0Iw-IhBTx_HxPzK754QLZh7Ij8/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
