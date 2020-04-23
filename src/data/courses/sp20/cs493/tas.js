@@ -6,29 +6,29 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '5:00 &ndash; 7:00pm',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/332951740'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/332951740'
       },
       {
         day: 'Wed.',
         time: '5:00 &ndash; 7:00pm',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/332951740'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/332951740'
       }
     ],
     gradingHours: [
       {
         day: 'Tues.',
         time: '3:00 &ndash; 5:00pm',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/507934746'
       },
       {
         day: 'Thurs.',
         time: '3:00 &ndash; 5:00pm',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/507934746'
       },
       {
         day: 'Fri.',
         time: '3:00 &ndash; 5:00pm',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/507934746'
       }
     ]
   },
@@ -39,12 +39,12 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '9:00 &ndash; 11:00am',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/303271033'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/303271033'
       },
       {
         day: 'Thurs.',
         time: '9:00 &ndash; 11:00am',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/303271033'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/303271033'
       }
     ],
     gradingHours: [

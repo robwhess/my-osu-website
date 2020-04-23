@@ -12,7 +12,7 @@ var courseDetails = {
     '001': {
       day: 'MW',
       time: '2:00&ndash;3:50pm',
-      details: 'Join Zoom Meeting\nhttps://oregonstate.zoom.us/j/962055651\n\nPhone Dial-In Information\n+1 971 247 1195 US (Portland)\n+1 301 715 8592 US\n+1 253 215 8782 US\n\nMeeting ID: 962 055 651\n\nJoin by Polycom/Cisco/Other Room System\n962055651@zoomcrc.com'
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/962055651'
     }
   },
 

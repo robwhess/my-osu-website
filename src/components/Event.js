@@ -9,7 +9,7 @@ import styled from '@emotion/styled/macro';
 import PropTypes from 'prop-types';
 import MarkdownIt from 'markdown-it';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt, faInfoCircle, faVideo } from '@fortawesome/free-solid-svg-icons';
 
 import Modal from './Modal';
 
@@ -20,16 +20,16 @@ const ExternalLinkIcon = styled.span`
 `;
 
 const ActionItemLink = styled.a`
-  font-size: 90%;
-  color: inherit;
+  padding: 0 3px;
+  font-size: 16px;
   &:hover {
-    color: #d54f1e;
-    text-decoration: none;
+    padding: 0 2px;
+    font-size: 18px;
   }
 `
 
-function Event({ day, time, location, link, details }) {
-  const [ modalVisible, setModalVisible ] = useState(false);
+function Event({ day, time, location, link, details, videoConferenceLink }) {
+  const [ detailsModalVisible, setDetailsModalVisible ] = useState(false);
 
   let eventString = '';
   if (day && time) {
@@ -57,22 +57,37 @@ function Event({ day, time, location, link, details }) {
   const actionItemLinks = [];
   if (details) {
     actionItemLinks.push(
-      <>
-        &nbsp;
-        <ActionItemLink
-          key="details"
-          href="#"
-          title="Click to display more details"
-          onClick={(e) => {
-            e.preventDefault();
-            setModalVisible(true);
-          }}
-        >
-          <FontAwesomeIcon icon={faInfoCircle} />
-        </ActionItemLink>
-        {modalVisible && <Modal content={details} onClose={() => setModalVisible(false)} />}
-      </>
+      <ActionItemLink
+        key="details"
+        href="#"
+        title="Click to display more details about this event."
+        onClick={(e) => {
+          e.preventDefault();
+          setDetailsModalVisible(true);
+        }}
+      >
+        <FontAwesomeIcon icon={faInfoCircle} />
+      </ActionItemLink>
+
     );
+    if (detailsModalVisible) {
+      actionItemLinks.push(
+        <Modal content={details} onClose={() => setDetailsModalVisible(false)} />
+      )
+    }
+  }
+
+  if (videoConferenceLink) {
+    actionItemLinks.push(
+      <ActionItemLink
+        key="videoConference"
+        href={videoConferenceLink}
+        title="Click to join the video conference for this event."
+        target="_blank" rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faVideo} />
+      </ActionItemLink>
+    )
   }
 
   if (actionItemLinks.length > 0) {
