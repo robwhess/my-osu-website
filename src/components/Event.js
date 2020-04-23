@@ -9,7 +9,7 @@ import styled from '@emotion/styled/macro';
 import PropTypes from 'prop-types';
 import MarkdownIt from 'markdown-it';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt, faInfoCircle, faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt, faInfoCircle, faVideo, faCalendarPlus } from '@fortawesome/free-solid-svg-icons';
 
 import Modal from './Modal';
 
@@ -20,15 +20,14 @@ const ExternalLinkIcon = styled.span`
 `;
 
 const ActionItemLink = styled.a`
-  padding: 0 3px;
+  padding: 2px 4px;
   font-size: 16px;
   &:hover {
-    padding: 0 2px;
-    font-size: 18px;
+    background-color: rgba(213, 79, 30, 0.2);
   }
 `
 
-function Event({ day, time, location, link, details, videoConferenceLink }) {
+function Event({ day, time, location, link, details, videoConferenceLink, appointmentsLink }) {
   const [ detailsModalVisible, setDetailsModalVisible ] = useState(false);
 
   let eventString = '';
@@ -86,6 +85,19 @@ function Event({ day, time, location, link, details, videoConferenceLink }) {
         target="_blank" rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faVideo} />
+      </ActionItemLink>
+    )
+  }
+
+  if (appointmentsLink) {
+    actionItemLinks.push(
+      <ActionItemLink
+        key="appointments"
+        href={appointmentsLink}
+        title="Click to make an appointment for this event."
+        target="_blank" rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faCalendarPlus} />
       </ActionItemLink>
     )
   }
