@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleRight, faVideo, faCalendarPlus } from '@fortawesome/free-solid-svg-icons';
 import Helmet from 'react-helmet';
 
 import PageContent from '../components/PageContent';
@@ -20,7 +20,35 @@ const TAInfoSectionBox = styled(SectionBox)`
   h1 {
     margin: 10px 0;
   }
-`
+`;
+
+const HeaderFlexContainer = styled.div`
+  display: flex;
+  align-items: space-between;
+  @media (max-width: ${breakpoints[0]}px) {
+    flex-direction: column;
+  }
+`;
+
+const Title = styled.h1`
+  flex: 5 75%;
+`;
+
+const IconLegend = styled.div`
+  flex 1 25%;
+`;
+
+const IconLegendRow = styled.div`
+  font-size: 14px;
+  margin: 5px;
+  display: table-row;
+`;
+
+const IconLegendItem = styled.div`
+  display: table-cell;
+  ${'' /* max-width: 200px; */}
+  padding: 3px;
+`;
 
 const TAInfoContainer = styled.div`
   margin-bottom: 20px;
@@ -73,15 +101,47 @@ const TAEmail = styled.div`
   }
 `;
 
+function taHasVideoConference(ta) {
+  return (ta.officeHours && ta.officeHours.some(hours => hours.videoConferenceLink))
+    || (ta.gradingHours && ta.gradingHours.some(hours => hours.videoConferenceLink));
+}
+
+function taHasAppointments(ta) {
+  return (ta.officeHours && ta.officeHours.some(hours => hours.appointmentsLink))
+    || (ta.gradingHours && ta.gradingHours.some(hours => hours.appointmentsLink));
+}
+
 function TAInfoPage({ title, tas }) {
   return (
     <PageContent>
       <Helmet title={title} />
       <TAInfoSectionBox>
-        <h1>{title}</h1>
+        <HeaderFlexContainer>
+          <Title>{title}</Title>
+          <IconLegend>
+            {tas.some(taHasVideoConference) && (
+              <IconLegendRow>
+                <IconLegendItem><FontAwesomeIcon icon={faVideo} /></IconLegendItem>
+                <IconLegendItem>&ndash;</IconLegendItem>
+                <IconLegendItem>
+                  When this icon appears for a TA below, click it to join the video conference for their office or grading hours.
+                </IconLegendItem>
+              </IconLegendRow>
+            )}
+            {tas.some(taHasAppointments) && (
+              <IconLegendRow>
+                <IconLegendItem><FontAwesomeIcon icon={faCalendarPlus} /></IconLegendItem>
+                <IconLegendItem>&ndash;</IconLegendItem>
+                <IconLegendItem>
+                  When this icon appears for a TA below, click it to make an appointment for their office or grading hours.
+                </IconLegendItem>
+              </IconLegendRow>
+            )}
+          </IconLegend>
+        </HeaderFlexContainer>
         <TAInfoContainer>
-          {tas.map((ta, i) => (
-            <TAInfoItem key={i}>
+          {tas.map(ta => (
+            <TAInfoItem key={ta.name}>
               <TAInfoData>
                 <h2><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</h2>
                 <TAEmail><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAEmail>

@@ -120,7 +120,9 @@ Event.propTypes = {
   time: PropTypes.string.isRequired,
   location: PropTypes.string,
   link: PropTypes.string,
-  details: PropTypes.string
+  details: PropTypes.string,
+  videoConferenceLink: PropTypes.string,
+  appointmentsLink: PropTypes.string
 };
 
 export default Event;
