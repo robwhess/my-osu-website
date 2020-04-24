@@ -78,7 +78,6 @@ const topics = [
   {
     title: 'The Flex Scanner Generator',
     weeks: [ 2, 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -135,6 +134,7 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
