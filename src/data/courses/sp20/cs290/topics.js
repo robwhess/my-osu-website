@@ -68,8 +68,7 @@ const topics = [
 
   {
     title: 'CSS',
-    weeks: [ 2, 3 ],
-    isCurrent: true,
+    weeks: [ 2, 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -113,16 +112,17 @@ const topics = [
   {
     title: 'JavaScript Fundamentals',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f19/js-fundamentals',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp20/js-fundamentals',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {

@@ -58,7 +58,6 @@ const topics = [
   {
     title: 'Setting up a Server with Node.js and Express',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -131,8 +130,7 @@ const topics = [
 
   {
     title: 'Containerization with Docker',
-    weeks: [ 3 ],
-    isCurrent: true,
+    weeks: [ 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -142,6 +140,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/docker',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1oe74BHxQPGkIuiIzmnezgOD-b2sPKAzv/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -191,16 +194,22 @@ const topics = [
   {
     title: 'Using MySQL to Store API Data',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/using-mysql',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/using-mysql',
+        description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1VyuPooTtBZNuS5k32Z3duY2qHNpdxaIl/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {

@@ -77,8 +77,7 @@ const topics = [
 
   {
     title: 'The Flex Scanner Generator',
-    weeks: [ 2, 3 ],
-    isCurrent: true,
+    weeks: [ 2, 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -88,6 +87,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs480-sp20/flex',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1RXjAuGgpHSAmF05Ew-IID-_7oX-MTRuL/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -106,11 +110,17 @@ const topics = [
 
   {
     title: 'Context-Free Grammars',
-    weeks: [ 3 ],
+    weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/10pu-6e0Iw-IhBTx_HxPzK754QLZh7Ij8/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -124,10 +134,16 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1AWZ4cnXuBXPAOmfmqghQT2X5y1mB8WR9/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
