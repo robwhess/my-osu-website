@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
-import DayTimeLocation from '../components/DayTimeLocation';
+import Event from '../components/Event';
 import AngleList from '../components/AngleList';
 import OfficeHoursList from '../components/OfficeHoursList';
 import TitleLinkDescription from './TitleLinkDescription';
@@ -91,7 +91,7 @@ function CourseEssentialInfo(props) {
           <EssentialInfoData>
             <AngleList noOneElementList
               items={Object.keys(lectures).map((section, i) => (
-                <span>Section {section}: <DayTimeLocation {...lectures[section]} /></span>
+                <span>Section {section}: <Event {...lectures[section]} /></span>
               ))}/>
           </EssentialInfoData>
         </EssentialInfoItem>
@@ -101,7 +101,7 @@ function CourseEssentialInfo(props) {
             <EssentialInfoHeading>Final Exams:</EssentialInfoHeading>
             <EssentialInfoData><AngleList noOneElementList
               items={Object.keys(finalExams).map((section, i) => (
-                <span>Section {section}: <DayTimeLocation {...finalExams[section]} /></span>
+                <span>Section {section}: <Event {...finalExams[section]} /></span>
               ))}/>
             </EssentialInfoData>
           </EssentialInfoItem> :
@@ -145,8 +145,8 @@ CourseEssentialInfo.propTypes = {
   number: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   term: PropTypes.string.isRequired,
-  lectures: PropTypes.objectOf(PropTypes.shape(DayTimeLocation.propTypes)).isRequired,
-  finalExams: PropTypes.objectOf(PropTypes.shape(DayTimeLocation.propTypes)),
+  lectures: PropTypes.objectOf(PropTypes.shape(Event.propTypes)).isRequired,
+  finalExams: PropTypes.objectOf(PropTypes.shape(Event.propTypes)),
   syllabusLink: PropTypes.string.isRequired,
   textbooks: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,

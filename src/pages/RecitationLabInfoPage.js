@@ -12,7 +12,7 @@ import MarkdownIt from 'markdown-it';
 import TwoColumnPageContent from '../components/TwoColumnPageContent';
 import SectionBox from '../components/SectionBox';
 import CourseTopicsList from '../components/CourseTopicsList';
-import DayTimeLocation from '../components/DayTimeLocation';
+import Event from '../components/Event';
 import AngleList from '../components/AngleList';
 import AlternatingTable from '../components/AlternatingTable';
 
@@ -41,7 +41,7 @@ function RecitationLabInfoPage({ title, info }) {
               headings={[ 'Section', 'Weekly Meeting', 'TA(s)' ]}
               rows={Object.keys(info.sections).map((section) => [
                 section,
-                <DayTimeLocation {...info.sections[section].meeting} />,
+                <Event {...info.sections[section].meeting} />,
                 <AngleList singleAngle noOneElementList items={info.sections[section].tas} />
               ])}
             />
@@ -73,7 +73,7 @@ RecitationLabInfoPage.propTypes = {
   info: PropTypes.shape({
     calendar: CourseTopicsList.propTypes.topics,
     sections: PropTypes.objectOf(PropTypes.shape({
-      meeting: PropTypes.shape(DayTimeLocation.propTypes).isRequired,
+      meeting: PropTypes.shape(Event.propTypes).isRequired,
       tas: PropTypes.arrayOf(PropTypes.string).isRequired
     })).isRequired,
     policies: PropTypes.arrayOf(PropTypes.string).isRequired

@@ -6,34 +6,32 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '5:00 &ndash; 7:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/332951740'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/332951740'
       },
       {
         day: 'Wed.',
         time: '5:00 &ndash; 7:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/332951740'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/332951740'
       }
     ],
     gradingHours: [
       {
         day: 'Tues.',
         time: '3:00 &ndash; 5:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU1zTWpxTnMza1owfGRlZmF1bHR8MzI4NmQ3MDhiNWRjZjRlY2FmOTQ1MzhjYTQ3YjFkMzI\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/507934746',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU1zTWpxTnMza1owfGRlZmF1bHR8MzI4NmQ3MDhiNWRjZjRlY2FmOTQ1MzhjYTQ3YjFkMzI'
       },
       {
         day: 'Thurs.',
         time: '3:00 &ndash; 5:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU1zTWpxTnMza1owfGRlZmF1bHR8MzI4NmQ3MDhiNWRjZjRlY2FmOTQ1MzhjYTQ3YjFkMzI\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/507934746',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU1zTWpxTnMza1owfGRlZmF1bHR8MzI4NmQ3MDhiNWRjZjRlY2FmOTQ1MzhjYTQ3YjFkMzI'
       },
       {
         day: 'Fri.',
         time: '3:00 &ndash; 5:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UU1zTWpxTnMza1owfGRlZmF1bHR8MzI4NmQ3MDhiNWRjZjRlY2FmOTQ1MzhjYTQ3YjFkMzI\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/507934746'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/507934746',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU1zTWpxTnMza1owfGRlZmF1bHR8MzI4NmQ3MDhiNWRjZjRlY2FmOTQ1MzhjYTQ3YjFkMzI'
       }
     ]
   },
@@ -44,28 +42,26 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '9:00 &ndash; 11:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/303271033'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/303271033'
       },
       {
         day: 'Thurs.',
         time: '9:00 &ndash; 11:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/303271033'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/303271033'
       }
     ],
     gradingHours: [
       {
         day: 'Fri.',
         time: '9:00am &ndash; 12:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/347416459'
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/347416459'
       },
       {
         day: 'Fri.',
         time: '2:00 &ndash; 5:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/913077108'
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/913077108'
       }
     ]
   }

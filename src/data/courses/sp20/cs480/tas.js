@@ -6,14 +6,12 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '5:00 &ndash; 6:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/841043531'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/841043531'
       },
       {
         day: 'Wed.',
         time: '5:00 &ndash; 6:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/841043531'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/841043531'
       }
     ]
   },
@@ -24,34 +22,32 @@ const taInfo = [
       {
         day: 'Wed.',
         time: '9:00 &ndash; 10:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/146383748'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/146383748'
       },
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 3:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/855540252'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/855540252'
       }
     ],
     gradingHours: [
       {
         day: 'Tues.',
         time: '8:00 &ndash; 9:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/710134679'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/710134679',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM'
       },
       {
         day: 'Thurs.',
         time: '8:00 &ndash; 9:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/710134679'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/710134679',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM'
       },
       {
         day: 'Fri.',
         time: '8:00 &ndash; 9:00am',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Sign up for Grading Demo Appointment**\nhttps://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM\n\n**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/710134679'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/710134679',
+        details: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV4T1g2STl0S1FxfGRlZmF1bHR8YjMzZTE3NWU5YjVkM2UyMTllOTJlNTljYjlmOTQzOWM'
       }
     ]
   },
@@ -62,22 +58,19 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '9:00am &ndash; 1:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/7621923704'
       }
     ],
     gradingHours: [
       {
         day: 'Tues.',
         time: '2:00 &ndash; 5:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/7621923704'
       },
       {
         day: 'Thurs.',
         time: '9:00am &ndash; 12:00pm',
-        location: 'online via Zoom &ndash; click for details',
-        details: '**Join Zoom Meeting**\nhttps://oregonstate.zoom.us/j/7621923704'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/7621923704'
       }
     ]
   }

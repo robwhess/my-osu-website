@@ -10,7 +10,7 @@ import { faAngleDoubleRight, faLink } from '@fortawesome/free-solid-svg-icons';
 import MarkdownIt from 'markdown-it';
 import slugify from 'slugify';
 
-import DayTimeLocation from './DayTimeLocation';
+import Event from './Event';
 
 const md = new MarkdownIt({ breaks: true });
 
@@ -75,7 +75,7 @@ function CourseAssignmentList({ title, assignments, preamble }) {
             </AssignmentTitle>
             <AssignmentInfo>
               {assignment.due ?
-                <DueDate>Due: <DayTimeLocation {...assignment.due} /></DueDate> :
+                <DueDate>Due: <Event {...assignment.due} /></DueDate> :
                 null
               }
 
@@ -101,7 +101,7 @@ CourseAssignmentList.propTypes = {
   assignments: PropTypes.arrayOf(PropTypes.shape({
     link: PropTypes.string,
     title: PropTypes.string.isRequired,
-    due: PropTypes.shape(DayTimeLocation.propTypes),
+    due: PropTypes.shape(Event.propTypes),
     notes: PropTypes.arrayOf(PropTypes.string)
   })).isRequired,
   preamble: PropTypes.string,

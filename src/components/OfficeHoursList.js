@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
 import AngleList from './AngleList';
-import DayTimeLocation from './DayTimeLocation';
+import Event from './Event';
 
 const OfficeHoursTitle = styled.span`
   font-weight: bold;
@@ -21,7 +21,7 @@ function OfficeHoursList(props) {
         <React.Fragment>
           <OfficeHoursTitle>{officeHoursItem.title}</OfficeHoursTitle>
           <AngleList
-            items={officeHoursItem.hours.map((dtl) => <DayTimeLocation {...dtl} />)} />
+            items={officeHoursItem.hours.map((dtl) => <Event {...dtl} />)} />
         </React.Fragment>
       ))}/>
   );
