@@ -148,48 +148,26 @@ const taInfo = [
     email: 'nguyenq2@oregonstate.edu',
     officeHours: [
       {
-        day: 'Mon.',
-        time: '1:00 &ndash; 2:00pm',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/203646919'
-      },
-      {
         day: 'Tues.',
-        time: '1:00 &ndash; 2:00pm',
+        time: '7:00 &ndash; 9:00pm',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/203646919'
       },
       {
         day: 'Thurs.',
-        time: '1:00 &ndash; 2:00pm',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/203646919'
-      },
-      {
-        day: 'Fri.',
-        time: '1:00 &ndash; 2:00pm',
+        time: '7:00 &ndash; 9:00pm',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/203646919'
       }
     ],
     gradingHours: [
       {
         day: 'Mon.',
-        time: '2:00 &ndash; 3:00pm',
-        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/758977888'
-      },
-      {
-        day: 'Tues.',
-        time: '2:00 &ndash; 3:00pm',
+        time: '7:00 &ndash; 9:00pm',
         appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/758977888'
       },
       {
         day: 'Wed.',
-        time: '2:00 &ndash; 3:00pm',
-        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/758977888'
-      },
-      {
-        day: 'Thurs.',
-        time: '2:00 &ndash; 3:00pm',
+        time: '7:00 &ndash; 9:00pm',
         appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU04TzJfSFBQX0lSfGRlZmF1bHR8NTljNGM4MTM4NTJkZjY4MGFkZGY3ZTM3NjM4ZmU0ODg',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/758977888'
       }
