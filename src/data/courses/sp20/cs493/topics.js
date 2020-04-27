@@ -193,7 +193,7 @@ const topics = [
 
   {
     title: 'Using MySQL to Store API Data',
-    weeks: [ 4 ],
+    weeks: [ 4, 5 ],
     isCurrent: true,
     resources: [
       {
@@ -243,16 +243,17 @@ const topics = [
   {
     title: 'Using MongoDB to Store API Data',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/using-mongodb',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/using-mongodb',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
