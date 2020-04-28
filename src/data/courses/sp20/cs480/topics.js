@@ -111,7 +111,6 @@ const topics = [
   {
     title: 'Context-Free Grammars',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
