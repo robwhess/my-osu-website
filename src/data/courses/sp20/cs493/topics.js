@@ -277,6 +277,11 @@ const topics = [
         description: 'MongoDB docs'
       },
       {
+        title: '6 Rules of Thumb for MongoDB Schema Design: Part 1',
+        link: 'https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1',
+        description: 'William Zola (MongoDB Blog)'
+      },
+      {
         title: 'Node.js Quick Start',
         link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
         description: 'MongoDB docs'
