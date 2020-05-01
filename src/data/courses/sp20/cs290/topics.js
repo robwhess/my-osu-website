@@ -112,7 +112,6 @@ const topics = [
   {
     title: 'JavaScript Fundamentals',
     weeks: [ 4, 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -151,6 +150,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp20/js-dom-manipulation',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1ehRVkS17De4aTRbm8Lafca7vijaEZYG3/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -170,6 +174,7 @@ const topics = [
   {
     title: 'JavaScript Event Handling',
     weeks: [ 5, 6 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
