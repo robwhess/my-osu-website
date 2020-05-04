@@ -242,7 +242,6 @@ const topics = [
   {
     title: 'Using MongoDB to Store API Data',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -316,6 +315,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/auth',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1YPb5emLdmAtUp2MCiJ3dFp8ChoOS9RTj/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
