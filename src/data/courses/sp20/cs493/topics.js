@@ -194,7 +194,6 @@ const topics = [
   {
     title: 'Using MySQL to Store API Data',
     weeks: [ 4, 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -306,17 +305,18 @@ const topics = [
 
   {
     title: 'API Authentication and Authorization',
-    weeks: [ 6, 7 ],
+    weeks: [ 6 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/auth',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/auth',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {

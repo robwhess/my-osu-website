@@ -170,6 +170,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs480-sp20/bison',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/19GcQ04DkSEaEYYpyT88nn0ijjF4G6wGQ/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
