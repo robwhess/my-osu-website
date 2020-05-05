@@ -1,17 +1,17 @@
 const finalProject = {
   title: 'Final Project',
   assignments: [
-    // {
-    //   title: 'Final Project Description',
-    //   link: 'https://docs.google.com/document/d/1huy1oFhXV6dNMP2i6sVd9rtQXMXwGsyD3OVdO_ThG4M/edit?usp=sharing'
-    // },
-    // {
-    //   link: 'https://docs.google.com/document/d/1cOjN7g8Cja-Hk2_rAGlpScKjhsD8W_vSO-oZ950P_84/edit?usp=sharing',
-    //   title: 'Final Project Team Evaluation',
-    //   notes: [
-    //     'Due **ON CANVAS** by 5:00pm, Thursday 12/12/2019'
-    //   ]
-    // },
+    {
+      title: 'Final Project Description',
+      link: 'https://docs.google.com/document/d/1C8tRU2AAl-u3GoiZpx7FnzPfofYKQIEo-_Z7pDzh_C4/edit?usp=sharing'
+    },
+    {
+      link: 'https://docs.google.com/document/d/1D6XP1rhRNvkzElXSYDzebMyuRAjHk3uDoUjhoyg3wzU/edit?usp=sharing',
+      title: 'Final Project Team Evaluation',
+      notes: [
+        'Due **ON CANVAS** by 5:00pm, Friday 6/12/2020'
+      ]
+    },
     // {
     //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUdVZU15RFNoakRJfGRlZmF1bHR8ZmUxNjU2MDI5MTY2YjdiY2YyNzk0YjQ3OThlODc2ZDM',
     //   title: 'Final Project Demo Signup',
