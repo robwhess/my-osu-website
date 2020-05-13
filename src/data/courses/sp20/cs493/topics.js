@@ -358,6 +358,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/rate-limiting',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1AzR-C-KLtrYdrYSfeychMHxipOVT-p5w/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
