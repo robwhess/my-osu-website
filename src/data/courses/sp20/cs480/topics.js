@@ -159,8 +159,7 @@ const topics = [
 
   {
     title: 'The Bison Parser Generator',
-    weeks: [ 6 ],
-    isCurrent: true,
+    weeks: [ 6, 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -188,11 +187,17 @@ const topics = [
 
   {
     title: 'Bottom-Up Parsing and LR(1) Grammars',
-    weeks: [ 8 ],
+    weeks: [ 7, 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1vaFAKy1wnH5hIMV1I7vB-e6ute_05xBE/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [

@@ -173,7 +173,6 @@ const topics = [
   {
     title: 'JavaScript Event Handling',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -215,7 +214,7 @@ const topics = [
 
   {
     title: 'Node.js Basics',
-    weeks: [ 6, 7 ],
+    weeks: [ 7 ],
     isCurrent: true,
     resources: [
       {
@@ -226,6 +225,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp20/node-basics',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1qUbB-i5Zos57s8-LqVYf9xv3E8lvG7aJ/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -254,6 +258,7 @@ const topics = [
   {
     title: 'Packages and npm',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
