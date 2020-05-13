@@ -305,7 +305,6 @@ const topics = [
   {
     title: 'API Authentication and Authorization',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -349,16 +348,17 @@ const topics = [
   {
     title: 'API Rate Limiting and Redis',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/rate-limiting',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/rate-limiting',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
