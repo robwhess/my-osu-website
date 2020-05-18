@@ -296,6 +296,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp20/express-serving',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1HEWO4h0g39Kktlw7WkItKBOz1x-svldd/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
