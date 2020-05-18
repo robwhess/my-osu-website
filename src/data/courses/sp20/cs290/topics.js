@@ -215,7 +215,6 @@ const topics = [
   {
     title: 'Node.js Basics',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -287,16 +286,17 @@ const topics = [
   {
     title: 'Serving with Express',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f19/express-serving',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp20/express-serving',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
