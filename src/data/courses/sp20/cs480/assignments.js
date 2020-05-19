@@ -23,17 +23,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 6/1/2020'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash;Abstract syntax trees and simple code generation',
-    //   due: {
-    //     day: 'Monday, 5/27/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 6/10/2019'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/i2oBXFD9',
+      title: 'Assignment 3 &ndash;Abstract syntax trees and simple code generation',
+      due: {
+        day: 'Monday, 6/1/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Friday 6/12/2020'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Final Project &ndash;Code generation and optimization with LLVM',

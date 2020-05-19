@@ -124,7 +124,7 @@ function TAInfoPage({ title, tas }) {
                 <IconLegendItem><FontAwesomeIcon icon={faVideo} /></IconLegendItem>
                 <IconLegendItem>&ndash;</IconLegendItem>
                 <IconLegendItem>
-                  When this icon appears for a TA below, click it to join the video conference for their office or grading hours.
+                  When this icon appears below, click it to join the video conference for the TA's office or grading hours.
                 </IconLegendItem>
               </IconLegendRow>
             )}
@@ -133,7 +133,7 @@ function TAInfoPage({ title, tas }) {
                 <IconLegendItem><FontAwesomeIcon icon={faCalendarPlus} /></IconLegendItem>
                 <IconLegendItem>&ndash;</IconLegendItem>
                 <IconLegendItem>
-                  When this icon appears for a TA below, click it to make an appointment for their office or grading hours.
+                  When this icon appears below, click it to make an appointment for the TA's office or grading hours.
                 </IconLegendItem>
               </IconLegendRow>
             )}
