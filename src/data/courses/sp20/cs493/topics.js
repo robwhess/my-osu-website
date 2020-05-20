@@ -406,6 +406,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/file-storage',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1_66iI5aumvJ0sFF7CmMny6IsEXtMxGG6/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
