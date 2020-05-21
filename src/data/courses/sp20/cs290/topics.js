@@ -353,23 +353,18 @@ const topics = [
         description: 'sitepoint'
       },
       {
-        title: 'Expressions',
-        link: 'http://handlebarsjs.com/expressions.html',
+        title: 'Handlebars Introduction',
+        link: 'https://handlebarsjs.com/guide/',
         description: 'Handlebars docs'
       },
       {
         title: 'Built-In Helpers',
-        link: 'http://handlebarsjs.com/expressions.html',
-        description: 'Handlebars docs'
-      },
-      {
-        title: 'Expressions',
-        link: 'http://handlebarsjs.com/builtin_helpers.html',
+        link: 'https://handlebarsjs.com/guide/builtin-helpers.html',
         description: 'Handlebars docs'
       },
       {
         title: 'Partials',
-        link: 'http://handlebarsjs.com/partials.html',
+        link: 'https://handlebarsjs.com/guide/partials.html',
         description: 'Handlebars docs'
       },
       {
