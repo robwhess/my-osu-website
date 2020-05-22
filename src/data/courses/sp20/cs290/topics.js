@@ -344,6 +344,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp20/handlebars-templating',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1JEOTYV_aH5zj90KB_9FgyCuc9I7pNY4D/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
