@@ -198,6 +198,11 @@ const topics = [
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/1vaFAKy1wnH5hIMV1I7vB-e6ute_05xBE/view?usp=sharing',
         description: 'drawings from lecture'
+      },
+      {
+        title: 'Quiz 5 lecture doodles',
+        link: 'https://drive.google.com/file/d/1RY8ZN4x3KnNf0h_Lg1WAzR53p5uGqX0j/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -211,6 +216,7 @@ const topics = [
   {
     title: 'LLVM: Code Generation and Optimization',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
