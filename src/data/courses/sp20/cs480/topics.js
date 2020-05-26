@@ -222,11 +222,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp19/llvm',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp20/llvm',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
