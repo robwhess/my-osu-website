@@ -455,11 +455,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/11HHOL2J2O8pbppHvAOFjoqqUfmWXURmsT0VmtGaAUew/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/offline-work',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/offline-work',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
