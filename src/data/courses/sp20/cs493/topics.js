@@ -449,7 +449,6 @@ const topics = [
   {
     title: 'Performing Offline Work with RabbitMQ',
     weeks: [ 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -488,6 +487,7 @@ const topics = [
   {
     title: 'Data Replication',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

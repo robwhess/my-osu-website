@@ -285,7 +285,6 @@ const topics = [
   {
     title: 'Serving with Express',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -333,7 +332,7 @@ const topics = [
 
   {
     title: 'Rendering Dynamic Content with Handlebars',
-    weeks: [ 8, 9 ],
+    weeks: [ 8, 9, 10 ],
     isCurrent: true,
     resources: [
       {
@@ -393,6 +392,7 @@ const topics = [
   {
     title: 'Asynchronous Client-Server Communication',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
