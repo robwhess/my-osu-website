@@ -36,7 +36,7 @@ const assignments = {
     },
     {
       link : 'https://classroom.github.com/a/q1i9nexf',
-      title: 'Assignment 4 &ndash;Code generation and optimization with LLVM',
+      title: 'Assignment 4 &ndash;Code generation with LLVM',
       due: {
         day: 'Thursday, 6/11/2020',
         time: '11:59pm'
