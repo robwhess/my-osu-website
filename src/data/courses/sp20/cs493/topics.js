@@ -493,11 +493,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp19/data-replication',
-      //   description: 'code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp20/data-replication',
+        description: 'code written in lecture'
+      }
     ],
     readings: [
       {
