@@ -458,6 +458,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/offline-work',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1OMnXTINbXeqThPc7p2N_j3-zfsDELBRc/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -497,6 +502,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp20/data-replication',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
