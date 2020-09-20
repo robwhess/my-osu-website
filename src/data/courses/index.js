@@ -6,10 +6,12 @@ import sp19 from './sp19/';
 import f19 from './f19/';
 import w20 from './w20/';
 import sp20 from './sp20/';
+import f20 from './f20/';
 
 const currentTerm = 'sp20';
 
 const courseData = {
+  f20: f20,
   sp20: sp20,
   w20: w20,
   f19: f19,
