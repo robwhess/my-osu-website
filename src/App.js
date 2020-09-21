@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Global, css } from '@emotion/core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';

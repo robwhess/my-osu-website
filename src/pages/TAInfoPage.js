@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight, faVideo, faCalendarPlus } from '@fortawesome/free-solid-svg-icons';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';

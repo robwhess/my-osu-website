@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import MarkdownIt from 'markdown-it';
 
 import TwoColumnPageContent from '../components/TwoColumnPageContent';

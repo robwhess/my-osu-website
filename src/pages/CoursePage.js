@@ -6,7 +6,7 @@
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import CourseInfoPage from './CourseInfoPage';
 import TAInfoPage from './TAInfoPage';

@@ -5,7 +5,7 @@
 
 import React from 'react';
 import styled from '@emotion/styled/macro';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';

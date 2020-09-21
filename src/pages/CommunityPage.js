@@ -9,7 +9,7 @@
 /* eslint "jsx-a11y/anchor-is-valid": "off", "jsx-a11y/anchor-has-content": "off" */
 
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import styled from '@emotion/styled/macro';
 
 import PageContent from '../components/PageContent';
