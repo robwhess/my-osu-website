@@ -39,7 +39,7 @@ const recitations = {
       meeting: {
         day: 'Tu',
         time: '8:00 &ndash; 9:50am',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -47,7 +47,7 @@ const recitations = {
       meeting: {
         day: 'Tu',
         time: '10:00 &ndash; 11:50am',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -55,7 +55,7 @@ const recitations = {
       meeting: {
         day: 'Tu',
         time: '12:00 &ndash; 1:50pm',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -63,7 +63,7 @@ const recitations = {
       meeting: {
         day: 'Th',
         time: '8:00 &ndash; 9:50am',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -71,7 +71,7 @@ const recitations = {
       meeting: {
         day: 'Th',
         time: '4:00 &ndash; 5:50pm',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -79,7 +79,7 @@ const recitations = {
       meeting: {
         day: 'Tu',
         time: '2:00 &ndash; 3:50pm',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -87,7 +87,7 @@ const recitations = {
       meeting: {
         day: 'Tu',
         time: '4:00 &ndash; 5:50pm',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -95,7 +95,7 @@ const recitations = {
       meeting: {
         day: 'W',
         time: '4:00 &ndash; 5:50pm',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     },
@@ -103,7 +103,7 @@ const recitations = {
       meeting: {
         day: 'M',
         time: '4:00 &ndash; 5:50pm',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
       tas: [ 'TBD' ]
     }

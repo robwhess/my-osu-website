@@ -18,7 +18,7 @@ const courseDetails = {
     '002': {
       day: 'MWF',
       time: '9:00 &ndash; 9:50am',
-      videoConferenceLink: 'https://oregonstate.zoom.us/j/92187618069?pwd=ai9FK3hoUkZGaEpjQTI2ZTRZZnQ1UT09'
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
     },
   },
 
@@ -35,17 +35,12 @@ const courseDetails = {
   links: [
     {
       title: 'CS 261 on Canvas',
-      link: '#'
+      link: 'https://canvas.oregonstate.edu/courses/1784132'
     },
     {
-      title: 'CS 261-001 on Zoom',
+      title: 'CS 261 on Zoom',
       link: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09',
-      description: 'this is where lectures will happen for section 001'
-    },
-    {
-      title: 'CS 261-002 on Zoom',
-      link: 'https://oregonstate.zoom.us/j/92187618069?pwd=ai9FK3hoUkZGaEpjQTI2ZTRZZnQ1UT09',
-      description: 'this is where lectures will happen for section 002'
+      description: 'this is where meetings will happen for both lecture sections and all recitations'
     },
     {
       title: 'CS 261 on Piazza',

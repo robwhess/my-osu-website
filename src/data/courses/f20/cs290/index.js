@@ -21,7 +21,7 @@ var courseDetails = {
   links: [
     {
       title: 'CS 290 on Canvas',
-      link: '#'
+      link: 'https://canvas.oregonstate.edu/courses/1784181'
     },
     {
       title: 'CS 290 on Zoom',
