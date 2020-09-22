@@ -22,7 +22,7 @@ const courseDetails = {
     },
   },
 
-  syllabusLink: '',
+  syllabusLink: 'https://docs.google.com/document/d/1oush2_14jLl9kwjMuyof-LKW0FzjyeevynbO5uuvNys/edit?usp=sharing',
 
   textbooks: [
     {
@@ -35,7 +35,7 @@ const courseDetails = {
   links: [
     {
       title: 'CS 261 on Canvas',
-      link: ''
+      link: '#'
     },
     {
       title: 'CS 261-001 on Zoom',
@@ -49,12 +49,12 @@ const courseDetails = {
     },
     {
       title: 'CS 261 on Piazza',
-      link: '',
+      link: 'https://piazza.com/oregonstate/fall2020/cs261',
       description: 'course Q & A forum'
     },
     {
       title: 'CS 261 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs261-f20',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {

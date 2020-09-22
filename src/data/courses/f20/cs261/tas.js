@@ -4,17 +4,36 @@ const taInfo = [
     email: 'alsulaiz@oregonstate.edu',
     officeHours: [
       // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 4:30pm',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/694180780'
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
       // },
     ],
     gradingHours: [
       // {
-      //   day: 'Mon.',
-      //   time: '12:30 &ndash; 2:30pm',
-      //   appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV1dGxNN3NxLXlafGRlZmF1bHR8Y2M5NGVlODVlZDk1OGRhNzZmZWU5N2IxYjdlNjQ4M2E',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/845510912'
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Oyebolaji Akinyemi',
+    email: 'akinyemo@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
       // },
     ]
   },
@@ -23,17 +42,150 @@ const taInfo = [
     email: 'bloodg@oregonstate.edu',
     officeHours: [
       // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 4:30pm',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/694180780'
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
       // },
     ],
     gradingHours: [
       // {
-      //   day: 'Mon.',
-      //   time: '12:30 &ndash; 2:30pm',
-      //   appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUV1dGxNN3NxLXlafGRlZmF1bHR8Y2M5NGVlODVlZDk1OGRhNzZmZWU5N2IxYjdlNjQ4M2E',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/845510912'
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Nicholas Broce',
+    email: 'broceni@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Anneliese Doerfler',
+    email: 'doerflea@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Jonathan Dressel',
+    email: 'dresselj@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Sierra Freihoefer',
+    email: 'freihoes@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Honghao Li',
+    email: 'lihongh@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Kevin Neiger',
+    email: 'neigerk@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
+    name: 'Zachary Taylor',
+    email: 'taylozac@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: ' &ndash; ',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
       // },
     ]
   }

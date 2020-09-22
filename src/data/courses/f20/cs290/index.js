@@ -16,12 +16,12 @@ var courseDetails = {
     }
   },
 
-  syllabusLink: '',
+  syllabusLink: 'https://docs.google.com/document/d/1DRPKUG8OXnoPccAwQjbhhoU9bOSc2VebjdTkmb5zX3I/edit?usp=sharing',
 
   links: [
     {
       title: 'CS 290 on Canvas',
-      link: ''
+      link: '#'
     },
     {
       title: 'CS 290 on Zoom',
@@ -30,12 +30,12 @@ var courseDetails = {
     },
     {
       title: 'CS 290 on Piazza',
-      link: '',
+      link: 'https://piazza.com/oregonstate/fall2020/cs290',
       description: 'course Q & A forum'
     },
     {
       title: 'CS 290 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs290-f20',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
