@@ -335,7 +335,6 @@ const topics = [
   {
     title: 'Rendering Dynamic Content with Handlebars',
     weeks: [ 8, 9, 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
