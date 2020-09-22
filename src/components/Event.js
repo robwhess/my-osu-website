@@ -27,7 +27,7 @@ const ActionItemLink = styled.a`
   }
 `
 
-function Event({ day, time, location, link, details, videoConferenceLink, appointmentsLink }) {
+function Event({ day, time, timeZone, location, link, details, videoConferenceLink, appointmentsLink }) {
   const [ detailsModalVisible, setDetailsModalVisible ] = useState(false);
 
   let eventString = '';
@@ -36,8 +36,12 @@ function Event({ day, time, location, link, details, videoConferenceLink, appoin
   } else if (day) {
     eventString = day;
   }
+
+  if (timeZone) {
+    eventString += ` (${timeZone})`;
+  }
   if (location) {
-    eventString += ` (${location})`;
+    eventString += ` &mdash; ${location}`;
   }
 
   const eventStringSpan = <span dangerouslySetInnerHTML={{ __html: md.renderInline(eventString) }} />;
@@ -118,6 +122,7 @@ function Event({ day, time, location, link, details, videoConferenceLink, appoin
 Event.propTypes = {
   day: PropTypes.string.isRequired,
   time: PropTypes.string.isRequired,
+  timeZone: PropTypes.string,
   location: PropTypes.string,
   link: PropTypes.string,
   details: PropTypes.string,

@@ -12,6 +12,7 @@ var courseDetails = {
     '001': {
       day: 'TuTh',
       time: '2:00&ndash;3:50pm',
+      timeZone: 'US/Pacific',
       videoConferenceLink: 'https://oregonstate.zoom.us/j/96154282965?pwd=MGhKb2lGV3JQdEtKeW5mR25CbjY4Zz09'
     }
   },

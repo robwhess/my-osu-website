@@ -13,11 +13,13 @@ const courseDetails = {
     '001': {
       day: 'MWF',
       time: '1:00 &ndash; 1:50pm',
+      timeZone: 'US/Pacific',
       videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
     },
     '002': {
       day: 'MWF',
       time: '9:00 &ndash; 9:50am',
+      timeZone: 'US/Pacific',
       videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
     },
   },
