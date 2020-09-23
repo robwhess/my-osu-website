@@ -22,38 +22,72 @@ const taInfo = [
     name: 'Julian Fortune',
     email: 'fortunej@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '9:00 &ndash; 10:00am',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Wed.',
+        time: '9:00 &ndash; 10:00am',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Fri.',
+        time: '9:00 &ndash; 10:00am',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      }
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Tues.',
+        time: '9:00am &ndash; 12:00pm',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: ''
+      },
     ]
   },
   {
     name: 'Miguel Gaspar',
     email: 'gasparmm@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '7:00 &ndash; 8:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Tues.',
+        time: '7:00 &ndash; 8:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Wed.',
+        time: '7:00 &ndash; 8:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Thurs.',
+        time: '7:00 &ndash; 8:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      }
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Fri.',
+        time: '2:00 &ndash; 5:00pm',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: ''
+      },
     ]
   },
   {
@@ -98,19 +132,34 @@ const taInfo = [
     name: 'Kevin Pfeil',
     email: 'pfeilke@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '11:00am &ndash; 1:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Wed.',
+        time: '11:00am &ndash; 1:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: ''
+      }
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Tues.',
+        time: '11:00am &ndash; 1:00pm',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: ''
+      },
+      {
+        day: 'Thurs.',
+        time: '11:00am &ndash; 1:00pm',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: ''
+      }
     ]
   }
 ];
