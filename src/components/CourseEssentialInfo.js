@@ -69,7 +69,7 @@ function CourseEssentialInfo(props) {
             {personalData.name}
             {
               personalData.email ?
-              <React.Fragment>(<a href={`mailto:${personalData.email}`}>{personalData.email}</a>)</React.Fragment> :
+              <>(<a href={`mailto:${personalData.email}`}>{personalData.email}</a>)</> :
               null
             }
           </EssentialInfoData>
