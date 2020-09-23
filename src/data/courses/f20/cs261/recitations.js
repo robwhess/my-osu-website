@@ -8,30 +8,38 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 1: CS 261 IT',
-    //   isCurrent: true,
-    //   resources: [
-    //     {
-    //       title: 'CS 261 IT Basics',
-    //       link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
-    //       description: 'Presentation slides.'
-    //     },
-    //     {
-    //       title: 'Recitation worksheet',
-    //       link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'test.c',
-    //       link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/938ddc0320bc962797c07d837477651722182146/test.c',
-    //       description: 'This is the C program you\'ll have to download as part of the week\'s recitation exercise.'
-    //     }
-    //   ],
-    //   notes: [
-    //     'This week in recitation, instead of taking a quiz, you\'ll do a basic exercise to ensure that you are able to edit and compile code on the OSU ENGR servers (which you\'ll have to be able to do for all of your assignments in this course).  Complete the worksheet above and show the compiled program\'s output to your TA during your recitation section to earn full credit for this week\'s recitation.',
-    //     '**Make sure to bring your laptop with you to recitation this week!**  The exercise you\'ll do will require a laptop.'
-    //   ]
-    // }
+    {
+      title: 'Week 1: CS 261 IT',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'CS 261 IT Basics',
+          link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
+          description: 'Presentation slides.'
+        },
+        {
+          title: 'Recitation worksheet',
+          link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
+        },
+        {
+          title: 'test.c',
+          link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/938ddc0320bc962797c07d837477651722182146/test.c',
+          description: 'This is the C program you\'ll have to download as part of the week\'s recitation exercise.'
+        }
+      ],
+      readings: [
+        {
+          title: 'Beginner\'s Guide To SSH',
+          link: 'https://youtu.be/qWKK_PNHnnA',
+          description: 'This is a great, short video explaining what SSH is and how to use it.  Give this a watch if you\'re not familiar with SSH and want to brush up.'
+        },
+        {
+          title: 'The Linux command line for beginners',
+          link: 'https://ubuntu.com/tutorials/command-line-for-beginners',
+          description: 'If you need further help with using the terminal, this tutorial might be a good one to follow.  It\'s written in the context of using a terminal directly on a Linux machine, but is still really relevant for what we need to do in this course.'
+        }
+      ]
+    }
   ],
 
   sections: {
@@ -42,7 +50,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Sierra Freihoefer' ]
     },
     '011': {
       meeting: {
@@ -51,7 +59,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Oyebolaji Akinyemi' ]
     },
     '012': {
       meeting: {
@@ -60,7 +68,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Kevin Neiger' ]
     },
     '013': {
       meeting: {
@@ -69,7 +77,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Nicholas Broce' ]
     },
     '014': {
       meeting: {
@@ -78,7 +86,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Gregory Blood' ]
     },
     '015': {
       meeting: {
@@ -87,7 +95,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Anneliese Doerfler' ]
     },
     '016': {
       meeting: {
@@ -96,7 +104,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Jonathan Dressel' ]
     },
     '017': {
       meeting: {
@@ -105,7 +113,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Honghao Li' ]
     },
     '018': {
       meeting: {
@@ -114,7 +122,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Zachary Taylor' ]
     }
   },
 

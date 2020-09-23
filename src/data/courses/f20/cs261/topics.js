@@ -57,7 +57,6 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1I-Rk45M0d6Yh4Zs9CHyjfi8VxOxg1fB-jiReNy6ajyw/edit?usp=sharing',
-        description: 'updated lecture notes'
       },
       // {
       //   title: 'Example code',
