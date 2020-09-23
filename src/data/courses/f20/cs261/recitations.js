@@ -18,7 +18,7 @@ const recitations = {
           description: 'Presentation slides.'
         },
         {
-          title: 'Recitation worksheet',
+          title: 'Recitation exercise',
           link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
         },
         {
