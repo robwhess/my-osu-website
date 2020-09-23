@@ -136,13 +136,13 @@ const taInfo = [
         day: 'Mon.',
         time: '11:00am &ndash; 1:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/my/pfeilke?pwd=ZXBiMW1qSUNtcDdRenM1OVdLM1NBQT09'
       },
       {
         day: 'Wed.',
         time: '11:00am &ndash; 1:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/my/pfeilke?pwd=ZXBiMW1qSUNtcDdRenM1OVdLM1NBQT09'
       }
     ],
     gradingHours: [
