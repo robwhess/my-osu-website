@@ -8,11 +8,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1_18W3dSNqxgCgnq28isyrUitQw1ics5ytn84D407PbU/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1AChDuKfDEpbHT6RbO3Xk5c-nCxrSHdy_/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/11PUTt1tsGvxqckHY0yhr3bZ0Ed4RFL6O/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ]
   },
 
