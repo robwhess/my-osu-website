@@ -3,11 +3,30 @@ const taInfo = [
     name: 'Zahir Al-Sulaimawi',
     email: 'alsulaiz@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '8:00 &ndash; 9:00am',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+      },
+      {
+        day: 'Mon.',
+        time: '10:00am &ndash; 12:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+      },
+      {
+        day: 'Wed.',
+        time: '8:00 &ndash; 9:00am',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+      },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 12:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+      }
     ],
     gradingHours: [
       // {
