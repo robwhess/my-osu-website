@@ -34,6 +34,11 @@ const topics = [
         title: 'Morning lecture doodles',
         link: 'https://drive.google.com/file/d/11im6Dq1iLnFJ2U_RU8oo2oUwcpA-4F6H/view?usp=sharing',
         description: 'from section 002'
+      },
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1FK5VhhaROobW3KMQBPVxK6-2nzBVYop6/view?usp=sharing',
+        description: 'from section 002'
       }
     ],
     readings: [
