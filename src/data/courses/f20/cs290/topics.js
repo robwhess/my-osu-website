@@ -33,9 +33,19 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Chapters 1 and 2',
+        title: 'Git Handbook',
+        link: 'https://guides.github.com/introduction/git-handbook/',
+        description: 'a simple introduction to Git from GitHub Guides'
+      },
+      {
+        title: 'Git-it',
+        link: 'https://github.com/jlord/git-it-electron#git-it-desktop-app',
+        description: 'a desktop app that teaches you how to use Git and GitHub'
+      },
+      {
+        title: 'Pro Git (Chapters 1 and 2)',
         link: 'https://git-scm.com/book/en/v2',
-        description: 'Pro Git'
+        description: 'a more in-depth exploration of how to use Git'
       }
     ]
   },
