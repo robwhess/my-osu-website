@@ -1,18 +1,18 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
-    //   due: {
-    //     day: 'Monday, 10/14/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 10/28/2019',
-    //     '[Lecture doodles](https://drive.google.com/file/d/1MIebHdfzmZcYYOdYTLTx_i7LubgteaBl/view?usp=sharing) &ndash; section 001'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/VeT5s4qj',
+      title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
+      due: {
+        day: 'Monday, 10/19/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 11/2/2020',
+        // '[Lecture doodles](https://drive.google.com/file/d/1MIebHdfzmZcYYOdYTLTx_i7LubgteaBl/view?usp=sharing) &ndash; section 001'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Stacks and queues',
