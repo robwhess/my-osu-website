@@ -208,13 +208,13 @@ const taInfo = [
     officeHours: [
       {
         day: 'Tues.',
-        time: '11:00am &ndash; 12:00pm',
+        time: '9:00 &ndash; 11:00am',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/2503104954?pwd=Q2UvcHBHdnJBYk1LL2dhbFlOUkdxZz09'
       },
       {
         day: 'Thurs.',
-        time: '9:00 &ndash; 11:00am',
+        time: '11:00am &ndash; 12:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/2503104954?pwd=Q2UvcHBHdnJBYk1LL2dhbFlOUkdxZz09'
       }
@@ -312,7 +312,7 @@ const taInfo = [
         day: 'Mon.',
         time: '10:00am &ndash; 2:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/98567162810?pwd=ZFQzeXF0WmtGOEtKamd4QkJWeDRVdz09'
       }
     ],
     gradingHours: [
@@ -321,7 +321,7 @@ const taInfo = [
         time: '10:00am &ndash; 2:00pm',
         timeZone: 'US/Pacific',
         appointmentsLink: '',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/98567162810?pwd=ZFQzeXF0WmtGOEtKamd4QkJWeDRVdz09'
       }
     ]
   }

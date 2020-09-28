@@ -50,7 +50,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Sierra Freihoefer' ]
+      tas: [ 'Nicholas Broce' ]
     },
     '011': {
       meeting: {
@@ -77,7 +77,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Nicholas Broce' ]
+      tas: [ 'Sierra Freihoefer' ]
     },
     '014': {
       meeting: {

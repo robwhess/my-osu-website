@@ -69,37 +69,45 @@ const taInfo = [
     email: 'gasparmm@oregonstate.edu',
     officeHours: [
       {
-        day: 'Mon.',
-        time: '7:00 &ndash; 8:00pm',
-        timeZone: 'US/Pacific',
-        videoConferenceLink: ''
-      },
-      {
         day: 'Tues.',
         time: '7:00 &ndash; 8:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91644148958?pwd=djNXNzd1cFBwWEh6NlZ2Y1RZSjhsUT09'
       },
       {
         day: 'Wed.',
         time: '7:00 &ndash; 8:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91644148958?pwd=djNXNzd1cFBwWEh6NlZ2Y1RZSjhsUT09'
       },
       {
         day: 'Thurs.',
         time: '7:00 &ndash; 8:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91644148958?pwd=djNXNzd1cFBwWEh6NlZ2Y1RZSjhsUT09'
       }
     ],
     gradingHours: [
       {
-        day: 'Fri.',
-        time: '2:00 &ndash; 5:00pm',
+        day: 'Mon.',
+        time: '7:00 &ndash; 8:00pm',
         timeZone: 'US/Pacific',
         appointmentsLink: '',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91644148958?pwd=djNXNzd1cFBwWEh6NlZ2Y1RZSjhsUT09'
+      },
+      {
+        day: 'Fri.',
+        time: '2:00 &ndash; 3:00pm',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91644148958?pwd=djNXNzd1cFBwWEh6NlZ2Y1RZSjhsUT09'
+      },
+      {
+        day: 'Fri.',
+        time: '3:30 &ndash; 5:00pm',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91644148958?pwd=djNXNzd1cFBwWEh6NlZ2Y1RZSjhsUT09'
       }
     ]
   },
