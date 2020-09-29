@@ -25,11 +25,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1JBVKJO5EiASXyF2p4gj7xfDGRGgeIdpWoIj1ds28TRQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1bHIUMAhT8N79IB6-anOBS56n0Qs928B5/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/16HbA2ESdssDffalDtl5VwmIrfkda0awI/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
