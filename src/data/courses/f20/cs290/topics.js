@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 0 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -53,16 +52,17 @@ const topics = [
   {
     title: 'HTML',
     weeks: [ 1 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp20/html',
-      //   description: 'code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f20/html',
+        description: 'code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/15QuYNsmnKznWfd8SyWEBUsamPaD99wy9/view?usp=sharing',

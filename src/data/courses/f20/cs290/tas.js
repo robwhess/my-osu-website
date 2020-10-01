@@ -149,11 +149,18 @@ const taInfo = [
     name: 'Quan Nguyen',
     email: 'nguyenq2@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: '',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Mon.',
+        time: '7:00 &ndash; 9:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9285257362?pwd=cysxSlNjY1JFbFF6b1Voc2FEZldiUT09'
+      },
+      {
+        day: 'Wed.',
+        time: '7:00 &ndash; 9:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9285257362?pwd=cysxSlNjY1JFbFF6b1Voc2FEZldiUT09'
+      }
     ],
     gradingHours: [
       // {
