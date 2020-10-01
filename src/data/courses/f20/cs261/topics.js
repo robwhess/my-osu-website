@@ -23,7 +23,6 @@ const topics = [
   {
     title: 'Git and GitHub',
     weeks: [ 0, 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -37,7 +36,7 @@ const topics = [
       {
         title: 'Afternoon lecture doodles',
         link: 'https://drive.google.com/file/d/1FK5VhhaROobW3KMQBPVxK6-2nzBVYop6/view?usp=sharing',
-        description: 'from section 002'
+        description: 'from section 001'
       }
     ],
     readings: [
