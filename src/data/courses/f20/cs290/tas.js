@@ -163,12 +163,20 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: '',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Mon.',
+        time: '9:00 &ndash; 11:00am',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9285257362?pwd=cysxSlNjY1JFbFF6b1Voc2FEZldiUT09'
+      },
+      {
+        day: 'Wed.',
+        time: '9:00 &ndash; 11:00am',
+        timeZone: 'US/Pacific',
+        appointmentsLink: '',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9285257362?pwd=cysxSlNjY1JFbFF6b1Voc2FEZldiUT09'
+      }
     ]
   },
   {
