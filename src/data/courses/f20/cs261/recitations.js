@@ -2,7 +2,6 @@ const recitations = {
   calendar: [
     {
       title: 'Week 0: No Recitation',
-      isCurrent: true,
       notes: [
         'No recitation this week.'
       ]
@@ -10,7 +9,6 @@ const recitations = {
 
     {
       title: 'Week 1: CS 261 IT',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 261 IT Basics',
@@ -18,7 +16,7 @@ const recitations = {
           description: 'Presentation slides.'
         },
         {
-          title: 'Recitation exercise',
+          title: 'Recitation exercise worksheet',
           link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
         },
         {
@@ -37,6 +35,22 @@ const recitations = {
           title: 'The Linux command line for beginners',
           link: 'https://ubuntu.com/tutorials/command-line-for-beginners',
           description: 'If you need further help with using the terminal, this tutorial might be a good one to follow.  It\'s written in the context of using a terminal directly on a Linux machine, but is still really relevant for what we need to do in this course.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 2: C Pointers and Memory Allocation',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/14iKjOR6u8xYm1IUbvUSs538WrTD8nCXsVeZt24vE_bk/edit?usp=sharing'
+        },
+        {
+          title: 'prog1.c and prog2.c',
+          link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/938ddc0320bc962797c07d837477651722182146/test.c',
+          description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
         }
       ]
     }
