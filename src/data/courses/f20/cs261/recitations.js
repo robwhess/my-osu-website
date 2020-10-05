@@ -49,7 +49,7 @@ const recitations = {
         },
         {
           title: 'prog1.c and prog2.c',
-          link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/938ddc0320bc962797c07d837477651722182146/test.c',
+          link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
           description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
         }
       ]
