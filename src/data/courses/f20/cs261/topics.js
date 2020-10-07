@@ -77,11 +77,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/17xOt_0JDUM83KPg26b52azCH1BO4rxWK/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1FK5VhhaROobW3KMQBPVxK6-2nzBVYop6/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1ia7rWF3xXX5waJk0TqKZyV2JA5C3ell9/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
