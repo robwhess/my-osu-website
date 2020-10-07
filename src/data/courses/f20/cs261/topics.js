@@ -72,9 +72,14 @@ const topics = [
         link: 'https://github.com/osu-cs261-f20/c-basics',
         description: 'code written in lecture'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/17xOt_0JDUM83KPg26b52azCH1BO4rxWK/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrU3ZfUVZjSlJiaWZfaENVWTFYRDVIdXkzWUY0/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1FK5VhhaROobW3KMQBPVxK6-2nzBVYop6/view?usp=sharing',
       //   description: 'from section 001'
       // }
     ],
