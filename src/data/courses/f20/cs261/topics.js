@@ -60,7 +60,7 @@ const topics = [
 
   {
     title: 'C Basics',
-    weeks: [ 1, 2 ],
+    weeks: [ 1, 2, 3 ],
     isCurrent: true,
     resources: [
       {
@@ -127,7 +127,7 @@ const topics = [
 
   {
     title: 'Dynamic Arrays and Linked Lists',
-    weeks: [ 2 ],
+    weeks: [ 3 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -170,7 +170,7 @@ const topics = [
 
   {
     title: 'Complexity Analysis (Big O)',
-    weeks: [ 3 ],
+    weeks: [ 3, 4 ],
     resources: [
       {
         title: 'Lecture notes',
