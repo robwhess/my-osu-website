@@ -7,25 +7,25 @@ const taInfo = [
         day: 'Mon.',
         time: '8:00 &ndash; 9:00am',
         timeZone: 'US/Pacific',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397?pwd=SzdtM0dNajJzUlR2MFBIRWFHWFhzZz09'
       },
       {
         day: 'Mon.',
         time: '10:00am &ndash; 12:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397?pwd=SzdtM0dNajJzUlR2MFBIRWFHWFhzZz09'
       },
       {
         day: 'Wed.',
         time: '8:00 &ndash; 9:00am',
         timeZone: 'US/Pacific',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397?pwd=SzdtM0dNajJzUlR2MFBIRWFHWFhzZz09'
       },
       {
         day: 'Wed.',
         time: '10:00am &ndash; 12:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/8120429397?pwd=SzdtM0dNajJzUlR2MFBIRWFHWFhzZz09'
       }
     ],
     gradingHours: [
