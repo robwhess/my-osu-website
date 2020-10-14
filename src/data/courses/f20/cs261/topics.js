@@ -61,7 +61,6 @@ const topics = [
   {
     title: 'C Basics',
     weeks: [ 1, 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -139,11 +138,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/1fNVCYV7jEsWFQlhDArw8VDBNWa5L7MrJ/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1ia7rWF3xXX5waJk0TqKZyV2JA5C3ell9/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1wvMQQnS3TyCDFbGJ2HM_7QqdQySyg9kS/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
