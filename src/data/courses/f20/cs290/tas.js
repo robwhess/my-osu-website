@@ -201,14 +201,14 @@ const taInfo = [
         day: 'Tues.',
         time: '11:00am &ndash; 1:00pm',
         timeZone: 'US/Pacific',
-        appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU84RjhEc0Q0eTc3fGRlZmF1bHR8MjFiZDA0MjI0Mjk3MDJmNzk2YjQ3MGE1ODA3MjczM2Y',
         videoConferenceLink: 'https://oregonstate.zoom.us/my/pfeilke?pwd=ZXBiMW1qSUNtcDdRenM1OVdLM1NBQT09'
       },
       {
         day: 'Thurs.',
         time: '11:00am &ndash; 1:00pm',
         timeZone: 'US/Pacific',
-        appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU84RjhEc0Q0eTc3fGRlZmF1bHR8MjFiZDA0MjI0Mjk3MDJmNzk2YjQ3MGE1ODA3MjczM2Y',
         videoConferenceLink: 'https://oregonstate.zoom.us/my/pfeilke?pwd=ZXBiMW1qSUNtcDdRenM1OVdLM1NBQT09'
       }
     ]

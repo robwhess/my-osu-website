@@ -128,14 +128,20 @@ const topics = [
   {
     title: 'Dynamic Arrays and Linked Lists',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1rv5N3MU833p0HrZSRNMy7SD8Q4jBDqmPzfsPRm1H0ls/edit?usp=sharing'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1fNVCYV7jEsWFQlhDArw8VDBNWa5L7MrJ/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrNkxlZFRwdU5kTW5pSnNtOF9VQ25Qd0t3S2M0/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1ia7rWF3xXX5waJk0TqKZyV2JA5C3ell9/view?usp=sharing',
       //   description: 'from section 001'
       // }
     ],
