@@ -41,7 +41,6 @@ const recitations = {
 
     {
       title: 'Week 2: C Pointers and Memory Allocation',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -51,6 +50,29 @@ const recitations = {
           title: 'prog1.c and prog2.c',
           link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
           description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 3: Week 2 Recitation Review and Assignment 1 Help',
+      notes: [
+        'There won\'t be an exercise for this week\'s recitation.  Instead, the TAs will review the solutions to last week\'s recitation exercise and give a help session on assignment 1.'
+      ]
+    },
+
+    {
+      title: 'Week 4: Iteration and Encapsulation',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1fHzdtB9q3jXAFBz6GtE9GkZjzDxJaWgJeyXCmhZV4tA/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f20/recitation-4',
+          description: 'This GitHub repo contains the linked list code you\'ll have to analyze and fix for this week\'s recitation exercise.'
         }
       ]
     }
