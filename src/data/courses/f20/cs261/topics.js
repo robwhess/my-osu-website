@@ -182,11 +182,16 @@ const topics = [
         link: 'https://docs.google.com/document/d/1aUobiojWEM-9Zne4FT0W1-iTUFK0B_07Hx51jCcDEtw/edit?usp=sharing',
         description: 'notes in progrees'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1sBF6_-w8jrOIE5PrvRQhmbYZ__ydEZ2x/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1rIvvCFUKVlOHgWj8HiZz-L6s-A-5iuu-/view?usp=sharing',
+        description: 'from section 002'
+      },
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1kvbFBYS927j8K67cJUnfCF47qZtQ8HJ-/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
