@@ -22,7 +22,9 @@ const assignments = {
         time: '11:59pm'
       },
       notes: [
-        'Demo due by 11:59pm, Monday 11/16/2020'
+        'Demo due by 11:59pm, Monday 11/16/2020',
+        '[Morning lecture doodles](https://drive.google.com/file/d/194mDYSJ2RncG5yNAL_CddbnFT4kfI0nv/view?usp=sharing) &ndash; from section 002',
+        // '[Afternoon lecture doodles]() &ndash; from section 001'
       ]
     },
     // {
