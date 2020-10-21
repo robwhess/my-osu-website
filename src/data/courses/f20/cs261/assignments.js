@@ -24,7 +24,7 @@ const assignments = {
       notes: [
         'Demo due by 11:59pm, Monday 11/16/2020',
         '[Morning lecture doodles](https://drive.google.com/file/d/194mDYSJ2RncG5yNAL_CddbnFT4kfI0nv/view?usp=sharing) &ndash; from section 002',
-        // '[Afternoon lecture doodles]() &ndash; from section 001'
+        '[Afternoon lecture doodles](https://drive.google.com/file/d/1Hy1ob0ay3bRzFnHzJX6wBkird0_nsg_A/view?usp=sharing) &ndash; from section 001'
       ]
     },
     // {
