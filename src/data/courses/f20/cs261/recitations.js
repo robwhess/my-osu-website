@@ -63,7 +63,6 @@ const recitations = {
 
     {
       title: 'Week 4: Iteration and Encapsulation',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -73,6 +72,22 @@ const recitations = {
           title: 'Recitation exercise code',
           link: 'https://github.com/osu-cs261-f20/recitation-4',
           description: 'This GitHub repo contains the linked list code you\'ll have to analyze and fix for this week\'s recitation exercise.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1BwkBaIK1bqruzXo7-Zn35SHjCJyLkiv52vIEAikuFnc/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f20/recitation-5',
+          description: 'This GitHub repo contains the linked list code you\'ll work with for this week\'s recitation exercise.'
         }
       ]
     }
