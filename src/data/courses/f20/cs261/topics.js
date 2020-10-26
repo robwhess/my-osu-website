@@ -226,11 +226,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/1re0pqcFvbDhHLycgyFHrMr1r2NQIWvzc/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: '',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1_gCVRTLSkFIfZTZaaaK3e7lyrEjj7cOs/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
