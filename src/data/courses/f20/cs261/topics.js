@@ -174,7 +174,7 @@ const topics = [
 
   {
     title: 'Complexity Analysis (Big O)',
-    weeks: [ 4 ],
+    weeks: [ 4, 5 ],
     isCurrent: true,
     resources: [
       {
@@ -214,15 +214,21 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
-    weeks: [ 4 ],
+    weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1-ujrdx618YEaR7ouHl1v84THacVBy4GcIKcnFOmOBzc/edit?usp=sharing'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1re0pqcFvbDhHLycgyFHrMr1r2NQIWvzc/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1C9xTpndPowMYJoIeYGBVCmo4VtvgFF7i/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: '',
       //   description: 'from section 001'
       // }
     ],
