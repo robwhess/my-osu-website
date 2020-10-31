@@ -301,7 +301,7 @@ const topics = [
 
   {
     title: 'Binary Search',
-    weeks: [ 5 ],
+    weeks: [ 6 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -328,8 +328,28 @@ const topics = [
   },
 
   {
-    title: 'Binary Search Trees',
+    title: 'Exam #1',
     weeks: [ 6 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Practice exam',
+        link: 'https://docs.google.com/document/d/1Yf6Yci1qZkOOsgLic2Vfo4JXlnVW0c1Sbtzwo2le4YI/edit?usp=sharing',
+        description: 'This exam is from 2016.  Note that our exam this year will not involve writing code like this old exam.  Also note that this exam also covers binary search trees, which we haven\'t gotten to yet.'
+      },
+      {
+        title: 'Practice exam solutions',
+        link: 'https://docs.google.com/document/d/1woQt6unmolsmlJR0MVNHJN3JGer3tNT8CY7tbvNolHE/edit?usp=sharing'
+      }
+    ],
+    notes: [
+      'Our first exam will be on Friday, 11/6, during our normal lecture time.  You can find more details under "Announcements" on Canvas.'
+    ]
+  },
+
+  {
+    title: 'Binary Search Trees',
+    weeks: [ 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -367,7 +387,7 @@ const topics = [
 
   {
     title: 'Binary Tree Traversals',
-    weeks: [ 6 ],
+    weeks: [ 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -385,7 +405,7 @@ const topics = [
 
   {
     title: 'AVL Trees',
-    weeks: [ 7 ],
+    weeks: [ 8 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -426,7 +446,7 @@ const topics = [
 
   {
     title: 'Priority Queues and Heaps',
-    weeks: [ 8 ],
+    weeks: [ 8, 9 ],
     resources: [
       {
         title: 'Lecture notes',
