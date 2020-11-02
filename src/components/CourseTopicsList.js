@@ -58,7 +58,7 @@ function CourseTopicsList({ title, topics }) {
         setSlug={true}>
         <Topic>
           {topic.weeks && <h4>{generateWeeksString(topic.weeks)}</h4>}
-          {topic.resources && generateResourcesList("Lecture Materials", topic.resources)}
+          {topic.resources && generateResourcesList("Materials", topic.resources)}
           {topic.readings && generateResourcesList("Readings", topic.readings)}
           {topic.notes &&
             <div>

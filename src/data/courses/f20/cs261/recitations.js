@@ -78,7 +78,6 @@ const recitations = {
 
     {
       title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -89,6 +88,16 @@ const recitations = {
           link: 'https://github.com/osu-cs261-f20/recitation-5',
           description: 'This GitHub repo contains the linked list code you\'ll work with for this week\'s recitation exercise.'
         }
+      ]
+    },
+
+    {
+      title: 'Week 6: Exam #1 Review',
+      isCurrent: true,
+      notes: [
+        'This week\'s recitations will be review sessions for Exam #1.',
+        'TAs will not have prepared material to review.  Instead, the exam review session will be in a Q&A format, where the TA will review course material based on your questions.  Please come to the review with questions to ask if you want the TA to review specific material.',
+        'Attendance at this week\'s recitation is optional.  There will be no graded component for this week\'s recitation.'
       ]
     }
   ],
