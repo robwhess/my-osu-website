@@ -157,11 +157,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp20/js-dom-manipulation',
-      //   description: 'code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f20/js-dom-manipulation',
+        description: 'code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1ehRVkS17De4aTRbm8Lafca7vijaEZYG3/view?usp=sharing',
