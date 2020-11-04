@@ -215,7 +215,6 @@ const topics = [
   {
     title: 'Stacks, Queues, and Deques',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -302,14 +301,20 @@ const topics = [
   {
     title: 'Binary Search',
     weeks: [ 6 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1q3pXT21qbqZ_KCW1XjSGUUZV5doZ0QyHJzolbM3hCbk/edit?usp=sharing'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1SY5w-lcKJQaPkb9vAUCfu1GeXUSbpg-X/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1K03duCzhAdU6d3M-DWQ4fljyax2sR_Q7/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1_gCVRTLSkFIfZTZaaaK3e7lyrEjj7cOs/view?usp=sharing',
       //   description: 'from section 001'
       // }
     ],
