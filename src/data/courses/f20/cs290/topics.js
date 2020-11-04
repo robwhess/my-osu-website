@@ -132,6 +132,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-f20/js-fundamentals',
         description: 'code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/14wpfNSf_PJY5v3VMghJdc7UL6ydLd53E/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -162,11 +167,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-f20/js-dom-manipulation',
         description: 'code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1ehRVkS17De4aTRbm8Lafca7vijaEZYG3/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1IS0_Ouxi1v5oedvpnKIftbg5ptY4au26/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
