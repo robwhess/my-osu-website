@@ -27,18 +27,17 @@ const assignments = {
         '[Afternoon lecture doodles](https://drive.google.com/file/d/1Hy1ob0ay3bRzFnHzJX6wBkird0_nsg_A/view?usp=sharing) &ndash; from section 001'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Binary search trees',
-    //   due: {
-    //     day: 'Monday, ~~11/11/2019~~ 11/18/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, ~~Monday 11/25/2019~~ Friday 12/6/2019',
-    //     '[Lecture doodles](https://drive.google.com/file/d/1Bxr4mD0lQxEfasQHNli12PRL0ifW6kvI/view?usp=sharing) &ndash; section 001'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/17mDujPI',
+      title: 'Assignment 3 &ndash; Binary search trees',
+      due: {
+        day: 'Monday, 11/23/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 12/7/2020'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Priority queues',
