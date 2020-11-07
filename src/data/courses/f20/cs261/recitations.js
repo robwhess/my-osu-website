@@ -93,10 +93,18 @@ const recitations = {
 
     {
       title: 'Week 6: Exam #1 Review',
-      isCurrent: true,
       notes: [
         'This week\'s recitations will be review sessions for Exam #1.',
         'TAs will not have prepared material to review.  Instead, the exam review session will be in a Q&A format, where the TA will review course material based on your questions.  Please come to the review with questions to ask if you want the TA to review specific material.',
+        'Attendance at this week\'s recitation is optional.  There will be no graded component for this week\'s recitation.'
+      ]
+    },
+
+    {
+      title: 'Week 7: Exam #1 Solutions',
+      isCurrent: true,
+      notes: [
+        'In this week\'s recitations, the TAs will review the solutions for Exam #1.',
         'Attendance at this week\'s recitation is optional.  There will be no graded component for this week\'s recitation.'
       ]
     }

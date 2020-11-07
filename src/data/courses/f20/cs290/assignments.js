@@ -29,12 +29,12 @@ const assignments = {
       link : 'https://classroom.github.com/a/oHA9QA58',
       title: 'Assignment 3 &ndash; Client-side JS',
       due: {
-        day: 'Monday, 11/9/2020',
+        day: 'Monday, ~~11/9/2020~~ **11/16/2020**',
         time: '11:59pm'
       },
       notes: [
         'Code Blog due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 11/23/2020'
+        'Demo due by 11:59pm on Monday, ~~11/23/2020~~ **11/30/2020**'
       ]
     },
     // {
