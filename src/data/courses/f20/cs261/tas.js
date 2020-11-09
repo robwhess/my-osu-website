@@ -166,13 +166,13 @@ const taInfo = [
     email: 'dresselj@oregonstate.edu',
     officeHours: [
       {
-        day: 'Mon.',
+        day: 'Wed.',
         time: '8:00 &ndash; 11:00am',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/8797128296?pwd=Tk5KMS9sZTkwZ2V5U2ZYVGxneFRxZz09'
       },
       {
-        day: 'Wed.',
+        day: 'Fri.',
         time: '8:00 &ndash; 11:00am',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/8797128296?pwd=Tk5KMS9sZTkwZ2V5U2ZYVGxneFRxZz09'
