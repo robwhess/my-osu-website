@@ -175,7 +175,6 @@ const topics = [
   {
     title: 'Complexity Analysis (Big O)',
     weeks: [ 4, 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -301,7 +300,6 @@ const topics = [
   {
     title: 'Binary Search',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -335,7 +333,6 @@ const topics = [
   {
     title: 'Exam #1',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Practice exam',
@@ -355,16 +352,22 @@ const topics = [
   {
     title: 'Binary Search Trees',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hJPLu5HvMnpDpfraac4gQHFihOSmVeRZf3acghzPXE0/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1ZoLaO7dHpaPlhB1tKdjLHU50BreAf-6i/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1qi3P2eLiTTlxmm1Ug5CjXr0B6wxzfN-x/view?usp=sharing',
+        description: 'from section 002'
+      },
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1hkWaRTufpPAbeT8R6qtdkdTGm44e8IbA/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
