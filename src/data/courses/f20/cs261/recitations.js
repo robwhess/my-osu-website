@@ -102,10 +102,20 @@ const recitations = {
 
     {
       title: 'Week 7: Exam #1 Solutions',
-      isCurrent: true,
       notes: [
         'In this week\'s recitations, the TAs will review the solutions for Exam #1.',
         'Attendance at this week\'s recitation is optional.  There will be no graded component for this week\'s recitation.'
+      ]
+    },
+
+    {
+      title: 'Week 8: Binary Search Tree Practice',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/125DX70HC-2EfOVWlN4HfN6cFOxyr2QoNBrNaryugTqM/edit?usp=sharing'
+        }
       ]
     }
   ],
