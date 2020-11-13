@@ -242,11 +242,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-f20/node-basics',
         description: 'code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1qUbB-i5Zos57s8-LqVYf9xv3E8lvG7aJ/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/15n0KyxSzqo1aqSFE280RhGSKJp4zA--n/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
