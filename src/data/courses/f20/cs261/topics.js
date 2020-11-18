@@ -352,7 +352,6 @@ const topics = [
   {
     title: 'Binary Search Trees',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -407,11 +406,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/1ekl-pOP1ux_HAAQctiMc3nggo5urT-KU/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1hkWaRTufpPAbeT8R6qtdkdTGm44e8IbA/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1Bn60EGgdsHB4Z4KDJ56JyT6M9wWIIm5D/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
@@ -425,6 +424,7 @@ const topics = [
   {
     title: 'AVL Trees',
     weeks: [ 8, 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
