@@ -401,7 +401,17 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1d_5h_TzL8gMy2GyxDOYdAG8JJ3fkep7i3GWM_UnaqvM/edit?usp=sharing'
-      }
+      },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1ekl-pOP1ux_HAAQctiMc3nggo5urT-KU/view?usp=sharing',
+        description: 'from section 002'
+      },
+      // {
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1hkWaRTufpPAbeT8R6qtdkdTGm44e8IbA/view?usp=sharing',
+      //   description: 'from section 001'
+      // }
     ],
     readings: [
       {
