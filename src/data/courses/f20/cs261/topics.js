@@ -351,7 +351,7 @@ const topics = [
 
   {
     title: 'Binary Search Trees',
-    weeks: [ 7 ],
+    weeks: [ 7, 8 ],
     isCurrent: true,
     resources: [
       {
@@ -395,7 +395,8 @@ const topics = [
 
   {
     title: 'Binary Tree Traversals',
-    weeks: [ 7 ],
+    weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -413,7 +414,7 @@ const topics = [
 
   {
     title: 'AVL Trees',
-    weeks: [ 8 ],
+    weeks: [ 8, 9 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -454,7 +455,7 @@ const topics = [
 
   {
     title: 'Priority Queues and Heaps',
-    weeks: [ 8, 9 ],
+    weeks: [ 9, 10 ],
     resources: [
       {
         title: 'Lecture notes',
