@@ -115,7 +115,19 @@ const recitations = {
         {
           title: 'Recitation exercise worksheet',
           link: 'https://docs.google.com/document/d/125DX70HC-2EfOVWlN4HfN6cFOxyr2QoNBrNaryugTqM/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise solutions',
+          link: 'https://drive.google.com/file/d/18Xmd-gA02j8EIfCBFYHp6w34eYARyfqy/view?usp=sharing'
         }
+      ]
+    },
+
+    {
+      title: 'Week 9: No Recitation',
+      isCurrent: true,
+      notes: [
+        'No recitation this week due to the Thanksgiving holiday.'
       ]
     }
   ],
