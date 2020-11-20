@@ -435,11 +435,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/1GCYNaLF2qtU-KHhzD5quY-5qUKW2Jm8u/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1Bn60EGgdsHB4Z4KDJ56JyT6M9wWIIm5D/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1nVMxENwHrzAPl5Fw9IVO2l9_2MaSlmmR/view?usp=sharing',
+        description: 'from section 001'
+      }
       // {
       //   title: 'AVL Trees "Quiz"',
       //   link: 'https://docs.google.com/document/d/12ZfZhlYodHqZr9y3y431gztxwy5_oZvJ8keGUGbb6io/edit?usp=sharing'
