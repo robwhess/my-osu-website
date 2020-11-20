@@ -430,9 +430,14 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1z954mUuOKFdPImsg8cyPde7ycXYGFh5j3pDJgXpYDkY/edit?usp=sharing'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1GCYNaLF2qtU-KHhzD5quY-5qUKW2Jm8u/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrM3k2c0pDblJfVENzTlc0Z0VGX05oa3RDZy1j/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1Bn60EGgdsHB4Z4KDJ56JyT6M9wWIIm5D/view?usp=sharing',
       //   description: 'from section 001'
       // }
       // {
