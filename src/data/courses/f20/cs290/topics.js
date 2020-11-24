@@ -348,17 +348,18 @@ const topics = [
 
   {
     title: 'Rendering Dynamic Content with Handlebars',
-    weeks: [ 8, 9, 10 ],
+    weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp20/handlebars-templating',
-      //   description: 'code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f20/handlebars-templating',
+        description: 'code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1JEOTYV_aH5zj90KB_9FgyCuc9I7pNY4D/view?usp=sharing',

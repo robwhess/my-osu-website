@@ -395,7 +395,6 @@ const topics = [
   {
     title: 'Binary Tree Traversals',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
