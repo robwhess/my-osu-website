@@ -40,17 +40,17 @@ const assignments = {
         '[Afternoon lecture doodles](https://drive.google.com/file/d/1Ku90Hds1sYhpGRfD32c95x378jaczNPU/view?usp=sharing) &ndash; from section 001'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Priority queues',
-    //   due: {
-    //     day: 'Monday, 12/2/2019',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     '**No demo for this assignment**'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/8AU0ZRct',
+      title: 'Assignment 4 &ndash; Priority queues',
+      due: {
+        day: 'Monday, 12/7/2020',
+        time: '11:59pm'
+      },
+      notes: [
+        '**No demo for this assignment**'
+      ]
+    }
   ],
 
   preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
