@@ -360,11 +360,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-f20/handlebars-templating',
         description: 'code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1JEOTYV_aH5zj90KB_9FgyCuc9I7pNY4D/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1ZSdPFF7zGi11qQe9s_L8wPNu-ZszO4Rw/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
