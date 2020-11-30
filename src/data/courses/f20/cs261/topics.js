@@ -438,15 +438,15 @@ const topics = [
         title: 'Afternoon lecture doodles',
         link: 'https://drive.google.com/file/d/1nVMxENwHrzAPl5Fw9IVO2l9_2MaSlmmR/view?usp=sharing',
         description: 'from section 001'
+      },
+      {
+        title: 'AVL Trees "Quiz"',
+        link: 'https://docs.google.com/document/d/12ZfZhlYodHqZr9y3y431gztxwy5_oZvJ8keGUGbb6io/edit?usp=sharing'
+      },
+      {
+        title: 'AVL Trees "Quiz" Solutions',
+        link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrYm5KcjFWUmFpRFNGdy01djA3UjNBOXFvekxj'
       }
-      // {
-      //   title: 'AVL Trees "Quiz"',
-      //   link: 'https://docs.google.com/document/d/12ZfZhlYodHqZr9y3y431gztxwy5_oZvJ8keGUGbb6io/edit?usp=sharing'
-      // },
-      // {
-      //   title: 'AVL Trees "Quiz" Solutions',
-      //   link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrYm5KcjFWUmFpRFNGdy01djA3UjNBOXFvekxj'
-      // }
     ],
     readings: [
       {
@@ -470,14 +470,20 @@ const topics = [
   {
     title: 'Priority Queues and Heaps',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1qJCAaGKhKzmLTxIegdcXQqfKy98RKr0L/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1LXH3iQ9lpiQ-qN6zW6JnT4xeUKC1Xigp/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1nVMxENwHrzAPl5Fw9IVO2l9_2MaSlmmR/view?usp=sharing',
       //   description: 'from section 001'
       // }
     ],
