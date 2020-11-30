@@ -423,7 +423,6 @@ const topics = [
   {
     title: 'AVL Trees',
     weeks: [ 8, 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -481,11 +480,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/1qJCAaGKhKzmLTxIegdcXQqfKy98RKr0L/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1nVMxENwHrzAPl5Fw9IVO2l9_2MaSlmmR/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1dr_SZngQHfbV-bakBM310M7Heq09fguX/view?usp=sharing',
+        description: 'from section 001'
+      }
     ],
     readings: [
       {
