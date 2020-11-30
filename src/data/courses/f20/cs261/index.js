@@ -24,6 +24,21 @@ const courseDetails = {
     },
   },
 
+  finalExams: {
+    '001': {
+      day: 'Tues. 12/8/2020',
+      time: '9:30 &ndash; 11:20am',
+      timeZone: 'US/Pacific',
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
+    },
+    '002': {
+      day: 'Wed. 12/9/2020',
+      time: '6:00 &ndash; 7:50pm',
+      timeZone: 'US/Pacific',
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
+    },
+  },
+
   syllabusLink: 'https://docs.google.com/document/d/1oush2_14jLl9kwjMuyof-LKW0FzjyeevynbO5uuvNys/edit?usp=sharing',
 
   textbooks: [
