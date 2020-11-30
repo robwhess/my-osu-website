@@ -110,7 +110,6 @@ const recitations = {
 
     {
       title: 'Week 8: Binary Search Tree Practice',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -125,9 +124,18 @@ const recitations = {
 
     {
       title: 'Week 9: No Recitation',
-      isCurrent: true,
       notes: [
         'No recitation this week due to the Thanksgiving holiday.'
+      ]
+    },
+
+    {
+      title: 'Week 10: Final Exam Review',
+      isCurrent: true,
+      notes: [
+        'This week\'s recitations will be review sessions for the final exam.',
+        'TAs will not have prepared material to review.  Instead, the exam review session will be in a Q&A format, where the TA will review course material based on your questions.  Please come to the review with questions to ask if you want the TA to review specific material.',
+        'Attendance at this week\'s recitation is optional.  There will be no graded component for this week\'s recitation.'
       ]
     }
   ],
