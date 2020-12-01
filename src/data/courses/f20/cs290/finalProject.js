@@ -36,7 +36,7 @@ const finalProject = {
         'Sign up for a final project demo appointment using the link above.',
         'Sign up for one demo appointment per team.',
         'All team members must attend your demo.',
-        'Code is due on GitHub when when at the time of your demo.',
+        'Code is due on GitHub at the time of your demo.',
         'Come to the demo prepared to screen share your project from one of your team\'s computers.',
         'All final project demos will be held remotely via Zoom.  The meeting link for all demos is [https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09](https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09).'
       ]
