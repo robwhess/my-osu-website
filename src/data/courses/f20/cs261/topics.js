@@ -618,6 +618,29 @@ const topics = [
         description: 'VisuAlgo.net'
       }
     ]
+  },
+
+  {
+    title: 'Final Exam',
+    weeks: [ 11 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Practice exam',
+        link: 'https://docs.google.com/document/d/1Ye6iIFtszKI_egmGiafepScDDBxW8EtfBhGrAs_Yr6Q/edit?usp=sharing',
+        description: 'This exam is from 2016.  Note that our exam this year will not cover hash tables or graphs, which are included in this old exam.'
+      },
+      {
+        title: 'Practice exam solutions',
+        link: 'https://docs.google.com/document/d/1QLwMFN67ApiB4r754wSpvusHbTx5sRN2rG47C1C9czc/edit?usp=sharing'
+      }
+    ],
+    notes: [
+      'Our final exam will happen during finals week.',
+      'The exam for section 001 (the afternoon lecture) will be on Tuesday, 12/8, from 9:30&ndash;11:20am (PST).',
+      'Thee exam for section 002 (the morning lecture) will be on Wednesday, 12/9, from 6:00&ndash;7:50pm (PST).',
+      'You can find more details under "Announcements" on Canvas.'
+    ]
   }
 ];
 
