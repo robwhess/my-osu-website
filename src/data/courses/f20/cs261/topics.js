@@ -519,11 +519,11 @@ const topics = [
         link: 'https://drive.google.com/file/d/1_yl8CVh9kFHUJX95xkloXtLyz0D9qNTz/view?usp=sharing',
         description: 'from section 002'
       },
-      // {
-      //   title: 'Afternoon lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1dr_SZngQHfbV-bakBM310M7Heq09fguX/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
+      {
+        title: 'Afternoon lecture doodles',
+        link: 'https://drive.google.com/file/d/1JjwGucT2-ia-AmEMsjqLGhC45dc1ceHN/view?usp=sharing',
+        description: 'from section 001'
+      }
       // {
       //   title: 'Example code (chained hash table)',
       //   link: 'https://github.com/osu-cs261-f18/chained-hash'
