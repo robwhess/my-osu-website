@@ -468,7 +468,7 @@ const topics = [
 
   {
     title: 'Priority Queues and Heaps',
-    weeks: [ 9, 10 ],
+    weeks: [ 10 ],
     isCurrent: true,
     resources: [
       {
@@ -507,17 +507,23 @@ const topics = [
 
   {
     title: 'Maps and Hash Tables',
-    weeks: [ 9, 10 ],
+    weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing'
       },
+      {
+        title: 'Morning lecture doodles',
+        link: 'https://drive.google.com/file/d/1_yl8CVh9kFHUJX95xkloXtLyz0D9qNTz/view?usp=sharing',
+        description: 'from section 002'
+      },
       // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1zuNyPROzWs1TNy6aE9euyVYFo52PrlBP/view?usp=sharing',
+      //   title: 'Afternoon lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1dr_SZngQHfbV-bakBM310M7Heq09fguX/view?usp=sharing',
       //   description: 'from section 001'
-      // },
+      // }
       // {
       //   title: 'Example code (chained hash table)',
       //   link: 'https://github.com/osu-cs261-f18/chained-hash'
