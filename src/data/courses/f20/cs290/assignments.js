@@ -52,7 +52,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/sLOraoPI',
       title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
       due: {
-        day: 'Wednesday, 12/2/2020',
+        day: '~~Wednesday, 12/2/2020~~ **Thursday, 12/3/2020**',
         time: '11:59pm'
       },
       notes: [

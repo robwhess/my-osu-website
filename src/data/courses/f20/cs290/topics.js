@@ -418,11 +418,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-f20/async-communication',
         description: 'code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1X8RnJv8C1talYReqNiMrHBoxdsBb_LFf/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1WEn-0Agv0nsVQTBZTq628A78cuZjVw1i/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
