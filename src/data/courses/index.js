@@ -7,10 +7,12 @@ import f19 from './f19/';
 import w20 from './w20/';
 import sp20 from './sp20/';
 import f20 from './f20/';
+import w21 from './w21/';
 
-const currentTerm = 'f20';
+const currentTerm = 'w21';
 
 const courseData = {
+  w21: w21,
   f20: f20,
   sp20: sp20,
   w20: w20,
