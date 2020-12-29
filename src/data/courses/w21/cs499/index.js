@@ -20,10 +20,10 @@ var courseDetails = {
   syllabusLink: 'https://docs.google.com/document/d/1INiIkNX6tdWtZDYRQYUDsAWN7pHlEYIitb0PiDwz2rc/edit?usp=sharing',
 
   links: [
-    // {
-    //   title: 'CS 499 on Canvas',
-    //   link: ''
-    // },
+    {
+      title: 'CS 499 on Canvas',
+      link: 'https://canvas.oregonstate.edu/courses/1807574'
+    },
     {
       title: 'CS 499 on Zoom',
       link: 'https://oregonstate.zoom.us/j/98393113925?pwd=bTBsY3hJU0c4anpydzUwOXNhQzFndz09',

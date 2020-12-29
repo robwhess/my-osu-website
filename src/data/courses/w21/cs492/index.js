@@ -20,10 +20,10 @@ const courseDetails = {
   syllabusLink: 'https://docs.google.com/document/d/1AOVGJkSt0PCCNTF7OG8aWMDT0gTaA1iZG2GLMWIetCg/edit?usp=sharing',
 
   links: [
-    // {
-    //   title: 'CS 492 on Canvas',
-    //   link: ''
-    // },
+    {
+      title: 'CS 492 on Canvas',
+      link: 'https://canvas.oregonstate.edu/courses/1799013'
+    },
     {
       title: 'CS 492 on Zoom',
       link: 'https://oregonstate.zoom.us/j/92801441901?pwd=SjZScXRyUUREVG11SGNZVEhCY0lnUT09',
