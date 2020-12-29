@@ -19,7 +19,7 @@ const topics = [
   },
 
   {
-    title: 'Java',
+    title: 'Java Crash Course',
     weeks: [ 1 ],
     isCurrent: true,
     resources: [
