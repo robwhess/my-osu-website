@@ -37,21 +37,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14rZmZWMDETj1EIu1Oj4BZAwJhtg3grTZCXwLmDfze8k/edit?usp=sharing'
       },
-      // {
-      //   title: 'JSX and Elements code',
-      //   link: 'https://codepen.io/robwhess/pen/LYEdEZo',
-      //   description: 'on Codepen'
-      // },
-      // {
-      //   title: 'Our First Components code',
-      //   link: 'https://codepen.io/robwhess/pen/RwNMNoW',
-      //   description: 'on Codepen'
-      // },
-      // {
-      //   title: 'A Stateful Clock code',
-      //   link: 'https://codepen.io/robwhess/pen/povLvRa',
-      //   description: 'on Codepen'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/jsx-and-components',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
