@@ -30,9 +30,9 @@ const courseDetails = {
       description: 'this is where lectures for this course will happen'
     },
     {
-      title: 'CS 492 on Piazza',
-      link: 'https://piazza.com/oregonstate/winter2021/cs492',
-      description: 'course Q & A forum'
+      title: 'CS 492 on Campuswire',
+      link: 'https://campuswire.com/c/GB0ACCF0C',
+      description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
       title: 'CS 492 on GitHub',

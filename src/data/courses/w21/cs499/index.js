@@ -30,9 +30,9 @@ var courseDetails = {
       description: 'this is where lectures for this course will happen'
     },
     {
-      title: 'CS 499 on Piazza',
-      link: 'https://piazza.com/oregonstate/winter2021/cs499001',
-      description: 'course Q & A forum'
+      title: 'CS 499 on Campuswire',
+      link: 'https://campuswire.com/c/G7E8456FE',
+      description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
       title: 'CS 499 on GitHub',
