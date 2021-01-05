@@ -124,7 +124,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/react-hooks',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -162,7 +162,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/using-react-router',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -210,7 +210,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/using-emotion',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -263,7 +263,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/api-communication',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -301,7 +301,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/using-nextjs',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -349,7 +349,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/using-redux',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -387,7 +387,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/using-graphql',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -445,7 +445,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/graphql-api-server',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
@@ -493,7 +493,7 @@ const topics = [
       // {
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs419-w20/authentication',
-      //   description: 'code written during lecture'
+      //   description: 'GitHub repo for code written in lecture'
       // }
     ],
     readings: [
