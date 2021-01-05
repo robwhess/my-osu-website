@@ -11,6 +11,11 @@ const topics = [
     ],
     readings: [
       {
+        title: '2019 Global State of Mobile Report',
+        link: 'https://drive.google.com/file/d/1emCjHamQP5e3kFgWORv8YGnx9RogQPYr/view?usp=sharing',
+        description: 'from Comscore'
+      },
+      {
         title: 'Application Fundamentals',
         link: 'https://developer.android.com/guide/components/fundamentals',
         description: 'Android Developers'
