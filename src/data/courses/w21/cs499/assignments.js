@@ -1,28 +1,28 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 0 &ndash; Sign up for piazza',
-    //   due: {
-    //     day: '~~Monday, 1/20/2020~~ Wednesday, 1/22/2020',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Piazza signup will be checked off when demoing assignment 1'
-    //   ]
-    // },
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; A simple photo app',
-    //   due: {
-    //     day: '~~Monday, 1/20/2020~~ Wednesday, 1/22/2020',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/17/2020'
-    //   ]
-    // },
+    {
+      link : 'https://docs.google.com/document/d/1APBuUp_5hllRSEcpLHPav8y8E8bD8FGxIzVdwQCB2R4/edit?usp=sharing',
+      title: 'Assignment 0 &ndash; Sign up for Campuswire',
+      due: {
+        day: 'Monday, 1/18/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Campuswire signup will be checked off when demoing assignment 1'
+      ]
+    },
+    {
+      link : 'https://classroom.github.com/a/AeHTxi46',
+      title: 'Assignment 1 &ndash; A simple photo app',
+      due: {
+        day: 'Monday, 1/18/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/8/2020'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; A multi-page application using React Router',
