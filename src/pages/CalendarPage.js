@@ -1,6 +1,6 @@
 /*
- * This file contains a component for displaying all courses taught across
- * all terms.
+ * This file contains a component for displaying a page containing a Google
+ * Calendar embed.
  */
 
 import React from 'react';
