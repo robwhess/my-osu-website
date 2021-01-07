@@ -9,6 +9,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import CourseInfoPage from './CourseInfoPage';
+import CalendarPage from './CalendarPage';
 import TAInfoPage from './TAInfoPage';
 import RecitationLabInfoPage from './RecitationLabInfoPage';
 import NoMatchPage from './NoMatchPage';
@@ -52,6 +53,26 @@ function CoursePage({ match }) {
       title: 'Course Info',
       path: `${matchUrl}/`
     });
+
+    /*
+     * If there is a calendar for the course, add route and navbar info for the
+     * calendar page.
+     */
+    if (course.calendarUrl) {
+      const calendarPageUrl = `${matchUrl}/calendar`;
+      routes.push(
+        <Route
+          exact
+          path={calendarPageUrl}
+          render={() => <CalendarPage title={`${course.number} Calendar`} calendarUrl={course.calendarUrl} />}
+          key={calendarPageUrl}
+        />
+      );
+      navLinks.push({
+        title: 'Calendar',
+        path: calendarPageUrl
+      });
+    }
 
     /*
      * If there is TA info for the course, add route and navbar info for the

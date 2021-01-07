@@ -19,6 +19,8 @@ var courseDetails = {
 
   syllabusLink: 'https://docs.google.com/document/d/1INiIkNX6tdWtZDYRQYUDsAWN7pHlEYIitb0PiDwz2rc/edit?usp=sharing',
 
+  calendarUrl: 'https://calendar.google.com/calendar/embed?src=c_3m5m940qqphhblam8s1om1ggi8%40group.calendar.google.com&ctz=America%2FLos_Angeles',
+
   links: [
     {
       title: 'CS 499 on Canvas',

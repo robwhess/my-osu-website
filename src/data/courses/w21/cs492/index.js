@@ -19,6 +19,8 @@ const courseDetails = {
 
   syllabusLink: 'https://docs.google.com/document/d/1AOVGJkSt0PCCNTF7OG8aWMDT0gTaA1iZG2GLMWIetCg/edit?usp=sharing',
 
+  calendarUrl: 'https://calendar.google.com/calendar/embed?src=c_dm591efk1u54ljlj33qi8l03is%40group.calendar.google.com&ctz=America%2FLos_Angeles',
+
   links: [
     {
       title: 'CS 492 on Canvas',
