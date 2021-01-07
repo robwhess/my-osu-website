@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -25,7 +24,7 @@ const topics = [
 
   {
     title: 'Java Crash Course',
-    weeks: [ 1 ],
+    weeks: [ 1, 2 ],
     isCurrent: true,
     resources: [
       {
@@ -36,6 +35,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/java',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1QnFgxgInVYMDDbzCCK3gxSBdunn0DV4c/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
