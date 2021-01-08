@@ -22,7 +22,7 @@ function CalendarPage({ title, calendarUrl }) {
       <Title>{title}</Title>
         <iframe
           title={title}
-          src={`${calendarUrl}&wkst=1&bgcolor=%23ffffff&color=%23EF6C00&showTitle=0&showPrint=0&showTabs=0&showCalendars=0`}
+          src={`${calendarUrl}&wkst=1&bgcolor=%23ffffff&color=%23EF6C00&showTitle=0&showPrint=0&showTabs=1&showCalendars=0`}
           width="100%"
           height="600"
           frameBorder="0"
