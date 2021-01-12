@@ -45,6 +45,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs499-w21/jsx-and-components',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1zLMls4GQaFDN4wgV0FfCfqztUsB_OQcW/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -59,6 +64,7 @@ const topics = [
   {
     title: 'React: From Components to Apps',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
