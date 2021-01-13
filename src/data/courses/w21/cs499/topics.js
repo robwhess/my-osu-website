@@ -35,7 +35,6 @@ const topics = [
   {
     title: 'React: JSX and Components',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -70,21 +69,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1gxjgBCFZfB2cERMZEizn2_Bp8ySonFbwH_fc2id6h78/edit?usp=sharing'
       },
-      // {
-      //   title: 'Handling Events code',
-      //   link: 'https://codepen.io/robwhess/pen/yLyEqZY',
-      //   description: 'on Codepen'
-      // },
-      // {
-      //   title: 'Controlled Components code',
-      //   link: 'https://codepen.io/robwhess/pen/eYmjGBK',
-      //   description: 'on Codepen'
-      // },
-      // {
-      //   title: 'General Purpose <select> code',
-      //   link: 'https://codepen.io/robwhess/pen/mdyGbBJ',
-      //   description: 'on Codepen'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/components-to-apps',
+        description: 'GitHub repo for code written in lecture'
+      }
       // {
       //   title: 'Synchronized Temperature Conversion code',
       //   link: 'https://codepen.io/robwhess/pen/ExaeaLw',
