@@ -77,11 +77,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w20/BasicTodos',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w21/todos',
+        description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1jIH7rdnDdLQITYPSXcjX0z4qL2wXb3Jq/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
