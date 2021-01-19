@@ -63,7 +63,6 @@ const topics = [
   {
     title: 'React: From Components to Apps',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -92,6 +91,7 @@ const topics = [
   {
     title: 'Create React App',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -110,6 +110,7 @@ const topics = [
   {
     title: 'React: Hooks',
     weeks: [ 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

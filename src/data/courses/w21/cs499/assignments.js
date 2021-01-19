@@ -5,7 +5,7 @@ const assignments = {
       link : 'https://docs.google.com/document/d/1APBuUp_5hllRSEcpLHPav8y8E8bD8FGxIzVdwQCB2R4/edit?usp=sharing',
       title: 'Assignment 0 &ndash; Sign up for Campuswire',
       due: {
-        day: 'Monday, 1/18/2021',
+        day: '~~Monday, 1/18/2021~~ **Tuesday, 1/19/2021**',
         time: '11:59pm'
       },
       notes: [
@@ -16,7 +16,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/AeHTxi46',
       title: 'Assignment 1 &ndash; A simple photo app',
       due: {
-        day: 'Monday, 1/18/2021',
+        day: '~~Monday, 1/18/2021~~ **Tuesday, 1/19/2021**',
         time: '11:59pm'
       },
       notes: [
