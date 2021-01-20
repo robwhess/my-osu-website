@@ -116,11 +116,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UBr0sukXuRUs2xb8bx4DUwMg5E6nqAK5_1q3JqBjX3M/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/react-hooks',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/react-hooks',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
