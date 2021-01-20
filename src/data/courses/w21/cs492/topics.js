@@ -119,6 +119,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/RecyclerViewTodos',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1qlQrCq1sbu17B9VWSLnVpI_oVMYkCsI-/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
