@@ -23,17 +23,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 2/8/2020'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; A multi-page application using React Router',
-    //   due: {
-    //     day: 'Monday, 2/3/2020',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 3/2/2020'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/iaTq0whc',
+      title: 'Assignment 2 &ndash; A multi-page application using React Router',
+      due: {
+        day: 'Monday, 2/1/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/22/2021'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Styling an application with Emotion',
