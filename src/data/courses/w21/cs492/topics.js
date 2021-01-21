@@ -70,7 +70,6 @@ const topics = [
   {
     title: 'Our First Android App: TODOs',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -138,16 +137,17 @@ const topics = [
   {
     title: 'User Interactions and RecyclerView',
     weeks: [ 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w20/RecyclerViewTodos',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w21/RecyclerViewTodos',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
