@@ -120,6 +120,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs499-w21/react-hooks',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1B7UyVJzQg0n4T0fyoiEQRWb8j9Ecd9Sq/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
