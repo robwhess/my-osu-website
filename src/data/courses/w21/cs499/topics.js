@@ -109,7 +109,6 @@ const topics = [
   {
     title: 'React: Hooks',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -163,6 +162,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs499-w21/using-react-router',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1W3Hhqtf7l4WetivZnEjJyNB0cS75Evet/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
