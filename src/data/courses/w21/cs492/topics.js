@@ -108,7 +108,6 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -176,16 +175,17 @@ const topics = [
   {
     title: 'Fetching Internet Data using AsyncTask',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w20/GitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w21/GitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
