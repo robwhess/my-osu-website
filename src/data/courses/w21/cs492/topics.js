@@ -136,7 +136,6 @@ const topics = [
   {
     title: 'User Interactions and RecyclerView',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -185,6 +184,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/GitHubSearch',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1TCe7KqGUsXUJFGD78bML-VF7aBt_xbYs/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
