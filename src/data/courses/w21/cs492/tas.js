@@ -32,7 +32,7 @@ const tas = [
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96004278585?pwd=YitYeGQxSzdXVzFvR2RLT2ZpS09Hdz09'
       },
       {
-        day: 'Thurs.',
+        day: 'Fri.',
         time: '10:00am &ndash; 12:00pm',
         timeZone: 'US/Pacific',
         appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUZzNm9qMzhGMDVtfGRlZmF1bHR8M2QxYjI2YmI3MzIwMTIyMzU0MTc2Yjg5NDM5NjkwNzI',
