@@ -216,11 +216,11 @@ const topics = [
         link: 'https://github.com/osu-cs499-w21/api-communication',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1W3Hhqtf7l4WetivZnEjJyNB0cS75Evet/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1vlQ41nMEOkw7UJ9i1cUbyMJ2vigvM5nH/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
