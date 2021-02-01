@@ -152,7 +152,6 @@ const topics = [
   {
     title: 'Client-Side Routing with React Router',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -204,8 +203,52 @@ const topics = [
   },
 
   {
-    title: 'Styling Components with Emotion',
+    title: 'Communicating with an HTTP API',
     weeks: [ 5 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1Q7mF8c3psaiEPX2M2Dzd9Hkqoo60tpD8_XigrGAHShk/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/api-communication',
+        description: 'GitHub repo for code written in lecture'
+      },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1W3Hhqtf7l4WetivZnEjJyNB0cS75Evet/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'AJAX and APIs',
+        link: 'https://reactjs.org/docs/faq-ajax.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'How to fetch data with React Hooks',
+        link: 'https://www.robinwieruch.de/react-hooks-fetch-data',
+        description: 'Robin Wieruch'
+      },
+      {
+        title: 'Async JavaScript: From Callbacks, to Promises, to Async/Await',
+        link: 'https://tylermcginnis.com/async-javascript-from-callbacks-to-promises-to-async-await/',
+        description: 'Tyler McGinnis'
+      },
+      {
+        title: 'How to work with React the right way to avoid some common pitfalls',
+        link: 'https://www.freecodecamp.org/news/how-to-work-with-react-the-right-way-to-avoid-some-common-pitfalls-fc9eb5e34d9e/',
+        description: 'Adeel Imran (freeCodeCamp)'
+      }
+    ]
+  },
+
+  {
+    title: 'Styling Components with Emotion',
+    weeks: [ 6 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -252,44 +295,6 @@ const topics = [
         title: 'Styled Components',
         link: 'https://emotion.sh/docs/styled',
         description: 'Emotion Docs'
-      }
-    ]
-  },
-
-  {
-    title: 'Communicating with an HTTP API',
-    weeks: [ 6 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1Q7mF8c3psaiEPX2M2Dzd9Hkqoo60tpD8_XigrGAHShk/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/api-communication',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'AJAX and APIs',
-        link: 'https://reactjs.org/docs/faq-ajax.html',
-        description: 'React Docs'
-      },
-      {
-        title: 'How to fetch data with React Hooks',
-        link: 'https://www.robinwieruch.de/react-hooks-fetch-data',
-        description: 'Robin Wieruch'
-      },
-      {
-        title: 'Async JavaScript: From Callbacks, to Promises, to Async/Await',
-        link: 'https://tylermcginnis.com/async-javascript-from-callbacks-to-promises-to-async-await/',
-        description: 'Tyler McGinnis'
-      },
-      {
-        title: 'How to work with React the right way to avoid some common pitfalls',
-        link: 'https://www.freecodecamp.org/news/how-to-work-with-react-the-right-way-to-avoid-some-common-pitfalls-fc9eb5e34d9e/',
-        description: 'Adeel Imran (freeCodeCamp)'
       }
     ]
   },
