@@ -228,16 +228,17 @@ const topics = [
   {
     title: 'Starting New Activities with Intents',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w20/GitHubSearchWithIntents',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w21/MultiActivityGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
