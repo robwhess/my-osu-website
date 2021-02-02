@@ -174,7 +174,6 @@ const topics = [
   {
     title: 'Fetching Internet Data using AsyncTask',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -238,6 +237,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/MultiActivityGitHubSearch',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1-tdoXE-mSc6i5dReW8JLkN_iCh-eEXnS/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
