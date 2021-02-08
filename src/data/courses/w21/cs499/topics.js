@@ -258,6 +258,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs499-w21/styling-with-emotion',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1GRZEwWcyi2V-M4N3YerDOFwhb2N8HwwO/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
