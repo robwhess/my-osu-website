@@ -207,6 +207,11 @@ const topics = [
         description: 'Android Developers'
       },
       {
+        title: 'Volley overview',
+        link: 'https://developer.android.com/training/volley',
+        description: 'Android Developers'
+      },
+      {
         title: 'AsyncTask',
         link: 'https://developer.android.com/reference/android/os/AsyncTask',
         description: 'Android Developers'
@@ -322,6 +327,11 @@ const topics = [
         title: 'Lifecycle Aware Data Loading with Architecture Components',
         link: 'https://medium.com/androiddevelopers/lifecycle-aware-data-loading-with-android-architecture-components-f95484159de4',
         description: 'Ian Lake (on Medium)'
+      },
+      {
+        title: 'Retrofit',
+        link: 'https://square.github.io/retrofit/',
+        description: 'A type-safe HTTP client for Android and Java'
       }
     ]
   },
