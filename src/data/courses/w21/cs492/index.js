@@ -1,6 +1,6 @@
 import topics from './topics';
 import assignments from './assignments';
-// import finalProject from './finalProject';
+import finalProject from './finalProject';
 import tas from './tas';
 
 const courseDetails = {
@@ -50,7 +50,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments ],
+  assignmentGroups: [ assignments, finalProject ],
 
   tas: tas
 };

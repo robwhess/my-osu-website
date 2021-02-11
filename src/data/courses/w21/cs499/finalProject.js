@@ -14,7 +14,7 @@ const finalProject = {
       link: 'https://docs.google.com/document/d/17WjO9lM0_52warRKzHgyYEPNLkgO4JJfnw9aFnZu5vE/edit?usp=sharing',
       due: {
         time: '11:59pm',
-        day: 'Monday, 2/22/2020',
+        day: 'Monday, 2/22/2021',
         location: 'on Canvas'
       }
     },
@@ -34,7 +34,7 @@ const finalProject = {
       link: 'https://docs.google.com/document/d/1viOuF-vZOMH8WJhBRwmtqVLeJfb6aGGrz9dHb5Y06t8/edit?usp=sharing',
       due: {
         time: '5:00pm',
-        day: 'Friday, 3/19/2020',
+        day: 'Friday, 3/19/2021',
         location: 'on Canvas'
       }
     },
