@@ -38,7 +38,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/9fzCPwnM',
       title: 'Assignment 3 &ndash; Data fetching and component styling',
       due: {
-        day: 'Monday, 2/15/2021',
+        day: '~~Monday, 2/15/2021~~ **Tuesday, 2/16/2021**',
         time: '11:59pm'
       },
       notes: [
