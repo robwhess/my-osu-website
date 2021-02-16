@@ -279,7 +279,7 @@ const topics = [
 
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
-    weeks: [ 6 ],
+    weeks: [ 6, 7 ],
     isCurrent: true,
     resources: [
       {
@@ -339,16 +339,17 @@ const topics = [
   {
     title: 'Storing Prefs with SharedPreferences',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w20/GitHubSearchWithPrefs',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w21/GitHubSearchWithPrefs',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
