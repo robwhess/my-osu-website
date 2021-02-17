@@ -312,11 +312,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1nYBJTdCKoAbP_pKxjBfSqjozDAPqH5ppiOyh6ZjUjPs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/using-redux',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/using-redux',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
