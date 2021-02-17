@@ -248,7 +248,6 @@ const topics = [
   {
     title: 'Styling Components with Emotion',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -305,8 +304,47 @@ const topics = [
   },
 
   {
+    title: 'Centralizing Application State with Redux',
+    weeks: [ 7, 8 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1nYBJTdCKoAbP_pKxjBfSqjozDAPqH5ppiOyh6ZjUjPs/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs419-w20/using-redux',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Redux: Core Concepts',
+        link: 'https://redux.js.org/introduction/core-concepts',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'Redux: Three Principles',
+        link: 'https://redux.js.org/introduction/three-principles',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'Redux: Basic Tutorial',
+        link: 'https://redux.js.org/basics/basic-tutorial',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'React Redux: Basic Tutorial',
+        link: 'https://react-redux.js.org/introduction/basic-tutorial',
+        description: 'Redux Docs'
+      }
+    ]
+  },
+
+  {
     title: 'Next.js',
-    weeks: [ 6, 7 ],
+    weeks: [ 8 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -348,44 +386,6 @@ const topics = [
         title: 'API Routes',
         link: 'https://nextjs.org/docs/api-routes/introduction',
         description: 'Next.js Docs'
-      }
-    ]
-  },
-
-  {
-    title: 'Centralizing Application State with Redux',
-    weeks: [ 7, 8 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1nYBJTdCKoAbP_pKxjBfSqjozDAPqH5ppiOyh6ZjUjPs/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/using-redux',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Redux: Core Concepts',
-        link: 'https://redux.js.org/introduction/core-concepts',
-        description: 'Redux Docs'
-      },
-      {
-        title: 'Redux: Three Principles',
-        link: 'https://redux.js.org/introduction/three-principles',
-        description: 'Redux Docs'
-      },
-      {
-        title: 'Redux: Basic Tutorial',
-        link: 'https://redux.js.org/basics/basic-tutorial',
-        description: 'Redux Docs'
-      },
-      {
-        title: 'React Redux: Basic Tutorial',
-        link: 'https://react-redux.js.org/introduction/basic-tutorial',
-        description: 'Redux Docs'
       }
     ]
   },
@@ -448,53 +448,53 @@ const topics = [
     ]
   },
 
-  {
-    title: 'Setting up a GraphQL API with Apollo',
-    weeks: [ 9 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1SUmd28_K5qjE5HN3EXU18NZgNPoXyam__0DiMKtHE98/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/graphql-api-server',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Apollo Tutorial (topics 0-3)',
-        link: 'https://www.apollographql.com/docs/tutorial/introduction/',
-        description: 'Apollo Docs'
-      },
-      {
-        title: 'Schema basics',
-        link: 'https://www.apollographql.com/docs/apollo-server/schema/schema/',
-        description: 'Apollo Docs'
-      },
-      {
-        title: 'Data sources',
-        link: 'https://www.apollographql.com/docs/apollo-server/data/data-sources/',
-        description: 'Apollo Docs'
-      },
-      {
-        title: 'Fetching data with resolvers',
-        link: 'https://www.apollographql.com/docs/apollo-server/data/data/',
-        description: 'Apollo docs'
-      },
-      {
-        title: 'Integrating with Node.js middleware',
-        link: 'https://www.apollographql.com/docs/apollo-server/integrations/middleware/',
-        description: 'Apollo docs'
-      },
-      {
-        title: 'API Reference: apollo-server',
-        link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
-        description: 'Apollo docs'
-      }
-    ]
-  },
+  // {
+  //   title: 'Setting up a GraphQL API with Apollo',
+  //   weeks: [ 9 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1SUmd28_K5qjE5HN3EXU18NZgNPoXyam__0DiMKtHE98/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs419-w20/graphql-api-server',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Apollo Tutorial (topics 0-3)',
+  //       link: 'https://www.apollographql.com/docs/tutorial/introduction/',
+  //       description: 'Apollo Docs'
+  //     },
+  //     {
+  //       title: 'Schema basics',
+  //       link: 'https://www.apollographql.com/docs/apollo-server/schema/schema/',
+  //       description: 'Apollo Docs'
+  //     },
+  //     {
+  //       title: 'Data sources',
+  //       link: 'https://www.apollographql.com/docs/apollo-server/data/data-sources/',
+  //       description: 'Apollo Docs'
+  //     },
+  //     {
+  //       title: 'Fetching data with resolvers',
+  //       link: 'https://www.apollographql.com/docs/apollo-server/data/data/',
+  //       description: 'Apollo docs'
+  //     },
+  //     {
+  //       title: 'Integrating with Node.js middleware',
+  //       link: 'https://www.apollographql.com/docs/apollo-server/integrations/middleware/',
+  //       description: 'Apollo docs'
+  //     },
+  //     {
+  //       title: 'API Reference: apollo-server',
+  //       link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
+  //       description: 'Apollo docs'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'Authenticating Users',
