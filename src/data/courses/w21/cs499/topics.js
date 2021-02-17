@@ -338,6 +338,11 @@ const topics = [
         title: 'React Redux: Basic Tutorial',
         link: 'https://react-redux.js.org/introduction/basic-tutorial',
         description: 'Redux Docs'
+      },
+      {
+        title: 'Redux vs. Context vs. State: An in-depth look at state management in React',
+        link: 'https://medium.com/better-programming/redux-vs-context-vs-state-4202be6d3e54',
+        description: 'Denny Scott (on Medium)'
       }
     ]
   },
