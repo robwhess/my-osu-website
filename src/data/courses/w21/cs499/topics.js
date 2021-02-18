@@ -316,6 +316,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs499-w21/using-redux',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1QCw1fMfO5M9kybsrG-pw9htNQ0qAdfea/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
