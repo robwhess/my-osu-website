@@ -280,7 +280,6 @@ const topics = [
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -349,6 +348,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/GitHubSearchWithPrefs',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1bRfOKv5do4oyM15D16tILrP4frFgZoDY/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
