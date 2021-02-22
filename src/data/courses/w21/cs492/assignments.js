@@ -27,7 +27,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/rIxzgs2R',
       title: 'Assignment 3 &ndash; A lifecycle-aware weather app with user preferences',
       due: {
-        day: 'Monday, 2/22/2021',
+        day: '~~Monday, 2/22/2021~~ **Tuesday, 2/23/2021**',
         time: '11:59pm'
       },
       notes: [
