@@ -355,16 +355,17 @@ const topics = [
   {
     title: 'Next.js',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1W_Lgbq_vfwAR3EGJ9BhdB81uYwqE1x5kSM3bMAGIHOk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/using-nextjs',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/using-nextjs',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
