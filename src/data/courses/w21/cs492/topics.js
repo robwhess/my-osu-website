@@ -381,6 +381,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/GitHubSearchWithSQLite',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1vm8zMjaqPuUsHmg9CefBSy1_6gIioEuG/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
