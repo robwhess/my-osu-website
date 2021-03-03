@@ -418,11 +418,11 @@ const topics = [
       //   link: 'https://github.com/osu-cs419-w20/using-graphql',
       //   description: 'GitHub repo for code written in lecture'
       // },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: '',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/14x-CfY8gdI8nf__ty-FNlWDfIWKcqnvj/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
