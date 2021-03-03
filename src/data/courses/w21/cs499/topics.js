@@ -306,7 +306,6 @@ const topics = [
   {
     title: 'Centralizing Application State with Redux',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -359,8 +358,7 @@ const topics = [
 
   {
     title: 'Next.js',
-    weeks: [ 8 ],
-    isCurrent: true,
+    weeks: [ 8, 9 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -408,7 +406,8 @@ const topics = [
 
   {
     title: 'API Queries with GraphQL',
-    weeks: [ 8, 9 ],
+    weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
