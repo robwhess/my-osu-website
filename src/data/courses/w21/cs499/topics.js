@@ -468,54 +468,6 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Setting up a GraphQL API with Apollo',
-  //   weeks: [ 9 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1SUmd28_K5qjE5HN3EXU18NZgNPoXyam__0DiMKtHE98/edit?usp=sharing'
-  //     },
-  //     // {
-  //     //   title: 'Example code',
-  //     //   link: 'https://github.com/osu-cs419-w20/graphql-api-server',
-  //     //   description: 'GitHub repo for code written in lecture'
-  //     // }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Apollo Tutorial (topics 0-3)',
-  //       link: 'https://www.apollographql.com/docs/tutorial/introduction/',
-  //       description: 'Apollo Docs'
-  //     },
-  //     {
-  //       title: 'Schema basics',
-  //       link: 'https://www.apollographql.com/docs/apollo-server/schema/schema/',
-  //       description: 'Apollo Docs'
-  //     },
-  //     {
-  //       title: 'Data sources',
-  //       link: 'https://www.apollographql.com/docs/apollo-server/data/data-sources/',
-  //       description: 'Apollo Docs'
-  //     },
-  //     {
-  //       title: 'Fetching data with resolvers',
-  //       link: 'https://www.apollographql.com/docs/apollo-server/data/data/',
-  //       description: 'Apollo docs'
-  //     },
-  //     {
-  //       title: 'Integrating with Node.js middleware',
-  //       link: 'https://www.apollographql.com/docs/apollo-server/integrations/middleware/',
-  //       description: 'Apollo docs'
-  //     },
-  //     {
-  //       title: 'API Reference: apollo-server',
-  //       link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
-  //       description: 'Apollo docs'
-  //     }
-  //   ]
-  // },
-
   {
     title: 'Authenticating Users',
     weeks: [ 10 ],
@@ -550,6 +502,54 @@ const topics = [
         title: 'Cross-site request forgery',
         link: 'https://en.wikipedia.org/wiki/Cross-site_request_forgery',
         description: 'Wikipedia'
+      }
+    ]
+  },
+
+  {
+    title: 'Bonus Material: Setting up a GraphQL API with Apollo',
+    weeks: [ 11 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1SUmd28_K5qjE5HN3EXU18NZgNPoXyam__0DiMKtHE98/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs419-w20/graphql-api-server',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Apollo Tutorial (topics 0-3)',
+        link: 'https://www.apollographql.com/docs/tutorial/introduction/',
+        description: 'Apollo Docs'
+      },
+      {
+        title: 'Schema basics',
+        link: 'https://www.apollographql.com/docs/apollo-server/schema/schema/',
+        description: 'Apollo Docs'
+      },
+      {
+        title: 'Data sources',
+        link: 'https://www.apollographql.com/docs/apollo-server/data/data-sources/',
+        description: 'Apollo Docs'
+      },
+      {
+        title: 'Fetching data with resolvers',
+        link: 'https://www.apollographql.com/docs/apollo-server/data/data/',
+        description: 'Apollo docs'
+      },
+      {
+        title: 'Integrating with Node.js middleware',
+        link: 'https://www.apollographql.com/docs/apollo-server/integrations/middleware/',
+        description: 'Apollo docs'
+      },
+      {
+        title: 'API Reference: apollo-server',
+        link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
+        description: 'Apollo docs'
       }
     ]
   }
