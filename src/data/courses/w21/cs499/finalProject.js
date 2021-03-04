@@ -38,19 +38,18 @@ const finalProject = {
         location: 'on Canvas'
       }
     },
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUo3U1pDaXF5WHUyfGRlZmF1bHR8MWI2NTk2NDg3NTBmNDA5NTdmY2RmZTFkOWFiZWY5NGI',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Final project demos will be during finals week in KEC 1109.',
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo.',
-    //     'Code is due on GitHub when when at the time of your demo.',
-    //     'Plan on using one of your team\'s laptops for the demo.',
-    //     '**All final project demos will be held remotely via Zoom.**  The Zoom meeting number is 321-397-494, and the meeting link is: [https://oregonstate.zoom.us/j/321397494](https://oregonstate.zoom.us/j/321397494).  Please check your email or Canvas for more details.'
-    //   ]
-    // }
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UU5lX0wwMmRLWll3fGRlZmF1bHR8YTY3MWY4YzUxZWQ4ZmMzY2ZiY2Y1NmM0ZjkxYjJjODQ',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo.',
+        'Code is due on GitHub at the time of your demo.',
+        'Come to the demo prepared to screen share your project from one of your team\'s computers.',
+        'All final project demos will be held remotely via Zoom.  The meeting link for all demos is [https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09](https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09).'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete React-based web application that serves dynamic, interactive data from an API.  You can find more info below.'
