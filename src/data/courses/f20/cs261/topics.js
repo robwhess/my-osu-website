@@ -638,7 +638,7 @@ const topics = [
     notes: [
       'Our final exam will happen during finals week.',
       'The exam for section 001 (the afternoon lecture) will be on Tuesday, 12/8, from 9:30&ndash;11:20am (PST).',
-      'Thee exam for section 002 (the morning lecture) will be on Wednesday, 12/9, from 6:00&ndash;7:50pm (PST).',
+      'The exam for section 002 (the morning lecture) will be on Wednesday, 12/9, from 6:00&ndash;7:50pm (PST).',
       'You can find more details under "Announcements" on Canvas.'
     ]
   }
