@@ -413,11 +413,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1i02SdUAS96QYayvf4KtDa0HmEwZNOLZZb7jZBfbWWl8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/using-graphql',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/using-apollo',
+        description: 'GitHub repo for code written in lecture'
+      },
       {
         title: 'Lecture doodles',
         link: 'https://drive.google.com/file/d/14x-CfY8gdI8nf__ty-FNlWDfIWKcqnvj/view?usp=sharing',
