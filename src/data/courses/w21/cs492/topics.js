@@ -371,7 +371,6 @@ const topics = [
   {
     title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
     weeks: [ 8, 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -414,16 +413,17 @@ const topics = [
   {
     title: 'Background Work and Notifications',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1zZAneZTOFFfDhze99ZeJpOb_0XO98pXfUYr3e8M6Z90/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/OSU-CS492-W19/GitHubSearchWithNotifications',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w21/GitHubSearchWithNotifications',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
@@ -449,32 +449,32 @@ const topics = [
     ]
   },
 
-  {
-    title: 'A Photo Gallery App',
-    weeks: [ 10 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w20/PhotoGallery',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Creating swipe views with tabs',
-        link: 'https://developer.android.com/training/implementing-navigation/lateral',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Glide documentation',
-        link: 'http://bumptech.github.io/glide/'
-      }
-    ]
-  }
+  // {
+  //   title: 'A Photo Gallery App',
+  //   weeks: [ 10 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1GdTrvxIm27MMKjYiVKyR7LF_kdU58IiYQSL7Tyqev4s/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs492-w20/PhotoGallery',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Creating swipe views with tabs',
+  //       link: 'https://developer.android.com/training/implementing-navigation/lateral',
+  //       description: 'Android Developers'
+  //     },
+  //     {
+  //       title: 'Glide documentation',
+  //       link: 'http://bumptech.github.io/glide/'
+  //     }
+  //   ]
+  // }
 ];
 
 export default topics;
