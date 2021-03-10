@@ -407,7 +407,6 @@ const topics = [
   {
     title: 'API Queries with GraphQL',
     weeks: [ 9, 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -471,15 +470,21 @@ const topics = [
   {
     title: 'Authenticating Users',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/17zERsoO6i5MMQjVfDsb_OKo2MopVV4Jn8Q8qbo8bFFI/edit?usp=sharing'
       },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w21/authentication',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs419-w20/authentication',
-      //   description: 'GitHub repo for code written in lecture'
+      //   title: 'Lecture doodles',
+      //   link: '',
+      //   description: 'drawings from lecture'
       // }
     ],
     readings: [
@@ -489,19 +494,29 @@ const topics = [
         description: 'MDN'
       },
       {
-        title: 'The Ultimate Guide to Next.js Authentication with Auth0',
-        link: 'https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0/',
-        description: 'Sandrino Di Mattia (Auth0 Blog)'
+        title: 'Http-only cookie',
+        link: 'https://en.wikipedia.org/wiki/HTTP_cookie#Http-only_cookie',
+        description: 'under "HTTP cookie" on Wikipedia'
       },
       {
         title: 'Example app utilizing cookie-based authentication',
-        link: 'https://github.com/zeit/next.js/tree/canary/examples/with-cookie-auth',
+        link: 'https://github.com/vercel/next.js/tree/canary/examples/with-cookie-auth-fauna',
         description: 'Next.js examples on GitHub'
       },
       {
         title: 'Cross-site request forgery',
         link: 'https://en.wikipedia.org/wiki/Cross-site_request_forgery',
         description: 'Wikipedia'
+      },
+      {
+        title: 'The Ultimate Guide to Next.js Authentication with Auth0',
+        link: 'https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0/',
+        description: 'Sandrino Di Mattia (Auth0 Blog)'
+      },
+      {
+        title: 'OAuth 2.0',
+        link: 'https://oauth.net/2/',
+        description: 'OAuth 2.0 documentation'
       }
     ]
   },
