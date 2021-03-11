@@ -481,11 +481,11 @@ const topics = [
         link: 'https://github.com/osu-cs499-w21/authentication',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: '',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1SL07XpSPuOpxj4UhcZ-84Y4DRR9Boceu/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
