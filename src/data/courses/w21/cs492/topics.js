@@ -412,7 +412,7 @@ const topics = [
 
   {
     title: 'Background Work and Notifications',
-    weeks: [ 9, 10 ],
+    weeks: [ 10 ],
     isCurrent: true,
     resources: [
       {
@@ -423,6 +423,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs492-w21/GitHubSearchWithNotifications',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/13S50X10UDjb-yr6IeEFulb8yjdj_1Wxh/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
