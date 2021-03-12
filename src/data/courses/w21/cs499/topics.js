@@ -509,6 +509,16 @@ const topics = [
         description: 'Wikipedia'
       },
       {
+        title: 'Cross-Site Request Forgery Prevention Cheat Sheet',
+        link: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html',
+        description: 'OWASP'
+      },
+      {
+        title: 'OAuth 2 Simplified',
+        link: 'https://aaronparecki.com/oauth-2-simplified/',
+        description: 'Aaron Parecki'
+      },
+      {
         title: 'The Ultimate Guide to Next.js Authentication with Auth0',
         link: 'https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0/',
         description: 'Sandrino Di Mattia (Auth0 Blog)'
