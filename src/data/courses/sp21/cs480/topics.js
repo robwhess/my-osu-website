@@ -28,30 +28,8 @@ const topics = [
   },
 
   {
-    title: 'Finite Automata and Regular Expressions',
-    weeks: [ 1 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1FODBAP83e_JCkJBTxzfa5672vKLdCRDLw4c4UEjMerE/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1yoaR8pcAWrmHIjrdAHuB1VSBOL_8HPKR/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Chapter 2 (2.1 - 2.3)',
-        description: 'Cooper and Torczon'
-      }
-    ]
-  },
-
-  {
     title: 'Regular Expression-Based Scanners',
-    weeks: [ 2 ],
+    weeks: [ 1, 2 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -70,8 +48,18 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Chapter 2 (2.4 - 2.5)',
+        title: 'Chapter 2',
         description: 'Cooper and Torczon'
+      },
+      {
+        title: 'RegexOne',
+        link: 'https://regexone.com/',
+        description: 'Learn regular expressions with simple, interactive exercises'
+      },
+      {
+        title: 'RegExr',
+        link: 'https://regexr.com/',
+        description: 'An online tool to learn, build, and texst regular expressions'
       }
     ]
   },
