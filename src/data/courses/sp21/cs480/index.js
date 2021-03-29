@@ -40,7 +40,7 @@ var courseDetails = {
     },
     {
       title: 'CS 480 on Campuswire',
-      link: 'ttps://campuswire.com/c/G67CFAA9C',
+      link: 'https://campuswire.com/c/G67CFAA9C',
       description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
