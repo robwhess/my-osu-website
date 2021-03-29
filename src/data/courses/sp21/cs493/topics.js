@@ -8,11 +8,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1L9pKt1GmBeBiQgTWswDkgwPHLW9mRz4ObrNDXGBp97s/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1PcDTszXoKyHLllIeq5DvdcTNY-NVfPLR/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1PcDTszXoKyHLllIeq5DvdcTNY-NVfPLR/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -37,11 +37,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1AYg6cE2JYTkDvu0JxiyNbNFrMc3fZxQqoHZqim81voM/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1xOt7Q_WwPlxVgdaYeEE8ii7n_Pr4CI83/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1xOt7Q_WwPlxVgdaYeEE8ii7n_Pr4CI83/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -65,11 +65,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/server-setup',
-        description: 'code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/server-setup',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -138,16 +138,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/docker',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1oe74BHxQPGkIuiIzmnezgOD-b2sPKAzv/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/docker',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1oe74BHxQPGkIuiIzmnezgOD-b2sPKAzv/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -201,16 +201,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/using-mysql',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1VyuPooTtBZNuS5k32Z3duY2qHNpdxaIl/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/using-mysql',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1VyuPooTtBZNuS5k32Z3duY2qHNpdxaIl/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -249,11 +249,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/using-mongodb',
-        description: 'code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/using-mongodb',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -312,16 +312,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/auth',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1YPb5emLdmAtUp2MCiJ3dFp8ChoOS9RTj/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/auth',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1YPb5emLdmAtUp2MCiJ3dFp8ChoOS9RTj/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -355,16 +355,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/rate-limiting',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1AzR-C-KLtrYdrYSfeychMHxipOVT-p5w/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/rate-limiting',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1AzR-C-KLtrYdrYSfeychMHxipOVT-p5w/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -403,16 +403,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1FD1RY28hHCzeIirL1r9eMtTqr-fa4biBG7e-tKXpub8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/file-storage',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1_66iI5aumvJ0sFF7CmMny6IsEXtMxGG6/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/file-storage',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1_66iI5aumvJ0sFF7CmMny6IsEXtMxGG6/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -456,16 +456,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/11HHOL2J2O8pbppHvAOFjoqqUfmWXURmsT0VmtGaAUew/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/offline-work',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1OMnXTINbXeqThPc7p2N_j3-zfsDELBRc/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/offline-work',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1OMnXTINbXeqThPc7p2N_j3-zfsDELBRc/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
@@ -499,16 +499,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp20/data-replication',
-        description: 'code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/data-replication',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
     ],
     readings: [
       {
