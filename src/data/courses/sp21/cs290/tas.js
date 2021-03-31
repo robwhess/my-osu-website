@@ -43,50 +43,50 @@ const taInfo = [
     name: 'Gregory Blood',
     email: 'bloodg@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '9:00 &ndash; 10:00am',
-      //   timeZone: 'US/Pacific',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 2:30pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2129110010?pwd=TzBWejRIUjVzNnJDYjRQTkZtdEwrZz09'
+      },
     ],
     gradingHours: [
       // {
       //   day: 'Tues.',
-      //   time: '10:00am &ndash; 12:00pm',
+      //   time: '2:00 &ndash; 4:00pm',
       //   timeZone: 'US/Pacific',
-      //   videoConferenceLink: '',
-      //   // appointmentsLink: ''
+      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/2129110010?pwd=TzBWejRIUjVzNnJDYjRQTkZtdEwrZz09',
+      //   appointmentsLink: ''
       // },
     ]
   },
   {
     name: 'Shaurya Gaur',
-    email: 'pichettl@oregonstate.edu',
+    email: 'gaurs@oregonstate.edu',
     officeHours: [
       {
         day: 'Mon.',
         time: '9:00 &ndash; 10:00am',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96833646829?pwd=TklZVVhScTA1ejFLMUVtTzNhL29ZUT09'
       },
       {
         day: 'Mon.',
         time: '12:00 &ndash; 1:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96833646829?pwd=TklZVVhScTA1ejFLMUVtTzNhL29ZUT09'
       },
       {
         day: 'Wed.',
         time: '9:00 &ndash; 10:00am',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96833646829?pwd=TklZVVhScTA1ejFLMUVtTzNhL29ZUT09'
       },
       {
         day: 'Fri.',
         time: '9:00am &ndash; 1:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96833646829?pwd=TklZVVhScTA1ejFLMUVtTzNhL29ZUT09'
       }
     ],
     gradingHours: [
@@ -94,15 +94,15 @@ const taInfo = [
         day: 'Tues.',
         time: '10:00am &ndash; 12:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: '',
-        // appointmentsLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/94878841839?pwd=MHhGL0xHeDFEc2JPTUpSU0JKc3hEdz09',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUlsc0toVW1tV2hafGRlZmF1bHR8YjAzYTYzNWEwZTI3MDRjMGQ2N2E3NzZmMjkyZjU4NGE'
       },
       {
         day: 'Thurs.',
         time: '10:00am &ndash; 12:00pm',
         timeZone: 'US/Pacific',
-        videoConferenceLink: '',
-        // appointmentsLink: ''
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/94878841839?pwd=MHhGL0xHeDFEc2JPTUpSU0JKc3hEdz09',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUlsc0toVW1tV2hafGRlZmF1bHR8YjAzYTYzNWEwZTI3MDRjMGQ2N2E3NzZmMjkyZjU4NGE'
       },
     ]
   },
