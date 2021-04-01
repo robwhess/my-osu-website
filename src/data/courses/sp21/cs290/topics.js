@@ -7,11 +7,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1_18W3dSNqxgCgnq28isyrUitQw1ics5ytn84D407PbU/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/11PUTt1tsGvxqckHY0yhr3bZ0Ed4RFL6O/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/128hTCoI6LxMyXAuTlD0BYHCzj8lrAGTd/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ]
   },
 
@@ -24,11 +24,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1JBVKJO5EiASXyF2p4gj7xfDGRGgeIdpWoIj1ds28TRQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/16HbA2ESdssDffalDtl5VwmIrfkda0awI/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1U31sJXqFpfnJqzJhXwobTgK5_LFGbf3A/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -52,6 +52,7 @@ const topics = [
   {
     title: 'HTML',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
