@@ -31,21 +31,60 @@ const taInfo = [
     name: "Saurabhkumar Makwana",
     email: "makwanas@oregonstate.edu",
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '10:30am &ndash; 1:30pm',
-      //   timeZone: 'US/Pacific',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/98662024035?pwd=bjBTUk14cThoMXJuV2swUitoZjBydz09'
-      // },
+      {
+        day: 'Mon.',
+        time: '1:00 &ndash; 2:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09'
+      },
+      {
+        day: 'Mon.',
+        time: '4:00 &ndash; 5:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09'
+      },
+      {
+        day: 'Wed.',
+        time: '1:00 &ndash; 2:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09'
+      },
+      {
+        day: 'Wed.',
+        time: '4:00 &ndash; 5:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '4:00 &ndash; 5:00pm',
-      //   timeZone: 'US/Pacific',
-      //   appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU8tZVJWQWdjVElVfGRlZmF1bHR8MjljYzc0NDQ5ZWQ2ZTk3NmNkZmFiOTc1M2NjZWM5YjE',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/95829048250?pwd=SkFpK1NOeGt2NW9MUGJaWkVuNmlWZz09'
-      // },
+      {
+        day: 'Mon.',
+        time: '7:00 &ndash; 9:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
+        appointmentsLink: '',
+      },
+      {
+        day: 'Tues.',
+        time: '7:00 &ndash; 9:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
+        appointmentsLink: '',
+      },
+      {
+        day: 'Wed.',
+        time: '7:00 &ndash; 9:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
+        appointmentsLink: '',
+      },
+      {
+        day: 'Thurs.',
+        time: '7:00 &ndash; 9:00pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
+        appointmentsLink: '',
+      },
     ]
   }
 ];
