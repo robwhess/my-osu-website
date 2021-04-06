@@ -63,11 +63,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-sp21/html',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1kLD-7hS-f44heBdmBF0gZuR3DE28Kzia/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1GMRqyVkwYmqjoOV4hMkJRi7NU5lK9B-S/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
