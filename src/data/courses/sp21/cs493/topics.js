@@ -30,7 +30,7 @@ const topics = [
 
   {
     title: 'RESTful API Design',
-    weeks: [ 1 ],
+    weeks: [ 1, 2 ],
     isCurrent: true,
     resources: [
       {
@@ -60,16 +60,17 @@ const topics = [
   {
     title: 'Setting up a Server with Node.js and Express',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp20/server-setup',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp21/server-setup',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
