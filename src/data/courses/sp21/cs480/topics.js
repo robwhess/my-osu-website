@@ -78,11 +78,11 @@ const topics = [
         link: 'https://github.com/osu-cs480-sp21/flex',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1RXjAuGgpHSAmF05Ew-IID-_7oX-MTRuL/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/18-du2ROgv-kEAX2YDVLVGUqwvWCeW0wu/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
