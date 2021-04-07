@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro/Overview of Compilers',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -68,16 +67,17 @@ const topics = [
   {
     title: 'The Flex Scanner Generator',
     weeks: [ 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp20/flex',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp21/flex',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1RXjAuGgpHSAmF05Ew-IID-_7oX-MTRuL/view?usp=sharing',
