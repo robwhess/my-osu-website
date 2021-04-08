@@ -86,11 +86,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f20/css',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp21/css',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1R4adkb4inXwBtPNnj5nqsdetxcJX6pqJ/view?usp=sharing',
