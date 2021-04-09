@@ -17,7 +17,13 @@ const taInfo = [
       },
       {
         day: 'Fri.',
-        time: '9:00am &ndash; 12:00pm',
+        time: '9:00 &ndash; 10:00am',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92499354671?pwd=VlpZdjU3Y2RNSytkWVg4OGIxTFprZz09'
+      },
+      {
+        day: 'Fri.',
+        time: '12:00 &ndash; 2:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92499354671?pwd=VlpZdjU3Y2RNSytkWVg4OGIxTFprZz09'
       }
@@ -44,11 +50,17 @@ const taInfo = [
     email: 'bloodg@oregonstate.edu',
     officeHours: [
       {
-        day: 'Wed.',
-        time: '10:00am &ndash; 2:30pm',
+        day: 'Tues.',
+        time: '11:30am &ndash; 2:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/2129110010?pwd=TzBWejRIUjVzNnJDYjRQTkZtdEwrZz09'
       },
+      {
+        day: 'Wed.',
+        time: '12:00 &ndash; 2:30pm',
+        timeZone: 'US/Pacific',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2129110010?pwd=TzBWejRIUjVzNnJDYjRQTkZtdEwrZz09'
+      }
     ],
     gradingHours: [
       {
