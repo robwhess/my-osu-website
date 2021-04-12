@@ -30,7 +30,6 @@ const topics = [
   {
     title: 'RESTful API Design',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -58,7 +57,7 @@ const topics = [
 
   {
     title: 'Setting up a Server with Node.js and Express',
-    weeks: [ 2 ],
+    weeks: [ 2, 3 ],
     isCurrent: true,
     resources: [
       {
@@ -133,6 +132,7 @@ const topics = [
   {
     title: 'Containerization with Docker',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
