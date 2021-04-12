@@ -9,7 +9,7 @@ const assignments = {
         time: '11:59pm'
       },
       notes: [
-        'Demo due by 11:59pm, Monday 5/10/2021'
+        'Demo due by 11:59pm, Monday 5/10/2021 (last available demo appointment is 9:30am on 5/7/2021)'
       ]
     },
     // {
