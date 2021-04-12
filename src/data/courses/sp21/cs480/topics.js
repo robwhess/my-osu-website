@@ -29,7 +29,6 @@ const topics = [
   {
     title: 'Regular Expression-Based Scanners',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
