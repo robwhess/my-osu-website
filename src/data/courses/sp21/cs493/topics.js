@@ -58,7 +58,6 @@ const topics = [
   {
     title: 'Setting up a Server with Node.js and Express',
     weeks: [ 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -144,11 +143,6 @@ const topics = [
         link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
       },
       // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp20/docker',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-      // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1oe74BHxQPGkIuiIzmnezgOD-b2sPKAzv/view?usp=sharing',
       //   description: 'drawings from lecture'
@@ -201,16 +195,17 @@ const topics = [
   {
     title: 'Using MySQL to Store API Data',
     weeks: [ 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp20/using-mysql',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp21/using-mysql',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1VyuPooTtBZNuS5k32Z3duY2qHNpdxaIl/view?usp=sharing',
