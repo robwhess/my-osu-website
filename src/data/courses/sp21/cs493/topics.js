@@ -136,17 +136,16 @@ const topics = [
   {
     title: 'Containerization with Docker',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1oe74BHxQPGkIuiIzmnezgOD-b2sPKAzv/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1l5wudTsChGp68McJOVlTPKH19U9rzk_k/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
