@@ -62,28 +62,28 @@ const taInfo = [
         time: '7:00 &ndash; 9:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
-        appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU8tZVJWQWdjVElVfGRlZmF1bHR8MjljYzc0NDQ5ZWQ2ZTk3NmNkZmFiOTc1M2NjZWM5YjE',
       },
       {
         day: 'Tues.',
         time: '7:00 &ndash; 9:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
-        appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU8tZVJWQWdjVElVfGRlZmF1bHR8MjljYzc0NDQ5ZWQ2ZTk3NmNkZmFiOTc1M2NjZWM5YjE',
       },
       {
         day: 'Wed.',
         time: '7:00 &ndash; 9:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
-        appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU8tZVJWQWdjVElVfGRlZmF1bHR8MjljYzc0NDQ5ZWQ2ZTk3NmNkZmFiOTc1M2NjZWM5YjE',
       },
       {
         day: 'Thurs.',
         time: '7:00 &ndash; 9:00pm',
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92368377915?pwd=K05QMjlWZG9jd0hVMDF4U0E3dGpSZz09',
-        appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU8tZVJWQWdjVElVfGRlZmF1bHR8MjljYzc0NDQ5ZWQ2ZTk3NmNkZmFiOTc1M2NjZWM5YjE',
       },
     ]
   }
