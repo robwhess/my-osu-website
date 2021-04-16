@@ -65,7 +65,7 @@ const topics = [
 
   {
     title: 'The Flex Scanner Generator',
-    weeks: [ 2, 3 ],
+    weeks: [ 2, 3, 4 ],
     isCurrent: true,
     resources: [
       {
@@ -98,12 +98,13 @@ const topics = [
   },
 
   {
-    title: 'Context-Free Grammars',
+    title: 'Parsing and Context-Free Grammars',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1panYEuyBXFSY1bRe3Ywa-7ozRAfSwQl6e4GFyLNjKwo/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1ONS1Ud0TIWEXAVeebkDUxQtBimBMKBRTE_rWPkKfVX8/edit?usp=sharing'
       },
       // {
       //   title: 'Lecture doodles',
@@ -115,40 +116,18 @@ const topics = [
       {
         title: 'Chapter 3 (3.1)',
         description: 'Cooper and Torczon'
-      }
-    ]
-  },
-
-  {
-    title: 'Top-Down Parsing and LL(1) Grammars',
-    weeks: [ 4, 5 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1AWZ4cnXuBXPAOmfmqghQT2X5y1mB8WR9/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // },
-      // {
-      //   title: 'Quiz 3 lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1X4kJrHCziNpZGhHx1SFj8fKKdqs8B2jR/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
-    ],
-    readings: [
       {
-        title: 'Chapter 3 (3.2 - 3.3)',
-        description: 'Cooper and Torczon'
+        title: 'A Guide to Parsing: Algorithms and Terminology',
+        link: 'https://tomassetti.me/guide-parsing-algorithms-terminology/',
+        author: 'Garbriele Tomassetti'
       }
     ]
   },
 
   {
     title: 'The Bison Parser Generator',
-    weeks: [ 6, 7 ],
+    weeks: [ 5, 6 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -176,7 +155,7 @@ const topics = [
 
   {
     title: 'Bottom-Up Parsing and LR(1) Grammars',
-    weeks: [ 7, 8, 9 ],
+    weeks: [ 6, 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -196,6 +175,33 @@ const topics = [
     readings: [
       {
         title: 'Chapter 3 (3.4)',
+        description: 'Cooper and Torczon'
+      }
+    ]
+  },
+
+  {
+    title: 'Top-Down Parsing and LL(1) Grammars',
+    weeks: [ 7, 8 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1AWZ4cnXuBXPAOmfmqghQT2X5y1mB8WR9/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // },
+      // {
+      //   title: 'Quiz 3 lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1X4kJrHCziNpZGhHx1SFj8fKKdqs8B2jR/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'Chapter 3 (3.2 - 3.3)',
         description: 'Cooper and Torczon'
       }
     ]
