@@ -205,11 +205,11 @@ const topics = [
         link: 'https://github.com/osu-cs493-sp21/using-mysql',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1VyuPooTtBZNuS5k32Z3duY2qHNpdxaIl/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1nyHjec6D0pjAXZt40e0h9wb-4epePkEe/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
