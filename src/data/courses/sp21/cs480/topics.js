@@ -66,7 +66,6 @@ const topics = [
   {
     title: 'The Flex Scanner Generator',
     weeks: [ 2, 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -106,11 +105,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ONS1Ud0TIWEXAVeebkDUxQtBimBMKBRTE_rWPkKfVX8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/10pu-6e0Iw-IhBTx_HxPzK754QLZh7Ij8/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/13kowZwRscBoLWj1p3kgcp6fwho8SOWFY/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
