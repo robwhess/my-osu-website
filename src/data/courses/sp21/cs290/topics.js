@@ -113,6 +113,16 @@ const topics = [
         description: 'MDN'
       },
       {
+        title: 'A Complete Guide to Flexbox',
+        link: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
+        description: 'Chris Coyer (on CSS-Tricks)'
+      },
+      {
+        title: 'Flexbox Froggy',
+        link: 'https://flexboxfroggy.com/',
+        description: 'A little game to help you practice your flexbox skills'
+      },
+      {
         title: 'Responsive Web Design Basics',
         link: 'https://developers.google.com/web/fundamentals/design-and-ui/responsive/',
         description: 'Google Web Fundamentals'
