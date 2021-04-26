@@ -137,11 +137,11 @@ const topics = [
         link: 'https://github.com/osu-cs480-sp21/bison',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/19GcQ04DkSEaEYYpyT88nn0ijjF4G6wGQ/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1jcsi-TiHxBgM_PEJeqWkoosv3JNaGujv/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
