@@ -99,7 +99,6 @@ const topics = [
   {
     title: 'Parsing and Context-Free Grammars',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -127,16 +126,17 @@ const topics = [
   {
     title: 'The Bison Parser Generator',
     weeks: [ 5, 6 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/19LCYNojTimpgpvrZu-pawIj0wfRXKZCKHVapwS2BxUI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp20/bison',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp21/bison',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/19GcQ04DkSEaEYYpyT88nn0ijjF4G6wGQ/view?usp=sharing',
