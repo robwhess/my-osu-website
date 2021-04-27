@@ -25,18 +25,18 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 5/10/2021'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Client-side JS',
-    //   due: {
-    //     day: 'Monday, ~~11/9/2020~~ **11/16/2020**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Monday, ~~11/23/2020~~ **11/30/2020**'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/LyfH71yb',
+      title: 'Assignment 3 &ndash; Client-side JS',
+      due: {
+        day: 'Monday, 5/10/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog due **ON CANVAS** by assignment due date',
+        'Demo due by 11:59pm on Monday, 5/24/2021'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Native Node.js file serving',
