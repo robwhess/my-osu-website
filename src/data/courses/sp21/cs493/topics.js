@@ -194,7 +194,6 @@ const topics = [
   {
     title: 'Using MySQL to Store API Data',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
