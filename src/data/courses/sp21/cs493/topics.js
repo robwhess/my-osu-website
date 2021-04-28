@@ -43,6 +43,11 @@ const topics = [
     ],
     readings: [
       {
+        title: 'Best practices for REST API design',
+        link: 'https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/',
+        description: 'John Au-Yeung and Ryan Donovan (The Overflow, the Stack Overflow blog)'
+      },
+      {
         title: 'How to design a RESTful API architecture from a human-language spec',
         link: 'https://www.oreilly.com/learning/how-to-design-a-restful-api-architecture-from-a-human-language-spec',
         description: 'Filipe Ximenes and Flávio Juvenal (O\'Reilly)'
