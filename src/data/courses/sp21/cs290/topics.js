@@ -132,7 +132,6 @@ const topics = [
   {
     title: 'JavaScript Fundamentals',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -143,11 +142,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-sp21/js-fundamentals',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/14wpfNSf_PJY5v3VMghJdc7UL6ydLd53E/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1PXuf9tAw1MP29Js4ci0btY-1cKdKMQGo/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -177,11 +176,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-sp21/js-dom-manipulation',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1IS0_Ouxi1v5oedvpnKIftbg5ptY4au26/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/196gpjLjrw1PgZ7UK-8tpFRSQaLdv8gRb/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
