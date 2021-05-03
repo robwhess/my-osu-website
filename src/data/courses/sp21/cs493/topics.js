@@ -321,11 +321,11 @@ const topics = [
         link: 'https://github.com/osu-cs493-sp21/auth',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1YPb5emLdmAtUp2MCiJ3dFp8ChoOS9RTj/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1FyC-YAhlOqRMesLMDFmZtt8FGv3Ag3bG/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {

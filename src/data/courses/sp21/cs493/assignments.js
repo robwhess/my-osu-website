@@ -16,7 +16,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/agDxwfuU',
       title: 'Assignment 2 &ndash; API data storage',
       due: {
-        day: 'Monday, 5/3/2021',
+        day: '~~Monday, 5/3/2021~~ **Tuesday, 5/4/2021**',
         time: '11:59pm'
       },
       notes: [
