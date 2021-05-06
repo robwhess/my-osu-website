@@ -165,7 +165,6 @@ const topics = [
   {
     title: 'JavaScript DOM Manipulation',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -214,11 +213,11 @@ const topics = [
         title: 'JS Fiddle DOM manipulation example',
         link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1Pai-N_Vk8kRSkMYRTfQnd9AxUzxGIvnf/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1ZgZDGeLv08YeEt7h44gBir6NUUn80bUU/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
