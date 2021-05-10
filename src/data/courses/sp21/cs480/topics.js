@@ -160,11 +160,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1vaFAKy1wnH5hIMV1I7vB-e6ute_05xBE/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1UR3kTfjAfH-3A3WbFU2g9YN4Mi42MAnx/view?usp=sharing',
+        description: 'drawings from lecture'
+      },
       // {
       //   title: 'Quiz 5 lecture doodles',
       //   link: 'https://drive.google.com/file/d/1RY8ZN4x3KnNf0h_Lg1WAzR53p5uGqX0j/view?usp=sharing',
