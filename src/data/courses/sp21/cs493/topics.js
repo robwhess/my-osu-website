@@ -364,11 +364,11 @@ const topics = [
         link: 'https://github.com/osu-cs493-sp21/rate-limiting',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1AzR-C-KLtrYdrYSfeychMHxipOVT-p5w/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/18ZixSIyo2XQuQSRMLUrVNrIlIQcxZjBD/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
