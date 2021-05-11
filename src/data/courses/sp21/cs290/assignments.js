@@ -37,17 +37,18 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 5/24/2021'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Native Node.js file serving',
-    //   due: {
-    //     day: '**ASSIGNMENT OPTIONAL; NO DUE DATE**'
-    //   },
-    //   notes: [
-    //     '**This assignment is completely optional, and you won\'t receive credit for completing it.**  Thus, there will be no grading demos for this assignment.',
-    //     'Since the assignment is optional, you don\'t need to write a code blog entry for it.'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/JpFN_taf',
+      title: 'Assignment 4 &ndash; Native Node.js file serving',
+      due: {
+        day: 'Monday, 5/17/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog due **ON CANVAS** by assignment due date',
+        '**This assignment will not be demoed.  It will be graded offline.**'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
