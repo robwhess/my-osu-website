@@ -182,6 +182,7 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 7, 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

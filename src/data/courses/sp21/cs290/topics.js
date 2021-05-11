@@ -251,11 +251,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-sp21/node-basics',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/15n0KyxSzqo1aqSFE280RhGSKJp4zA--n/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1PGIwkIljY6wo2sYbXTMuwzRqRY_TR5LK/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -283,6 +283,7 @@ const topics = [
   {
     title: 'Packages and npm',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -311,6 +312,7 @@ const topics = [
   {
     title: 'Serving with Express',
     weeks: [ 7, 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
