@@ -318,11 +318,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f20/express-serving',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp21/express-serving',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1Dwt98E2PRgA-GvqplRJO-5YY342wvEuD/view?usp=sharing',
