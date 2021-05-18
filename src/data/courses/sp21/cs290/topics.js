@@ -282,7 +282,6 @@ const topics = [
   {
     title: 'Packages and npm',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -322,11 +321,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-sp21/express-serving',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1Dwt98E2PRgA-GvqplRJO-5YY342wvEuD/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1bUB8_OPep2-BvO2RIehLsOw-HeAJhSe-/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -360,6 +359,7 @@ const topics = [
   {
     title: 'Rendering Dynamic Content with Handlebars',
     weeks: [ 8, 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
