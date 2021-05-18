@@ -49,18 +49,18 @@ const assignments = {
         '**This assignment will not be demoed.  It will be graded offline.**'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
-    //   due: {
-    //     day: '~~Wednesday, 12/2/2020~~ **Thursday, 12/3/2020**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
-    //     '**No demo for this assignment.**  It will be graded offline.'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/N_zqZzpP',
+      title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
+      due: {
+        day: 'Tuesday, 6/1/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog due **ON CANVAS** by assignment due date',
+        'Demo due by 5:00pm on Friday, 6/11/2021'
+      ]
+    }
   ],
 
   preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
