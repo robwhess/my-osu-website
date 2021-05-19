@@ -496,51 +496,8 @@ const topics = [
   },
 
   {
-    title: 'Data Replication',
+    title: 'Setting up a GraphQL API with Apollo',
     weeks: [ 9, 10 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp20/data-replication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'A Primer on Database Replication',
-        link: 'https://www.brianstorti.com/replication/',
-        description: 'Brian Storti'
-      },
-      {
-        title: 'MongoDB Replication',
-        link: 'https://docs.mongodb.com/manual/replication/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'Deploy New Replica Set With Keyfile Access Control',
-        link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'MySQL Replication',
-        link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html',
-        description: 'MySQL docs'
-      }
-    ]
-  },
-
-  {
-    title: 'Setting up a GraphQL API with Apollo (Stretch goal)',
-    weeks: [ 10 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -582,6 +539,49 @@ const topics = [
         title: 'API Reference: apollo-server',
         link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
         description: 'Apollo docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Data Replication',
+    weeks: [ 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp20/data-replication',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+      // {
+      //   title: 'Lecture doodles',
+      //   link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
+      //   description: 'drawings from lecture'
+      // }
+    ],
+    readings: [
+      {
+        title: 'A Primer on Database Replication',
+        link: 'https://www.brianstorti.com/replication/',
+        description: 'Brian Storti'
+      },
+      {
+        title: 'MongoDB Replication',
+        link: 'https://docs.mongodb.com/manual/replication/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'Deploy New Replica Set With Keyfile Access Control',
+        link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/',
+        description: 'MongoDB docs'
+      },
+      {
+        title: 'MySQL Replication',
+        link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html',
+        description: 'MySQL docs'
       }
     ]
   }
