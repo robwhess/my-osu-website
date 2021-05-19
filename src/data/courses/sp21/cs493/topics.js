@@ -465,11 +465,11 @@ const topics = [
         link: 'https://github.com/osu-cs493-sp21/offline-work',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1OMnXTINbXeqThPc7p2N_j3-zfsDELBRc/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/12BIo_63VtBorTJii6D865IAINmgeSuAn/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
