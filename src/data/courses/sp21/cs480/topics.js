@@ -176,7 +176,6 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -215,11 +214,11 @@ const topics = [
         link: 'https://github.com/osu-cs480-sp21/llvm',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1uQR2_12kLO0UeF2G-ih5a92Rdj3CEU0q/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1uhK6fXGdCVpTjeCZiZJ-J25u1ZErMKIf/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
