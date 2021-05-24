@@ -508,6 +508,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp21/graphql-api-server',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1S05LV2UisE-02gHqW6E9O8NZ-CI5nR0y/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
