@@ -204,16 +204,17 @@ const topics = [
   {
     title: 'LLVM: Code Generation and Optimization',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp20/llvm',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp21/llvm',
+        description: 'GitHub repo for code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1uQR2_12kLO0UeF2G-ih5a92Rdj3CEU0q/view?usp=sharing',
