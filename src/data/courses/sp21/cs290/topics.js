@@ -427,11 +427,11 @@ const topics = [
         link: 'https://github.com/osu-cs290-sp21/async-communication',
         description: 'GitHub repo for code written in lecture'
       },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1WEn-0Agv0nsVQTBZTq628A78cuZjVw1i/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1CuO_zhF5_62YkDMypWrCRi3ImmzMoDf5/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
