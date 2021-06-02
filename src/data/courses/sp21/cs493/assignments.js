@@ -38,7 +38,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/jxPJrE68',
       title: 'Assignment 4 &ndash; File uploads and offline work',
       due: {
-        day: 'Tuesday, 6/1/2021',
+        day: '~~Tuesday, 6/1/2021~~ **Wednesday, 6/2/2021**',
         time: '11:59pm'
       },
       notes: [
