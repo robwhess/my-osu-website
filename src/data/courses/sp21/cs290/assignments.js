@@ -53,7 +53,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/N_zqZzpP',
       title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
       due: {
-        day: 'Tuesday, 6/1/2021',
+        day: '~~Tuesday, 6/1/2021~~ **Wednesday, 6/2/2021**',
         time: '11:59pm'
       },
       notes: [
