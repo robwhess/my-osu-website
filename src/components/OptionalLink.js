@@ -9,6 +9,7 @@ import PropTypes from 'prop-types';
 function OptionalLink({ text, link, newTab }) {
   return (
     link ?
+      // eslint-disable-next-line react/jsx-no-target-blank
       <a
         href={link}
         target={newTab ? '_blank' : null}
