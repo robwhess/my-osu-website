@@ -149,7 +149,7 @@ const recitations = {
         location: 'STAG 210',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Tieqiao Wang' ]
     },
     '022': {
       meeting: {
@@ -159,7 +159,7 @@ const recitations = {
         location: 'GILM 234',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Tieqiao Wang' ]
     },
     '023': {
       meeting: {
@@ -169,7 +169,7 @@ const recitations = {
         location: 'MLM 202',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Andrew Festa' ]
     },
     '024': {
       meeting: {
@@ -179,7 +179,7 @@ const recitations = {
         location: 'STAG 260',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'TBA' ]
+      tas: [ 'Andrew Festa' ]
     }
   },
 
