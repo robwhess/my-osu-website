@@ -54,7 +54,7 @@ const courseDetails = {
     {
       title: 'CS 261 on Zoom',
       link: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09',
-      description: 'all in-person lectures and recitations will be broadcast in this Zoom meeting'
+      description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
     {
       title: 'CS 261 on Campuswire',

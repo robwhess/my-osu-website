@@ -147,7 +147,7 @@ const recitations = {
         time: '8:00 &ndash; 9:50am',
         timeZone: 'US/Pacific',
         location: 'STAG 210',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
+        // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
       tas: [ 'Tieqiao Wang' ]
     },
@@ -157,7 +157,7 @@ const recitations = {
         time: '12:00 &ndash; 1:50pm',
         timeZone: 'US/Pacific',
         location: 'GILM 234',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
+        // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
       tas: [ 'Tieqiao Wang' ]
     },
@@ -167,7 +167,7 @@ const recitations = {
         time: '4:00 &ndash; 5:50pm',
         timeZone: 'US/Pacific',
         location: 'MLM 202',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
+        // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
       tas: [ 'Andrew Festa' ]
     },
@@ -177,7 +177,7 @@ const recitations = {
         time: '4:00 &ndash; 5:50pm',
         timeZone: 'US/Pacific',
         location: 'STAG 260',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
+        // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
       tas: [ 'Andrew Festa' ]
     }
