@@ -21,6 +21,27 @@ const taInfo = [
     ]
   },
   {
+    name: 'Emmanuel Moncada',
+    email: 'moncadae@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: '',
+      //   time: '1:00 &ndash; 3:00pm',
+      //   timeZone: 'US/Pacific',
+      //   videoConferenceLink: ''
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: '',
+      //   time: '9:00 &ndash; 11:00am',
+      //   timeZone: 'US/Pacific',
+      //   appointmentsLink: '',
+      //   videoConferenceLink: ''
+      // },
+    ]
+  },
+  {
     name: 'Lucas Pichette',
     email: 'pichettl@oregonstate.edu',
     officeHours: [
