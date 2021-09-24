@@ -5,7 +5,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 0 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -30,16 +29,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1TnMfQfhkam3vOdVLWAaF3Y_V-Z8eX7IvKx0w2tPr0Pg/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/11im6Dq1iLnFJ2U_RU8oo2oUwcpA-4F6H/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1FK5VhhaROobW3KMQBPVxK6-2nzBVYop6/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -63,6 +52,7 @@ const topics = [
   {
     title: 'C Basics',
     weeks: [ 1, 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -70,19 +60,9 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/osu-cs261-f20/c-basics',
+        link: 'https://github.com/osu-cs261-f21/c-basics',
         description: 'code written in lecture'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/17xOt_0JDUM83KPg26b52azCH1BO4rxWK/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1ia7rWF3xXX5waJk0TqKZyV2JA5C3ell9/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -134,16 +114,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1rv5N3MU833p0HrZSRNMy7SD8Q4jBDqmPzfsPRm1H0ls/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1fNVCYV7jEsWFQlhDArw8VDBNWa5L7MrJ/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1wvMQQnS3TyCDFbGJ2HM_7QqdQySyg9kS/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -183,16 +153,6 @@ const topics = [
         link: 'https://docs.google.com/document/d/1aUobiojWEM-9Zne4FT0W1-iTUFK0B_07Hx51jCcDEtw/edit?usp=sharing',
         description: 'notes in progrees'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1rIvvCFUKVlOHgWj8HiZz-L6s-A-5iuu-/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1kvbFBYS927j8K67cJUnfCF47qZtQ8HJ-/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -221,16 +181,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1-ujrdx618YEaR7ouHl1v84THacVBy4GcIKcnFOmOBzc/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1re0pqcFvbDhHLycgyFHrMr1r2NQIWvzc/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1_gCVRTLSkFIfZTZaaaK3e7lyrEjj7cOs/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -307,16 +257,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1q3pXT21qbqZ_KCW1XjSGUUZV5doZ0QyHJzolbM3hCbk/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1SY5w-lcKJQaPkb9vAUCfu1GeXUSbpg-X/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1PE9Tk4pz1ECsTyeNZ5VxjiGJdgoL--rC/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -359,16 +299,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hJPLu5HvMnpDpfraac4gQHFihOSmVeRZf3acghzPXE0/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1qi3P2eLiTTlxmm1Ug5CjXr0B6wxzfN-x/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1hkWaRTufpPAbeT8R6qtdkdTGm44e8IbA/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -402,16 +332,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1d_5h_TzL8gMy2GyxDOYdAG8JJ3fkep7i3GWM_UnaqvM/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1ekl-pOP1ux_HAAQctiMc3nggo5urT-KU/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1Bn60EGgdsHB4Z4KDJ56JyT6M9wWIIm5D/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -429,16 +349,6 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1z954mUuOKFdPImsg8cyPde7ycXYGFh5j3pDJgXpYDkY/edit?usp=sharing'
-      },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1GCYNaLF2qtU-KHhzD5quY-5qUKW2Jm8u/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1nVMxENwHrzAPl5Fw9IVO2l9_2MaSlmmR/view?usp=sharing',
-        description: 'from section 001'
       },
       {
         title: 'AVL Trees "Quiz"',
@@ -476,16 +386,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Xix4g3N7JQlLuSmQigi3qTdXG6-0m-3rLxIHk2MJz58/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1qJCAaGKhKzmLTxIegdcXQqfKy98RKr0L/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1dr_SZngQHfbV-bakBM310M7Heq09fguX/view?usp=sharing',
-        description: 'from section 001'
-      }
     ],
     readings: [
       {
@@ -514,16 +414,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1lpT0pUfkMAcpKApS7Cjaufw6EhIm2UsGuAku0GjP-zE/edit?usp=sharing'
       },
-      {
-        title: 'Morning lecture doodles',
-        link: 'https://drive.google.com/file/d/1_yl8CVh9kFHUJX95xkloXtLyz0D9qNTz/view?usp=sharing',
-        description: 'from section 002'
-      },
-      {
-        title: 'Afternoon lecture doodles',
-        link: 'https://drive.google.com/file/d/1JjwGucT2-ia-AmEMsjqLGhC45dc1ceHN/view?usp=sharing',
-        description: 'from section 001'
-      }
       // {
       //   title: 'Example code (chained hash table)',
       //   link: 'https://github.com/osu-cs261-f18/chained-hash'
