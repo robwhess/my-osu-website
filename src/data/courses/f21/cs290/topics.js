@@ -7,11 +7,6 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1_18W3dSNqxgCgnq28isyrUitQw1ics5ytn84D407PbU/edit?usp=sharing'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/128hTCoI6LxMyXAuTlD0BYHCzj8lrAGTd/view?usp=sharing',
-        description: 'drawings from lecture'
       }
     ]
   },
@@ -24,11 +19,6 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1JBVKJO5EiASXyF2p4gj7xfDGRGgeIdpWoIj1ds28TRQ/edit?usp=sharing'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1U31sJXqFpfnJqzJhXwobTgK5_LFGbf3A/view?usp=sharing',
-        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -58,15 +48,10 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-sp21/html',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
       {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1GMRqyVkwYmqjoOV4hMkJRi7NU5lK9B-S/view?usp=sharing',
-        description: 'drawings from lecture'
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f21/html',
+        description: 'GitHub repo for code written in lecture'
       }
     ],
     readings: [
@@ -90,12 +75,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/css',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1yAHcDrjDCv9sqiqD4bZCYoA-5gxgcU_U/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
@@ -143,12 +123,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/js-fundamentals',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1PXuf9tAw1MP29Js4ci0btY-1cKdKMQGo/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
@@ -176,12 +151,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/js-dom-manipulation',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/196gpjLjrw1PgZ7UK-8tpFRSQaLdv8gRb/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
@@ -213,11 +183,6 @@ const topics = [
       {
         title: 'JS Fiddle DOM manipulation example',
         link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1ZgZDGeLv08YeEt7h44gBir6NUUn80bUU/view?usp=sharing',
-        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -251,12 +216,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/node-basics',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1PGIwkIljY6wo2sYbXTMuwzRqRY_TR5LK/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
@@ -321,12 +281,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/express-serving',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1bUB8_OPep2-BvO2RIehLsOw-HeAJhSe-/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
@@ -369,12 +324,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/handlebars-templating',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1VQqXR-VI7eY_oYB4rK54eLRVUuZP12Uf/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
@@ -427,12 +377,7 @@ const topics = [
       //   title: 'Example code',
       //   link: 'https://github.com/osu-cs290-sp21/async-communication',
       //   description: 'GitHub repo for code written in lecture'
-      // },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1CuO_zhF5_62YkDMypWrCRi3ImmzMoDf5/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // }
     ],
     readings: [
       {
