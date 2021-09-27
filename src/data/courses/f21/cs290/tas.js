@@ -110,21 +110,45 @@ const taInfo = [
     name: 'Zach Taylor',
     email: 'taylzach@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: '1:00 &ndash; 3:00pm',
-      //   timeZone: 'US/Pacific',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '11:00am &ndash; 12:00pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium'
+        // videoConferenceLink: ''
+      },
+      {
+        day: 'Wed.',
+        time: '11:00am &ndash; 12:00pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium'
+        // videoConferenceLink: ''
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 12:00pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium'
+        // videoConferenceLink: ''
+      },
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: '9:00 &ndash; 11:00am',
-      //   timeZone: 'US/Pacific',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon',
+        time: '12:00 &ndash; 2:00pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium'
+        // appointmentsLink: '',
+        // videoConferenceLink: ''
+      },
+      {
+        day: 'Wed',
+        time: '12:00 &ndash; 1:00pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium'
+        // appointmentsLink: '',
+        // videoConferenceLink: ''
+      },
     ]
   }
 ];
