@@ -1,63 +1,63 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
+    {
+      link : 'https://classroom.github.com/a/cpV3lJiS',
+      title: 'Assignment 1 &ndash; HTML and web publishing',
+      due: {
+        day: 'Monday, 10/11/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog link due **ON CANVAS** by assignment due date',
+        'Demo due by 11:59pm on Monday, 10/25/2021'
+      ]
+    },
     // {
-    //   link : 'https://classroom.github.com/a/dR_HKISj',
-    //   title: 'Assignment 1 &ndash; HTML and web publishing',
-    //   due: {
-    //     day: 'Monday, 4/12/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Monday, 4/26/2021'
-    //   ]
-    // },
-    // {
-    //   link : 'https://classroom.github.com/a/x43rOZ6V',
+    //   link : '',
     //   title: 'Assignment 2 &ndash; Styling a page with CSS',
     //   due: {
     //     day: 'Monday, 4/26/2021',
     //     time: '11:59pm'
     //   },
     //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
+    //     'Code Blog link due **ON CANVAS** by assignment due date',
     //     'Demo due by 11:59pm on Monday, 5/10/2021'
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/LyfH71yb',
+    //   link : '',
     //   title: 'Assignment 3 &ndash; Client-side JS',
     //   due: {
     //     day: 'Monday, 5/10/2021',
     //     time: '11:59pm'
     //   },
     //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
+    //     'Code Blog link due **ON CANVAS** by assignment due date',
     //     'Demo due by 11:59pm on Monday, 5/24/2021'
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/JpFN_taf',
+    //   link : '',
     //   title: 'Assignment 4 &ndash; Native Node.js file serving',
     //   due: {
     //     day: 'Monday, 5/17/2021',
     //     time: '11:59pm'
     //   },
     //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
+    //     'Code Blog link due **ON CANVAS** by assignment due date',
     //     '**This assignment will not be demoed.  It will be graded offline.**'
     //   ]
     // },
     // {
-    //   link : 'https://classroom.github.com/a/N_zqZzpP',
+    //   link : '',
     //   title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
     //   due: {
     //     day: '~~Tuesday, 6/1/2021~~ **Wednesday, 6/2/2021**',
     //     time: '11:59pm'
     //   },
     //   notes: [
-    //     'Code Blog due **ON CANVAS** by assignment due date',
+    //     'Code Blog link due **ON CANVAS** by assignment due date',
     //     'Demo due by 5:00pm on Friday, 6/11/2021'
     //   ]
     // }
