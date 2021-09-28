@@ -7,14 +7,12 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '2:00 &ndash; 5:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // videoConferenceLink: ''
       },
       {
         day: 'Wed.',
         time: '2:00 &ndash; 5:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // videoConferenceLink: ''
       },
@@ -23,7 +21,6 @@ const taInfo = [
       {
         day: 'Fri.',
         time: '9:30am &ndash; 12:40pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium',
         // appointmentsLink: '',
         // videoConferenceLink: ''
@@ -37,14 +34,12 @@ const taInfo = [
       {
         day: 'Tues',
         time: '12:00 &ndash; 2:00pm',
-        timeZone: 'US/Pacific',
         location: 'Valley Library 1812'
         // videoConferenceLink: ''
       },
       {
         day: 'Thurs',
         time: '12:00 &ndash; 1:00pm',
-        timeZone: 'US/Pacific',
         location: 'Valley Library 1812'
         // videoConferenceLink: ''
       },
@@ -53,7 +48,6 @@ const taInfo = [
       {
         day: 'Thurs',
         time: '1:00 &ndash; 2:00pm',
-        timeZone: 'US/Pacific',
         location: 'Valley Library 1812',
         // appointmentsLink: '',
         // videoConferenceLink: ''
@@ -61,7 +55,6 @@ const taInfo = [
       {
         day: 'Fri',
         time: '10:00am &ndash; 12:00pm',
-        timeZone: 'US/Pacific',
         location: 'Valley Library 1812',
         // appointmentsLink: '',
         // videoConferenceLink: ''
@@ -76,7 +69,6 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '9:15am &ndash; 12:15pm',
-        timeZone: 'US/Pacific',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/94784601733?pwd=SVdKWVFla3REM1RjeitwLzZXdVJvUT09'
       },
@@ -85,7 +77,6 @@ const taInfo = [
       {
         day: 'Tues',
         time: '1:00 &ndash; 4:00pm',
-        timeZone: 'US/Pacific',
         location: 'Zoom',
         // appointmentsLink: '',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/94784601733?pwd=SVdKWVFla3REM1RjeitwLzZXdVJvUT09'
@@ -99,14 +90,12 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '12:00 &ndash; 1:30pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium',
         // videoConferenceLink: ''
       },
       {
         day: 'Wed.',
         time: '12:00 &ndash; 1:30pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium',
         // videoConferenceLink: ''
       }
@@ -128,21 +117,18 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '11:00am &ndash; 12:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // videoConferenceLink: ''
       },
       {
         day: 'Wed.',
         time: '11:00am &ndash; 12:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // videoConferenceLink: ''
       },
       {
         day: 'Fri.',
         time: '11:00am &ndash; 12:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // videoConferenceLink: ''
       },
@@ -151,7 +137,6 @@ const taInfo = [
       {
         day: 'Mon',
         time: '12:00 &ndash; 2:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // appointmentsLink: '',
         // videoConferenceLink: ''
@@ -159,7 +144,6 @@ const taInfo = [
       {
         day: 'Wed',
         time: '12:00 &ndash; 1:00pm',
-        timeZone: 'US/Pacific',
         location: 'KEC Atrium'
         // appointmentsLink: '',
         // videoConferenceLink: ''

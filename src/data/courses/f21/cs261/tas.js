@@ -3,12 +3,18 @@ const taInfo = [
     name: 'Andrew Festa',
     email: 'festaa@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: '8:00 &ndash; 9:00am',
-      //   timeZone: 'US/Pacific',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Mon.',
+        time: '11:00am &ndash; 2:00pm',
+        location: 'KEC Atrium'
+        // videoConferenceLink: ''
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 2:00pm',
+        location: 'KEC Atrium'
+        // videoConferenceLink: ''
+      }
     ],
     gradingHours: [
       // {
