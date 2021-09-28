@@ -11,11 +11,18 @@ const taInfo = [
         location: 'KEC Atrium'
         // videoConferenceLink: ''
       },
+      {
+        day: 'Wed.',
+        time: '2:00 &ndash; 5:00pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium'
+        // videoConferenceLink: ''
+      },
     ],
     gradingHours: [
       {
         day: 'Fri.',
-        time: '9:30 &ndash; 11:30pm',
+        time: '9:30am &ndash; 12:40pm',
         timeZone: 'US/Pacific',
         location: 'KEC Atrium',
         // appointmentsLink: '',
@@ -89,12 +96,20 @@ const taInfo = [
     name: 'Alex Rash',
     email: 'rasha@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: '',
-      //   time: '1:00 &ndash; 3:00pm',
-      //   timeZone: 'US/Pacific',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '12:00 &ndash; 1:30pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium',
+        // videoConferenceLink: ''
+      },
+      {
+        day: 'Wed.',
+        time: '12:00 &ndash; 1:30pm',
+        timeZone: 'US/Pacific',
+        location: 'KEC Atrium',
+        // videoConferenceLink: ''
+      }
     ],
     gradingHours: [
       // {
