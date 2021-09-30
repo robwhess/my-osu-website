@@ -117,19 +117,22 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '11:00am &ndash; 12:00pm',
-        location: 'KEC Atrium'
+        location: 'KEC Tent',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
         // videoConferenceLink: ''
       },
       {
         day: 'Wed.',
         time: '11:00am &ndash; 12:00pm',
-        location: 'KEC Atrium'
+        location: 'KEC Tent',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
         // videoConferenceLink: ''
       },
       {
         day: 'Fri.',
         time: '11:00am &ndash; 12:00pm',
-        location: 'KEC Atrium'
+        location: 'KEC Tent',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
         // videoConferenceLink: ''
       },
     ],
@@ -137,14 +140,16 @@ const taInfo = [
       {
         day: 'Mon',
         time: '12:00 &ndash; 2:00pm',
-        location: 'KEC Atrium'
+        location: 'KEC Tent',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
         // appointmentsLink: '',
         // videoConferenceLink: ''
       },
       {
-        day: 'Wed',
-        time: '12:00 &ndash; 1:00pm',
-        location: 'KEC Atrium'
+        day: 'Fri',
+        time: '12:30 &ndash; 1:30pm',
+        location: 'KEC Tent',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
         // appointmentsLink: '',
         // videoConferenceLink: ''
       },
