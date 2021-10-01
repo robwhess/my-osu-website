@@ -9,7 +9,6 @@ const recitations = {
 
     {
       title: 'Week 1: CS 261 IT',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 261 IT Basics',
@@ -39,21 +38,22 @@ const recitations = {
         }
       ]
     },
-    //
-    // {
-    //   title: 'Week 2: C Pointers and Memory Allocation',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/14iKjOR6u8xYm1IUbvUSs538WrTD8nCXsVeZt24vE_bk/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'prog1.c and prog2.c',
-    //       link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
-    //       description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
-    //     }
-    //   ]
-    // },
+
+    {
+      title: 'Week 2: C Pointers and Memory Allocation',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/14iKjOR6u8xYm1IUbvUSs538WrTD8nCXsVeZt24vE_bk/edit?usp=sharing'
+        },
+        {
+          title: 'prog1.c and prog2.c',
+          link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
+          description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
+        }
+      ]
+    },
     //
     // {
     //   title: 'Week 3: Week 2 Recitation Review and Assignment 1 Help',
