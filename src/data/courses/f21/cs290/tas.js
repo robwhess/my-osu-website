@@ -22,7 +22,7 @@ const taInfo = [
         day: 'Fri.',
         time: '9:30am &ndash; 12:40pm',
         location: 'KEC Atrium',
-        // appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNvbXM2NHpwNkg5fGRlZmF1bHR8M2Y0YjhlNTRiOTE3ZTNiNzNhNzY0NzIyNDJiMjY0ZGI',
         // videoConferenceLink: ''
       },
     ]
@@ -30,6 +30,7 @@ const taInfo = [
   {
     name: 'Emmanuel Moncada',
     email: 'moncadae@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUdoOGhFQTU3VjJxfGRlZmF1bHR8N2RhODUzN2NmNDQzNGFmMDQzMjVmOTAxZjAzMmY0OTA',
     officeHours: [
       {
         day: 'Tues',
@@ -49,14 +50,14 @@ const taInfo = [
         day: 'Thurs',
         time: '1:00 &ndash; 2:00pm',
         location: 'Valley Library 1812',
-        // appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUdoOGhFQTU3VjJxfGRlZmF1bHR8N2RhODUzN2NmNDQzNGFmMDQzMjVmOTAxZjAzMmY0OTA',
         // videoConferenceLink: ''
       },
       {
         day: 'Fri',
         time: '10:00am &ndash; 12:00pm',
         location: 'Valley Library 1812',
-        // appointmentsLink: '',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUdoOGhFQTU3VjJxfGRlZmF1bHR8N2RhODUzN2NmNDQzNGFmMDQzMjVmOTAxZjAzMmY0OTA',
         // videoConferenceLink: ''
       }
     ]
@@ -101,18 +102,19 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: '9:00 &ndash; 11:00am',
-      //   timeZone: 'US/Pacific',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Thurs.',
+        time: '10:30am &ndash; 1:30pm',
+        location: 'Valley Library 1832',
+        appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UU9Ea1liRFZiX0J3fGRlZmF1bHR8N2UwZDFlOTEyNWNmOTQ1OTU2ZTdlY2NjZmI2NDIyNjE',
+        // videoConferenceLink: ''
+      },
     ]
   },
   {
     name: 'Zach Taylor',
     email: 'taylzach@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNpRlRYWkpQVUpGfGRlZmF1bHR8ZjNlMDg2OWZmZTI0Nzk4ZDIxNTc1YjY3M2RjNGQ3OGU',
     officeHours: [
       {
         day: 'Mon.',
@@ -141,16 +143,16 @@ const taInfo = [
         day: 'Mon',
         time: '12:00 &ndash; 2:00pm',
         location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
-        // appointmentsLink: '',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNpRlRYWkpQVUpGfGRlZmF1bHR8ZjNlMDg2OWZmZTI0Nzk4ZDIxNTc1YjY3M2RjNGQ3OGU',
         // videoConferenceLink: ''
       },
       {
         day: 'Fri',
         time: '12:30 &ndash; 1:30pm',
         location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
-        // appointmentsLink: '',
+        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNpRlRYWkpQVUpGfGRlZmF1bHR8ZjNlMDg2OWZmZTI0Nzk4ZDIxNTc1YjY3M2RjNGQ3OGU',
         // videoConferenceLink: ''
       },
     ]
