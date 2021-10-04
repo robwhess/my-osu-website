@@ -94,6 +94,11 @@ const TAInfoData = styled.div`
   }
 `;
 
+const TAName = styled.h2`
+  padding-left: 36px;
+  text-indent: -36px;
+`;
+
 const TAEmail = styled.div`
   padding-left: 36px;
   h4 {
@@ -143,7 +148,7 @@ function TAInfoPage({ title, tas }) {
           {tas.map(ta => (
             <TAInfoItem key={ta.name}>
               <TAInfoData>
-                <h2><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</h2>
+                <TAName><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</TAName>
                 <TAEmail><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAEmail>
               </TAInfoData>
 
