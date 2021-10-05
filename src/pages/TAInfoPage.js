@@ -101,8 +101,12 @@ const TAName = styled.h2`
 `;
 
 const TAContact = styled.div`
-  margin: 4px 0;
+  margin: 3px 0;
   padding-left: 36px;
+`;
+
+const ButtonContainer = styled.div`
+  margin: 8px 0;
 `;
 
 function taHasVideoConference(ta) {
@@ -149,20 +153,24 @@ function TAInfoPage({ title, tas }) {
               <TAInfoData>
                 <TAName><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</TAName>
                 <TAContact><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAContact>
-                <TAContact>
                   {ta.appointmentsLink && (
-                    <Button asLink small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments
-                    </Button>
+                    <TAContact>
+                      <ButtonContainer>
+                        <Button secondary asLink small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
+                          <FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments
+                        </Button>
+                    </ButtonContainer>
+                    </TAContact>
                   )}
-                </TAContact>
-                <TAContact>
                   {ta.videoConferenceLink && (
-                    <Button asLink small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference
-                    </Button>
+                    <TAContact>
+                      <ButtonContainer>
+                        <Button secondary asLink small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
+                          <FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference
+                        </Button>
+                    </ButtonContainer>
+                    </TAContact>
                   )}
-                </TAContact>
               </TAInfoData>
 
               <TAInfoData>
