@@ -12,6 +12,7 @@ import { Helmet } from 'react-helmet';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
+import Button from '../components/Button';
 import Event from '../components/Event';
 import AngleList from '../components/AngleList';
 import breakpoints from '../lib/breakpoints';
@@ -99,11 +100,9 @@ const TAName = styled.h2`
   text-indent: -36px;
 `;
 
-const TAEmail = styled.div`
+const TAContact = styled.div`
+  margin: 4px 0;
   padding-left: 36px;
-  h4 {
-    margin: 4px 0 0 0;
-  }
 `;
 
 function taHasVideoConference(ta) {
@@ -149,7 +148,17 @@ function TAInfoPage({ title, tas }) {
             <TAInfoItem key={ta.name}>
               <TAInfoData>
                 <TAName><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</TAName>
-                <TAEmail><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAEmail>
+                <TAContact><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAContact>
+                <TAContact>
+                  {ta.appointmentsLink && (
+                    <Button asLink small><FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments</Button>
+                  )}
+                </TAContact>
+                <TAContact>
+                  {ta.videoConferenceLink && (
+                    <Button asLink small><FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference</Button>
+                  )}
+                </TAContact>
               </TAInfoData>
 
               <TAInfoData>
