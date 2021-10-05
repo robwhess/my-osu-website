@@ -151,12 +151,16 @@ function TAInfoPage({ title, tas }) {
                 <TAContact><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAContact>
                 <TAContact>
                   {ta.appointmentsLink && (
-                    <Button asLink small><FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments</Button>
+                    <Button asLink small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments
+                    </Button>
                   )}
                 </TAContact>
                 <TAContact>
                   {ta.videoConferenceLink && (
-                    <Button asLink small><FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference</Button>
+                    <Button asLink small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference
+                    </Button>
                   )}
                 </TAContact>
               </TAInfoData>
