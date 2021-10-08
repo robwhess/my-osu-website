@@ -50,6 +50,7 @@ const taInfo = [
   {
     name: 'Aaron Frost',
     email: 'frostaa@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBUUmE4dkkwcE9yfGRlZmF1bHR8MjM5ZWUxNTE4NDEwNjdmYThmYWMzYjUyODFjYzc5MzM',
     officeHours: [
       {
         day: 'Tues.',
@@ -78,6 +79,7 @@ const taInfo = [
   {
     name: 'Shaurya Gaur',
     email: 'gaurs@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUlsc0toVW1tV2hafGRlZmF1bHR8YjAzYTYzNWEwZTI3MDRjMGQ2N2E3NzZmMjkyZjU4NGE',
     officeHours: [
       {
         day: 'Mon.',
