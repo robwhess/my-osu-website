@@ -146,6 +146,7 @@ const taInfo = [
   {
     name: 'Sadie Thomas',
     email: 'thomsadi@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU9pNXQwc1o5WnZmfGRlZmF1bHR8YjM4NGM1YzgyN2RjNjVhZThlOGZmNTYyZTg3ZWI1ZmQ',
     officeHours: [
       {
         day: 'Tues.',
