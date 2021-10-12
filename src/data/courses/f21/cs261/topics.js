@@ -145,7 +145,8 @@ const topics = [
 
   {
     title: 'Complexity Analysis (Big O)',
-    weeks: [ 4, 5 ],
+    weeks: [ 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -174,7 +175,7 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
-    weeks: [ 5 ],
+    weeks: [ 4 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -250,7 +251,7 @@ const topics = [
 
   {
     title: 'Binary Search',
-    weeks: [ 6 ],
+    weeks: [ 5 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -292,7 +293,7 @@ const topics = [
 
   {
     title: 'Binary Search Trees',
-    weeks: [ 7, 8 ],
+    weeks: [ 6, 7 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -325,7 +326,7 @@ const topics = [
 
   {
     title: 'Binary Tree Traversals',
-    weeks: [ 8 ],
+    weeks: [ 7, 8 ],
     resources: [
       {
         title: 'Lecture notes',
