@@ -56,6 +56,7 @@ const taInfo = [
     name: 'Lucas Pichette',
     email: 'pichettl@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/94784601733?pwd=SVdKWVFla3REM1RjeitwLzZXdVJvUT09',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUdJc3ppOGJ0dUl0fGRlZmF1bHR8MTdiOTU2MGNkYTAzY2UzOWQ2N2Q3OWIyZTlkM2MyMGY',
     officeHours: [
       {
         day: 'Tues.',
@@ -66,7 +67,7 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Tues',
-        time: '1:00 &ndash; 4:00pm',
+        time: '4:00 &ndash; 7:00pm',
         location: 'Zoom',
       },
     ]
