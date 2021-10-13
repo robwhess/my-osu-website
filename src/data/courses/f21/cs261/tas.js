@@ -118,6 +118,7 @@ const taInfo = [
   {
     name: 'James Taylor',
     email: 'tayloja5@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
     officeHours: [
       {
         day: 'Tues.',
