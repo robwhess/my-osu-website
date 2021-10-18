@@ -121,14 +121,12 @@ const taInfo = [
       {
         day: 'Mon',
         time: '12:00 &ndash; 2:00pm',
-        location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.',
+        location: 'KEC Atrium',
       },
       {
         day: 'Fri',
         time: '12:30 &ndash; 1:30pm',
-        location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.',
+        location: 'KEC Atrium',
       },
     ]
   }
