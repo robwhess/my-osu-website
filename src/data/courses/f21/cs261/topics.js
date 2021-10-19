@@ -107,7 +107,6 @@ const topics = [
   {
     title: 'Dynamic Arrays and Linked Lists',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -175,7 +174,7 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
-    weeks: [ 4 ],
+    weeks: [ 4, 5 ],
     resources: [
       {
         title: 'Lecture notes',
