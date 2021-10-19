@@ -12,19 +12,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 11/1/2021'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; Stacks and queues',
-    //   due: {
-    //     day: '~~Monday, 11/2/2020~~ **Wednesday, 11/4/2020**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, ~~Monday 11/16/2020~~ **Monday, 11/23/2020**',
-    //     '[Morning lecture doodles](https://drive.google.com/file/d/194mDYSJ2RncG5yNAL_CddbnFT4kfI0nv/view?usp=sharing) &ndash; from section 002',
-    //     '[Afternoon lecture doodles](https://drive.google.com/file/d/1Hy1ob0ay3bRzFnHzJX6wBkird0_nsg_A/view?usp=sharing) &ndash; from section 001'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/vG_Vym7q',
+      title: 'Assignment 2 &ndash; Stacks and queues',
+      due: {
+        day: 'Monday, 11/1/2021',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 11/15/2021'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Binary search trees',
