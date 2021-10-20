@@ -168,6 +168,11 @@ const topics = [
         title: 'Big O notation',
         link: 'https://en.wikipedia.org/wiki/Big_O_notation',
         description: 'Wikipedia'
+      },
+      {
+        title: 'Big-O Notation Explained with Examples',
+        link: 'https://developerinsider.co/big-o-notation-explained-with-examples/',
+        description: 'Vineet Choudhary on Developer Insider'
       }
     ]
   },
