@@ -31,12 +31,14 @@ const taInfo = [
       {
         day: 'Tues',
         time: '12:00 &ndash; 2:00pm',
-        location: 'Valley Library 1812'
+        location: 'Valley Library 1812',
+        details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
       },
       {
         day: 'Thurs',
         time: '12:00 &ndash; 1:00pm',
-        location: 'Valley Library 1812'
+        location: 'Valley Library 1812',
+        details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
       },
     ],
     gradingHours: [
@@ -44,11 +46,13 @@ const taInfo = [
         day: 'Thurs',
         time: '1:00 &ndash; 2:00pm',
         location: 'Valley Library 1812',
+        details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
       },
       {
         day: 'Fri',
         time: '10:00am &ndash; 12:00pm',
         location: 'Valley Library 1812',
+        details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
       }
     ]
   },
@@ -93,6 +97,7 @@ const taInfo = [
         day: 'Thurs.',
         time: '10:30am &ndash; 1:30pm',
         location: 'Valley Library 1832',
+        details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
       },
     ]
   },
