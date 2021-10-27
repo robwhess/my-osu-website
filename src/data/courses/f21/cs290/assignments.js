@@ -22,7 +22,7 @@ const assignments = {
       },
       notes: [
         'Code Blog link due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 10/8/2021'
+        'Demo due by 11:59pm on Monday, 11/8/2021'
       ]
     },
     {
