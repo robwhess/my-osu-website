@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage';
 import TeachingPage from './pages/TeachingPage';
 import CommunityPage from './pages/CommunityPage';
 import CoursePage from './pages/CoursePage';
+import CS290HoFPage from './pages/CS290HoFPage';
 import NoMatchPage from './pages/NoMatchPage';
 
 import breakpoints from './lib/breakpoints';
@@ -126,6 +127,7 @@ function App() {
         <Route exact path='/' component={HomePage} />
         <Route exact path='/teaching' component={TeachingPage} />
         <Route exact path='/teaching/community' component={CommunityPage} />
+        <Route exact path='/teaching/cs290hof' component={CS290HoFPage} />
 
         <Route path='/teaching/:courseNum-:term' component={CoursePage} />
 
