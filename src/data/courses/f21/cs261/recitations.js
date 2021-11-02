@@ -80,7 +80,6 @@ const recitations = {
 
     {
       title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -89,7 +88,33 @@ const recitations = {
         {
           title: 'Recitation exercise code',
           link: 'https://github.com/osu-cs261-f21/recitation-5',
-          description: 'This GitHub repo contains the linked list code you\'ll work with for this week\'s recitation exercise.'
+          description: 'This GitHub repo contains the dynamic array code you\'ll work with for this week\'s recitation exercise.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 6: Debugging with GDB and Valgrind',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1WtKcGEB-lbbnr7dyzG_dR5ftD2RXOoS3ztcT4DkJP_4/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f21/recitation-6',
+          description: 'This GitHub repo contains the buggy code you\'ll work with for this week\'s recitation exercise.'
+        },
+        {
+          title: 'GDB/Valgrind Tutorial Video #1',
+          link: 'https://media.oregonstate.edu/media/t/1_2s6m3klv',
+          description: 'A short tutorial video on some basics of GDB/Valgrind'
+        },
+        {
+          title: 'GDB/Valgrind Tutorial Video #2',
+          link: 'https://media.oregonstate.edu/media/t/1_k1xlf75p',
+          description: 'Another short tutorial video on how to use GDB/Valgrind'
         }
       ]
     },
