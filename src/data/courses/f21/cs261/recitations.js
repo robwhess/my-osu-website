@@ -118,6 +118,14 @@ const recitations = {
         }
       ]
     },
+
+    {
+      title: 'Week 7: No Recitation',
+      isCurrent: true,
+      notes: [
+        'No recitation this week because of the Veterans Day holiday.'
+      ]
+    }
     //
     // {
     //   title: 'Week 6: Exam #1 Review',
