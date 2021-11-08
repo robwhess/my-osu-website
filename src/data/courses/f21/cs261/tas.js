@@ -152,28 +152,24 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '11:30am &ndash; 2:30pm',
-        location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
+        location: 'KEC Atrium',
       },
       {
         day: 'Thurs.',
         time: '2:00 &ndash; 5:00pm',
-        location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
+        location: 'KEC Atrium',
       }
     ],
     gradingHours: [
       {
         day: 'Mon.',
         time: '11:00am &ndash; 1:00pm',
-        location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
+        location: 'KEC Atrium',
       },
       {
         day: 'Wed.',
         time: '11:00am &ndash; 1:00pm',
-        location: 'KEC Tent',
-        details: 'The KEC Tent is in the plaza between KEC and Johnson Hall.'
+        location: 'KEC Atrium',
       },
     ]
   }
