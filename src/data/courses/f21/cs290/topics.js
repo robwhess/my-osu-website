@@ -168,7 +168,6 @@ const topics = [
   {
     title: 'JavaScript Event Handling',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -243,6 +242,7 @@ const topics = [
 
   {
     title: 'Packages and npm',
+    isCurrent: true,
     weeks: [ 8 ],
     resources: [
       {
