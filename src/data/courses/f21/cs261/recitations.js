@@ -95,7 +95,6 @@ const recitations = {
 
     {
       title: 'Week 6: Debugging with GDB and Valgrind',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -121,11 +120,10 @@ const recitations = {
 
     {
       title: 'Week 7: No Recitation',
-      isCurrent: true,
       notes: [
         'No recitation this week because of the Veterans Day holiday.'
       ]
-    }
+    },
     //
     // {
     //   title: 'Week 6: Exam #1 Review',
@@ -144,19 +142,16 @@ const recitations = {
     //   ]
     // },
     //
-    // {
-    //   title: 'Week 8: Binary Search Tree Practice',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/125DX70HC-2EfOVWlN4HfN6cFOxyr2QoNBrNaryugTqM/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'Recitation exercise solutions',
-    //       link: 'https://drive.google.com/file/d/18Xmd-gA02j8EIfCBFYHp6w34eYARyfqy/view?usp=sharing'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 8: BST and AVL Tree Comparison',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1pNBpZePXE3-Ml5xoc5uMkuleGdkhS42e43HSOwJ4UuI/edit?usp=sharing'
+        }
+      ]
+    },
     //
     // {
     //   title: 'Week 9: No Recitation',
