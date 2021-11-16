@@ -360,7 +360,7 @@ const topics = [
       },
       {
         title: 'AVL Trees "Quiz" Solutions',
-        link: 'https://drive.google.com/open?id=0B8aZMq9VhvmrYm5KcjFWUmFpRFNGdy01djA3UjNBOXFvekxj'
+        link: 'https://drive.google.com/file/d/0B8aZMq9VhvmrYm5KcjFWUmFpRFNGdy01djA3UjNBOXFvekxj/view?usp=sharing&resourcekey=0-ztkcVSNmRxw7cv7EF92U_w'
       }
     ],
     readings: [
