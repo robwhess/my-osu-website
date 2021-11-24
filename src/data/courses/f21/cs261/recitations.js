@@ -159,6 +159,17 @@ const recitations = {
         'No recitation this week due to the Thanksgiving holiday.'
       ]
     },
+
+    {
+      title: 'Week 10: Student Learning Experience Survey',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1FxLjyup7WhY-5w31HoKvLP5Pzpi167u1jZKQIU5w2L4/edit?usp=sharing'
+        }
+      ]
+    }
     //
     // {
     //   title: 'Week 10: Final Exam Review',
