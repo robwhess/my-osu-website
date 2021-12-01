@@ -1,5 +1,6 @@
 import topics from './topics';
 import assignments from './assignments';
+import finalExam from './finalExam';
 import recitations from './recitations';
 import tas from './tas';
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
@@ -75,7 +76,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments ],
+  assignmentGroups: [ assignments, finalExam ],
 
   tas: tas,
 
