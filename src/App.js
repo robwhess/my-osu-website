@@ -64,6 +64,7 @@ const globalStyles = css`
     font-weight: 300;
     font-size: 18px;
     background-color: #efefef;
+    color: #222;
   }
 
   * {

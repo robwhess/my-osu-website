@@ -26,7 +26,7 @@ function HoFPage ({ match }) {
         hofTabs.push({
           key: `${course}-${term}`,
           title: courseData[term].title,
-          content: "This is where the HoF content will go..."
+          content: "This is where the HoF content will go... " + term
         });
       }
     })

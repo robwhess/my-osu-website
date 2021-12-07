@@ -9,21 +9,23 @@ import { Link } from 'react-router-dom';
 
 import isExternalLink from '../lib/isExternalLink';
 
-function Button({ href, secondary, small, children, ...props }) {
+function Button({ href, secondary, tertiary, small, fullWidth, borderless, children, ...props }) {
   const styles = css`
     display: inline-block;
+    width: ${fullWidth ? '100%' : 'init'};
     padding: 4px 8px;
-    border: 2px solid #d54f1e;
+    border: ${borderless ? '2px solid transparent' : tertiary ? '2px solid #272727' : '2px solid #d54f1e'};
     border-radius: 3px;
-    background-color: ${secondary ? '#fff' : '#d54f1e'};
-    color: ${secondary ? '#d54f1e' : '#fff'};
+    background-color: ${secondary || tertiary ? '#fff' : '#d54f1e'};
+    color: ${secondary ? '#d54f1e' : tertiary ? '#272727' : '#fff'};
     font-weight: 200;
     font-size: ${small ? '14px' : 'initial'};
     cursor: pointer;
     font-family: inherit;
     text-decoration: none;
     &:hover {
-      background-color: ${secondary ? 'rgba(213, 79, 30, 0.1)' : 'rgba(213, 79, 30, 0.75)'};
+      background-color: ${secondary ? '#fff1eb' : tertiary ? '#efefef' : '#ec7d55'};
+      border-color: ${borderless ? 'transparent' : secondary ? '#d54f1e' : tertiary ? '#272727' : '#ec7d55'};
       text-decoration: none;
     }
   `;
@@ -43,6 +45,8 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
   href: PropTypes.string,
   secondary: PropTypes.bool,
+  fullWidth: PropTypes.bool,
+  borderless: PropTypes.bool,
   small: PropTypes.bool
 };
 
