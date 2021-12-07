@@ -21,11 +21,11 @@ import personalData from './data/personal';
 
 const navHeading = {
   title: personalData.name,
-  path: '/'
+  url: '/'
 };
 const navLinks = [
   {
-    path: '/teaching',
+    url: '/teaching',
     title: 'Teaching'
   }
 ];
@@ -35,10 +35,9 @@ const navLinks = [
  */
 if (personalData.gitHub) {
   navLinks.push({
-    path: personalData.gitHub,
+    url: personalData.gitHub,
     faIcon: faGithub,
-    isRight: true,
-    isExternal: true
+    isRight: true
   });
 }
 
@@ -51,7 +50,7 @@ if (currentTerm && currentTermData) {
   teachingNavlink.menu = [];
   Object.keys(currentTermData.courses).forEach((course) => {
     teachingNavlink.menu.push({
-      path: `/teaching/${course}-${currentTerm}`,
+      url: `/teaching/${course}-${currentTerm}`,
       title: currentTermData.courses[course].number
     });
   });

@@ -156,7 +156,7 @@ function TAInfoPage({ title, tas }) {
                   {ta.appointmentsLink && (
                     <TAContact>
                       <ButtonContainer>
-                        <Button secondary asLink small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
+                        <Button secondary small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments
                         </Button>
                     </ButtonContainer>
@@ -165,7 +165,7 @@ function TAInfoPage({ title, tas }) {
                   {ta.videoConferenceLink && (
                     <TAContact>
                       <ButtonContainer>
-                        <Button secondary asLink small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
+                        <Button secondary small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference
                         </Button>
                     </ButtonContainer>

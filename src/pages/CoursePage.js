@@ -48,10 +48,10 @@ function CoursePage({ match }) {
       />
     );
     navHeading.title = course.number;
-    navHeading.path = `${matchUrl}/`;
+    navHeading.url = `${matchUrl}/`;
     navLinks.push({
       title: 'Course Info',
-      path: `${matchUrl}/`
+      url: `${matchUrl}/`
     });
 
     /*
@@ -70,7 +70,7 @@ function CoursePage({ match }) {
       );
       navLinks.push({
         title: 'Calendar',
-        path: calendarPageUrl
+        url: calendarPageUrl
       });
     }
 
@@ -90,7 +90,7 @@ function CoursePage({ match }) {
       );
       navLinks.push({
         title: 'TAs',
-        path: taPageUrl
+        url: taPageUrl
       });
     }
 
@@ -110,7 +110,7 @@ function CoursePage({ match }) {
       );
       navLinks.push({
         title: 'Recitations',
-        path: recitationPageUrl
+        url: recitationPageUrl
       });
     }
 
@@ -130,7 +130,7 @@ function CoursePage({ match }) {
       );
       navLinks.push({
         title: 'Labs',
-        path: labPageUrl
+        url: labPageUrl
       });
     }
   }
