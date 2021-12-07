@@ -9,11 +9,12 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 
 function VerticalTabPane() {
-
+  return <div></div>
 }
 
 VerticalTabPane.propTypes = {
   tabs: PropTypes.arrayOf(PropTypes.shape({
+    key: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     content: PropTypes.node.isRequired,
     active: PropTypes.bool,
