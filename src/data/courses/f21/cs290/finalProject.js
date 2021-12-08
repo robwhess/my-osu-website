@@ -43,8 +43,9 @@ const finalProject = {
         'All team members must attend your demo.',
         'Code is due on GitHub at the time of your demo.',
         'Come to the demo prepared to run your project from one of your team\'s computers.',
-        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.'
+        '~~Final project demos will be held in person in Hess\'s office (KEC 1109).~~',
+        '~~Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.~~',
+        '**All final project demos will now be held remotely.  You can use the following Zoom link to join the demo: [https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09](https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09).**'
       ]
     }
   ],
