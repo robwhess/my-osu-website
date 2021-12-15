@@ -131,7 +131,7 @@ function App() {
 
         <Route path='/teaching/:courseNum-:term/*' element={<CoursePage />} />
 
-        <Route element={<NoMatchPage />} />
+        <Route path="*" element={<NoMatchPage />} />
 
       </Routes>
 

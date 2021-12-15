@@ -121,7 +121,7 @@ function CoursePage() {
    * Add a route for the no match page to handle the case when the request URL
    * doesn't match a course page or course subpage.
    */
-  routes.push(<Route element={<NoMatchPage />} key="404" />);
+  routes.push(<Route path="*" element={<NoMatchPage />} key="404" />);
 
   return (
     <div>
