@@ -7,6 +7,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { useParams, useRouteMatch } from 'react-router-dom';
 
 import CourseInfoPage from './CourseInfoPage';
 import CalendarPage from './CalendarPage';
@@ -18,22 +19,18 @@ import Navbar from '../components/Navbar';
 
 import { courseData } from '../data/courses';
 
-/*
- * This page, when rendered, will receive a React Router `match` prop, which
- * will contain, among other things, the browser URL, and the course number
- * and term parsed from that URL (stored in the `match.params`).
- */
-function CoursePage({ match }) {
-  const { courseNum, term } = match.params;
+function CoursePage() {
+  const { courseNum, term } = useParams();
   const course = courseData[term] && courseData[term].courses[courseNum];
   const routes = [];
   const navLinks = [];
   const navHeading = {};
 
   /*
-   * Make sure the match URL has no slash at the end.
+   * Make sure the current URL has no slash at the end.
    */
-  const matchUrl = match.url.replace(/\/$/, '');
+  const { url } = useRouteMatch();
+  const routeUrl = url.replace(/\/$/, '');
 
   if (course) {
     /*
@@ -42,16 +39,16 @@ function CoursePage({ match }) {
     routes.push(
       <Route
         exact
-        path={`${matchUrl}`}
-        render={() => <CourseInfoPage course={course} />}
-        key={`${matchUrl}`}
+        path={`${routeUrl}`}
+        children={<CourseInfoPage course={course} />}
+        key={`${routeUrl}`}
       />
     );
     navHeading.title = course.number;
-    navHeading.url = `${matchUrl}/`;
+    navHeading.url = `${routeUrl}/`;
     navLinks.push({
       title: 'Course Info',
-      url: `${matchUrl}/`
+      url: `${routeUrl}/`
     });
 
     /*
@@ -59,12 +56,12 @@ function CoursePage({ match }) {
      * calendar page.
      */
     if (course.calendarUrl) {
-      const calendarPageUrl = `${matchUrl}/calendar`;
+      const calendarPageUrl = `${routeUrl}/calendar`;
       routes.push(
         <Route
           exact
           path={calendarPageUrl}
-          render={() => <CalendarPage title={`${course.number} Calendar`} calendarUrl={course.calendarUrl} />}
+          children={<CalendarPage title={`${course.number} Calendar`} calendarUrl={course.calendarUrl} />}
           key={calendarPageUrl}
         />
       );
@@ -79,12 +76,12 @@ function CoursePage({ match }) {
      * TA page.
      */
     if (course.tas) {
-      const taPageUrl = `${matchUrl}/tas`;
+      const taPageUrl = `${routeUrl}/tas`;
       routes.push(
         <Route
           exact
           path={taPageUrl}
-          render={() => <TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
+          children={<TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
           key={taPageUrl}
         />
       );
@@ -99,12 +96,12 @@ function CoursePage({ match }) {
      * for the recitations page.
      */
     if (course.recitations) {
-      const recitationPageUrl = `${matchUrl}/recitations`;
+      const recitationPageUrl = `${routeUrl}/recitations`;
       routes.push(
         <Route
           exact
           path={recitationPageUrl}
-          render={() => <RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
+          children={<RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
           key={recitationPageUrl}
         />
       );
@@ -119,12 +116,12 @@ function CoursePage({ match }) {
      * labs page.
      */
     if (course.labs) {
-      const labPageUrl = `${matchUrl}/labs`;
+      const labPageUrl = `${routeUrl}/labs`;
       routes.push(
         <Route
           exact
           path={labPageUrl}
-          render={() => <RecitationLabInfoPage title={`${course.number} Labs`} info={course.labs} />}
+          children={<RecitationLabInfoPage title={`${course.number} Labs`} info={course.labs} />}
           key={labPageUrl}
         />
       );
@@ -139,7 +136,7 @@ function CoursePage({ match }) {
    * Add a route for the no match page to handle the case when the request URL
    * doesn't match a course page or course subpage.
    */
-  routes.push(<Route component={NoMatchPage} key={"404"} />);
+  routes.push(<Route children={<NoMatchPage />} key={"404"} />);
 
   return (
     <div>

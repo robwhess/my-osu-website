@@ -6,6 +6,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from '@emotion/styled/macro';
+import { useParams } from 'react-router-dom';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
@@ -13,8 +14,8 @@ import VerticalTabPane from '../components/VerticalTabPane';
 
 import { courseData } from '../data/courses';
 
-function HoFPage ({ match }) {
-  const { courseNum } = match.params;
+function HoFPage () {
+  const { courseNum } = useParams();
 
   const hofTabs = [];
   let courseName;

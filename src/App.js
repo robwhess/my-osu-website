@@ -124,14 +124,14 @@ function App() {
 
       <Switch>
 
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/teaching' component={TeachingPage} />
-        <Route exact path='/teaching/community' component={CommunityPage} />
-        <Route exact path='/teaching/:courseNum-hof' component={HoFPage} />
+        <Route exact path='/' children={<HomePage />} />
+        <Route exact path='/teaching' children={<TeachingPage />} />
+        <Route exact path='/teaching/community' children={<CommunityPage />} />
+        <Route exact path='/teaching/:courseNum-hof' children={<HoFPage />} />
 
-        <Route path='/teaching/:courseNum-:term' component={CoursePage} />
+        <Route path='/teaching/:courseNum-:term' children={<CoursePage />} />
 
-        <Route component={NoMatchPage} />
+        <Route children={<NoMatchPage />} />
 
       </Switch>
 
