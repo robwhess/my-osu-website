@@ -5,9 +5,9 @@
  */
 
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { useParams, useRouteMatch } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 import CourseInfoPage from './CourseInfoPage';
 import CalendarPage from './CalendarPage';
@@ -26,29 +26,22 @@ function CoursePage() {
   const navLinks = [];
   const navHeading = {};
 
-  /*
-   * Make sure the current URL has no slash at the end.
-   */
-  const { url } = useRouteMatch();
-  const routeUrl = url.replace(/\/$/, '');
-
   if (course) {
     /*
      * If the course exists, add route and navbar info for course info page.
      */
     routes.push(
       <Route
-        exact
-        path={`${routeUrl}`}
-        children={<CourseInfoPage course={course} />}
-        key={`${routeUrl}`}
+        path="/"
+        key="/"
+        element={<CourseInfoPage course={course} />}
       />
     );
     navHeading.title = course.number;
-    navHeading.url = `${routeUrl}/`;
+    navHeading.url = ".";
     navLinks.push({
       title: 'Course Info',
-      url: `${routeUrl}/`
+      url: "."
     });
 
     /*
@@ -56,18 +49,16 @@ function CoursePage() {
      * calendar page.
      */
     if (course.calendarUrl) {
-      const calendarPageUrl = `${routeUrl}/calendar`;
       routes.push(
         <Route
-          exact
-          path={calendarPageUrl}
-          children={<CalendarPage title={`${course.number} Calendar`} calendarUrl={course.calendarUrl} />}
-          key={calendarPageUrl}
+          path="calendar"
+          key="calendar"
+          element={<CalendarPage title={`${course.number} Calendar`} calendarUrl={course.calendarUrl} />}
         />
       );
       navLinks.push({
         title: 'Calendar',
-        url: calendarPageUrl
+        url: "calendar"
       });
     }
 
@@ -76,18 +67,16 @@ function CoursePage() {
      * TA page.
      */
     if (course.tas) {
-      const taPageUrl = `${routeUrl}/tas`;
       routes.push(
         <Route
-          exact
-          path={taPageUrl}
-          children={<TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
-          key={taPageUrl}
+          path="tas"
+          key="tas"
+          element={<TAInfoPage title={`${course.number} Teaching Assistants`} tas={course.tas} />}
         />
       );
       navLinks.push({
         title: 'TAs',
-        url: taPageUrl
+        url: "tas"
       });
     }
 
@@ -96,18 +85,16 @@ function CoursePage() {
      * for the recitations page.
      */
     if (course.recitations) {
-      const recitationPageUrl = `${routeUrl}/recitations`;
       routes.push(
         <Route
-          exact
-          path={recitationPageUrl}
-          children={<RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
-          key={recitationPageUrl}
+          path="recitations"
+          key="recitations"
+          element={<RecitationLabInfoPage title={`${course.number} Recitations`} info={course.recitations} />}
         />
       );
       navLinks.push({
         title: 'Recitations',
-        url: recitationPageUrl
+        url: "recitations"
       });
     }
 
@@ -116,18 +103,16 @@ function CoursePage() {
      * labs page.
      */
     if (course.labs) {
-      const labPageUrl = `${routeUrl}/labs`;
       routes.push(
         <Route
-          exact
-          path={labPageUrl}
-          children={<RecitationLabInfoPage title={`${course.number} Labs`} info={course.labs} />}
-          key={labPageUrl}
+          path="labs"
+          key="labs"
+          element={<RecitationLabInfoPage title={`${course.number} Labs`} info={course.labs} />}
         />
       );
       navLinks.push({
         title: 'Labs',
-        url: labPageUrl
+        url: "labs"
       });
     }
   }
@@ -136,7 +121,7 @@ function CoursePage() {
    * Add a route for the no match page to handle the case when the request URL
    * doesn't match a course page or course subpage.
    */
-  routes.push(<Route children={<NoMatchPage />} key={"404"} />);
+  routes.push(<Route element={<NoMatchPage />} key="404" />);
 
   return (
     <div>
@@ -144,9 +129,9 @@ function CoursePage() {
 
       {navLinks.length > 1 ? <Navbar subnav heading={navHeading} links={navLinks} /> : null}
 
-      <Switch>
+      <Routes>
         {routes}
-      </Switch>
+      </Routes>
     </div>
   );
 

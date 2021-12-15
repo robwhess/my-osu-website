@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Global, css } from '@emotion/react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Helmet } from 'react-helmet';
@@ -122,18 +122,18 @@ function App() {
 
       <Navbar heading={navHeading} links={navLinks} />
 
-      <Switch>
+      <Routes>
 
-        <Route exact path='/' children={<HomePage />} />
-        <Route exact path='/teaching' children={<TeachingPage />} />
-        <Route exact path='/teaching/community' children={<CommunityPage />} />
-        <Route exact path='/teaching/:courseNum-hof' children={<HoFPage />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/teaching' element={<TeachingPage />} />
+        <Route path='/teaching/community' element={<CommunityPage />} />
+        <Route path='/teaching/:courseNum-hof' element={<HoFPage />} />
 
-        <Route path='/teaching/:courseNum-:term' children={<CoursePage />} />
+        <Route path='/teaching/:courseNum-:term/*' element={<CoursePage />} />
 
-        <Route children={<NoMatchPage />} />
+        <Route element={<NoMatchPage />} />
 
-      </Switch>
+      </Routes>
 
       <Footer />
 
