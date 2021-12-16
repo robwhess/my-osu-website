@@ -187,7 +187,7 @@ class Navbar extends React.Component {
       <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
         {isExternalLink(link.url) ?
           <a href={link.url} target="_blank" rel="noopener noreferrer">{content}</a> :
-          <NavLink to={link.url}>{content}</NavLink>
+          <NavLink end to={link.url}>{content}</NavLink>
         }
         {link.menu ?
           <NavMenu>
