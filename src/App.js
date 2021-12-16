@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Outlet } from 'react-router-dom';
 import { Global, css } from '@emotion/react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Helmet } from 'react-helmet';
@@ -11,6 +11,10 @@ import HomePage from './pages/HomePage';
 import TeachingPage from './pages/TeachingPage';
 import CommunityPage from './pages/CommunityPage';
 import CoursePage from './pages/CoursePage';
+import CourseInfoPage from './pages/CourseInfoPage';
+import CalendarPage from './pages/CalendarPage';
+import TAInfoPage from './pages/TAInfoPage';
+import RecitationLabInfoPage from './pages/RecitationLabInfoPage';
 import HoFPage from './pages/HoFPage';
 import NoMatchPage from './pages/NoMatchPage';
 
@@ -125,11 +129,20 @@ function App() {
       <Routes>
 
         <Route path='/' element={<HomePage />} />
-        <Route path='/teaching' element={<TeachingPage />} />
-        <Route path='/teaching/community' element={<CommunityPage />} />
-        <Route path='/teaching/:courseNum-hof' element={<HoFPage />} />
 
-        <Route path='/teaching/:courseNum-:term/*' element={<CoursePage />} />
+        <Route path='teaching' element={<Outlet />}>
+          <Route index element={<TeachingPage />} />
+          <Route path='community' element={<CommunityPage />} />
+          <Route path=':courseNum-hof' element={<HoFPage />} />
+          <Route path=':courseNum-:term' element={<CoursePage />}>
+            <Route index element={<CourseInfoPage />} />
+            <Route path="calendar" element={<CalendarPage />} />
+            <Route path="tas" element={<TAInfoPage />} />
+            <Route path="recitations" element={<RecitationLabInfoPage type="recitations" />} />
+            <Route path="labs" element={<RecitationLabInfoPage type="labs" />} />
+            <Route path="*" element={<NoMatchPage />} />
+          </Route>
+        </Route>
 
         <Route path="*" element={<NoMatchPage />} />
 

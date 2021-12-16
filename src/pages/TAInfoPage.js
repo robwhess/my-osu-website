@@ -4,18 +4,23 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight, faVideo, faCalendarPlus } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
+import { useParams } from 'react-router-dom';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import Button from '../components/Button';
 import Event from '../components/Event';
 import AngleList from '../components/AngleList';
+
+import NoMatchPage from './NoMatchPage';
+
 import breakpoints from '../lib/breakpoints';
+
+import { courseData } from '../data/courses';
 
 const TAInfoSectionBox = styled(SectionBox)`
   h1 {
@@ -119,8 +124,13 @@ function taHasAppointments(ta) {
     || (ta.gradingHours && ta.gradingHours.some(hours => hours.appointmentsLink));
 }
 
-function TAInfoPage({ title, tas }) {
-  return (
+function TAInfoPage() {
+  const { courseNum, term } = useParams();
+  const course = courseData[term]?.courses[courseNum];
+  const tas = course?.tas;
+  const title = `${course?.number} Teaching Assistants`;
+
+  return tas ? (
     <PageContent>
       <Helmet title={title} />
       <TAInfoSectionBox>
@@ -175,7 +185,7 @@ function TAInfoPage({ title, tas }) {
 
               <TAInfoData>
                 {ta.officeHours ?
-                  <React.Fragment>
+                  <>
                     <h4>Office Hours</h4>
                     <AngleList
                       singleAngle
@@ -183,14 +193,14 @@ function TAInfoPage({ title, tas }) {
                         <Event key={j} {...hours} />
                       ))}
                     />
-                  </React.Fragment> :
+                  </> :
                   null
                 }
               </TAInfoData>
 
               <TAInfoData>
                 {ta.gradingHours ?
-                  <React.Fragment>
+                  <>
                     <h4>Grading Hours</h4>
                     <AngleList
                       singleAngle
@@ -198,7 +208,7 @@ function TAInfoPage({ title, tas }) {
                         <Event key={j} {...hours} />
                       ))}
                     />
-                  </React.Fragment> :
+                  </> :
                   null
                 }
               </TAInfoData>
@@ -207,17 +217,9 @@ function TAInfoPage({ title, tas }) {
         </TAInfoContainer>
       </TAInfoSectionBox>
     </PageContent>
+  ) : (
+    <NoMatchPage />
   );
 }
-
-TAInfoPage.propTypes = {
-  title: PropTypes.string.isRequired,
-  tas: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    email: PropTypes.string.isRequired,
-    officeHours: PropTypes.arrayOf(PropTypes.shape(Event.propTypes)),
-    gradingHours: PropTypes.arrayOf(PropTypes.shape(Event.propTypes))
-  })).isRequired
-};
 
 export default TAInfoPage;
