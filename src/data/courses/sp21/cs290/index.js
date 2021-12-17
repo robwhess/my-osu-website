@@ -43,6 +43,11 @@ var courseDetails = {
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
+      title: 'The CS 290 Hall of Fame',
+      link: '/teaching/hof/cs290#sp21',
+      description: 'this is a showcase of some of the very best final projects from past terms of CS 290'
+    },
+    {
       title: 'Establishing a positive classroom community',
       link: '/teaching/community',
       description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'
