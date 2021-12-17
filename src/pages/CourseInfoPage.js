@@ -4,8 +4,8 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from '@emotion/styled/macro';
+import { useParams } from 'react-router-dom';
 
 import TwoColumnPageContent from '../components/TwoColumnPageContent';
 import SectionBox from '../components/SectionBox';
@@ -13,11 +13,16 @@ import CourseEssentialInfo from '../components/CourseEssentialInfo';
 import CourseAssignmentList from '../components/CourseAssignmentList';
 import CourseTopicsList from '../components/CourseTopicsList';
 
+import { courseData } from '../data/courses';
+
 const CourseInfoPageSectionBox = styled(SectionBox)`
   margin: 5px;
 `;
 
-function CourseInfoPage({ course }) {
+function CourseInfoPage() {
+  const { courseNum, term } = useParams();
+  const course = courseData[term]?.courses[courseNum];
+
   return (
     <TwoColumnPageContent
       left={
@@ -42,9 +47,5 @@ function CourseInfoPage({ course }) {
     />
   );
 }
-
-CourseInfoPage.propTypes = {
-  course: PropTypes.object.isRequired
-};
 
 export default CourseInfoPage;

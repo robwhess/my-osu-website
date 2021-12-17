@@ -6,16 +6,26 @@
 import React from 'react';
 import styled from '@emotion/styled/macro';
 import { Helmet } from 'react-helmet';
+import { useParams } from 'react-router-dom';
 
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
+
+import NoMatchPage from './NoMatchPage';
+
+import { courseData } from '../data/courses';
 
 const Title = styled.h1`
   margin: 10px 0;
 `;
 
-function CalendarPage({ title, calendarUrl }) {
-  return (
+function CalendarPage() {
+  const { courseNum, term } = useParams();
+  const course = courseData[term]?.courses[courseNum];
+  const title = `${course?.number} Calendar`;
+  const calendarUrl = course?.calendarUrl;
+
+  return calendarUrl ? (
     <PageContent>
       <Helmet title={title} />
       <SectionBox>
@@ -30,7 +40,10 @@ function CalendarPage({ title, calendarUrl }) {
         </iframe>
       </SectionBox>
     </PageContent>
-  )
+  ) : (
+    <NoMatchPage />
+  );
 }
+
 
 export default CalendarPage;

@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 import breakpoints from '../lib/breakpoints';
+import isExternalLink from '../lib/isExternalLink';
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -184,15 +185,15 @@ class Navbar extends React.Component {
     const content = link.faIcon ? <FontAwesomeIcon icon={link.faIcon} /> : link.title;
     return (
       <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
-        {link.isExternal ?
-          <a href={link.path} target="_blank" rel="noopener noreferrer">{content}</a> :
-          <NavLink exact to={link.path}>{content}</NavLink>
+        {isExternalLink(link.url) ?
+          <a href={link.url} target="_blank" rel="noopener noreferrer">{content}</a> :
+          <NavLink end to={link.url}>{content}</NavLink>
         }
         {link.menu ?
           <NavMenu>
             {link.menu.map((menuItem, i) => (
               <NavMenuItem key={i}>
-                <Link to={menuItem.path}>{menuItem.title}</Link>
+                <Link to={menuItem.url}>{menuItem.title}</Link>
               </NavMenuItem>
             ))}
           </NavMenu> :
@@ -206,7 +207,7 @@ class Navbar extends React.Component {
     return (
       <NavbarContainer subnav={this.props.subnav} collapsed={this.state.collapsed}>
         <NavbarHeading>
-          <Link to={this.props.heading.path}>{this.props.heading.title}</Link>
+          <Link to={this.props.heading.url}>{this.props.heading.title}</Link>
           <CollapseButton onClick={this.toggleNavbarCollapsed} collapsed={this.state.collapsed}>
             <FontAwesomeIcon icon={faAngleDown} />
           </CollapseButton>
@@ -227,7 +228,7 @@ Navbar.propTypes = {
   links: PropTypes.array.isRequired,
   heading: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    path: PropTypes.string.isRequired
+    url: PropTypes.string.isRequired
   }).isRequired,
   subnav: PropTypes.bool
 };

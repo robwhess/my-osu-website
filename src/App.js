@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route, Outlet } from 'react-router-dom';
 import { Global, css } from '@emotion/react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Helmet } from 'react-helmet';
@@ -11,6 +11,11 @@ import HomePage from './pages/HomePage';
 import TeachingPage from './pages/TeachingPage';
 import CommunityPage from './pages/CommunityPage';
 import CoursePage from './pages/CoursePage';
+import CourseInfoPage from './pages/CourseInfoPage';
+import CalendarPage from './pages/CalendarPage';
+import TAInfoPage from './pages/TAInfoPage';
+import RecitationLabInfoPage from './pages/RecitationLabInfoPage';
+import HoFPage from './pages/HoFPage';
 import NoMatchPage from './pages/NoMatchPage';
 
 import breakpoints from './lib/breakpoints';
@@ -20,11 +25,11 @@ import personalData from './data/personal';
 
 const navHeading = {
   title: personalData.name,
-  path: '/'
+  url: '/'
 };
 const navLinks = [
   {
-    path: '/teaching',
+    url: '/teaching',
     title: 'Teaching'
   }
 ];
@@ -34,10 +39,9 @@ const navLinks = [
  */
 if (personalData.gitHub) {
   navLinks.push({
-    path: personalData.gitHub,
+    url: personalData.gitHub,
     faIcon: faGithub,
-    isRight: true,
-    isExternal: true
+    isRight: true
   });
 }
 
@@ -50,7 +54,7 @@ if (currentTerm && currentTermData) {
   teachingNavlink.menu = [];
   Object.keys(currentTermData.courses).forEach((course) => {
     teachingNavlink.menu.push({
-      path: `/teaching/${course}-${currentTerm}`,
+      url: `/teaching/${course}-${currentTerm}`,
       title: currentTermData.courses[course].number
     });
   });
@@ -64,6 +68,7 @@ const globalStyles = css`
     font-weight: 300;
     font-size: 18px;
     background-color: #efefef;
+    color: #222;
   }
 
   * {
@@ -121,17 +126,27 @@ function App() {
 
       <Navbar heading={navHeading} links={navLinks} />
 
-      <Switch>
+      <Routes>
 
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/teaching' component={TeachingPage} />
-        <Route exact path='/teaching/community' component={CommunityPage} />
+        <Route path='/' element={<HomePage />} />
 
-        <Route path='/teaching/:courseNum-:term' component={CoursePage} />
+        <Route path='teaching' element={<Outlet />}>
+          <Route index element={<TeachingPage />} />
+          <Route path='community' element={<CommunityPage />} />
+          <Route path='hof/:courseNum' element={<HoFPage />} />
+          <Route path=':courseNum-:term' element={<CoursePage />}>
+            <Route index element={<CourseInfoPage />} />
+            <Route path="calendar" element={<CalendarPage />} />
+            <Route path="tas" element={<TAInfoPage />} />
+            <Route path="recitations" element={<RecitationLabInfoPage type="recitations" />} />
+            <Route path="labs" element={<RecitationLabInfoPage type="labs" />} />
+            <Route path="*" element={<NoMatchPage />} />
+          </Route>
+        </Route>
 
-        <Route component={NoMatchPage} />
+        <Route path="*" element={<NoMatchPage />} />
 
-      </Switch>
+      </Routes>
 
       <Footer />
 
