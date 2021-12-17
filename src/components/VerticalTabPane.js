@@ -4,9 +4,10 @@
  * is displayed in a pane to the right of the tabs.
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled/macro';
 import PropTypes from 'prop-types';
+import { useParams, useLocation, useNavigate } from 'react-router-dom';
 
 import Button from './Button';
 
@@ -30,8 +31,23 @@ const ContentPane = styled.div`
 `;
 
 function VerticalTabPane({ tabs }) {
-  const initialActiveTab = tabs.find(tab => tab.active) || tabs[0];
-  const [ activeTab, setActiveTab ] = useState(initialActiveTab);
+  const [ activeTab, setActiveTab ] = useState(tabs[0]);
+  const navigate = useNavigate();
+
+  /*
+   * Set up an effect to change the active tab when the URL hash changes.  The
+   * new active tab is the one whose key matches the URL hash.  Below, tab
+   * button clicks are set to update the URL hash, thus triggering an update
+   * to the active tab here.
+   */
+  const { hash } = useLocation();
+  useEffect(() => {
+    const key = hash.replace('#', '');
+    const nextActiveTab = tabs.find(tab => key === tab.key);
+    if (nextActiveTab) {
+      setActiveTab(nextActiveTab);
+    }
+  }, [ hash ]);
 
   return (
     <VerticalTabPaneContainer>
@@ -42,7 +58,7 @@ function VerticalTabPane({ tabs }) {
               fullWidth
               tertiary={tab.key !== activeTab.key}
               borderless={tab.key !== activeTab.key}
-              onClick={() => setActiveTab(tab)}
+              onClick={() => navigate(`#${tab.key}`)}
             >
               {tab.title}
             </Button>
@@ -58,8 +74,7 @@ VerticalTabPane.propTypes = {
   tabs: PropTypes.arrayOf(PropTypes.shape({
     key: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    content: PropTypes.node.isRequired,
-    active: PropTypes.bool,
+    content: PropTypes.node.isRequired
   })).isRequired,
 };
 

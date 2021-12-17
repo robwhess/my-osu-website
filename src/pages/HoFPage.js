@@ -42,7 +42,7 @@ function HoFPage () {
       if (course === courseNum && courseItem.hof) {
         courseName = courseItem.number;
         hofTabs.push({
-          key: `${course}-${term}`,
+          key: `${term}`,
           title: courseData[term].title,
           content: generateHoFItemList(courseItem.hof)
         });
