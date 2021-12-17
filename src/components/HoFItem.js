@@ -9,18 +9,27 @@ import MarkdownIt from 'markdown-it';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlayCircle, faStopCircle } from '@fortawesome/free-solid-svg-icons';
 
+import breakpoints from '../lib/breakpoints';
+
 const md = new MarkdownIt({ breaks: true, linkify: true });
 
 const ItemContainer = styled.div`
   padding: 16px;
   display: flex;
   align-items: center;
+  @media (max-width: ${breakpoints[0]}px) {
+    flex-direction: column;
+    padding: 32px 0 16px 0;
+  }
 `;
 
 const ImgContainer = styled.div`
   flex: 0 0 300px;
   position: relative;
   text-align: center;
+  @media (max-width: ${breakpoints[0]}px) {
+    flex-basis: auto;
+  }
 `;
 
 const ImgElem = styled.img`
@@ -55,6 +64,10 @@ const Controls = styled.div`
 
 const InfoContainer = styled.div`
   margin-left: 32px;
+  @media (max-width: ${breakpoints[0]}px) {
+    margin-left: 0;
+    margin-top: 16px;
+  }
 `;
 
 const Title = styled.h2`

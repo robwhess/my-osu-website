@@ -7,12 +7,17 @@
 import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled/macro';
 import PropTypes from 'prop-types';
-import { useParams, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import Button from './Button';
 
+import breakpoints from '../lib/breakpoints';
+
 const VerticalTabPaneContainer = styled.div`
   display: flex;
+  @media (max-width: ${breakpoints[0]}px) {
+    flex-direction: column;
+  }
 `;
 
 const TabsContainer = styled.div`
@@ -28,6 +33,9 @@ const TabButtonContainer = styled.div`
 
 const ContentPane = styled.div`
   margin: 0 25px;
+  @media (max-width: ${breakpoints[0]}px) {
+    margin-top: 32px;
+  }
 `;
 
 function VerticalTabPane({ tabs }) {
@@ -47,7 +55,7 @@ function VerticalTabPane({ tabs }) {
     if (nextActiveTab) {
       setActiveTab(nextActiveTab);
     }
-  }, [ hash ]);
+  }, [ hash, tabs ]);
 
   return (
     <VerticalTabPaneContainer>
