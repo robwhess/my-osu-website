@@ -21,7 +21,7 @@ const VerticalTabPaneContainer = styled.div`
 `;
 
 const TabsContainer = styled.div`
-  flex: 0 0 auto;
+  flex: 1 0 15%;
   display: flex;
   flex-direction: column;
 `;
@@ -31,7 +31,11 @@ const TabButtonContainer = styled.div`
   padding: 3px;
   button {
     font-size: 20px;
-    font-weight: 400;
+  }
+  @media (max-width: ${breakpoints[0]}px) {
+    button {
+      font-weight: 400;
+    }
   }
 `;
 
