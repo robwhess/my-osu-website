@@ -29,6 +29,10 @@ const TabsContainer = styled.div`
 const TabButtonContainer = styled.div`
   width: 100%;
   padding: 3px;
+  button {
+    font-size: 20px;
+    font-weight: 400;
+  }
 `;
 
 const ContentPane = styled.div`
