@@ -133,7 +133,7 @@ function App() {
         <Route path='teaching' element={<Outlet />}>
           <Route index element={<TeachingPage />} />
           <Route path='community' element={<CommunityPage />} />
-          <Route path=':courseNum-hof' element={<HoFPage />} />
+          <Route path='hof/:courseNum' element={<HoFPage />} />
           <Route path=':courseNum-:term' element={<CoursePage />}>
             <Route index element={<CourseInfoPage />} />
             <Route path="calendar" element={<CalendarPage />} />

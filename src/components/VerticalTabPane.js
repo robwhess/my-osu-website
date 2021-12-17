@@ -15,6 +15,7 @@ const VerticalTabPaneContainer = styled.div`
 `;
 
 const TabsContainer = styled.div`
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
 `;
@@ -25,7 +26,7 @@ const TabButtonContainer = styled.div`
 `;
 
 const ContentPane = styled.div`
-  margin: 0 10px;
+  margin: 0 25px;
 `;
 
 function VerticalTabPane({ tabs }) {

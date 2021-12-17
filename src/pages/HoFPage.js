@@ -11,8 +11,25 @@ import { useParams } from 'react-router-dom';
 import PageContent from '../components/PageContent';
 import SectionBox from '../components/SectionBox';
 import VerticalTabPane from '../components/VerticalTabPane';
+import HoFItem from '../components/HoFItem';
 
 import { courseData } from '../data/courses';
+
+const HofItemListContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  & > *:not(:last-child) {
+    border-bottom: 1px solid #eee;
+  }
+`;
+
+function generateHoFItemList(hofEntries) {
+  return (
+    <HofItemListContainer>
+      {hofEntries.map(entry => <HoFItem key={entry.title} {...entry} />)}
+    </HofItemListContainer>
+  );
+}
 
 function HoFPage () {
   const { courseNum } = useParams();
@@ -27,7 +44,7 @@ function HoFPage () {
         hofTabs.push({
           key: `${course}-${term}`,
           title: courseData[term].title,
-          content: "This is where the HoF content will go... " + term
+          content: generateHoFItemList(courseItem.hof)
         });
       }
     })
