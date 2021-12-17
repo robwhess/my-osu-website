@@ -54,7 +54,7 @@ const Controls = styled.div`
 `;
 
 const InfoContainer = styled.div`
-  margin-left: 20px;
+  margin-left: 32px;
 `;
 
 const Title = styled.h2`
