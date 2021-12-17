@@ -13,7 +13,16 @@ import SectionBox from '../components/SectionBox';
 import VerticalTabPane from '../components/VerticalTabPane';
 import HoFItem from '../components/HoFItem';
 
+import breakpoints from '../lib/breakpoints';
+
 import { courseData } from '../data/courses';
+
+const HoFIntro = styled.h3`
+  font-size: 28px;
+  @media (max-width: ${breakpoints[0]}px) {
+    font-size: 24px;
+  }
+`;
 
 const HofItemListContainer = styled.div`
   display: flex;
@@ -36,11 +45,13 @@ function HoFPage () {
 
   const hofTabs = [];
   let courseName;
+  let courseTitle;
   Object.keys(courseData).forEach(term => {
     Object.keys(courseData[term].courses).forEach(course => {
       const courseItem = courseData[term].courses[course];
       if (course === courseNum && courseItem.hof) {
         courseName = courseItem.number;
+        courseTitle = courseItem.title;
         hofTabs.push({
           key: `${term}`,
           title: courseData[term].title,
@@ -58,6 +69,9 @@ function HoFPage () {
         {courseName ? (
           <>
             <h1>{pageTitle}</h1>
+            <HoFIntro>
+              Every year, students write dozens of applications for the final project in my {courseTitle} course.  Below is a showcase of some of the most outstanding ones.
+            </HoFIntro>
             <VerticalTabPane tabs={hofTabs} />
           </>
         ) : (
