@@ -32,11 +32,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1BdHGrwyxafQrHUwp4n0m37q8xqmxBQXuEPZ8zWYPVJY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/java',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/kotlin-primer',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
