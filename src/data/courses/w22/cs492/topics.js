@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -120,12 +119,12 @@ const topics = [
   },
 
   {
-    title: 'Our First Android App: TODOs',
+    title: 'Our First Android App: To-Dos',
     weeks: [ 2 ],
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1Uq5jFnnBvBpy0qEou13UVUkAhIekvfl_OcYDdSah4Cs/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1jbk9s3ZDKJsVEyGD7h8HzyOKWzg5UjnD6zYDMyGA354/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
