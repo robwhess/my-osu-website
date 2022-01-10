@@ -1,17 +1,17 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; A basic RecyclerView-based weather app',
-    //   due: {
-    //     day: 'Monday, 1/25/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/8/2021'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/L2fM1QBY',
+      title: 'Assignment 1 &ndash; A basic RecyclerView-based weather app',
+      due: {
+        day: 'Monday, 1/24/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/7/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; A weather app with internet connectivity and Intents',
