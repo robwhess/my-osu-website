@@ -2,6 +2,7 @@ const tas = [
   {
     name: 'Andrew Festa',
     email: 'festaa@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUFhTEhPSUZRcVhffGRlZmF1bHR8NWI2ZGViNjdhNTQ2YTZiYzMyZjU5YjY1YTgxYWI1ZDc',
     officeHours: [
       {
         day: 'Wed.',
@@ -22,7 +23,7 @@ const tas = [
       },
       {
         day: 'Tues.',
-        time: '11:00am &ndash; 1:00pm',
+        time: '11:30am &ndash; 1:30pm',
         location: 'KEC Atrium'
       },
       {
@@ -36,24 +37,33 @@ const tas = [
     name: 'Sumer Patel',
     email: 'patelsum@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '12:00am &ndash; 2:00pm',
-      //   location: 'KEC Atrium'
-      // },
-      // {
-      //   day: 'Fri.',
-      //   time: '11:00am &ndash; 2:00pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Tues.',
+        time: '10:00 &ndash; 11:30am',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '10:00 &ndash; 11:30am',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: '',
-      //   time: ' &ndash; ',
-      //   appointmentsLink: '',
-      //   videoConferenceLink: ''
-      // },
+      {
+        day: 'Mon.',
+        time: '10:00am &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '10:30am &ndash; 1:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   }
 ];
