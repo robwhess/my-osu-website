@@ -127,11 +127,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1jbk9s3ZDKJsVEyGD7h8HzyOKWzg5UjnD6zYDMyGA354/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/todos',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/BasicToDos',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
