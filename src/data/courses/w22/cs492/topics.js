@@ -103,7 +103,6 @@ const topics = [
   {
     title: 'Getting Started with Android Studio',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -155,10 +154,11 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1LfCy-0xNEjYXCZFcwbRdtEgeeQI3IC5tVrHJEUljuu8/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1OGRgzRL0KA3xdhmNnI8d5pcW9J1CO18tYxYFicghHH0/edit?usp=sharing'
       },
       {
         title: 'Example code',
