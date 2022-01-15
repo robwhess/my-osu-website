@@ -171,40 +171,16 @@ const topics = [
         title: 'Create a List with RecyclerView',
         link: 'https://developer.android.com/guide/topics/ui/layout/recyclerview',
         description: 'Android Developers'
-      }
-    ]
-  },
-
-  {
-    title: 'User Interactions and RecyclerView',
-    weeks: [ 3, 4 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1nzNxY5fh9KSfr1-jtyebn5mqg87mL0ScqrSf2HejBGI/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/RecyclerViewTodos',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-    ],
-    readings: [
       {
-        title: 'Toasts overview',
-        link: 'https://developer.android.com/guide/topics/ui/notifiers/toasts',
+        title: 'Pop-up messages overview',
+        link: 'https://developer.android.com/training/snackbar',
         description: 'Android Developers'
       },
       {
         title: 'ItemTouchHelper.SimpleCallback',
         link: 'https://developer.android.com/reference/androidx/recyclerview/widget/ItemTouchHelper.SimpleCallback.html',
         description: 'Android Developers'
-      },
-      {
-        title: 'Drag and Swipe with RecyclerView',
-        link: 'https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf',
-        description: 'Paul Burke (Medium)'
       }
     ]
   },
