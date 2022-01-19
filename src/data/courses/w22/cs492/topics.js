@@ -194,11 +194,11 @@ const topics = [
         link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing',
         description: 'old Java-based notes, Kotlin updates coming soon'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/GitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/GitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
