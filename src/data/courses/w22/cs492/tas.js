@@ -36,6 +36,7 @@ const tas = [
   {
     name: 'Sumer Patel',
     email: 'patelsum@oregonstate.edu',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZROFBnTkR6Z090fGRlZmF1bHR8MmQ2N2IzMTNjYjEwZjE3M2VkOGE4NTgzOWY0NjgyZGU',
     officeHours: [
       {
         day: 'Tues.',
