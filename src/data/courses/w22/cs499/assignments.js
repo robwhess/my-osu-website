@@ -23,17 +23,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 2/7/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; A multi-page application using React Router',
-    //   due: {
-    //     day: 'Monday, 2/1/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/22/2021'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/0ur0pmN7',
+      title: 'Assignment 2 &ndash; A multi-page application using React Router',
+      due: {
+        day: 'Monday, 1/31/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/21/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Data fetching and component styling',
