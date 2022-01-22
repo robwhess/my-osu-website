@@ -120,7 +120,6 @@ const topics = [
   {
     title: 'Our First Android App: To-Dos',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -186,13 +185,13 @@ const topics = [
   },
 
   {
-    title: 'Fetching Internet Data using AsyncTask',
+    title: 'Using Data from the Internet',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1vBELl7qpuxlwZaRs7HJ6fEAAUGP1SIEoz4cP0YF0Ds8/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
+        link: 'https://docs.google.com/document/d/1KW2qwtoMDDYhP0ximsH1ZoyKmxCTqrub9cD6BQHpAmI/edit?usp=sharing',
       },
       {
         title: 'Example code',
@@ -202,28 +201,8 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Uri.Builder',
-        link: 'https://developer.android.com/reference/android/net/Uri.Builder',
-        description: 'Android Developers'
-      },
-      {
-        title: 'OkHttp Recipes',
-        link: 'https://square.github.io/okhttp/recipes/',
-        description: 'OkHttp Wiki'
-      },
-      {
-        title: 'Processes and threads overview',
-        link: 'https://developer.android.com/guide/components/processes-and-threads',
-        description: 'Android Developers'
-      },
-      {
         title: 'Volley overview',
         link: 'https://developer.android.com/training/volley',
-        description: 'Android Developers'
-      },
-      {
-        title: 'AsyncTask',
-        link: 'https://developer.android.com/reference/android/os/AsyncTask',
         description: 'Android Developers'
       },
       {
@@ -232,9 +211,14 @@ const topics = [
         description: 'Android Developers'
       },
       {
-        title: 'Gson User Guide',
-        link: 'https://github.com/google/gson/blob/master/UserGuide.md',
+        title: 'Moshi',
+        link: 'https://github.com/square/moshi/',
         description: 'on GitHub'
+      },
+      {
+        title: 'App resources overview',
+        link: 'https://developer.android.com/guide/topics/resources/providing-resources',
+        description: 'Android Developers'
       }
     ]
   },
