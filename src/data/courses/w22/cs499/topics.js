@@ -144,11 +144,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1s0zG2b0wa5fGZrf2Dg9mimGW-Tdm_gtXXPfvDqE2wV8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w21/using-react-router',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w22/using-react-router',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
@@ -157,29 +157,19 @@ const topics = [
         description: 'MDN'
       },
       {
-        title: 'Philosophy',
-        link: 'https://reacttraining.com/react-router/web/guides/philosophy',
+        title: 'Overview',
+        link: 'https://reactrouter.com/docs/en/v6/getting-started/overview',
         description: 'React Router Docs'
       },
       {
-        title: 'Quick Start',
-        link: 'https://reacttraining.com/react-router/web/guides/quick-start',
+        title: 'Main Concepts',
+        link: 'https://reactrouter.com/docs/en/v6/getting-started/concepts',
         description: 'React Router Docs'
       },
       {
-        title: 'Primary Components',
-        link: 'https://reacttraining.com/react-router/web/guides/primary-components',
+        title: 'Tutorial',
+        link: 'https://reactrouter.com/docs/en/v6/getting-started/tutorial',
         description: 'React Router Docs'
-      },
-      {
-        title: 'URL Parameters',
-        link: 'https://reacttraining.com/react-router/web/example/url-params',
-        description: 'React Router examples'
-      },
-      {
-        title: 'Nesting',
-        link: 'https://reacttraining.com/react-router/web/example/nesting',
-        description: 'React Router examples'
       }
     ]
   },
