@@ -3,6 +3,7 @@ const tas = [
     name: 'Jasmin Mousavi',
     email: 'mousavij@oregonstate.edu',
     appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNvbXM2NHpwNkg5fGRlZmF1bHR8M2Y0YjhlNTRiOTE3ZTNiNzNhNzY0NzIyNDJiMjY0ZGI',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/94823931538?pwd=enJZOUg4MGx0VDBaQjZtc211UzU0Zz09',
     officeHours: [
       {
         day: 'Mon.',
