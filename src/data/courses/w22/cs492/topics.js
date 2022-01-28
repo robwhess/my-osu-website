@@ -153,7 +153,6 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
