@@ -137,7 +137,6 @@ const topics = [
   {
     title: 'Client-Side Routing with React Router',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -176,16 +175,17 @@ const topics = [
   {
     title: 'Communicating with an HTTP API',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Q7mF8c3psaiEPX2M2Dzd9Hkqoo60tpD8_XigrGAHShk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w21/api-communication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w22/api-communication',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
