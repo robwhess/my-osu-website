@@ -190,7 +190,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1KW2qwtoMDDYhP0ximsH1ZoyKmxCTqrub9cD6BQHpAmI/edit?usp=sharing',
+        link: 'https://docs.google.com/document/d/1KW2qwtoMDDYhP0ximsH1ZoyKmxCTqrub9cD6BQHpAmI/edit?usp=sharing'
       },
       {
         title: 'Example code',
@@ -225,17 +225,17 @@ const topics = [
   {
     title: 'Starting New Activities with Intents',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1JDw2GH9zSPlaLSstrw2CH_ugSfdeA-v7qfl7HoXkS1E/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
+        link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/MultiActivityGitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/MultiActivityGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
