@@ -186,7 +186,6 @@ const topics = [
   {
     title: 'Using Data from the Internet',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
