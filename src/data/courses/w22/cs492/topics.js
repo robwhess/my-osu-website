@@ -223,7 +223,7 @@ const topics = [
 
   {
     title: 'Starting New Activities with Intents',
-    weeks: [ 5 ],
+    weeks: [ 5, 6 ],
     isCurrent: true,
     resources: [
       {
@@ -268,11 +268,11 @@ const topics = [
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 6, 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/18vxnSkYTDzF4KMANiJt517IKSzlZebO-GBhCXxoW_nA/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
+        link: 'https://docs.google.com/document/d/1PkxaTE27Y75EWEaHDEIn-NG5zfDqv7BI0qdLTqSF7KI/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
@@ -307,14 +307,19 @@ const topics = [
         description: 'Android Developers'
       },
       {
-        title: 'Lifecycle Aware Data Loading with Architecture Components',
-        link: 'https://medium.com/androiddevelopers/lifecycle-aware-data-loading-with-android-architecture-components-f95484159de4',
-        description: 'Ian Lake (on Medium)'
-      },
-      {
         title: 'Retrofit',
         link: 'https://square.github.io/retrofit/',
         description: 'A type-safe HTTP client for Android and Java'
+      },
+      {
+        title: 'Coroutines basics',
+        link: 'https://kotlinlang.org/docs/coroutines-basics.html',
+        description: 'Kotlin docs'
+      },
+      {
+        title: 'Kotlin coroutines on Android',
+        link: 'https://developer.android.com/kotlin/coroutines',
+        description: 'Android Developers'
       }
     ]
   },
