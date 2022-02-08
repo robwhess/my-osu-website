@@ -274,11 +274,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1PkxaTE27Y75EWEaHDEIn-NG5zfDqv7BI0qdLTqSF7KI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/LifecycleAwareGitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/LifecycleAwareGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
