@@ -23,17 +23,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 2/21/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; A lifecycle-aware weather app with user preferences',
-    //   due: {
-    //     day: '~~Monday, 2/22/2021~~ **Tuesday, 2/23/2021**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 3/8/2021'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/KCmJrtBU',
+      title: 'Assignment 3 &ndash; A lifecycle-aware weather app with user preferences',
+      due: {
+        day: 'Monday, 2/21/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/7/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; A weather app with SQLite and a navigation drawer',
