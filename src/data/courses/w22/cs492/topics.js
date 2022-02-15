@@ -224,7 +224,6 @@ const topics = [
   {
     title: 'Starting New Activities with Intents',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -325,13 +324,13 @@ const topics = [
   },
 
   {
-    title: 'Storing Prefs with SharedPreferences',
+    title: 'Storing Settings with the Preference Library',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1Bod43t4V_b1KPvijQIf7wQL90BOxcNTKm1D8r8LO1U8/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
+        link: 'https://docs.google.com/document/d/14c1sa_eBykec1EX1wlgJYr79IDOVsujnEJ4SiTAbYnk/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
@@ -343,6 +342,16 @@ const topics = [
       {
         title: 'Settings',
         link: 'https://developer.android.com/guide/topics/ui/settings/',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Preference components and attributes',
+        link: 'https://developer.android.com/guide/topics/ui/settings/components-and-attributes',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Use saved values',
+        link: 'https://developer.android.com/guide/topics/ui/settings/use-saved-values',
         description: 'Android Developers'
       },
       {
