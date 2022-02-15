@@ -332,11 +332,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14c1sa_eBykec1EX1wlgJYr79IDOVsujnEJ4SiTAbYnk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/GitHubSearchWithPrefs',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/GitHubSearchWithSettings',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
