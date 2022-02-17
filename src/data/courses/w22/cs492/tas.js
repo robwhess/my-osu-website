@@ -29,7 +29,10 @@ const tas = [
       {
         day: 'Thurs.',
         time: '11:00am &ndash; 1:00pm',
-        location: 'KEC Atrium'
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92442218060?pwd=TE13YjAvQ0ppZWVSb2tGYW5GSDFMZz09',
+        appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBpbUx1dHhZV2FnfGRlZmF1bHR8M2QzYmQxNmQ2YjJiMTg5MzBhNTU4ZTI1ZTA0NTZlMTg',
+        details: 'Use the camera icon next to these office hours to connect to the Zoom meeting.  Use the calendar icon to sign up for these specific office hours.'
       }
     ]
   },
