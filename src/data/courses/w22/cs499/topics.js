@@ -266,7 +266,6 @@ const topics = [
   {
     title: 'Centralizing Application State with Redux',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -363,17 +362,18 @@ const topics = [
 
   {
     title: 'API Queries with GraphQL',
-    weeks: [ 9, 10 ],
+    weeks: [ 8, 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1i02SdUAS96QYayvf4KtDa0HmEwZNOLZZb7jZBfbWWl8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w21/using-apollo',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w22/using-apollo',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
