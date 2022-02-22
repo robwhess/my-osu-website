@@ -369,11 +369,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1PXJW9mwYRW1_bVG54bXhm4o8YQu8KxFjIFAP1WPz7Ms/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w21/GitHubSearchWithSQLite',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w22/GitHubSearchWithRoom',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
