@@ -55,17 +55,17 @@ const tas = [
     gradingHours: [
       {
         day: 'Mon.',
-        time: '10:00am &ndash; 1:00pm',
+        time: '11:00am &ndash; 1:00pm',
         location: 'KEC Atrium'
       },
       {
         day: 'Wed.',
-        time: '10:30am &ndash; 1:30pm',
+        time: '11:30am &ndash; 1:30pm',
         location: 'KEC Atrium'
       },
       {
         day: 'Fri.',
-        time: '11:00am &ndash; 1:00pm',
+        time: '11:00am &ndash; 3:00pm',
         location: 'KEC Atrium'
       }
     ]
