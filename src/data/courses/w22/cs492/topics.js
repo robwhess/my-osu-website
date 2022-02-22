@@ -267,7 +267,6 @@ const topics = [
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -326,7 +325,6 @@ const topics = [
   {
     title: 'Storing Settings with the Preference Library',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -363,13 +361,13 @@ const topics = [
   },
 
   {
-    title: 'Storing Data with SQLite (Featuring Navigation Drawers)',
-    weeks: [ 8, 9 ],
+    title: 'Storing Data using the Room Persistence Library',
+    weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1M0B8LPzEbYFzF08Jp9ybUc2F94qwSDXHh-9jkgHam0U/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
+        link: 'https://docs.google.com/document/d/1PXJW9mwYRW1_bVG54bXhm4o8YQu8KxFjIFAP1WPz7Ms/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
@@ -379,16 +377,6 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Create a navigation drawer',
-        link: 'https://developer.android.com/training/implementing-navigation/nav-drawer',
-        description: 'Android Developers'
-      },
-      {
-        title: 'NavigationView',
-        link: 'https://developer.android.com/reference/android/support/design/widget/NavigationView',
-        description: 'Android Developers'
-      },
-      {
         title: 'SQLite Tutorial',
         link: 'http://www.sqlitetutorial.net/'
       },
@@ -396,9 +384,42 @@ const topics = [
         title: 'Save data in a local database using Room',
         link: 'https://developer.android.com/training/data-storage/room/',
         description: 'Android Developers'
+      },
+      {
+        title: 'Defining data using Room entities',
+        link: 'https://developer.android.com/training/data-storage/room/defining-data',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Accessing data using Room DAOs',
+        link: 'https://developer.android.com/training/data-storage/room/accessing-data',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Kotlin flows on Android',
+        link: 'https://developer.android.com/kotlin/flow',
+        description: 'Android Developers'
       }
     ]
   },
+
+  // {
+  //   title: 'Navigation',
+  //   weeks: [ 9 ],
+  //   resources: [],
+  //   readings: [
+  //     {
+  //       title: 'Create a navigation drawer',
+  //       link: 'https://developer.android.com/training/implementing-navigation/nav-drawer',
+  //       description: 'Android Developers'
+  //     },
+  //     {
+  //       title: 'NavigationView',
+  //       link: 'https://developer.android.com/reference/android/support/design/widget/NavigationView',
+  //       description: 'Android Developers'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'Background Work and Notifications',
