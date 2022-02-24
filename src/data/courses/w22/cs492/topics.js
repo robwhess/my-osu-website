@@ -403,23 +403,59 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Navigation',
-  //   weeks: [ 9 ],
-  //   resources: [],
-  //   readings: [
-  //     {
-  //       title: 'Create a navigation drawer',
-  //       link: 'https://developer.android.com/training/implementing-navigation/nav-drawer',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'NavigationView',
-  //       link: 'https://developer.android.com/reference/android/support/design/widget/NavigationView',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
+  {
+    title: 'Navigation with Jetpack\'s Navigation Component',
+    weeks: [ 9 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        // link: ''
+        description: 'coming soon'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w22/GitHubSearchWithRoom',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+    ],
+    readings: [
+      {
+        title: 'Getting started with the Navigation component',
+        link: 'https://developer.android.com/guide/navigation/navigation-getting-started',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Create destinations',
+        link: 'https://developer.android.com/guide/navigation/navigation-create-destinations',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Design navigation graphs',
+        link: 'https://developer.android.com/guide/navigation/navigation-design-graph',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Navigate to a destination',
+        link: 'https://developer.android.com/guide/navigation/navigation-navigate',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Pass data between destinations',
+        link: 'https://developer.android.com/guide/navigation/navigation-pass-data',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Update UI components with NavigationUI',
+        link: 'https://developer.android.com/guide/navigation/navigation-ui',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Migrate to the Navigation component',
+        link: 'https://developer.android.com/guide/navigation/navigation-migrate',
+        description: 'Android Developers'
+      }
+    ]
+  },
 
   {
     title: 'Background Work and Notifications',
