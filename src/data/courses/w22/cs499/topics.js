@@ -314,7 +314,6 @@ const topics = [
   {
     title: 'Next.js',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -362,7 +361,7 @@ const topics = [
 
   {
     title: 'API Queries with GraphQL',
-    weeks: [ 8, 9 ],
+    weeks: [ 8 ],
     isCurrent: true,
     resources: [
       {
@@ -421,7 +420,7 @@ const topics = [
 
   {
     title: 'Authenticating Users',
-    weeks: [ 10 ],
+    weeks: [ 9 ],
     resources: [
       {
         title: 'Lecture notes',
