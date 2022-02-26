@@ -406,11 +406,11 @@ const topics = [
   {
     title: 'Navigation with Jetpack\'s Navigation Component',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        // link: ''
-        description: 'coming soon'
+        link: 'https://docs.google.com/document/d/1tLtktp8ZHqU6A3PSb7pbWn88_rTu2d2ssx5juNDA9iY/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
