@@ -362,7 +362,6 @@ const topics = [
   {
     title: 'API Queries with GraphQL',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -421,16 +420,17 @@ const topics = [
   {
     title: 'Authenticating Users',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/17zERsoO6i5MMQjVfDsb_OKo2MopVV4Jn8Q8qbo8bFFI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w21/authentication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w22/authentication',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
