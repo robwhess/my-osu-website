@@ -6,7 +6,7 @@ const tas = [
     officeHours: [
       {
         day: 'Wed.',
-        time: '1:00 &ndash; 3:00pm',
+        time: '2:00 &ndash; 4:00pm',
         location: 'KEC Atrium'
       },
       {
