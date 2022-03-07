@@ -38,7 +38,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/9RC1EYfL',
       title: 'Assignment 4 &ndash; A weather app with stored data and a navigation drawer',
       due: {
-        day: 'Monday, 3/7/2022',
+        day: '~~Monday, 3/7/2022~~ **Wednesday, 3/9/2022**',
         time: '11:59pm'
       },
       notes: [
