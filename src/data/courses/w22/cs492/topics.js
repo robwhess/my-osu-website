@@ -459,11 +459,11 @@ const topics = [
   {
     title: 'Background Work and Notifications',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1zZAneZTOFFfDhze99ZeJpOb_0XO98pXfUYr3e8M6Z90/edit?usp=sharing',
-        description: 'old Java-based notes, Kotlin updates coming soon'
+        link: 'https://docs.google.com/document/d/1Hgr56xP-UkL4tb0HvwlN6VBkPtjfCgjDAp2C2VAAu3Y/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
