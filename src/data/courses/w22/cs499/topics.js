@@ -485,11 +485,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1oE5a3HUQqLN25FQQs0UTqcAA3a4SlxArLPxaomr8Bb4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w22/authentication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs499-w22/testing-and-deployment',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
@@ -536,6 +536,21 @@ const topics = [
         title: 'GitHub Pages Documentation',
         link: 'https://docs.github.com/en/pages',
         description: 'GitHub Docs'
+      },
+      {
+        title: 'Deploying Node.js Apps on Heroku',
+        link: 'https://devcenter.heroku.com/articles/deploying-nodejs',
+        description: 'Heroku Docs'
+      },
+      {
+        title: 'GitHub Integration (Heroku GitHub Deploys)',
+        link: 'https://devcenter.heroku.com/articles/github-integration',
+        description: 'Heroku Docs'
+      },
+      {
+        title: 'How to Deploy a Next.js Site with Vercel',
+        link: 'https://vercel.com/guides/deploying-nextjs-with-vercel',
+        description: 'Vercel Docs'
       }
     ]
   }
