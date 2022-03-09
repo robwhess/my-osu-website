@@ -419,7 +419,7 @@ const topics = [
 
   {
     title: 'Authenticating Users',
-    weeks: [ 9 ],
+    weeks: [ 9, 10 ],
     isCurrent: true,
     resources: [
       {
@@ -472,6 +472,70 @@ const topics = [
         title: 'OAuth 2.0',
         link: 'https://oauth.net/2/',
         description: 'OAuth 2.0 documentation'
+      }
+    ]
+  },
+
+  {
+    title: 'Testing and CI/CD Primer for React Apps',
+    weeks: [ 10 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1oE5a3HUQqLN25FQQs0UTqcAA3a4SlxArLPxaomr8Bb4/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs499-w22/authentication',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+    ],
+    readings: [
+      {
+        title: 'Testing Overview',
+        link: 'https://reactjs.org/docs/testing.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Testing Recipes',
+        link: 'https://reactjs.org/docs/testing-recipes.html',
+        description: 'React Docs'
+      },
+      {
+        title: 'Getting Started with Jest',
+        link: 'https://jestjs.io/docs/getting-started',
+        description: 'Jest Docs'
+      },
+      {
+        title: 'Testing React Apps',
+        link: 'https://jestjs.io/docs/tutorial-react',
+        description: 'Jest Docs'
+      },
+      {
+        title: 'React Testing Library Introduction',
+        link: 'https://testing-library.com/docs/react-testing-library/intro',
+        description: 'React Testing Library Docs'
+      },
+      {
+        title: 'React Testing Library Tutorial',
+        link: 'https://www.robinwieruch.de/react-testing-library/',
+        description: 'Robin Wieruch'
+      },
+      {
+        title: 'Mock Service Worker Introduction',
+        link: 'https://mswjs.io/docs/',
+        description: 'Mock Service Worker Docs'
+      },
+      {
+        title: 'Understanding GitHub Actions',
+        link: 'https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions',
+        description: 'GitHub Docs'
+      },
+      {
+        title: 'GitHub Pages Documentation',
+        link: 'https://docs.github.com/en/pages',
+        description: 'GitHub Docs'
       }
     ]
   }
