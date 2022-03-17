@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy
+      env:
+        SSH_KEY_FILE: "ssh_id"
+        SOURCE: "build/"
+      run: |
+        echo ${{ secrets.DEPLOY_SSH_KEY }} > ${SSH_KEY_FILE}
+        rsync -avz --delete -e "ssh -i ${SSH_KEY_FILE}" ${SOURCE} ${{ secrets.DEPLOY_USERNAME }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_TARGET_DIR }}
+        rm -f ${SSH_KEY_FILE}
