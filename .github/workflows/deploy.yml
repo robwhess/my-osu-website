@@ -29,5 +29,5 @@ jobs:
         SOURCE: "build/"
       run: |
         echo "${{ secrets.DEPLOY_SSH_KEY }}" > ${SSH_KEY_FILE}
-        rsync -avz --delete -e "ssh -i ${SSH_KEY_FILE}" ${SOURCE} ${{ secrets.DEPLOY_USERNAME }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_TARGET_DIR }}
+        rsync -avz --delete -e "ssh -i ${SSH_KEY_FILE} -o StrictHostKeyChecking=no" ${SOURCE} ${{ secrets.DEPLOY_USERNAME }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_TARGET_DIR }}
         rm -f ${SSH_KEY_FILE}
