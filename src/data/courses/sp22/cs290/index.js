@@ -14,32 +14,32 @@ var courseDetails = {
       time: '10:00&ndash;11:50am',
       timeZone: 'US/Pacific',
       location: 'LINC 128',
-      videoConferenceLink: ''
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/99481044210?pwd=OFZaY1Bsak9qTXpSdkYyL3Jqbk16dz09'
     }
   },
 
-  syllabusLink: '',
+  syllabusLink: 'https://docs.google.com/document/d/11ZMe54RfEHhG43efv9GB7_N2weRGz08adjnHoZ1mFyM/edit?usp=sharing',
 
   calendarUrl: 'https://calendar.google.com/calendar/embed?src=c_sm7kad0c0as96818rp3ts50rhk@group.calendar.google.com&ctz=America%2FLos_Angeles',
 
   links: [
     {
       title: 'CS 290 on Canvas',
-      link: ''
+      link: 'https://canvas.oregonstate.edu/courses/1869980'
     },
     {
       title: 'CS 290 on Zoom',
-      link: '',
+      link: 'https://oregonstate.zoom.us/j/99481044210?pwd=OFZaY1Bsak9qTXpSdkYyL3Jqbk16dz09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
     {
       title: 'CS 290 on Campuswire',
-      link: '',
+      link: 'https://campuswire.com/c/GE349369A/',
       description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
       title: 'CS 290 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs290-sp22',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {

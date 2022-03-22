@@ -13,11 +13,11 @@ var courseDetails = {
       time: '2:00&ndash;3:50pm',
       timeZone: 'US/Pacific',
       location: 'JOHN 102',
-      videoConferenceLink: ''
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/93636796171?pwd=ODBLSlhRM0dsMEltWC8yREJ1QmJzZz09'
     }
   },
 
-  syllabusLink: '',
+  syllabusLink: 'https://docs.google.com/document/d/1RFoY7ibr8LoQkPIpeiruBWXwOBhMzVSY5ljxrsMeQSY/edit?usp=sharing',
 
   calendarUrl: 'https://calendar.google.com/calendar/embed?src=c_1eoh4qvqu3tlagueut7r5ej964@group.calendar.google.com&ctz=America%2FLos_Angeles',
 
@@ -32,21 +32,21 @@ var courseDetails = {
   links: [
     {
       title: 'CS 480 on Canvas',
-      link: ''
+      link: 'https://canvas.oregonstate.edu/courses/1870349'
     },
     {
       title: 'CS 480 on Zoom',
-      link: '',
+      link: 'https://oregonstate.zoom.us/j/93636796171?pwd=ODBLSlhRM0dsMEltWC8yREJ1QmJzZz09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
     {
       title: 'CS 480 on Campuswire',
-      link: '',
+      link: 'https://campuswire.com/c/G7730EFC3/',
       description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
       title: 'CS 480 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs480-sp22',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
