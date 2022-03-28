@@ -16,6 +16,24 @@ const taInfo = [
       //   timeZone: 'US/Pacific'
       // }
     ]
+  },
+  {
+    name: 'Sagar Karki',
+    email: 'karkisa@oregonstate.edu',
+    officeHours: [
+      // {
+      //   day: 'Tues.',
+      //   time: '1:00 &ndash; 2:30pm',
+      //   timeZone: 'US/Pacific',
+      // }
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Wed.',
+      //   time: '8:00 &ndash; 9:30am',
+      //   timeZone: 'US/Pacific'
+      // }
+    ]
   }
 ];
 

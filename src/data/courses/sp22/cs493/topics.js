@@ -8,11 +8,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1L9pKt1GmBeBiQgTWswDkgwPHLW9mRz4ObrNDXGBp97s/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1GJ4-AkW0L0p0mqcKKBy2aQO1TtbmxWNn/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
     ],
     readings: [
       {
@@ -36,11 +31,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1AYg6cE2JYTkDvu0JxiyNbNFrMc3fZxQqoHZqim81voM/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1xGINjxnm92CfJS9h4qEGx8jUOdyu7N_B/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
     ],
     readings: [
       {
@@ -69,16 +59,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/server-setup',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1aHYawBIcodgLEgUTiOxsJkKbepL3VbP0/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/server-setup',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -147,11 +132,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1l5wudTsChGp68McJOVlTPKH19U9rzk_k/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
     ],
     readings: [
       {
@@ -205,16 +185,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/using-mysql',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1nyHjec6D0pjAXZt40e0h9wb-4epePkEe/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/using-mysql',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -253,11 +228,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/using-mongodb',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/using-mongodb',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -316,16 +291,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/auth',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1FyC-YAhlOqRMesLMDFmZtt8FGv3Ag3bG/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/auth',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -359,16 +329,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/rate-limiting',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/18ZixSIyo2XQuQSRMLUrVNrIlIQcxZjBD/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/rate-limiting',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -407,16 +372,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1FD1RY28hHCzeIirL1r9eMtTqr-fa4biBG7e-tKXpub8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/file-storage',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/11c-j1h_9XkGtxtjrzZJMv5QTszQpELmC/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/file-storage',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -460,16 +420,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/11HHOL2J2O8pbppHvAOFjoqqUfmWXURmsT0VmtGaAUew/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/offline-work',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/12BIo_63VtBorTJii6D865IAINmgeSuAn/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/offline-work',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -503,16 +458,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1p8oSwiijRUdVYj3arF4O2j0OLZFN73ejKAdxV7mwrt4/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp21/graphql-api-server',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1S05LV2UisE-02gHqW6E9O8NZ-CI5nR0y/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/graphql-api-server',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {

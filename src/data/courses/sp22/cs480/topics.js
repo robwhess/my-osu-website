@@ -8,11 +8,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1TVQFQlMrP0RpSTYAI9P-xnM_5iA45rswqCuI0yADEfw/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1jkEKpnEdT0p5mh_BoB46D8E2C8ZcQ9gM/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
     ],
     readings: [
       {
@@ -34,11 +29,6 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Q3Qj3pZVixeeD6bQ7oDeBze3csKF58-k0E6r5XJ7Ssk/edit?usp=sharing'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1piYQgMh0i_7nQslgVvcaLUwCcrLe1eWy/view?usp=sharing',
-        description: 'drawings from lecture'
       },
       // {
       //   title: 'Quiz 1 lecture doodles',
@@ -72,16 +62,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs480-sp21/flex',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/18-du2ROgv-kEAX2YDVLVGUqwvWCeW0wu/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs480-sp21/flex',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -105,11 +90,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1ONS1Ud0TIWEXAVeebkDUxQtBimBMKBRTE_rWPkKfVX8/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/13kowZwRscBoLWj1p3kgcp6fwho8SOWFY/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
     ],
     readings: [
       {
@@ -132,16 +112,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/19LCYNojTimpgpvrZu-pawIj0wfRXKZCKHVapwS2BxUI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs480-sp21/bison',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1jcsi-TiHxBgM_PEJeqWkoosv3JNaGujv/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs480-sp21/bison',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -160,11 +135,6 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1sQO-3uMJ8GOs81nuMht0LzewEB9F7TvKwmOYEGhIRV0/edit?usp=sharing'
       },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1UR3kTfjAfH-3A3WbFU2g9YN4Mi42MAnx/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
     ],
     readings: [
       {
@@ -181,11 +151,6 @@ const topics = [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1J1ghtH8h8wDND0ppJfjQyQhBRCyFoudp/view?usp=sharing',
-        description: 'drawings from lecture'
       },
       // {
       //   title: 'Quiz 3 lecture doodles',
@@ -209,16 +174,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs480-sp21/llvm',
-        description: 'GitHub repo for code written in lecture'
-      },
-      {
-        title: 'Lecture doodles',
-        link: 'https://drive.google.com/file/d/1uhK6fXGdCVpTjeCZiZJ-J25u1ZErMKIf/view?usp=sharing',
-        description: 'drawings from lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs480-sp21/llvm',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
