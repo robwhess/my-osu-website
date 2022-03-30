@@ -2,12 +2,16 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1L9pKt1GmBeBiQgTWswDkgwPHLW9mRz4ObrNDXGBp97s/edit?usp=sharing'
       },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1eaTixOVC7mw5ybFVfrvjl0h0aWK1luzA/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -26,6 +30,7 @@ const topics = [
   {
     title: 'RESTful API Design',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
