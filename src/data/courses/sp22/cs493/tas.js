@@ -57,6 +57,8 @@ const taInfo = [
   {
     name: "Sumer Patel",
     email: "patelsum@oregonstate.edu",
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZROFBnTkR6Z090fGRlZmF1bHR8MmQ2N2IzMTNjYjEwZjE3M2VkOGE4NTgzOWY0NjgyZGU',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/4637552622?pwd=V1lZMm1GRlpKMzlGREdFb2dsMkdYdz09',
     officeHours: [
       {
         day: 'Mon.',
@@ -68,28 +70,24 @@ const taInfo = [
         day: 'Wed.',
         time: '10:00 &ndash; 11:30am',
         timeZone: 'US/Pacific',
-        location: 'Zoom'
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4637552622?pwd=V1lZMm1GRlpKMzlGREdFb2dsMkdYdz09',
+        details: 'Use the camera icon next to these grading hours to connect to the Zoom meeting.'
       },
     ],
     gradingHours: [
       {
         day: 'Tues.',
-        time: '2:00 &ndash; 4:00pm',
+        time: '10:00am &ndash; 1:00pm',
         timeZone: 'US/Pacific',
         location: 'KEC Atrium'
       },
       {
         day: 'Thurs.',
-        time: '2:00 &ndash; 4:00pm',
+        time: '12:00 &ndash; 4:00pm',
         timeZone: 'US/Pacific',
         location: 'KEC Atrium'
-      },
-      {
-        day: 'Fri.',
-        time: '10:00am &ndash; 1:00pm',
-        timeZone: 'US/Pacific',
-        location: 'KEC Atrium'
-      },
+      }
     ]
   }
 ];
