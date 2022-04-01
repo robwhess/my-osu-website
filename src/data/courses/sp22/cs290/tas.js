@@ -2,20 +2,25 @@ const taInfo = [
   {
     name: 'Andrew Festa',
     email: 'festaa@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUFhTEhPSUZRcVhffGRlZmF1bHR8NWI2ZGViNjdhNTQ2YTZiYzMyZjU5YjY1YTgxYWI1ZDc',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '2:00 &ndash; 5:00pm',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Tues.',
+        time: '10:00am &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '1:30 &ndash; 3:30pm',
+        location: 'KEC Atrium'
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Fri.',
-      //   time: '9:30am &ndash; 12:40pm',
-      //   location: 'KEC Atrium',
-      // },
+      {
+        day: 'Thurs.',
+        time: '10:00am &ndash; 1:00pm',
+        location: 'KEC Atrium',
+      },
     ]
   },
   {
@@ -23,18 +28,18 @@ const taInfo = [
     email: 'daugheel@oregonstate.edu',
     appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Wed.',
+        time: '1:00 &ndash; 4:00pm',
+        location: 'TBD',
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs',
-      //   time: '1:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Mon.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'TBD',
+      },
     ]
   },
   {
@@ -42,18 +47,23 @@ const taInfo = [
     email: 'gaetepma@oregonstate.edu',
     appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Tues.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'KEC Atrium',
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs',
-      //   time: '1:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Tues.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'KEC Atrium',
+      },
     ]
   },
   {
@@ -116,20 +126,30 @@ const taInfo = [
   {
     name: 'Zach Taylor',
     email: 'taylzach@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNpRlRYWkpQVUpGfGRlZmF1bHR8ZjNlMDg2OWZmZTI0Nzk4ZDIxNTc1YjY3M2RjNGQ3OGU',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '11:00am &ndash; 12:00pm',
-      //   location: 'KEC Atrium',
-      // },
+      {
+        day: 'Tues.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'KEC Atrium',
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'KEC Atrium',
-      // },
+      {
+        day: 'Tues.',
+        time: '3:00 &ndash; 4:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium',
+      },
     ]
   }
 ];
