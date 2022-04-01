@@ -75,8 +75,8 @@ const topics = [
         description: 'Julie Zelenski (Stanford)'
       },
       {
-        title: 'Flex - A fast scanner generator',
-        link: 'ftp://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_mono/flex.html',
+        title: 'Lexical Analysis with Flex',
+        link: 'https://westes.github.io/flex/manual/',
         description: 'The Flex user manual'
       }
     ]
