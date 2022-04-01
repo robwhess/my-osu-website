@@ -34,6 +34,7 @@ const ImgContainer = styled.div`
 
 const ImgElem = styled.img`
   max-width: 100%;
+  max-height: 256px;
   cursor: pointer;
   &:hover {
     opacity: 0.67;
