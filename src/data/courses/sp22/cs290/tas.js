@@ -119,18 +119,23 @@ const taInfo = [
     email: 'sinhaam@oregonstate.edu',
     appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Mon.',
+        time: '2:00 &ndash; 3:30pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Fri.',
+        time: '1:00 &ndash; 2:30pm',
+        location: 'KEC Atrium',
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs',
-      //   time: '1:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Mon.',
+        time: '3:30 &ndash; 5:30pm',
+        location: 'KEC Atrium',
+      },
     ]
   },
   {
