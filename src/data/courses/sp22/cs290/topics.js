@@ -18,7 +18,6 @@ const topics = [
   {
     title: 'Git and GitHub',
     weeks: [ 0, 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -58,11 +57,16 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f21/html',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp22/html',
+        description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1evf0UdF0ccEQ6rv5y7qqHH6rKa3RD5Lj/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -76,6 +80,7 @@ const topics = [
   {
     title: 'CSS',
     weeks: [ 2, 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
