@@ -31,14 +31,14 @@ const taInfo = [
       {
         day: 'Wed.',
         time: '1:00 &ndash; 4:00pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
       },
     ],
     gradingHours: [
       {
         day: 'Mon.',
         time: '12:00 &ndash; 2:00pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
       },
     ]
   },
@@ -69,20 +69,25 @@ const taInfo = [
   {
     name: 'Shaurya Gaur',
     email: 'gaurs@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUlsc0toVW1tV2hafGRlZmF1bHR8YjAzYTYzNWEwZTI3MDRjMGQ2N2E3NzZmMjkyZjU4NGE',
     officeHours: [
-      // {
-      //   day: 'Tues',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Tues.',
+        time: '2:15 &ndash; 3:30pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Wed.',
+        time: '2:15 &ndash; 4:00pm',
+        location: 'KEC Atrium',
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs',
-      //   time: '1:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Mon.',
+        time: '2:15 &ndash; 4:15pm',
+        location: 'KEC Atrium',
+      },
     ]
   },
   {
@@ -90,18 +95,23 @@ const taInfo = [
     email: 'moncadae@oregonstate.edu',
     appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Mon.',
+        time: '4:00 &ndash; 5:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Wed.',
+        time: '2:00 &ndash; 4:00pm',
+        location: 'KEC Atrium',
+      },
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs',
-      //   time: '1:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      // },
+      {
+        day: 'Fri.',
+        time: '1:00 &ndash; 3:00pm',
+        location: 'KEC Atrium',
+      },
     ]
   },
   {
