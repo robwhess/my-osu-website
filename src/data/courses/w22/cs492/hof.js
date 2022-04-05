@@ -2,6 +2,8 @@ import trivicationImage from './hofFiles/trivication.jpg';
 import trivicationScreencap from './hofFiles/trivication.gif';
 import songguessrImage from './hofFiles/songguessr.jpg';
 import songguessrScreencap from './hofFiles/songguessr.gif';
+import gibbetImage from './hofFiles/gibbet.jpg';
+import gibbetScreencap from './hofFiles/gibbet.gif';
 
 /*
  * Some helpful resources for converting image/movie files to the right formats:
@@ -33,6 +35,18 @@ const hof = [
     description: "An application to test your song recognition skills. Using Spotify's genre playlists that are curated to what you listen to, try to guess the name of the song for points. More points are awarded for guessing the artist and album. You can compete with friends by sharing your high scores as well!",
     imageUrl: songguessrImage,
     screencapUrl: songguessrScreencap
+  },
+  {
+    title: "Gibbet",
+    developers: [
+      "Joshua Minyard",
+      "Alexander Prestwich",
+      "Miguel Ruiz",
+      "Cole Theodore"
+    ],
+    description: "Gibbet is an app for the best word guessers in the world. No hints, just guesses.  Gibbet allows any user to try their hand at a word guessing game by using the wordnik API to generate a random word or play the word of the day. It allows the user to change how many tries and word length they want for difficulty. If you win or likely lose, the definition will be available.",
+    imageUrl: gibbetImage,
+    screencapUrl: gibbetScreencap
   }
 ];
 
