@@ -93,7 +93,7 @@ const taInfo = [
   {
     name: 'Emmanuel Moncada',
     email: 'moncadae@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUhFeUFxZE5xSEdCfGRlZmF1bHR8OWM2Y2I3Zjk1NzMyOGYyZGFkZjUwNTE4NTMyYjY2MGY',
     officeHours: [
       {
         day: 'Mon.',
