@@ -45,7 +45,7 @@ const taInfo = [
   {
     name: 'Antonia Gaete',
     email: 'gaetepma@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUlvVzRHTXlPR0RIfGRlZmF1bHR8ZDQ1YWRkMTUwYjhiNmUwMzcxMDUyN2I0OWI1Zjc2Mjg',
     officeHours: [
       {
         day: 'Tues.',
