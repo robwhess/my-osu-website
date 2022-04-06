@@ -117,7 +117,7 @@ const taInfo = [
   {
     name: 'Amanda Sinha',
     email: 'sinhaam@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UURGVFNWSjdtYV9wfGRlZmF1bHR8OWYxMGUzN2M2MzY1OGRlYjg4NWFlYjUwOGE3OGI1YTU',
     officeHours: [
       {
         day: 'Mon.',
