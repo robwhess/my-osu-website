@@ -1,17 +1,17 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; Scanning with Flex',
-    //   due: {
-    //     day: 'Monday, 4/26/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 5/10/2021 (last available demo appointment is 9:30am on 5/7/2021)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/ZjU3mrga',
+      title: 'Assignment 1 &ndash; Scanning with Flex',
+      due: {
+        day: 'Monday, 4/25/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 5/9/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash;Parsing and syntax-directed translation',
