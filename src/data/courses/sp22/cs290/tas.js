@@ -126,7 +126,7 @@ const taInfo = [
       },
       {
         day: 'Fri.',
-        time: '1:00 &ndash; 2:30pm',
+        time: '2:00 &ndash; 3:30pm',
         location: 'KEC Atrium',
       },
     ],
