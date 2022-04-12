@@ -30,7 +30,6 @@ const topics = [
   {
     title: 'RESTful API Design',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -75,6 +74,11 @@ const topics = [
         link: 'https://github.com/osu-cs493-sp22/server-setup',
         description: 'GitHub repo for code written in lecture'
       },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1fAOVwkNB3ZEBVRcr5RSowitH_rM3nvbG/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
