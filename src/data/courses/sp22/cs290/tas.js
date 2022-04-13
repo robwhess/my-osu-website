@@ -26,7 +26,7 @@ const taInfo = [
   {
     name: 'Ella Daugherty',
     email: 'daugheel@oregonstate.edu',
-    appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UURCTElTOEpLSXJkfGRlZmF1bHR8NzcwOGRiYWViMzk1ZDJiZTZkNTgwZWJiZTQ4MWJmMDE',
     officeHours: [
       {
         day: 'Wed.',
