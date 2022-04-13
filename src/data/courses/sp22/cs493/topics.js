@@ -145,7 +145,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1oscyJP10ZXobbypdvcKhKxr-s22W2v5L999Qk9frgnQ/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1XhtakMCZU1CH-ZX4Q_5z1EPzL3lo5oQ2E-NDkG4R4sM/edit?usp=sharing'
       },
       {
         title: 'Example code',
