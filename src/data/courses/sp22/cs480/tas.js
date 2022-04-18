@@ -35,19 +35,35 @@ const taInfo = [
   {
     name: 'Sagar Karki',
     email: 'karkisa@oregonstate.edu',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUd4QU5ocEo1OGJmfGRlZmF1bHR8ZjZhNGQ4ZTlmYzk4ZGJkMDU5YTFmMDRmODUxYmY0NGE',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '1:00 &ndash; 2:30pm',
-      //   timeZone: 'US/Pacific',
-      // }
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 5:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09'
+      },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '8:00 &ndash; 9:30am',
-      //   timeZone: 'US/Pacific'
-      // }
+      {
+        day: 'Tues.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09'
+      },
+      {
+        day: 'Wed.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09'
+      }
     ]
   }
 ];
