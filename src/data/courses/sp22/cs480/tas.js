@@ -3,6 +3,7 @@ const taInfo = [
     name: 'Brian Mulanda',
     email: 'mulandab@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/94892492441?pwd=bFhFNGFDWlpuemVtb3o5M0lJemRyZz09',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZlQnNKTXN2eFZsfGRlZmF1bHR8MWYwNzJkMTVkMmQzMjZlZjVlODQ2YWRkMzQ2YzI0YzI',
     officeHours: [
       {
         day: 'Tues.',
