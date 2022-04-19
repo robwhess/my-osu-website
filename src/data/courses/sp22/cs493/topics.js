@@ -141,7 +141,6 @@ const topics = [
   {
     title: 'Containerization with Docker',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -198,51 +197,9 @@ const topics = [
   },
 
   {
-    title: 'Using MySQL to Store API Data',
-    weeks: [ 3, 4 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp21/using-mysql',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-    ],
-    readings: [
-      {
-        title: 'Official MySQL image',
-        link: 'https://hub.docker.com/_/mysql/',
-        description: 'Docker Hub'
-      },
-      {
-        title: 'MySQL Tutorial',
-        link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html',
-        description: 'MySQL Docs'
-      },
-      {
-        title: 'mysql',
-        link: 'https://www.npmjs.com/package/mysql',
-        description: 'npm'
-      },
-      {
-        title: 'Promises',
-        link: 'https://www.promisejs.org/',
-        description: 'promisejs.org'
-      },
-      {
-        title: 'Using promises',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
-        description: 'MDN'
-      }
-    ]
-  },
-
-  {
     title: 'Using MongoDB to Store API Data',
-    weeks: [ 5 ],
+    weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -299,6 +256,49 @@ const topics = [
         title: 'Aggregation Pipeline Stages',
         link: 'https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/',
         description: 'MongoDB docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Using MySQL to Store API Data',
+    weeks: [ 5 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp21/using-mysql',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+    ],
+    readings: [
+      {
+        title: 'Official MySQL image',
+        link: 'https://hub.docker.com/_/mysql/',
+        description: 'Docker Hub'
+      },
+      {
+        title: 'MySQL Tutorial',
+        link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html',
+        description: 'MySQL Docs'
+      },
+      {
+        title: 'mysql',
+        link: 'https://www.npmjs.com/package/mysql',
+        description: 'npm'
+      },
+      {
+        title: 'Promises',
+        link: 'https://www.promisejs.org/',
+        description: 'promisejs.org'
+      },
+      {
+        title: 'Using promises',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
+        description: 'MDN'
       }
     ]
   },
