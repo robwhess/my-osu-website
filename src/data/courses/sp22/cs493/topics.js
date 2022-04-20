@@ -209,6 +209,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs493-sp22/using-mongodb',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1fORAFwyYFWSUxIPKVR_oJ7ea26toA28p/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
