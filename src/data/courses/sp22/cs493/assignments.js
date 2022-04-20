@@ -12,17 +12,17 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 5/2/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; API data storage',
-    //   due: {
-    //     day: '~~Monday, 5/3/2021~~ **Tuesday, 5/4/2021**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm on Monday, 5/17/2021'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/MFsGmJ3y',
+      title: 'Assignment 2 &ndash; API data storage',
+      due: {
+        day: 'Monday, 5/2/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm on Monday, 5/16/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; API authentication and authorization',
