@@ -205,11 +205,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp21/using-mongodb',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp22/using-mongodb',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
