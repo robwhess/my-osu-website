@@ -223,8 +223,8 @@ const topics = [
         description: 'Docker Hub'
       },
       {
-        title: 'Getting Started with MongoDB',
-        link: 'https://docs.mongodb.com/getting-started/shell/',
+        title: 'Getting Started',
+        link: 'https://www.mongodb.com/docs/manual/tutorial/getting-started/',
         description: 'MongoDB docs'
       },
       {
