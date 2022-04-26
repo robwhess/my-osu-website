@@ -25,18 +25,18 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 5/9/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Client-side JS',
-    //   due: {
-    //     day: 'Monday, 11/8/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog link due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Monday, 11/22/2021'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/RRFL_JS3',
+      title: 'Assignment 3 &ndash; Client-side JS',
+      due: {
+        day: 'Monday, 5/9/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog link due **ON CANVAS** by assignment due date',
+        'Demo due by 11:59pm on Monday, 5/23/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Native Node.js file serving',
