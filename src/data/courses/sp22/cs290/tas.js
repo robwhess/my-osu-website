@@ -49,18 +49,13 @@ const taInfo = [
     officeHours: [
       {
         day: 'Tues.',
-        time: '12:00 &ndash; 1:00pm',
+        time: '9:00am &ndash; 12:00pm',
         location: 'KEC Atrium',
-      },
-      {
-        day: 'Thurs.',
-        time: '11:00am &ndash; 1:00pm',
-        location: 'KEC Atrium',
-      },
+      }
     ],
     gradingHours: [
       {
-        day: 'Tues.',
+        day: 'Thurs.',
         time: '10:00am &ndash; 12:00pm',
         location: 'KEC Atrium',
       },
