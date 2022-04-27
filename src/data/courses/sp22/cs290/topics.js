@@ -131,7 +131,7 @@ const topics = [
 
   {
     title: 'JavaScript Fundamentals',
-    weeks: [ 4 ],
+    weeks: [ 5 ],
     isCurrent: true,
     resources: [
       {
@@ -161,16 +161,17 @@ const topics = [
   {
     title: 'JavaScript DOM Manipulation',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f21/js-dom-manipulation',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp22/js-dom-manipulation',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
