@@ -142,6 +142,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp22/js-fundamentals',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1fUgu7Qe5RTftQE8jXayBJQMNlsy3SKGk/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
@@ -171,6 +176,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp22/js-dom-manipulation',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1fSoCG_rvM6JXVuTbYYRbfYr3cXehVtcC/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
