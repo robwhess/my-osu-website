@@ -198,8 +198,7 @@ const topics = [
 
   {
     title: 'Using MongoDB to Store API Data',
-    weeks: [ 4 ],
-    isCurrent: true,
+    weeks: [ 4, 5 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -266,18 +265,19 @@ const topics = [
   },
 
   {
-    title: 'Using MySQL to Store API Data',
+    title: 'Using MySQL with Sequelize to Store API Data',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1ZmvaQ_ml6mg6alg_OIC8RMaJJBDgxBtDYPeDKlJSymQ/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1SYG0JGmAM-5DzX0WMq7Dm-ng_Gbz0Ts3ycR52UHgMQE/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp21/using-mysql',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp22/using-mysql',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
@@ -291,19 +291,34 @@ const topics = [
         description: 'MySQL Docs'
       },
       {
-        title: 'mysql',
-        link: 'https://www.npmjs.com/package/mysql',
-        description: 'npm'
+        title: 'Sequelize v6',
+        link: 'https://sequelize.org/docs/v6/',
+        description: 'Sequelize Docs'
       },
       {
-        title: 'Promises',
-        link: 'https://www.promisejs.org/',
-        description: 'promisejs.org'
+        title: 'Getting Started',
+        link: 'https://sequelize.org/docs/v6/getting-started/',
+        description: 'Sequelize Docs'
       },
       {
-        title: 'Using promises',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
-        description: 'MDN'
+        title: 'Model Basics',
+        link: 'https://sequelize.org/docs/v6/core-concepts/model-basics/',
+        description: 'Sequelize Docs'
+      },
+      {
+        title: 'Model Instances',
+        link: 'https://sequelize.org/docs/v6/core-concepts/model-instances/',
+        description: 'Sequelize Docs'
+      },
+      {
+        title: 'Model Querying - Basics',
+        link: 'https://sequelize.org/docs/v6/core-concepts/model-querying-basics/',
+        description: 'Sequelize Docs'
+      },
+      {
+        title: 'Associations',
+        link: 'https://sequelize.org/docs/v6/core-concepts/assocs/',
+        description: 'Sequelize Docs'
       }
     ]
   },
