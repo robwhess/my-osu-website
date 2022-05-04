@@ -336,6 +336,11 @@ const topics = [
         link: 'https://github.com/osu-cs493-sp22/auth',
         description: 'GitHub repo for code written in lecture'
       },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1fio34T3A2saH6vOWUbDPVIR-d0quFBjc/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
