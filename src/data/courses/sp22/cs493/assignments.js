@@ -23,17 +23,17 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 5/16/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; API authentication and authorization',
-    //   due: {
-    //     day: 'Monday, 5/17/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm on Monday, 5/31/2021'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/Z7AMh39Y',
+      title: 'Assignment 3 &ndash; API authentication and authorization',
+      due: {
+        day: 'Monday, 5/16/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm on Monday, 5/30/2022'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; File uploads and offline work',
