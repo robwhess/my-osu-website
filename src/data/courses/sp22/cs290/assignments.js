@@ -37,18 +37,18 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 5/23/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Native Node.js file serving',
-    //   due: {
-    //     day: 'Monday, 11/15/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog link due **ON CANVAS** by assignment due date',
-    //     '**This assignment will not be demoed.  It will be graded offline.**'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/566t7byN',
+      title: 'Assignment 4 &ndash; Native Node.js file serving',
+      due: {
+        day: 'Monday, 5/16/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog link due **ON CANVAS** by assignment due date',
+        '**This assignment will not be demoed.  It will be graded offline.**'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
