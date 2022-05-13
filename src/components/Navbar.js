@@ -37,6 +37,14 @@ const NavbarContainer = styled.div`
       display: inline-block;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: ${(props) =>
+      props.subnav ? "#434343" : "#323232"};
+    color: #fff;
+    border-bottom: ${(props) =>
+      props.subnav ? '#333' : 'none'};
+  }
 `;
 
 const NavbarHeading = styled.div`
