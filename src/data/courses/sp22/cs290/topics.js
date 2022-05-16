@@ -282,7 +282,6 @@ const topics = [
   {
     title: 'Packages and npm',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -321,6 +320,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp22/express-serving',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1g57WhaiNSAKGw3ZduQJikuXrB5kQXV37/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
