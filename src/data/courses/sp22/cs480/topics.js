@@ -129,7 +129,6 @@ const topics = [
   {
     title: 'Bottom-Up Parsing and LR(1) Grammars',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -146,7 +145,8 @@ const topics = [
 
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
-    weeks: [ 7, 8 ],
+    weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
