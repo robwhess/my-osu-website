@@ -310,7 +310,6 @@ const topics = [
   {
     title: 'Serving with Express',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -369,6 +368,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp22/handlebars-templating',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1g7R9Nq-lvKUQ1zv4esLVnYfuKwaBP_2h/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
