@@ -411,7 +411,6 @@ const topics = [
   {
     title: 'Storing File Data',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -460,16 +459,17 @@ const topics = [
   {
     title: 'Performing Offline Work with RabbitMQ',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/11HHOL2J2O8pbppHvAOFjoqqUfmWXURmsT0VmtGaAUew/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1NYUXJIECZp33r8dAIdXNcZh5OBRRPlC6kGRvSmsF0EQ/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp21/offline-work',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp22/offline-work',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
