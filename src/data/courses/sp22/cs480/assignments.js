@@ -34,18 +34,19 @@ const assignments = {
         'Demo due by 11:59pm, Friday 6/10/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash;Code generation with LLVM',
-    //   due: {
-    //     day: 'Monday, 6/7/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     '**This assignment will not be demoed**',
-    //     '**This assignment is now optional.**  Please use [this form](https://forms.gle/EmpJqmaBRrLYe4Mu8) to request to have your assignment submission graded.  If you have your assignment submission graded, the grade you receive (based on the autograding tests) will replace your lowest grade from assignments 1-3.'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/49_40z-O',
+      title: 'Assignment 4 &ndash;Code generation with LLVM',
+      due: {
+        day: 'Friday, 6/10/2022',
+        time: '5:00pm'
+      },
+      notes: [
+        '**This assignment will not be demoed.**',
+        '**Your grade for the assignment will be based completely on the results of the included auto-grading tests.**'
+        // '**This assignment is now optional.**  Please use [this form](https://forms.gle/EmpJqmaBRrLYe4Mu8) to request to have your assignment submission graded.  If you have your assignment submission graded, the grade you receive (based on the autograding tests) will replace your lowest grade from assignments 1-3.'
+      ]
+    }
   ],
 
   preamble: "Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline."
