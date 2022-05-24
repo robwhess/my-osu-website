@@ -416,17 +416,18 @@ const topics = [
 
   {
     title: 'Asynchronous Client-Server Communication',
-    weeks: [ 10 ],
+    weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f21/async-communication',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-sp22/async-communication',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
