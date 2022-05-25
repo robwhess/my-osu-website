@@ -427,6 +427,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-sp22/async-communication',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1gLNmMl_rO1t1QruXh4r0-wgq5zrq2rD3/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
