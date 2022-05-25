@@ -37,20 +37,19 @@ const finalProject = {
         'Note that this must be completed individually by every member of your team.'
       ]
     },
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUo3U1pDaXF5WHUyfGRlZmF1bHR8MWI2NTk2NDg3NTBmNDA5NTdmY2RmZTFkOWFiZWY5NGI',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo.',
-    //     'Code is due on GitHub at the time of your demo.',
-    //     'Come to the demo prepared to run your project from one of your team\'s computers.',
-    //     '~~Final project demos will be held in person in Hess\'s office (KEC 1109).~~',
-    //     '~~Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.~~',
-    //     '**All final project demos will now be held remotely.  You can use the following Zoom link to join the demo: [https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09](https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09).**'
-    //   ]
-    // }
+    {
+      link : 'https://calendar.google.com/calendar/selfsched?sstoken=UUo3U1pDaXF5WHUyfGRlZmF1bHR8MWI2NTk2NDg3NTBmNDA5NTdmY2RmZTFkOWFiZWY5NGI',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo.',
+        'Code is due on GitHub at the time of your demo.',
+        'Come to the demo prepared to run your project from one of your team\'s computers.',
+        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
+        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.'
