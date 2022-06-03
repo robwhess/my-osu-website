@@ -43,8 +43,8 @@ const assignments = {
       },
       notes: [
         '**This assignment will not be demoed.**',
-        '**Your grade for the assignment will be based completely on the results of the included auto-grading tests.**'
-        // '**This assignment is now optional.**  Please use [this form](https://forms.gle/EmpJqmaBRrLYe4Mu8) to request to have your assignment submission graded.  If you have your assignment submission graded, the grade you receive (based on the autograding tests) will replace your lowest grade from assignments 1-3.'
+        '**Your grade for the assignment will be based completely on the results of the included auto-grading tests.**',
+        '**This assignment is now optional.**  If the grade you receive based on the autograding tests is higher than any of your other assignment grades, I will use it to replace your lowest grade from assignments 1-3.'
       ]
     }
   ],

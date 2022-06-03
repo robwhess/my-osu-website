@@ -436,8 +436,18 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Using XMLHttpRequest',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest',
+        title: 'express.json()',
+        link: 'https://expressjs.com/en/api.html#express.json',
+        description: 'Express Docs'
+      },
+      {
+        title: 'Using the Fetch API',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch',
+        description: 'MDN'
+      },
+      {
+        title: 'Using Promises',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
         description: 'MDN'
       }
     ]
