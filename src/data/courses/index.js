@@ -12,10 +12,12 @@ import sp21 from './sp21/';
 import f21 from './f21/';
 import w22 from './w22/';
 import sp22 from './sp22/';
+import f22 from './f22/';
 
-const currentTerm = 'sp22';
+const currentTerm = 'f22';
 
 const courseData = {
+  f22: f22,
   sp22: sp22,
   w22: w22,
   f21: f21,
