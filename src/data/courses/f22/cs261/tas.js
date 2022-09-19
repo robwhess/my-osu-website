@@ -76,25 +76,6 @@ const taInfo = [
     ]
   },
   {
-    name: 'Anh Nguyen',
-    email: 'nguyanh2@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
-    officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '9:00 &ndash; 11:50am',
-      //   location: 'KEC Atrium'
-      // }
-    ],
-    gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '2:00 &ndash; 4:00pm',
-      //   location: 'KEC Atrium'
-      // }
-    ]
-  },
-  {
     name: 'Sadie Thomas',
     email: 'thomsadi@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU9pNXQwc1o5WnZmfGRlZmF1bHR8YjM4NGM1YzgyN2RjNjVhZThlOGZmNTYyZTg3ZWI1ZmQ',
@@ -110,6 +91,25 @@ const taInfo = [
       //   day: 'Mon.',
       //   time: '11:00am &ndash; 1:00pm',
       //   location: 'KEC Atrium',
+      // }
+    ]
+  },
+  {
+    name: 'Cody Wilson',
+    email: 'wilsocod@oregonstate.edu',
+    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    officeHours: [
+      // {
+      //   day: 'Tues.',
+      //   time: '9:00 &ndash; 11:50am',
+      //   location: 'KEC Atrium'
+      // }
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Tues.',
+      //   time: '2:00 &ndash; 4:00pm',
+      //   location: 'KEC Atrium'
       // }
     ]
   }
