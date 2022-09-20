@@ -1,9 +1,9 @@
 const taInfo = [
-  // {
-  //   name: 'Jasmin Mousavi',
-  //   email: 'mousavij@oregonstate.edu',
+  {
+    name: 'Vinoothna Ginjala',
+    email: 'ginjalav@oregonstate.edu',
   //   appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNvbXM2NHpwNkg5fGRlZmF1bHR8M2Y0YjhlNTRiOTE3ZTNiNzNhNzY0NzIyNDJiMjY0ZGI',
-  //   officeHours: [
+    officeHours: [
   //     {
   //       day: 'Mon.',
   //       time: '2:00 &ndash; 5:00pm',
@@ -14,15 +14,15 @@ const taInfo = [
   //       time: '2:00 &ndash; 5:00pm',
   //       location: 'KEC Atrium'
   //     },
-  //   ],
-  //   gradingHours: [
+    ],
+    gradingHours: [
   //     {
   //       day: 'Fri.',
   //       time: '9:30am &ndash; 12:40pm',
   //       location: 'KEC Atrium',
   //     },
-  //   ]
-  // },
+    ]
+  },
   {
     name: 'Emmanuel Moncada',
     email: 'moncadae@oregonstate.edu',
