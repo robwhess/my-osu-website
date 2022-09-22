@@ -160,7 +160,7 @@ const recitations = {
         day: 'W',
         time: '2:00 &ndash; 3:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 211',
+        location: 'DEAR 203',
       },
       tas: [ 'TBD' ]
     },
@@ -187,7 +187,7 @@ const recitations = {
         day: 'W',
         time: '12:00 &ndash; 1:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 211',
+        location: 'DEAR 203',
       },
       tas: [ 'TBD' ]
     }
