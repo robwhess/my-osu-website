@@ -19,6 +19,25 @@ const taInfo = [
     ]
   },
   {
+    name: 'Garrett Berliner ',
+    email: 'berlineg@oregonstate.edu',
+    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    officeHours: [
+      // {
+      //   day: 'Tues.',
+      //   time: '9:00 &ndash; 11:50am',
+      //   location: 'KEC Atrium'
+      // }
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Tues.',
+      //   time: '2:00 &ndash; 4:00pm',
+      //   location: 'KEC Atrium'
+      // }
+    ]
+  },
+  {
     name: 'Ella Daugherty',
     email: 'daugheel@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
