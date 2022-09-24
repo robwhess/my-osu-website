@@ -5,7 +5,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 0 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -53,16 +52,17 @@ const topics = [
   {
     title: 'C Basics',
     weeks: [ 1, 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1I-Rk45M0d6Yh4Zs9CHyjfi8VxOxg1fB-jiReNy6ajyw/edit?usp=sharing',
+        link: 'https://docs.google.com/document/d/1VvGaG5QQTdvIzm3Yus-GNNI6-Th8-AYYx3t8JxzvjKg/edit?usp=sharing',
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs261-f21/c-basics',
-      //   description: 'code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs261-f22/c-basics',
+        description: 'code written in lecture'
+      },
     ],
     readings: [
       {
