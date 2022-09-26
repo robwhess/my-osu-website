@@ -169,7 +169,7 @@ const recitations = {
         day: 'Tu',
         time: '12:00 &ndash; 1:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 211',
+        location: 'DEAR 203',
       },
       tas: [ 'Garrett Berliner' ]
     },
@@ -178,7 +178,7 @@ const recitations = {
         day: 'Tu',
         time: '4:00 &ndash; 5:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 211',
+        location: 'DEAR 203',
       },
       tas: [ 'Sadie Thomas' ]
     },
