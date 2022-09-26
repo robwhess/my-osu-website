@@ -2,43 +2,43 @@ const recitations = {
   calendar: [
     {
       title: 'Week 0: No Recitation',
-      isCurrent: true,
       notes: [
         'No recitation this week.'
       ]
     },
 
-    // {
-    //   title: 'Week 1: CS 261 IT',
-    //   resources: [
-    //     {
-    //       title: 'CS 261 IT Basics',
-    //       link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
-    //       description: 'Presentation slides.'
-    //     },
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'test.c',
-    //       link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/938ddc0320bc962797c07d837477651722182146/test.c',
-    //       description: 'This is the C program you\'ll have to download as part of the week\'s recitation exercise.'
-    //     }
-    //   ],
-    //   readings: [
-    //     {
-    //       title: 'Beginner\'s Guide To SSH',
-    //       link: 'https://youtu.be/qWKK_PNHnnA',
-    //       description: 'This is a great, short video explaining what SSH is and how to use it.  Give this a watch if you\'re not familiar with SSH and want to brush up.'
-    //     },
-    //     {
-    //       title: 'The Linux command line for beginners',
-    //       link: 'https://ubuntu.com/tutorials/command-line-for-beginners',
-    //       description: 'If you need further help with using the terminal, this tutorial might be a good one to follow.  It\'s written in the context of using a terminal directly on a Linux machine, but is still really relevant for what we need to do in this course.'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 1: CS 261 IT',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'CS 261 IT Basics',
+          link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
+          description: 'Presentation slides.'
+        },
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1VIeZ-OQujN4vbrlEM2V72VtaRr7Tj63tssBLtS47_JQ/edit?usp=sharing'
+        },
+        {
+          title: 'test.c',
+          link: 'https://gist.githubusercontent.com/robwhess/a55e1360b474b910ab19b3af24cd5ae2/raw/938ddc0320bc962797c07d837477651722182146/test.c',
+          description: 'This is the C program you\'ll have to download as part of the week\'s recitation exercise.'
+        }
+      ],
+      readings: [
+        {
+          title: 'Beginner\'s Guide To SSH',
+          link: 'https://youtu.be/qWKK_PNHnnA',
+          description: 'This is a great, short video explaining what SSH is and how to use it.  Give this a watch if you\'re not familiar with SSH and want to brush up.'
+        },
+        {
+          title: 'The Linux command line for beginners',
+          link: 'https://ubuntu.com/tutorials/command-line-for-beginners',
+          description: 'If you need further help with using the terminal, this tutorial might be a good one to follow.  It\'s written in the context of using a terminal directly on a Linux machine, but is still really relevant for what we need to do in this course.'
+        }
+      ]
+    },
 
     // {
     //   title: 'Week 2: TA Help Session',
@@ -162,7 +162,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Sagar Karki' ]
     },
     '022': {
       meeting: {
@@ -171,7 +171,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 211',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Garrett Berliner' ]
     },
     '023': {
       meeting: {
@@ -180,7 +180,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 211',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Sadie Thomas' ]
     },
     '024': {
       meeting: {
@@ -189,7 +189,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Ella Daugherty' ]
     }
   },
 
