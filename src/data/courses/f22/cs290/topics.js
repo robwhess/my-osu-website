@@ -47,11 +47,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1RB_zhgQNrXyWiLBS7YQHMM3pTckI0lssYjkq2D5Sag8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f21/html',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f22/html',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
