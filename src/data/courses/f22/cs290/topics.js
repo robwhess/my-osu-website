@@ -12,7 +12,6 @@ const topics = [
 
   {
     title: 'Git and GitHub',
-    isCurrent: true,
     weeks: [ 0, 1 ],
     resources: [
       {
@@ -42,6 +41,7 @@ const topics = [
   {
     title: 'HTML',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
