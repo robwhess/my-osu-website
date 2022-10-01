@@ -38,20 +38,28 @@ const taInfo = [
     email: 'moncadae@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUdoOGhFQTU3VjJxfGRlZmF1bHR8N2RhODUzN2NmNDQzNGFmMDQzMjVmOTAxZjAzMmY0OTA',
     officeHours: [
-      // {
-      //   day: 'Tues',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      //   details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
-      // }
+      {
+        day: 'Mon.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '12:30 &ndash; 1:30pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs',
-      //   time: '1:00 &ndash; 2:00pm',
-      //   location: 'Valley Library 1812',
-      //   details: 'Here\'s a map of the first floor of the Valley Library: [https://library.oregonstate.edu/floormaps/first-floor](https://library.oregonstate.edu/floormaps/first-floor)'
-      // }
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {

@@ -145,18 +145,28 @@ const taInfo = [
     email: 'wilsocod@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '9:00 &ndash; 11:50am',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Wed.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '5:00 &ndash; 7:00pm',
+        location: 'Zoom'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '2:00 &ndash; 4:00pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   }
 ];
