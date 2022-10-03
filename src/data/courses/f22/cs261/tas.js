@@ -3,11 +3,16 @@ const taInfo = [
     name: 'Sagar Karki',
     email: 'karkisa@oregonstate.edu',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '12:00am &ndash; 2:00pm',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Tues.',
+        time: '10:00am &ndash; 2:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '8:00am &ndash; 12:00pm',
+        location: 'KEC Atrium'
+      },
     ],
     gradingHours: [
       // {
@@ -72,11 +77,18 @@ const taInfo = [
     name: 'Shaurya Gaur',
     email: 'gaurs@oregonstate.edu',
     appointmentsLink: 'https://calendar.app.google/dWxNh2cQE1UzfRTY9',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/5786532357?pwd=eUVVT3VzMXZFcWpZVEI5d1diVVNzZz09',
     officeHours: [
       {
         day: 'Fri.',
         time: '11:00am &ndash; 1:00pm',
         location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '4:00 &ndash; 5:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/5786532357?pwd=eUVVT3VzMXZFcWpZVEI5d1diVVNzZz09'
       }
     ],
     gradingHours: [
@@ -107,18 +119,23 @@ const taInfo = [
     email: 'greblovs@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '9:00 &ndash; 11:50am',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '2:00 &ndash; 4:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '2:00 &ndash; 4:00pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Thurs.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
