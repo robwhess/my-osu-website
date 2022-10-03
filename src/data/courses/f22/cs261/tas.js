@@ -51,7 +51,7 @@ const taInfo = [
     name: 'Ella Daugherty',
     email: 'daugheel@oregonstate.edu',
     videoConferenceLink: 'https://www.google.com/url?q=https://oregonstate.zoom.us/j/95583768230?pwd%3DMUErK1FVbW1jUU5hRndkd2N4OS84Zz09&sa=D&source=calendar&ust=1664559746528665&usg=AOvVaw3e0CT9bvgjveL6gFReBXM1',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2y3iaPxjYnSwxwGD4-N8wG9yb5GNk00imebabULEkVNjO_riH64AbupsYYVfUm4cC6yOrfCVbw',
     officeHours: [
       {
         day: 'Fri.',
@@ -71,30 +71,35 @@ const taInfo = [
   {
     name: 'Shaurya Gaur',
     email: 'gaurs@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUlsc0toVW1tV2hafGRlZmF1bHR8YjAzYTYzNWEwZTI3MDRjMGQ2N2E3NzZmMjkyZjU4NGE',
+    appointmentsLink: 'https://calendar.app.google/dWxNh2cQE1UzfRTY9',
     officeHours: [
       {
+        day: 'Fri.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      }
+    ],
+    gradingHours: [
+      {
         day: 'Mon.',
-        time: '3:30 &ndash; 4:30pm',
+        time: '3:30 &ndash; 5:00pm',
         location: 'KEC Atrium'
       },
       {
         day: 'Wed.',
-        time: '3:30 &ndash; 4:30pm',
+        time: '3:30 &ndash; 5:00pm',
         location: 'KEC Atrium'
       },
       {
         day: 'Thurs.',
         time: '10:00 &ndash; 11:00am',
         location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '3:00 &ndash; 4:00pm',
+        location: 'KEC Atrium'
       }
-    ],
-    gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '9:30 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // }
     ]
   },
   {

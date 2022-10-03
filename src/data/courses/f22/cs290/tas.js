@@ -36,7 +36,7 @@ const taInfo = [
   {
     name: 'Emmanuel Moncada',
     email: 'moncadae@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/selfsched?sstoken=UUdoOGhFQTU3VjJxfGRlZmF1bHR8N2RhODUzN2NmNDQzNGFmMDQzMjVmOTAxZjAzMmY0OTA',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1U7txg-90R6paHwpnD6Mb70qXQbWqWeVWsccqarE57DKiD_EzYU7YSsxWU9CYr4OO2tL2wh7Ni',
     officeHours: [
       {
         day: 'Mon.',
@@ -67,11 +67,21 @@ const taInfo = [
     email: 'nguyanh2@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '9:00 &ndash; 11:50am',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
       // {
@@ -84,26 +94,31 @@ const taInfo = [
   {
     name: 'Amanda Sinha',
     email: 'sinhaam@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNpRlRYWkpQVUpGfGRlZmF1bHR8ZjNlMDg2OWZmZTI0Nzk4ZDIxNTc1YjY3M2RjNGQ3OGU',
+    appointmentsLink: 'https://calendar.app.google/guPMXFahh9SQJ3RBA',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '11:00am &ndash; 12:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 2:00pm',
+        location: 'KEC Atrium',
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Mon',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '9:00 &ndash; 11:00am',
+        location: 'KEC Atrium',
+      }
     ]
   },
   {
     name: 'Zach Taylor',
     email: 'taylzach@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNpRlRYWkpQVUpGfGRlZmF1bHR8ZjNlMDg2OWZmZTI0Nzk4ZDIxNTc1YjY3M2RjNGQ3OGU',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2FDvrNsmzIuOjLHJtkPIN1JfhsxbtwNDM7kCfwn1mwlCbZHHdjNNIhXKXcqofMheFjXoJQdjyJ?gv=true',
     officeHours: [
       {
         day: 'Mon.',
