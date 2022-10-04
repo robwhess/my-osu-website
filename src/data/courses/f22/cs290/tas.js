@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Vinoothna Ginjala',
     email: 'ginjalav@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/my/cs290officehours?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09',
-  //   appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUNvbXM2NHpwNkg5fGRlZmF1bHR8M2Y0YjhlNTRiOTE3ZTNiNzNhNzY0NzIyNDJiMjY0ZGI',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3scjTRxFftBV9feVUAAcf_NEZVPcji3Zg8bIkvrQdCJQBU2baQxOGkzBhG4M_8D5TNP3fnINr1',
     officeHours: [
       {
         day: 'Tues.',
