@@ -104,7 +104,7 @@ const taInfo = [
     ],
     gradingHours: [
       {
-        day: 'Mon',
+        day: 'Wed.',
         time: '4:00 &ndash; 6:00pm',
         location: 'KEC Atrium',
       },
