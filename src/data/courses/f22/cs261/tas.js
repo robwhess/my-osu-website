@@ -29,19 +29,19 @@ const taInfo = [
   {
     name: 'Garrett Berliner ',
     email: 'berlineg@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2xvMKMsjWhcQi5zLDuY729TLgSSiAr0dcAMRoGmOEcpqupCoBL6Gmtajyt4W_c8dZgiF6DtnCD',
     officeHours: [
       {
         day: 'Wed.',
         time: '3:00 &ndash; 5:00pm',
-        location: 'KEC Atrium'
+        location: 'Valley Library Study Room 1842'
       }
     ],
     gradingHours: [
       {
         day: 'Mon.',
         time: '3:00 &ndash; 5:00',
-        location: 'KEC Atrium'
+        location: 'Valley Library Study Room 1842'
       }
     ]
   },
