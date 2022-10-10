@@ -65,7 +65,7 @@ const taInfo = [
   {
     name: 'Anh Nguyen',
     email: 'nguyanh2@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    appointmentsLink: 'https://calendar.app.google/EmKkHLweyPGxyxYt9',
     officeHours: [
       {
         day: 'Mon.',
@@ -79,16 +79,26 @@ const taInfo = [
       },
       {
         day: 'Fri.',
-        time: '3:00 &ndash; 5:00pm',
+        time: '4:00 &ndash; 5:00pm',
         location: 'KEC Atrium'
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '2:00 &ndash; 4:00pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '2:00 &ndash; 3:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '2:00 &ndash; 4:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
