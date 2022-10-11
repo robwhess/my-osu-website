@@ -13,18 +13,18 @@ const assignments = {
         'Demo due by 11:59pm on Monday, 10/24/2022'
       ]
     },
-    {
-      link : 'https://classroom.github.com/a/2W7VfnIT',
-      title: 'Assignment 2 &ndash; Styling a page with CSS',
-      due: {
-        day: 'Monday, 10/24/2022',
-        time: '11:59pm'
-      },
-      notes: [
-        'Code Blog link due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 11/7/2022'
-      ]
-    },
+    // {
+    //   link : 'https://classroom.github.com/a/2W7VfnIT',
+    //   title: 'Assignment 2 &ndash; Styling a page with CSS',
+    //   due: {
+    //     day: 'Monday, 10/24/2022',
+    //     time: '11:59pm'
+    //   },
+    //   notes: [
+    //     'Code Blog link due **ON CANVAS** by assignment due date',
+    //     'Demo due by 11:59pm on Monday, 11/7/2022'
+    //   ]
+    // },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Client-side JS',
