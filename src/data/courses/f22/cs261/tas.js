@@ -110,7 +110,7 @@ const taInfo = [
   {
     name: 'Sergiy Greblov',
     email: 'greblovs@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ17w6u59MxX3Cnsyve0KX1sKs1_MJdWdM_iwNtFveOKhZZVrvMEQEevpkucRxm0lj1pGkd97qCv',
     officeHours: [
       {
         day: 'Tues.',
