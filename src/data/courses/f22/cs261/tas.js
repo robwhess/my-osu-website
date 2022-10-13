@@ -158,7 +158,8 @@ const taInfo = [
   {
     name: 'Cody Wilson',
     email: 'wilsocod@oregonstate.edu',
-    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBCbEFLUkRkRUROfGRlZmF1bHR8MzY4ZmY3MzIyMDE1N2U1ZDA3ZjM5NmE4Y2MwYWJiMTQ',
+    appointmentsLink: 'https://calendar.app.google/xVmoiwg8d8DVtRyQ6',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/9588046135?pwd=dllQcTNpWElMNVYrWE4rYXNQNWVjUT09',
     officeHours: [
       {
         day: 'Wed.',
@@ -168,7 +169,8 @@ const taInfo = [
       {
         day: 'Fri.',
         time: '5:00 &ndash; 7:00pm',
-        location: 'Zoom'
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9588046135?pwd=dllQcTNpWElMNVYrWE4rYXNQNWVjUT09'
       }
     ],
     gradingHours: [
