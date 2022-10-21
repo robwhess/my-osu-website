@@ -85,7 +85,6 @@ const recitations = {
 
     {
       title: 'Week 4: Iteration and Data Hiding',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -100,20 +99,21 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1BwkBaIK1bqruzXo7-Zn35SHjCJyLkiv52vIEAikuFnc/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'Recitation exercise code',
-    //       link: 'https://github.com/osu-cs261-f21/recitation-5',
-    //       description: 'This GitHub repo contains the dynamic array code you\'ll work with for this week\'s recitation exercise.'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1BwkBaIK1bqruzXo7-Zn35SHjCJyLkiv52vIEAikuFnc/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f22/recitation-5',
+          description: 'This GitHub repo contains the dynamic array code you\'ll work with for this week\'s recitation exercise.'
+        }
+      ]
+    },
 
     // {
     //   title: 'Week 7: No Recitation',
