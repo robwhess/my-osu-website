@@ -48,22 +48,22 @@ const taInfo = [
   {
     name: 'Ella Daugherty',
     email: 'daugheel@oregonstate.edu',
-    videoConferenceLink: 'https://www.google.com/url?q=https://oregonstate.zoom.us/j/95583768230?pwd%3DMUErK1FVbW1jUU5hRndkd2N4OS84Zz09&sa=D&source=calendar&ust=1664559746528665&usg=AOvVaw3e0CT9bvgjveL6gFReBXM1',
-    appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2y3iaPxjYnSwxwGD4-N8wG9yb5GNk00imebabULEkVNjO_riH64AbupsYYVfUm4cC6yOrfCVbw',
+    // videoConferenceLink: 'https://www.google.com/url?q=https://oregonstate.zoom.us/j/95583768230?pwd%3DMUErK1FVbW1jUU5hRndkd2N4OS84Zz09&sa=D&source=calendar&ust=1664559746528665&usg=AOvVaw3e0CT9bvgjveL6gFReBXM1',
+    // appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2y3iaPxjYnSwxwGD4-N8wG9yb5GNk00imebabULEkVNjO_riH64AbupsYYVfUm4cC6yOrfCVbw',
     officeHours: [
-      {
-        day: 'Fri.',
-        time: '2:00 &ndash; 4:00pm',
-        location: 'Zoom',
-        videoConferenceLink: 'https://www.google.com/url?q=https://oregonstate.zoom.us/j/95583768230?pwd%3DMUErK1FVbW1jUU5hRndkd2N4OS84Zz09&sa=D&source=calendar&ust=1664559746528665&usg=AOvVaw3e0CT9bvgjveL6gFReBXM1'
-      }
+      // {
+      //   day: 'Fri.',
+      //   time: '2:00 &ndash; 4:00pm',
+      //   location: 'Zoom',
+      //   videoConferenceLink: 'https://www.google.com/url?q=https://oregonstate.zoom.us/j/95583768230?pwd%3DMUErK1FVbW1jUU5hRndkd2N4OS84Zz09&sa=D&source=calendar&ust=1664559746528665&usg=AOvVaw3e0CT9bvgjveL6gFReBXM1'
+      // }
     ],
     gradingHours: [
-      {
-        day: 'Tues.',
-        time: '5:00 &ndash; 7:00pm',
-        location: 'KEC Atrium'
-      }
+      // {
+      //   day: 'Tues.',
+      //   time: '5:00 &ndash; 7:00pm',
+      //   location: 'KEC Atrium'
+      // }
     ]
   },
   {
