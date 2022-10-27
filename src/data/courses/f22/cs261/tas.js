@@ -78,6 +78,11 @@ const taInfo = [
         location: 'KEC Atrium'
       },
       {
+        day: 'Tues.',
+        time: '9:30 &ndash; 11:30pm',
+        location: 'KEC Atrium',
+      },
+      {
         day: 'Thurs.',
         time: '4:00 &ndash; 5:00pm',
         location: 'Zoom',
@@ -87,12 +92,12 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Mon.',
-        time: '3:30 &ndash; 5:00pm',
+        time: '3:30 &ndash; 5:30pm',
         location: 'KEC Atrium'
       },
       {
         day: 'Wed.',
-        time: '3:30 &ndash; 5:00pm',
+        time: '3:30 &ndash; 5:30pm',
         location: 'KEC Atrium'
       },
       {

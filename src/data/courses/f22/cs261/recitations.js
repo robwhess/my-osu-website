@@ -185,7 +185,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'Ella Daugherty' ]
+      tas: [ 'Sergiy Greblov' ]
     }
   },
 
