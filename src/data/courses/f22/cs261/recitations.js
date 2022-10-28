@@ -101,7 +101,6 @@ const recitations = {
 
     {
       title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -111,6 +110,17 @@ const recitations = {
           title: 'Recitation exercise code',
           link: 'https://github.com/osu-cs261-f22/recitation-5',
           description: 'This GitHub repo contains the dynamic array code you\'ll work with for this week\'s recitation exercise.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 6: Stack and Queue Job Interview Questions',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/18regEBb0IVD4mu1ek4B9t75aFZIzgqDSuCUgaLV6h_I/edit?usp=sharing'
         }
       ]
     },
