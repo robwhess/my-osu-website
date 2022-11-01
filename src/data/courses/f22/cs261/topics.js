@@ -217,7 +217,6 @@ const topics = [
   {
     title: 'Binary Search',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
