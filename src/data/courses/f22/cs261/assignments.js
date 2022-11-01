@@ -23,17 +23,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 11/14/2022'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Binary search trees',
-    //   due: {
-    //     day: 'Monday, 11/15/2021',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 11/29/2021',
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/dQgc7_Tl',
+      title: 'Assignment 3 &ndash; Binary search trees',
+      due: {
+        day: 'Monday, 11/14/2022',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 11/28/2022',
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Priority queues',
