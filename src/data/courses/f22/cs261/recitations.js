@@ -126,7 +126,6 @@ const recitations = {
 
     {
       title: 'Week 7: Recursion',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -140,15 +139,16 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 8: BST and AVL Tree Comparison',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1pNBpZePXE3-Ml5xoc5uMkuleGdkhS42e43HSOwJ4UuI/edit?usp=sharing'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 8: BST and AVL Tree Comparison',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1pNBpZePXE3-Ml5xoc5uMkuleGdkhS42e43HSOwJ4UuI/edit?usp=sharing'
+        }
+      ]
+    },
 
     // {
     //   title: 'Week 9: No Recitation',
