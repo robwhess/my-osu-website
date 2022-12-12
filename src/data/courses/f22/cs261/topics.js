@@ -412,7 +412,6 @@ const topics = [
   {
     title: 'Maps and Hash Tables',
     weeks: [ 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
