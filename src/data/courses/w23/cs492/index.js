@@ -15,32 +15,32 @@ const courseDetails = {
       time: '2:00&ndash;3:50pm',
       timeZone: 'US/Pacific',
       location: 'WNGR 151',
-      videoConferenceLink: ''
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/92374524560?pwd=d1JTZlRkd09EVmVMTFhCNjM5aWhXQT09'
     }
   },
 
-  syllabusLink: '',
+  syllabusLink: 'https://docs.google.com/document/d/1awZDbwxqDNibxkOyF6kegCl6tCriAGoWfaqStUWvuJE/edit?usp=sharing',
 
   calendarUrl: 'https://calendar.google.com/calendar/embed?src=c_dm591efk1u54ljlj33qi8l03is%40group.calendar.google.com&ctz=America%2FLos_Angeles',
 
   links: [
     {
       title: 'CS 492 on Canvas',
-      link: ''
+      link: 'https://canvas.oregonstate.edu/courses/1901281'
     },
     {
       title: 'CS 492 on Zoom',
-      link: '',
+      link: 'https://oregonstate.zoom.us/j/92374524560?pwd=d1JTZlRkd09EVmVMTFhCNjM5aWhXQT09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
-    {
-      title: 'CS 492 on Campuswire',
-      link: '',
-      description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
-    },
+    // {
+    //   title: 'CS 492 on Campuswire',
+    //   link: '',
+    //   description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
+    // },
     {
       title: 'CS 492 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs492-w23',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {

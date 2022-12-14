@@ -15,32 +15,32 @@ var courseDetails = {
       time: '2:00&ndash;3:50pm',
       timeZone: 'US/Pacific',
       location: 'WNGR 149',
-      videoConferenceLink: ''
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/99110295239?pwd=RmJNMmwyYVY5NHVRZGl5SjBJUE00Zz09'
     }
   },
 
-  syllabusLink: '',
+  syllabusLink: 'https://docs.google.com/document/d/1o9oYGS3B6EhN9avEoofS8ugYks-R52ISqu1_yhoR0q0/edit?usp=sharing',
 
   calendarUrl: 'https://calendar.google.com/calendar/embed?src=c_3m5m940qqphhblam8s1om1ggi8%40group.calendar.google.com&ctz=America%2FLos_Angeles',
 
   links: [
     {
       title: 'CS 494 on Canvas',
-      link: ''
+      link: 'https://canvas.oregonstate.edu/courses/1909912'
     },
     {
       title: 'CS 494 on Zoom',
-      link: '',
+      link: 'https://oregonstate.zoom.us/j/99110295239?pwd=RmJNMmwyYVY5NHVRZGl5SjBJUE00Zz09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
-    {
-      title: 'CS 494 on Campuswire',
-      link: '',
-      description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
-    },
+    // {
+    //   title: 'CS 494 on Campuswire',
+    //   link: '',
+    //   description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
+    // },
     {
       title: 'CS 494 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs494-w23',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
