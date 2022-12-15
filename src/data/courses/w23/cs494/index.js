@@ -33,11 +33,11 @@ var courseDetails = {
       link: 'https://oregonstate.zoom.us/j/99110295239?pwd=RmJNMmwyYVY5NHVRZGl5SjBJUE00Zz09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
-    // {
-    //   title: 'CS 494 on Campuswire',
-    //   link: '',
-    //   description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
-    // },
+    {
+      title: 'CS 494 on Ed',
+      link: 'https://edstem.org/us/courses/31611',
+      description: 'we will use Ed for course Q & A &ndash; you should be automatically enrolled if you\'re enrolled for this course'
+    },
     {
       title: 'CS 494 on GitHub',
       link: 'https://github.com/osu-cs494-w23',
