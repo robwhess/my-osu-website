@@ -15,7 +15,7 @@ import sp22 from './sp22/';
 import f22 from './f22/';
 import w23 from './w23/';
 
-const currentTerm = 'f22';
+const currentTerm = 'w23';
 
 const courseData = {
   w23: w23,
