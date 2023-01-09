@@ -37,11 +37,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14rZmZWMDETj1EIu1Oj4BZAwJhtg3grTZCXwLmDfze8k/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w22/jsx-and-components',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w23/jsx-and-components',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
