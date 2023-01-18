@@ -1,14 +1,19 @@
 const tas = [
   {
-    name: 'Supreeth Suresh Avadhani',
+    name: 'Supreeth Avadhani',
     email: 'sureshas@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '10:00 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Tues.',
+        time: '4:30 &ndash; 6:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '4:30 &ndash; 6:30pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
       // {
@@ -23,11 +28,16 @@ const tas = [
     email: 'keshavas@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '10:00 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 12:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '5:30 &ndash; 6:30pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
       // {
@@ -42,11 +52,16 @@ const tas = [
     email: 'nairro@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '10:00 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Mon.',
+        time: '9:30 &ndash; 11:30am',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '4:30 &ndash; 6:30pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
       // {
