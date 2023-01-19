@@ -2,7 +2,7 @@ const tas = [
   {
     name: 'Supreeth Avadhani',
     email: 'sureshas@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'http://tiny.cc/CS492--GH-SUP-',
     officeHours: [
       {
         day: 'Tues.',
@@ -16,11 +16,16 @@ const tas = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '11:00am &ndash; 1:00pm',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Tues.',
+        time: '11:00am &ndash; 1:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '11:00am &ndash; 3:30pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
