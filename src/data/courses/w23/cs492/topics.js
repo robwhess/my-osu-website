@@ -104,6 +104,7 @@ const topics = [
   {
     title: 'Getting Started with Android Studio',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -112,8 +113,13 @@ const topics = [
     ],
     readings: [
       {
+        title: 'Android Studio Homepage',
+        link: 'https://developer.android.com/studio/'
+      },
+      {
         title: 'Meet Android Studio',
-        link: 'https://developer.android.com/studio/intro/'
+        link: 'https://developer.android.com/studio/intro/',
+        description: 'An official overview of how to use Android Studio'
       }
     ]
   },
@@ -121,16 +127,17 @@ const topics = [
   {
     title: 'Our First Android App: To-Dos',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1jbk9s3ZDKJsVEyGD7h8HzyOKWzg5UjnD6zYDMyGA354/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w22/BasicToDos',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w23/BasicToDos',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
