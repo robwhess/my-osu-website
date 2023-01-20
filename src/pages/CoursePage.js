@@ -9,6 +9,8 @@ import { Outlet } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router-dom';
 
+import NoMatchPage from './NoMatchPage';
+
 import Navbar from '../components/Navbar';
 
 import { courseData } from '../data/courses';
@@ -62,7 +64,7 @@ function CoursePage() {
     <>
       {course && <Helmet title={course.number} />}
       {navLinks.length > 1 && <Navbar subnav heading={navHeading} links={navLinks} />}
-      <Outlet />
+      {course ? <Outlet /> : <NoMatchPage />}
     </>
   );
 
