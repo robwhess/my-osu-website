@@ -25,7 +25,6 @@ const topics = [
   {
     title: 'Kotlin Primer',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -161,16 +160,17 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1OGRgzRL0KA3xdhmNnI8d5pcW9J1CO18tYxYFicghHH0/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w22/RecyclerViewToDos',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w23/RecyclerViewToDos',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
