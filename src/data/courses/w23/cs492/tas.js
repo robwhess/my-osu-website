@@ -31,7 +31,7 @@ const tas = [
   {
     name: 'Subramanya Keshavamurthy',
     email: 'keshavas@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUEzV3M2NEh0dktkfGRlZmF1bHR8N2RjYWZkYzBlNDY4NTdhNTZmOTFiZTA1NTYwOWYzMWM',
     officeHours: [
       {
         day: 'Fri.',
@@ -45,11 +45,16 @@ const tas = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '11:00am &ndash; 1:00pm',
-      //   location: 'KEC Atrium'
-      // },
+      {
+        day: 'Wed.',
+        time: '4:30 &ndash; 6:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '5:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
