@@ -98,8 +98,7 @@ const topics = [
 
   {
     title: 'React: Hooks',
-    weeks: [ 3, 4 ],
-    isCurrent: true,
+    weeks: [ 3 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -138,16 +137,17 @@ const topics = [
   {
     title: 'Client-Side Routing with React Router',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1s0zG2b0wa5fGZrf2Dg9mimGW-Tdm_gtXXPfvDqE2wV8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w22/using-react-router',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w23/using-react-router',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
