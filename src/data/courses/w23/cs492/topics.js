@@ -158,7 +158,6 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -192,27 +191,38 @@ const topics = [
   {
     title: 'Using Data from the Internet',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1KW2qwtoMDDYhP0ximsH1ZoyKmxCTqrub9cD6BQHpAmI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w22/GitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w23/GitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
-        title: 'Volley overview',
-        link: 'https://developer.android.com/training/volley',
-        description: 'Android Developers'
+        title: 'Getting started with the REST API',
+        link: 'https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api?tool=curl',
+        description: 'GitHub Docs'
+      },
+      {
+        title: 'Retrofit',
+        link: 'https://square.github.io/retrofit/',
+        description: 'Retrofit Docs'
       },
       {
         title: 'Permissions overview',
         link: 'https://developer.android.com/guide/topics/permissions/overview',
         description: 'Android Developers'
+      },
+      {
+        title: 'An Introduction to JSON',
+        link: 'https://www.digitalocean.com/community/tutorials/an-introduction-to-json',
+        description: 'Lisa Tagliaferri (Digital Ocean)'
       },
       {
         title: 'Moshi',
