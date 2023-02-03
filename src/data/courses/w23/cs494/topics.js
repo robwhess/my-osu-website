@@ -157,17 +157,17 @@ const topics = [
       },
       {
         title: 'Overview',
-        link: 'https://reactrouter.com/en/6.7.0/start/overview',
+        link: 'https://reactrouter.com/en/main/start/overview',
         description: 'React Router Docs'
       },
       {
         title: 'Main Concepts',
-        link: 'https://reactrouter.com/en/6.7.0/start/concepts',
+        link: 'https://reactrouter.com/en/main/start/concepts',
         description: 'React Router Docs'
       },
       {
         title: 'Tutorial',
-        link: 'https://reactrouter.com/en/6.7.0/start/tutorial',
+        link: 'https://reactrouter.com/en/main/start/tutorial',
         description: 'React Router Docs'
       }
     ]
