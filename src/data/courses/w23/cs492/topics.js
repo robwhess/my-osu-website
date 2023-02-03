@@ -239,7 +239,7 @@ const topics = [
 
   {
     title: 'Starting New Activities with Intents',
-    weeks: [ 5, 6 ],
+    weeks: [ 5 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -252,11 +252,6 @@ const topics = [
       // },
     ],
     readings: [
-      {
-        title: 'Start Another Activity',
-        link: 'https://developer.android.com/training/basics/firstapp/starting-activity',
-        description: 'Android Developers'
-      },
       {
         title: 'Intents and Intent Filters',
         link: 'https://developer.android.com/guide/components/intents-filters',
@@ -273,8 +268,8 @@ const topics = [
         description: 'Android Developers'
       },
       {
-        title: 'Sharing Simple Data',
-        link: 'https://developer.android.com/training/sharing/',
+        title: 'Sending simple data to other apps',
+        link: 'https://developer.android.com/training/sharing/send',
         description: 'Android Developers'
       }
     ]
