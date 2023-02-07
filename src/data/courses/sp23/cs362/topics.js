@@ -1,5 +1,3 @@
-import SoftwareEngineeringAtGoogleCh1 from '../../../../static/Software_Engineering_at_Google-Ch1.pdf';
-import SoftwareEngineeringAtGoogleCh11 from '../../../../static/Software_Engineering_at_Google-Ch11.pdf';
 
 const topics = [
     {
@@ -14,7 +12,7 @@ const topics = [
         readings: [
             {
                 title: 'What is Software Engineering',
-                link: SoftwareEngineeringAtGoogleCh1,
+                link: 'https://abseil.io/resources/swe-book/html/ch01.html',
                 description: 'Titus Waters (Chapter 1 of O\'Reilly\'s Software Engineering at Google)'
             }
         ]
@@ -31,8 +29,23 @@ const topics = [
         readings: [
             {
                 title: 'Testing Overview',
-                link: SoftwareEngineeringAtGoogleCh11,
+                link: 'https://abseil.io/resources/swe-book/html/ch11.html',
                 description: 'Adam Bender (Chapter 11 of O\'Reilly\'s Software Engineering at Google)'
+            },
+            {
+                title: 'Testing Implementation Details',
+                link: 'https://kentcdodds.com/blog/testing-implementation-details',
+                description: 'Kent C. Dodds'
+            },
+            {
+                title: '',
+                link: '',
+                description: ''
+            },
+            {
+                title: '',
+                link: '',
+                description: ''
             }
         ]
     }
