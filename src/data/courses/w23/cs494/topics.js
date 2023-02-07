@@ -137,7 +137,6 @@ const topics = [
   {
     title: 'Client-Side Routing with React Router',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

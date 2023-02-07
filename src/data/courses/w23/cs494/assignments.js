@@ -34,17 +34,17 @@ const assignments = {
         'Demo due by 11:59pm, Monday 2/27/2023'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Data fetching and component styling',
-    //   due: {
-    //     day: 'Monday, 2/14/2022',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 3/7/2022'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/2JjAxGv1',
+      title: 'Assignment 3 &ndash; Data fetching and component styling',
+      due: {
+        day: 'Monday, 2/20/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/13/2023'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; A Redux-powered shopping app',
