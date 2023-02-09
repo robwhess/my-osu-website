@@ -13,7 +13,7 @@ const topics = [
             {
                 title: 'What is Software Engineering',
                 link: 'https://abseil.io/resources/swe-book/html/ch01.html',
-                description: 'Titus Waters (Chapter 1 of O\'Reilly\'s Software Engineering at Google)'
+                description: 'Titus Waters (Chapter 1 of Software Engineering at Google)'
             }
         ]
     },
@@ -30,7 +30,7 @@ const topics = [
             {
                 title: 'Testing Overview',
                 link: 'https://abseil.io/resources/swe-book/html/ch11.html',
-                description: 'Adam Bender (Chapter 11 of O\'Reilly\'s Software Engineering at Google)'
+                description: 'Adam Bender (Chapter 11 of Software Engineering at Google)'
             },
             {
                 title: 'Testing Implementation Details',
