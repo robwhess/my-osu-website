@@ -61,6 +61,7 @@ const tas = [
     name: 'Rohit Nair',
     email: 'nairro@oregonstate.edu',
     appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUE2M3RxbGh1aUN3fGRlZmF1bHR8MWM4YTQ2NGFmY2NkMjBkM2Y0OTQ3YjM4ZTljMTYyM2E',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09',
     officeHours: [
       {
         day: 'Mon.',
@@ -77,17 +78,20 @@ const tas = [
       {
         day: 'Mon.',
         time: '4:30 &ndash; 6:30pm',
-        location: 'KEC Atrium'
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09'
       },
       {
         day: 'Tue.',
         time: '10:00am &ndash; 1:00pm',
-        location: 'KEC Atrium'
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09'
       },
       {
         day: 'Tue.',
         time: '4:30 &ndash; 6:30pm',
-        location: 'KEC Atrium'
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09'
       }
     ]
   }
