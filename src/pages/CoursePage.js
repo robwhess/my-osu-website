@@ -5,9 +5,8 @@
  */
 
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { useParams } from 'react-router-dom';
 
 import NoMatchPage from './NoMatchPage';
 
