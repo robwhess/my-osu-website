@@ -191,7 +191,6 @@ const topics = [
   {
     title: 'Using Data from the Internet',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -279,16 +278,17 @@ const topics = [
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 6, 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1PkxaTE27Y75EWEaHDEIn-NG5zfDqv7BI0qdLTqSF7KI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w22/LifecycleAwareGitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w23/LifecycleAwareGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
