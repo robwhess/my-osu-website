@@ -175,7 +175,6 @@ const topics = [
   {
     title: 'Communicating with an HTTP API',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -214,16 +213,17 @@ const topics = [
   {
     title: 'Styling Components with Emotion',
     weeks: [ 6 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1XgCyJ3XA7lzpaT7HN5fNY65RuqN_j6vaPrWbxq0Vjso/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w22/styling-with-emotion',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w23/styling-with-emotion',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
