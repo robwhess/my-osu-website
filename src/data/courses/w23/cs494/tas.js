@@ -32,8 +32,14 @@ const tas = [
     ],
     gradingHours: [
       {
+        day: 'Tues.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4637552622?pwd=V1lZMm1GRlpKMzlGREdFb2dsMkdYdz09',
+      },
+      {
         day: 'Thurs.',
-        time: '3:00 &ndash; 7:00pm',
+        time: '3:00 &ndash; 5:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/4637552622?pwd=V1lZMm1GRlpKMzlGREdFb2dsMkdYdz09',
       },
