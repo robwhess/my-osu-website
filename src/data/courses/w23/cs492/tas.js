@@ -22,13 +22,13 @@ const tas = [
         day: 'Tues.',
         time: '11:00am &ndash; 1:30pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/95196794876pwd=aHJ2cWlZZHNVMDVoZ0lhMFFEUExUdz09'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/95196794876?pwd=aHJ2cWlZZHNVMDVoZ0lhMFFEUExUdz09'
       },
       {
         day: 'Wed.',
         time: '11:00am &ndash; 3:30pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://oregonstate.zoom.us/j/95196794876pwd=aHJ2cWlZZHNVMDVoZ0lhMFFEUExUdz09'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/95196794876?pwd=aHJ2cWlZZHNVMDVoZ0lhMFFEUExUdz09'
       }
     ]
   },
