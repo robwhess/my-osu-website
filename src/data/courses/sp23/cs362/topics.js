@@ -18,8 +18,14 @@ const topics = [
         ]
     },
     {
-        title: 'Software Testing Fundamentals',
+        title: 'Git and GitHub',
         weeks: [ 1, 2 ],
+        resources: [],
+        readings: []
+    },
+    {
+        title: 'Software Testing Fundamentals',
+        weeks: [ 2 ],
         resources: [
             {
                 title: 'Lecture notes',
@@ -56,6 +62,53 @@ const topics = [
                 title: 'Test-Driven Development',
                 link: 'https://www.jamesshore.com/v2/books/aoad2/test-driven_development',
                 description: 'James Shore and Shane Warden (from The Art of Agile Development)'
+            }
+        ]
+    },
+    {
+        title: 'Unit Testing and the Jest Testing Framework',
+        weeks: [ 3 ],
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1kTbcXqFVreDtsG2fbncoZ77Z5YiQobCn18Nibu4Lt50/edit?usp=sharing'
+            },
+        ],
+        readings: [
+            {
+                title: 'Unit Testing',
+                link: 'https://abseil.io/resources/swe-book/html/ch12.html',
+                description: 'Erik Kuefler (Chapter 12 of Software Engineering at Google)'
+            },
+            {
+                title: 'Getting Started with Jest',
+                link: 'https://jestjs.io/docs/getting-started',
+                description: 'Jest Docs'
+            },
+            {
+                title: 'Using Matchers',
+                link: 'https://jestjs.io/docs/using-matchers',
+                description: 'Jest Docs'
+            },
+            {
+                title: 'Arrange, Act and Assert Pattern: The Three A\'s of Unit Testing',
+                link: 'https://robertmarshall.dev/blog/arrange-act-and-assert-pattern-the-three-as-of-unit-testing/',
+                description: 'Robert Marshall'
+            },
+            {
+                title: '',
+                link: '',
+                description: ''
+            },
+            {
+                title: '',
+                link: '',
+                description: ''
+            },
+            {
+                title: '',
+                link: '',
+                description: ''
             }
         ]
     }
