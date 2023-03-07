@@ -416,16 +416,17 @@ const topics = [
   {
     title: 'Navigation with Jetpack\'s Navigation Component',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1tLtktp8ZHqU6A3PSb7pbWn88_rTu2d2ssx5juNDA9iY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w22/GitHubSearchWithNavigation',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w23/GitHubSearchWithNavigation',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
