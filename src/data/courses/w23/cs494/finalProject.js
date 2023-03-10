@@ -37,19 +37,19 @@ const finalProject = {
         'Note that this must be completed individually by every member of your team.'
       ]
     },
-    // {
-    //   link : 'https://calendar.google.com/calendar/selfsched?sstoken=UU5lX0wwMmRLWll3fGRlZmF1bHR8YTY3MWY4YzUxZWQ4ZmMzY2ZiY2Y1NmM0ZjkxYjJjODQ',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo.',
-    //     'Code is due on GitHub at the time of your demo.',
-    //     'Come to the demo prepared to run your project from one of your team\'s computers.',
-    //     'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-    //     'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.'
-    //   ]
-    // }
+    {
+      link : 'https://outlook.office365.com/owa/calendar/CS494FinalProjectDemos@OregonStateUniversity.onmicrosoft.com/bookings/s/qD4cHizkNkmuEh3Cf2cxKw2',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo unless prior arrangements have been made with Hess.',
+        'Code is due on GitHub at the time of your demo.',
+        'Come to the demo prepared to run your project from one of your team\'s computers.',
+        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
+        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete React-based web application that serves dynamic, interactive data from an API.  You can find more info below.'
