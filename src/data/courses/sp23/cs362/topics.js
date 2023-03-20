@@ -18,7 +18,7 @@ const topics = [
         ]
     },
     {
-        title: 'Git and GitHub',
+        title: 'Git and GitHub: An Individual\'s Perspective',
         weeks: [ 1, 2 ],
         resources: [],
         readings: []
@@ -73,6 +73,11 @@ const topics = [
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1kTbcXqFVreDtsG2fbncoZ77Z5YiQobCn18Nibu4Lt50/edit?usp=sharing'
             },
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp23/unit-testing-with-jest',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
@@ -96,19 +101,9 @@ const topics = [
                 description: 'Robert Marshall'
             },
             {
-                title: '',
-                link: '',
-                description: ''
-            },
-            {
-                title: '',
-                link: '',
-                description: ''
-            },
-            {
-                title: '',
-                link: '',
-                description: ''
+                title: 'Building a JavaScript Testing Framework',
+                link: 'https://cpojer.net/posts/building-a-javascript-testing-framework#building-a-testing-framework',
+                description: 'Christoph Nakazawa'
             }
         ]
     }
