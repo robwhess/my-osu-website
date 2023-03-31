@@ -1,7 +1,7 @@
 import topics from './topics'
-// import assignments from './assignments'
+import assignments from './assignments'
 // import finalProject from './finalProject'
-// import tas from './tas'
+import tas from './tas'
 
 var courseDetails = {
   number: 'CS 362',
@@ -13,33 +13,31 @@ var courseDetails = {
       day: 'MW',
       time: '4:00&ndash;5:50pm',
       timeZone: 'US/Pacific',
-      location: '',
-      videoConferenceLink: ''
+      location: 'WNGR 151',
+      videoConferenceLink: 'https://oregonstate.zoom.us/j/92957966637?pwd=SnhUU25velhkVTNnL2xsSGRpcnVSZz09'
     }
   },
 
-  syllabusLink: '',
-
-  calendarUrl: '',
+  syllabusLink: 'https://docs.google.com/document/d/1HVMdbzmNcKbJ71e6YYkJDeKixXvOp9-qHeAId-jtrFk/edit?usp=sharing',
 
   links: [
     {
       title: 'CS 362 on Canvas',
-      link: ''
+      link: 'https://canvas.oregonstate.edu/courses/1914881'
     },
     {
       title: 'CS 362 on Zoom',
-      link: '',
+      link: 'https://oregonstate.zoom.us/j/92957966637?pwd=SnhUU25velhkVTNnL2xsSGRpcnVSZz09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
     {
       title: 'CS 362 on Ed',
-      link: '',
+      link: 'https://edstem.org/us/courses/38462',
       description: 'we will use Ed for course Q & A &ndash; you should be automatically enrolled if you\'re enrolled for this course'
     },
     {
       title: 'CS 362 on GitHub',
-      link: '',
+      link: 'https://github.com/osu-cs362-sp23',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
     {
@@ -51,9 +49,9 @@ var courseDetails = {
 
   topics: topics,
 
-//   assignmentGroups: [ assignments ],
+  assignmentGroups: [ assignments ],
 
-//   tas: tas
+  tas: tas
 }
 
 export default courseDetails

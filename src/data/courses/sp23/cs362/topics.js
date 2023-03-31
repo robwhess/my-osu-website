@@ -7,7 +7,7 @@ const topics = [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1xX6GRthVDqvTK1GCeAAkHCdKH6GNv4x-1L6ngAuMQPo/edit?usp=sharing'
-            },
+            }
         ],
         readings: [
             {
@@ -20,12 +20,43 @@ const topics = [
     {
         title: 'Git and GitHub: An Individual\'s Perspective',
         weeks: [ 1, 2 ],
-        resources: [],
-        readings: []
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1OvD4CHSYbJ7fWG6NtoLE5ekia6RnKJRRCS-OSUN8XZM/edit?usp=sharing'
+            }
+        ],
+        readings: [
+            {
+                title: 'Getting Started [with Git]',
+                link: 'https://git-scm.com/book/en/v2/',
+                description: 'Chapter 1 of Pro Git by Scott Chacon and Ben Straub'
+            },
+            {
+                title: 'Git Basics',
+                link: 'https://git-scm.com/book/en/v2/',
+                description: 'Chapter 2 of Pro Git by Scott Chacon and Ben Straub'
+            },
+            {
+                title: 'Git cheat sheet',
+                link: 'https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet',
+                description: 'Atlassian'
+            },
+            {
+                title: 'Git cheat sheet',
+                link: 'https://training.github.com/',
+                description: 'GitHub'
+            },
+            {
+                title: 'Git merge conflicts',
+                link: 'https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts',
+                description: 'Atlassian'
+            }
+        ]
     },
     {
         title: 'Software Testing Fundamentals',
-        weeks: [ 2 ],
+        weeks: [ 2, 3 ],
         resources: [
             {
                 title: 'Lecture notes',
@@ -67,7 +98,7 @@ const topics = [
     },
     {
         title: 'Unit Testing and the Jest Testing Framework',
-        weeks: [ 3 ],
+        weeks: [ 3, 4 ],
         resources: [
             {
                 title: 'Lecture notes',
