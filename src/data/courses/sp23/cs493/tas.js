@@ -27,11 +27,16 @@ const taInfo = [
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUE2M3RxbGh1aUN3fGRlZmF1bHR8MWM4YTQ2NGFmY2NkMjBkM2Y0OTQ3YjM4ZTljMTYyM2E',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09',
     officeHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '9:30 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
       // {

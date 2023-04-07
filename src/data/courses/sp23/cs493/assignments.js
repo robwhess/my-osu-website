@@ -3,7 +3,7 @@ const assignments = {
   assignments: [
     // {
     //   link : '',
-    //   title: 'Assignment 1 &ndash; API design and server setup',
+    //   title: 'Assignment 1 &ndash; API design and server implementation',
     //   due: {
     //     day: 'Monday, 4/18/2022',
     //     time: '11:59pm'
