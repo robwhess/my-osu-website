@@ -2,7 +2,7 @@ const taInfo = [
   {
     name: 'Bhagyashree Basudkar',
     email: 'basudkab@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/92435292884?pwd=MWNQNlNSM2VsblVXekRRVGNadnY4QT09',
     officeHours: [
       {
@@ -34,7 +34,7 @@ const taInfo = [
   {
     name: 'Rupasree Dey',
     email: 'deyr@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
     videoConferenceLink: 'https://oregonstate.zoom.us/meeting/91288924926',
     officeHours: [
       {
