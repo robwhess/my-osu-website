@@ -35,7 +35,7 @@ const taInfo = [
     name: 'Rupasree Dey',
     email: 'deyr@oregonstate.edu',
     appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
-    videoConferenceLink: 'https://oregonstate.zoom.us/meeting/91288924926',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/91288924926?pwd=cloxc3JNcitETGdaenBtK215ZVhLdz09',
     officeHours: [
       {
         day: 'Tues.',
@@ -46,7 +46,7 @@ const taInfo = [
         day: 'Fri.',
         time: '5:00 &ndash; 8:00pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://oregonstate.zoom.us/meeting/91288924926'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/91288924926?pwd=cloxc3JNcitETGdaenBtK215ZVhLdz09'
       }
     ],
     gradingHours: [
