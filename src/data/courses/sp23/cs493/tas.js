@@ -2,15 +2,21 @@ const taInfo = [
   {
     name: 'Vinoothna Ginjala',
     email: 'ginjalav@oregonstate.edu',
-    // videoConferenceLink: 'https://oregonstate.zoom.us/my/cs290officehours?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3scjTRxFftBV9feVUAAcf_NEZVPcji3Zg8bIkvrQdCJQBU2baQxOGkzBhG4M_8D5TNP3fnINr1',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '8:00am &ndash; 12:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/my/cs290officehours?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
-      // }
+      {
+        day: 'Tues.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
+      },
+      {
+        day: 'Wed.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
+      }
     ],
     gradingHours: [
       // {
