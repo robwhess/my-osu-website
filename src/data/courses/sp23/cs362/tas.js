@@ -35,17 +35,18 @@ const taInfo = [
     name: 'Rupasree Dey',
     email: 'deyr@oregonstate.edu',
     // appointmentsLink: '',
-    // videoConferenceLink: '',
+    videoConferenceLink: 'https://oregonstate.zoom.us/meeting/91288924926',
     officeHours: [
       {
-        day: 'Mon.',
-        time: '6:00 &ndash; 8:00pm',
+        day: 'Tues.',
+        time: '4:30 &ndash; 5:30pm',
         location: 'KEC Atrium'
       },
       {
-        day: 'Tues.',
-        time: '11:00am &ndash; 12:00pm',
-        location: 'KEC Atrium'
+        day: 'Fri.',
+        time: '5:00 &ndash; 8:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/meeting/91288924926'
       }
     ],
     gradingHours: [
