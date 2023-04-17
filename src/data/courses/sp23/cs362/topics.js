@@ -140,43 +140,33 @@ const topics = [
             }
         ]
     },
-    // {
-    //     title: 'Test-Driven Development: A Case Study',
-    //     weeks: [ 4 ],
-    //     resources: [
-    //         {
-    //             title: 'Lecture notes',
-    //             link: 'https://docs.google.com/document/d/1cCiUGRj5IBUTbWgyXwS8j4b5kwA4VlsrsTls7exuX48/edit?usp=sharing'
-    //         }
-    //     ],
-    //     readings: [
-    //         {
-    //             title: 'Test-Driven Development',
-    //             link: 'https://www.jamesshore.com/v2/books/aoad2/test-driven_development',
-    //             description: 'James Shore and Shane Warden (from The Art of Agile Development)'
-    //         },
-    //         {
-    //             title: 'Incremental Test-Driven Development',
-    //             link: 'https://www.jamesshore.com/v2/projects/lunch-and-learn/incremental-tdd',
-    //             description: 'James Shore'
-    //         },
-    //         {
-    //             title: 'When I follow TDD',
-    //             link: 'https://kentcdodds.com/blog/when-i-follow-tdd',
-    //             description: 'Kent C. Dodds'
-    //         },
-    //         {
-    //             title: '',
-    //             link: '',
-    //             description: ''
-    //         },
-    //         {
-    //             title: '',
-    //             link: '',
-    //             description: ''
-    //         }
-    //     ]
-    // }
+    {
+        title: 'Test-Driven Development: A Case Study',
+        weeks: [ 4 ],
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1cCiUGRj5IBUTbWgyXwS8j4b5kwA4VlsrsTls7exuX48/edit?usp=sharing'
+            }
+        ],
+        readings: [
+            {
+                title: 'Test-Driven Development',
+                link: 'https://www.jamesshore.com/v2/books/aoad2/test-driven_development',
+                description: 'James Shore and Shane Warden (from The Art of Agile Development)'
+            },
+            {
+                title: 'Incremental Test-Driven Development',
+                link: 'https://www.jamesshore.com/v2/projects/lunch-and-learn/incremental-tdd',
+                description: 'James Shore'
+            },
+            {
+                title: 'When I follow TDD',
+                link: 'https://kentcdodds.com/blog/when-i-follow-tdd',
+                description: 'Kent C. Dodds'
+            }
+        ]
+    }
 ]
 
 export default topics
