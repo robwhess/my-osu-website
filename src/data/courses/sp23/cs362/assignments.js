@@ -10,7 +10,19 @@ const assignments = {
       },
       notes: [
         'Grading demo due by 11:59pm on Monday, 5/1/2023',
-        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/s/ocFoy3K3F02AgF4m7gWT7A2)'
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
+    {
+      link : 'https://classroom.github.com/a/4vNpQsYp',
+      title: 'Assignment 2 &ndash; Unit Testing and TDD',
+      due: {
+        day: 'Monday, 5/1/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Grading demo due by 11:59pm on Monday, 5/15/2023',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     }
   ],
