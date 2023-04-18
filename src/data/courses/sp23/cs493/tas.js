@@ -19,19 +19,25 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '11:00am &ndash; 1:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/my/cs290officehours?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
-      // }
+      {
+        day: 'Mon.',
+        time: '9:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
+      },
+      {
+        day: 'Wed.',
+        time: '9:00am &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
+      }
     ]
   },
   {
     name: 'Rohit Nair',
     email: 'nairro@oregonstate.edu',
     // appointmentsLink: 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUE2M3RxbGh1aUN3fGRlZmF1bHR8MWM4YTQ2NGFmY2NkMjBkM2Y0OTQ3YjM4ZTljMTYyM2E',
-    // videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09',
     officeHours: [
       {
         day: 'Mon.',
@@ -45,12 +51,18 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '4:30 &ndash; 6:30pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09'
-      // }
+      {
+        day: 'Tues.',
+        time: '8:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09'
+      },
+      {
+        day: 'Tues.',
+        time: '1:00 &ndash; 4:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/4971555484?pwd=blNrSk1UU0htelM4SHl4MUdmRHRUQT09'
+      }
     ]
   }
 ];
