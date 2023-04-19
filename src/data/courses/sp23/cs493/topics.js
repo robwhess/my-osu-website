@@ -52,7 +52,7 @@ const topics = [
 
   {
     title: 'Setting up a Server with Node.js and Express',
-    weeks: [ 2 ],
+    weeks: [ 2, 3 ],
     isCurrent: true,
     resources: [
       {
@@ -126,17 +126,18 @@ const topics = [
 
   {
     title: 'Containerization with Docker',
-    weeks: [ 3 ],
+    weeks: [ 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1XhtakMCZU1CH-ZX4Q_5z1EPzL3lo5oQ2E-NDkG4R4sM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp22/using-docker',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp23/using-docker',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
