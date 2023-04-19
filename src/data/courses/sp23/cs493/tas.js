@@ -21,13 +21,13 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Mon.',
-        time: '9:00am &ndash; 12:00pm',
+        time: '9:00am &ndash; 1:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
       },
       {
         day: 'Wed.',
-        time: '9:00am &ndash; 1:00pm',
+        time: '10:00am &ndash; 1:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/3680748049?pwd=bVl2VTFnWU5PeWNpS1E1T3Z1c2tKZz09'
       }
