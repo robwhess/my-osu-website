@@ -9,7 +9,8 @@ const assignments = {
         time: '11:59pm'
       },
       notes: [
-        'Grading demo due by 11:59pm, Monday 5/15/2023'
+        'Grading demo due by 11:59pm, Monday 5/15/2023',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
     // {

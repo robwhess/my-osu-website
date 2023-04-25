@@ -29,6 +29,11 @@ var courseDetails = {
 
   links: [
     {
+      title: 'CS 480 grading demo appointments',
+      link: 'https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/',
+      description: 'use this page to sign up for grading demos for all assignments'
+    },
+    {
       title: 'CS 480 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1915166'
     },
