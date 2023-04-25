@@ -98,8 +98,7 @@ const topics = [
     },
     {
         title: 'Unit Testing and the Jest Testing Framework',
-        weeks: [ 3, 4 ],
-        isCurrent: true,
+        weeks: [ 3 ],
         resources: [
             {
                 title: 'Lecture notes',
@@ -142,6 +141,7 @@ const topics = [
     {
         title: 'Test-Driven Development: A Case Study',
         weeks: [ 4 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',

@@ -55,8 +55,7 @@ const topics = [
 
   {
     title: 'The Flex Scanner Generator',
-    weeks: [ 2, 3, 4 ],
-    isCurrent: true,
+    weeks: [ 2, 3 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -85,6 +84,7 @@ const topics = [
   {
     title: 'Parsing and Context-Free Grammars',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
