@@ -107,16 +107,17 @@ const topics = [
   {
     title: 'The Bison Parser Generator',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/19LCYNojTimpgpvrZu-pawIj0wfRXKZCKHVapwS2BxUI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp22/bison',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp23/bison',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
