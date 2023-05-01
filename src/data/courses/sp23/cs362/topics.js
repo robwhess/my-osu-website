@@ -138,10 +138,10 @@ const topics = [
             }
         ]
     },
+
     {
         title: 'Test-Driven Development: A Case Study',
         weeks: [ 4 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -168,6 +168,53 @@ const topics = [
                 title: 'When I follow TDD',
                 link: 'https://kentcdodds.com/blog/when-i-follow-tdd',
                 description: 'Kent C. Dodds'
+            }
+        ]
+    },
+
+    {
+        title: 'UI-Based Integration Testing',
+        weeks: [ 5 ],
+        isCurrent: true,
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1Q9ih-CIUsUwnsaCUhjjIaP05gCvC7Ftr9sUZvsPpn8g/edit?usp=sharing'
+            },
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp23/ui-integration-testing',
+                description: 'code written during lecture'
+            }
+        ],
+        readings: [
+            {
+                title: 'JSDOM',
+                link: 'https://github.com/jsdom/jsdom#readme'
+            },
+            {
+                title: 'DOM Manipulation',
+                link: 'https://jestjs.io/docs/tutorial-jquery',
+                description: 'Jest Docs'
+            },
+            {
+                title: 'DOM Testing Library Introduction',
+                link: 'https://testing-library.com/docs/dom-testing-library/intro',
+                description: 'Testing Library Docs'
+            },
+            {
+                title: 'User Event Library Introduction',
+                link: 'https://testing-library.com/docs/user-event/intro',
+                description: 'Testing Library Docs'
+            },
+            {
+                title: 'jest-dom',
+                link: 'https://github.com/testing-library/jest-dom#readme'
+            },
+            {
+                title: 'Snapshot Testing',
+                link: 'https://jestjs.io/docs/snapshot-testing',
+                description: 'Jest Docs'
             }
         ]
     }
