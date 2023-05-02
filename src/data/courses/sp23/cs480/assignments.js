@@ -13,17 +13,18 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash;Parsing and syntax-directed translation',
-    //   due: {
-    //     day: 'Monday, 5/9/2022',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 5/23/2022'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/pKYMXQjC',
+      title: 'Assignment 2 &ndash; Parsing and syntax-directed translation',
+      due: {
+        day: 'Monday, 5/15/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 5/29/2023',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Abstract syntax trees and simple code generation',
