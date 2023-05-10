@@ -174,8 +174,7 @@ const topics = [
 
     {
         title: 'UI-Based Integration Testing',
-        weeks: [ 5 ],
-        isCurrent: true,
+        weeks: [ 5, 6 ],
         resources: [
             {
                 title: 'Lecture notes',
@@ -215,6 +214,55 @@ const topics = [
                 title: 'Snapshot Testing',
                 link: 'https://jestjs.io/docs/snapshot-testing',
                 description: 'Jest Docs'
+            }
+        ]
+    },
+
+    {
+        title: 'Test Doubles',
+        weeks: [ 6, 7 ],
+        isCurrent: true,
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1NB775R2seFx5YmMeDeiCEnTCw3uGoEzDKGcHjkYAAvI/edit?usp=sharing'
+            },
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp23/test-doubles',
+                description: 'code written during lecture'
+            }
+        ],
+        readings: [
+            {
+                title: 'Test Doubles',
+                link: 'https://abseil.io/resources/swe-book/html/ch13.html',
+                description: 'Andrew Trenk and Dillon Bly (Chapter 13 of Software Engineering at Google)'
+            },
+            {
+                title: 'TestDouble',
+                link: 'https://martinfowler.com/bliki/TestDouble.html',
+                description: 'Martin Fowler'
+            },
+            {
+                title: 'Mocks Aren\'t Stubs',
+                link: 'https://martinfowler.com/articles/mocksArentStubs.html',
+                description: 'Martin Fowler'
+            },
+            {
+                title: 'Test Double',
+                link: 'http://xunitpatterns.com/Test%20Double.html',
+                description: 'xUnit Patterns'
+            },
+            {
+                title: 'Mock Functions',
+                link: 'https://jestjs.io/docs/mock-functions',
+                description: 'Jest Documentation'
+            },
+            {
+                title: 'Introduction to Mock Service Worker',
+                link: 'https://mswjs.io/docs/',
+                description: 'MSW Documentation'
             }
         ]
     }
