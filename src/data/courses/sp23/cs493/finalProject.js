@@ -16,7 +16,7 @@ const finalProject = {
     },
     {
       title: 'Deliverable #2: Code',
-      link: 'https://classroom.github.com/a/bfBqhMbH',
+      link: 'https://classroom.github.com/a/LEHQu3Rm',
       due: {
         time: 'at the time of your grading demo',
         day: 'during finals week'
