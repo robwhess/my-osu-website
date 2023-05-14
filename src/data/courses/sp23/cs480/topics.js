@@ -84,7 +84,6 @@ const topics = [
   {
     title: 'Parsing and Context-Free Grammars',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -106,8 +105,7 @@ const topics = [
 
   {
     title: 'The Bison Parser Generator',
-    weeks: [ 4, 5 ],
-    isCurrent: true,
+    weeks: [ 4, 5, 6 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -130,7 +128,8 @@ const topics = [
 
   {
     title: 'Bottom-Up Parsing and LR(1) Grammars',
-    weeks: [ 6, 7 ],
+    weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

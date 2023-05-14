@@ -343,49 +343,6 @@ const topics = [
   },
 
   {
-    title: 'API Rate Limiting and Redis',
-    weeks: [ 7 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp22/rate-limiting',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-    ],
-    readings: [
-      {
-        title: 'Scaling your API with rate limiters',
-        link: 'https://stripe.com/blog/rate-limiters',
-        description: 'Paul Tarjan (Stripe Engineering Blog)'
-      },
-      {
-        title: 'An alternative approach to rate limiting',
-        link: 'https://blog.figma.com/an-alternative-approach-to-rate-limiting-f8a06cf7c94c',
-        description: 'Nikrad Mahdi (Figma Design Blog)'
-      },
-      {
-        title: 'Token bucket',
-        link: 'https://en.wikipedia.org/wiki/Token_bucket',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'An introduction to Redis data types and abstractions',
-        link: 'https://redis.io/topics/data-types-intro',
-        description: 'Redis docs'
-      },
-      {
-        title: 'Redis commands',
-        link: 'https://redis.io/commands',
-        description: 'Redis docs'
-      }
-    ]
-  },
-
-  {
     title: 'Storing File Data',
     weeks: [ 8 ],
     resources: [
@@ -472,8 +429,51 @@ const topics = [
   },
 
   {
-    title: 'Setting up a GraphQL API with Apollo',
+    title: 'API Rate Limiting and Redis',
     weeks: [ 9, 10 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-sp22/rate-limiting',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+    ],
+    readings: [
+      {
+        title: 'Scaling your API with rate limiters',
+        link: 'https://stripe.com/blog/rate-limiters',
+        description: 'Paul Tarjan (Stripe Engineering Blog)'
+      },
+      {
+        title: 'An alternative approach to rate limiting',
+        link: 'https://blog.figma.com/an-alternative-approach-to-rate-limiting-f8a06cf7c94c',
+        description: 'Nikrad Mahdi (Figma Design Blog)'
+      },
+      {
+        title: 'Token bucket',
+        link: 'https://en.wikipedia.org/wiki/Token_bucket',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'An introduction to Redis data types and abstractions',
+        link: 'https://redis.io/topics/data-types-intro',
+        description: 'Redis docs'
+      },
+      {
+        title: 'Redis commands',
+        link: 'https://redis.io/commands',
+        description: 'Redis docs'
+      }
+    ]
+  },
+
+  {
+    title: 'Setting up a GraphQL API with Apollo',
+    weeks: [ 10 ],
     resources: [
       {
         title: 'Lecture notes',
@@ -519,48 +519,48 @@ const topics = [
     ]
   },
 
-  {
-    title: 'Data Replication',
-    weeks: [ 10 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp20/data-replication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'A Primer on Database Replication',
-        link: 'https://www.brianstorti.com/replication/',
-        description: 'Brian Storti'
-      },
-      {
-        title: 'MongoDB Replication',
-        link: 'https://docs.mongodb.com/manual/replication/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'Deploy New Replica Set With Keyfile Access Control',
-        link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'MySQL Replication',
-        link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html',
-        description: 'MySQL docs'
-      }
-    ]
-  }
+  // {
+  //   title: 'Data Replication',
+  //   weeks: [ 10 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1fIOAQ53Gs-TY27geuxQybI0mcw78ImGnPWxrP0u0YiU/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs493-sp20/data-replication',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // },
+  //     // {
+  //     //   title: 'Lecture doodles',
+  //     //   link: 'https://drive.google.com/file/d/1ICeN_4ltOx5Vm3abx7bJUxoBt9DLFM8K/view?usp=sharing',
+  //     //   description: 'drawings from lecture'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'A Primer on Database Replication',
+  //       link: 'https://www.brianstorti.com/replication/',
+  //       description: 'Brian Storti'
+  //     },
+  //     {
+  //       title: 'MongoDB Replication',
+  //       link: 'https://docs.mongodb.com/manual/replication/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'Deploy New Replica Set With Keyfile Access Control',
+  //       link: 'https://docs.mongodb.com/manual/tutorial/deploy-replica-set-with-keyfile-access-control/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'MySQL Replication',
+  //       link: 'https://dev.mysql.com/doc/refman/8.0/en/replication.html',
+  //       description: 'MySQL docs'
+  //     }
+  //   ]
+  // }
 ];
 
 export default topics;
