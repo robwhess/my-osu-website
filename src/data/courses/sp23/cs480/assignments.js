@@ -29,7 +29,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/l3W5x1O9',
       title: 'Assignment 3 &ndash; Abstract syntax trees and simple code generation',
       due: {
-        day: 'Monday, 5/29/2023',
+        day: 'Tuesday, 5/30/2023',
         time: '11:59pm'
       },
       notes: [
