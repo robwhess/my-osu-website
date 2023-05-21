@@ -221,7 +221,6 @@ const topics = [
     {
         title: 'Test Doubles',
         weeks: [ 6, 7 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -263,6 +262,60 @@ const topics = [
                 title: 'Introduction to Mock Service Worker',
                 link: 'https://mswjs.io/docs/',
                 description: 'MSW Documentation'
+            }
+        ]
+    },
+
+    {
+        title: 'End-to-End Testing with Cypress',
+        weeks: [ 8 ],
+        isCurrent: true,
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1YQK068Fpqllgw_6ZJ4sZvSlNS1b2QM3N8I_nQMpE_cg/edit?usp=sharing'
+            },
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp23/e2e-testing',
+                description: 'code written during lecture'
+            }
+        ],
+        readings: [
+            {
+                title: 'Larger Testing',
+                link: 'https://abseil.io/resources/swe-book/html/ch14.html',
+                description: 'Joseph Graves (Chapter 14 of Software Engineering at Google)'
+            },
+            {
+                title: 'Introduction to Cypress',
+                link: 'https://docs.cypress.io/guides/core-concepts/introduction-to-cypress',
+                description: 'Cypress Docs'
+            },
+            {
+                title: 'Writing and Organizing Tests',
+                link: 'https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests',
+                description: 'Cypress Docs'
+            },
+            {
+                title: 'Testing Your App',
+                link: 'https://docs.cypress.io/guides/end-to-end-testing/testing-your-app',
+                description: 'Cypress Docs'
+            },
+            {
+                title: 'Assertions',
+                link: 'https://docs.cypress.io/guides/references/assertions',
+                description: 'Cypress Docs'
+            },
+            {
+                title: 'Cypress Testing Library',
+                link: 'https://testing-library.com/docs/cypress-testing-library/intro',
+                description: 'Testing Library Docs'
+            },
+            {
+                title: 'Best Practices',
+                link: 'https://docs.cypress.io/guides/references/best-practices',
+                description: 'Cypress Docs'
             }
         ]
     }
