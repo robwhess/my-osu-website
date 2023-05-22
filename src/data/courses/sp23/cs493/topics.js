@@ -306,7 +306,6 @@ const topics = [
   {
     title: 'API Authentication and Authorization',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -345,16 +344,17 @@ const topics = [
   {
     title: 'Storing File Data',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1FD1RY28hHCzeIirL1r9eMtTqr-fa4biBG7e-tKXpub8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp22/file-storage',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp23/file-storage',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
