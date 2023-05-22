@@ -242,7 +242,6 @@ const topics = [
   {
     title: 'Using MongoDB to Store API Data',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
