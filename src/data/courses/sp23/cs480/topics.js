@@ -129,7 +129,6 @@ const topics = [
   {
     title: 'Bottom-Up Parsing and LR(1) Grammars',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -147,16 +146,12 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1lcRl0KIgMNy-vAByU3kCsNymwxgi1I59gMjhc8dTZ2A/edit?usp=sharing'
       },
-      // {
-      //   title: 'Quiz 3 lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1X4kJrHCziNpZGhHx1SFj8fKKdqs8B2jR/view?usp=sharing',
-      //   description: 'drawings from lecture'
-      // }
     ],
     readings: [
       {
