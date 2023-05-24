@@ -1,10 +1,10 @@
 const finalProject = {
   title: 'Final Project',
   assignments: [
-    // {
-    //   title: 'Final Project Details',
-    //   link: 'https://docs.google.com/document/d/1cmcTJ4fBWnoKa5973s1d56iomj6bqZ4fRKZ6rGQq4_o/edit?usp=sharing'
-    // },
+    {
+      title: 'Final Project Details',
+      link: 'https://docs.google.com/document/d/17odj2tAtlc3F2KHplsDiogQllaGWg0NuUcjlYxopiNM/edit?usp=sharing'
+    },
     {
       title: 'Deliverable #1: Final Project Team Formation',
       link: 'https://docs.google.com/document/d/1t0d4yACfivBUoCeBIn8yGVSSdTLP61tSn0mxy3lLloQ/edit?usp=sharing',
@@ -18,29 +18,29 @@ const finalProject = {
         'Submit [this form](https://forms.gle/7J6ocAkVkPVMh48T8) if you just want to be assigned to a random team.'
       ]
     },
-    // {
-    //   title: 'Deliverable #2: Code',
-    //   link: 'https://classroom.github.com/a/Ja0en2WF',
-    //   due: {
-    //     time: 'at the time of your grading demo',
-    //     day: 'during finals week'
-    //   },
-    //   notes: [
-    //     'Use the link above to create a repo on GitHub for your team to use for the final project.'
-    //   ]
-    // },
-    // {
-    //   title: 'Deliverable #3: Final Project Team Evaluation',
-    //   link: 'https://docs.google.com/document/d/137PndtRHx7RdVrNuj_9wePJcnx_i9p16s0VE2LkKhTU/edit?usp=sharing',
-    //   due: {
-    //     time: '5:00pm',
-    //     day: 'Friday, 3/24/2023',
-    //     location: 'on Canvas'
-    //   },
-    //   notes: [
-    //     'Note that this must be completed individually by every member of your team.'
-    //   ]
-    // },
+    {
+      title: 'Deliverable #2: Code',
+      link: 'https://classroom.github.com/a/dINa9FAJ',
+      due: {
+        time: 'at the time of your grading demo',
+        day: 'during finals week'
+      },
+      notes: [
+        'Use the link above to create a repo on GitHub for your team to use for the final project.'
+      ]
+    },
+    {
+      title: 'Deliverable #3: Final Project Team Evaluation',
+      link: 'https://docs.google.com/document/d/18hD4Q5gXaUNklYr0pMW8FBeGQgDT8yXZVL5iKIKfXFs/edit?usp=sharing',
+      due: {
+        time: '5:00pm',
+        day: 'Friday, 6/16/2023',
+        location: 'on Canvas'
+      },
+      notes: [
+        'Note that this must be completed individually by every member of your team.'
+      ]
+    },
     // {
     //   link : 'https://outlook.office365.com/owa/calendar/CS492FinalProjectDemos@OregonStateUniversity.onmicrosoft.com/bookings/s/qD4cHizkNkmuEh3Cf2cxKw2',
     //   title: 'Final Project Demo Signup',
