@@ -146,7 +146,6 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -162,24 +161,30 @@ const topics = [
   },
 
   {
-    title: 'LLVM: Code Generation and Optimization',
+    title: 'Using LLVM for Code Generation',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1H3IUpE1FPdtjN-eTrFR6Acl45GuL90szN7PXLpPMZM4/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1A9UcuLSK4pwkxU7U7R0luNagM9Jh607PsIMcHFv6OD4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp22/llvm',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp23/llvm',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
         title: 'Kaleidoscope: Implementing a Language with LLVM',
         link: 'https://llvm.org/docs/tutorial/index.html',
         description: 'LLVM Tutorial'
+      },
+      {
+        title: 'How to get started with the LLVM C API',
+        link: 'https://www.pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html',
+        description: 'Paul Smith'
       },
       {
         title: 'The Architecture of Open Source Applications: LLVM',
