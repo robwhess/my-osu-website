@@ -269,7 +269,6 @@ const topics = [
     {
         title: 'End-to-End Testing with Cypress',
         weeks: [ 8 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -316,6 +315,64 @@ const topics = [
                 title: 'Best Practices',
                 link: 'https://docs.cypress.io/guides/references/best-practices',
                 description: 'Cypress Docs'
+            }
+        ]
+    },
+
+    {
+        title: 'A Team-Based Workflow for using Git and GitHub',
+        weeks: [ 9 ],
+        isCurrent: true,
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1Uzencnr7c6dorZvG53g27G57B8lIowoctNTZosUsiuM/edit?usp=sharing'
+            },
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp23/github-flow',
+                description: 'code written during lecture'
+            }
+        ],
+        readings: [
+            {
+                title: 'Code Review',
+                link: 'https://abseil.io/resources/swe-book/html/ch09.html',
+                description: 'Tom Manshreck and Caitlin Sadowski (Chapter 9 of Software Engineering at Google)'
+            },
+            {
+                title: 'GitHub flow',
+                link: 'https://docs.github.com/en/get-started/quickstart/github-flow',
+                description: 'GitHub Docs'
+            },
+            {
+                title: 'GitHub Flow',
+                link: 'https://githubflow.github.io/'
+            },
+            {
+                title: 'Git Feature Branch Workflow',
+                link: 'https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow',
+                description: 'Atlassian'
+            },
+            {
+                title: 'Git Branches - Branching in a Nutshell',
+                link: 'https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell',
+                description: 'Pro Git'
+            },
+            {
+                title: 'Git Merge',
+                link: 'https://www.atlassian.com/git/tutorials/using-branches/git-merge',
+                description: 'Atlassian'
+            },
+            {
+                title: 'About pull requests',
+                link: 'https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests',
+                description: 'GitHub Docs'
+            },
+            {
+                title: 'About protected branches',
+                link: 'https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches',
+                description: 'GitHub Docs'
             }
         ]
     }
