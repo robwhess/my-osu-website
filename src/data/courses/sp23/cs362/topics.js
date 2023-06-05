@@ -322,7 +322,6 @@ const topics = [
     {
         title: 'A Team-Based Workflow for using Git and GitHub',
         weeks: [ 9 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -374,6 +373,75 @@ const topics = [
                 link: 'https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches',
                 description: 'GitHub Docs'
             }
+        ]
+    },
+
+    {
+        title: 'Continuous Integration and Continuous Delivery',
+        weeks: [ 10 ],
+        isCurrent: true,
+        resources: [
+            {
+                title: 'Lecture notes',
+                link: 'https://docs.google.com/document/d/1q64GcApt1mikM2FGEq_kgh_eFS5gXZBen8D0FFsGXk0/edit?usp=sharing'
+            },
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp23/ci-cd',
+                description: 'code written during lecture'
+            }
+        ],
+        readings: [
+            {
+                title: 'Continuous Integration',
+                link: 'https://abseil.io/resources/swe-book/html/ch23.html',
+                description: 'Rachel Tannenbaum (Chapter 23 of Software Engineering at Google)'
+            },
+            {
+                title: 'Continuous Integration',
+                link: 'https://www.martinfowler.com/articles/continuousIntegration.html',
+                description: 'Martin Fowler'
+            },
+            {
+                title: 'Continuous Delivery',
+                link: 'https://abseil.io/resources/swe-book/html/ch24.html',
+                description: 'Radha Narayan, Bobbi Jones, Sheri Shipe, and David Owens (Chapter 24 of Software Engineering at Google)'
+            },
+            {
+                title: 'Continuous Delivery',
+                link: 'https://martinfowler.com/bliki/ContinuousDelivery.html',
+                description: 'Martin Fowler'
+            },
+            {
+                title: 'Understanding GitHub Actions',
+                link: 'https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions',
+                description: 'GitHub Docs'
+            },
+            {
+                title: 'Storing workflow data as artifacts',
+                link: 'https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts',
+                description: 'GitHub Docs'
+            },
+            {
+                title: 'Reusing workflows',
+                link: 'https://docs.github.com/en/actions/using-workflows/reusing-workflows',
+                description: 'GitHub Docs'
+            },
+            // {
+            //     title: '',
+            //     link: '',
+            //     description: ''
+            // },
+            // {
+            //     title: '',
+            //     link: '',
+            //     description: ''
+            // },
+            // {
+            //     title: '',
+            //     link: '',
+            //     description: ''
+            // }
         ]
     }
 ]
