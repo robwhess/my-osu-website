@@ -391,7 +391,6 @@ const topics = [
   {
     title: 'Performing Offline Work with RabbitMQ',
     weeks: [ 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -430,16 +429,17 @@ const topics = [
   {
     title: 'API Rate Limiting and Redis',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp22/rate-limiting',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp23/rate-limiting',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
