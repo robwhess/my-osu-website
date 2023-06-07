@@ -377,7 +377,7 @@ const topics = [
     },
 
     {
-        title: 'Continuous Integration and Continuous Delivery',
+        title: 'Continuous Integration and Continuous Delivery with GitHub Actions',
         weeks: [ 10 ],
         isCurrent: true,
         resources: [
