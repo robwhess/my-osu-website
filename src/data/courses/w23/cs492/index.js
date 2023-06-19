@@ -2,7 +2,7 @@ import topics from './topics';
 import assignments from './assignments';
 import finalProject from './finalProject';
 import tas from './tas';
-// import hof from './hof';
+import hof from './hof';
 
 const courseDetails = {
   number: 'CS 492',
@@ -45,7 +45,7 @@ const courseDetails = {
     },
     {
       title: 'The CS 492 Hall of Fame',
-      link: '/teaching/hof/cs492',
+      link: '/teaching/hof/cs492#w23',
       description: 'this is a showcase of some of the very best final projects from past terms of CS 492'
     },
     {
@@ -59,7 +59,9 @@ const courseDetails = {
 
   assignmentGroups: [ assignments, finalProject ],
 
-  tas: tas
+  tas: tas,
+
+  hof: hof
 };
 
 export default courseDetails;
