@@ -44,14 +44,14 @@ function HoFPage () {
   const { courseNum } = useParams();
 
   const hofTabs = [];
-  let courseName;
-  let courseTitle;
+  let courseName = null;
+  let courseTitle = null;
   Object.keys(courseData).forEach(term => {
     Object.keys(courseData[term].courses).forEach(course => {
       const courseItem = courseData[term].courses[course];
       if (course === courseNum && courseItem.hof) {
-        courseName = courseItem.number;
-        courseTitle = courseItem.title;
+        courseName = courseName || courseItem.number;
+        courseTitle = courseTitle || courseItem.title;
         hofTabs.push({
           key: `${term}`,
           title: courseData[term].title,
