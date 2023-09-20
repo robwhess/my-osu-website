@@ -20,11 +20,14 @@ const ExternalLinkIcon = styled.span`
 `;
 
 const ActionItemLink = styled.a`
+  display: inline-block;
+  margin: 1px;
   padding: 2px 4px;
   border: 1px solid #d54f1e;
   border-radius: 3px;
   font-size: 16px;
   font-weight: 400;
+  text-indent: initial;
   &:hover {
     background-color: rgba(213, 79, 30, 0.2);
     text-decoration: none;
