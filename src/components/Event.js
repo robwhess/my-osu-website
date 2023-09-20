@@ -21,9 +21,13 @@ const ExternalLinkIcon = styled.span`
 
 const ActionItemLink = styled.a`
   padding: 2px 4px;
+  border: 1px solid #d54f1e;
+  border-radius: 3px;
   font-size: 16px;
+  font-weight: 400;
   &:hover {
     background-color: rgba(213, 79, 30, 0.2);
+    text-decoration: none;
   }
 `
 
@@ -88,7 +92,7 @@ function Event({ day, time, timeZone, location, link, details, videoConferenceLi
         title="Click to join the video conference for this event."
         target="_blank" rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faVideo} />
+        Join <FontAwesomeIcon icon={faVideo} />
       </ActionItemLink>
     )
   }
