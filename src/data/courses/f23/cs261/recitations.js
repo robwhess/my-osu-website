@@ -176,7 +176,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Jun Chen' ]
     },
     '022': {
       meeting: {
@@ -185,7 +185,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Imgyeong Lee' ]
     },
     '023': {
       meeting: {
@@ -194,7 +194,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Kevin Chang' ]
     },
     '024': {
       meeting: {
@@ -203,7 +203,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Mahmoud Fakhry' ]
     }
   },
 
