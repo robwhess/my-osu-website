@@ -308,43 +308,43 @@ const topics = [
     ]
   },
 
-  {
-    title: 'Encapsulation and Iterators',
-    weeks: [ 7 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1woJcoYQ5w879ySiilpmFHCpALo59RVznHQhmVT5LJGE/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs261-f19/list-iterator',
-      //   description: 'code written in lecture'
-      // },
-      // {
-      //   title: 'Lecture doodles',
-      //   link: 'https://drive.google.com/file/d/1gTFmJz4bvE32KVN2WiZByHFMJdXerQbN/view?usp=sharing',
-      //   description: 'from section 001'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Chapter 8 (pp. 4-5, "Introduction to the Iterator")',
-        link: `${CS261CourseNotes}#page=90`,
-        description: 'Budd\'s Course Notes'
-      },
-      {
-        title: 'Encapsulation (computer programming)',
-        link: 'https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'Iterator',
-        link: 'https://en.wikipedia.org/wiki/Iterator',
-        description: 'Wikipedia'
-      }
-    ]
-  },
+  // {
+  //   title: 'Encapsulation and Iterators',
+  //   weeks: [ 7 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1woJcoYQ5w879ySiilpmFHCpALo59RVznHQhmVT5LJGE/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs261-f19/list-iterator',
+  //     //   description: 'code written in lecture'
+  //     // },
+  //     // {
+  //     //   title: 'Lecture doodles',
+  //     //   link: 'https://drive.google.com/file/d/1gTFmJz4bvE32KVN2WiZByHFMJdXerQbN/view?usp=sharing',
+  //     //   description: 'from section 001'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Chapter 8 (pp. 4-5, "Introduction to the Iterator")',
+  //       link: `${CS261CourseNotes}#page=90`,
+  //       description: 'Budd\'s Course Notes'
+  //     },
+  //     {
+  //       title: 'Encapsulation (computer programming)',
+  //       link: 'https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)',
+  //       description: 'Wikipedia'
+  //     },
+  //     {
+  //       title: 'Iterator',
+  //       link: 'https://en.wikipedia.org/wiki/Iterator',
+  //       description: 'Wikipedia'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'AVL Trees',
