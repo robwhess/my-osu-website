@@ -1,17 +1,17 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
-    //   due: {
-    //     day: 'Monday, 10/17/2022',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 10/31/2022'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/HhGtXyLp',
+      title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
+      due: {
+        day: 'Monday, 10/23/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 11/6/2023'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Stacks and queues',
