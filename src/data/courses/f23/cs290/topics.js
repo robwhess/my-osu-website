@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 0 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -14,27 +13,38 @@ const topics = [
   {
     title: 'Git and GitHub',
     weeks: [ 0, 1 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1JBVKJO5EiASXyF2p4gj7xfDGRGgeIdpWoIj1ds28TRQ/edit?usp=sharing'
-      }
+        link: 'https://docs.google.com/document/d/1HSD5Sy8Q4SAZ-gL1GvptUmj_zWda1m-bkzQ_PDRnic4/edit?usp=sharing'
+      },
     ],
     readings: [
       {
-        title: 'Git Handbook',
-        link: 'https://guides.github.com/introduction/git-handbook/',
-        description: 'a simple introduction to Git from GitHub Guides'
+        title: 'Getting Started [with Git]',
+        link: 'https://git-scm.com/book/en/v2/',
+        description: 'Chapter 1 of Pro Git by Scott Chacon and Ben Straub'
+      },
+      {
+          title: 'Git Basics',
+          link: 'https://git-scm.com/book/en/v2/',
+          description: 'Chapter 2 of Pro Git by Scott Chacon and Ben Straub'
+      },
+      {
+          title: 'Git cheat sheet',
+          link: 'https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet',
+          description: 'Atlassian'
+      },
+      {
+          title: 'Git cheat sheet',
+          link: 'https://training.github.com/',
+          description: 'GitHub'
       },
       {
         title: 'Git-it',
         link: 'https://github.com/jlord/git-it-electron#git-it-desktop-app',
         description: 'a desktop app that teaches you how to use Git and GitHub'
-      },
-      {
-        title: 'Pro Git (Chapters 1 and 2)',
-        link: 'https://git-scm.com/book/en/v2',
-        description: 'a more in-depth exploration of how to use Git'
       }
     ]
   },
