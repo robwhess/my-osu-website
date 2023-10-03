@@ -9,7 +9,7 @@ const officeHours = [
       },
       {
         day: 'Thurs.',
-        time: '2:00&ndash;3:30am',
+        time: '2:00&ndash;3:30pm',
         location: 'KEC 1109',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09'
       }
