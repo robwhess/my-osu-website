@@ -46,18 +46,44 @@ const taInfo = [
     email: 'kshaph@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Fri.',
-      //   time: '11:00am &ndash; 2:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Mon.',
+        time: '9:00 &ndash; 11:30am',
+        location: 'Valley Library - 5th floor study rooms',
+        details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
+      },
+      {
+        day: 'Tues.',
+        time: '9:00 &ndash; 11:30am',
+        location: 'Valley Library - 5th floor study rooms',
+        details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
+      },
+      {
+        day: 'Wed.',
+        time: '9:00 &ndash; 11:30am',
+        location: 'Valley Library - 5th floor study rooms',
+        details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '4:00 &ndash; 6:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Mon.',
+        time: '6:30 &ndash; 8:00pm',
+        location: 'Valley Library - 5th floor study rooms',
+        details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
+      },
+      {
+        day: 'Mon.',
+        time: '6:30 &ndash; 8:00pm',
+        location: 'Valley Library - 5th floor study rooms',
+        details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
+      },
+      {
+        day: 'Thurs.',
+        time: '9:00 &ndash; 11:30am',
+        location: 'Valley Library - 5th floor study rooms',
+        details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
+      }
     ]
   },
   {

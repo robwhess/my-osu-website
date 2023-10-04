@@ -76,7 +76,7 @@ function Event({ day, time, timeZone, location, link, details, videoConferenceLi
           setDetailsModalVisible(true);
         }}
       >
-        <FontAwesomeIcon icon={faInfoCircle} />
+        Details <FontAwesomeIcon icon={faInfoCircle} />
       </ActionItemLink>
 
     );
