@@ -23,18 +23,23 @@ const taInfo = [
     email: 'changk2@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 5:00pm',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Mon.',
+        time: '11:30am &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '11:30am &ndash; 1:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '3:00 &ndash; 5:00',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Fri.',
+        time: '3:00 &ndash; 6:00',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
@@ -61,37 +66,72 @@ const taInfo = [
     email: 'leeim@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 5:00pm',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Mon.',
+        time: '3:30 &ndash; 5:00pm',
+        location: 'Valley Library - 1st floor study rooms',
+        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+      },
+      {
+        day: 'Tues.',
+        time: '3:00 &ndash; 4:30pm',
+        location: 'Valley Library - 1st floor study rooms',
+        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '3:00 &ndash; 5:00',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Wed.',
+        time: '3:30 &ndash; 5:00pm',
+        location: 'Valley Library - 1st floor study rooms',
+        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+      },
+      {
+        day: 'Fri.',
+        time: '12:30 &ndash; 2:00pm',
+        location: 'Valley Library - 1st floor study rooms',
+        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+      }
     ]
   },
   {
     name: 'Kantaro Nakanishi',
     email: 'nakanika@oregonstate.edu',
     // appointmentsLink: '',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/2551586932?pwd=YUNRRVBRT1c3WGJPQWVja2dEOXoyQT09',
     officeHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 5:00pm',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Wed.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2551586932?pwd=YUNRRVBRT1c3WGJPQWVja2dEOXoyQT09'
+      },
+      {
+        day: 'Fri.',
+        time: '11:00am &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2551586932?pwd=YUNRRVBRT1c3WGJPQWVja2dEOXoyQT09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '3:00 &ndash; 5:00',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Mon.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2551586932?pwd=YUNRRVBRT1c3WGJPQWVja2dEOXoyQT09'
+      },
+      {
+        day: 'Tues.',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2551586932?pwd=YUNRRVBRT1c3WGJPQWVja2dEOXoyQT09'
+      },
+      {
+        day: 'Wed.',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/2551586932?pwd=YUNRRVBRT1c3WGJPQWVja2dEOXoyQT09'
+      }
     ]
   }
 ];
