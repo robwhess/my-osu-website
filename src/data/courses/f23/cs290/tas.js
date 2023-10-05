@@ -25,7 +25,7 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Tues.',
-        time: '10:30 &ndash; 11:30pm',
+        time: '10:30 &ndash; 11:30am',
         location: 'KEC Atrium'
       },
       {
@@ -89,7 +89,7 @@ const taInfo = [
         details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
       },
       {
-        day: 'Mon.',
+        day: 'Wed.',
         time: '6:30 &ndash; 8:00pm',
         location: 'Valley Library - 5th floor study rooms',
         details: 'Look for the "CS 290" sign.  Here\'s a map of the 5th floor study rooms: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
