@@ -6,7 +6,7 @@ const taInfo = [
     officeHours: [
       {
         day: 'Tues.',
-        time: '10:00 &ndash; 11:30pm',
+        time: '10:00 &ndash; 11:30am',
         location: 'KEC Atrium'
       },
       {
@@ -30,7 +30,7 @@ const taInfo = [
       },
       {
         day: 'Fri.',
-        time: '3:30 &ndash; 4:30pm',
+        time: '3:30 &ndash; 5:30pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
       }
