@@ -2,22 +2,38 @@ const taInfo = [
   {
     name: 'Disha Kanavikar',
     email: 'kanavikd@oregonstate.edu',
-    // videoConferenceLink: '',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '12:00 &ndash; 4:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Tues.',
+        time: '10:00 &ndash; 11:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
+      },
+      {
+        day: 'Fri.',
+        time: '2:00 &ndash; 3:30pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs.',
-      //   time: '12:00 &ndash; 4:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Tues.',
+        time: '10:30 &ndash; 11:30pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '3:30 &ndash; 4:30pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
+      }
     ]
   },
   {
@@ -120,18 +136,28 @@ const taInfo = [
     email: 'sinhaam@oregonstate.edu',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Fri.',
-      //   time: '11:00am &ndash; 2:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Tues.',
+        time: '9:00 &ndash; 11:00am',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '4:00 &ndash; 5:00pm',
+        location: 'KEC Atrium',
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '4:00 &ndash; 6:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'KEC Atrium',
+      }
     ]
   }
 ];

@@ -39,16 +39,16 @@ function Event({ day, time, timeZone, location, link, details, videoConferenceLi
 
   let eventString = '';
   if (day && time) {
-    eventString = `${day}, *${time}*`;
+    eventString = `**${day}, ${time}**`;
   } else if (day) {
-    eventString = day;
+    eventString = `**${day}**`;
   }
 
   if (timeZone) {
     eventString += ` (${timeZone})`;
   }
   if (location) {
-    eventString += ` &mdash; ${location}`;
+    eventString += ` &mdash; *${location}*`;
   }
 
   const eventStringSpan = <span dangerouslySetInnerHTML={{ __html: md.renderInline(eventString) }} />;
