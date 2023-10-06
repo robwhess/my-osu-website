@@ -103,6 +103,35 @@ const taInfo = [
     ]
   },
   {
+    name: 'Anh Nguyen',
+    email: 'nguyanh2@oregonstate.edu',
+    // appointmentsLink: '',
+    officeHours: [
+      {
+        day: 'Tues.',
+        time: '6:00 &ndash; 8:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '7:00 &ndash; 8:00pm',
+        location: 'KEC Atrium'
+      }
+    ],
+    gradingHours: [
+      {
+        day: 'Tues.',
+        time: '5:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '5:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      }
+    ]
+  },
+  {
     name: 'Michelle Nguyen',
     email: 'nguyemi4@oregonstate.edu',
     // appointmentsLink: '',
@@ -124,11 +153,16 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '4:00 &ndash; 6:00pm',
-      //   location: 'KEC Atrium',
-      // }
+      {
+        day: 'Wed.',
+        time: '4:00 &ndash; 7:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Fri.',
+        time: '5:00 &ndash; 8:00pm',
+        location: 'KEC Atrium',
+      }
     ]
   },
   {
