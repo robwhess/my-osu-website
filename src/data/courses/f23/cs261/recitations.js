@@ -9,7 +9,6 @@ const recitations = {
 
     {
       title: 'Week 1: CS 261 IT',
-      isCurrent: true,
       resources: [
         {
           title: 'CS 261 IT Basics',
@@ -40,33 +39,34 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 2: Debugging with GDB and Valgrind',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1WtKcGEB-lbbnr7dyzG_dR5ftD2RXOoS3ztcT4DkJP_4/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'Recitation exercise code',
-    //       link: 'https://github.com/osu-cs261-f22/recitation-2',
-    //       description: 'This GitHub repo contains the buggy code you\'ll work with for this week\'s recitation exercise.'
-    //     },
-    //     {
-    //       title: 'GDB/Valgrind Tutorial Video #1',
-    //       link: 'https://media.oregonstate.edu/media/t/1_2s6m3klv',
-    //       description: 'A short tutorial video on some basics of GDB/Valgrind'
-    //     },
-    //     {
-    //       title: 'GDB/Valgrind Tutorial Video #2',
-    //       link: 'https://media.oregonstate.edu/media/t/1_k1xlf75p',
-    //       description: 'Another short tutorial video on how to use GDB/Valgrind'
-    //     }
-    //   ],
-    //   notes: [
-    //     'There won\'t be a quiz in recitation this week, only an exercise.'
-    //   ]
-    // },
+    {
+      title: 'Week 2: Debugging with GDB and Valgrind',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1WtKcGEB-lbbnr7dyzG_dR5ftD2RXOoS3ztcT4DkJP_4/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f23/recitation-2/',
+          description: 'This GitHub repo contains the buggy code you\'ll work with for this week\'s recitation exercise.'
+        },
+        {
+          title: 'GDB/Valgrind Tutorial Video #1',
+          link: 'https://media.oregonstate.edu/media/t/1_2s6m3klv',
+          description: 'A short tutorial video on some basics of GDB/Valgrind'
+        },
+        {
+          title: 'GDB/Valgrind Tutorial Video #2',
+          link: 'https://media.oregonstate.edu/media/t/1_k1xlf75p',
+          description: 'Another short tutorial video on how to use GDB/Valgrind'
+        }
+      ],
+      notes: [
+        'There won\'t be a quiz in recitation this week, only an exercise.'
+      ]
+    },
 
     // {
     //   title: 'Week 3: C Pointers and Memory Allocation',
