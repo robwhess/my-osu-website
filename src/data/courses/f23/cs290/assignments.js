@@ -10,7 +10,8 @@ const assignments = {
       },
       notes: [
         'Code Blog link due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 10/30/2023'
+        'Demo due by 11:59pm on Monday, 10/30/2023',
+        'Fill out [this form](https://forms.gle/TR5wyJgBxxTAWvt8A) if you want your assignment repo published to GitHub Pages'
       ]
     },
     // {
