@@ -72,6 +72,11 @@ const topics = [
         link: 'https://github.com/osu-cs261-f23/c-basics',
         description: 'code written in lecture'
       },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1kovqVjYzi7Xd4mmtUDXhanuvx-5T1SB2/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
