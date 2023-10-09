@@ -2,20 +2,57 @@ const taInfo = [
   {
     name: 'Jun Chen',
     email: 'chenju3@oregonstate.edu',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 5:00pm',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Mon.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
+      },
+      {
+        day: 'Wed.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
+      },
+      {
+        day: 'Fri.',
+        time: '12:00 &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '3:00 &ndash; 5:00',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Mon.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
+      },
+      {
+        day: 'Wed.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'KEC Atrium',
+      },
+      {
+        day: 'Thurs.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
+      },
+      {
+        day: 'Fri.',
+        time: '1:00 &ndash; 2:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
+      }
     ]
   },
   {
