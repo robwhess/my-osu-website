@@ -69,28 +69,28 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '3:30 &ndash; 5:00pm',
-        location: 'Valley Library - 1st floor study rooms',
-        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+        location: 'Valley Library Room 1165',
+        details: 'Here\'s a map of the 1st floor study rooms, including room 1165: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
       },
       {
         day: 'Tues.',
         time: '3:00 &ndash; 4:30pm',
-        location: 'Valley Library - 1st floor study rooms',
-        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+        location: 'Valley Library Room 1165',
+        details: 'Here\'s a map of the 1st floor study rooms, including room 1165: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
       }
     ],
     gradingHours: [
       {
         day: 'Wed.',
         time: '3:30 &ndash; 5:00pm',
-        location: 'Valley Library - 1st floor study rooms',
-        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+        location: 'Valley Library Room 1165',
+        details: 'Here\'s a map of the 1st floor study rooms, including room 1165: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
       },
       {
         day: 'Fri.',
         time: '12:30 &ndash; 2:00pm',
-        location: 'Valley Library - 1st floor study rooms',
-        details: 'Look for the "CS 261" sign.  Here\'s a map of the 1st floor study rooms: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+        location: 'Valley Library Room 1165',
+        details: 'Here\'s a map of the 1st floor study rooms, including room 1165: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
       }
     ]
   },
