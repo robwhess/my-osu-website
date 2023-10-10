@@ -82,20 +82,22 @@ const taInfo = [
   {
     name: 'Mahmoud Fakhry',
     email: 'fakhryk@oregonstate.edu',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/94167515520?pwd=ZC9mM3pXVnJBRHUrdmJpUmY5VUVMUT09',
     // appointmentsLink: '',
     officeHours: [
-      // {
-      //   day: 'Wed.',
-      //   time: '3:00 &ndash; 5:00pm',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Tues.',
+        time: '5:00 &ndash; 8:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/94167515520?pwd=ZC9mM3pXVnJBRHUrdmJpUmY5VUVMUT09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '3:00 &ndash; 5:00',
-      //   location: 'Valley Library Study Room 1842'
-      // }
+      {
+        day: 'Fri.',
+        time: '5:00 &ndash; 8:00',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
