@@ -32,9 +32,9 @@ function CoursePage() {
      * If there is a calendar for the course, add navbar info for the
      * calendar page.
      */
-    if (course.calendarUrl) {
-      navLinks.push({ title: 'Calendar', url: 'calendar' });
-    }
+    // if (course.calendarUrl) {
+    //   navLinks.push({ title: 'Calendar', url: 'calendar' });
+    // }
 
     /*
      * If there is TA info for the course, add navbar info for the TA page.
