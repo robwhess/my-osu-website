@@ -41,7 +41,6 @@ const recitations = {
 
     {
       title: 'Week 2: Debugging with GDB and Valgrind',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -68,21 +67,22 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 3: C Pointers and Memory Allocation',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/14iKjOR6u8xYm1IUbvUSs538WrTD8nCXsVeZt24vE_bk/edit?usp=sharing',
-    //       description: 'Submit on Canvas at the end of recitation'
-    //     },
-    //     {
-    //       title: 'prog1.c and prog2.c',
-    //       link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
-    //       description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 3: C Pointers and Memory Allocation',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/14iKjOR6u8xYm1IUbvUSs538WrTD8nCXsVeZt24vE_bk/edit?usp=sharing',
+          description: 'Submit on Canvas at the end of recitation'
+        },
+        {
+          title: 'prog1.c and prog2.c',
+          link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
+          description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
+        }
+      ]
+    },
 
     // {
     //   title: 'Week 4: Iteration and Data Hiding',
