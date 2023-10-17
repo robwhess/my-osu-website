@@ -11,21 +11,23 @@ const assignments = {
       notes: [
         'Code Blog link due **ON CANVAS** by assignment due date',
         'Demo due by 11:59pm on Monday, 10/30/2023',
-        'Fill out [this form](https://forms.gle/TR5wyJgBxxTAWvt8A) if you want your assignment repo published to GitHub Pages'
+        'Fill out [this form](https://forms.gle/TR5wyJgBxxTAWvt8A) if you want your assignment repo published to GitHub Pages',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; Styling a page with CSS',
-    //   due: {
-    //     day: 'Monday, 10/24/2022',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog link due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Monday, 11/7/2022'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/ZPvSLVgd',
+      title: 'Assignment 2 &ndash; Styling a page with CSS',
+      due: {
+        day: 'Monday, 10/30/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog link due **ON CANVAS** by assignment due date',
+        'Demo due by 11:59pm on Monday, 11/13/2023',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Client-side JS',
