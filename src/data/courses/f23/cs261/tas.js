@@ -61,12 +61,12 @@ const taInfo = [
     appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
-        day: 'Mon.',
+        day: 'Wed.',
         time: '11:30am &ndash; 1:00pm',
         location: 'KEC Atrium'
       },
       {
-        day: 'Wed.',
+        day: 'Mon.',
         time: '11:30am &ndash; 1:00pm',
         location: 'KEC Atrium'
       }
@@ -108,14 +108,14 @@ const taInfo = [
       {
         day: 'Mon.',
         time: '3:30 &ndash; 5:00pm',
-        location: 'Valley Library Room 1165',
-        details: 'Here\'s a map of the 1st floor study rooms, including room 1165: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+        location: 'Valley Library Room 5564',
+        details: 'Here\'s a map of the 1st floor study rooms, including room 5564: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
       },
       {
         day: 'Tues.',
-        time: '3:00 &ndash; 4:30pm',
-        location: 'Valley Library Room 1165',
-        details: 'Here\'s a map of the 1st floor study rooms, including room 1165: [https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/first-floor-group-study-rooms)'
+        time: '2:00 &ndash; 3:30pm',
+        location: 'Valley Library Room 5564',
+        details: 'Here\'s a map of the 1st floor study rooms, including room 5564: [https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms](https://library.oregonstate.edu/floormaps/fifth-floor-group-study-rooms)'
       }
     ],
     gradingHours: [
