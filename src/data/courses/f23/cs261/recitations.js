@@ -69,7 +69,6 @@ const recitations = {
 
     {
       title: 'Week 3: C Pointers and Memory Allocation',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -84,21 +83,22 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 4: Iteration and Data Hiding',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1fHzdtB9q3jXAFBz6GtE9GkZjzDxJaWgJeyXCmhZV4tA/edit?usp=sharing',
-    //       description: 'Submit on Canvas at the end of recitation'
-    //     },
-    //     {
-    //       title: 'Recitation exercise code',
-    //       link: 'https://github.com/osu-cs261-f22/recitation-4',
-    //       description: 'This GitHub repo contains the linked list code you\'ll have to analyze and fix for this week\'s recitation exercise.'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 4: Iteration and Data Hiding',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1fHzdtB9q3jXAFBz6GtE9GkZjzDxJaWgJeyXCmhZV4tA/edit?usp=sharing',
+          description: 'Submit on Canvas at the end of recitation'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f23/recitation-4',
+          description: 'This GitHub repo contains the linked list code you\'ll have to analyze and fix for this week\'s recitation exercise.'
+        }
+      ]
+    },
 
     // {
     //   title: 'Week 5: Runtime Effects of Dynamic Array Resizing Strategies',
