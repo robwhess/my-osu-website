@@ -61,7 +61,6 @@ const topics = [
   {
     title: 'C Basics',
     weeks: [ 1, 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -162,6 +161,7 @@ const topics = [
   {
     title: 'Complexity Analysis (Big O)',
     weeks: [ 3, 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
