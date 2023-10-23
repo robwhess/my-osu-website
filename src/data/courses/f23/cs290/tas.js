@@ -45,7 +45,7 @@ const taInfo = [
     officeHours: [
       {
         day: 'Tues.',
-        time: '12:00 &ndash; 4:00pm',
+        time: '12;30 &ndash; 4:30pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09'
       }
@@ -53,7 +53,7 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Thurs.',
-        time: '12:00 &ndash; 4:00pm',
+        time: '12;30 &ndash; 4:30pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/3974128885?pwd=OXh3cGZXRFIrRzc0SmVrVVJZRzhaZz09'
       }
