@@ -86,8 +86,8 @@ const taInfo = [
     appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
-        day: 'Tues.',
-        time: '5:00 &ndash; 8:00pm',
+        day: 'Thurs.',
+        time: '8:00 &ndash; 11:00am',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/94167515520?pwd=ZC9mM3pXVnJBRHUrdmJpUmY5VUVMUT09'
       }
