@@ -139,7 +139,7 @@ const taInfo = [
     appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
-        day: 'Tues.',
+        day: 'Mon.',
         time: '4:00 &ndash; 6:00pm',
         location: 'KEC Atrium',
       },
