@@ -28,18 +28,19 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Client-side JS',
-    //   due: {
-    //     day: 'Monday, 11/7/2022',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog link due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Monday, 11/21/2022'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/KDf8Whtl',
+      title: 'Assignment 3 &ndash; Client-side JS',
+      due: {
+        day: 'Monday, 11/13/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog link due **ON CANVAS** by assignment due date',
+        'Demo due by 11:59pm on Monday, 12/4/2023',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Native Node.js file serving',
