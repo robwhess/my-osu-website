@@ -1,6 +1,6 @@
 import topics from './topics';
 import assignments from './assignments';
-// import finalProject from './finalProject';
+import finalProject from './finalProject';
 import tas from './tas';
 // import hof from './hof';
 
@@ -59,7 +59,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments ],
+  assignmentGroups: [ assignments, finalProject ],
 
   tas: tas
 };

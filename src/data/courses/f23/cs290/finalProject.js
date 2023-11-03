@@ -3,20 +3,24 @@ const finalProject = {
   assignments: [
     {
       title: 'Final Project Details',
-      link: 'https://docs.google.com/document/d/1-_ycBDsjGqGZrQKQZN0Mcg_eJyLse5eMHFkATpciF84/edit?usp=sharing',
+      link: 'https://docs.google.com/document/d/1n_Emy40KNpSWkplRqWsLWnkoBrG5WHCax4yl1kr01Yo/edit?usp=sharing',
     },
     {
       title: 'Deliverable #1: Final Project Team Formation and Project Ideas',
-      link: 'https://docs.google.com/document/d/1v5dZXhO7hCwKa6bYg4vS1lkO37faQuNznC1LXU9qkpY/edit?usp=sharing',
+      link: 'https://docs.google.com/document/d/19mbHKAFUKLNFDyK5F_jZaZjZCZq4kmJJAIB4PyQv_ak/edit?usp=sharing',
       due: {
         time: '11:59pm',
-        day: 'Wednesday, 11/16/2022',
+        day: 'Friday, 11/17/2023',
         location: 'on Canvas'
-      }
+      },
+      notes: [
+        'Use [this Ed thread](https://edstem.org/us/courses/47913/discussion/3790885) to help connect with potential teammates.',
+        'Submit [this form](https://forms.gle/sSWs4VsCZH1EbyEE7) if you just want to be assigned to a random team.'
+      ]
     },
     {
       title: 'Deliverable #2: Code',
-      link: 'https://classroom.github.com/a/boBEqlYM',
+      link: 'https://classroom.github.com/a/Is1VF4_N',
       due: {
         time: 'at the time of your grading demo',
         day: 'during finals week'
@@ -27,26 +31,29 @@ const finalProject = {
     },
     {
       title: 'Deliverable #3: Final Project Team Evaluation',
-      link: 'https://docs.google.com/document/d/1XfLl9RHp_ApwCoDFCqdeTI9OaExpq9flfmxc6DEwAYE/edit?usp=sharing',
+      link: 'https://docs.google.com/document/d/13WE4iOBHii3keSQR1U5C_WlrqSYmKhz0U1EVgbjXTDI/edit?usp=sharing',
       due: {
         time: '5:00pm',
-        day: 'Friday, 12/9/2022',
+        day: 'Friday, 12/15/2023',
         location: 'on Canvas'
-      }
-    },
-    {
-      link : 'https://calendar.app.google/g995f7RLpf7KmhH27',
-      title: 'Final Project Demo Signup',
+      },
       notes: [
-        'Sign up for a final project demo appointment using the link above.',
-        'Sign up for one demo appointment per team.',
-        'All team members must attend your demo.',
-        'Code is due on GitHub at the time of your demo.',
-        'Come to the demo prepared to run your project from one of your team\'s computers.',
-        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.',
+        'Note that this must be completed individually by every member of your team.'
       ]
-    }
+    },
+    // {
+    //   link : 'https://calendar.app.google/g995f7RLpf7KmhH27',
+    //   title: 'Final Project Demo Signup',
+    //   notes: [
+    //     'Sign up for a final project demo appointment using the link above.',
+    //     'Sign up for one demo appointment per team.',
+    //     'All team members must attend your demo.',
+    //     'Code is due on GitHub at the time of your demo.',
+    //     'Come to the demo prepared to run your project from one of your team\'s computers.',
+    //     'Final project demos will be held in person in Hess\'s office (KEC 1109).',
+    //     'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.',
+    //   ]
+    // }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.'
