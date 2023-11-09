@@ -63,19 +63,19 @@ const taInfo = [
       {
         day: 'Wed.',
         time: '11:30am &ndash; 1:00pm',
-        location: 'KEC Atrium'
+        location: 'Johnson Hall Lobby'
       },
       {
         day: 'Fri.',
         time: '11:30am &ndash; 1:00pm',
-        location: 'KEC Atrium'
+        location: 'Johnson Hall Lobby'
       }
     ],
     gradingHours: [
       {
         day: 'Fri.',
         time: '3:00 &ndash; 6:00',
-        location: 'KEC Atrium'
+        location: 'Johnson Hall Lobby'
       }
     ]
   },
