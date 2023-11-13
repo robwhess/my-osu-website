@@ -41,18 +41,18 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Native Node.js file serving',
-    //   due: {
-    //     day: 'Monday, 11/14/2022',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog link due **ON CANVAS** by assignment due date',
-    //     '**This assignment will not be demoed.  It will be graded offline.**'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/PYO9veNN',
+      title: 'Assignment 4 &ndash; Simple Node.js-based server',
+      due: {
+        day: 'Monday, 11/20/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Code Blog link due **ON CANVAS** by assignment due date',
+        '**This assignment will not be demoed.  It will be graded offline.**'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
