@@ -116,7 +116,6 @@ const recitations = {
 
     {
       title: 'Week 6: Stack and Queue Job Interview Questions',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -125,20 +124,21 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 7: Recursion',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1TT1AYFuvWOCFZ73EEY7lvpbZKOp2bxnoSHoHWj3d6Ho/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'Recitation exercise code',
-    //       link: 'https://github.com/osu-cs261-f22/recitation-7',
-    //       description: 'This GitHub repo contains the starter code you\'ll work with for this week\'s recitation exercise.'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Week 7: Recursion',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1TT1AYFuvWOCFZ73EEY7lvpbZKOp2bxnoSHoHWj3d6Ho/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f23/recitation-7',
+          description: 'This GitHub repo contains the starter code you\'ll work with for this week\'s recitation exercise.'
+        }
+      ]
+    },
 
     // {
     //   title: 'Week 8: BST and AVL Tree Comparison',
