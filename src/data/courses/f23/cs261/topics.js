@@ -307,7 +307,6 @@ const topics = [
   {
     title: 'Binary Tree Traversals',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -364,6 +363,7 @@ const topics = [
   {
     title: 'AVL Trees',
     weeks: [ 7, 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
