@@ -215,7 +215,6 @@ const topics = [
   {
     title: 'Node.js Basics',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -253,7 +252,6 @@ const topics = [
   {
     title: 'Packages and npm',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -325,17 +323,18 @@ const topics = [
 
   {
     title: 'Dynamically Rendering Content with Handlebars',
-    weeks: [ 8, 9 ],
+    weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f22/handlebars-templating',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f23/handlebars-templating',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
