@@ -163,6 +163,10 @@ const recitations = {
         {
           title: 'Recitation exercise worksheet',
           link: 'https://docs.google.com/document/d/1FxLjyup7WhY-5w31HoKvLP5Pzpi167u1jZKQIU5w2L4/edit?usp=sharing'
+        },
+        {
+          title: 'OSU Student Learning Experience Survey (SLE)',
+          link: 'https://beav.es/Student-Learning-Survey'
         }
       ]
     }
