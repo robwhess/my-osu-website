@@ -41,19 +41,19 @@ const finalProject = {
         'Note that this must be completed individually by every member of your team.'
       ]
     },
-    // {
-    //   link : 'https://calendar.app.google/g995f7RLpf7KmhH27',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo.',
-    //     'Code is due on GitHub at the time of your demo.',
-    //     'Come to the demo prepared to run your project from one of your team\'s computers.',
-    //     'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-    //     'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.',
-    //   ]
-    // }
+    {
+      link : 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/s/nbUAk1bWB0iTS5zaAVCMtg2',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo unless prior arrangements have been made with Hess.',
+        'Code is due on GitHub at the time of your demo.',
+        'Come to the demo prepared to run your project from one of your team\'s computers.',
+        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
+        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please *email* at least 24 hours in advance.  **Do not rely only on requesting a remote demo when you sign up through Microsoft Bookings!**  These requests are buried and I never notice them.  Please email instead.'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.'
