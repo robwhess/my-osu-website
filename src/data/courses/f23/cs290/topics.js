@@ -376,7 +376,6 @@ const topics = [
   {
     title: 'Asynchronous Client-Server Communication',
     weeks: [ 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
