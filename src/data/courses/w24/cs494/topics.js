@@ -36,11 +36,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14rZmZWMDETj1EIu1Oj4BZAwJhtg3grTZCXwLmDfze8k/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/jsx-and-components',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/jsx-and-components',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -59,11 +59,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1gxjgBCFZfB2cERMZEizn2_Bp8ySonFbwH_fc2id6h78/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/components-to-apps',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/components-to-apps',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
       // {
       //   title: 'Synchronized Temperature Conversion code',
       //   link: 'https://codepen.io/robwhess/pen/ExaeaLw',
@@ -105,11 +105,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UBr0sukXuRUs2xb8bx4DUwMg5E6nqAK5_1q3JqBjX3M/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/react-hooks',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/react-hooks',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -143,11 +143,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1s0zG2b0wa5fGZrf2Dg9mimGW-Tdm_gtXXPfvDqE2wV8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/using-react-router',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/using-react-router',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -181,11 +181,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Q7mF8c3psaiEPX2M2Dzd9Hkqoo60tpD8_XigrGAHShk/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/api-communication',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/api-communication',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -219,11 +219,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1XgCyJ3XA7lzpaT7HN5fNY65RuqN_j6vaPrWbxq0Vjso/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/styling-with-emotion',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/styling-with-emotion',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -272,11 +272,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1nYBJTdCKoAbP_pKxjBfSqjozDAPqH5ppiOyh6ZjUjPs/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/using-redux',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/using-redux',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -320,11 +320,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1W_Lgbq_vfwAR3EGJ9BhdB81uYwqE1x5kSM3bMAGIHOk/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/using-nextjs',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/using-nextjs',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -368,11 +368,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1i02SdUAS96QYayvf4KtDa0HmEwZNOLZZb7jZBfbWWl8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/graphql-with-apollo',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/graphql-with-apollo',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -426,11 +426,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/17zERsoO6i5MMQjVfDsb_OKo2MopVV4Jn8Q8qbo8bFFI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs494-w23/authentication',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs494-w23/authentication',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {

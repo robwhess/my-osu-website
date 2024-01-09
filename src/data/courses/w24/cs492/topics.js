@@ -31,11 +31,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1BdHGrwyxafQrHUwp4n0m37q8xqmxBQXuEPZ8zWYPVJY/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/kotlin-primer',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/kotlin-primer',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -131,11 +131,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1jbk9s3ZDKJsVEyGD7h8HzyOKWzg5UjnD6zYDMyGA354/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/BasicToDos',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/BasicToDos',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -164,11 +164,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1OGRgzRL0KA3xdhmNnI8d5pcW9J1CO18tYxYFicghHH0/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/RecyclerViewToDos',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/RecyclerViewToDos',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -197,11 +197,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1KW2qwtoMDDYhP0ximsH1ZoyKmxCTqrub9cD6BQHpAmI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/GitHubSearch',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/GitHubSearch',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -245,11 +245,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -283,11 +283,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1PkxaTE27Y75EWEaHDEIn-NG5zfDqv7BI0qdLTqSF7KI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/LifecycleAwareGitHubSearch',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/LifecycleAwareGitHubSearch',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -341,11 +341,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14c1sa_eBykec1EX1wlgJYr79IDOVsujnEJ4SiTAbYnk/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/GitHubSearchWithSettings',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/GitHubSearchWithSettings',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -379,11 +379,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1PXJW9mwYRW1_bVG54bXhm4o8YQu8KxFjIFAP1WPz7Ms/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/GitHubSearchWithRoom',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/GitHubSearchWithRoom',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -421,11 +421,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1tLtktp8ZHqU6A3PSb7pbWn88_rTu2d2ssx5juNDA9iY/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs492-w23/GitHubSearchWithNavigation',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/GitHubSearchWithNavigation',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
