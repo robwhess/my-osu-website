@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -31,6 +30,7 @@ const topics = [
   {
     title: 'React: JSX and Components',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
