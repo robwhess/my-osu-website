@@ -1,28 +1,28 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 0 &ndash; Familiarize yourself with Ed Discussion',
-    //   due: {
-    //     day: '~~Monday, 1/23/2023~~ **Wednesday, 1/25/2023**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Ed activity will be verified when demoing assignment 1'
-    //   ]
-    // },
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; A simple photo app',
-    //   due: {
-    //     day: '~~Monday, 1/23/2023~~ **Wednesday, 1/25/2023**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/13/2023'
-    //   ]
-    // },
+    {
+      link : 'https://docs.google.com/document/d/1GPMC4LadLibmHrthX6636B52V4pEqGAlUCSvyLVu19Q/edit?usp=sharing',
+      title: 'Assignment 0 &ndash; Familiarize yourself with Ed Discussion',
+      due: {
+        day: 'Wednesday, 1/24/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Ed activity will be verified when demoing assignment 1'
+      ]
+    },
+    {
+      link : 'https://classroom.github.com/a/hlpPtc5G',
+      title: 'Assignment 1 &ndash; A simple photo app',
+      due: {
+        day: 'Wednesday, 1/24/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/12/2024'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; A multi-page application using React Router',
