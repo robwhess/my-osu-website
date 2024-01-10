@@ -36,16 +36,21 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14rZmZWMDETj1EIu1Oj4BZAwJhtg3grTZCXwLmDfze8k/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w23/jsx-and-components',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w24/jsx-and-components',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
-        title: 'React Main Concepts (1 - 5)',
-        link: 'https://reactjs.org/docs/hello-world.html',
+        title: 'Quick Start',
+        link: 'https://react.dev/learn',
+        description: 'React Docs'
+      },
+      {
+        title: 'Describing the UI',
+        link: 'https://react.dev/learn/describing-the-ui',
         description: 'React Docs'
       }
     ]
@@ -72,8 +77,13 @@ const topics = [
     ],
     readings: [
       {
-        title: 'React Main Concepts (6 - 12)',
-        link: 'https://reactjs.org/docs/handling-events.html',
+        title: 'Adding Interactivity',
+        link: 'https://react.dev/learn/adding-interactivity',
+        description: 'React Docs'
+      },
+      {
+        title: 'Managing State',
+        link: 'https://react.dev/learn/managing-state',
         description: 'React Docs'
       }
     ]
