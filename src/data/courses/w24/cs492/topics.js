@@ -2,7 +2,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -26,16 +25,17 @@ const topics = [
   {
     title: 'Kotlin Primer',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1BdHGrwyxafQrHUwp4n0m37q8xqmxBQXuEPZ8zWYPVJY/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1inGsny784QH8YwTX0kMwskfFknA3bhTJ2QZSbumdzyM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/kotlin-primer',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-599-w24/kotlin-primer',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
