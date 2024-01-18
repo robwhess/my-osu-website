@@ -46,12 +46,18 @@ const tas = [
       },
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '3:00 &ndash; 5:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: '',
-      // },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92597238153?pwd=NHN1Sy9jU0d6VWhXTGNoalpYRmZVZz09',
+      },
+      {
+        day: 'Fri.',
+        time: '10:00am &ndash; 1:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92597238153?pwd=NHN1Sy9jU0d6VWhXTGNoalpYRmZVZz09',
+      }
     ]
   }
 ];
