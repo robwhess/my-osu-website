@@ -5,7 +5,7 @@ const assignments = {
       link : 'https://docs.google.com/document/d/1GPMC4LadLibmHrthX6636B52V4pEqGAlUCSvyLVu19Q/edit?usp=sharing',
       title: 'Assignment 0 &ndash; Familiarize yourself with Ed Discussion',
       due: {
-        day: 'Wednesday, 1/24/2024',
+        day: '~~Wednesday, 1/24/2024~~ **Monday, 1/29/2024**',
         time: '11:59pm'
       },
       notes: [
@@ -16,7 +16,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/hlpPtc5G',
       title: 'Assignment 1 &ndash; A simple photo app',
       due: {
-        day: 'Wednesday, 1/24/2024',
+        day: '~~Wednesday, 1/24/2024~~ **Monday, 1/29/2024**',
         time: '11:59pm'
       },
       notes: [

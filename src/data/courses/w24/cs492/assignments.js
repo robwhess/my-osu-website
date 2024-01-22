@@ -5,7 +5,7 @@ const assignments = {
       link : 'https://classroom.github.com/a/eKbRLvSZ',
       title: 'Assignment 1 &ndash; A basic RecyclerView-based weather app',
       due: {
-        day: 'Wednesday, 1/31/2024',
+        day: '~~Wednesday, 1/31/2024~~ **Monday, 2/5/2024**',
         time: '11:59pm'
       },
       notes: [
