@@ -85,18 +85,19 @@ const topics = [
   },
 
   {
-    title: 'React: Hooks',
+    title: 'Interacting with External Systems using Refs and Effects',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UBr0sukXuRUs2xb8bx4DUwMg5E6nqAK5_1q3JqBjX3M/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w23/react-hooks',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w24/refs-and-effects',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
