@@ -5,25 +5,31 @@ const tas = [
     // appointmentsLink: '',
     officeHours: [
       {
-        day: 'Thurs.',
-        time: '10:00am &ndash; 12:00pm',
+        day: 'Mon.',
+        time: '5:00 &ndash; 7:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92584369380?pwd=NFNucGNuZkF5WlY4eVY5Y3BFUXJsUT09'
       },
       {
         day: 'Fri.',
-        time: '10:00am &ndash; 12:00pm',
+        time: '5:00 &ndash; 7:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/92584369380?pwd=NFNucGNuZkF5WlY4eVY5Y3BFUXJsUT09'
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '11:00am &ndash; 1:30pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Tues.',
+        time: '5:00 &ndash; 8:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92584369380?pwd=NFNucGNuZkF5WlY4eVY5Y3BFUXJsUT09'
+      },
+      {
+        day: 'Thurs.',
+        time: '5:00 &ndash; 8:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/92584369380?pwd=NFNucGNuZkF5WlY4eVY5Y3BFUXJsUT09'
+      }
     ]
   },
   {
@@ -32,27 +38,27 @@ const tas = [
     // appointmentsLink: '',
     officeHours: [
       {
-        day: 'Wed.',
-        time: '2:00 &ndash; 4:00pm',
+        day: 'Tues.',
+        time: '4:00 &ndash; 6:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/7700115068?pwd=M1cxbXljOGgxT2NaOC9JcnNDMjN4dz09'
       },
       {
-        day: 'Thurs.',
-        time: '4:00 &ndash; 6:00pm',
+        day: 'Wed.',
+        time: '2:00 &ndash; 4:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/7700115068?pwd=M1cxbXljOGgxT2NaOC9JcnNDMjN4dz09'
       }
     ],
     gradingHours: [
       {
-        day: 'Wed.',
+        day: 'Tues.',
         time: '9:00am &ndash; 12:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/7700115068?pwd=M1cxbXljOGgxT2NaOC9JcnNDMjN4dz09'
       },
       {
-        day: 'Thurs.',
+        day: 'Wed.',
         time: '9:00am &ndash; 12:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/7700115068?pwd=M1cxbXljOGgxT2NaOC9JcnNDMjN4dz09'
