@@ -101,23 +101,23 @@ const topics = [
     ],
     readings: [
       {
-        title: 'Hooks at a Glance',
-        link: 'https://reactjs.org/docs/hooks-overview.html',
+        title: 'Referencing Values with Refs',
+        link: 'https://react.dev/learn/referencing-values-with-refs',
         description: 'React Docs'
       },
       {
-        title: 'Using the State Hook',
-        link: 'https://reactjs.org/docs/hooks-state.html',
+        title: 'Manipulating the DOM with Refs',
+        link: 'https://react.dev/learn/manipulating-the-dom-with-refs',
         description: 'React Docs'
       },
       {
-        title: 'Using the Effect Hook',
-        link: 'https://reactjs.org/docs/hooks-effect.html',
+        title: 'Synchronizing with Effects',
+        link: 'https://react.dev/learn/synchronizing-with-effects',
         description: 'React Docs'
       },
       {
-        title: 'Rules of Hooks',
-        link: 'https://reactjs.org/docs/hooks-rules.html',
+        title: 'Lifecycle of Reactive Effects',
+        link: 'https://react.dev/learn/lifecycle-of-reactive-effects',
         description: 'React Docs'
       }
     ]
