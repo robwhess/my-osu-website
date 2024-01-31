@@ -24,17 +24,18 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; A multi-page application using React Router',
-    //   due: {
-    //     day: 'Monday, 2/6/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/27/2023'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/lU31IxND',
+      title: 'Assignment 2 &ndash; A multi-page application using React Router',
+      due: {
+        day: 'Monday, 2/12/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 2/26/2024',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Data fetching and component styling',
