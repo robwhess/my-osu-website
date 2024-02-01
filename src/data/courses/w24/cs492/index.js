@@ -22,11 +22,11 @@ const courseDetails = {
   syllabusLink: 'https://docs.google.com/document/d/1kdsA3c13WYKDNc1CI-7DfkcWDcyWePSStqFRMxU747U/edit?usp=sharing',
 
   links: [
-    // {
-    //   title: 'CS 492/599 grading demo appointments',
-    //   link: 'https://outlook.office365.com/owa/calendar/CS492FinalProjectDemos@OregonStateUniversity.onmicrosoft.com/bookings/',
-    //   description: 'use this page to sign up for grading demos for all assignments'
-    // },
+    {
+      title: 'CS 492/599 grading demo appointments',
+      link: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
+      description: 'use this page to sign up for grading demos for all assignments'
+    },
     {
       title: 'CS 492/599 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1970085'

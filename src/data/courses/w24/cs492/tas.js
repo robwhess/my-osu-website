@@ -2,7 +2,7 @@ const tas = [
   {
     name: 'Souvik Das',
     email: 'dassou@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Mon.',
@@ -35,7 +35,7 @@ const tas = [
   {
     name: 'Mingqi Jiang',
     email: 'jiangmi@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Tues.',
@@ -68,7 +68,7 @@ const tas = [
   {
     name: 'Disha Kanavikar',
     email: 'kanavikd@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Tues.',
@@ -104,7 +104,7 @@ const tas = [
   {
     name: 'Zexian Li',
     email: 'lizexi@oregonstate.edu',
-    // appointmentsLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Tues.',
