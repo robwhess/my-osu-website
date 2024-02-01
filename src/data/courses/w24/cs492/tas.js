@@ -84,8 +84,8 @@ const tas = [
     gradingHours: [
       {
         day: 'Mon.',
-        time: '8:00am &ndash; 10:00am',
-        location: 'KEC Atrium and Zoom',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
       },
       {
