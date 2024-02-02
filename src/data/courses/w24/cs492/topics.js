@@ -238,50 +238,12 @@ const topics = [
   },
 
   {
-    title: 'Starting New Activities with Intents',
+    title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 5 ],
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-    ],
-    readings: [
-      {
-        title: 'Intents and Intent Filters',
-        link: 'https://developer.android.com/guide/components/intents-filters',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Menus',
-        link: 'https://developer.android.com/guide/topics/ui/menus',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Sending the User to Another App',
-        link: 'https://developer.android.com/training/basics/intents/sending',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Sending simple data to other apps',
-        link: 'https://developer.android.com/training/sharing/send',
-        description: 'Android Developers'
-      }
-    ]
-  },
-
-  {
-    title: 'The Activity Lifecycle and the ViewModel Architecture',
-    weeks: [ 6, 7 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1PkxaTE27Y75EWEaHDEIn-NG5zfDqv7BI0qdLTqSF7KI/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/18PdfWxcWt8LwIKByggbWQvK8JyR9KRcS5JJBdFed-4c/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
@@ -301,11 +263,6 @@ const topics = [
         description: 'Android Developers'
       },
       {
-        title: 'Understand Tasks and Back Stack',
-        link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
-        description: 'Android Developers'
-      },
-      {
         title: 'ViewModel Overview',
         link: 'https://developer.android.com/topic/libraries/architecture/viewmodel',
         description: 'Android Developers'
@@ -316,11 +273,6 @@ const topics = [
         description: 'Android Developers'
       },
       {
-        title: 'Retrofit',
-        link: 'https://square.github.io/retrofit/',
-        description: 'A type-safe HTTP client for Android and Java'
-      },
-      {
         title: 'Coroutines basics',
         link: 'https://kotlinlang.org/docs/coroutines-basics.html',
         description: 'Kotlin docs'
@@ -328,6 +280,49 @@ const topics = [
       {
         title: 'Kotlin coroutines on Android',
         link: 'https://developer.android.com/kotlin/coroutines',
+        description: 'Android Developers'
+      }
+    ]
+  },
+
+  {
+    title: 'Starting New Activities with Intents',
+    weeks: [ 6 ],
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
+      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
+    ],
+    readings: [
+      {
+        title: 'Understand Tasks and Back Stack',
+        link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Intents and Intent Filters',
+        link: 'https://developer.android.com/guide/components/intents-filters',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Menus',
+        link: 'https://developer.android.com/guide/topics/ui/menus',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sending the User to Another App',
+        link: 'https://developer.android.com/training/basics/intents/sending',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sending simple data to other apps',
+        link: 'https://developer.android.com/training/sharing/send',
         description: 'Android Developers'
       }
     ]
