@@ -86,7 +86,6 @@ const topics = [
   {
     title: 'Interacting with External Systems using Refs and Effects',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -164,23 +163,19 @@ const topics = [
   {
     title: 'Communicating with an HTTP API',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1Q7mF8c3psaiEPX2M2Dzd9Hkqoo60tpD8_XigrGAHShk/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1d4Wmete9oVlyZfSPRxTOHY6-kQYfeVZPdPcpeKhm0Fs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w23/api-communication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w24/api-communication',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
-      {
-        title: 'AJAX and APIs',
-        link: 'https://reactjs.org/docs/faq-ajax.html',
-        description: 'React Docs'
-      },
       {
         title: 'How to fetch data with React Hooks',
         link: 'https://www.robinwieruch.de/react-hooks-fetch-data',
