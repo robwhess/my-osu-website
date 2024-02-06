@@ -158,7 +158,6 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -192,16 +191,17 @@ const topics = [
   {
     title: 'Using Data from the Internet',
     weeks: [ 4 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1KW2qwtoMDDYhP0ximsH1ZoyKmxCTqrub9cD6BQHpAmI/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/GitHubSearch',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-599-w24/GitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
