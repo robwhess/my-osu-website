@@ -36,17 +36,18 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Data fetching and component styling',
-    //   due: {
-    //     day: 'Monday, 2/20/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 3/13/2023'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/-cNNEqgD',
+      title: 'Assignment 3 &ndash; Data fetching and component styling',
+      due: {
+        day: 'Monday, 2/26/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/11/2024',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; A Redux-powered shopping app',
