@@ -14,8 +14,8 @@ const finalProject = {
         location: 'on Canvas'
       },
       notes: [
-        'Use [this Ed thread]() to help connect with potential teammates.',
-        'Submit [this form]() if you just want to be assigned to a random team.'
+        'Use [this Ed thread](https://edstem.org/us/courses/51458/discussion/4363669) to help connect with potential teammates.',
+        'Submit [this form](https://forms.gle/pQCddhzEpd56SBMj8) if you just want to be assigned to a random team.'
       ]
     },
     {
