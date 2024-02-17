@@ -287,47 +287,100 @@ const topics = [
   },
 
   {
-    title: 'Starting New Activities with Intents',
+    title: 'Screens, Fragments, and the Jetpack Navigation Component',
     weeks: [ 6 ],
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1gFowg2fA1EPyp7YrMu3vMSP02aP78FJESoRZTU6X-OM/edit?usp=sharing'
       },
       // {
       //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
+      //   link: '',
       //   description: 'GitHub repo for code written in lecture'
       // },
     ],
     readings: [
       {
-        title: 'Understand Tasks and Back Stack',
-        link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
+        title: 'Navigation',
+        link: 'https://developer.android.com/guide/navigation',
         description: 'Android Developers'
       },
       {
-        title: 'Intents and Intent Filters',
-        link: 'https://developer.android.com/guide/components/intents-filters',
+        title: 'Fragments',
+        link: 'https://developer.android.com/guide/fragments',
         description: 'Android Developers'
       },
       {
-        title: 'Menus',
-        link: 'https://developer.android.com/guide/topics/ui/menus',
+        title: 'Getting started with the Navigation component',
+        link: 'https://developer.android.com/guide/navigation/navigation-getting-started',
         description: 'Android Developers'
       },
       {
-        title: 'Sending the User to Another App',
-        link: 'https://developer.android.com/training/basics/intents/sending',
+        title: 'Create destinations',
+        link: 'https://developer.android.com/guide/navigation/navigation-create-destinations',
         description: 'Android Developers'
       },
       {
-        title: 'Sending simple data to other apps',
-        link: 'https://developer.android.com/training/sharing/send',
+        title: 'Design navigation graphs',
+        link: 'https://developer.android.com/guide/navigation/navigation-design-graph',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Navigate to a destination',
+        link: 'https://developer.android.com/guide/navigation/navigation-navigate',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Pass data between destinations',
+        link: 'https://developer.android.com/guide/navigation/navigation-pass-data',
         description: 'Android Developers'
       }
     ]
   },
+
+  // {
+  //   title: 'Starting New Activities with Intents',
+  //   weeks: [ 6 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // },
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Understand Tasks and Back Stack',
+  //       link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
+  //       description: 'Android Developers'
+  //     },
+  //     {
+  //       title: 'Intents and Intent Filters',
+  //       link: 'https://developer.android.com/guide/components/intents-filters',
+  //       description: 'Android Developers'
+  //     },
+  //     {
+  //       title: 'Menus',
+  //       link: 'https://developer.android.com/guide/topics/ui/menus',
+  //       description: 'Android Developers'
+  //     },
+  //     {
+  //       title: 'Sending the User to Another App',
+  //       link: 'https://developer.android.com/training/basics/intents/sending',
+  //       description: 'Android Developers'
+  //     },
+  //     {
+  //       title: 'Sending simple data to other apps',
+  //       link: 'https://developer.android.com/training/sharing/send',
+  //       description: 'Android Developers'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'Storing Settings with the Preference Library',
