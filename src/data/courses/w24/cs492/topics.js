@@ -240,7 +240,6 @@ const topics = [
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -289,16 +288,17 @@ const topics = [
   {
     title: 'Screens, Fragments, and the Jetpack Navigation Component',
     weeks: [ 6 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1gFowg2fA1EPyp7YrMu3vMSP02aP78FJESoRZTU6X-OM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: '',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-599-w24/GitHubSearchWithNavigation',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
