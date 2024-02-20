@@ -25,17 +25,18 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; A lifecycle-aware weather app with user preferences',
-    //   due: {
-    //     day: 'Monday, 2/27/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 3/13/2023'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/u9uvJ9_d',
+      title: 'Assignment 3 &ndash; A weather app with multiple screens and user preferences',
+      due: {
+        day: 'Monday, 3/4/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Monday 3/18/2024',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; A weather app with stored data and a navigation drawer',
