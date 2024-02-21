@@ -162,7 +162,6 @@ const topics = [
   {
     title: 'Communicating with an HTTP API',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
