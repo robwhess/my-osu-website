@@ -334,6 +334,21 @@ const topics = [
         title: 'Pass data between destinations',
         link: 'https://developer.android.com/guide/navigation/navigation-pass-data',
         description: 'Android Developers'
+      },
+      {
+        title: 'Connect UI components to NavController using NavigationUI',
+        link: 'https://developer.android.com/guide/navigation/integrations/ui',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Sending the user to another app',
+        link: 'https://developer.android.com/training/basics/intents/sending',
+        description: 'Android Developers'
+      },
+      {
+        title: 'Send simple data to other apps',
+        link: 'https://developer.android.com/training/sharing/send',
+        description: 'Android Developers'
       }
     ]
   },
