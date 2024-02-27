@@ -253,7 +253,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1nYBJTdCKoAbP_pKxjBfSqjozDAPqH5ppiOyh6ZjUjPs/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1YLu7NeNkAx4YpUh7AjkI2e5tDN7nK8D04_z6xUK4g9E/edit?usp=sharing'
       },
       {
         title: 'Example code',
@@ -273,17 +273,32 @@ const topics = [
         description: 'Redux Docs'
       },
       {
-        title: 'Redux: Basic Tutorial',
-        link: 'https://redux.js.org/basics/basic-tutorial',
+        title: 'Redux Essentials Tutorial',
+        link: 'https://redux.js.org/tutorials/essentials/part-1-overview-concepts',
         description: 'Redux Docs'
       },
       {
-        title: 'React Redux: Basic Tutorial',
-        link: 'https://react-redux.js.org/introduction/basic-tutorial',
+        title: 'Redux: Fundamentals',
+        link: 'https://redux.js.org/tutorials/fundamentals/part-1-overview',
+        description: 'Redux Docs'
+      },
+      {
+        title: 'Getting Started with Redux Toolkit',
+        link: 'https://redux-toolkit.js.org/introduction/getting-started',
+        description: 'Redux Toolkit Docs'
+      },
+      {
+        title: 'Redux Toolkit Usage Guide',
+        link: 'https://redux-toolkit.js.org/usage/usage-guide',
+        description: 'Redux Toolkit Docs'
+      },
+      {
+        title: 'React Redux Quick Start',
+        link: 'https://react-redux.js.org/tutorials/quick-start',
         description: 'React Redux Docs'
       },
       {
-        title: 'React Redux: Hooks',
+        title: 'React Redux Hooks',
         link: 'https://react-redux.js.org/api/hooks',
         description: 'React Redux Docs'
       },
