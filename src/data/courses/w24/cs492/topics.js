@@ -353,62 +353,20 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Starting New Activities with Intents',
-  //   weeks: [ 6 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1UW8fxkpIyoWFjJLoWpniJPvg6JqN1OuF5uiUgOhE0t8/edit?usp=sharing'
-  //     },
-  //     // {
-  //     //   title: 'Example code',
-  //     //   link: 'https://github.com/osu-cs492-w23/MultiActivityGitHubSearch',
-  //     //   description: 'GitHub repo for code written in lecture'
-  //     // },
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Understand Tasks and Back Stack',
-  //       link: 'https://developer.android.com/guide/components/activities/tasks-and-back-stack',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Intents and Intent Filters',
-  //       link: 'https://developer.android.com/guide/components/intents-filters',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Menus',
-  //       link: 'https://developer.android.com/guide/topics/ui/menus',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Sending the User to Another App',
-  //       link: 'https://developer.android.com/training/basics/intents/sending',
-  //       description: 'Android Developers'
-  //     },
-  //     {
-  //       title: 'Sending simple data to other apps',
-  //       link: 'https://developer.android.com/training/sharing/send',
-  //       description: 'Android Developers'
-  //     }
-  //   ]
-  // },
-
   {
     title: 'Storing Settings with the Preference Library',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14c1sa_eBykec1EX1wlgJYr79IDOVsujnEJ4SiTAbYnk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/GitHubSearchWithSettings',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-599-w24/GitHubSearchWithSettings',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
