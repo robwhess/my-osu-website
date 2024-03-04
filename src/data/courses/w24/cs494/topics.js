@@ -310,57 +310,58 @@ const topics = [
     ]
   },
 
-  {
-    title: 'Next.js',
-    weeks: [ 8 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1W_Lgbq_vfwAR3EGJ9BhdB81uYwqE1x5kSM3bMAGIHOk/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w23/using-nextjs',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Getting Started',
-        link: 'https://nextjs.org/docs/getting-started',
-        description: 'Next.js Docs'
-      },
-      {
-        title: 'Pages',
-        link: 'https://nextjs.org/docs/basic-features/pages',
-        description: 'Next.js Docs'
-      },
-      {
-        title: 'Routing',
-        link: 'https://nextjs.org/docs/routing/introduction',
-        description: 'Next.js Docs'
-      },
-      {
-        title: 'Dynamic Routes',
-        link: 'https://nextjs.org/docs/routing/dynamic-routes',
-        description: 'Next.js Docs'
-      },
-      {
-        title: 'Data Fetching',
-        link: 'https://nextjs.org/docs/basic-features/data-fetching',
-        description: 'Next.js Docs'
-      },
-      {
-        title: 'API Routes',
-        link: 'https://nextjs.org/docs/api-routes/introduction',
-        description: 'Next.js Docs'
-      }
-    ]
-  },
+  // {
+  //   title: 'Next.js',
+  //   weeks: [ 8 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1W_Lgbq_vfwAR3EGJ9BhdB81uYwqE1x5kSM3bMAGIHOk/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs494-w23/using-nextjs',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Getting Started',
+  //       link: 'https://nextjs.org/docs/getting-started',
+  //       description: 'Next.js Docs'
+  //     },
+  //     {
+  //       title: 'Pages',
+  //       link: 'https://nextjs.org/docs/basic-features/pages',
+  //       description: 'Next.js Docs'
+  //     },
+  //     {
+  //       title: 'Routing',
+  //       link: 'https://nextjs.org/docs/routing/introduction',
+  //       description: 'Next.js Docs'
+  //     },
+  //     {
+  //       title: 'Dynamic Routes',
+  //       link: 'https://nextjs.org/docs/routing/dynamic-routes',
+  //       description: 'Next.js Docs'
+  //     },
+  //     {
+  //       title: 'Data Fetching',
+  //       link: 'https://nextjs.org/docs/basic-features/data-fetching',
+  //       description: 'Next.js Docs'
+  //     },
+  //     {
+  //       title: 'API Routes',
+  //       link: 'https://nextjs.org/docs/api-routes/introduction',
+  //       description: 'Next.js Docs'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'API Queries with GraphQL',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
