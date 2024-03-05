@@ -248,7 +248,6 @@ const topics = [
   {
     title: 'Centralizing Application State with Redux',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -366,11 +365,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1i02SdUAS96QYayvf4KtDa0HmEwZNOLZZb7jZBfbWWl8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w23/graphql-with-apollo',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w24/graphql-with-apollo',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
