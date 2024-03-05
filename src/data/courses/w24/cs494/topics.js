@@ -195,7 +195,6 @@ const topics = [
   {
     title: 'Styling Components with Emotion',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
