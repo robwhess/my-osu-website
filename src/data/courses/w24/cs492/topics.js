@@ -287,7 +287,6 @@ const topics = [
   {
     title: 'Screens, Fragments, and the Jetpack Navigation Component',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -356,7 +355,6 @@ const topics = [
   {
     title: 'Storing Settings with the Preference Library',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -395,16 +393,17 @@ const topics = [
   {
     title: 'Storing Data using the Room Persistence Library',
     weeks: [ 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1PXJW9mwYRW1_bVG54bXhm4o8YQu8KxFjIFAP1WPz7Ms/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/GitHubSearchWithRoom',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-599-w24/GitHubSearchWithRoom',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
