@@ -34,7 +34,9 @@ const assignments = {
       },
       notes: [
         'Demo due by 11:59pm, Monday 3/18/2024',
-        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)',
+        '[Current weather deep link test](https://api.openweathermap.org/data/2.5/weather?q=Philadelphia,PA,US)',
+        '[Five-day forecast deep link test](https://api.openweathermap.org/data/2.5/forecast?q=Philadelphia,PA,US)'
       ]
     },
     {
