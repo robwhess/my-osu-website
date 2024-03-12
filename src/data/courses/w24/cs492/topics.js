@@ -452,6 +452,16 @@ const topics = [
         title: 'Update UI components with NavigationUI',
         link: 'https://developer.android.com/guide/navigation/navigation-ui',
         description: 'Android Developers'
+      },
+      {
+        title: 'Navigation Drawer',
+        link: 'https://github.com/material-components/material-components-android/blob/master/docs/components/NavigationDrawer.md',
+        description: 'Material Components Documentation'
+      },
+      {
+        title: 'Bottom Navigation',
+        link: 'https://github.com/material-components/material-components-android/blob/master/docs/components/BottomNavigation.md',
+        description: 'Material Components Documentation'
       }
     ]
   },
