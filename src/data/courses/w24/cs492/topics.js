@@ -393,7 +393,6 @@ const topics = [
   {
     title: 'Storing Data using the Room Persistence Library',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -434,53 +433,24 @@ const topics = [
   },
 
   {
-    title: 'Navigation with Jetpack\'s Navigation Component',
+    title: 'Using the Navigation UI Library',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1tLtktp8ZHqU6A3PSb7pbWn88_rTu2d2ssx5juNDA9iY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w23/GitHubSearchWithNavigation',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-599-w24/GitHubSearchWithNavUI',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
-        title: 'Getting started with the Navigation component',
-        link: 'https://developer.android.com/guide/navigation/navigation-getting-started',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Create destinations',
-        link: 'https://developer.android.com/guide/navigation/navigation-create-destinations',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Design navigation graphs',
-        link: 'https://developer.android.com/guide/navigation/navigation-design-graph',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Navigate to a destination',
-        link: 'https://developer.android.com/guide/navigation/navigation-navigate',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Pass data between destinations',
-        link: 'https://developer.android.com/guide/navigation/navigation-pass-data',
-        description: 'Android Developers'
-      },
-      {
         title: 'Update UI components with NavigationUI',
         link: 'https://developer.android.com/guide/navigation/navigation-ui',
-        description: 'Android Developers'
-      },
-      {
-        title: 'Migrate to the Navigation component',
-        link: 'https://developer.android.com/guide/navigation/navigation-migrate',
         description: 'Android Developers'
       }
     ]
