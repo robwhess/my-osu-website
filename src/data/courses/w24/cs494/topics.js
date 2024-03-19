@@ -417,7 +417,6 @@ const topics = [
   {
     title: 'Authenticating Users',
     weeks: [ 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
