@@ -2,7 +2,7 @@ import topics from './topics';
 import assignments from './assignments';
 import finalProject from './finalProject';
 import tas from './tas';
-// import hof from './hof';
+import hof from './hof';
 
 var courseDetails = {
   number: 'CS 290',
@@ -47,7 +47,7 @@ var courseDetails = {
     },
     {
       title: 'The CS 290 Hall of Fame',
-      link: '/teaching/hof/cs290',
+      link: '/teaching/hof/cs290#f23',
       description: 'this is a showcase of some of the very best final projects from past terms of CS 290'
     },
     {
@@ -61,7 +61,9 @@ var courseDetails = {
 
   assignmentGroups: [ assignments, finalProject ],
 
-  tas: tas
+  tas: tas,
+
+  hof: hof
 };
 
 export default courseDetails;
