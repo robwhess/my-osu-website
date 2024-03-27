@@ -17,10 +17,12 @@ import w23 from './w23/';
 import sp23 from './sp23/';
 import f23 from './f23/';
 import w24 from './w24/';
+import sp24 from './sp24/';
 
-const currentTerm = 'w24';
+const currentTerm = 'sp24';
 
 const courseData = {
+  sp24: sp24,
   w24: w24,
   f23: f23,
   sp23: sp23,
