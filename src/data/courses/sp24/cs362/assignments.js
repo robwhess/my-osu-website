@@ -1,18 +1,18 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; Using Git and GitHub',
-    //   due: {
-    //     day: 'Monday, 4/17/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Grading demo due by 11:59pm on Monday, 5/1/2023',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://docs.google.com/document/d/1obP0G84QDgQdk7QciUWGl8w8oUlSygL3pCdrsTZzfSs/edit?usp=sharing',
+      title: 'Assignment 1 &ndash; Using Git and GitHub',
+      due: {
+        day: 'Monday, 4/15/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Grading demo due by 11:59pm on Monday, 4/29/2024',
+        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Unit Testing and TDD',
