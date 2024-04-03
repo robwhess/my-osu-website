@@ -1,11 +1,7 @@
-import noteworthyImage from './hofFiles/noteworthy.jpg';
-import noteworthyScreencap from './hofFiles/noteworthy.gif';
-import cinelinkImage from './hofFiles/cinelink.jpg';
-import cinelinkScreencap from './hofFiles/cinelink.gif';
-import objectHuntImage from './hofFiles/objectHunt.jpg';
-import objectHuntScreencap from './hofFiles/objectHunt.gif';
-import shapeNSurfImage from './hofFiles/shapeNSurf.jpg';
-import shapeNSurfScreencap from './hofFiles/shapeNSurf.gif';
+import wikiRaceImage from './hofFiles/wikiRace.jpg';
+import wikiRaceScreencap from './hofFiles/wikiRace.gif';
+import timeVaultImage from './hofFiles/timeVault.jpg';
+import timeVaultScreencap from './hofFiles/timeVault.gif';
 
 /*
  * Some helpful resources for converting image/movie files to the right formats:
@@ -16,50 +12,35 @@ import shapeNSurfScreencap from './hofFiles/shapeNSurf.gif';
 
 const hof = [
   {
-    title: "Noteworthy",
+    title: "WikiRace",
     developers: [
-      "Carter Roeser",
-      "Ekkachai Jet Ittihrit",
-      "Kristina Marquez"
+      "Owen Cole",
+      "Jonathan Rockett",
+      "Ian Van Emmerik",
+      "Daniel Valdovinos"
     ],
-    description: "Noteworthy is an AI assisted note taking app that provides AI based autocompletion, summaries, and suggestions for your notes, such as searching the web, emailing a contact, automatically creating reminders and calendar events, or finding directions to a location. Notes can be pinned, categorized, privated, searched, and filtered, can be composed via voice input, and are backed up and synced between devices over the cloud. Noteworthy is built in Kotlin using Jetpack Compose and Material 2 as the design system. OpenAI's GPT-3 LLM is used for AI generations, Google SpeechRecognizer is used for voice recognition, and Firebase Cloud Functions, Firestore, and Algolia are used for the database and search engine.",
-    imageUrl: noteworthyImage,
-    screencapUrl: noteworthyScreencap
+    description: "WikiRace is a game where you are given 2 random Wikipedia articles, and you have to get from one to the other only using the links on the page you are currently on. The aim of the game is to get to the goal in the least amount of time and navigations. If you would like, you are able to manually set a start and end point so you can even race against your friends. WikiRace uses the Wikipedia API to generate 2 random titles and uses Androids WebView library to display that content within our app.",
+    imageUrl: wikiRaceImage,
+    screencapUrl: wikiRaceScreencap
   },
   {
-    title: "CineLink",
+    title: "TimeVault",
     developers: [
-      "Charlie Hayden",
-      "Elijah Cirioli",
-      "Grey Wolnick"
+      "Ryan Spreier",
+      "Yahir Gonzalez",
+      "Eric York"
     ],
-    description: "CineLink is a game that tests your movie knowledge. Your goal is to make it from one randomly-selected famous actor to another using their acting, writing, and directing credits. Race against the clock as you try to find the shortest possible path to the target actor using their shared filmography as you groove to the game’s background music. CineLink uses The Movie Database API to source actor and movie credits as well as images to represent them.",
-    imageUrl: cinelinkImage,
-    screencapUrl: cinelinkScreencap
+    description: "TimeVault is an application that allows users to document their interests and experiences in real-time, creating personalized \"time capsules\" for future reflection. With features such as photo uploads from camera roll, taking a picture using the phone's camera app, text entries, and link attachments, users can capture diverse moments and memories with ease. When a user adds an item, it is buried in a \"time capsule\" for the day. The calendar interface allows for navigation through past capsules so that users can see what they added on certain days, similar to an archive. Lastly, there is also an option to schedule reminders through notifications to enhance the user experience by prompting revisits to specific capsules on desired dates. This app uses Google's Firebase API to assist with sending notifications.",
+    imageUrl: timeVaultImage,
+    screencapUrl: timeVaultScreencap
   },
-  {
-    title: "ObjectHunt",
-    developers: [
-      "Adilbek Bazarkulov",
-      "Anh Nguyen",
-      "Riley Mason Elwell",
-      "Imgyeong Lee"
-    ],
-    description: "ObjectHunt is a fun and interactive two-player game that challenges players to find objects based on their name and location. The objective of the game is to be the first player to locate the object and take a picture of it while being in the right location. Each successful capture earns a point, and the game continues until all objects in the submitted queue have been found.\n\nTo detect objects, ObjectHunt uses Android ML Kit on the frontend and Google’s Vision API on the backend. Additionally, to support the app's multiplayer capability, our team wrote a custom backend using Node.js as the framework and Socket.IO as the communication library.",
-    imageUrl: objectHuntImage,
-    screencapUrl: objectHuntScreencap
-  },
-  {
-    title: "Buni Shape 'n Surf",
-    developers: [
-      "Alihan Baysal",
-      "Artem Kolpakov",
-      "Parker Conrad"
-    ],
-    description: "Buni Shape n' Surf exists as the all-in-one suite for Surfboard Builders. Users are able to select and save surf spots around the world through the [Google Maps API](https://developers.google.com/maps), then either view a real-time surf forecast, lookahead into the upcoming month, or view the last year's worth of surf data—all through the [Open-Meteo](https://open-meteo.com/en/docs/marine-weather-api) Marine Weather API. For the surfboard shaping side of the application, if a user finds a surfboard they would like to recreate they can visit the \"Shape Board\" page where they can either take a picture of a board or upload it from their phone. A [TensorFlow](https://www.tensorflow.org/) Lite Machine Learning Model was trained by our team for surfboard image recognition. If it really was a board that the user took a picture of, the user can then enter the size of the board they would like. Our [OpenCV](https://opencv.org/) implementation finds the outline of the board, splits it in half, and divides it into slices that fit on a standard 8.5\"x11\" piece of paper. From there, the user can save the board and print the pdf generated by [ITextPdf](https://itextpdf.com/).  Just like that, the user is ready to make a surfboard!\n\nThis project was a continuation of our CS 290 [HOF Project](https://web.engr.oregonstate.edu/~hessro/teaching/hof/cs290#sp21) which has also resulted in a Full-Stack Ecommerce Website, buniboards.com",
-    imageUrl: shapeNSurfImage,
-    screencapUrl: shapeNSurfScreencap
-  }
+  // {
+  //   title: "",
+  //   developers: [],
+  //   description: "",
+  //   imageUrl: wikiRaceImage,
+  //   screencapUrl: wikiRaceScreencap
+  // }
 ];
 
 export default hof;
