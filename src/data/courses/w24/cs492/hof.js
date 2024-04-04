@@ -2,6 +2,8 @@ import wikiRaceImage from './hofFiles/wikiRace.jpg';
 import wikiRaceScreencap from './hofFiles/wikiRace.gif';
 import timeVaultImage from './hofFiles/timeVault.jpg';
 import timeVaultScreencap from './hofFiles/timeVault.gif';
+import beaverCacheImage from './hofFiles/beaverCache.jpg';
+import beaverCacheScreencap from './hofFiles/beaverCache.gif';
 
 /*
  * Some helpful resources for converting image/movie files to the right formats:
@@ -34,13 +36,18 @@ const hof = [
     imageUrl: timeVaultImage,
     screencapUrl: timeVaultScreencap
   },
-  // {
-  //   title: "",
-  //   developers: [],
-  //   description: "",
-  //   imageUrl: wikiRaceImage,
-  //   screencapUrl: wikiRaceScreencap
-  // }
+  {
+    title: "BeaverCache",
+    developers: [
+      "Kaelan Trowbridge",
+      "Moises Alberto Villarreal Casas",
+      "Jovan Young",
+      "Reina Takahara"
+    ],
+    description: "BeaverCache is an app where you can share and find cool spots on campus with your friends! Earn points by scanning the QR code hidden somewhere in the destination, and be on the top of the leaderboard! Users can add new exciting locations and post the QR code to the location physically, where other users can scan these QR codes to claim the points. Claim more points than your friends!",
+    imageUrl: beaverCacheImage,
+    screencapUrl: beaverCacheScreencap
+  }
 ];
 
 export default hof;
