@@ -1,18 +1,18 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; API design and server implementation',
-    //   due: {
-    //     day: 'Monday, 4/24/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm on Monday, 5/8/2023',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/bNowVEj8',
+      title: 'Assignment 1 &ndash; API design and server implementation',
+      due: {
+        day: 'Monday, 4/22/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm on Monday, 5/6/2024',
+        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; API data storage',
