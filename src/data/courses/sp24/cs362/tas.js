@@ -64,21 +64,40 @@ const taInfo = [
     name: 'Vladiszlav Pauk',
     email: 'paukv@oregonstate.edu',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
-    // videoConferenceLink: '',
+    videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '4:30 &ndash; 6:30pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Wed.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1'
+      },
+      {
+        day: 'Thurs.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '1:00 &ndash; 4:30pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1'
+      },
+      {
+        day: 'Tues.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1'
+      },
+      {
+        day: 'Fri.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1'
+      }
     ]
   },
   {
