@@ -7,7 +7,7 @@ const taInfo = [
     officeHours: [
       {
         day: 'Tues.',
-        time: '1:00 &ndash; 2:00pm',
+        time: '2:30 &ndash; 3:30pm',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/8746802238?pwd=MzdyYWpkYlFTZmxiQW5PbjQ5Slk0dz09'
       },
