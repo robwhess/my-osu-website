@@ -2,7 +2,7 @@ const taInfo = [
   {
     name: 'Soumiki Chattopadhyay',
     email: 'chattoso@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/8746802238?pwd=MzdyYWpkYlFTZmxiQW5PbjQ5Slk0dz09',
     officeHours: [
       {
@@ -36,7 +36,7 @@ const taInfo = [
   {
     name: 'Apurva Kokate',
     email: 'kokatea@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
     // videoConferenceLink: '',
     officeHours: [
       {
@@ -63,7 +63,7 @@ const taInfo = [
   {
     name: 'Vladiszlav Pauk',
     email: 'paukv@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
     videoConferenceLink: 'https://us04web.zoom.us/j/74211164870?pwd=NRfmHnaGw1qw67I2mhIHxTdUSbpwEa.1',
     officeHours: [
       {
@@ -103,7 +103,7 @@ const taInfo = [
   {
     name: 'Yunhan Qiao',
     email: 'qiaoy@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
     // videoConferenceLink: '',
     officeHours: [
       {

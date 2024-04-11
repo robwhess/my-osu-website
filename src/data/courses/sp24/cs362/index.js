@@ -21,11 +21,11 @@ var courseDetails = {
   syllabusLink: 'https://docs.google.com/document/d/18M_N6kTPkayAghtI0X6mfAKW-NBdLq0pP1YvrSqNf2I/edit?usp=sharing',
 
   links: [
-    // {
-    //   title: 'CS 362 grading demo appointments',
-    //   link: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
-    //   description: 'use this page to sign up for grading demos for all assignments'
-    // },
+    {
+      title: 'CS 362 grading demo appointments',
+      link: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+      description: 'use this page to sign up for grading demos for all assignments'
+    },
     {
       title: 'CS 362 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1958564'
