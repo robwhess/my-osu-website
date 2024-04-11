@@ -25,7 +25,6 @@ const topics = [
   {
     title: 'Regular Expression-Based Scanners',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -59,16 +58,17 @@ const topics = [
   {
     title: 'The Flex Scanner Generator',
     weeks: [ 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1yda-qsmCSYMxkSABpsA9SZ-8vKyR-ozjEfd1LiZGdbk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp23/flex',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp24/using-flex',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
