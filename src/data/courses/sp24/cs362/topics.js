@@ -56,8 +56,7 @@ const topics = [
     },
     {
         title: 'Software Testing Fundamentals',
-        weeks: [ 2, 3 ],
-        isCurrent: true,
+        weeks: [ 2 ],
         resources: [
             {
                 title: 'Lecture notes',
@@ -100,16 +99,17 @@ const topics = [
     {
         title: 'Unit Testing and the Jest Testing Framework',
         weeks: [ 3 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1kTbcXqFVreDtsG2fbncoZ77Z5YiQobCn18Nibu4Lt50/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp23/unit-testing-with-jest',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp24/unit-testing-with-jest',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
