@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Ryan Roberts',
     email: 'roberyan@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/2983687190?pwd=SHdzL1Z0MVlYYlVYZG9FZXpraTFGQT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Wed.',

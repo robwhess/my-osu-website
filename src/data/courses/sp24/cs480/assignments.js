@@ -1,18 +1,18 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; Scanning with Flex',
-    //   due: {
-    //     day: 'Monday, 5/1/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Grading demo due by 11:59pm, Monday 5/15/2023',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/A-gSge7n',
+      title: 'Assignment 1 &ndash; Scanning with Flex',
+      due: {
+        day: 'Monday, 4/29/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Grading demo due by 11:59pm, Monday 5/13/2024',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Parsing and syntax-directed translation',
