@@ -37,7 +37,7 @@ const taInfo = [
     name: 'Apurva Kokate',
     email: 'kokatea@oregonstate.edu',
     appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
-    // videoConferenceLink: '',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/97072944498?pwd=eEZGVjhYYUFEUWh2S3lWc2w4cDZiZz09',
     officeHours: [
       {
         day: 'Tues.',
