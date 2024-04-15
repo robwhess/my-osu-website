@@ -53,11 +53,24 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '1:00 &ndash; 4:30pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '6:00 &ndash; 9:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/97072944498?pwd=eEZGVjhYYUFEUWh2S3lWc2w4cDZiZz09'
+      },
+      {
+        day: 'Tues.',
+        time: '7:00 &ndash; 9:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/97072944498?pwd=eEZGVjhYYUFEUWh2S3lWc2w4cDZiZz09'
+      },
+      {
+        day: 'Fri.',
+        time: '4:00 &ndash; 5:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/97072944498?pwd=eEZGVjhYYUFEUWh2S3lWc2w4cDZiZz09'
+      }
     ]
   },
   {
