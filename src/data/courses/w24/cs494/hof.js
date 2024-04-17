@@ -18,7 +18,7 @@ const hof = [
   {
     title: "QueryCorner",
     developers: [
-      "Sankalp Patil",
+      "Sankalp (Sandy) Patil",
       "Adrian Baker",
       "Muhammad Faks",
       "Sabyatha Kumar",
