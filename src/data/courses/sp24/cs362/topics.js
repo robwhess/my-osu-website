@@ -143,16 +143,17 @@ const topics = [
     {
         title: 'Test-Driven Development: A Case Study',
         weeks: [ 4 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1cCiUGRj5IBUTbWgyXwS8j4b5kwA4VlsrsTls7exuX48/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp23/tdd-case-study',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp24/tdd-case-study',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
