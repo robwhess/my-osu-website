@@ -21,11 +21,11 @@ var courseDetails = {
   syllabusLink: 'https://docs.google.com/document/d/14zhsiPRhj5aS_2N7kZDstYiCCnmAVjH8mRy0yKjZf8k/edit?usp=sharing',
 
   links: [
-    // {
-    //   title: 'CS 493 grading demo appointments',
-    //   link: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
-    //   description: 'use this page to sign up for grading demos for all assignments'
-    // },
+    {
+      title: 'CS 493 grading demo appointments',
+      link: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
+      description: 'use this page to sign up for grading demos for all assignments'
+    },
     {
       title: 'CS 493 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1970824',

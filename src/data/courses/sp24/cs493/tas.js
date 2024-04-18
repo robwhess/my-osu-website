@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Jun Chen',
     email: 'chenju3@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Tues.',
@@ -36,8 +36,8 @@ const taInfo = [
   {
     name: 'Disha Kanavikar',
     email: 'kanavikd@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
-    // videoConferenceLink: '',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
     officeHours: [
       {
         day: 'Tues.',
@@ -51,18 +51,24 @@ const taInfo = [
       }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '8:00am &ndash; 12:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: ''
-      // }
+      {
+        day: 'Mon.',
+        time: '12:00 &ndash; 3:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
+      },
+      {
+        day: 'Wed.',
+        time: '2:00 &ndash; 5:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09'
+      }
     ]
   },
   {
     name: 'Samisha Khurana',
     email: 'khuranas@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/92689414193?pwd=ZXlHRGJsY0xxNmVtNlQ2dXNraDB4QT09',
     officeHours: [
       {
