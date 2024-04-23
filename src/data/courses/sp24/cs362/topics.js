@@ -99,7 +99,6 @@ const topics = [
     {
         title: 'Unit Testing and the Jest Testing Framework',
         weeks: [ 3 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
