@@ -175,7 +175,6 @@ const topics = [
     {
         title: 'UI-Based Integration Testing',
         weeks: [ 4, 5 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -221,17 +220,18 @@ const topics = [
 
     {
         title: 'Test Doubles',
-        weeks: [ 6, 7 ],
+        weeks: [ 5, 6 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1NB775R2seFx5YmMeDeiCEnTCw3uGoEzDKGcHjkYAAvI/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp23/test-doubles',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/organizations/osu-cs362-sp24/repositories/new',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
