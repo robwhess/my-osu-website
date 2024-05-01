@@ -229,7 +229,7 @@ const topics = [
             },
             {
                 title: 'Example code',
-                link: 'https://github.com/organizations/osu-cs362-sp24/repositories/new',
+                link: 'https://github.com/osu-cs362-sp24/test-doubles',
                 description: 'code written during lecture'
             }
         ],
