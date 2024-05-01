@@ -184,7 +184,6 @@ const topics = [
   {
     title: 'Using MySQL with Sequelize to Store API Data',
     weeks: [ 4, 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
