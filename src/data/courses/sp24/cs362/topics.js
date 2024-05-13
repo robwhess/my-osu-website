@@ -221,7 +221,6 @@ const topics = [
     {
         title: 'Test Doubles',
         weeks: [ 5, 6 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -270,16 +269,17 @@ const topics = [
     {
         title: 'A Team-Based Workflow for using Git and GitHub',
         weeks: [ 7 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1Uzencnr7c6dorZvG53g27G57B8lIowoctNTZosUsiuM/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp23/github-flow',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp24/github-flow',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
