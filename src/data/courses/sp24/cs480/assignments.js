@@ -25,18 +25,18 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Abstract syntax trees and simple code generation',
-    //   due: {
-    //     day: 'Tuesday, 5/30/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Friday 6/16/2023',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/rMwYj69X',
+      title: 'Assignment 3 &ndash; Abstract syntax trees and simple code generation',
+      due: {
+        day: 'Tuesday, 5/28/2024',
+        time: '11:59pm'
+      },
+      notes: [
+        'Demo due by 11:59pm, Friday 6/14/2024',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS480@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Code generation with LLVM',
