@@ -34,6 +34,10 @@ const AssignmentTitle = styled.h3`
   text-indent: -1.75ch;
   padding-left: 1.75ch;
   color: #333;
+
+  @media (prefers-color-scheme: dark) {
+    color: #fff;
+  }
 `;
 
 const AssignmentInfo = styled.div`
@@ -52,6 +56,10 @@ const DueDate = styled.p`
   font-size: 20px;
   font-weight: 400;
   color: #666;
+
+  @media (prefers-color-scheme: dark) {
+    color: #fff;
+  }
 `;
 
 function CourseAssignmentList({ title, assignments, preamble }) {
