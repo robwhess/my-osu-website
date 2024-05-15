@@ -305,7 +305,6 @@ const topics = [
   {
     title: 'API Authentication and Authorization',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -337,6 +336,50 @@ const topics = [
         title: 'bcrypt.js',
         link: 'https://www.npmjs.com/package/bcryptjs',
         description: 'npm'
+      }
+    ]
+  },
+
+  {
+    title: 'API Rate Limiting and Redis',
+    weeks: [ 7 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-599-sp24/rate-limiting',
+        description: 'GitHub repo for code written in lecture'
+      },
+    ],
+    readings: [
+      {
+        title: 'Scaling your API with rate limiters',
+        link: 'https://stripe.com/blog/rate-limiters',
+        description: 'Paul Tarjan (Stripe Engineering Blog)'
+      },
+      {
+        title: 'An alternative approach to rate limiting',
+        link: 'https://blog.figma.com/an-alternative-approach-to-rate-limiting-f8a06cf7c94c',
+        description: 'Nikrad Mahdi (Figma Design Blog)'
+      },
+      {
+        title: 'Token bucket',
+        link: 'https://en.wikipedia.org/wiki/Token_bucket',
+        description: 'Wikipedia'
+      },
+      {
+        title: 'An introduction to Redis data types and abstractions',
+        link: 'https://redis.io/topics/data-types-intro',
+        description: 'Redis docs'
+      },
+      {
+        title: 'Redis commands',
+        link: 'https://redis.io/commands',
+        description: 'Redis docs'
       }
     ]
   },
@@ -423,49 +466,6 @@ const topics = [
         title: 'Work Queues',
         link: 'https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html',
         description: 'RabbitMQ Tutorials'
-      }
-    ]
-  },
-
-  {
-    title: 'API Rate Limiting and Redis',
-    weeks: [ 9, 10 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-sp23/rate-limiting',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-    ],
-    readings: [
-      {
-        title: 'Scaling your API with rate limiters',
-        link: 'https://stripe.com/blog/rate-limiters',
-        description: 'Paul Tarjan (Stripe Engineering Blog)'
-      },
-      {
-        title: 'An alternative approach to rate limiting',
-        link: 'https://blog.figma.com/an-alternative-approach-to-rate-limiting-f8a06cf7c94c',
-        description: 'Nikrad Mahdi (Figma Design Blog)'
-      },
-      {
-        title: 'Token bucket',
-        link: 'https://en.wikipedia.org/wiki/Token_bucket',
-        description: 'Wikipedia'
-      },
-      {
-        title: 'An introduction to Redis data types and abstractions',
-        link: 'https://redis.io/topics/data-types-intro',
-        description: 'Redis docs'
-      },
-      {
-        title: 'Redis commands',
-        link: 'https://redis.io/commands',
-        description: 'Redis docs'
       }
     ]
   },
