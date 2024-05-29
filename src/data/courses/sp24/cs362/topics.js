@@ -269,7 +269,6 @@ const topics = [
     {
         title: 'A Team-Based Workflow for using Git and GitHub',
         weeks: [ 7 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -327,7 +326,6 @@ const topics = [
     {
         title: 'End-to-End Testing with Cypress',
         weeks: [ 7, 8 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -381,16 +379,17 @@ const topics = [
     {
         title: 'Continuous Integration and Continuous Delivery with GitHub Actions',
         weeks: [ 9, 10 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1q64GcApt1mikM2FGEq_kgh_eFS5gXZBen8D0FFsGXk0/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp23/ci-cd',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp24/ci-cd',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
