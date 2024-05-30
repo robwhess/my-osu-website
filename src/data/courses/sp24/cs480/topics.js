@@ -150,7 +150,6 @@ const topics = [
   {
     title: 'Top-Down Parsing and LL(1) Grammars',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -169,16 +168,17 @@ const topics = [
   {
     title: 'Using LLVM for Code Generation',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1A9UcuLSK4pwkxU7U7R0luNagM9Jh607PsIMcHFv6OD4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs480-sp23/llvm',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs480-sp24/using-llvm',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
