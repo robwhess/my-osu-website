@@ -434,7 +434,6 @@ const topics = [
   {
     title: 'Performing Offline Work with RabbitMQ',
     weeks: [ 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -473,6 +472,7 @@ const topics = [
   {
     title: 'Setting up a GraphQL API with Apollo',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -480,14 +480,19 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/osu-cs493-sp22/graphql-api-server',
+        link: 'https://github.com/osu-cs493-599-sp24/graphql-api',
         description: 'GitHub repo for code written in lecture'
       },
     ],
     readings: [
       {
-        title: 'Apollo Tutorial (topics 0-3)',
-        link: 'https://www.apollographql.com/docs/tutorial/introduction/',
+        title: 'Queries and Mutations',
+        link: 'https://graphql.org/learn/queries/',
+        description: 'GraphQL Docs'
+      },
+      {
+        title: 'Introduction to Apollo Server',
+        link: 'https://www.apollographql.com/docs/apollo-server',
         description: 'Apollo Docs'
       },
       {
@@ -496,23 +501,23 @@ const topics = [
         description: 'Apollo Docs'
       },
       {
-        title: 'Data sources',
-        link: 'https://www.apollographql.com/docs/apollo-server/data/data-sources/',
+        title: 'Resolvers',
+        link: 'https://www.apollographql.com/docs/apollo-server/data/resolvers',
         description: 'Apollo Docs'
       },
       {
-        title: 'Fetching data with resolvers',
-        link: 'https://www.apollographql.com/docs/apollo-server/data/data/',
+        title: 'Teaching the MERN stack to speak GraphQL',
+        link: 'https://www.apollographql.com/docs/apollo-server/integrations/mern',
+        description: 'Apollo Docs'
+      },
+      {
+        title: 'API Reference: expressMiddleware',
+        link: 'https://www.apollographql.com/docs/apollo-server/api/express-middleware',
         description: 'Apollo docs'
       },
       {
-        title: 'Integrating with Node.js middleware',
-        link: 'https://www.apollographql.com/docs/apollo-server/integrations/middleware/',
-        description: 'Apollo docs'
-      },
-      {
-        title: 'API Reference: apollo-server',
-        link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server/',
+        title: 'API Reference: ApolloServer',
+        link: 'https://www.apollographql.com/docs/apollo-server/api/apollo-server',
         description: 'Apollo docs'
       }
     ]
