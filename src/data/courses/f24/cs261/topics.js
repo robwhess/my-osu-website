@@ -5,7 +5,6 @@ const topics = [
   {
     title: 'Course Intro',
     weeks: [ 0 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -24,6 +23,7 @@ const topics = [
   {
     title: 'Git and GitHub',
     weeks: [ 0, 1 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
