@@ -2,7 +2,7 @@ const assignments = {
   title: 'Assignments',
   assignments: [
     {
-      link : 'https://classroom.github.com/a/hPlbiKLf',
+      link : 'https://classroom.github.com/a/cobdFHCQ',
       title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
       // due: {
       //   day: 'Monday, 10/23/2023',
