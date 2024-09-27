@@ -180,7 +180,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Ksenia Bannova', 'Riley Rice' ]
     },
     '022': {
       meeting: {
@@ -189,7 +189,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Gabriel de Leon', 'Son Nguyen' ]
     },
     '023': {
       meeting: {
@@ -198,7 +198,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Jinwoo Baek', 'Riley Rice' ]
     },
     '024': {
       meeting: {
@@ -207,7 +207,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         location: 'DEAR 203',
       },
-      tas: [ 'TBD' ]
+      tas: [ 'Mahmoud Fakhry' ]
     }
   },
 
