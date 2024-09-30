@@ -62,16 +62,17 @@ const topics = [
   {
     title: 'C Basics',
     weeks: [ 1, 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1VvGaG5QQTdvIzm3Yus-GNNI6-Th8-AYYx3t8JxzvjKg/edit?usp=sharing',
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs261-f23/c-basics',
-      //   description: 'code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs261-f24/c-basics',
+        description: 'code written in lecture'
+      },
       // {
       //   title: 'Lecture doodles',
       //   link: 'https://drive.google.com/file/d/1kovqVjYzi7Xd4mmtUDXhanuvx-5T1SB2/view?usp=sharing',
