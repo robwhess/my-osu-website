@@ -172,7 +172,7 @@ const taInfo = [
       {
         day: 'Fri.',
         time: '4:00 &ndash; 8:00pm',
-        location: 'Valley Library room 5562'
+        location: '5562 Valley Library'
       }
     ]
   }
