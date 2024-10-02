@@ -125,14 +125,14 @@ const taInfo = [
       {
         day: 'Fri.',
         time: '9:00am &ndash; 1:00pm',
-        location: 'TBD'
+        location: 'KEC Atrium'
       }
     ],
     gradingHours: [
       {
         day: 'Fri.',
         time: '4:00 &ndash; 8:00pm',
-        location: 'TBD'
+        location: 'Valley Library room 5562'
       }
     ]
   }
