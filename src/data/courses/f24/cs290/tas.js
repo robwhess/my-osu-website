@@ -74,18 +74,58 @@ const taInfo = [
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '10:00 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Tues.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '4:00 &ndash; 6:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '10:30 &ndash; 11:30am',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '6:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Tues.',
+        time: '6:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '6:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '6:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Fri.',
+        time: '6:00 &ndash; 7:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
