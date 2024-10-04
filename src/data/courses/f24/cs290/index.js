@@ -21,11 +21,11 @@ var courseDetails = {
   syllabusLink: 'https://docs.google.com/document/d/1kZuLoAMyp0Y-xlnBVDQMxrHu_wRqa6EEeLMqKv6qnic/edit?usp=sharing',
 
   links: [
-    // {
-    //   title: 'CS 290 grading demo appointments',
-    //   link: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
-    //   description: 'use this page to sign up for grading demos for all assignments'
-    // },
+    {
+      title: 'CS 290 grading demo appointments',
+      link: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+      description: 'use this page to sign up for grading demos for all assignments'
+    },
     {
       title: 'CS 290 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1976396'

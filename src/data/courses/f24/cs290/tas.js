@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Evan Baumann',
     email: 'baumanne@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Mon.',
@@ -38,7 +38,7 @@ const taInfo = [
     name: 'Bernardo Mendes',
     email: 'mendesb@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/2673911151?pwd=T0N4dnE2b1R2V2VoSHVTWDJoaUM0QT09&omn=96083254216',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Wed.',
@@ -57,13 +57,13 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '1:30 &ndash; 3:30pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/2673911151?pwd=T0N4dnE2b1R2V2VoSHVTWDJoaUM0QT09&omn=96083254216'
       },
       {
         day: 'Thurs.',
         time: '1:30 &ndash; 3:30pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/2673911151?pwd=T0N4dnE2b1R2V2VoSHVTWDJoaUM0QT09&omn=96083254216',
       }
     ]
@@ -72,7 +72,7 @@ const taInfo = [
     name: 'Ryan Muriset',
     email: 'murisetr@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Mon.',
@@ -132,7 +132,7 @@ const taInfo = [
     name: 'Kensan Putra',
     email: 'putrak@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/5768811484?pwd=M0w4NkdzMkEzRUoxS0NFcE9nL211QT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Tues.',
@@ -160,7 +160,7 @@ const taInfo = [
     name: 'Tejas Srirama',
     email: 'sriramat@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Fri.',

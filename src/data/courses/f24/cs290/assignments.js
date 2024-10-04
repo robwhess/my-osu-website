@@ -14,7 +14,7 @@ const assignments = {
         'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
         'Grading demo due: **Monday 10/28/2024, 11:59pm**',
         'Fill out [this form](https://forms.gle/h66p8fDPCSrfCn8e7) if you want your assignment repo published to GitHub Pages',
-        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
     // {
