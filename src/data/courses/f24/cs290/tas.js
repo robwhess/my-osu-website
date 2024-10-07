@@ -28,7 +28,7 @@ const taInfo = [
         location: 'KEC Atrium'
       },
       {
-        day: 'Wed.',
+        day: 'Tues.',
         time: '9:00 &ndash; 11:00am',
         location: 'KEC Atrium'
       }
