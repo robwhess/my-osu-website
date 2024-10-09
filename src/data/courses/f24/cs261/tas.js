@@ -8,19 +8,19 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '10:30 &ndash; 12:30pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
       },
       {
         day: 'Thurs.',
         time: '10:30 &ndash; 12:30pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
       }
     ],
     gradingHours: [
       {
         day: 'Fri.',
         time: '11:30 &ndash; 1:30pm',
-        location: 'TBD',
+        location: 'KEC Atrium',
       }
     ]
   },
@@ -33,19 +33,19 @@ const taInfo = [
       {
         day: 'Tues.',
         time: '2:30 &ndash; 4:30pm',
-        location: 'TBD',
+        location: 'Valley Library 5562',
       },
       {
         day: 'Fri.',
         time: '12:00 &ndash; 2:00pm',
-        location: 'TBD',
+        location: 'Valley Library 5562',
       }
     ],
     gradingHours: [
       {
         day: 'Wed.',
         time: '4:30 &ndash; 6:30pm',
-        location: 'TBD',
+        location: 'Valley Library 5562',
       }
     ]
   },
@@ -55,19 +55,18 @@ const taInfo = [
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/94167515520?pwd=ZC9mM3pXVnJBRHUrdmJpUmY5VUVMUT09',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
-      // {
-      //   day: 'Thurs.',
-      //   time: '8:00 &ndash; 11:00am',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/94167515520?pwd=ZC9mM3pXVnJBRHUrdmJpUmY5VUVMUT09'
-      // }
+      {
+        day: 'Fri.',
+        time: '12:00 &ndash; 4:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Fri.',
-      //   time: '5:00 &ndash; 8:00',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Thurs.',
+        time: '12:00 &ndash; 2:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
