@@ -30,11 +30,11 @@ const courseDetails = {
   ],
 
   links: [
-    // {
-    //   title: 'CS 261 grading demo appointments',
-    //   link: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
-    //   description: 'use this page to sign up for grading demos for all assignments'
-    // },
+    {
+      title: 'CS 261 grading demo appointments',
+      link: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
+      description: 'use this page to sign up for grading demos for all assignments'
+    },
     {
       title: 'CS 261 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1976267',
