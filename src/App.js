@@ -69,6 +69,11 @@ const globalStyles = css`
     font-size: 18px;
     background-color: #efefef;
     color: #222;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: #222222;
+      color: #fff;
+    }
   }
 
   * {
@@ -90,11 +95,15 @@ const globalStyles = css`
   h3 {
     font-size: 30px;
     color: #666;
+
+    @media (prefers-color-scheme: dark) {
+      color: #ddd;
+    }
   }
 
   a {
     text-decoration: none;
-    color: #d54f1e;
+    color: #e54f1d;
 
     &:hover {
       text-decoration: underline;
