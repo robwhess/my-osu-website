@@ -122,7 +122,6 @@ const topics = [
   {
     title: 'Dynamic Arrays and Linked Lists',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

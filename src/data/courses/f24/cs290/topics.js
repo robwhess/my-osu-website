@@ -123,16 +123,17 @@ const topics = [
   {
     title: 'JavaScript Fundamentals',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f23/js-fundamentals',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f24/js-fundamentals',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
