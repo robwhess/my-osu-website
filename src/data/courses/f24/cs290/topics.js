@@ -74,7 +74,6 @@ const topics = [
   {
     title: 'CSS',
     weeks: [ 2, 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -152,16 +151,17 @@ const topics = [
   {
     title: 'Client-Side JS: DOM Manipulation',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f23/js-dom-manipulation',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f24/js-dom-manipulation',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
