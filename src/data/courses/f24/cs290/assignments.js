@@ -41,7 +41,7 @@ const assignments = {
       // },
       notes: [
         'Preferred deadline: **Tuesday, 11/12/2024, 11:59pm**',
-        'Extension deadline: **Wednesday, 11/13/2024, 11:59pm** (no submissions after this)',
+        'Extension deadline: ~~Wednesday, 11/13/2024~~ **Thursday, 11/14/2024, 11:59pm** (no submissions after this)',
         'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
         'Grading demo due: **Monday 11/25/2024, 11:59pm**',
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
