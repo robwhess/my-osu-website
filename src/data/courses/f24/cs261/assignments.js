@@ -29,18 +29,20 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Binary search trees',
-    //   due: {
-    //     day: 'Monday, 11/20/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Friday 12/8/2023',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/7BrD8xhE',
+      title: 'Assignment 3 &ndash; Binary search trees',
+      // due: {
+      //   day: 'Monday, 11/20/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 11/18/2024, 11:59pm**',
+        'Extension deadline: **Wednesday, 11/20/2024, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 12/2/2024, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Priority queues',
