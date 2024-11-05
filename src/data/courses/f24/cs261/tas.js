@@ -2,25 +2,28 @@ const taInfo = [
   {
     name: 'Jinwoo Baek',
     email: 'baekji@oregonstate.edu',
-    // videoConferenceLink: 'https://oregonstate.zoom.us/j/94167515520?pwd=ZC9mM3pXVnJBRHUrdmJpUmY5VUVMUT09',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/5041836199?pwd=RjMxZnBWWnp0T3RySVJSb3BNYnpFUT09',
     appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
       {
         day: 'Tues.',
         time: '10:30 &ndash; 12:30pm',
-        location: 'KEC Atrium',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/5041836199?pwd=RjMxZnBWWnp0T3RySVJSb3BNYnpFUT09'
       },
       {
         day: 'Thurs.',
         time: '10:30 &ndash; 12:30pm',
-        location: 'KEC Atrium',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/5041836199?pwd=RjMxZnBWWnp0T3RySVJSb3BNYnpFUT09'
       }
     ],
     gradingHours: [
       {
         day: 'Fri.',
         time: '11:30 &ndash; 1:30pm',
-        location: 'KEC Atrium',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/5041836199?pwd=RjMxZnBWWnp0T3RySVJSb3BNYnpFUT09'
       }
     ]
   },
