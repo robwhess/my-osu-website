@@ -178,7 +178,6 @@ const topics = [
   {
     title: 'Client-Side JS: Event Handling',
     weeks: [ 5, 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -216,16 +215,17 @@ const topics = [
   {
     title: 'Server-Side JS: Node.js Basics',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f23/node-basics',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f24/node-basics',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
