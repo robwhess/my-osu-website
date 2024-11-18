@@ -66,10 +66,10 @@ const assignments = {
     {
       link : 'https://classroom.github.com/a/LsAhM2-I',
       title: 'Assignment 5 &ndash; Web server using Express and Handlebars',
-      due: {
-        day: 'Monday, 12/4/2023',
-        time: '11:59pm'
-      },
+      // due: {
+      //   day: 'Monday, 12/4/2023',
+      //   time: '11:59pm'
+      // },
       notes: [
         'Preferred deadline: **Monday, 12/2/2024, 11:59pm**',
         'Extension deadline: **Wednesday, 12/4/2024, 11:59pm** (no submissions after this)',
