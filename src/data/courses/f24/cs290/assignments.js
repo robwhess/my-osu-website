@@ -63,19 +63,21 @@ const assignments = {
         // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 5 &ndash; Express serving and Handlebars templating',
-    //   due: {
-    //     day: 'Monday, 12/4/2023',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Code Blog link due **ON CANVAS** by assignment due date',
-    //     'Demo due by 11:59pm on Friday, 12/15/2023',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/LsAhM2-I',
+      title: 'Assignment 5 &ndash; Web server using Express and Handlebars',
+      due: {
+        day: 'Monday, 12/4/2023',
+        time: '11:59pm'
+      },
+      notes: [
+        'Preferred deadline: **Monday, 12/2/2024, 11:59pm**',
+        'Extension deadline: **Wednesday, 12/4/2024, 11:59pm** (no submissions after this)',
+        'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
+        'Grading demo due: **Friday 12/13/2024, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    }
   ],
 
   preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
