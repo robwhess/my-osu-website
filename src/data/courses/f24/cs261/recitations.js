@@ -141,7 +141,6 @@ const recitations = {
 
     {
       title: 'Week 8: BST and AVL Tree Comparison',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -150,12 +149,13 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 9: No Recitation',
-    //   notes: [
-    //     'No recitation this week due to the Thanksgiving holiday.'
-    //   ]
-    // },
+    {
+      title: 'Week 9: No Recitation',
+      isCurrent: true,
+      notes: [
+        'No recitation this week due to the Thanksgiving holiday.'
+      ]
+    },
 
     // {
     //   title: 'Week 10: Student Learning Experience Survey',
