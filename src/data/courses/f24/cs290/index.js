@@ -47,7 +47,7 @@ var courseDetails = {
     },
     {
       title: 'The CS 290 Hall of Fame',
-      link: '/teaching/hof/cs290',
+      link: '/teaching/hof/cs290#f24',
       description: 'this is a showcase of some of the very best final projects from past terms of CS 290'
     },
     {
