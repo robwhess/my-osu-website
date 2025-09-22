@@ -19,10 +19,12 @@ import f23 from './f23/';
 import w24 from './w24/';
 import sp24 from './sp24/';
 import f24 from './f24/';
+import f25 from './f25/';
 
-const currentTerm = 'f24';
+const currentTerm = 'f25';
 
 const courseData = {
+  f25: f25,
   f24: f24,
   sp24: sp24,
   w24: w24,
