@@ -1,20 +1,20 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
-    //   // due: {
-    //   //   day: 'Monday, 10/23/2023',
-    //   //   time: '11:59pm'
-    //   // },
-    //   notes: [
-    //     'Preferred deadline: **Monday, 10/21/2024, 11:59pm**',
-    //     'Extension deadline: **Wednesday, 10/23/2024, 11:59pm** (no submissions after this)',
-    //     'Grading demo due: **Monday 11/4/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/44TYFKxn',
+      title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
+      // due: {
+      //   day: 'Monday, 10/23/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 10/20/2025, 11:59pm**',
+        'Extension deadline: **Wednesday, 10/22/2025, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 11/3/2025, 11:59pm**',
+        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Stacks and queues',
