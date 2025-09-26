@@ -1,22 +1,22 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; HTML and web publishing',
-    //   // due: {
-    //   //   day: 'Monday, 10/16/2023',
-    //   //   time: '11:59pm'
-    //   // },
-    //   notes: [
-    //     'Preferred deadline: **Monday, 10/14/2024, 11:59pm**',
-    //     'Extension deadline: **Wednesday, 10/16/2024, 11:59pm** (no submissions after this)',
-    //     'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
-    //     'Grading demo due: **Monday 10/28/2024, 11:59pm**',
-    //     'Fill out [this form](https://forms.gle/h66p8fDPCSrfCn8e7) if you want your assignment repo published to GitHub Pages',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/mgkxw5ww',
+      title: 'Assignment 1 &ndash; HTML and web publishing',
+      // due: {
+      //   day: 'Monday, 10/16/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 10/13/2024, 11:59pm**',
+        'Extension deadline: **Wednesday, 10/15/2024, 11:59pm** (no submissions after this)',
+        'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
+        'Grading demo due: **Monday 10/27/2024, 11:59pm**',
+        // 'Fill out [this form](https://forms.gle/h66p8fDPCSrfCn8e7) if you want your assignment repo published to GitHub Pages',
+        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; Styling a page with CSS',
