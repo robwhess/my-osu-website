@@ -1,23 +1,103 @@
 const taInfo = [
   {
-    name: 'TBD',
-    // email: '@oregonstate.edu',
+    name: 'Jack Davison',
+    email: 'davisojs2@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
-    // officeHours: [
-    //   // {
-    //   //   day: 'Mon.',
-    //   //   time: '11:30am &ndash; 1:45pm',
-    //   //   location: 'KEC Atrium'
-    //   // },
-    // ],
-    // gradingHours: [
-    //   // {
-    //   //   day: 'Mon.',
-    //   //   time: '9:00 &ndash; 11:00am',
-    //   //   location: 'KEC Atrium'
-    //   // },
-    // ]
+    officeHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '11:30am &ndash; 1:45pm',
+      //   location: 'KEC Atrium'
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '9:00 &ndash; 11:00am',
+      //   location: 'KEC Atrium'
+      // },
+    ]
+  },
+  {
+    name: 'Stanley Eng',
+    email: 'engst@oregonstate.edu',
+    // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
+    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    officeHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '11:30am &ndash; 1:45pm',
+      //   location: 'KEC Atrium'
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '9:00 &ndash; 11:00am',
+      //   location: 'KEC Atrium'
+      // },
+    ]
+  },
+  {
+    name: 'Daniel Lee',
+    email: 'leed22@oregonstate.edu',
+    // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
+    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    officeHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '11:30am &ndash; 1:45pm',
+      //   location: 'KEC Atrium'
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '9:00 &ndash; 11:00am',
+      //   location: 'KEC Atrium'
+      // },
+    ]
+  },
+  {
+    name: 'Anthony Silva',
+    email: 'silvanth@oregonstate.edu',
+    // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
+    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    officeHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '11:30am &ndash; 1:45pm',
+      //   location: 'KEC Atrium'
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '9:00 &ndash; 11:00am',
+      //   location: 'KEC Atrium'
+      // },
+    ]
+  },
+  {
+    name: 'Tejas Srirama',
+    email: 'sriramat@oregonstate.edu',
+    // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
+    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    officeHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '11:30am &ndash; 1:45pm',
+      //   location: 'KEC Atrium'
+      // },
+    ],
+    gradingHours: [
+      // {
+      //   day: 'Mon.',
+      //   time: '9:00 &ndash; 11:00am',
+      //   location: 'KEC Atrium'
+      // },
+    ]
   }
 ];
 
