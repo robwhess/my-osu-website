@@ -23,7 +23,6 @@ const topics = [
   {
     title: 'Git and GitHub',
     weeks: [ 0, 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -62,6 +61,7 @@ const topics = [
   {
     title: 'C Basics',
     weeks: [ 1, 2, 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -69,7 +69,7 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/osu-cs261-f24/c-basics',
+        link: 'https://github.com/osu-cs261-f25/c-basics',
         description: 'code written in lecture'
       },
       // {

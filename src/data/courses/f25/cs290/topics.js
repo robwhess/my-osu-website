@@ -13,12 +13,16 @@ const topics = [
   {
     title: 'Git and GitHub',
     weeks: [ 1 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1HSD5Sy8Q4SAZ-gL1GvptUmj_zWda1m-bkzQ_PDRnic4/edit?usp=sharing'
       },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/1GKGS75gSQh2Yw-MEXcfaW2nEKKIDD-YA/view?usp=sharing',
+        description: 'drawings from lecture'
+      }
     ],
     readings: [
       {
@@ -52,6 +56,7 @@ const topics = [
   {
     title: 'HTML',
     weeks: [ 1 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -59,7 +64,7 @@ const topics = [
       },
       {
         title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/html',
+        link: 'https://github.com/osu-cs290-f25/html',
         description: 'GitHub repo for code written in lecture'
       }
     ],
@@ -80,11 +85,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1DTpjDB2K4EF2sz4MwhPOYfC8CUhpZn9ykEVkwNZY8wM/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/css',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/css',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -128,11 +133,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/js-fundamentals',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/js-fundamentals',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -156,11 +161,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/12YeS7-5BSKc3gB21s4fJ6-NPeYO6qkiGcLYzNDyTlV8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/js-dom-manipulation',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/js-dom-manipulation',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -184,11 +189,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1KCjkNZZlYDHGcahfJQzyTsCSr21kGkXZJjOkmTJEVd4/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/js-events',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/js-events',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
       {
         title: 'JS Fiddle DOM manipulation example',
         link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
@@ -221,11 +226,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1B7APm57ol-3iwAsvN4-uhR1Eq44BcHCrmPWYTvyI3Nw/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/node-basics',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/node-basics',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -286,11 +291,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/express-serving',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/express-serving',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -329,11 +334,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/handlebars-templating',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/handlebars-templating',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -382,11 +387,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1mG9PAN18vuKIXPZXE0P4EVkOBtU9zjz4UqaIv6DnDfY/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs290-f24/user-content',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs290-f24/user-content',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
