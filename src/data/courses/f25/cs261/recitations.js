@@ -187,7 +187,7 @@ const recitations = {
         day: 'Tu',
         time: '12:00 &ndash; 1:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 203',
+        location: 'DEAR 222',
       },
       tas: [ 'Evan Baumann' ]
     },
@@ -196,7 +196,7 @@ const recitations = {
         day: 'Tu',
         time: '4:00 &ndash; 5:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 203',
+        location: 'DEAR 222',
       },
       tas: [ 'Gabriel de Leon' ]
     },
@@ -205,7 +205,7 @@ const recitations = {
         day: 'W',
         time: '12:00 &ndash; 1:50pm',
         timeZone: 'US/Pacific',
-        location: 'DEAR 203',
+        location: 'DEAR 222',
       },
       tas: [ 'Logan Bachman' ]
     },
@@ -214,7 +214,7 @@ const recitations = {
         day: 'W',
         time: '8:00 &ndash; 9:50am',
         timeZone: 'US/Pacific',
-        location: 'DEAR 203',
+        location: 'DEAR 222',
       },
       tas: [ 'Evan Baumann', 'Gabriel de Leon' ]
     }
