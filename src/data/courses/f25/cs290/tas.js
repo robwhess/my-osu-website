@@ -21,7 +21,7 @@ const taInfo = [
     gradingHours: [
       {
         day: 'Mon.',
-        time: '10:00am &ndash; 1:00pm',
+        time: '4:00 &ndash; 7:00pm',
         location: 'Zoom',
         videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09'
       },
@@ -71,7 +71,7 @@ const taInfo = [
     officeHours: [
       {
         day: 'Mon.',
-        time: '11:00am &ndash; 2:00pm',
+        time: '11:30am &ndash; 2:00pm',
         location: 'KEC Atrium'
       },
       {
