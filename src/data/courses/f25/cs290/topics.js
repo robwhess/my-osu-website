@@ -66,6 +66,11 @@ const topics = [
         title: 'Example code',
         link: 'https://github.com/osu-cs290-f25/html',
         description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Lecture doodles',
+        link: 'https://drive.google.com/file/d/10QKn8uRX-6tz8ZCV3SYHPr6CBlj2Nqpy/view?usp=sharing',
+        description: 'drawings from lecture'
       }
     ],
     readings: [
