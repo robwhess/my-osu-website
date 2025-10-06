@@ -1,7 +1,7 @@
 const taInfo = [
   {
     name: 'Jack Davison',
-    email: 'davisojs2@oregonstate.edu',
+    email: 'davisoj2@oregonstate.edu',
     videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
