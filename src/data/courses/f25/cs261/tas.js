@@ -29,22 +29,38 @@ const taInfo = [
   {
     name: 'Evan Baumann',
     email: 'baumanne@oregonstate.edu',
-    // videoConferenceLink: 'https://oregonstate.zoom.us/j/3266870667?pwd=RaJiCiIohOo4sUyncj7ba5uNeLAsOm.1',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/7469846688?pwd=ekFMeWxhSnpYREduaE1tN0ZTOGpxdz09',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
-      // {
-      //   day: 'Fri.',
-      //   time: '12:00 &ndash; 4:00pm',
-      //   location: 'KEC Atrium'
-      // }
+      {
+        day: 'Mon.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/7469846688?pwd=ekFMeWxhSnpYREduaE1tN0ZTOGpxdz09'
+      },
+      {
+        day: 'Tues.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/7469846688?pwd=ekFMeWxhSnpYREduaE1tN0ZTOGpxdz09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Thurs.',
-      //   time: '12:00 &ndash; 2:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/3266870667?pwd=RaJiCiIohOo4sUyncj7ba5uNeLAsOm.1'
-      // }
+      {
+        day: 'Mon.',
+        time: '11:00 &ndash; 11:50am',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Tues.',
+        time: '10:30 &ndash; 11:50am',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Wed.',
+        time: '11:00 &ndash; 11:50am',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
