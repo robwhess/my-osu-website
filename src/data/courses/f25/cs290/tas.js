@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Jack Davison',
     email: 'davisoj2@oregonstate.edu',
     videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Wed.',
@@ -37,7 +37,7 @@ const taInfo = [
     name: 'Stanley Eng',
     email: 'engst@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Wed.',
@@ -67,7 +67,7 @@ const taInfo = [
     name: 'Daniel Lee',
     email: 'leed22@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Mon.',
@@ -92,7 +92,7 @@ const taInfo = [
     name: 'Anthony Silva',
     email: 'silvanth@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Wed.',
@@ -117,7 +117,7 @@ const taInfo = [
     name: 'Tejas Srirama',
     email: 'sriramat@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/9832138107?pwd=UWNybHRoV2FUUFJrNGtlYnplWjhlUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Tues.',

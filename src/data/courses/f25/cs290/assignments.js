@@ -13,8 +13,8 @@ const assignments = {
         'Extension deadline: **Wednesday, 10/15/2024, 11:59pm** (no submissions after this)',
         'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
         'Grading demo due: **Monday 10/27/2024, 11:59pm**',
-        // 'Fill out [this form](https://forms.gle/h66p8fDPCSrfCn8e7) if you want your assignment repo published to GitHub Pages',
-        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        'Fill out [this form](https://forms.gle/pqriSyYV9dtQuPQZ7) if you want your assignment repo published to GitHub Pages',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
     // {
@@ -29,7 +29,7 @@ const assignments = {
     //     'Extension deadline: **Wednesday, 10/30/2024, 11:59pm** (no submissions after this)',
     //     'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
     //     'Grading demo due: **Tuesday 11/12/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -44,7 +44,7 @@ const assignments = {
     //     'Extension deadline: ~~Wednesday, 11/13/2024~~ **Thursday, 11/14/2024, 11:59pm** (no submissions after this)',
     //     'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
     //     'Grading demo due: **Monday 11/25/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -60,7 +60,7 @@ const assignments = {
     //     // 'Extension deadline: ~~Wednesday, 11/13/2024~~ **Thursday, 11/14/2024, 11:59pm** (no submissions after this)',
     //     // 'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
     //     // 'Grading demo due: **Monday 11/25/2024, 11:59pm**',
-    //     // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     // '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -75,7 +75,7 @@ const assignments = {
     //     'Extension deadline: **Wednesday, 12/4/2024, 11:59pm** (no submissions after this)',
     //     'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
     //     'Grading demo due: **Friday 12/13/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS290@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // }
   ],
