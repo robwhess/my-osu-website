@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Logan Bachman',
     email: 'bachmanl@oregonstate.edu',
     // videoConferenceLink: 'https://oregonstate.zoom.us/j/3266870667?pwd=RaJiCiIohOo4sUyncj7ba5uNeLAsOm.1',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Thurs.',
@@ -30,7 +30,7 @@ const taInfo = [
     name: 'Evan Baumann',
     email: 'baumanne@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/7469846688?pwd=ekFMeWxhSnpYREduaE1tN0ZTOGpxdz09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Mon.',
@@ -67,7 +67,7 @@ const taInfo = [
     name: 'Gabriel de Leon',
     email: 'deleong@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/3266870667?pwd=RaJiCiIohOo4sUyncj7ba5uNeLAsOm.1',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Tues.',
@@ -99,7 +99,7 @@ const taInfo = [
     name: 'Bryan Partida',
     email: 'partidab@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/93969987055?pwd=8P4WZ0EAq11TBjxGa2MKunaRWpc85x.1',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Tues.',

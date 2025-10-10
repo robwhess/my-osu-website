@@ -12,7 +12,7 @@ const assignments = {
         'Preferred deadline: **Monday, 10/20/2025, 11:59pm**',
         'Extension deadline: **Wednesday, 10/22/2025, 11:59pm** (no submissions after this)',
         'Grading demo due: **Monday 11/3/2025, 11:59pm**',
-        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
     // {
@@ -26,7 +26,7 @@ const assignments = {
     //     'Preferred deadline: **Monday, 11/4/2024, 11:59pm**',
     //     'Extension deadline: **Wednesday, 11/6/2024, 11:59pm** (no submissions after this)',
     //     'Grading demo due: **Monday 11/18/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -40,7 +40,7 @@ const assignments = {
     //     'Preferred deadline: **Monday, 11/18/2024, 11:59pm**',
     //     'Extension deadline: **Wednesday, 11/20/2024, 11:59pm** (no submissions after this)',
     //     'Grading demo due: **Monday 12/2/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -54,7 +54,7 @@ const assignments = {
     //     'Preferred deadline: **Monday, 12/2/2024, 11:59pm**',
     //     'Extension deadline: **Wednesday, 12/4/2024, 11:59pm** (no submissions after this)',
     //     'Grading demo due: **Friday 12/13/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS261@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // }
   ],
