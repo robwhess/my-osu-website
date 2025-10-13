@@ -115,7 +115,7 @@ const taInfo = [
       },
       {
         day: 'Fri.',
-        time: '8:00 &ndash; 10:00am',
+        time: '8:00 &ndash; 9:30am',
         location: 'Zoom',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/93969987055?pwd=8P4WZ0EAq11TBjxGa2MKunaRWpc85x.1'
       }
