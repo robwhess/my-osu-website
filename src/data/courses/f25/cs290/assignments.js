@@ -9,29 +9,29 @@ const assignments = {
       //   time: '11:59pm'
       // },
       notes: [
-        'Preferred deadline: **Monday, 10/13/2024, 11:59pm**',
-        'Extension deadline: **Wednesday, 10/15/2024, 11:59pm** (no submissions after this)',
+        'Preferred deadline: **Monday, 10/13/2025, 11:59pm**',
+        'Extension deadline: **Wednesday, 10/15/2025, 11:59pm** (no submissions after this)',
         'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
-        'Grading demo due: **Monday 10/27/2024, 11:59pm**',
+        'Grading demo due: **Monday 10/27/2025, 11:59pm**',
         'Fill out [this form](https://forms.gle/pqriSyYV9dtQuPQZ7) if you want your assignment repo published to GitHub Pages',
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; Styling a page with CSS',
-    //   // due: {
-    //   //   day: 'Monday, 10/30/2023',
-    //   //   time: '11:59pm'
-    //   // },
-    //   notes: [
-    //     'Preferred deadline: **Monday, 10/28/2024, 11:59pm**',
-    //     'Extension deadline: **Wednesday, 10/30/2024, 11:59pm** (no submissions after this)',
-    //     'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
-    //     'Grading demo due: **Tuesday 11/12/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/HlQRaCaN',
+      title: 'Assignment 2 &ndash; Styling a page with CSS',
+      // due: {
+      //   day: 'Monday, 10/30/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 10/27/2025, 11:59pm**',
+        'Extension deadline: **Wednesday, 10/29/2025, 11:59pm** (no submissions after this)',
+        'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
+        'Grading demo due: **Monday 11/10/2025, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Client-side JS',
