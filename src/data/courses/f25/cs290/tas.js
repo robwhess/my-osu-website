@@ -2,20 +2,20 @@ const taInfo = [
   {
     name: 'Jack Davison',
     email: 'davisoj2@oregonstate.edu',
-    videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/9967314615?pwd=pK4Xr4d3YIYFbhafRvpAaeswrb7pFl.1',
     appointmentsLink: 'https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Wed.',
         time: '10:00am &ndash; 1:00pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9967314615?pwd=pK4Xr4d3YIYFbhafRvpAaeswrb7pFl.1'
       },
       {
         day: 'Fri.',
         time: '1:30 &ndash; 3:30pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9967314615?pwd=pK4Xr4d3YIYFbhafRvpAaeswrb7pFl.1'
       }
     ],
     gradingHours: [
@@ -23,13 +23,13 @@ const taInfo = [
         day: 'Mon.',
         time: '4:00 &ndash; 7:00pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9967314615?pwd=pK4Xr4d3YIYFbhafRvpAaeswrb7pFl.1'
       },
       {
         day: 'Tues.',
         time: '4:30 &ndash; 6:30pm',
         location: 'Zoom',
-        videoConferenceLink: 'https://us04web.zoom.us/j/8715216314?pwd=TjVOM040Qzl0NjJ6MjNQYWdmNElKZz09'
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/9967314615?pwd=pK4Xr4d3YIYFbhafRvpAaeswrb7pFl.1'
       }
     ]
   },
