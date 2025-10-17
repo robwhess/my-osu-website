@@ -69,7 +69,6 @@ const recitations = {
 
     {
       title: 'Week 3: C Pointers and Memory Allocation',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
@@ -80,6 +79,22 @@ const recitations = {
           title: 'prog1.c and prog2.c',
           link: 'https://gist.github.com/robwhess/5b102e5f7dbaad3f51b48cd7ef9ac7a5',
           description: 'This GitHub Gist contains the two C programs you\'ll have to analyze for this week\'s recitation exercise.'
+        }
+      ]
+    },
+
+    {
+      title: 'Week 4: Recursion',
+      isCurrent: true,
+      resources: [
+        {
+          title: 'Recitation exercise worksheet',
+          link: 'https://docs.google.com/document/d/1TT1AYFuvWOCFZ73EEY7lvpbZKOp2bxnoSHoHWj3d6Ho/edit?usp=sharing'
+        },
+        {
+          title: 'Recitation exercise code',
+          link: 'https://github.com/osu-cs261-f25/recitation-4',
+          description: 'This GitHub repo contains the starter code you\'ll work with for this week\'s recitation exercise.'
         }
       ]
     },
@@ -121,21 +136,6 @@ const recitations = {
     //     {
     //       title: 'Recitation exercise worksheet',
     //       link: 'https://docs.google.com/document/d/18regEBb0IVD4mu1ek4B9t75aFZIzgqDSuCUgaLV6h_I/edit?usp=sharing'
-    //     }
-    //   ]
-    // },
-
-    // {
-    //   title: 'Week 7: Recursion',
-    //   resources: [
-    //     {
-    //       title: 'Recitation exercise worksheet',
-    //       link: 'https://docs.google.com/document/d/1TT1AYFuvWOCFZ73EEY7lvpbZKOp2bxnoSHoHWj3d6Ho/edit?usp=sharing'
-    //     },
-    //     {
-    //       title: 'Recitation exercise code',
-    //       link: 'https://github.com/osu-cs261-f24/recitation-7',
-    //       description: 'This GitHub repo contains the starter code you\'ll work with for this week\'s recitation exercise.'
     //     }
     //   ]
     // },
