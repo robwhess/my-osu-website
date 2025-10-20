@@ -131,18 +131,48 @@ const topics = [
   },
 
   {
+    title: 'Tying Things Together: Design with HTML and CSS',
+    weeks: [ 4 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1ladi53ERLURTStzCijSEvbgst5nGh11bc9_VHonawTc/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f25/ttt-cards',
+        description: 'GitHub repo for code written in lecture'
+      }
+    ],
+    readings: [
+      {
+        title: 'Layout Cookbook - Card',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card',
+        description: 'MDN'
+      },
+      {
+        title: 'How to Make a Media Query-less responsive Card Component',
+        link: 'https://css-tricks.com/how-to-make-a-media-query-less-card-component/',
+        description: 'CSS Tricks'
+      },
+    ]
+  },
+
+  {
     title: 'JavaScript Fundamentals',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1C5fgsWQjTaPDOyqjecMZ2d554iOePCrDcZ5nzUykG_U/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f24/js-fundamentals',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f25/js-fundamentals',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
