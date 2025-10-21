@@ -15,20 +15,20 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; Stacks and queues',
-    //   // due: {
-    //   //   day: 'Monday, 11/6/2023',
-    //   //   time: '11:59pm'
-    //   // },
-    //   notes: [
-    //     'Preferred deadline: **Monday, 11/4/2024, 11:59pm**',
-    //     'Extension deadline: **Wednesday, 11/6/2024, 11:59pm** (no submissions after this)',
-    //     'Grading demo due: **Monday 11/18/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/T2bEqrhy',
+      title: 'Assignment 2 &ndash; Stacks and queues',
+      // due: {
+      //   day: 'Monday, 11/6/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 11/3/2025, 11:59pm**',
+        'Extension deadline: **Wednesday, 11/5/2025, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 11/15/2025, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Binary search trees',
