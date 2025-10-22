@@ -84,7 +84,6 @@ const topics = [
   {
     title: 'CSS',
     weeks: [ 2, 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -133,7 +132,6 @@ const topics = [
   {
     title: 'Tying Things Together: Design with HTML and CSS',
     weeks: [ 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -229,10 +227,6 @@ const topics = [
       //   link: 'https://github.com/osu-cs290-f24/js-events',
       //   description: 'GitHub repo for code written in lecture'
       // },
-      {
-        title: 'JS Fiddle DOM manipulation example',
-        link: 'https://jsfiddle.net/robwhess/kmo8ksm4/'
-      }
     ],
     readings: [
       {
@@ -244,14 +238,36 @@ const topics = [
         title: 'Handling Events',
         link: 'http://eloquentjavascript.net/14_event.html',
         description: 'Eloquent Javascript (Chapter 14)'
-      },
-      {
-        title: 'Forms and Fields',
-        link: 'http://eloquentjavascript.net/18_forms.html',
-        description: 'Eloquent Javascript (Chapter 18)'
       }
     ]
   },
+
+  // {
+  //   title: 'Tying Things Together: A JS-Powered Client App',
+  //   weeks: [ 6 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1j3G4o9txHEbkBXXWcJQY95SPfuSm16WrLfMYYoCrrtA/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs290-f25/ttt-cards',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // },
+  //     {
+  //       title: 'Codepen app implementation',
+  //       link: 'https://codepen.io/robwhess/pen/Ggoxgmy'
+  //     }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Forms and Fields',
+  //       link: 'http://eloquentjavascript.net/18_forms.html',
+  //       description: 'Eloquent Javascript (Chapter 18)'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'Server-Side JS: Node.js Basics',
