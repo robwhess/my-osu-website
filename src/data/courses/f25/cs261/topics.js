@@ -160,7 +160,6 @@ const topics = [
   {
     title: 'Complexity Analysis (Big O)',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -195,6 +194,7 @@ const topics = [
   {
     title: 'Stacks, Queues, and Deques',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
