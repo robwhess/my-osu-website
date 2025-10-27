@@ -209,7 +209,7 @@ const recitations = {
       },
       tas: [ 'Logan Bachman' ]
     },
-    '001H': {
+    '010H': {
       meeting: {
         day: 'W',
         time: '8:00 &ndash; 9:50am',
