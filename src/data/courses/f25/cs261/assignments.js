@@ -25,7 +25,7 @@ const assignments = {
       notes: [
         'Preferred deadline: **Monday, 11/3/2025, 11:59pm**',
         'Extension deadline: **Wednesday, 11/5/2025, 11:59pm** (no submissions after this)',
-        'Grading demo due: **Monday 11/15/2025, 11:59pm**',
+        'Grading demo due: **Monday 11/17/2025, 11:59pm**',
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },

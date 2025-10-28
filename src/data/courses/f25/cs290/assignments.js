@@ -32,21 +32,21 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; Client-side JS',
-    //   // due: {
-    //   //   day: 'Monday, 11/13/2023',
-    //   //   time: '11:59pm'
-    //   // },
-    //   notes: [
-    //     'Preferred deadline: **Tuesday, 11/12/2024, 11:59pm**',
-    //     'Extension deadline: ~~Wednesday, 11/13/2024~~ **Thursday, 11/14/2024, 11:59pm** (no submissions after this)',
-    //     'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
-    //     'Grading demo due: **Monday 11/25/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/HBNgxFln',
+      title: 'Assignment 3 &ndash; Client-side JS',
+      // due: {
+      //   day: 'Monday, 11/13/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 11/10/2025, 11:59pm**',
+        'Extension deadline: **Wednesday, 11/12/2025** (no submissions after this)',
+        'Assignment and Code Blog entry due at the same time.  **Submit Code Blog link on Canvas.**',
+        'Grading demo due: **Monday 11/24/2025, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS290@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; Simple Node.js-based server',
