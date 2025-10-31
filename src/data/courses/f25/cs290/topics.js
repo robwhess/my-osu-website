@@ -242,32 +242,33 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Tying Things Together: A JS-Powered Client App',
-  //   weeks: [ 6 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1j3G4o9txHEbkBXXWcJQY95SPfuSm16WrLfMYYoCrrtA/edit?usp=sharing'
-  //     },
-  //     // {
-  //     //   title: 'Example code',
-  //     //   link: 'https://github.com/osu-cs290-f25/ttt-cards',
-  //     //   description: 'GitHub repo for code written in lecture'
-  //     // },
-  //     {
-  //       title: 'Codepen app implementation',
-  //       link: 'https://codepen.io/robwhess/pen/Ggoxgmy'
-  //     }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'Forms and Fields',
-  //       link: 'http://eloquentjavascript.net/18_forms.html',
-  //       description: 'Eloquent Javascript (Chapter 18)'
-  //     }
-  //   ]
-  // },
+  {
+    title: 'Tying Things Together: A JS-Powered Client App',
+    weeks: [ 6 ],
+    isCurrent: true,
+    resources: [
+      {
+        title: 'Lecture notes',
+        link: 'https://docs.google.com/document/d/1j3G4o9txHEbkBXXWcJQY95SPfuSm16WrLfMYYoCrrtA/edit?usp=sharing'
+      },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f25/ttt-words',
+        description: 'GitHub repo for code written in lecture'
+      },
+      {
+        title: 'Codepen app implementation',
+        link: 'https://codepen.io/robwhess/pen/Ggoxgmy'
+      }
+    ],
+    readings: [
+      {
+        title: 'Forms and Fields',
+        link: 'http://eloquentjavascript.net/18_forms.html',
+        description: 'Eloquent Javascript (Chapter 18)'
+      }
+    ]
+  },
 
   {
     title: 'Server-Side JS: Node.js Basics',
