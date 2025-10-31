@@ -188,7 +188,6 @@ const topics = [
   {
     title: 'Client-Side JS: DOM Manipulation',
     weeks: [ 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
