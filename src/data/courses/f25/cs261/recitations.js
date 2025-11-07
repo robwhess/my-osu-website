@@ -131,12 +131,19 @@ const recitations = {
 
     {
       title: 'Week 6: Stack and Queue Job Interview Questions',
-      isCurrent: true,
       resources: [
         {
           title: 'Recitation exercise worksheet',
           link: 'https://docs.google.com/document/d/18regEBb0IVD4mu1ek4B9t75aFZIzgqDSuCUgaLV6h_I/edit?usp=sharing'
         }
+      ]
+    },
+
+    {
+      title: 'Week 7: No Recitation',
+      isCurrent: true,
+      notes: [
+        'No recitation this week due to the Veterans Day holiday.'
       ]
     },
 
