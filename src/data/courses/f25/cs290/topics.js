@@ -301,7 +301,7 @@ const topics = [
       },
       {
         title: 'Anatomy of an HTTP Transaction',
-        link: 'https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/',
+        link: 'https://nodejs.org/en/learn/http/anatomy-of-an-http-transaction',
         description: 'Node.js docs'
       }
     ]
