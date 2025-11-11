@@ -244,7 +244,6 @@ const topics = [
   {
     title: 'Tying Things Together: A JS-Powered Client App',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
