@@ -10,7 +10,7 @@ const finalProject = {
       link: 'https://docs.google.com/document/d/1L8-O8WwXVZ4XJGXs4uhuk8A0HLGZjGcL_6PQR0YEDfk/edit?usp=sharing',
       due: {
         time: '11:59pm',
-        day: 'Friday, 11/14/2025',
+        day: '~~Friday, 11/14/2025~~ **Monday, 11/17/2025**',
         location: 'on Canvas'
       },
       notes: [
