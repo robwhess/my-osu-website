@@ -271,7 +271,6 @@ const topics = [
   {
     title: 'Server-Side JS: Node.js Basics',
     weeks: [ 6, 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -309,6 +308,7 @@ const topics = [
   {
     title: 'Server-Side JS: Packages and npm',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -337,16 +337,17 @@ const topics = [
   {
     title: 'Server-Side JS: Serving with Express',
     weeks: [ 7, 8 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1hMtoRhCPMzuiw5uR1E92S6B0rVEQR869V2ZbDb4UQoM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f24/express-serving',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f25/express-serving',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
@@ -464,6 +465,11 @@ const topics = [
         title: 'How To Use EJS to Template Your Node Application',
         link: 'https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application',
         description: 'Chris Sev and Andy Hattemer (DigitalOcean Tutorials)'
+      },
+      {
+        title: 'npm scripts',
+        link: 'https://docs.npmjs.com/cli/using-npm/scripts',
+        description: 'npm docs'
       }
     ]
   },
