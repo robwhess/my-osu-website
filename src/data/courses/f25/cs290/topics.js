@@ -308,7 +308,6 @@ const topics = [
   {
     title: 'Server-Side JS: Packages and npm',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -378,72 +377,20 @@ const topics = [
     ]
   },
 
-  // {
-  //   title: 'Dynamically Rendering Content with Handlebars',
-  //   weeks: [ 8, 9 ],
-  //   resources: [
-  //     {
-  //       title: 'Lecture notes',
-  //       link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
-  //     },
-  //     // {
-  //     //   title: 'Example code',
-  //     //   link: 'https://github.com/osu-cs290-f24/handlebars-templating',
-  //     //   description: 'GitHub repo for code written in lecture'
-  //     // }
-  //   ],
-  //   readings: [
-  //     {
-  //       title: 'A Beginner\'s Guide to Handlebars',
-  //       link: 'https://www.sitepoint.com/a-beginners-guide-to-handlebars/',
-  //       description: 'sitepoint'
-  //     },
-  //     {
-  //       title: 'Handlebars Introduction',
-  //       link: 'https://handlebarsjs.com/guide/',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Built-In Helpers',
-  //       link: 'https://handlebarsjs.com/guide/builtin-helpers.html',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Partials',
-  //       link: 'https://handlebarsjs.com/guide/partials.html',
-  //       description: 'Handlebars docs'
-  //     },
-  //     {
-  //       title: 'Express Handlebars',
-  //       link: 'https://github.com/ericf/express-handlebars/#readme',
-  //       description: 'On GitHub'
-  //     },
-  //     {
-  //       title: 'Using template engines with Express',
-  //       link: 'http://expressjs.com/en/guide/using-template-engines.html',
-  //       description: 'Express docs'
-  //     },
-  //     {
-  //       title: 'Model-view-controller',
-  //       link: 'https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller',
-  //       description: 'Wikipedia'
-  //     }
-  //   ]
-  // },
-
   {
     title: 'Dynamically Rendering Content with EJS',
     weeks: [ 8, 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1wrAQ9Gm4Jy4xNoenjDXIATW9GhjUIFvNibbTZpzUkKY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs290-f24/handlebars-templating',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs290-f25/ejs-dynamic-content',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
@@ -543,7 +490,60 @@ const topics = [
         description: 'MongoDB docs'
       }
     ]
-  }
+  },
+
+  // {
+  //   title: 'Dynamically Rendering Content with Handlebars',
+  //   weeks: [ 8, 9 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1Q8T6Q2sxPCfuUcKgaCSvONEXaAVBuca_wrd59iWhgQs/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs290-f24/handlebars-templating',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'A Beginner\'s Guide to Handlebars',
+  //       link: 'https://www.sitepoint.com/a-beginners-guide-to-handlebars/',
+  //       description: 'sitepoint'
+  //     },
+  //     {
+  //       title: 'Handlebars Introduction',
+  //       link: 'https://handlebarsjs.com/guide/',
+  //       description: 'Handlebars docs'
+  //     },
+  //     {
+  //       title: 'Built-In Helpers',
+  //       link: 'https://handlebarsjs.com/guide/builtin-helpers.html',
+  //       description: 'Handlebars docs'
+  //     },
+  //     {
+  //       title: 'Partials',
+  //       link: 'https://handlebarsjs.com/guide/partials.html',
+  //       description: 'Handlebars docs'
+  //     },
+  //     {
+  //       title: 'Express Handlebars',
+  //       link: 'https://github.com/ericf/express-handlebars/#readme',
+  //       description: 'On GitHub'
+  //     },
+  //     {
+  //       title: 'Using template engines with Express',
+  //       link: 'http://expressjs.com/en/guide/using-template-engines.html',
+  //       description: 'Express docs'
+  //     },
+  //     {
+  //       title: 'Model-view-controller',
+  //       link: 'https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller',
+  //       description: 'Wikipedia'
+  //     }
+  //   ]
+  // },
 ];
 
 export default topics;
