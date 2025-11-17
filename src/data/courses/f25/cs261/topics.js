@@ -400,6 +400,7 @@ const topics = [
   {
     title: 'Priority Queues and Heaps',
     weeks: [ 8, 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
