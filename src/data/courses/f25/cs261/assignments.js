@@ -43,20 +43,20 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Priority queues',
-    //   // due: {
-    //   //   day: 'Monday, 12/4/2023',
-    //   //   time: '11:59pm'
-    //   // },
-    //   notes: [
-    //     'Preferred deadline: **Monday, 12/2/2024, 11:59pm**',
-    //     'Extension deadline: **Wednesday, 12/4/2024, 11:59pm** (no submissions after this)',
-    //     'Grading demo due: **Friday 12/13/2024, 11:59pm**',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/EMn2vNvU',
+      title: 'Assignment 4 &ndash; Priority queues',
+      // due: {
+      //   day: 'Monday, 12/4/2023',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 12/1/2025, 11:59pm**',
+        'Extension deadline: **Wednesday, 12/3/2025, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Friday 12/12/2025, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS261@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    }
   ],
 
   preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
