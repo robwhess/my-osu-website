@@ -363,7 +363,6 @@ const topics = [
   {
     title: 'AVL Trees',
     weeks: [ 7, 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -429,6 +428,7 @@ const topics = [
   {
     title: 'Maps and Hash Tables',
     weeks: [ 9, 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
