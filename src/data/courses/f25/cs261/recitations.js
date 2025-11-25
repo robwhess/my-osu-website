@@ -157,12 +157,12 @@ const recitations = {
       ]
     },
 
-    // {
-    //   title: 'Week 9: No Recitation',
-    //   notes: [
-    //     'No recitation this week due to the Thanksgiving holiday.'
-    //   ]
-    // },
+    {
+      title: 'Week 9: No Recitation',
+      notes: [
+        'No recitation this week due to the Thanksgiving holiday.'
+      ]
+    },
 
     // {
     //   title: 'Week 10: Student Learning Experience Survey',
