@@ -379,7 +379,6 @@ const topics = [
   {
     title: 'Dynamically Rendering Content with EJS',
     weeks: [ 8, 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
