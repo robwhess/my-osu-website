@@ -51,7 +51,7 @@ const finalProject = {
         'Code is due on GitHub at the time of your demo.',
         'Come to the demo prepared to run your project from one of your team\'s computers.',
         'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please [submit this form](https://docs.google.com/forms/d/e/1FAIpQLSeOVWTd_17yPjIIdWwJXK4AL4pj6lWJiC-Q7Y4lX_noLu5kAQ/viewform?usp=publish-editor) at least 24 hours in advance.'
+        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please [submit this form](https://docs.google.com/forms/d/e/1FAIpQLSeOVWTd_17yPjIIdWwJXK4AL4pj6lWJiC-Q7Y4lX_noLu5kAQ/viewform?usp=publish-editor) at least 24 hours in advance.  Please submit the form only once per team.'
       ]
     }
   ],
