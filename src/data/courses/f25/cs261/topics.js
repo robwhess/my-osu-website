@@ -468,7 +468,6 @@ const topics = [
   {
     title: 'Graphs',
     weeks: [ 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

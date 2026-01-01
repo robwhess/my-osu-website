@@ -117,7 +117,7 @@ function Event({ day, time, timeZone, location, link, details, videoConferenceLi
     eventElem = (
       <>
         {eventElem}
-        &nbsp;
+        &nbsp;&nbsp;
         {actionItemLinks}
       </>
     );
