@@ -473,83 +473,83 @@ const topics = [
     ]
   },
 
-  {
-    title: 'Testing and CI/CD Primer for React Apps',
-    weeks: [ 10 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1oE5a3HUQqLN25FQQs0UTqcAA3a4SlxArLPxaomr8Bb4/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs499-w22/testing-and-deployment',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
-    ],
-    readings: [
-      {
-        title: 'Testing Overview',
-        link: 'https://reactjs.org/docs/testing.html',
-        description: 'React Docs'
-      },
-      {
-        title: 'Testing Recipes',
-        link: 'https://reactjs.org/docs/testing-recipes.html',
-        description: 'React Docs'
-      },
-      {
-        title: 'Getting Started with Jest',
-        link: 'https://jestjs.io/docs/getting-started',
-        description: 'Jest Docs'
-      },
-      {
-        title: 'Testing React Apps',
-        link: 'https://jestjs.io/docs/tutorial-react',
-        description: 'Jest Docs'
-      },
-      {
-        title: 'React Testing Library Introduction',
-        link: 'https://testing-library.com/docs/react-testing-library/intro',
-        description: 'React Testing Library Docs'
-      },
-      {
-        title: 'React Testing Library Tutorial',
-        link: 'https://www.robinwieruch.de/react-testing-library/',
-        description: 'Robin Wieruch'
-      },
-      {
-        title: 'Mock Service Worker Introduction',
-        link: 'https://mswjs.io/docs/',
-        description: 'Mock Service Worker Docs'
-      },
-      {
-        title: 'Understanding GitHub Actions',
-        link: 'https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions',
-        description: 'GitHub Docs'
-      },
-      {
-        title: 'GitHub Pages Documentation',
-        link: 'https://docs.github.com/en/pages',
-        description: 'GitHub Docs'
-      },
-      {
-        title: 'Deploying Node.js Apps on Heroku',
-        link: 'https://devcenter.heroku.com/articles/deploying-nodejs',
-        description: 'Heroku Docs'
-      },
-      {
-        title: 'GitHub Integration (Heroku GitHub Deploys)',
-        link: 'https://devcenter.heroku.com/articles/github-integration',
-        description: 'Heroku Docs'
-      },
-      {
-        title: 'How to Deploy a Next.js Site with Vercel',
-        link: 'https://vercel.com/guides/deploying-nextjs-with-vercel',
-        description: 'Vercel Docs'
-      }
-    ]
-  }
+  // {
+  //   title: 'Testing and CI/CD Primer for React Apps',
+  //   weeks: [ 10 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1oE5a3HUQqLN25FQQs0UTqcAA3a4SlxArLPxaomr8Bb4/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs499-w22/testing-and-deployment',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // },
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Testing Overview',
+  //       link: 'https://reactjs.org/docs/testing.html',
+  //       description: 'React Docs'
+  //     },
+  //     {
+  //       title: 'Testing Recipes',
+  //       link: 'https://reactjs.org/docs/testing-recipes.html',
+  //       description: 'React Docs'
+  //     },
+  //     {
+  //       title: 'Getting Started with Jest',
+  //       link: 'https://jestjs.io/docs/getting-started',
+  //       description: 'Jest Docs'
+  //     },
+  //     {
+  //       title: 'Testing React Apps',
+  //       link: 'https://jestjs.io/docs/tutorial-react',
+  //       description: 'Jest Docs'
+  //     },
+  //     {
+  //       title: 'React Testing Library Introduction',
+  //       link: 'https://testing-library.com/docs/react-testing-library/intro',
+  //       description: 'React Testing Library Docs'
+  //     },
+  //     {
+  //       title: 'React Testing Library Tutorial',
+  //       link: 'https://www.robinwieruch.de/react-testing-library/',
+  //       description: 'Robin Wieruch'
+  //     },
+  //     {
+  //       title: 'Mock Service Worker Introduction',
+  //       link: 'https://mswjs.io/docs/',
+  //       description: 'Mock Service Worker Docs'
+  //     },
+  //     {
+  //       title: 'Understanding GitHub Actions',
+  //       link: 'https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions',
+  //       description: 'GitHub Docs'
+  //     },
+  //     {
+  //       title: 'GitHub Pages Documentation',
+  //       link: 'https://docs.github.com/en/pages',
+  //       description: 'GitHub Docs'
+  //     },
+  //     {
+  //       title: 'Deploying Node.js Apps on Heroku',
+  //       link: 'https://devcenter.heroku.com/articles/deploying-nodejs',
+  //       description: 'Heroku Docs'
+  //     },
+  //     {
+  //       title: 'GitHub Integration (Heroku GitHub Deploys)',
+  //       link: 'https://devcenter.heroku.com/articles/github-integration',
+  //       description: 'Heroku Docs'
+  //     },
+  //     {
+  //       title: 'How to Deploy a Next.js Site with Vercel',
+  //       link: 'https://vercel.com/guides/deploying-nextjs-with-vercel',
+  //       description: 'Vercel Docs'
+  //     }
+  //   ]
+  // }
 ];
 
 export default topics;
