@@ -52,6 +52,11 @@ const topics = [
         title: 'Describing the UI',
         link: 'https://react.dev/learn/describing-the-ui',
         description: 'React Docs'
+      },
+      {
+        title: 'Thinking in React',
+        link: 'https://react.dev/learn/thinking-in-react',
+        description: 'React Docs'
       }
     ]
   },
