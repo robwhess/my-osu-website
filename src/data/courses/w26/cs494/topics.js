@@ -31,16 +31,17 @@ const topics = [
   {
     title: 'React: JSX and Components',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14rZmZWMDETj1EIu1Oj4BZAwJhtg3grTZCXwLmDfze8k/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w24/jsx-and-components',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w26/jsx-and-components',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
@@ -49,13 +50,13 @@ const topics = [
         description: 'React Docs'
       },
       {
-        title: 'Describing the UI',
-        link: 'https://react.dev/learn/describing-the-ui',
+        title: 'Thinking in React',
+        link: 'https://react.dev/learn/thinking-in-react',
         description: 'React Docs'
       },
       {
-        title: 'Thinking in React',
-        link: 'https://react.dev/learn/thinking-in-react',
+        title: 'Describing the UI',
+        link: 'https://react.dev/learn/describing-the-ui',
         description: 'React Docs'
       }
     ]
