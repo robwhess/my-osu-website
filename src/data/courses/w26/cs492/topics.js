@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -26,26 +25,32 @@ const topics = [
   {
     title: 'Kotlin Primer',
     weeks: [ 1, 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1inGsny784QH8YwTX0kMwskfFknA3bhTJ2QZSbumdzyM/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-599-w24/kotlin-primer',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w26/kotlin-primer',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
-        title: 'Kotlin Bootcamp for Programmers',
-        link: 'https://developer.android.com/courses/kotlin-bootcamp/overview',
+        title: 'Learn Kotlin for Android',
+        link: 'https://developer.android.com/kotlin/campaign/learn',
         description: 'Android Developers'
       },
       {
-        title: 'Kotlin By Example',
-        link: 'https://play.kotlinlang.org/byExample/overview',
+        title: 'Kotlin Playground',
+        link: 'https://play.kotlinlang.org',
+        description: 'Kotlin docs'
+      },
+      {
+        title: 'Kotlin Tour',
+        link: 'https://kotlinlang.org/docs/kotlin-tour-welcome.html',
         description: 'Kotlin docs'
       },
       {
