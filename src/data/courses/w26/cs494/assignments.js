@@ -1,29 +1,32 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 0 &ndash; Familiarize yourself with Ed Discussion',
-    //   due: {
-    //     day: '~~Wednesday, 1/24/2024~~ **Monday, 1/29/2024**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Ed activity will be verified when demoing assignment 1'
-    //   ]
-    // },
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; A simple photo app',
-    //   due: {
-    //     day: '~~Wednesday, 1/24/2024~~ **Monday, 1/29/2024**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/12/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://docs.google.com/document/d/1FOHkFyjD05AIr4okxqmqyK2a8jtcLahStSZpInkBkqw/edit?usp=sharing',
+      title: 'Assignment 0 &ndash; Use Ed Discussion',
+      // due: {
+      //   day: '~~Wednesday, 1/24/2024~~ **Monday, 1/29/2024**',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Due dates are the same as assignment 1',
+        'Ed activity will be verified when demoing assignment 1'
+      ]
+    },
+    {
+      link : 'https://classroom.github.com/a/MP0leyZx',
+      title: 'Assignment 1 &ndash; A simple photo app',
+      // due: {
+      //   day: '~~Wednesday, 1/24/2024~~ **Monday, 1/29/2024**',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Tuesday, 1/20/2026, 11:59pm**',
+        'Extension deadline: **Thursday, 1/22/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 2/2/2026, 11:59pm**',
+        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; A multi-page application using React Router',
