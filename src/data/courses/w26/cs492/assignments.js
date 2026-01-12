@@ -1,18 +1,20 @@
 const assignments = {
   title: 'Assignments',
   assignments: [
-    // {
-    //   link : '',
-    //   title: 'Assignment 1 &ndash; A basic RecyclerView-based weather app',
-    //   due: {
-    //     day: '~~Wednesday, 1/31/2024~~ **Monday, 2/5/2024**',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 2/19/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/wR2qWtul',
+      title: 'Assignment 1 &ndash; A basic RecyclerView-based weather app',
+      // due: {
+      //   day: '~~Wednesday, 1/31/2024~~ **Monday, 2/5/2024**',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 1/26/2026, 11:59pm**',
+        'Extension deadline: **Wednesday, 1/28/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 2/9/2026, 11:59pm**',
+        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 2 &ndash; A lifecycle-aware weather app with internet connectivity',
