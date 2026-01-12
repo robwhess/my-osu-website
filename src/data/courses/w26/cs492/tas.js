@@ -3,19 +3,34 @@ const tas = [
     name: 'Beniamin Condrea',
     email: 'condreab@oregonstate.edu',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/96584705983?pwd=KWoiQanA1q8ovPfbiuoFZfVaktXpZ8.1',
     officeHours: [
-    //   {
-    //     day: 'Tues.',
-    //     time: '12:00 &ndash; 2:00pm',
-    //     location: 'KEC Atrium'
-    //   }
+      {
+        day: 'Mon.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96584705983?pwd=KWoiQanA1q8ovPfbiuoFZfVaktXpZ8.1',
+      },
     ],
     gradingHours: [
-    //   {
-    //     day: 'Wed.',
-    //     time: '11:00am &ndash; 2:00pm',
-    //     location: 'KEC Atrium'
-    //   }
+      {
+        day: 'Mon.',
+        time: '9:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96584705983?pwd=KWoiQanA1q8ovPfbiuoFZfVaktXpZ8.1',
+      },
+      {
+        day: 'Wed.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96584705983?pwd=KWoiQanA1q8ovPfbiuoFZfVaktXpZ8.1',
+      },
+      {
+        day: 'Fri.',
+        time: '10:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/96584705983?pwd=KWoiQanA1q8ovPfbiuoFZfVaktXpZ8.1',
+      },
     ]
   },
   {
@@ -23,37 +38,57 @@ const tas = [
     email: 'foleelli@oregonstate.edu',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
-    //   {
-    //     day: 'Tues.',
-    //     time: '12:00 &ndash; 2:00pm',
-    //     location: 'KEC Atrium'
-    //   }
+      {
+        day: 'Tues.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'KEC Atrium'
+      }
     ],
     gradingHours: [
-    //   {
-    //     day: 'Wed.',
-    //     time: '11:00am &ndash; 2:00pm',
-    //     location: 'KEC Atrium'
-    //   }
+      {
+        day: 'Mon.',
+        time: '3:00 &ndash; 5:00pm',
+        location: 'KEC Atrium'
+      },
+      {
+        day: 'Thurs.',
+        time: '2:00 &ndash; 5:00pm',
+        location: 'KEC Atrium'
+      }
     ]
   },
   {
     name: 'Shubhangi Pandey',
     email: 'pandeys@oregonstate.edu',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09',
     officeHours: [
-    //   {
-    //     day: 'Tues.',
-    //     time: '12:00 &ndash; 2:00pm',
-    //     location: 'KEC Atrium'
-    //   }
+      {
+        day: 'Tues.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      },
+      {
+        day: 'Wed.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      }
     ],
     gradingHours: [
-    //   {
-    //     day: 'Wed.',
-    //     time: '11:00am &ndash; 2:00pm',
-    //     location: 'KEC Atrium'
-    //   }
+      {
+        day: 'Tues.',
+        time: '10:00am &ndash; 3:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      },
+      {
+        day: 'Wed.',
+        time: '3:00 &ndash; 7:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      }
     ]
   }
 ];
