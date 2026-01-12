@@ -109,6 +109,7 @@ const topics = [
   {
     title: 'Getting Started with Android Studio',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -131,6 +132,7 @@ const topics = [
   {
     title: 'Our First Android App: To-Dos',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
