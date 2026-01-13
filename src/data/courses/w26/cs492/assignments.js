@@ -12,7 +12,7 @@ const assignments = {
         'Preferred deadline: **Monday, 1/26/2026, 11:59pm**',
         'Extension deadline: **Wednesday, 1/28/2026, 11:59pm** (no submissions after this)',
         'Grading demo due: **Monday 2/9/2026, 11:59pm**',
-        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
     // {
@@ -24,7 +24,7 @@ const assignments = {
     //   },
     //   notes: [
     //     'Demo due by 11:59pm, Monday 3/4/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -36,7 +36,7 @@ const assignments = {
     //   },
     //   notes: [
     //     'Demo due by 11:59pm, Monday 3/18/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)',
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)',
     //     '[Current weather deep link test](https://api.openweathermap.org/data/2.5/weather?q=Philadelphia,PA,US)',
     //     '[Five-day forecast deep link test](https://api.openweathermap.org/data/2.5/forecast?q=Philadelphia,PA,US)'
     //   ]
@@ -50,7 +50,7 @@ const assignments = {
     //   },
     //   notes: [
     //     'Demo due by 11:59pm, Friday 3/22/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS492@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // }
   ],
