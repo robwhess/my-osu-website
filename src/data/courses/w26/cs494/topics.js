@@ -1,7 +1,6 @@
 const topics = [
   {
     title: 'Course Intro',
-    isCurrent: true,
     weeks: [ 1 ],
     resources: [
       {
@@ -31,7 +30,6 @@ const topics = [
   {
     title: 'React: JSX and Components',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -65,16 +63,17 @@ const topics = [
   {
     title: 'React: From Components to Apps',
     weeks: [ 2 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1gxjgBCFZfB2cERMZEizn2_Bp8ySonFbwH_fc2id6h78/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w24/components-to-apps',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w26/components-to-apps',
+        description: 'GitHub repo for code written in lecture'
+      }
     ],
     readings: [
       {
