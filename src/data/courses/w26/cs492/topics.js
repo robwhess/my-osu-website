@@ -25,7 +25,6 @@ const topics = [
   {
     title: 'Kotlin Primer',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -109,7 +108,6 @@ const topics = [
   {
     title: 'Getting Started with Android Studio',
     weeks: [ 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -166,6 +164,7 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
