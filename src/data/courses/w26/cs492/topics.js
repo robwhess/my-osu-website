@@ -171,11 +171,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1OGRgzRL0KA3xdhmNnI8d5pcW9J1CO18tYxYFicghHH0/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-599-w24/RecyclerViewToDos',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w26/RecyclerViewTodos',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
