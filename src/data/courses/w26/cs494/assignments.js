@@ -24,7 +24,7 @@ const assignments = {
         'Preferred deadline: **Tuesday, 1/20/2026, 11:59pm**',
         'Extension deadline: **Thursday, 1/22/2026, 11:59pm** (no submissions after this)',
         'Grading demo due: **Monday 2/2/2026, 11:59pm**',
-        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS494@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
     // {
