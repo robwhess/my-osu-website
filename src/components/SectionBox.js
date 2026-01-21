@@ -10,6 +10,11 @@ const SectionBox = styled.section`
   border: 1px solid #eee;
   border-radius: 5px;
   background-color: #fff;
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid #333;
+    background-color: #434343;
+  }
 `;
 
 export default SectionBox;

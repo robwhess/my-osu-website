@@ -16,10 +16,18 @@ const AlternatingTableHeading = styled.th`
   color: #333;
   font-size: 20px;
   font-weight: 400;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: #434343;
+    color: #fff;
+  }
 `;
 
 const AlternatingTableRow = styled.tr`
   background-color: ${props => props.even ? '#fff' : '#eee'};
+  @media (prefers-color-scheme: dark) {
+    background-color: ${props => props.even ? '#434343' : '#323232'};
+  }
 `;
 
 const AlternatingTableData = styled.td`
