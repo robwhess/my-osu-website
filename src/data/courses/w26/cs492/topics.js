@@ -163,7 +163,6 @@ const topics = [
   {
     title: 'RecyclerView',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -196,7 +195,7 @@ const topics = [
 
   {
     title: 'Using Data from the Internet',
-    weeks: [ 4 ],
+    weeks: [ 4, 5 ],
     isCurrent: true,
     resources: [
       {
@@ -246,6 +245,7 @@ const topics = [
   {
     title: 'The Activity Lifecycle and the ViewModel Architecture',
     weeks: [ 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

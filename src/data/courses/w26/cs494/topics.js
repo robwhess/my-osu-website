@@ -91,7 +91,6 @@ const topics = [
   {
     title: 'Interacting with External Systems using Refs and Effects',
     weeks: [ 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -130,7 +129,6 @@ const topics = [
   {
     title: 'Client-Side Routing with React Router',
     weeks: [ 3, 4 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -168,17 +166,18 @@ const topics = [
 
   {
     title: 'Communicating with an HTTP API',
-    weeks: [ 5 ],
+    weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1d4Wmete9oVlyZfSPRxTOHY6-kQYfeVZPdPcpeKhm0Fs/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs494-w24/api-communication',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs494-w26/api-communication',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
