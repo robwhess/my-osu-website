@@ -29,20 +29,22 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; A weather app with multiple screens and user preferences',
-    //   due: {
-    //     day: 'Monday, 3/4/2024',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 3/18/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)',
-    //     '[Current weather deep link test](https://api.openweathermap.org/data/2.5/weather?q=Philadelphia,PA,US)',
-    //     '[Five-day forecast deep link test](https://api.openweathermap.org/data/2.5/forecast?q=Philadelphia,PA,US)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/2bFLJF05',
+      title: 'Assignment 3 &ndash; A weather app with multiple screens and user preferences',
+      // due: {
+      //   day: 'Monday, 3/4/2024',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 2/23/2026, 11:59pm**',
+        'Extension deadline: **Wednesday, 2/25/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 3/9/2026, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)',
+        '[Current weather deep link test](https://api.openweathermap.org/data/2.5/weather?lat=39.9528&lon=-75.1636)',
+        '[Five-day forecast deep link test](https://api.openweathermap.org/data/2.5/forecast?q=lat=39.9528&lon=-75.1636)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; A weather app with stored data and a navigation drawer',
