@@ -167,7 +167,6 @@ const topics = [
   {
     title: 'Communicating with an HTTP API',
     weeks: [ 4, 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -205,7 +204,7 @@ const topics = [
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1XgCyJ3XA7lzpaT7HN5fNY65RuqN_j6vaPrWbxq0Vjso/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1ttwm5FfIcTejL0Bi9Slb9G1EQxSm4X4bkkkHIMFoYp0/edit?usp=sharing'
       },
       {
         title: 'Example code',
@@ -225,11 +224,6 @@ const topics = [
         description: 'Emotion Docs'
       },
       {
-        title: 'Composition',
-        link: 'https://emotion.sh/docs/composition',
-        description: 'Emotion Docs'
-      },
-      {
         title: 'Nested Selectors',
         link: 'https://emotion.sh/docs/nested',
         description: 'Emotion Docs'
@@ -245,9 +239,29 @@ const topics = [
         description: 'Emotion Docs'
       },
       {
-        title: 'Styled Components',
-        link: 'https://emotion.sh/docs/styled',
-        description: 'Emotion Docs'
+        title: 'Styling with Utility Classes',
+        link: 'https://tailwindcss.com/docs/styling-with-utility-classes',
+        description: 'TailwindCSS Docs'
+      },
+      {
+        title: 'Colors',
+        link: 'https://tailwindcss.com/docs/colors',
+        description: 'TailwindCSS Docs'
+      },
+      {
+        title: 'Hover, Focus, and Other States',
+        link: 'https://tailwindcss.com/docs/hover-focus-and-other-states',
+        description: 'TailwindCSS Docs'
+      },
+      {
+        title: 'Responsive Design',
+        link: 'https://tailwindcss.com/docs/responsive-design',
+        description: 'TailwindCSS Docs'
+      },
+      {
+        title: 'Detecting Classes in Source Files',
+        link: 'https://tailwindcss.com/docs/detecting-classes-in-source-files',
+        description: 'TailwindCSS Docs'
       }
     ]
   },
