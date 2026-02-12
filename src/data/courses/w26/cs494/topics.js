@@ -262,6 +262,11 @@ const topics = [
         title: 'Detecting Classes in Source Files',
         link: 'https://tailwindcss.com/docs/detecting-classes-in-source-files',
         description: 'TailwindCSS Docs'
+      },
+      {
+        title: 'CSS Utility Classes and "Separation of Concerns"',
+        link: 'https://adamwathan.me/css-utility-classes-and-separation-of-concerns/',
+        description: 'Adam Wathan (creator of TailwindCSS)'
       }
     ]
   },
