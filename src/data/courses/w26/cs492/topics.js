@@ -292,7 +292,6 @@ const topics = [
   {
     title: 'Screens, Fragments, and the Jetpack Navigation Component',
     weeks: [ 6 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -361,16 +360,17 @@ const topics = [
   {
     title: 'Storing Settings with the Preference Library',
     weeks: [ 7 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/14c1sa_eBykec1EX1wlgJYr79IDOVsujnEJ4SiTAbYnk/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-599-w24/GitHubSearchWithSettings',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w26/SettingsGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
