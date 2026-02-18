@@ -55,18 +55,20 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS494@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; A Redux-powered shopping app',
-    //   due: {
-    //     day: 'Monday, 3/11/2024',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 5:00pm, Friday 3/22/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/)'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/WKGtS0zr',
+      title: 'Assignment 4 &ndash; A Redux-powered shopping app',
+      // due: {
+      //   day: 'Monday, 3/11/2024',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 3/2/2026, 11:59pm**',
+        'Extension deadline: **Wednesday, 3/4/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 3/16/2026, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS494@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    }
   ],
 
   preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
