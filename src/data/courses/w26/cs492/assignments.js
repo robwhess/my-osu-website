@@ -45,18 +45,20 @@ const assignments = {
         '[Five-day forecast deep link test](https://api.openweathermap.org/data/2.5/forecast?q=lat=39.9528&lon=-75.1636)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; A weather app with stored data and a navigation drawer',
-    //   due: {
-    //     day: 'Friday, 3/15/2024',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Friday 3/22/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // }
+    {
+      link : 'https://classroom.github.com/a/2jrb9WaX',
+      title: 'Assignment 4 &ndash; A weather app with stored data and a navigation drawer',
+      // due: {
+      //   day: 'Friday, 3/15/2024',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 3/9/2026, 11:59pm**',
+        'Extension deadline: **Wednesday, 3/11/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Friday 3/20/2026, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS492@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    }
   ],
   preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
 };
