@@ -441,6 +441,7 @@ const topics = [
   {
     title: 'Using the Navigation UI Library',
     weeks: [ 9 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
