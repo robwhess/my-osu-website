@@ -447,11 +447,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1tLtktp8ZHqU6A3PSb7pbWn88_rTu2d2ssx5juNDA9iY/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-599-w24/GitHubSearchWithNavUI',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w26/RoomGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
