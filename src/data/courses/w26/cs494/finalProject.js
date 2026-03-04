@@ -41,19 +41,19 @@ const finalProject = {
         'Note that this must be completed individually by every member of your team.'
       ]
     },
-    // {
-    //   title: 'Final Project Demo Signup',
-    //   link : 'https://outlook.office365.com/owa/calendar/CS494@OregonStateUniversity.onmicrosoft.com/bookings/s/dUWrBe1LCEq41EeFcXlyXQ2',
-    //   notes: [
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo unless prior arrangements have been made with Hess.',
-    //     'Code is due on GitHub at the time of your demo.',
-    //     'Come to the demo prepared to run your project from one of your team\'s computers.',
-    //     'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-    //     'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please *email* at least 24 hours in advance.  **Do not rely only on requesting a remote demo by leaving a note when you sign up through Microsoft Bookings!**  These notes are buried and I won\'t see them.  Please email instead.'
-    //   ]
-    // }
+    {
+      link : 'https://outlook.office.com/book/CS494@OregonStateUniversity.onmicrosoft.com/s/rRZGg_Wl2UaPd29BvzvlxA2?ismsaljsauthenabled',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo unless prior arrangements have been made with Hess.',
+        'Code is due on GitHub at the time of your demo.',
+        'Come to the demo prepared to run your project from one of your team\'s computers.',
+        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
+        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please [submit this form](https://docs.google.com/forms/d/e/1FAIpQLSd3OkIc1PEAYMYpfdZ4uDlt7-fjPaeHmDYpS6lhF9Q6baAT5g/viewform?usp=publish-editor) at least 24 hours in advance.  Please submit the form only once per team.'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete React-based web application that serves dynamic, interactive data from an API.  You can find more info below.'
