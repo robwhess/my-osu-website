@@ -398,7 +398,6 @@ const topics = [
   {
     title: 'Storing Data using the Room Persistence Library',
     weeks: [ 8 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -441,7 +440,6 @@ const topics = [
   {
     title: 'Using the Navigation UI Library',
     weeks: [ 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -475,16 +473,17 @@ const topics = [
   {
     title: 'Background Work and Notifications',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Hgr56xP-UkL4tb0HvwlN6VBkPtjfCgjDAp2C2VAAu3Y/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs492-w22/GitHubSearchWithNotifications',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs492-w26/NotificationsGitHubSearch',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
