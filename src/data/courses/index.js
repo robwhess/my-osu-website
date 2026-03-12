@@ -21,10 +21,12 @@ import sp24 from './sp24/';
 import f24 from './f24/';
 import f25 from './f25/';
 import w26 from './w26/';
+import sp26 from './sp26/';
 
 const currentTerm = 'w26';
 
 const courseData = {
+  sp26: sp26,
   w26: w26,
   f25: f25,
   f24: f24,
