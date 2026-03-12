@@ -98,7 +98,7 @@ function HomePage() {
           <TransprentFlexContainer wrapping>
             {personalData.photoUrl ?
               <PhotoContainer>
-                <PhotoImg src={personalData.photoUrl} alt={personalData.name} />
+                <PhotoImg src={personalData.photoUrl} alt={`Photo of ${personalData.name}`} />
               </PhotoContainer> : null
             }
             <div>

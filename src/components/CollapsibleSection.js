@@ -83,7 +83,7 @@ function CollapsibleSection({ title, children, collapsed: initCollapsed, setSlug
         </HeaderItem>
         {slug &&
           <HeaderItem>
-            <SlugLink href={`#${slug}`}>
+            <SlugLink href={`#${slug}`} aria-label={`Hash link to ${title} section`}>
               <FontAwesomeIcon icon={faLink} />
             </SlugLink>
           </HeaderItem>

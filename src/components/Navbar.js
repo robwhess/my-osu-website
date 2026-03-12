@@ -79,7 +79,7 @@ const NavItem = styled.li`
   }
   a {
     &.active {
-      box-shadow: inset 0 -2px 0 #d54f1e;
+      box-shadow: inset 0 -2px 0 #c53c0b;
     }
     &:hover {
       background-color: rgba(213, 79, 30, 0.2);
@@ -185,10 +185,19 @@ class Navbar extends React.Component {
     const content = link.faIcon ? <FontAwesomeIcon icon={link.faIcon} /> : link.title;
     return (
       <NavItem key={key} right={link.isRight} subnav={this.props.subnav}>
-        {isExternalLink(link.url) ?
-          <a href={link.url} target="_blank" rel="noopener noreferrer">{content}</a> :
-          <NavLink end to={link.url}>{content}</NavLink>
-        }
+        {isExternalLink(link.url) ? (
+          <a
+            href={link.url}
+            target="_blank" rel="noopener noreferrer"
+            aria-label={link.label}
+          >
+            {content}
+          </a>
+        ) : (
+          <NavLink end to={link.url} aria-label={link.label}>
+            {content}
+          </NavLink>
+        )}
         {link.menu ?
           <NavMenu>
             {link.menu.map((menuItem, i) => (
@@ -208,7 +217,12 @@ class Navbar extends React.Component {
       <NavbarContainer subnav={this.props.subnav} collapsed={this.state.collapsed}>
         <NavbarHeading>
           <Link to={this.props.heading.url}>{this.props.heading.title}</Link>
-          <CollapseButton onClick={this.toggleNavbarCollapsed} collapsed={this.state.collapsed}>
+          <CollapseButton
+            onClick={this.toggleNavbarCollapsed}
+            collapsed={this.state.collapsed}
+            aria-hidden={this.state.collapsed}
+            aria-label="Expand navigation menu"
+          >
             <FontAwesomeIcon icon={faAngleDown} />
           </CollapseButton>
         </NavbarHeading>

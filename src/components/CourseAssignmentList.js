@@ -58,7 +58,7 @@ function CourseAssignmentList({ title, assignments, preamble }) {
   const slug = slugify(title, { strict: true });
   return (
     <div>
-      <SlugLink href={`#${slug}`}>
+      <SlugLink href={`#${slug}`} aria-label={`Hash link to ${title}`}>
         <FontAwesomeIcon icon={faLink} />
       </SlugLink>
       <AssignmentListTitle id={slug}>{title}</AssignmentListTitle>

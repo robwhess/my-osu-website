@@ -41,6 +41,7 @@ if (personalData.gitHub) {
   navLinks.push({
     url: personalData.gitHub,
     faIcon: faGithub,
+    label: "Link to GitHub profile",
     isRight: true
   });
 }
@@ -94,7 +95,7 @@ const globalStyles = css`
 
   a {
     text-decoration: none;
-    color: #d54f1e;
+    color: #c53c0b;
 
     &:hover {
       text-decoration: underline;

@@ -14,10 +14,10 @@ function Button({ href, secondary, tertiary, small, fullWidth, borderless, child
     display: inline-block;
     width: ${fullWidth ? '100%' : 'init'};
     padding: 4px 8px;
-    border: ${borderless ? '2px solid transparent' : tertiary ? '2px solid #272727' : '2px solid #d54f1e'};
+    border: ${borderless ? '2px solid transparent' : tertiary ? '2px solid #272727' : '2px solid #c53c0b'};
     border-radius: 3px;
-    background-color: ${secondary || tertiary ? '#fff' : '#d54f1e'};
-    color: ${secondary ? '#d54f1e' : tertiary ? '#272727' : '#fff'};
+    background-color: ${secondary || tertiary ? '#fff' : '#c53c0b'};
+    color: ${secondary ? '#c53c0b' : tertiary ? '#272727' : '#fff'};
     font-weight: 200;
     font-size: ${small ? '14px' : 'initial'};
     cursor: pointer;
@@ -25,7 +25,7 @@ function Button({ href, secondary, tertiary, small, fullWidth, borderless, child
     text-decoration: none;
     &:hover {
       background-color: ${secondary ? '#fff1eb' : tertiary ? '#efefef' : '#ec7d55'};
-      border-color: ${borderless ? 'transparent' : secondary ? '#d54f1e' : tertiary ? '#272727' : '#ec7d55'};
+      border-color: ${borderless ? 'transparent' : secondary ? '#c53c0b' : tertiary ? '#272727' : '#ec7d55'};
       text-decoration: none;
     }
   `;
