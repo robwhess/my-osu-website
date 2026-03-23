@@ -23,7 +23,7 @@ import f25 from './f25/';
 import w26 from './w26/';
 import sp26 from './sp26/';
 
-const currentTerm = 'w26';
+const currentTerm = 'sp26';
 
 const courseData = {
   sp26: sp26,
