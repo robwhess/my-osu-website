@@ -59,11 +59,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/server-setup',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/server-setup',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -132,11 +132,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1XhtakMCZU1CH-ZX4Q_5z1EPzL3lo5oQ2E-NDkG4R4sM/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/server-setup',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/server-setup',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -190,11 +190,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1SYG0JGmAM-5DzX0WMq7Dm-ng_Gbz0Ts3ycR52UHgMQE/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/using-mysql',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/using-mysql',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -248,11 +248,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/using-mongodb',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/using-mongodb',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -311,11 +311,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1uQjeMG2GtLFSdB0yBdkZroKojnuaCykt_6Tl4c09E2s/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/auth',
-        description: 'GitHub repo for code written in lecture'
-      }
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/auth',
+      //   description: 'GitHub repo for code written in lecture'
+      // }
     ],
     readings: [
       {
@@ -349,11 +349,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1UViQCrmRRntELmNsqVT89vuFpuoU_M13py-VS_5CJxI/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/rate-limiting',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/rate-limiting',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -392,11 +392,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1FD1RY28hHCzeIirL1r9eMtTqr-fa4biBG7e-tKXpub8/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/file-storage',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/file-storage',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -440,11 +440,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1NYUXJIECZp33r8dAIdXNcZh5OBRRPlC6kGRvSmsF0EQ/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/offline-work',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/offline-work',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
@@ -478,11 +478,11 @@ const topics = [
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1p8oSwiijRUdVYj3arF4O2j0OLZFN73ejKAdxV7mwrt4/edit?usp=sharing'
       },
-      {
-        title: 'Example code',
-        link: 'https://github.com/osu-cs493-599-sp24/graphql-api',
-        description: 'GitHub repo for code written in lecture'
-      },
+      // {
+      //   title: 'Example code',
+      //   link: 'https://github.com/osu-cs493-599-sp24/graphql-api',
+      //   description: 'GitHub repo for code written in lecture'
+      // },
     ],
     readings: [
       {
