@@ -58,6 +58,7 @@ const topics = [
     {
         title: 'Software Testing Fundamentals',
         weeks: [ 2 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
