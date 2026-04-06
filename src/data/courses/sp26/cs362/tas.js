@@ -2,7 +2,7 @@ const taInfo = [
   {
     name: 'Steve Feng',
     email: 'fengzi@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/6643017248?pwd=ZVlzTDIvQVYrUnp1WFllRitsU1lwQT09',
     officeHours: [
       {
@@ -42,7 +42,7 @@ const taInfo = [
   {
     name: 'Stanley Eng',
     email: 'engst@oregonstate.edu',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Mon.',

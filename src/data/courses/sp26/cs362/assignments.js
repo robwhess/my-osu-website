@@ -12,7 +12,7 @@ const assignments = {
         'Preferred deadline: **Monday, 4/13/2026, 11:59pm**',
         'Extension deadline: **Wednesday, 4/15/2026, 11:59pm** (no submissions after this)',
         'Grading demo due: **Monday 4/27/2026, 11:59pm**',
-        // '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
     // {
@@ -24,7 +24,7 @@ const assignments = {
     //   },
     //   notes: [
     //     'Grading demo due by 11:59pm on Monday, 5/13/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -36,7 +36,7 @@ const assignments = {
     //   },
     //   notes: [
     //     'Grading demo due by 11:59pm on Monday, 5/27/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // },
     // {
@@ -48,7 +48,7 @@ const assignments = {
     //   },
     //   notes: [
     //     'Grading demo due by 11:59pm on Friday, 6/14/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office365.com/owa/calendar/CS362@OregonStateUniversity.onmicrosoft.com/bookings/)'
+    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
     //   ]
     // }
   ],
