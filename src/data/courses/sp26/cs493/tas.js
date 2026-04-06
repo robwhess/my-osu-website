@@ -2,23 +2,41 @@ const taInfo = [
   {
     name: 'Shubhangi Pandey',
     email: 'pandeys@oregonstate.edu',
-    // videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09',
+    videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09',
     // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
     officeHours: [
-      // {
-      //   day: 'Tues.',
-      //   time: '4:00 &ndash; 6:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
-      // }
+      {
+        day: 'Mon.',
+        time: '8:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      },
+      {
+        day: 'Wed.',
+        time: '9:00 &ndash; 10:00am',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      }
     ],
     gradingHours: [
-      // {
-      //   day: 'Mon.',
-      //   time: '4:00 &ndash; 7:00pm',
-      //   location: 'Zoom',
-      //   videoConferenceLink: 'https://oregonstate.zoom.us/j/3377073373?pwd=MTViK0pIQTk5YklKQWpBSjhrYis2QT09'
-      // }
+      {
+        day: 'Tues.',
+        time: '9:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      },
+      {
+        day: 'Thurs.',
+        time: '9:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      },
+      {
+        day: 'Fri.',
+        time: '8:00am &ndash; 12:00pm',
+        location: 'Zoom',
+        videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09'
+      }
     ]
   }
 ];
