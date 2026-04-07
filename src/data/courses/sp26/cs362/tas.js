@@ -46,12 +46,12 @@ const taInfo = [
     officeHours: [
       {
         day: 'Mon.',
-        time: '11:30am &ndash; 2:00pm',
+        time: '11:00am &ndash; 12:00pm',
         location: 'KEC Atrium',
       },
       {
         day: 'Wed.',
-        time: '10:00am &ndash; 12:30pm',
+        time: '10:00 &ndash; 11:00am',
         location: 'KEC Atrium',
       },
     ],
