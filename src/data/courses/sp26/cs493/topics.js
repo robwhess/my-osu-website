@@ -25,7 +25,6 @@ const topics = [
   {
     title: 'RESTful API Design',
     weeks: [ 1, 2 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
