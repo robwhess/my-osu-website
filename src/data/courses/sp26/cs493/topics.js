@@ -53,7 +53,6 @@ const topics = [
   {
     title: 'Setting up a Server with Node.js and Express',
     weeks: [ 2, 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -126,7 +125,8 @@ const topics = [
 
   {
     title: 'Containerization with Docker',
-    weeks: [ 3, 4 ],
+    weeks: [ 3 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
