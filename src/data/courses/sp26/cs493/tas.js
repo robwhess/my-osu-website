@@ -3,7 +3,7 @@ const taInfo = [
     name: 'Shubhangi Pandey',
     email: 'pandeys@oregonstate.edu',
     videoConferenceLink: 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09',
-    // appointmentsLink: 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/',
+    appointmentsLink: 'https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled',
     officeHours: [
       {
         day: 'Mon.',
