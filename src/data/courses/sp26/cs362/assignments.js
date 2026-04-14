@@ -15,18 +15,20 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 2 &ndash; Unit Testing and TDD',
-    //   due: {
-    //     day: 'Monday, 4/29/2024',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Grading demo due by 11:59pm on Monday, 5/13/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/gsTY5X-6',
+      title: 'Assignment 2 &ndash; Unit Testing and TDD',
+      // due: {
+      //   day: 'Monday, 4/29/2024',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 4/27/2026, 11:59pm**',
+        'Extension deadline: **Wednesday, 4/29/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 5/11/2026, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 3 &ndash; Ingegration tests for UI-based apps',
