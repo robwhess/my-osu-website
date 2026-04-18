@@ -126,7 +126,6 @@ const topics = [
   {
     title: 'Containerization with Docker',
     weeks: [ 3 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -183,125 +182,199 @@ const topics = [
   },
 
   {
-    title: 'Using MySQL with Sequelize to Store API Data',
+    title: 'Working with a Database using Prisma ORM',
     weeks: [ 4, 5 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/1SYG0JGmAM-5DzX0WMq7Dm-ng_Gbz0Ts3ycR52UHgMQE/edit?usp=sharing'
+        link: 'https://docs.google.com/document/d/1ZjXZg-OEGnX0J8tUaML0wA33fABdjgTW52brr-k3v5s/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-599-sp24/using-mysql',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp26/using-prisma',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
-        title: 'Official MySQL image',
-        link: 'https://hub.docker.com/_/mysql/',
+        title: 'Introduction to Prisma ORM',
+        link: 'https://www.prisma.io/docs/orm',
+        description: 'Prisma Docs'
+      },
+      {
+        title: 'Official Postgres Image',
+        link: 'https://hub.docker.com/_/postgres',
         description: 'Docker Hub'
       },
       {
-        title: 'MySQL Tutorial',
-        link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html',
-        description: 'MySQL Docs'
+        title: 'PostgreSQL Tutorial',
+        link: 'https://neon.com/postgresql/tutorial',
+        description: 'Neon'
       },
       {
-        title: 'Sequelize v6',
-        link: 'https://sequelize.org/docs/v6/',
-        description: 'Sequelize Docs'
+        title: 'Overview of Prisma Schema',
+        link: 'https://www.prisma.io/docs/orm/prisma-schema/overview',
+        description: 'Prisma Docs'
       },
       {
-        title: 'Getting Started',
-        link: 'https://sequelize.org/docs/v6/getting-started/',
-        description: 'Sequelize Docs'
+        title: 'Prisma Best Practices',
+        link: 'https://www.prisma.io/docs/orm/more/best-practices',
+        description: 'Prisma Docs'
       },
       {
-        title: 'Model Basics',
-        link: 'https://sequelize.org/docs/v6/core-concepts/model-basics/',
-        description: 'Sequelize Docs'
+        title: 'Understanding Migrations',
+        link: 'https://www.prisma.io/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model',
+        description: 'Prisma Docs'
       },
       {
-        title: 'Model Instances',
-        link: 'https://sequelize.org/docs/v6/core-concepts/model-instances/',
-        description: 'Sequelize Docs'
+        title: 'CRUD',
+        link: 'https://www.prisma.io/docs/orm/prisma-client/queries/crud',
+        description: 'Prisma Docs'
       },
       {
-        title: 'Model Querying - Basics',
-        link: 'https://sequelize.org/docs/v6/core-concepts/model-querying-basics/',
-        description: 'Sequelize Docs'
+        title: 'Zod Basic Usage',
+        link: 'https://zod.dev/basics',
+        description: 'Zod Docs'
       },
       {
-        title: 'Associations',
-        link: 'https://sequelize.org/docs/v6/core-concepts/assocs/',
-        description: 'Sequelize Docs'
+        title: 'Express Error Handling',
+        link: 'https://expressjs.com/en/guide/error-handling.html',
+        description: 'Express Docs'
+      },
+      {
+        title: 'Pagination in Prisma',
+        link: 'https://www.prisma.io/docs/v6/orm/prisma-client/queries/pagination',
+        description: 'Prisma Docs'
+      },
+      {
+        title: 'Relations in Prisma',
+        link: 'https://www.prisma.io/docs/orm/prisma-schema/data-model/relations',
+        description: 'Prisma Docs'
       }
     ]
   },
 
-  {
-    title: 'Using MongoDB to Store API Data',
-    weeks: [ 5 ],
-    resources: [
-      {
-        title: 'Lecture notes',
-        link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
-      },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-599-sp24/using-mongodb',
-      //   description: 'GitHub repo for code written in lecture'
-      // }
-    ],
-    readings: [
-      {
-        title: 'Official MongoDB image',
-        link: 'https://hub.docker.com/_/mongo/',
-        description: 'Docker Hub'
-      },
-      {
-        title: 'Getting Started',
-        link: 'https://www.mongodb.com/docs/manual/tutorial/getting-started/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'Documents',
-        link: 'https://docs.mongodb.com/manual/core/document/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'MongoDB CRUD Operations',
-        link: 'https://docs.mongodb.com/manual/crud/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: '6 Rules of Thumb for MongoDB Schema Design: Part 1',
-        link: 'https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1',
-        description: 'William Zola (MongoDB Blog)'
-      },
-      {
-        title: 'Node.js Quick Start',
-        link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'Indexes',
-        link: 'https://docs.mongodb.com/manual/indexes/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'Aggregation',
-        link: 'https://docs.mongodb.com/manual/aggregation/',
-        description: 'MongoDB docs'
-      },
-      {
-        title: 'Aggregation Pipeline Stages',
-        link: 'https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/',
-        description: 'MongoDB docs'
-      }
-    ]
-  },
+  // {
+  //   title: 'Using MySQL with Sequelize to Store API Data',
+  //   weeks: [ 4, 5 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/1SYG0JGmAM-5DzX0WMq7Dm-ng_Gbz0Ts3ycR52UHgMQE/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs493-599-sp24/using-mysql',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // },
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Official MySQL image',
+  //       link: 'https://hub.docker.com/_/mysql/',
+  //       description: 'Docker Hub'
+  //     },
+  //     {
+  //       title: 'MySQL Tutorial',
+  //       link: 'https://dev.mysql.com/doc/refman/8.0/en/tutorial.html',
+  //       description: 'MySQL Docs'
+  //     },
+  //     {
+  //       title: 'Sequelize v6',
+  //       link: 'https://sequelize.org/docs/v6/',
+  //       description: 'Sequelize Docs'
+  //     },
+  //     {
+  //       title: 'Getting Started',
+  //       link: 'https://sequelize.org/docs/v6/getting-started/',
+  //       description: 'Sequelize Docs'
+  //     },
+  //     {
+  //       title: 'Model Basics',
+  //       link: 'https://sequelize.org/docs/v6/core-concepts/model-basics/',
+  //       description: 'Sequelize Docs'
+  //     },
+  //     {
+  //       title: 'Model Instances',
+  //       link: 'https://sequelize.org/docs/v6/core-concepts/model-instances/',
+  //       description: 'Sequelize Docs'
+  //     },
+  //     {
+  //       title: 'Model Querying - Basics',
+  //       link: 'https://sequelize.org/docs/v6/core-concepts/model-querying-basics/',
+  //       description: 'Sequelize Docs'
+  //     },
+  //     {
+  //       title: 'Associations',
+  //       link: 'https://sequelize.org/docs/v6/core-concepts/assocs/',
+  //       description: 'Sequelize Docs'
+  //     }
+  //   ]
+  // },
+
+  // {
+  //   title: 'Using MongoDB to Store API Data',
+  //   weeks: [ 5 ],
+  //   resources: [
+  //     {
+  //       title: 'Lecture notes',
+  //       link: 'https://docs.google.com/document/d/16Po_Rw5a1DiLo4DuSyA7oiCbB-SJA2yqPBYVBZ3d088/edit?usp=sharing'
+  //     },
+  //     // {
+  //     //   title: 'Example code',
+  //     //   link: 'https://github.com/osu-cs493-599-sp24/using-mongodb',
+  //     //   description: 'GitHub repo for code written in lecture'
+  //     // }
+  //   ],
+  //   readings: [
+  //     {
+  //       title: 'Official MongoDB image',
+  //       link: 'https://hub.docker.com/_/mongo/',
+  //       description: 'Docker Hub'
+  //     },
+  //     {
+  //       title: 'Getting Started',
+  //       link: 'https://www.mongodb.com/docs/manual/tutorial/getting-started/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'Documents',
+  //       link: 'https://docs.mongodb.com/manual/core/document/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'MongoDB CRUD Operations',
+  //       link: 'https://docs.mongodb.com/manual/crud/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: '6 Rules of Thumb for MongoDB Schema Design: Part 1',
+  //       link: 'https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1',
+  //       description: 'William Zola (MongoDB Blog)'
+  //     },
+  //     {
+  //       title: 'Node.js Quick Start',
+  //       link: 'http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'Indexes',
+  //       link: 'https://docs.mongodb.com/manual/indexes/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'Aggregation',
+  //       link: 'https://docs.mongodb.com/manual/aggregation/',
+  //       description: 'MongoDB docs'
+  //     },
+  //     {
+  //       title: 'Aggregation Pipeline Stages',
+  //       link: 'https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/',
+  //       description: 'MongoDB docs'
+  //     }
+  //   ]
+  // },
 
   {
     title: 'API Authentication and Authorization',
