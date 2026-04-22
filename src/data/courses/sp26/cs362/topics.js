@@ -142,7 +142,6 @@ const topics = [
     {
         title: 'Test-Driven Development: A Case Study',
         weeks: [ 4 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
@@ -176,16 +175,17 @@ const topics = [
     {
         title: 'UI-Based Integration Testing',
         weeks: [ 4, 5 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1Q9ih-CIUsUwnsaCUhjjIaP05gCvC7Ftr9sUZvsPpn8g/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp24/ui-integration-testing',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp26/ui-integration-testing',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
