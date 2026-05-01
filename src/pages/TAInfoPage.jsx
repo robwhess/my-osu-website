@@ -156,7 +156,7 @@ function TAInfoPage() {
         <TAInfoContainer>
           {tas.map((ta, i, arr) => (
             <TAInfoItem key={ta.name}>
-              <TAInfoData useBorderBottom={i !== arr.length - 1}>
+              <TAInfoData>
                 <TAName><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</TAName>
                 <TAContact><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAContact>
                   {ta.appointmentsLink && (
