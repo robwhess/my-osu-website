@@ -41,7 +41,7 @@ function RecitationLabInfoPage({ type }) {
 
   return data ? (
     <>
-      <title>{title} - Rob Hess - Oregon State University</title>
+      <title>{title}</title>
       <TwoColumnPageContent
         left={
           <>

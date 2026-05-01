@@ -62,7 +62,6 @@ function CoursePage() {
 
   return (
     <>
-      {course && <title>{course.number} - Rob Hess - Oregon State University</title>}
       {navLinks.length > 1 && <Navbar subnav heading={navHeading} links={navLinks} />}
       {course ? <Outlet /> : <NoMatchPage />}
     </>

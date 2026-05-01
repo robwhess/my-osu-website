@@ -128,7 +128,7 @@ function TAInfoPage() {
 
   return tas ? (
     <PageContent>
-      <title>{title} - Rob Hess - Oregon State University</title>
+      <title>{title}</title>
       <TAInfoSectionBox>
         <HeaderFlexContainer>
           <Title>{title}</Title>

@@ -27,7 +27,7 @@ function CalendarPage() {
 
   return calendarUrl ? (
     <PageContent>
-      <title>{title} - Rob Hess - Oregon State University</title>
+      <title>{title}</title>
       <SectionBox>
       <Title>{title}</Title>
         <iframe

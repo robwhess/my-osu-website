@@ -25,27 +25,30 @@ function CourseInfoPage() {
   const course = courseData[term]?.courses[courseNum];
 
   return (
-    <TwoColumnPageContent
-      left={
-        <>
-          <CourseInfoPageSectionBox>
-            <CourseEssentialInfo {...course} />
-          </CourseInfoPageSectionBox>
-          {(course.assignmentGroups || []).map((assignmentGroup) => (
-            <CourseInfoPageSectionBox key={assignmentGroup.title}>
-              <CourseAssignmentList {...assignmentGroup} />
+    <>
+      <title>{course.number}</title>
+      <TwoColumnPageContent
+        left={
+          <>
+            <CourseInfoPageSectionBox>
+              <CourseEssentialInfo {...course} />
             </CourseInfoPageSectionBox>
-          ))}
-        </>
-      }
-      right={
-        <CourseInfoPageSectionBox>
-          <CourseTopicsList
-            title="Course Topics"
-            topics={course.topics} />
-        </CourseInfoPageSectionBox>
-      }
-    />
+            {(course.assignmentGroups || []).map((assignmentGroup) => (
+              <CourseInfoPageSectionBox key={assignmentGroup.title}>
+                <CourseAssignmentList {...assignmentGroup} />
+              </CourseInfoPageSectionBox>
+            ))}
+          </>
+        }
+        right={
+          <CourseInfoPageSectionBox>
+            <CourseTopicsList
+              title="Course Topics"
+              topics={course.topics} />
+          </CourseInfoPageSectionBox>
+        }
+      />
+    </>
   );
 }
 
