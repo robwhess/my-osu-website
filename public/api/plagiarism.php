@@ -32,10 +32,10 @@
 
     /*
      * Compute random plagiarism score between 1 and 100 and random delay
-     * between 1 and 5 seconds.
+     * between 1 and 10 seconds.
      */
     $score = rand(0, 100);
-    $delay = rand(1, 5);
+    $delay = rand(1, 10);
     sleep($delay);
     http_response_code(200);
     die(json_encode(['score' => $score]));
