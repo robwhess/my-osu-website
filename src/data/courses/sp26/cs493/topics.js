@@ -184,7 +184,6 @@ const topics = [
   {
     title: 'Working with a Database using Prisma ORM',
     weeks: [ 4, 5 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
