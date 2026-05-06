@@ -29,18 +29,20 @@ const assignments = {
         '[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
       ]
     },
-    // {
-    //   link : '',
-    //   title: 'Assignment 3 &ndash; API authentication and authorization',
-    //   due: {
-    //     day: 'Monday, 5/20/2024',
-    //     time: '11:59pm'
-    //   },
-    //   notes: [
-    //     'Demo due by 11:59pm on Monday, 6/3/2024',
-    //     '[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
-    //   ]
-    // },
+    {
+      link : 'https://classroom.github.com/a/E0D-cbn6',
+      title: 'Assignment 3 &ndash; API authentication and authorization',
+      // due: {
+      //   day: 'Monday, 5/20/2024',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Preferred deadline: **Monday, 5/18/2026, 11:59pm**',
+        'Extension deadline: **Wednesday, 5/20/2026, 11:59pm** (no submissions after this)',
+        'Grading demo due: **Monday 6/1/2026, 11:59pm**',
+        '[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)'
+      ]
+    },
     // {
     //   link : '',
     //   title: 'Assignment 4 &ndash; File uploads and offline work',
