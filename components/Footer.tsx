@@ -4,7 +4,7 @@ import { MdOutlineAlternateEmail, MdCode } from "react-icons/md"
 export default function Footer() {
     return (
         <footer className="bg-neutral text-neutral-content text-sm">
-            <div className="max-w-7xl mx-auto p-6 flex flex-col gap-6 md:gap-0 md:flex-row md:justify-between md:items-stretch">
+            <div className="max-w-7xl mx-auto p-6 flex flex-col gap-6 md:gap-0 md:flex-row md:justify-between md:items-start">
                 <div>
                     <p>© Rob Hess</p>
                     <p>
