@@ -22,11 +22,14 @@ export default function CourseTermPage({
             .select(`
                 *,
                 course(number),
-                lecture(*,videoConferenceLink:videoconference_link,extraInfo:extra_info,locationLink:location_link)
+                lecture(*,videoConferenceLink:videoconference_link,extraInfo:extra_info,locationLink:location_link),
+                textbook(*)
             `)
             .match({ id: courseTermId })
             .maybeSingle()
     )
+
+    console.log("== data:", data)
 
     return (
         <div className="flex flex-col">
@@ -38,9 +41,9 @@ export default function CourseTermPage({
             )}
 
             <h3 className="mt-4 mb-1 font-medium text-gray-500">Lectures</h3>
-            <div className="flex flex-col md:flex-row gap-2">
+            <div className="mx-1 flex flex-col md:flex-row gap-2">
                 {isLoading && <EventCardSkeleton small border />}
-                {data?.lecture.length && (
+                {data?.lecture.length ? (
                     data.lecture.map(lecture => (
                         <EventCard
                             key={lecture.id}
@@ -48,8 +51,36 @@ export default function CourseTermPage({
                             {...lecture}
                             description={`Section ${lecture.section} - CRN ${lecture.crn}`}
                         />
-                )))}
+                ))) : (
+                    <p className="ml-1 text-xs text-gray-400">No lecture information available</p>
+                )}
             </div>
+
+            <h3 className="mt-4 mb-1 font-medium text-gray-500">Textbook</h3>
+            <div className="mx-1">
+                {data?.textbook.length ? (
+                    <ul>
+                        {data.textbook.map(textbook => (
+                            <li key={textbook.id}>
+                                <p className="text-sm font-semibold">
+                                    {textbook.link ? (
+                                        <a
+                                            href={textbook.link}
+                                            className="link"
+                                            target="_blank" rel="noopener noreferrer"
+                                        >
+                                            {textbook.title}
+                                        </a>
+                                    ) : textbook.title}
+                                </p>
+                            </li>
+                        ))}
+                    </ul>
+                ) : (
+                    <p className="ml-1 text-xs text-gray-400">No textbook information available</p>
+                )}
+            </div>
+
         </div>
 
     )
