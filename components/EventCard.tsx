@@ -21,6 +21,7 @@ export default function EventCard({
   locationLink,
   description,
   small,
+  tight,
   border
 } : {
     day: string,
@@ -32,6 +33,7 @@ export default function EventCard({
     locationLink?: string | null,
     description?: string | null,
     small?: boolean,
+    tight?: boolean,
     border?: boolean
 }) {
     const startTime = dayjs(start, "HH:mm:ss").format("h:mm a")
@@ -43,14 +45,10 @@ export default function EventCard({
             ${small ? "card-sm" : ""}
             ${border ? " border border-base-300" : "shadow-sm"}
         `}>
-            <div className={`card-body gap-1`}>
-                <h3 className={`card-title`}>
-                    {day}
-                </h3>
+            <div className={`card-body gap-1 ${tight ? "p-4" : ""}`}>
+                <h3 className="card-title">{day}</h3>
                 {description && (
-                    <p className="uppercase font-semibold text-gray-500">
-                        {description}
-                    </p>
+                    <p className="uppercase font-semibold text-gray-500">{description}</p>
                 )}
                 <div className="flex items-center gap-2">
                     <p className="grow-0"><MdAccessTime /></p>
@@ -74,7 +72,7 @@ export default function EventCard({
                     {videoConferenceLink && (
                         <a
                             href={videoConferenceLink}
-                            className={`btn btn-outline ${small ? "btn-xs" : "btn-sm"}`}
+                            className="btn btn-outline btn-xs"
                             target="_blank" rel="noopener noreferrer"
                         >
                             <span className="text-base"><MdVideocam /></span> Join
@@ -94,9 +92,11 @@ export default function EventCard({
 
 export function EventCardSkeleton({
     small,
+    tight,
     border
 }: {
     small?: boolean,
+    tight?: boolean,
     border?: boolean
 }) {
     return (
@@ -105,7 +105,7 @@ export function EventCardSkeleton({
             ${small ? "card-sm" : ""}
             ${border ? " border border-base-300" : "shadow-sm"}
         `}>
-            <div className="card-body gap-2">
+            <div className={`card-body gap-2 ${tight ? "p-4" : ""}`}>
                 <div className="skeleton h-6 w-3/4"></div>
                 <div className="skeleton h-4 w-1/2"></div>
                 <div className="skeleton h-4 w-2/3"></div>
