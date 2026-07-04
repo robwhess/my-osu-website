@@ -3,7 +3,7 @@
 import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
 
 import EventCard from "@/components/EventCard"
-import { createClient } from "@/lib/supabase/client"
+import { createClient } from "@/lib/supabase/browser"
 
 const ROBS_PERSON_ID = 1
 
