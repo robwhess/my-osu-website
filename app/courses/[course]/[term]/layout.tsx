@@ -9,6 +9,25 @@ import { createClient } from "@/lib/supabase/server"
 import CourseContentTabPanel from "@/components/CourseContentTabPanel"
 import CourseContentMenuPanel from "@/components/CourseContentMenuPanel"
 
+export async function generateStaticParams() {
+    const supabase = createClient()
+    const { data, error } = await supabase
+        .from("course")
+        .select("id, courseTerm:course_term(id)")
+
+    if (error) {
+        console.error(error)
+        throw error
+    }
+
+    return (data ?? []).flatMap(course =>
+        (course.courseTerm ?? []).map((courseTerm: { id: string }) => ({
+            course: course.id,
+            term: courseTerm.id.split("-")[1]
+        }))
+    )
+}
+
 export default async function CourseTermLayout({
     params,
     children

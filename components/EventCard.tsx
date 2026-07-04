@@ -38,7 +38,7 @@ export default function EventCard({
     const endTime = end && dayjs(end, "HH:mm:ss").format("h:mm a")
 
     return (
-        <div className={`card ${small ? "card-sm" : ""} bg-base-100 ${border ? " border border-base-300" : "shadow-sm"}`}>
+        <div className={`card bg-base-100 ${small ? "card-sm" : ""} ${border ? " border border-base-300" : "shadow-sm"}`}>
             <div className={`card-body gap-1`}>
                 <h3 className={`card-title`}>
                     {day}

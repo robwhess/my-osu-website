@@ -3,21 +3,6 @@ import { MdErrorOutline } from "react-icons/md"
 
 import { createClient } from "@/lib/supabase/server"
 
-export async function generateStaticParams() {
-    const supabase = createClient()
-    const { data, error } = await supabase
-        .from("course")
-        .select("id")
-        .order("number", { ascending: true })
-
-    if (error) {
-        console.error(error)
-        throw error
-    }
-
-    return data.map(c => ({ course: c.id }))
-}
-
 export default async function CoursePage({
     params
 }: Readonly<{
