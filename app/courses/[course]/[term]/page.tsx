@@ -58,8 +58,8 @@ export default async function CourseTermPage({
             </h2>
             {data.lecture.length > 0 && (
                 <>
-                    <h3 className="mt-4 font-medium text-gray-500">Lectures</h3>
-                    <div className="flex">
+                    <h3 className="mt-4 mb-1 font-medium text-gray-500">Lectures</h3>
+                    <div className="flex flex-col md:flex-row gap-2">
                         {data.lecture.map(lecture => (
                             <EventCard
                                 key={lecture.id}

@@ -18,6 +18,7 @@ export default function EventCard({
   location,
   videoConferenceLink,
   extraInfo,
+  locationLink,
   description,
   small,
   border
@@ -28,6 +29,7 @@ export default function EventCard({
     location?: string | null,
     videoConferenceLink?: string | null,
     extraInfo?: string | null,
+    locationLink?: string | null,
     description?: string | null,
     small?: boolean,
     border?: boolean
@@ -54,7 +56,15 @@ export default function EventCard({
                     {location && (
                         <div className="flex items-center gap-2">
                             <p className="grow-0"><MdOutlineLocationOn /></p>
-                            <p>{location}</p>
+                            <p>{locationLink ? (
+                                <a
+                                    className="link"
+                                    href={locationLink}
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    {location}
+                                </a>
+                            ) : location}</p>
                         </div>
                     )}
                     {videoConferenceLink && (
