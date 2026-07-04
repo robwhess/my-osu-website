@@ -38,7 +38,11 @@ export default function EventCard({
     const endTime = end && dayjs(end, "HH:mm:ss").format("h:mm a")
 
     return (
-        <div className={`card bg-base-100 ${small ? "card-sm" : ""} ${border ? " border border-base-300" : "shadow-sm"}`}>
+        <div className={`
+            card bg-base-100
+            ${small ? "card-sm" : ""}
+            ${border ? " border border-base-300" : "shadow-sm"}
+        `}>
             <div className={`card-body gap-1`}>
                 <h3 className={`card-title`}>
                     {day}
@@ -83,6 +87,28 @@ export default function EventCard({
                         <p>{extraInfo}</p>
                     </div>
                 )}
+            </div>
+        </div>
+    )
+}
+
+export function EventCardSkeleton({
+    small,
+    border
+}: {
+    small?: boolean,
+    border?: boolean
+}) {
+    return (
+        <div className={`
+            card min-w-48 bg-base-100
+            ${small ? "card-sm" : ""}
+            ${border ? " border border-base-300" : "shadow-sm"}
+        `}>
+            <div className="card-body gap-2">
+                <div className="skeleton h-6 w-3/4"></div>
+                <div className="skeleton h-4 w-1/2"></div>
+                <div className="skeleton h-4 w-2/3"></div>
             </div>
         </div>
     )
