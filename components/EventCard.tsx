@@ -19,7 +19,7 @@ export default function EventCard({
   videoConferenceLink,
   extraInfo,
   locationLink,
-  description,
+  heading,
   small,
   tight,
   border
@@ -31,7 +31,7 @@ export default function EventCard({
     videoConferenceLink?: string | null,
     extraInfo?: string | null,
     locationLink?: string | null,
-    description?: string | null,
+    heading?: string | null,
     small?: boolean,
     tight?: boolean,
     border?: boolean
@@ -46,10 +46,10 @@ export default function EventCard({
             ${border ? " border border-base-300" : "shadow-sm"}
         `}>
             <div className={`card-body gap-1 ${tight ? "p-4" : ""}`}>
-                <h3 className="card-title">{day}</h3>
-                {description && (
-                    <p className="uppercase font-semibold text-gray-500">{description}</p>
+                {heading && (
+                    <p className="uppercase font-semibold text-gray-500">{heading}</p>
                 )}
+                <h3 className="card-title">{day}</h3>
                 <div className="flex items-center gap-2">
                     <p className="grow-0"><MdAccessTime /></p>
                     <p>{startTime}{endTime && <> &ndash; {endTime}</>}</p>

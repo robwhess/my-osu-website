@@ -50,7 +50,7 @@ export default function CourseTermPage({
                             key={lecture.id}
                             tight border
                             {...lecture}
-                            description={`Section ${lecture.section} - CRN ${lecture.crn}`}
+                            heading={`Section ${lecture.section} - CRN ${lecture.crn}`}
                         />
                 ))) : (
                     data && <p className="ml-1 text-gray-400">No lecture information available</p>
