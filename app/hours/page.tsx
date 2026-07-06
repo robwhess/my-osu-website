@@ -4,6 +4,7 @@ import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
 
 import EventCard, { EventCardSkeleton } from "@/components/EventCard"
 import { createClient } from "@/lib/supabase/browser"
+import { MdErrorOutline } from "react-icons/md"
 
 const ROBS_PERSON_ID = 1
 
@@ -21,7 +22,14 @@ export default function HoursPage() {
             <h1 className="mb-4 text-2xl font-semibold">Rob&apos;s Current Office Hours</h1>
             <div className="flex flex-col justify-center w-full max-w-xl gap-2">
                 {isLoading && <EventCardSkeleton />}
-                {data && data.map(hours => <EventCard key={hours.id} {...hours} />)}
+                {data?.length ? (
+                    data.map(hours => <EventCard key={hours.id} {...hours} />)
+                ) : data && (
+                    <div role="alert" className="alert alert-warning my-4">
+                        <span className="text-2xl"><MdErrorOutline /></span>
+                        <span>There are currently no listed office hours.</span>
+                    </div>
+                )}
             </div>
         </main>
     )

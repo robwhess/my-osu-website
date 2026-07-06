@@ -47,7 +47,7 @@ export default async function CourseLayout({
     return (
         <div className="p-2 md:p-4 flex flex-col items-stretch gap-2">
             <div className="flex flex-col md:flex-row md:justify-between items-stretch md:items-center gap-4">
-                <div className="md:flex-2">
+                <div className="p-2 md:flex-2">
                     <h1 className="text-2xl font-semibold">{data.number} &ndash; {data.title}</h1>
                     <h2 className="text-sm">{data.description}</h2>
                 </div>
