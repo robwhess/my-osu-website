@@ -5,7 +5,6 @@ import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
 import { GoArrowRight } from "react-icons/go"
 
 import { createClient } from "@/lib/supabase/browser"
-import { termNames } from "@/lib/supabase/strings"
 
 import EventCard, { EventCardSkeleton } from "@/components/EventCard"
 import { CourseTermLink } from "@/lib/types"
@@ -23,7 +22,6 @@ export default function CourseTermPage({
             .from("course_term")
             .select(`
                 *,
-                course(number),
                 instructor:person(id,name,email),
                 lecture(*,videoConferenceLink:videoconference_link,extraInfo:extra_info,locationLink:location_link),
                 textbook(*)
@@ -35,13 +33,6 @@ export default function CourseTermPage({
 
     return (
         <div className="flex flex-col mb-4">
-            {isLoading && <div className="skeleton h-6 w-64"></div>}
-            {data && (
-                <h2 className="text-xl font-semibold">
-                    {data.course.number} &ndash; {termNames[data.term as keyof typeof termNames]} {data.year}
-                </h2>
-            )}
-
             <h3 className="mt-4 mb-1 text-lg font-medium text-gray-500">Instructor</h3>
             <div className="mx-2">
                 {isLoading && <div className="skeleton h-4 w-56"></div>}

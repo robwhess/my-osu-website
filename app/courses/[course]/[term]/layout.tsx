@@ -5,6 +5,7 @@ import { MdOutlineLiveHelp } from "react-icons/md"
 import { FaRegCalendarAlt } from "react-icons/fa"
 
 import { createClient } from "@/lib/supabase/server"
+import { termNames } from "@/lib/supabase/strings"
 
 import CourseContentTabPanel from "@/components/CourseContentTabPanel"
 import CourseContentMenuPanel from "@/components/CourseContentMenuPanel"
@@ -40,7 +41,7 @@ export default async function CourseTermLayout({
     const supabase = createClient()
     const { data, error } = await supabase
         .from("course_term")
-        .select("*,lecture(*)")
+        .select("*,course(number)")
         .match({ id: courseTermId })
         .maybeSingle()
 
@@ -91,15 +92,17 @@ export default async function CourseTermLayout({
         }
     ]
 
+    const title = `${data.course.number} – ${termNames[data.term as keyof typeof termNames]} ${data.year}`
+
     return (
         <>
             <div className="md:hidden">
-                <CourseContentMenuPanel pages={pageList}>
+                <CourseContentMenuPanel pages={pageList} title={title}>
                     {children}
                 </CourseContentMenuPanel>
             </div>
             <div className="max-md:hidden mt-4">
-                <CourseContentTabPanel pages={pageList}>
+                <CourseContentTabPanel pages={pageList} title={title}>
                     {children}
                 </CourseContentTabPanel>
             </div>

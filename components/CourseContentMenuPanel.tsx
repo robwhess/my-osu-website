@@ -8,9 +8,11 @@ import { MdChevronRight } from "react-icons/md"
 
 export default function CourseContentMenuPanel({
     pages,
+    title,
     children
 }: Readonly<{
     pages: Array<{ title: string, href: string, icon: React.ReactNode }>,
+    title: string,
     children: React.ReactNode
 }>) {
     const [ menuIsOpen, setMenuIsOpen ] = useState(false)
@@ -52,6 +54,7 @@ export default function CourseContentMenuPanel({
                 </nav>
             </div>
             <div className="p-2 bg-base-100 border border-t-0 border-base-300 grow">
+                <h2 className="text-xl font-semibold">{title}</h2>
                 {children}
             </div>
         </div>
