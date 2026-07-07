@@ -8,6 +8,7 @@ import { createClient } from "@/lib/supabase/browser"
 import { termNames } from "@/lib/supabase/strings"
 
 import EventCard, { EventCardSkeleton } from "@/components/EventCard"
+import { CourseTermLink } from "@/lib/types"
 
 export default function CourseTermPage({
     params
@@ -28,10 +29,9 @@ export default function CourseTermPage({
                 textbook(*)
             `)
             .match({ id: courseTermId })
+            .order("section", { referencedTable: "lecture", ascending: true })
             .maybeSingle()
     )
-
-    console.log("== data:", data)
 
     return (
         <div className="flex flex-col mb-4">
@@ -55,7 +55,7 @@ export default function CourseTermPage({
             <h3 className="mt-4 mb-1 text-lg font-medium text-gray-500">Lectures</h3>
             <div className="mx-1 flex flex-col md:flex-row gap-2">
                 {isLoading && <EventCardSkeleton tight border />}
-                {data?.lecture.length ? (
+                {data?.lecture?.length ? (
                     data.lecture.map(lecture => (
                         <EventCard
                             key={lecture.id}
@@ -71,7 +71,7 @@ export default function CourseTermPage({
             <h3 className="mt-4 text-lg font-medium text-gray-500">Textbooks</h3>
             <div className="mx-2">
                 {isLoading && <div className="skeleton h-4 w-48"></div>}
-                {data?.textbook.length ? (
+                {data?.textbook?.length ? (
                     <ul>
                         {data.textbook.map(textbook => (
                             <li key={textbook.id} className="mb-1">
@@ -103,7 +103,33 @@ export default function CourseTermPage({
             </div>
 
             <h3 className="mt-4 text-lg font-medium text-gray-500">Links</h3>
-
+            {isLoading && <div className="skeleton h-4 w-72"></div>}
+            {data?.links?.length ? (
+                <ul className="list-disc list-outside pl-6">
+                    {
+                        /*
+                         * The weird cast here is needed because the `links`
+                         * column is a JSONB column.
+                         */
+                        (data.links as unknown as CourseTermLink[]).map(link => (
+                            <li className="list-item" key={link.url}>
+                                <a
+                                    className="link font-semibold"
+                                    href={link.url}
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    {link.title}
+                                </a>
+                                {link.description && (
+                                    <span className="text-sm"> <GoArrowRight className="inline-block -mt-0.5" /> {link.description}</span>
+                                )}
+                            </li>
+                        ))
+                    }
+                </ul>
+            ) : (
+                data && <p className="ml-1 text-sm text-gray-400">No course links available</p>
+            )}
 
         </div>
 
