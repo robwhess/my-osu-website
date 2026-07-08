@@ -16,10 +16,13 @@
   "devDependencies": {
     "@stylistic/eslint-plugin": "^5.10.0",
     "@supabase-cache-helpers/postgrest-swr": "^2.0.6",
+    "@supabase-cache-helpers/storage-swr": "^1.1.7",
     "@supabase/postgrest-js": "^2.110.0",
     "@supabase/ssr": "^0.12.0",
+    "@supabase/storage-js": "^2.110.1",
     "@supabase/supabase-js": "^2.108.2",
     "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -28,6 +31,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
     "react-icons": "^5.6.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "remark-toc": "^9.0.0",
     "swr": "^2.4.2",
     "tailwindcss": "^4",
     "typescript": "^5"

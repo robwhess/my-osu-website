@@ -1,10 +1,10 @@
 "use client"
 
 import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
+import { MdErrorOutline } from "react-icons/md"
 
 import EventCard, { EventCardSkeleton } from "@/components/EventCard"
 import { createClient } from "@/lib/supabase/browser"
-import { MdErrorOutline } from "react-icons/md"
 
 const ROBS_PERSON_ID = 1
 

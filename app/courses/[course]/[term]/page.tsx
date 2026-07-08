@@ -7,7 +7,7 @@ import { GoArrowRight } from "react-icons/go"
 import { createClient } from "@/lib/supabase/browser"
 
 import EventCard, { EventCardSkeleton } from "@/components/EventCard"
-import { CourseTermLink } from "@/lib/types"
+import { type CourseTermLink } from "@/lib/types"
 
 export default function CourseTermPage({
     params
@@ -121,8 +121,6 @@ export default function CourseTermPage({
             ) : (
                 data && <p className="ml-1 text-sm text-gray-400">No course links available</p>
             )}
-
         </div>
-
     )
 }
