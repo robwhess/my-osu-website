@@ -9,7 +9,7 @@ import { createClient } from "@/lib/supabase/browser"
 import { MdErrorOutline } from "react-icons/md"
 import MarkdownRenderer from "@/components/MarkdownRenderer"
 
-export default function CourseTermPage({
+export default function SyllabusPage({
     params
 }: Readonly<{
     params: Promise<{ course: string, term: string }>

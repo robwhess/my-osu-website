@@ -33,7 +33,8 @@ export default function CourseTermPage({
 
     return (
         <div className="flex flex-col mb-4">
-            <h3 className="mt-4 mb-1 text-lg font-medium text-gray-500">Instructor</h3>
+            <h3 className="text-lg font-medium">Basic Info</h3>
+            <h4 className="mt-4 mb-1 text-lg font-medium text-gray-500">Instructor</h4>
             <div className="mx-2">
                 {isLoading && <div className="skeleton h-4 w-56"></div>}
                 {data?.instructor && (
@@ -43,7 +44,7 @@ export default function CourseTermPage({
                 )}
             </div>
 
-            <h3 className="mt-4 mb-1 text-lg font-medium text-gray-500">Lectures</h3>
+            <h4 className="mt-4 mb-1 text-lg font-medium text-gray-500">Lectures</h4>
             <div className="mx-1 flex flex-col md:flex-row gap-2">
                 {isLoading && <EventCardSkeleton tight border />}
                 {data?.lecture?.length ? (
@@ -59,7 +60,7 @@ export default function CourseTermPage({
                 )}
             </div>
 
-            <h3 className="mt-4 text-lg font-medium text-gray-500">Textbooks</h3>
+            <h4 className="mt-4 text-lg font-medium text-gray-500">Textbooks</h4>
             <div className="mx-2">
                 {isLoading && <div className="skeleton h-4 w-48"></div>}
                 {data?.textbook?.length ? (
@@ -93,7 +94,7 @@ export default function CourseTermPage({
                 )}
             </div>
 
-            <h3 className="mt-4 text-lg font-medium text-gray-500">Links</h3>
+            <h4 className="mt-4 text-lg font-medium text-gray-500">Links</h4>
             {isLoading && <div className="skeleton h-4 w-72"></div>}
             {data?.links?.length ? (
                 <ul className="list-disc list-outside pl-6">

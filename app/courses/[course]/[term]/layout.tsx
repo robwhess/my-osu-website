@@ -7,8 +7,8 @@ import { FaRegCalendarAlt } from "react-icons/fa"
 import { createClient } from "@/lib/supabase/server"
 import { termNames } from "@/lib/supabase/strings"
 
-import CourseContentTabPanel from "@/components/CourseContentTabPanel"
-import CourseContentMenuPanel from "@/components/CourseContentMenuPanel"
+import CourseContentNavDesktop from "@/components/CourseContentNavDesktop"
+import CourseContentNavMobile from "@/components/CourseContentNavMobile"
 
 export async function generateStaticParams() {
     const supabase = createClient()
@@ -95,17 +95,17 @@ export default async function CourseTermLayout({
     const title = `${data.course.number} – ${termNames[data.term as keyof typeof termNames]} ${data.year}`
 
     return (
-        <>
+        <div className="flex flex-col items-stretch">
             <div className="md:hidden">
-                <CourseContentMenuPanel pages={pageList} title={title}>
-                    {children}
-                </CourseContentMenuPanel>
+                <CourseContentNavMobile pages={pageList} />
             </div>
             <div className="max-md:hidden mt-4">
-                <CourseContentTabPanel pages={pageList} title={title}>
-                    {children}
-                </CourseContentTabPanel>
+                <CourseContentNavDesktop pages={pageList} />
             </div>
-        </>
+            <div className="p-2 md:p-4 bg-base-100 border border-t-0 md:border-t border-base-300 grow">
+                <h2 className="text-xl font-semibold">{title}</h2>
+                {children}
+            </div>
+        </div>
     )
 }
