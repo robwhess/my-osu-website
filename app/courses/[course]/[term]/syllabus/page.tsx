@@ -56,7 +56,7 @@ export default function SyllabusPage({
             )}
             {syllabusData && (
                 <div className="m-2 mt-4 md:m-4 pt-8 border-t border-base-300">
-                    <MarkdownRenderer markdown={syllabusData} />
+                    <MarkdownRenderer toc markdown={syllabusData} />
                 </div>
             )}
         </div>

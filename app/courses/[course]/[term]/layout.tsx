@@ -102,7 +102,7 @@ export default async function CourseTermLayout({
             <div className="max-md:hidden mt-4">
                 <CourseContentNavDesktop pages={pageList} />
             </div>
-            <div className="p-2 md:p-4 bg-base-100 border border-t-0 md:border-t border-base-300 grow">
+            <div className="p-4 bg-base-100 border border-t-0 md:border-t border-base-300 grow">
                 <h2 className="text-xl font-semibold">{title}</h2>
                 {children}
             </div>

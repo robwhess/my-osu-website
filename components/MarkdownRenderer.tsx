@@ -4,15 +4,18 @@ import remarkToc from "remark-toc"
 import rehypeSlug from "rehype-slug"
 
 export default function MarkdownRenderer({
-    markdown
+    markdown,
+    toc
 }: {
-    markdown: string
+    markdown: string,
+    toc?: boolean
 }) {
+
     return (
         <div className="prose prose-lead:leading-normal prose-li:marker:text-base-content">
             <Markdown
-                remarkPlugins={[ remarkGfm, remarkToc ]}
-                rehypePlugins={[ rehypeSlug ]}
+                remarkPlugins={toc ? [ remarkGfm, remarkToc ] : [ remarkGfm ]}
+                rehypePlugins={toc ? [ rehypeSlug ] : []}
             >
                 {markdown}
             </Markdown>
