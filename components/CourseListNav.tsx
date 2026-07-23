@@ -64,7 +64,7 @@ export default function CourseListNav({
                     <p className="text-gray-400">None selected</p>
                 )}
             </div>
-            <nav className={`${menuIsOpen ? "" : "max-md:hidden"} md:min-h-full p-6 max-md:absolute max-md:z-10 max-md:w-full max-md:bg-base-200 max-md:shadow-xs`}>
+            <nav className={`${menuIsOpen ? "" : "max-md:hidden"} md:min-h-full p-6 max-md:absolute max-md:z-10 max-md:w-full max-md:bg-base-200 max-md:shadow-md`}>
                 <ul>
                     {courseMenuEntries}
                 </ul>

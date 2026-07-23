@@ -37,22 +37,18 @@ export default function TAsPage({
                             <h4 className="text-lg font-medium text-gray-500">{person.name}</h4>
                             <p className="text-sm"><a className="link" href={`mailto:${person.email}`}>{person.email}</a></p>
                         </div>
-                        <div className="flex-3">
-                            <h4 className="mb-1 md:pl-1 font-medium uppercase text-gray-500">Office Hours</h4>
-                            {person.hours.filter(hours => hours.type === "office").map(hours => (
-                                <div key={hours.id} className="mb-1 ml-4 md:ml-0">
-                                    <EventCard tight small {...hours} />
+                        {[[ "office", "grading" ].map(type => (
+                            <div key={type} className="flex-3">
+                                <h4 className="mb-1 md:pl-1 font-medium uppercase text-gray-500">{type} Hours</h4>
+                                <div className="flex flex-wrap gap-2">
+                                    {person.hours.filter(hours => hours.type === type).map(hours => (
+                                        <div key={hours.id}>
+                                            <EventCard tight small {...hours} />
+                                        </div>
+                                    ))}
                                 </div>
-                            ))}
-                        </div>
-                        <div className="flex-3">
-                            <h4 className="mb-1 md:pl-1 font-medium uppercase text-gray-500">Grading Hours</h4>
-                            {person.hours.filter(hours => hours.type === "grading").map(hours => (
-                                <div key={hours.id} className="mb-1 ml-4 md:ml-0">
-                                    <EventCard tight small {...hours} />
-                                </div>
-                            ))}
-                        </div>
+                            </div>
+                        ))]}
                     </li>
                 ))}
             </ul>
