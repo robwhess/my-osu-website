@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict av4FRIDT9XUBw4p1FIj7Dnq9S18c9hs9zTrIdYmfJyAhnCcLFwZqfPeg810yZsf
+-- \restrict r6JRBSD77YcorbiSfU7f5ckciqIe0Mo1HJJvm1xXJvnQDw4j0d13QiyCnUU46d3
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -40,7 +40,10 @@ INSERT INTO "public"."course" ("id", "number", "title", "description", "created_
 --
 
 INSERT INTO "public"."person" ("id", "created_at", "name", "email") VALUES
-	(1, '2024-10-15 22:26:40.078632+00', 'Rob Hess', 'hessro@oregonstate.edu');
+	(1, '2024-10-15 22:26:40.078632+00', 'Rob Hess', 'hessro@oregonstate.edu'),
+	(2, '2026-07-20 17:08:34.395849+00', 'Steve Feng', 'fengzi@oregonstate.edu'),
+	(3, '2026-07-20 17:08:51.674989+00', 'Stanley Eng', 'engst@oregonstate.edu'),
+	(4, '2026-07-20 17:09:19.179879+00', 'Shubhangi Pandey', 'pandeys@oregonstate.edu');
 
 
 --
@@ -56,9 +59,23 @@ INSERT INTO "public"."course_term" ("id", "created_at", "course_id", "year", "te
 -- Data for Name: hours; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO "public"."hours" ("id", "created_at", "day", "start", "end", "location", "videoconference_link", "extra_info", "type", "person_id") VALUES
-	(1, '2024-10-15 22:27:43.04173+00', 'Wednesday', '11:05:00', '12:30:00', 'KEC 1109', NULL, NULL, 'office', 1),
-	(2, '2024-10-15 22:28:34.879354+00', 'Thursday', '14:30:00', '16:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09', NULL, 'office', 1);
+INSERT INTO "public"."hours" ("id", "created_at", "day", "start", "end", "location", "videoconference_link", "extra_info", "type", "person_id", "course_term_id") VALUES
+	(1, '2024-10-15 22:27:43.04173+00', 'Wednesday', '11:05:00', '12:30:00', 'KEC 1109', NULL, NULL, 'office', 1, NULL),
+	(2, '2024-10-15 22:28:34.879354+00', 'Thursday', '14:30:00', '16:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/589990808?pwd=ViszY2Z4eGtoUDh4NEw0QWkzckJMQT09', NULL, 'office', 1, NULL),
+	(3, '2026-07-20 17:12:30.547447+00', 'Monday', '08:00:00', '10:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09', NULL, 'office', 4, 'cs493-sp26'),
+	(4, '2026-07-20 17:13:39.077055+00', 'Wednesday', '09:00:00', '10:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09', NULL, 'office', 4, 'cs493-sp26'),
+	(5, '2026-07-20 17:14:13.783286+00', 'Tuesday', '09:00:00', '12:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09', NULL, 'grading', 4, 'cs493-sp26'),
+	(6, '2026-07-20 17:14:48.625375+00', 'Thursday', '09:00:00', '12:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09', NULL, 'grading', 4, 'cs493-sp26'),
+	(7, '2026-07-20 17:15:19.707594+00', 'Friday', '08:00:00', '12:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/3821452144?pwd=MkwyS0NCWkI1K2JFWVhNSzZBNFNaUT09', NULL, 'grading', 4, 'cs493-sp26'),
+	(8, '2026-07-20 17:16:26.358261+00', 'Monday', '08:30:00', '10:30:00', 'Zoom', 'https://oregonstate.zoom.us/j/6643017248?pwd=ZVlzTDIvQVYrUnp1WFllRitsU1lwQT09', NULL, 'office', 2, 'cs362-sp26'),
+	(9, '2026-07-20 17:16:58.1448+00', 'Tuesday', '08:30:00', '10:30:00', 'Zoom', 'https://oregonstate.zoom.us/j/6643017248?pwd=ZVlzTDIvQVYrUnp1WFllRitsU1lwQT09', NULL, 'office', 2, 'cs362-sp26'),
+	(10, '2026-07-20 17:17:43.602908+00', 'Wednesday', '13:00:00', '16:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/6643017248?pwd=ZVlzTDIvQVYrUnp1WFllRitsU1lwQT09', NULL, 'grading', 2, 'cs362-sp26'),
+	(11, '2026-07-20 17:18:20.389696+00', 'Thursday', '13:00:00', '16:00:00', 'Zoom', 'https://oregonstate.zoom.us/j/6643017248?pwd=ZVlzTDIvQVYrUnp1WFllRitsU1lwQT09', NULL, 'grading', 2, 'cs362-sp26'),
+	(12, '2026-07-20 17:18:52.09546+00', 'Friday', '08:30:00', '12:30:00', 'Zoom', 'https://oregonstate.zoom.us/j/6643017248?pwd=ZVlzTDIvQVYrUnp1WFllRitsU1lwQT09', NULL, 'grading', 2, 'cs362-sp26'),
+	(13, '2026-07-20 17:19:24.46901+00', 'Monday', '11:00:00', '12:00:00', 'KEC Atrium', NULL, NULL, 'office', 3, 'cs362-sp26'),
+	(14, '2026-07-20 17:19:53.833703+00', 'Wednesday', '10:00:00', '11:00:00', 'KEC Atrium', NULL, NULL, 'office', 3, 'cs362-sp26'),
+	(15, '2026-07-20 17:20:25.044235+00', 'Tuesday', '10:00:00', '11:30:00', 'KEC Atrium', NULL, NULL, 'grading', 3, 'cs362-sp26'),
+	(16, '2026-07-20 17:20:55.613067+00', 'Thursday', '10:00:00', '11:30:00', 'KEC Atrium', NULL, NULL, 'grading', 3, 'cs362-sp26');
 
 
 --
@@ -82,7 +99,7 @@ INSERT INTO "public"."textbook" ("id", "created_at", "title", "author", "link", 
 -- Name: hours_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."hours_id_seq"', 2, true);
+SELECT pg_catalog.setval('"public"."hours_id_seq"', 16, true);
 
 
 --
@@ -96,7 +113,7 @@ SELECT pg_catalog.setval('"public"."lecture_id_seq"', 2, true);
 -- Name: person_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."person_id_seq"', 1, true);
+SELECT pg_catalog.setval('"public"."person_id_seq"', 4, true);
 
 
 --
@@ -110,6 +127,6 @@ SELECT pg_catalog.setval('"public"."textbook_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict av4FRIDT9XUBw4p1FIj7Dnq9S18c9hs9zTrIdYmfJyAhnCcLFwZqfPeg810yZsf
+-- \unrestrict r6JRBSD77YcorbiSfU7f5ckciqIe0Mo1HJJvm1xXJvnQDw4j0d13QiyCnUU46d3
 
 RESET ALL;
