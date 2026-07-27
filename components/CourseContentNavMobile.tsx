@@ -33,7 +33,7 @@ export default function CourseContentNavMobile({
                     <p className="text-gray-400">None selected</p>
                 )}
             </div>
-            <nav className={`${menuIsOpen ? "" : "hidden"} absolute px-2 pb-4 w-full z-10 bg-base-100 border border-base-300 shadow-xs`}>
+            <nav className={`${menuIsOpen ? "" : "hidden"} absolute px-2 pb-4 w-full z-10 bg-base-100 border border-base-300 shadow-md`}>
                 <ul>
                     {pages.map(page => (
                         <li

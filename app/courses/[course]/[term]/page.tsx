@@ -34,7 +34,7 @@ export default function CourseTermPage({
     return (
         <div className="flex flex-col mb-4">
             <h3 className="text-lg font-medium">Basic Info</h3>
-            <h4 className="mt-4 mb-1 text-lg font-medium text-gray-500">Instructor</h4>
+            <h4 className="mt-4 mb-1 text-lg font-medium uppercase text-gray-700">Instructor</h4>
             <div className="mx-2">
                 {isLoading && <div className="skeleton h-4 w-56"></div>}
                 {data?.instructor && (
@@ -44,7 +44,7 @@ export default function CourseTermPage({
                 )}
             </div>
 
-            <h4 className="mt-4 mb-1 text-lg font-medium text-gray-500">Lectures</h4>
+            <h4 className="mt-4 mb-1 text-lg font-medium uppercase text-gray-700">Lectures</h4>
             <div className="mx-1 flex flex-col md:flex-row gap-2">
                 {isLoading && <EventCardSkeleton tight border />}
                 {data?.lecture?.length ? (
@@ -60,7 +60,7 @@ export default function CourseTermPage({
                 )}
             </div>
 
-            <h4 className="mt-4 text-lg font-medium text-gray-500">Textbooks</h4>
+            <h4 className="mt-4 text-lg font-medium uppercase text-gray-700">Textbooks</h4>
             <div className="mx-2">
                 {isLoading && <div className="skeleton h-4 w-48"></div>}
                 {data?.textbook?.length ? (
@@ -80,7 +80,7 @@ export default function CourseTermPage({
                                         ) : textbook.title}
                                     </span>
                                     {textbook.author && (
-                                        <span className="italic text-gray-500"> by {textbook.author}</span>
+                                        <span className="italic text-gray-700"> by {textbook.author}</span>
                                     )}
                                 </p>
                                 {textbook.description && (
@@ -94,7 +94,7 @@ export default function CourseTermPage({
                 )}
             </div>
 
-            <h4 className="mt-4 text-lg font-medium text-gray-500">Links</h4>
+            <h4 className="mt-4 text-lg font-medium uppercase text-gray-700">Links</h4>
             {isLoading && <div className="skeleton h-4 w-72"></div>}
             {data?.links?.length ? (
                 <ul className="list-disc list-outside pl-6">

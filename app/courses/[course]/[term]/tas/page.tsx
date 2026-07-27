@@ -34,12 +34,12 @@ export default function TAsPage({
                 {data?.map(person => (
                     <li key={person.id} className="flex flex-col md:flex-row gap-4 md:px-4 py-12 first:pt-6 not-first:border-t border-base-300">
                         <div className="flex-2">
-                            <h4 className="text-lg font-medium text-gray-500">{person.name}</h4>
+                            <h4 className="text-lg font-medium uppercase text-gray-700">{person.name}</h4>
                             <p className="text-sm"><a className="link" href={`mailto:${person.email}`}>{person.email}</a></p>
                         </div>
                         {[[ "office", "grading" ].map(type => (
                             <div key={type} className="flex-3">
-                                <h4 className="mb-1 md:pl-1 font-medium uppercase text-gray-500">{type} Hours</h4>
+                                <h5 className="mb-1 md:pl-1 font-medium capitalize text-gray-700">{type} hours</h5>
                                 <div className="flex flex-wrap gap-2">
                                     {person.hours.filter(hours => hours.type === type).map(hours => (
                                         <div key={hours.id}>
