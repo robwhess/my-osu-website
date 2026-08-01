@@ -41,13 +41,23 @@ const supabase = createClient<Database>(
 )
 
 topics.forEach(async topic => {
+    const materials: Json[] = topic.resources?.map(resource => ({
+        url: resource.link,
+        title: resource.title,
+        description: resource.description
+    }))
+    const readings: Json[] = topic.readings?.map(reading => ({
+        url: reading.link,
+        title: reading.title,
+        description: reading.description
+    })) || []
     const { error } = await supabase
         .from("topic")
         .upsert({
             title: topic.title,
             weeks: topic.weeks,
-            materials: topic.resources as unknown as Json[],
-            readings: (topic.readings || []) as unknown as Json[],
+            materials: materials,
+            readings: readings,
             course_term_id: `${course}-${term}`
         })
         .select()
