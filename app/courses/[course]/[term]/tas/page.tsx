@@ -27,7 +27,7 @@ export default function TAsPage({
             <ul>
                 {isLoading && (
                     <li className="md:px-4 pt-6">
-                        <div className="skeleton h-8 w-40 my-2"></div>
+                        <div className="skeleton h-6 w-40 my-2"></div>
                         <div className="skeleton h-4 w-48 my-2"></div>
                     </li>
                 )}

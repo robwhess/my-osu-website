@@ -28,6 +28,12 @@ export default function TopicsPage({
     return (
         <div className="flex flex-col">
             <h3 className="text-lg font-medium">Schedule of Topics</h3>
+            {isLoading && (
+                <div className="m-4">
+                    <div className="skeleton h-2 w-24 my-2"></div>
+                    <div className="skeleton h-6 w-72 my-2"></div>
+                </div>
+            )}
             {data?.map(topic => (
                 <details
                     key={topic.id}
