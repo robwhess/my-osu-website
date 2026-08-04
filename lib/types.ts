@@ -7,7 +7,7 @@ export type CourseTerm = Tables<"course_term">
 
 export type CoursesByTerm = Record<Term, Course[]>
 
-export interface CourseTermLink {
+export interface Link {
     url: string
     title: string,
     description?: string

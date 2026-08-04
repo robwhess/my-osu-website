@@ -7,7 +7,9 @@ import { GoArrowRight } from "react-icons/go"
 import { createClient } from "@/lib/supabase/browser"
 
 import EventCard, { EventCardSkeleton } from "@/components/EventCard"
-import { type CourseTermLink } from "@/lib/types"
+import LinkWithDescription from "@/components/LinkWithDescription"
+
+import { Link } from "@/lib/types"
 
 export default function CourseTermPage({
     params
@@ -103,18 +105,9 @@ export default function CourseTermPage({
                          * The weird cast here is needed because the `links`
                          * column is a JSONB column.
                          */
-                        (data.links as unknown as CourseTermLink[]).map(link => (
+                        (data.links as unknown as Link[]).map(link => (
                             <li className="list-item" key={link.url}>
-                                <a
-                                    className="link font-semibold"
-                                    href={link.url}
-                                    target="_blank" rel="noopener noreferrer"
-                                >
-                                    {link.title}
-                                </a>
-                                {link.description && (
-                                    <span className="text-sm"> <GoArrowRight className="inline-block -mt-0.5" /> {link.description}</span>
-                                )}
+                                <LinkWithDescription {...link} />
                             </li>
                         ))
                     }
