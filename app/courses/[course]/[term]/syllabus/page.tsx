@@ -61,6 +61,12 @@ export default function SyllabusPage({
                     <span>Sorry!  An error occurred.  Please try again later.</span>
                 </div>
             )}
+            {!error && !isLoading && !syllabusData && (
+                <div role="alert" className="alert alert-warning my-8">
+                    <span className="text-2xl"><MdErrorOutline /></span>
+                    <span>Syllabus not available.</span>
+                </div>
+            )}
             {syllabusData && (
                 <div className="m-2 mt-4 md:m-4 pt-8 border-t border-base-300">
                     <MarkdownRenderer toc markdown={syllabusData} />

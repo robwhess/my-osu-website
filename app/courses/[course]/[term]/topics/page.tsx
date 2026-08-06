@@ -41,6 +41,12 @@ export default function TopicsPage({
                     <div className="skeleton h-6 w-72 my-2"></div>
                 </div>
             )}
+            {!error && !isLoading && !data?.length && (
+                <div role="alert" className="alert alert-warning my-8">
+                    <span className="text-2xl"><MdErrorOutline /></span>
+                    <span>Schedule of topics not available.</span>
+                </div>
+            )}
             {data?.map(topic => (
                 <details
                     key={topic.id}

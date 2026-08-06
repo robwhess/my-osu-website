@@ -31,6 +31,12 @@ export default function TAsPage({
                     <span>Sorry!  An error occurred.  Please try again later.</span>
                 </div>
             )}
+            {!error && !isLoading && !data?.length && (
+                <div role="alert" className="alert alert-warning my-8">
+                    <span className="text-2xl"><MdErrorOutline /></span>
+                    <span>TA information not available.</span>
+                </div>
+            )}
             <ul>
                 {isLoading && (
                     <li className="md:px-4 pt-6">
