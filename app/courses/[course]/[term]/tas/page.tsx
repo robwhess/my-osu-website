@@ -2,6 +2,7 @@
 
 import { use } from "react"
 import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
+import { MdErrorOutline } from "react-icons/md"
 
 import { createClient } from "@/lib/supabase/browser"
 import EventCard from "@/components/EventCard"
@@ -14,7 +15,7 @@ export default function TAsPage({
     const { course, term } = use(params)
     const courseTermId = `${course}-${term}`
     const supabase = createClient()
-    const { data, isLoading } = useQuery(
+    const { data, isLoading, error } = useQuery(
         supabase
             .from("person")
             .select("*,hours!inner(*,videoConferenceLink:videoconference_link,extraInfo:extra_info)")
@@ -24,6 +25,12 @@ export default function TAsPage({
     return (
         <div className="flex flex-col">
             <h3 className="text-lg font-medium">TAs</h3>
+            {error && (
+                <div role="alert" className="alert my-8">
+                    <span className="text-2xl text-error"><MdErrorOutline /></span>
+                    <span>Sorry!  An error occurred.  Please try again later.</span>
+                </div>
+            )}
             <ul>
                 {isLoading && (
                     <li className="md:px-4 pt-6">

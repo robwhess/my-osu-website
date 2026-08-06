@@ -2,6 +2,7 @@
 
 import { use } from "react"
 import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
+import { MdErrorOutline } from "react-icons/md"
 
 import { createClient } from "@/lib/supabase/browser"
 
@@ -17,7 +18,7 @@ export default function TopicsPage({
     const { course, term } = use(params)
     const courseTermId = `${course}-${term}`
     const supabase = createClient()
-    const { data, isLoading } = useQuery(
+    const { data, isLoading, error } = useQuery(
         supabase
             .from("topic")
             .select("*")
@@ -28,6 +29,12 @@ export default function TopicsPage({
     return (
         <div className="flex flex-col">
             <h3 className="text-lg font-medium">Schedule of Topics</h3>
+            {error && (
+                <div role="alert" className="alert my-8">
+                    <span className="text-2xl text-error"><MdErrorOutline /></span>
+                    <span>Sorry!  An error occurred.  Please try again later.</span>
+                </div>
+            )}
             {isLoading && (
                 <div className="m-4">
                     <div className="skeleton h-2 w-24 my-2"></div>

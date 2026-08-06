@@ -3,6 +3,8 @@ import { notFound } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
 import CourseTermSelectForm from "@/components/CourseTermSelectForm"
 
+export const dynamicParams = false
+
 export async function generateStaticParams() {
     const supabase = createClient()
     const { data, error } = await supabase

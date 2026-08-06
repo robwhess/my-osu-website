@@ -5,7 +5,6 @@ import { Course, CoursesByTerm } from "./types"
  */
 export function groupCoursesByTerm(courses: Course[]): CoursesByTerm {
     const coursesByTerm: CoursesByTerm = {
-        archive: [],
         winter: [],
         spring: [],
         summer: [],

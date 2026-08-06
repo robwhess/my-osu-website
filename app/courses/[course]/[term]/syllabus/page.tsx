@@ -17,7 +17,7 @@ export default function SyllabusPage({
     const { course, term } = use(params)
     const courseTermId = `${course}-${term}`
     const supabase = createClient()
-    const { data: queryData, isLoading: isLoadingQuery } = useQuery(
+    const { data: queryData, isLoading: isLoadingQuery, error: queryError } = useQuery(
         supabase
             .from("course_term")
             .select("id,syllabus")
@@ -31,11 +31,18 @@ export default function SyllabusPage({
         "public"
     )
 
-    const { data: syllabusData, error, isLoading: isLoadingSyllabus } = useSWR(
+    const { data: syllabusData, error: syllabusError, isLoading: isLoadingSyllabus } = useSWR(
         syllabusUrl,
-        url => fetch(url).then(res => res.text())
+        url => fetch(url).then(async res => {
+            if (res.ok) {
+                return res.text()
+            } else {
+                throw await res.json()
+            }
+        })
     )
 
+    const error = queryError || syllabusError
     const isLoading = isLoadingQuery || isLoadingSyllabus
 
     return (
@@ -49,7 +56,7 @@ export default function SyllabusPage({
                 </div>
             )}
             {error && (
-                <div role="alert" className="alert">
+                <div role="alert" className="alert my-8">
                     <span className="text-2xl text-error"><MdErrorOutline /></span>
                     <span>Sorry!  An error occurred.  Please try again later.</span>
                 </div>

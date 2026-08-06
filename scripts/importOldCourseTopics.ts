@@ -10,7 +10,7 @@ import path from "node:path"
 import dotenv from "dotenv"
 import { createClient } from "@supabase/supabase-js"
 
-import { type Database, type Json } from "../generated/supabase/types.ts"
+import { type Database, type Json } from "../generated/supabase/types"
 
 dotenv.config({ path: ".env.local" })
 
