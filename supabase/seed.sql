@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict rxz2BGW4pCfUVpEizAq89cECnqq7diVwC88BU7GP2YlXZUh5XzveXDPoZUIX84e
+-- \restrict egAEz3Jqa2hWVikGIKW9ExvHDHFeO0X9elikOcT72Vy7hHwIosQpOa1xKwMoX9M
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -115,11 +115,70 @@ INSERT INTO "public"."topic" ("id", "created_at", "title", "weeks", "materials",
 	(10, '2026-08-02 04:00:24.704036+00', 'Setting up a Server with Node.js and Express', '{2,3}', '{"{\"url\": \"https://docs.google.com/document/d/1Bxlcxy1A4jqa0Mqu1AZKr4f27b4I5E3yRFj4uosdMGQ/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs493-sp26/server-setup\", \"title\": \"Example code\", \"description\": \"GitHub repo for code written in lecture\"}"}', '{"{\"url\": \"http://eloquentjavascript.net/20_node.html\", \"title\": \"Node.js\", \"description\": \"Eloquent Javascript, Chapter 20\"}","{\"url\": \"https://docs.npmjs.com/getting-started/installing-npm-packages-locally\", \"title\": \"How to Install Local Packages\", \"description\": \"npm docs\"}","{\"url\": \"https://docs.npmjs.com/getting-started/using-a-package.json\", \"title\": \"Working with package.json\", \"description\": \"npm docs\"}","{\"url\": \"https://expressjs.com/en/starter/hello-world.html\", \"title\": \"Hello world example\", \"description\": \"Express docs\"}","{\"url\": \"https://expressjs.com/en/starter/basic-routing.html\", \"title\": \"Basic routing\", \"description\": \"Express docs\"}","{\"url\": \"https://expressjs.com/en/guide/routing.html\", \"title\": \"Routing\", \"description\": \"Express docs\"}","{\"url\": \"https://expressjs.com/en/guide/writing-middleware.html\", \"title\": \"Writing middleware for use in Express apps\", \"description\": \"Express docs\"}","{\"url\": \"https://www.getpostman.com/docs/postman/sending_api_requests/requests\", \"title\": \"Requests\", \"description\": \"Postman\"}","{\"url\": \"https://www.getpostman.com/docs/postman/sending_api_requests/responses\", \"title\": \"Responses\", \"description\": \"Postman\"}","{\"url\": \"https://www.getpostman.com/docs/postman/scripts/test_scripts\", \"title\": \"Test scripts\", \"description\": \"Postman\"}","{\"url\": \"https://www.getpostman.com/docs/postman/scripts/test_examples\", \"title\": \"Test examples\", \"description\": \"Postman\"}"}', false, 'cs493-sp26'),
 	(11, '2026-08-02 04:00:26.443326+00', 'A Team-Based Workflow for using Git and GitHub', '{7}', '{"{\"url\": \"https://docs.google.com/document/d/1Uzencnr7c6dorZvG53g27G57B8lIowoctNTZosUsiuM/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs362-sp26/github-flow\", \"title\": \"Example code\", \"description\": \"code written during lecture\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch09.html\", \"title\": \"Code Review\", \"description\": \"Tom Manshreck and Caitlin Sadowski (Chapter 9 of Software Engineering at Google)\"}","{\"url\": \"https://docs.github.com/en/get-started/quickstart/github-flow\", \"title\": \"GitHub flow\", \"description\": \"GitHub Docs\"}","{\"url\": \"https://githubflow.github.io/\", \"title\": \"GitHub Flow\"}","{\"url\": \"https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow\", \"title\": \"Git Feature Branch Workflow\", \"description\": \"Atlassian\"}","{\"url\": \"https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell\", \"title\": \"Git Branches - Branching in a Nutshell\", \"description\": \"Pro Git\"}","{\"url\": \"https://www.atlassian.com/git/tutorials/using-branches/git-merge\", \"title\": \"Git Merge\", \"description\": \"Atlassian\"}","{\"url\": \"https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests\", \"title\": \"About pull requests\", \"description\": \"GitHub Docs\"}","{\"url\": \"https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches\", \"title\": \"About protected branches\", \"description\": \"GitHub Docs\"}"}', false, 'cs362-sp26'),
 	(13, '2026-08-02 04:00:26.443421+00', 'Git and GitHub: An Individual''s Perspective', '{1,2}', '{"{\"url\": \"https://docs.google.com/document/d/1OvD4CHSYbJ7fWG6NtoLE5ekia6RnKJRRCS-OSUN8XZM/edit?usp=sharing\", \"title\": \"Lecture notes\"}"}', '{"{\"url\": \"https://git-scm.com/book/en/v2/\", \"title\": \"Getting Started [with Git]\", \"description\": \"Chapter 1 of Pro Git by Scott Chacon and Ben Straub\"}","{\"url\": \"https://git-scm.com/book/en/v2/\", \"title\": \"Git Basics\", \"description\": \"Chapter 2 of Pro Git by Scott Chacon and Ben Straub\"}","{\"url\": \"https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet\", \"title\": \"Git cheat sheet\", \"description\": \"Atlassian\"}","{\"url\": \"https://training.github.com/\", \"title\": \"Git cheat sheet\", \"description\": \"GitHub\"}","{\"url\": \"https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts\", \"title\": \"Git merge conflicts\", \"description\": \"Atlassian\"}"}', false, 'cs362-sp26'),
-	(14, '2026-08-02 04:00:26.444369+00', 'Continuous Integration and Continuous Delivery with GitHub Actions', '{9,10}', '{"{\"url\": \"https://docs.google.com/document/d/1q64GcApt1mikM2FGEq_kgh_eFS5gXZBen8D0FFsGXk0/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs362-sp26/ci-cd\", \"title\": \"Example code\", \"description\": \"code written during lecture\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch23.html\", \"title\": \"Continuous Integration\", \"description\": \"Rachel Tannenbaum (Chapter 23 of Software Engineering at Google)\"}","{\"url\": \"https://www.martinfowler.com/articles/continuousIntegration.html\", \"title\": \"Continuous Integration\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://abseil.io/resources/swe-book/html/ch24.html\", \"title\": \"Continuous Delivery\", \"description\": \"Radha Narayan, Bobbi Jones, Sheri Shipe, and David Owens (Chapter 24 of Software Engineering at Google)\"}","{\"url\": \"https://martinfowler.com/bliki/ContinuousDelivery.html\", \"title\": \"Continuous Delivery\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions\", \"title\": \"Understanding GitHub Actions\", \"description\": \"GitHub Docs\"}","{\"url\": \"https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts\", \"title\": \"Storing workflow data as artifacts\", \"description\": \"GitHub Docs\"}","{\"url\": \"https://docs.github.com/en/actions/using-workflows/reusing-workflows\", \"title\": \"Reusing workflows\", \"description\": \"GitHub Docs\"}"}', false, 'cs362-sp26'),
 	(15, '2026-08-02 04:00:26.443162+00', 'Test-Driven Development: A Case Study', '{4}', '{"{\"url\": \"https://docs.google.com/document/d/1cCiUGRj5IBUTbWgyXwS8j4b5kwA4VlsrsTls7exuX48/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs362-sp26/tdd-case-study\", \"title\": \"Example code\", \"description\": \"code written during lecture\"}"}', '{"{\"url\": \"https://www.jamesshore.com/v2/books/aoad2/test-driven_development\", \"title\": \"Test-Driven Development\", \"description\": \"James Shore and Shane Warden (from The Art of Agile Development)\"}","{\"url\": \"https://www.jamesshore.com/v2/projects/lunch-and-learn/incremental-tdd\", \"title\": \"Incremental Test-Driven Development\", \"description\": \"James Shore\"}","{\"url\": \"https://kentcdodds.com/blog/when-i-follow-tdd\", \"title\": \"When I follow TDD\", \"description\": \"Kent C. Dodds\"}"}', false, 'cs362-sp26'),
 	(18, '2026-08-02 04:00:26.445011+00', 'End-to-End Testing with Cypress', '{7,8}', '{"{\"url\": \"https://docs.google.com/document/d/1YQK068Fpqllgw_6ZJ4sZvSlNS1b2QM3N8I_nQMpE_cg/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs362-sp26/e2e-testing\", \"title\": \"Example code\", \"description\": \"code written during lecture\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch14.html\", \"title\": \"Larger Testing\", \"description\": \"Joseph Graves (Chapter 14 of Software Engineering at Google)\"}","{\"url\": \"https://docs.cypress.io/guides/core-concepts/introduction-to-cypress\", \"title\": \"Introduction to Cypress\", \"description\": \"Cypress Docs\"}","{\"url\": \"https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests\", \"title\": \"Writing and Organizing Tests\", \"description\": \"Cypress Docs\"}","{\"url\": \"https://docs.cypress.io/guides/end-to-end-testing/testing-your-app\", \"title\": \"Testing Your App\", \"description\": \"Cypress Docs\"}","{\"url\": \"https://docs.cypress.io/guides/references/assertions\", \"title\": \"Assertions\", \"description\": \"Cypress Docs\"}","{\"url\": \"https://testing-library.com/docs/cypress-testing-library/intro\", \"title\": \"Cypress Testing Library\", \"description\": \"Testing Library Docs\"}","{\"url\": \"https://docs.cypress.io/guides/references/best-practices\", \"title\": \"Best Practices\", \"description\": \"Cypress Docs\"}"}', false, 'cs362-sp26'),
 	(16, '2026-08-02 04:00:26.445176+00', 'Test Doubles', '{5,6}', '{"{\"url\": \"https://docs.google.com/document/d/1NB775R2seFx5YmMeDeiCEnTCw3uGoEzDKGcHjkYAAvI/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs362-sp26/test-doubles\", \"title\": \"Example code\", \"description\": \"code written during lecture\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch13.html\", \"title\": \"Test Doubles\", \"description\": \"Andrew Trenk and Dillon Bly (Chapter 13 of Software Engineering at Google)\"}","{\"url\": \"https://martinfowler.com/bliki/TestDouble.html\", \"title\": \"TestDouble\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://martinfowler.com/articles/mocksArentStubs.html\", \"title\": \"Mocks Aren''t Stubs\", \"description\": \"Martin Fowler\"}","{\"url\": \"http://xunitpatterns.com/Test%20Double.html\", \"title\": \"Test Double\", \"description\": \"xUnit Patterns\"}","{\"url\": \"https://jestjs.io/docs/mock-functions\", \"title\": \"Mock Functions\", \"description\": \"Jest Documentation\"}","{\"url\": \"https://mswjs.io/docs/\", \"title\": \"Introduction to Mock Service Worker\", \"description\": \"MSW Documentation\"}"}', false, 'cs362-sp26'),
-	(20, '2026-08-02 04:00:26.445526+00', 'Software Testing Fundamentals', '{2}', '{"{\"url\": \"https://docs.google.com/document/d/1aCfeMbS_DJxe-ZorQMee3oPXvRsKWPKxu2XxaBnqHhc/edit?usp=sharing\", \"title\": \"Lecture notes\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch11.html\", \"title\": \"Testing Overview\", \"description\": \"Adam Bender (Chapter 11 of Software Engineering at Google)\"}","{\"url\": \"https://testing.googleblog.com/2013/08/testing-on-toilet-test-behavior-not.html\", \"title\": \"Test Behavior, Not Implementation\", \"description\": \"Andrew Trenk (Google Testing Blog)\"}","{\"url\": \"https://learn.microsoft.com/en-us/training/modules/visual-studio-test-concepts/4-different-types-of-testing\", \"title\": \"Different types of testing and the testing pyramid\", \"description\": \"Microsoft Training\"}","{\"url\": \"https://martinfowler.com/bliki/TestPyramid.html\", \"title\": \"TestPyramid\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://kentcdodds.com/blog/write-tests\", \"title\": \"Write Tests.  Not too many.  Mostly integration.\", \"description\": \"Kent C. Dodds\"}","{\"url\": \"https://www.jamesshore.com/v2/books/aoad2/test-driven_development\", \"title\": \"Test-Driven Development\", \"description\": \"James Shore and Shane Warden (from The Art of Agile Development)\"}"}', false, 'cs362-sp26');
+	(20, '2026-08-02 04:00:26.445526+00', 'Software Testing Fundamentals', '{2}', '{"{\"url\": \"https://docs.google.com/document/d/1aCfeMbS_DJxe-ZorQMee3oPXvRsKWPKxu2XxaBnqHhc/edit?usp=sharing\", \"title\": \"Lecture notes\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch11.html\", \"title\": \"Testing Overview\", \"description\": \"Adam Bender (Chapter 11 of Software Engineering at Google)\"}","{\"url\": \"https://testing.googleblog.com/2013/08/testing-on-toilet-test-behavior-not.html\", \"title\": \"Test Behavior, Not Implementation\", \"description\": \"Andrew Trenk (Google Testing Blog)\"}","{\"url\": \"https://learn.microsoft.com/en-us/training/modules/visual-studio-test-concepts/4-different-types-of-testing\", \"title\": \"Different types of testing and the testing pyramid\", \"description\": \"Microsoft Training\"}","{\"url\": \"https://martinfowler.com/bliki/TestPyramid.html\", \"title\": \"TestPyramid\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://kentcdodds.com/blog/write-tests\", \"title\": \"Write Tests.  Not too many.  Mostly integration.\", \"description\": \"Kent C. Dodds\"}","{\"url\": \"https://www.jamesshore.com/v2/books/aoad2/test-driven_development\", \"title\": \"Test-Driven Development\", \"description\": \"James Shore and Shane Warden (from The Art of Agile Development)\"}"}', false, 'cs362-sp26'),
+	(14, '2026-08-02 04:00:26.444369+00', 'Continuous Integration and Continuous Delivery with GitHub Actions', '{9,10}', '{"{\"url\": \"https://docs.google.com/document/d/1q64GcApt1mikM2FGEq_kgh_eFS5gXZBen8D0FFsGXk0/edit?usp=sharing\", \"title\": \"Lecture notes\"}","{\"url\": \"https://github.com/osu-cs362-sp26/ci-cd\", \"title\": \"Example code\", \"description\": \"code written during lecture\"}"}', '{"{\"url\": \"https://abseil.io/resources/swe-book/html/ch23.html\", \"title\": \"Continuous Integration\", \"description\": \"Rachel Tannenbaum (Chapter 23 of Software Engineering at Google)\"}","{\"url\": \"https://www.martinfowler.com/articles/continuousIntegration.html\", \"title\": \"Continuous Integration\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://abseil.io/resources/swe-book/html/ch24.html\", \"title\": \"Continuous Delivery\", \"description\": \"Radha Narayan, Bobbi Jones, Sheri Shipe, and David Owens (Chapter 24 of Software Engineering at Google)\"}","{\"url\": \"https://martinfowler.com/bliki/ContinuousDelivery.html\", \"title\": \"Continuous Delivery\", \"description\": \"Martin Fowler\"}","{\"url\": \"https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions\", \"title\": \"Understanding GitHub Actions\", \"description\": \"GitHub Docs\"}","{\"url\": \"https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts\", \"title\": \"Storing workflow data as artifacts\", \"description\": \"GitHub Docs\"}","{\"url\": \"https://docs.github.com/en/actions/using-workflows/reusing-workflows\", \"title\": \"Reusing workflows\", \"description\": \"GitHub Docs\"}"}', false, 'cs362-sp26');
+
+
+--
+-- Data for Name: buckets; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+INSERT INTO "storage"."buckets" ("id", "name", "owner", "created_at", "updated_at", "public", "avif_autodetection", "file_size_limit", "allowed_mime_types", "owner_id", "type") VALUES
+	('syllabus', 'syllabus', NULL, '2026-08-06 00:04:04.264753+00', '2026-08-06 00:04:04.264753+00', true, false, NULL, '{text/markdown}', NULL, 'STANDARD');
+
+
+--
+-- Data for Name: buckets_analytics; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+
+
+--
+-- Data for Name: buckets_vectors; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+
+
+--
+-- Data for Name: iceberg_namespaces; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+
+
+--
+-- Data for Name: iceberg_tables; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+
+
+--
+-- Data for Name: objects; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+INSERT INTO "storage"."objects" ("id", "bucket_id", "name", "owner", "created_at", "updated_at", "last_accessed_at", "metadata", "version", "owner_id", "user_metadata") VALUES
+	('cc33e623-bcff-4d0b-80a8-6c8fa45f4bff', 'syllabus', 'cs362/cs362-sp26.md', NULL, '2026-08-06 00:04:37.374775+00', '2026-08-06 00:04:37.374775+00', '2026-08-06 00:04:37.374775+00', '{"eTag": "\"3f01373d26197bbfd32d5461c7ac0132\"", "size": 15194, "mimetype": "text/markdown", "cacheControl": "max-age=3600", "lastModified": "2026-08-06T00:04:37.371Z", "contentLength": 15194, "httpStatusCode": 200}', '23981b59-84a7-400b-9bd9-81b4edac0cce', NULL, NULL),
+	('5314a269-4666-463b-905a-3ddcc9be0a82', 'syllabus', 'cs493/cs493-sp26.md', NULL, '2026-08-06 00:04:51.271525+00', '2026-08-06 00:04:51.271525+00', '2026-08-06 00:04:51.271525+00', '{"eTag": "\"532d7734399d51b8267150ecf639488f\"", "size": 15674, "mimetype": "text/markdown", "cacheControl": "max-age=3600", "lastModified": "2026-08-06T00:04:51.269Z", "contentLength": 15674, "httpStatusCode": 200}', 'b69fb460-9621-468a-8e50-ccd9b3da4a93', NULL, NULL);
+
+
+--
+-- Data for Name: s3_multipart_uploads; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+
+
+--
+-- Data for Name: s3_multipart_uploads_parts; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+
+
+--
+-- Data for Name: vector_indexes; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
 
 
 --
@@ -161,6 +220,6 @@ SELECT pg_catalog.setval('"public"."topic_id_seq"', 20, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict rxz2BGW4pCfUVpEizAq89cECnqq7diVwC88BU7GP2YlXZUh5XzveXDPoZUIX84e
+-- \unrestrict egAEz3Jqa2hWVikGIKW9ExvHDHFeO0X9elikOcT72Vy7hHwIosQpOa1xKwMoX9M
 
 RESET ALL;
