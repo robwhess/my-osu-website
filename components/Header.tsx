@@ -56,7 +56,7 @@ export default function Header() {
                     <nav className="hidden md:block font-medium">
                         <ul className="menu menu-lg menu-horizontal">
                             {navLinks.map(link => (
-                                <li key={link.href} className={`${pathname.startsWith(link.href) ? "border-b-2 border-primary" : ""}`}>
+                                <li key={link.href} className={`border-b-2 ${pathname.startsWith(link.href) ? "border-primary" : "border-transparent"}`}>
                                     <Link href={link.href} className="rounded-none">{link.title}</Link>
                                 </li>
                             ))}
