@@ -45,7 +45,10 @@ export default function TAsPage({
                     </li>
                 )}
                 {data?.map(person => (
-                    <li key={person.id} className="flex flex-col md:flex-row gap-4 md:px-4 py-12 first:pt-6 not-first:border-t border-base-300">
+                    <li
+                        key={person.id}
+                        className="flex flex-col md:flex-row gap-4 md:px-4 py-12 first:pt-6 not-first-of-type:border-t border-base-300"
+                    >
                         <div className="flex-2">
                             <h4 className="text-lg font-medium uppercase text-gray-700">{person.name}</h4>
                             <p className="text-sm"><a className="link" href={`mailto:${person.email}`}>{person.email}</a></p>

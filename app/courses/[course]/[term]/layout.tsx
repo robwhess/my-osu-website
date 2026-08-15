@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
-import { FaFlask, FaGraduationCap, FaInfo, FaRegFileCode } from "react-icons/fa6"
+import { FaFlask, FaInfo } from "react-icons/fa6"
 import { GoLaw } from "react-icons/go"
-import { MdOutlineLiveHelp } from "react-icons/md"
+import { MdOutlineEdit, MdOutlineLiveHelp } from "react-icons/md"
 import { FaRegCalendarAlt } from "react-icons/fa"
 
 import { createClient } from "@/lib/supabase/server"
@@ -78,12 +78,7 @@ export default async function CourseTermLayout({
         {
             title: "Assignments",
             href: `/courses/${course}/${term}/assignments`,
-            icon: <FaRegFileCode />
-        },
-        {
-            title: "Final Project",
-            href: `/courses/${course}/${term}/project`,
-            icon: <FaGraduationCap />
+            icon: <MdOutlineEdit />
         },
         {
             title: "Recitations",

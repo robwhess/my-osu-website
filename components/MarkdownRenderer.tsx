@@ -5,14 +5,20 @@ import rehypeSlug from "rehype-slug"
 
 export default function MarkdownRenderer({
     markdown,
-    toc
+    toc,
+    small
 }: {
     markdown: string,
-    toc?: boolean
+    toc?: boolean,
+    small?: boolean
 }) {
 
     return (
-        <div className="prose prose-lead:leading-normal prose-li:marker:text-base-content">
+        <div className={`
+            prose
+            ${small ? "prose-sm" : ""}
+            prose-p:leading-normal prose-li:marker:text-base-content
+        `}>
             <Markdown
                 remarkPlugins={toc ? [ remarkGfm, remarkToc ] : [ remarkGfm ]}
                 rehypePlugins={toc ? [ rehypeSlug ] : []}
