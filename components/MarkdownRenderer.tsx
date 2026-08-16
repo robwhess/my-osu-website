@@ -17,7 +17,7 @@ export default function MarkdownRenderer({
         <div className={`
             prose
             ${small ? "prose-sm" : ""}
-            prose-p:leading-normal prose-li:marker:text-base-content
+            prose-p:leading-normal prose-li:leading-normal prose-li:marker:text-base-content
         `}>
             <Markdown
                 remarkPlugins={toc ? [ remarkGfm, remarkToc ] : [ remarkGfm ]}
