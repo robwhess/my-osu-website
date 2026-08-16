@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict egAEz3Jqa2hWVikGIKW9ExvHDHFeO0X9elikOcT72Vy7hHwIosQpOa1xKwMoX9M
+-- \restrict rlDGVh7wCJUIM1v6t9Oy3RUMGUdBPbLPROrzM0blHuST9yQiOrMfbuOSoSsSCTB
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -53,6 +53,40 @@ INSERT INTO "public"."person" ("id", "created_at", "name", "email") VALUES
 INSERT INTO "public"."course_term" ("id", "created_at", "course_id", "year", "term", "instructor_id", "links", "syllabus") VALUES
 	('cs362-sp26', '2026-07-01 02:49:33.625699+00', 'cs362', 2026, 'spring', 1, '{"{\"url\": \"https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled\", \"title\": \"CS 362 grading demo appointments\", \"description\": \"Use this page to sign up for grading demos for all assignments.\"}","{\"url\": \"https://canvas.oregonstate.edu/courses/2039368\", \"title\": \"CS 362 on Canvas\"}","{\"url\": \"https://oregonstate.zoom.us/j/99350551124?pwd=dHqez0vKdPnABmJ7aMl4dNawhgtf7f.1\", \"title\": \"CS 362 on Zoom\", \"description\": \"All in-person lectures will be broadcast in this Zoom meeting.\"}","{\"url\": \"https://edstem.org/us/courses/96641\", \"title\": \"CS 362 on Ed\", \"description\": \"We will use Ed for course Q & A – you should be automatically enrolled if you''re enrolled for this course.\"}","{\"url\": \"https://github.com/osu-cs362-sp26\", \"title\": \"CS 362 on GitHub\", \"description\": \"Find all lecture code repos and your own private assignment repos here.\"}"}', 'cs362/cs362-sp26.md'),
 	('cs493-sp26', '2026-06-01 21:08:26.390458+00', 'cs493', 2026, 'spring', 1, '{"{\"url\": \"https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled\", \"title\": \"CS 493 grading demo appointments\", \"description\": \"Use this page to sign up for grading demos for all assignments.\"}","{\"url\": \"https://canvas.oregonstate.edu/courses/2066268\", \"title\": \"CS 493 on Canvas\"}","{\"url\": \"https://oregonstate.zoom.us/j/96017875949?pwd=RPj7neChAcucSbjAvp1wGdquaynQUk.1\", \"title\": \"CS 493 on Zoom\", \"description\": \"All in-person lectures will be broadcast in this Zoom meeting.\"}","{\"url\": \"https://edstem.org/us/courses/96642\", \"title\": \"CS 493 on Ed\", \"description\": \"We will use Ed for course Q & A – you should be automatically enrolled if you''re enrolled for this course.\"}","{\"url\": \"https://github.com/osu-cs493-sp26\", \"title\": \"CS 493 on GitHub\", \"description\": \"Find all lecture code repos and your own private assignment repos here.\"}"}', 'cs493/cs493-sp26.md');
+
+
+--
+-- Data for Name: assignment_group; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO "public"."assignment_group" ("id", "created_at", "title", "description", "course_term_id") VALUES
+	(1, '2026-08-07 18:14:31.622957+00', 'Programming Assignments', 'Programming assignments will be managed via GitHub Classroom. Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself. The assignment repository will at a minimum contain a `README.md` file containing the assignment description. There may also be additional skeleton files in the repository to help you get started with the assignment. To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.', 'cs493-sp26'),
+	(2, '2026-08-08 21:08:56.146269+00', 'Final Project', 'For the final project in this course, you will work in teams to implement a complete RESTful API. You can find more info below.', 'cs493-sp26'),
+	(3, '2026-08-16 23:25:15.859846+00', 'Programming Assignments', 'Programming assignments will be managed via GitHub Classroom. Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself. The assignment repository will at a minimum contain a `README.md` file containing the assignment description. There may also be additional skeleton files in the repository to help you get started with the assignment. To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.', 'cs362-sp26'),
+	(4, '2026-08-16 23:25:39.009015+00', 'Final Project', 'For the final project in this course, you will work in teams to write tests for an application and set up a CI/CD pipeline to automatically test and deploy that application. The project will have three deliverables: a document where you simply form your team; the code implementing your tests and CI/CD pipeline; and a brief evaluation of your project team. Links will be released below where you can find out more about each of these deliverables.', 'cs362-sp26');
+
+
+--
+-- Data for Name: assignment; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO "public"."assignment" ("id", "created_at", "title", "description", "url", "due", "notes", "assignment_group_id") VALUES
+	(1, '2026-08-07 18:18:05.637808+00', 'Assignment 1', 'API design and server implementation', 'https://classroom.github.com/a/OwgHgxO4', '2026-04-20 23:59:00', '{"Extension deadline: **Wednesday, 4/22/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 5/4/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 1),
+	(2, '2026-08-07 18:20:56.353248+00', 'Assignment 2', 'Using Prisma and a database for API data storage', 'https://classroom.github.com/a/YXlOoajG', '2026-05-04 23:59:00', '{"Extension deadline: **Wednesday, 5/6/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 5/18/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 1),
+	(3, '2026-08-07 18:22:03.83655+00', 'Assignment 3', 'API authentication and authorization', 'https://classroom.github.com/a/E0D-cbn6', '2026-05-18 23:59:00', '{"Extension deadline: **Wednesday, 5/20/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 6/1/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 1),
+	(4, '2026-08-07 18:23:31.920908+00', 'Assignment 4', 'File uploads, file storage, and offline work', 'https://classroom.github.com/a/wAW0DdYu', '2026-06-01 23:59:00', '{"Extension deadline: **Wednesday, 6/3/2026, 11:59pm** (no submissions after this)","Grading demo due: **Friday 6/12/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 1),
+	(5, '2026-08-16 23:17:58.548485+00', 'Final Project Details', NULL, 'https://docs.google.com/document/d/1YGEjcimmjZT43rtKAG0srJNIIfPhW5UyfvhmsVDdjL8/edit?usp=sharing', NULL, '{"This assignment contains all the details of the final project itself.","Code for the final project is due at the time of your grading demo, which will be during finals week."}', 2),
+	(6, '2026-08-16 23:19:43.997764+00', 'Final Project Proposal', NULL, 'https://docs.google.com/document/d/1yvbRrest9UOuR0503C8lkzH9LrmzchH0_MTk01reiCA/edit?usp=sharing', '2026-05-15 23:59:00', '{"Use [this Ed thread](https://edstem.org/us/courses/96642/discussion/8023805) to help connect with potential teammates.","Submit [this form](https://forms.gle/kbxP4GFZfXoUEcpr5) if you just want to be assigned to a random team."}', 2),
+	(7, '2026-08-16 23:20:53.485596+00', 'Final Project Team Evaluation', NULL, 'https://docs.google.com/document/d/1B_6DyUl61oh6e-IRJtCaihDJN8T9nNVn5t1T2PRHnGM/edit?usp=sharing', '2026-06-12 23:59:00', '{"Note that this must be completed individually by every member of your team."}', 2),
+	(8, '2026-08-16 23:22:55.644479+00', 'Final Project Demo Signup', NULL, 'https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/s/EsUPnR82RES4TAHp3yYMNg2?ismsaljsauthenabled', NULL, '{"Sign up for a final project demo appointment using the link above.","Sign up for one demo appointment per team.","All team members must attend your demo unless prior arrangements have been made with Hess.","Code is due on GitHub at the time of your demo.","Come to the demo prepared to run your project from one of your team''s computers.","Final project demos will be held in person in Hess''s office (KEC 1109).","Remote attendance at a final project demo is possible *by request only*. If you''d like to attend your demo remotely via Zoom, please submit [this form](https://docs.google.com/forms/d/e/1FAIpQLSdPO0QtTolmEi6dp8WyHqG2bNEeFwqYmu6_OV1nKd9UbgDALg/viewform) at least 24 hours in advance. Please submit the form only once per team."}', 2),
+	(9, '2026-08-16 23:31:30.455572+00', 'Assignment 1', 'Using Git and GitHub', 'https://docs.google.com/document/d/1QlyJ39QUDJ6GmSreOhW1wKF2p5A9DU1z5yW_1N-FIio/edit?usp=sharing', '2025-04-13 23:59:00', '{"Extension deadline: **Wednesday, 4/15/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 4/27/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 3),
+	(11, '2026-08-16 23:32:39.571535+00', 'Assignment 2', 'Unit Testing and TDD', 'https://classroom.github.com/a/gsTY5X-6', '2026-04-27 23:59:00', '{"Extension deadline: **Wednesday, 4/29/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 5/11/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 3),
+	(12, '2026-08-16 23:33:30.210111+00', 'Assignment 3', 'Integration tests for UI-based apps', 'https://classroom.github.com/a/65qD1lXe', '2026-05-11 23:59:00', '{"Extension deadline: **Wednesday, 5/13/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 5/25/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 3),
+	(13, '2026-08-16 23:34:06.654258+00', 'Assignment 4', 'End-to-end tests for a complete application', 'https://classroom.github.com/a/x6ITdvTZ', '2026-05-26 23:59:00', '{"Extension deadline: **Wednesday, 5/28/2026, 11:59pm** (no submissions after this)","Grading demo due: **Monday 6/8/2026, 11:59pm**","[Sign up for a grading demo here](https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/?ismsaljsauthenabled)"}', 3),
+	(14, '2026-08-16 23:36:56.241025+00', 'Final Project Details', NULL, 'https://docs.google.com/document/d/1wpWZreY88RZvuYE8lNw-Fxf4CQBBOxBDo17Xer9NBw4/edit?usp=sharing', NULL, '{"This assignment contains all the details of the final project itself.","Code for the final project is due at the time of your grading demo, which will be during finals week."}', 4),
+	(15, '2026-08-16 23:38:31.731285+00', 'Final Project Team Formation', NULL, 'https://docs.google.com/document/d/1xq7d2upkZ-fcjHELIB-6mWCwHYPi9b5zCoesYyeIQ74/edit?usp=sharing', '2026-05-18 23:59:00', '{"Use [this Ed thread](https://edstem.org/us/courses/96641/discussion/8042692) to help connect with potential teammates.","Submit [this form](https://forms.gle/g87aPBC5k3LumPwu9) if you just want to be assigned to a random team."}', 4),
+	(16, '2026-08-16 23:39:36.726433+00', 'Final Project Team Evaluation', NULL, 'https://docs.google.com/document/d/1P93ZMRuFwJ6Fl_CNbM7xgusTDkH4jhfdrI98sc2LiVc/edit?usp=sharing', '2026-06-12 23:59:00', '{"Note that this must be completed individually by every member of your team."}', 4),
+	(17, '2026-08-16 23:40:39.489901+00', 'Final Project Demo Signup', NULL, 'https://outlook.office.com/book/CS362@OregonStateUniversity.onmicrosoft.com/s/W3KzwpYqAEKbXTcp09l8MQ2?ismsaljsauthenabled', NULL, '{"Sign up for a final project demo appointment using the link above.","Sign up for one demo appointment per team.","All team members must attend your demo unless prior arrangements have been made with Hess.","Code is due on GitHub at the time of your demo.","Come to the demo prepared to run your project from one of your team''s computers.","Final project demos will be held in person in Hess''s office (KEC 1109).","Remote attendance at a final project demo is possible *by request only*. If you''d like to attend your demo remotely via Zoom, please submit [this form](https://docs.google.com/forms/d/e/1FAIpQLSfOCl8ibW9zEubiKUSLZsPGoU_CUOKM1ZLZgO_o9IK4BCfi-Q/viewform) at least 24 hours in advance. Please submit the form only once per team."}', 4);
 
 
 --
@@ -182,6 +216,20 @@ INSERT INTO "storage"."objects" ("id", "bucket_id", "name", "owner", "created_at
 
 
 --
+-- Name: assignment_group_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."assignment_group_id_seq"', 4, true);
+
+
+--
+-- Name: assignment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."assignment_id_seq"', 17, true);
+
+
+--
 -- Name: hours_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
@@ -220,6 +268,6 @@ SELECT pg_catalog.setval('"public"."topic_id_seq"', 20, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict egAEz3Jqa2hWVikGIKW9ExvHDHFeO0X9elikOcT72Vy7hHwIosQpOa1xKwMoX9M
+-- \unrestrict rlDGVh7wCJUIM1v6t9Oy3RUMGUdBPbLPROrzM0blHuST9yQiOrMfbuOSoSsSCTB
 
 RESET ALL;
