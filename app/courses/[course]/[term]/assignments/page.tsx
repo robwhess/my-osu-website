@@ -57,9 +57,9 @@ export default function AssignmentsPage({
                 </div>
             )}
             {slugs.length > 1 && (
-                <nav className="pt-6">
+                <nav className="w-fit mt-6 p-4 bg-base-200 border border-base-300">
                     <h5 className="font-semibold">Jump to...</h5>
-                    <ul className="list-disc list-outside text-sm pl-6">
+                    <ul className="list-disc list-outside pl-6 text-sm font-medium">
                         {slugs.map(slug => (
                             <li key={slug.slug} className="list-item">
                                 <Link className="link" href={`#${slug.slug}`}>{slug.title}</Link>
