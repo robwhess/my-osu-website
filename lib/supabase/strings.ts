@@ -9,11 +9,11 @@ export const termNames = {
   winter: "Winter",
   spring: "Spring",
   summer: "Summer"
-} satisfies Partial<Record<Term, string>>
+} satisfies Record<Term, string>
 
 export const termCodes = {
   fall: "f",
   winter: "w",
   spring: "sp",
   summer: "su"
-} satisfies Partial<Record<Term, string>>
+} satisfies Record<Term, string>
