@@ -26,11 +26,12 @@ export default function CourseTermPage({
             .select(`
                 *,
                 instructor:person(id,name,email),
-                lecture(*,videoConferenceLink:videoconference_link,extraInfo:extra_info,locationLink:location_link),
+                section(*,videoConferenceLink:videoconference_link,extraInfo:extra_info,locationLink:location_link),
                 textbook(*)
             `)
-            .match({ id: courseTermId })
-            .order("section", { referencedTable: "lecture", ascending: true })
+            .eq("id", courseTermId)
+            .eq("section.type", "lecture")
+            .order("section", { referencedTable: "section", ascending: true })
             .maybeSingle()
     )
 
@@ -47,18 +48,20 @@ export default function CourseTermPage({
                     <h4 className="mt-4 mb-1 text-lg font-medium uppercase text-gray-700">Instructor</h4>
                     <div className="mx-2">
                         {isLoading && <div className="skeleton h-4 w-56"></div>}
-                        {data?.instructor && (
+                        {data?.instructor ? (
                             <p className="font-semibold">
                                 {data.instructor.name} (<a className="link" href={`mailto:${data.instructor.email}`}>{data.instructor.email}</a>)
                             </p>
+                        ) : (
+                            data && <p className="ml-1 text-sm text-gray-400">No instructor information available</p>
                         )}
                     </div>
 
                     <h4 className="mt-4 mb-1 text-lg font-medium uppercase text-gray-700">Lectures</h4>
                     <div className="mx-1 flex flex-col md:flex-row gap-2">
                         {isLoading && <EventCardSkeleton tight border />}
-                        {data?.lecture?.length ? (
-                            data.lecture.map(lecture => (
+                        {data?.section?.length ? (
+                            data?.section?.map(lecture => (
                                 <EventCard
                                     key={lecture.id}
                                     tight border
@@ -66,7 +69,7 @@ export default function CourseTermPage({
                                     heading={`Section ${lecture.section} - CRN ${lecture.crn}`}
                                 />
                         ))) : (
-                            data && <p className="ml-1 text-gray-400">No lecture information available</p>
+                            data && <p className="ml-1 text-sm text-gray-400">No lecture information available</p>
                         )}
                     </div>
 

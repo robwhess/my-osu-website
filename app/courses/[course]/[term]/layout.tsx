@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import { FaFlask, FaInfo } from "react-icons/fa6"
 import { GoLaw } from "react-icons/go"
 import { MdOutlineEdit, MdOutlineLiveHelp } from "react-icons/md"
-import { FaRegCalendarAlt } from "react-icons/fa"
+import { FaRegCalendarAlt, FaBookReader } from "react-icons/fa"
 
 import { createClient } from "@/lib/supabase/server"
 import { termNames } from "@/lib/supabase/strings"
@@ -41,7 +41,7 @@ export default async function CourseTermLayout({
     const supabase = createClient()
     const { data, error } = await supabase
         .from("course_term")
-        .select("*,course(number)")
+        .select("*,course(number),section(id,type)")
         .match({ id: courseTermId })
         .maybeSingle()
 
@@ -79,13 +79,24 @@ export default async function CourseTermLayout({
             title: "Assignments",
             href: `/courses/${course}/${term}/assignments`,
             icon: <MdOutlineEdit />
-        },
-        {
-            title: "Recitations",
-            href: `/courses/${course}/${term}/recitations`,
-            icon: <FaFlask />
         }
     ]
+
+    if (data?.section.some(section => section.type === "recitation")) {
+        pageList.push({
+            title: "Recitations",
+            href: `/courses/${course}/${term}/recitations`,
+            icon: <FaBookReader />
+        })
+    }
+
+    if (data?.section.some(section => section.type === "lab")) {
+        pageList.push({
+            title: "Labs",
+            href: `/courses/${course}/${term}/labs`,
+            icon: <FaFlask />
+        })
+    }
 
     const title = `${data.course.number} – ${termNames[data.term as keyof typeof termNames]} ${data.year}`
 
