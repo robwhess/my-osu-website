@@ -1,6 +1,7 @@
 import { Enums, Tables } from "@/generated/supabase/types"
 
 export type Term = Enums<"term">
+export type SectionType = Enums<"section_type">
 
 export type Course = Tables<"course">
 export type CourseTerm = Tables<"course_term">

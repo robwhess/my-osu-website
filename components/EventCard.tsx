@@ -22,7 +22,8 @@ export default function EventCard({
   heading,
   small,
   tight,
-  border
+  border,
+  shadow = true
 } : {
     day: string,
     start: string,
@@ -34,7 +35,8 @@ export default function EventCard({
     heading?: string | null,
     small?: boolean,
     tight?: boolean,
-    border?: boolean
+    border?: boolean,
+    shadow?: boolean
 }) {
     const startTime = dayjs(start, "HH:mm:ss").format("h:mm a")
     const endTime = end && dayjs(end, "HH:mm:ss").format("h:mm a")
@@ -43,9 +45,14 @@ export default function EventCard({
         <div className={`
             card bg-base-100
             ${small ? "card-sm" : ""}
-            ${border ? " border border-base-300" : "shadow-sm"}
+            ${border ? "border border-base-300" : ""}
+            ${shadow && !border ? "shadow-sm" : ""}
         `}>
-            <div className={`card-body gap-1 ${tight ? "p-4" : ""}`}>
+            <div className={`
+                card-body gap-1
+                ${tight ? "p-4" : ""}
+                ${!shadow && !border ? "p-0" : ""}
+            `}>
                 {heading && (
                     <p className="uppercase font-semibold text-gray-500">{heading}</p>
                 )}
@@ -93,22 +100,29 @@ export default function EventCard({
 export function EventCardSkeleton({
     small,
     tight,
-    border
+    border,
+    shadow = true
 }: {
     small?: boolean,
     tight?: boolean,
-    border?: boolean
+    border?: boolean,
+    shadow?: boolean
 }) {
     return (
         <div className={`
             card min-w-48 bg-base-100
             ${small ? "card-sm" : ""}
-            ${border ? " border border-base-300" : "shadow-sm"}
+            ${border ? " border border-base-300" : ""}
+            ${shadow && !border ? "shadow-sm" : ""}
         `}>
-            <div className={`card-body gap-2 ${tight ? "p-4" : ""}`}>
-                <div className="skeleton h-6 w-3/4"></div>
-                <div className="skeleton h-4 w-1/2"></div>
-                <div className="skeleton h-4 w-2/3"></div>
+            <div className={`
+                card-body gap-2
+                ${tight ? "p-4" : ""}
+                ${!shadow && !border ? "p-0" : ""}
+            `}>
+                <div className={`skeleton w-3/4 ${small ? "h-4" : "h-6"}`}></div>
+                <div className={`skeleton w-1/2 ${small ? "h-2" : "h-4"}`}></div>
+                <div className={`skeleton w-2/3 ${small ? "h-2" : "h-4"}`}></div>
             </div>
         </div>
     )
