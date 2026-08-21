@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "genTypes": "supabase gen types typescript > generated/supabase/types.ts",
+    "genLocalTypes": "supabase gen types typescript --local > generated/supabase/types.ts"
   },
   "dependencies": {
     "next": "^16.2.12",
