@@ -30,9 +30,9 @@ export default function TopicsList({
                         </h5>
                     </summary>
                     <div className="collapse-content ml-2">
-                        {topic.materials?.length && (
+                        {topic.materials.length > 0 && (
                             <>
-                                <h5 className="font-medium text-gray-700">Lecture Materials</h5>
+                                <h5 className="font-medium text-gray-700">Topic Materials</h5>
                                 <ul className="list-disc list-outside pl-6">
                                     {
                                         /*
@@ -48,7 +48,7 @@ export default function TopicsList({
                                 </ul>
                             </>
                         )}
-                        {topic.readings?.length && (
+                        {topic.readings.length > 0 && (
                             <>
                                 <h5 className="mt-4 font-medium text-gray-700">Readings</h5>
                                 <ul className="list-disc list-outside pl-6">

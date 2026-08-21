@@ -21,6 +21,7 @@ export default function TopicsPage({
             .from("topic")
             .select("*")
             .eq("course_term_id", courseTermId)
+            .is("section", null)
             .order("weeks", { ascending: true })
     )
 
