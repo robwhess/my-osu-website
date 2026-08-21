@@ -45,7 +45,7 @@ export default function SecondarySectionPage({
                 </div>
             )}
             {!error && !isLoading && !data?.length && (
-                <div role="alert" className="alert alert-warning my-8">
+                <div role="alert" className="alert alert-warning mt-8">
                     <span className="text-2xl"><MdErrorOutline /></span>
                     <span>{sectionType === "recitation" ? "Recitation" : "Lab"} information not available.</span>
                 </div>
@@ -88,19 +88,21 @@ export default function SecondarySectionPage({
                         </li>
                     ))}
                 </ul>
-                <div>
-                    <h4 className="text-lg font-semibold">
-                        Weekly {sectionType === "recitation" ? "Recitation" : "Lab"} Schedule
-                    </h4>
-                    {topics.length > 0 ? (
-                        <TopicsList topics={topics} />
-                    ) : (
-                        <div role="alert" className="alert my-4">
-                            <span className="text-2xl"><MdErrorOutline /></span>
-                            <span>Weekly schedule not available.</span>
-                        </div>
-                    )}
-                </div>
+                {data && data.length > 0 && (
+                    <div>
+                        <h4 className="text-lg font-semibold">
+                            Weekly {sectionType === "recitation" ? "Recitation" : "Lab"} Schedule
+                        </h4>
+                        {topics.length > 0 ? (
+                            <TopicsList topics={topics} />
+                        ) : (
+                            <div role="alert" className="alert my-4">
+                                <span className="text-2xl"><MdErrorOutline /></span>
+                                <span>Weekly schedule not available.</span>
+                            </div>
+                        )}
+                    </div>
+                )}
             </div>
         </div>
     )
