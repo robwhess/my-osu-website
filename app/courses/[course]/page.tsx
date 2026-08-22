@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation"
+import { notFound, redirect } from "next/navigation"
 import { MdErrorOutline } from "react-icons/md"
 
 import { createClient } from "@/lib/supabase/server"
@@ -21,6 +21,10 @@ export default async function CoursePage({
     if (error) {
         console.error(error)
         throw error
+    }
+
+    if (!data) {
+        notFound()
     }
 
     const lastCourseTerm = data?.courseTerm[0]

@@ -1,6 +1,7 @@
 "use client"
 
 import { use } from "react"
+import { notFound } from "next/navigation"
 import { useQuery } from "@supabase-cache-helpers/postgrest-swr"
 import { GoArrowRight } from "react-icons/go"
 import { MdErrorOutline } from "react-icons/md"
@@ -34,6 +35,10 @@ export default function CourseTermPage({
             .order("section", { referencedTable: "section", ascending: true })
             .maybeSingle()
     )
+
+    if (!data && !error && !isLoading) {
+        notFound()
+    }
 
     return (
         <div className="flex flex-col mb-4">

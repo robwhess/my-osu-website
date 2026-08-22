@@ -1,4 +1,3 @@
-import { notFound } from "next/navigation"
 import { FaFlask, FaInfo } from "react-icons/fa6"
 import { GoLaw } from "react-icons/go"
 import { MdOutlineEdit, MdOutlineLiveHelp } from "react-icons/md"
@@ -50,10 +49,6 @@ export default async function CourseTermLayout({
         throw error
     }
 
-    if (!data) {
-        notFound()
-    }
-
     const pageList = [
         {
             title: "Basics",
@@ -98,7 +93,7 @@ export default async function CourseTermLayout({
         })
     }
 
-    const title = `${data.course.number} – ${termNames[data.term as keyof typeof termNames]} ${data.year}`
+    const title = `${data?.course.number} – ${termNames[data?.term as keyof typeof termNames]} ${data?.year}`
 
     return (
         <div className="flex flex-col items-stretch">

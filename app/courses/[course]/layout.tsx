@@ -1,5 +1,3 @@
-import { notFound } from "next/navigation"
-
 import { createClient } from "@/lib/supabase/server"
 import CourseTermSelectForm from "@/components/CourseTermSelectForm"
 
@@ -42,16 +40,12 @@ export default async function CourseLayout({
         throw error
     }
 
-    if (!data) {
-        notFound()
-    }
-
     return (
         <div className="p-2 md:p-4 flex flex-col items-stretch gap-2">
             <div className="flex flex-col md:flex-row md:justify-between items-stretch md:items-center gap-4">
                 <div className="p-2 md:flex-2">
-                    <h1 className="text-2xl font-semibold">{data.number} &ndash; {data.title}</h1>
-                    <h2 className="text-sm">{data.description}</h2>
+                    <h1 className="text-2xl font-semibold">{data?.number} &ndash; {data?.title}</h1>
+                    <h2 className="text-sm">{data?.description}</h2>
                 </div>
                 {
                     /*
@@ -59,7 +53,7 @@ export default async function CourseLayout({
                      * render a menu the user can use to select the course term
                      * they want to view.
                      */
-                    data.courseTerm.length > 0 && (
+                    data && data.courseTerm.length > 0 && (
                         <div className="md:flex-1">
                             <CourseTermSelectForm courseTerms={data.courseTerm} />
                         </div>
