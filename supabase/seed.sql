@@ -248,10 +248,10 @@ SELECT pg_catalog.setval('"public"."hours_id_seq"', 16, true);
 
 
 --
--- Name: lecture_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+-- Name: section_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."lecture_id_seq"', 6, true);
+SELECT pg_catalog.setval('"public"."section_id_seq"', 6, true);
 
 
 --
