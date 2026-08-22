@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict kisPqBkdc7vbm4nvBTV8vnSfauvwCeBxcCaLGZAN3lbnkAcJ5are6cYm4taSUJZ
+-- \restrict Ib5I8SbgfZN8U0E8p26WVxWj9R9nVpMfXWwO6dVwySx1StWWaZmiNUlCSya07vp
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -27,12 +27,13 @@ SET row_security = off;
 
 INSERT INTO "public"."course" ("id", "number", "title", "description", "created_at", "terms") VALUES
 	('cs261', 'CS 261', 'Data Structures', 'Techniques for storing and organizing data in a program', '2024-10-15 22:33:20.527808+00', '{fall}'),
-	('cs290', 'CS 290', 'Web Development', 'Fundamentals of full-stack web app development', '2024-10-15 22:35:40.088099+00', '{fall}'),
 	('cs362', 'CS 362', 'Software Engineering II', 'Processes and techniques for maintaining high quality software', '2024-10-15 22:36:28.898808+00', '{spring}'),
 	('cs480', 'CS 480', 'Translators', 'How to build a modern compiler', '2024-10-15 22:37:08.595432+00', '{}'),
-	('cs492', 'CS 492', 'Mobile Software Development', 'Development of native mobile clients', '2024-10-15 22:37:49.346802+00', '{winter}'),
 	('cs493', 'CS 493', 'Cloud Application Development', 'Tools and techniques for building an HTTP API', '2024-10-15 22:38:32.614224+00', '{spring}'),
-	('cs494', 'CS 494', 'Advanced Web Development', 'Modern tools and techniques for developing web clients', '2024-10-15 22:39:10.871521+00', '{winter}');
+	('cs494', 'CS 494', 'Advanced Web Development', 'Modern tools and techniques for developing web clients', '2024-10-15 22:39:10.871521+00', '{winter}'),
+	('cs492', 'CS 492', 'Mobile Software Development', 'Development of native mobile clients', '2024-10-15 22:37:49.346802+00', '{fall}'),
+	('cs290', 'CS 290', 'Web Development', 'Fundamentals of full-stack web app development', '2024-10-15 22:35:40.088099+00', '{spring}'),
+	('cs372', 'CS 372', 'Introduction to Computer Networks', 'Funamental principles and techniques for building computer networks', '2026-08-22 04:46:16.287841+00', '{winter}');
 
 
 --
@@ -279,6 +280,6 @@ SELECT pg_catalog.setval('"public"."topic_id_seq"', 23, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict kisPqBkdc7vbm4nvBTV8vnSfauvwCeBxcCaLGZAN3lbnkAcJ5are6cYm4taSUJZ
+-- \unrestrict Ib5I8SbgfZN8U0E8p26WVxWj9R9nVpMfXWwO6dVwySx1StWWaZmiNUlCSya07vp
 
 RESET ALL;
