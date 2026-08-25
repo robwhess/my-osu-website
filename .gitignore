@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-generated
+lib/generated-types.ts
 
 # dependencies
 /node_modules

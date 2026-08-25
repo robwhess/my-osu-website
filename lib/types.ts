@@ -1,4 +1,4 @@
-import { Enums, Tables } from "@/generated/supabase/types"
+import { Enums, Tables } from "@/@/lib/generated-types"
 
 export type Term = Enums<"term">
 export type SectionType = Enums<"section_type">
