@@ -1,6 +1,6 @@
 import { createServerClient } from '@supabase/ssr'
 
-import { Database } from "@/@/lib/generated-types"
+import { Database } from "@/lib/generated-types"
 
 export function createClient() {
     return createServerClient<Database>(
