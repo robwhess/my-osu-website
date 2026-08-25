@@ -6,10 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prebuild": "npm run genTypes",
     "start": "next start",
     "lint": "eslint",
-    "genTypes": "supabase gen types --db-url \"$POSTGRES_URL\" typescript > lib/generated-types.ts",
     "genLocalTypes": "supabase gen types typescript --local > lib/generated-types.ts"
   },
   "dependencies": {
