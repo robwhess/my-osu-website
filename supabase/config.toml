@@ -124,6 +124,12 @@ file_size_limit = "50MiB"
 allowed_mime_types = ["text/markdown"]
 # objects_path = "./images"
 
+[storage.buckets.copy]
+public = true
+file_size_limit = "50MiB"
+allowed_mime_types = ["text/markdown"]
+# objects_path = "./images"
+
 # Allow connections via S3 compatible clients
 [storage.s3_protocol]
 enabled = true

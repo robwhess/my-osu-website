@@ -22,6 +22,33 @@ export default function MarkdownRenderer({
             <Markdown
                 remarkPlugins={toc ? [ remarkGfm, remarkToc ] : [ remarkGfm ]}
                 rehypePlugins={toc ? [ rehypeSlug ] : []}
+                components={{
+                    /*
+                     * Open links in a new tab if they start with https:// or
+                     * http://.
+                     */
+                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                    a({ children, className, href, node, ...rest }) {
+                        return /^https?:\/\//.test(href || "") ? (
+                            <a
+                                {...rest}
+                                className={className}
+                                href={href}
+                                target="_blank" rel="noopener noreferrer"
+                            >
+                                {children}
+                            </a>
+                        ) : (
+                            <a
+                                {...rest}
+                                className={className}
+                                href={href}
+                            >
+                                {children}
+                            </a>
+                        )
+                    }
+                }}
             >
                 {markdown}
             </Markdown>

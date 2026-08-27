@@ -13,8 +13,8 @@ export default function Error({
     }, [ error ])
 
     return (
-        <div role="alert" className="alert">
-            <span className="text-2xl text-error"><MdErrorOutline /></span>
+        <div role="alert" className="alert alert-error alert-soft m-6">
+            <span className="text-2xl"><MdErrorOutline /></span>
             <span>Sorry!  An error occurred.  Please try again later.</span>
         </div>
     )
