@@ -25,7 +25,12 @@ export default function Header() {
 
     return (
         <div className="drawer drawer-end">
-            <input type="checkbox" id="nav-drawer-toggle" className="drawer-toggle" ref={checkboxRef} />
+            <input
+                type="checkbox"
+                id="nav-drawer-toggle"
+                className="drawer-toggle"
+                ref={checkboxRef}
+            />
             <div className="drawer-content">
                 <header className="py-4 px-2 border-b border-b-base-300 flex items-end justify-between gap-4">
                     <div className="flex items-center gap-3">
@@ -50,6 +55,8 @@ export default function Header() {
                         htmlFor="nav-drawer-toggle"
                         aria-label="Open navigation drawer"
                         className="md:hidden btn btn-ghost btn-square btn-xl text-5xl"
+                        role="button"
+                        tabIndex={0}
                     >
                         <LiaBarsSolid />
                     </label>
@@ -65,7 +72,13 @@ export default function Header() {
                 </header>
             </div>
             <nav className="drawer-side">
-                <label htmlFor="nav-drawer-toggle" aria-label="Close navigation drawer" className="drawer-overlay"></label>
+                <label
+                    htmlFor="nav-drawer-toggle"
+                    aria-label="Close navigation drawer"
+                    className="drawer-overlay"
+                    role="button"
+                    tabIndex={0}
+                />
                 <ul className="menu menu-lg min-h-full w-80 p-4 bg-base-100">
                     {navLinks.map(link => (
                         <li key={link.href} className={`${pathname.startsWith(link.href) ? "border-l-2 border-primary" : ""}`}>
