@@ -15,6 +15,9 @@ export default function Footer() {
                     <p>Corvallis, OR 97331</p>
 
                 </div>
+                <div>
+                    <p className="text-xs">For information about courses taught before spring of 2026, please see <a className="link" href="https://legacy.robwhess.com">Rob&apos;s legacy website.</a></p>
+                </div>
                 <div className="flex gap-4 text-xl">
                     <a href="https://github.com/robwhess" target="_blank" rel="noopener noreferrer" title="Link to Rob's GitHub profile"><FaGithub /></a>
                     <a className="link" href="https://github.com/robwhess/my-osu-website-v2" target="_blank" rel="noopener noreferrer" title="Source code for this site"><MdCode /></a>
