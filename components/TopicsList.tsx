@@ -21,13 +21,18 @@ export default function TopicsList({
                 >
                     <summary className="collapse-title flex flex-col-reverse">
                         <h4 className="text-lg font-medium uppercase text-gray-700">{topic.title}</h4>
-                        <h5 className="text-sm font-medium text-gray-400">
-                            {topic.weeks.length > 1 ? (
-                                `Weeks ${Math.min(...topic.weeks)} - ${Math.max(...topic.weeks)}`
-                            ) : (
-                                `Week ${topic.weeks[0]}`
+                        <div className="flex gap-2 items-center">
+                            <h5 className="text-sm font-medium text-gray-400">
+                                {topic.weeks.length > 1 ? (
+                                    `Weeks ${Math.min(...topic.weeks)} - ${Math.max(...topic.weeks)}`
+                                ) : (
+                                    `Week ${topic.weeks[0]}`
+                                )}
+                            </h5>
+                            {topic.is_current && (
+                                <div className="badge badge-xs badge-primary font-semibold">Current</div>
                             )}
-                        </h5>
+                        </div>
                     </summary>
                     <div className="collapse-content ml-2">
                         {topic.materials.length > 0 && (
