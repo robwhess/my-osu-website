@@ -32,9 +32,11 @@ function LinksList({
 }
 
 export default function TopicsList({
-    topics
+    topics,
+    permalinks
 } : {
-    topics: Topic[]
+    topics: Topic[],
+    permalinks?: boolean
 }) {
     const slugs: { [key: number]: string } = {}
     topics.forEach(topic => {
@@ -44,14 +46,16 @@ export default function TopicsList({
         <div>
             {topics.map(topic => (
                 <div key={topic.id} id={slugs[topic.id]} className="flex">
-                    <div className="py-8 text-xl text-gray-500">
-                        <Link
-                            href={`#${slugs[topic.id]}`}
-                            aria-label={`Permanent link to topic "${topic.title}"`}
-                        >
-                            <FaLink />
-                        </Link>
-                    </div>
+                    {permalinks && (
+                        <div className="py-8 text-xl text-gray-500">
+                            <Link
+                                href={`#${slugs[topic.id]}`}
+                                aria-label={`Permanent link to topic "${topic.title}"`}
+                            >
+                                <FaLink />
+                            </Link>
+                        </div>
+                    )}
                     <details
                         className="collapse collapse-arrow not-first-of-type:border-t border-base-300"
                         open={topic.is_current}

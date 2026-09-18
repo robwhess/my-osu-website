@@ -46,7 +46,7 @@ export default function TopicsPage({
                     <span>Schedule of topics not available.</span>
                 </div>
             )}
-            {data && <TopicsList topics={data} /> }
+            {data && <TopicsList topics={data} permalinks /> }
         </div>
     )
 }
