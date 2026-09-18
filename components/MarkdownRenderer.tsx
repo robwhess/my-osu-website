@@ -20,7 +20,7 @@ export default function MarkdownRenderer({
             prose-p:leading-normal prose-li:leading-normal prose-li:marker:text-base-content
         `}>
             <Markdown
-                remarkPlugins={toc ? [ remarkGfm, remarkToc ] : [ remarkGfm ]}
+                remarkPlugins={toc ? [ remarkGfm, [ remarkToc, { maxDepth: 3 } ] ] : [ remarkGfm ]}
                 rehypePlugins={toc ? [ rehypeSlug ] : []}
                 components={{
                     /*
